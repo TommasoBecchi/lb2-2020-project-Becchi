@@ -1,0 +1,1547 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 6FX5:A
+
+Length=72
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q08874|MITF_MOUSE Microphthalmia-associated transcription fa...  146     2e-42
+  sp|O88368|MITF_RAT Microphthalmia-associated transcription fact...  146     2e-42
+  sp|O75030|MITF_HUMAN Microphthalmia-associated transcription fa...  143     3e-41
+  sp|Q64092|TFE3_MOUSE Transcription factor E3 OS=Mus musculus OX...  124     7e-34
+  sp|P19532|TFE3_HUMAN Transcription factor E3 OS=Homo sapiens OX...  122     3e-33
+  sp|Q63302|TFEC_RAT Transcription factor EC OS=Rattus norvegicus...  116     3e-32
+  sp|Q9WTW4|TFEC_MOUSE Transcription factor EC OS=Mus musculus OX...  115     5e-32
+  sp|Q5XFQ6|TFEC_CHICK Transcription factor EC OS=Gallus gallus O...  116     5e-32
+  sp|Q05B92|TFE3_BOVIN Transcription factor E3 OS=Bos taurus OX=9...  117     2e-31
+  sp|A4IFU7|TFEC_BOVIN Transcription factor EC OS=Bos taurus OX=9...  112     6e-31
+  sp|A2T713|TFEC_PANTR Transcription factor EC OS=Pan troglodytes...  111     3e-30
+  sp|A2T7L8|TFEC_PONPY Transcription factor EC OS=Pongo pygmaeus ...  111     3e-30
+  sp|O14948|TFEC_HUMAN Transcription factor EC OS=Homo sapiens OX...  111     3e-30
+  sp|Q9R210|TFEB_MOUSE Transcription factor EB OS=Mus musculus OX...  105     2e-27
+  sp|P19484|TFEB_HUMAN Transcription factor EB OS=Homo sapiens OX...  105     3e-27
+  sp|Q6GQ26|SRBP2_XENLA Sterol regulatory element-binding protein...  37.4    0.003
+  sp|O97676|SRBP1_PIG Sterol regulatory element-binding protein 1...  37.0    0.005
+  sp|Q9WTN3|SRBP1_MOUSE Sterol regulatory element-binding protein...  36.2    0.007
+  sp|P56720|SRBP1_RAT Sterol regulatory element-binding protein 1...  36.2    0.007
+  sp|Q9UUD1|SREBP_SCHPO Sterol regulatory element-binding protein...  36.2    0.008
+
+
+> sp|Q08874|MITF_MOUSE Microphthalmia-associated transcription 
+factor OS=Mus musculus OX=10090 GN=Mitf PE=1 SV=4
+Length=526
+
+ Score = 146 bits (368),  Expect = 2e-42, Method: Compositional matrix adjust.
+ Identities = 72/75 (96%), Positives = 72/75 (96%), Gaps = 3/75 (4%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKL---QQRAKDLENRQKKLEHANR  57
+            INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKL   QQRAKDLENRQKKLEHANR
+Sbjct  327  INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQREQQRAKDLENRQKKLEHANR  386
+
+Query  58   HLLLRVQELEMQARA  72
+            HLLLRVQELEMQARA
+Sbjct  387  HLLLRVQELEMQARA  401
+
+
+> sp|O88368|MITF_RAT Microphthalmia-associated transcription factor 
+OS=Rattus norvegicus OX=10116 GN=Mitf PE=2 SV=2
+Length=526
+
+ Score = 146 bits (368),  Expect = 2e-42, Method: Compositional matrix adjust.
+ Identities = 72/75 (96%), Positives = 72/75 (96%), Gaps = 3/75 (4%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKL---QQRAKDLENRQKKLEHANR  57
+            INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKL   QQRAKDLENRQKKLEHANR
+Sbjct  327  INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQREQQRAKDLENRQKKLEHANR  386
+
+Query  58   HLLLRVQELEMQARA  72
+            HLLLRVQELEMQARA
+Sbjct  387  HLLLRVQELEMQARA  401
+
+
+> sp|O75030|MITF_HUMAN Microphthalmia-associated transcription 
+factor OS=Homo sapiens OX=9606 GN=MITF PE=1 SV=2
+Length=526
+
+ Score = 143 bits (361),  Expect = 3e-41, Method: Compositional matrix adjust.
+ Identities = 70/75 (93%), Positives = 72/75 (96%), Gaps = 3/75 (4%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKL---QQRAKDLENRQKKLEHANR  57
+            INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKL   QQRAK+LENRQKKLEHANR
+Sbjct  327  INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQREQQRAKELENRQKKLEHANR  386
+
+Query  58   HLLLRVQELEMQARA  72
+            HLLLR+QELEMQARA
+Sbjct  387  HLLLRIQELEMQARA  401
+
+
+> sp|Q64092|TFE3_MOUSE Transcription factor E3 OS=Mus musculus 
+OX=10090 GN=Tfe3 PE=1 SV=2
+Length=572
+
+ Score = 124 bits (310),  Expect = 7e-34, Method: Compositional matrix adjust.
+ Identities = 60/74 (81%), Positives = 67/74 (91%), Gaps = 3/74 (4%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKL---QQRAKDLENRQKKLEHANR  57
+            INDRIKELGTLIPKSNDP+MRWNKGTILKASVDYIRKL   QQR+KDLE+RQ+ LE ANR
+Sbjct  361  INDRIKELGTLIPKSNDPEMRWNKGTILKASVDYIRKLQKEQQRSKDLESRQRSLEQANR  420
+
+Query  58   HLLLRVQELEMQAR  71
+             L LR+QELE+QA+
+Sbjct  421  SLQLRIQELELQAQ  434
+
+
+> sp|P19532|TFE3_HUMAN Transcription factor E3 OS=Homo sapiens 
+OX=9606 GN=TFE3 PE=1 SV=4
+Length=575
+
+ Score = 122 bits (305),  Expect = 3e-33, Method: Compositional matrix adjust.
+ Identities = 59/74 (80%), Positives = 67/74 (91%), Gaps = 3/74 (4%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKL---QQRAKDLENRQKKLEHANR  57
+            INDRIKELGTLIPKS+DP+MRWNKGTILKASVDYIRKL   QQR+KDLE+RQ+ LE ANR
+Sbjct  362  INDRIKELGTLIPKSSDPEMRWNKGTILKASVDYIRKLQKEQQRSKDLESRQRSLEQANR  421
+
+Query  58   HLLLRVQELEMQAR  71
+             L LR+QELE+QA+
+Sbjct  422  SLQLRIQELELQAQ  435
+
+
+> sp|Q63302|TFEC_RAT Transcription factor EC OS=Rattus norvegicus 
+OX=10116 GN=Tfec PE=1 SV=2
+Length=317
+
+ Score = 116 bits (290),  Expect = 3e-32, Method: Compositional matrix adjust.
+ Identities = 57/70 (81%), Positives = 65/70 (93%), Gaps = 3/70 (4%)
+
+Query  6    KELGTLIPKSNDPDMRWNKGTILKASVDYIR---KLQQRAKDLENRQKKLEHANRHLLLR  62
+            KELGTLIPKSNDPD+RWNKGTILKASVDYI+   K QQRA++LE+RQKKLEHANR L+LR
+Sbjct  131  KELGTLIPKSNDPDIRWNKGTILKASVDYIKWLQKEQQRARELEHRQKKLEHANRQLMLR  190
+
+Query  63   VQELEMQARA  72
+            +QELE+QARA
+Sbjct  191  IQELEIQARA  200
+
+
+> sp|Q9WTW4|TFEC_MOUSE Transcription factor EC OS=Mus musculus 
+OX=10090 GN=Tfec PE=1 SV=1
+Length=317
+
+ Score = 115 bits (288),  Expect = 5e-32, Method: Compositional matrix adjust.
+ Identities = 58/70 (83%), Positives = 64/70 (91%), Gaps = 3/70 (4%)
+
+Query  6    KELGTLIPKSNDPDMRWNKGTILKASVDYIR---KLQQRAKDLENRQKKLEHANRHLLLR  62
+            KELGTLIPKSNDPDMRWNKGTILKASVDYI+   K QQRA++LE+RQKKLEHANR L LR
+Sbjct  131  KELGTLIPKSNDPDMRWNKGTILKASVDYIKWLQKEQQRARELEHRQKKLEHANRQLRLR  190
+
+Query  63   VQELEMQARA  72
+            +QELE+QARA
+Sbjct  191  IQELEIQARA  200
+
+
+> sp|Q5XFQ6|TFEC_CHICK Transcription factor EC OS=Gallus gallus 
+OX=9031 GN=TFEC PE=2 SV=1
+Length=377
+
+ Score = 116 bits (291),  Expect = 5e-32, Method: Compositional matrix adjust.
+ Identities = 58/70 (83%), Positives = 65/70 (93%), Gaps = 3/70 (4%)
+
+Query  6    KELGTLIPKSNDPDMRWNKGTILKASVDYIR---KLQQRAKDLENRQKKLEHANRHLLLR  62
+            KELGTLIPKSNDPDMRWNKGTILKASV+YI+   K QQRA++LE+RQKKLEHANR LLLR
+Sbjct  190  KELGTLIPKSNDPDMRWNKGTILKASVEYIKWLQKEQQRARELEHRQKKLEHANRRLLLR  249
+
+Query  63   VQELEMQARA  72
+            +QELE+QARA
+Sbjct  250  IQELEIQARA  259
+
+
+> sp|Q05B92|TFE3_BOVIN Transcription factor E3 OS=Bos taurus OX=9913 
+GN=TFE3 PE=2 SV=1
+Length=573
+
+ Score = 117 bits (292),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 59/74 (80%), Positives = 67/74 (91%), Gaps = 3/74 (4%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKL---QQRAKDLENRQKKLEHANR  57
+            INDRIKELGTLIPKS+DP+MRWNKGTILKASVDYIRKL   QQR+KDLE+RQ+ LE ANR
+Sbjct  360  INDRIKELGTLIPKSSDPEMRWNKGTILKASVDYIRKLQKEQQRSKDLESRQRSLEQANR  419
+
+Query  58   HLLLRVQELEMQAR  71
+             L LR+QELE+QA+
+Sbjct  420  SLQLRIQELELQAQ  433
+
+
+> sp|A4IFU7|TFEC_BOVIN Transcription factor EC OS=Bos taurus OX=9913 
+GN=TFEC PE=2 SV=1
+Length=317
+
+ Score = 112 bits (281),  Expect = 6e-31, Method: Compositional matrix adjust.
+ Identities = 57/70 (81%), Positives = 64/70 (91%), Gaps = 3/70 (4%)
+
+Query  6    KELGTLIPKSNDPDMRWNKGTILKASVDYIR---KLQQRAKDLENRQKKLEHANRHLLLR  62
+            KELGTLIPKSNDPDMRWNKGTILKASV+YI+   K QQRA++LE+RQKKLE ANR LLLR
+Sbjct  131  KELGTLIPKSNDPDMRWNKGTILKASVEYIKWLQKEQQRAQELEHRQKKLEQANRRLLLR  190
+
+Query  63   VQELEMQARA  72
+            +QELE+QARA
+Sbjct  191  IQELEIQARA  200
+
+
+> sp|A2T713|TFEC_PANTR Transcription factor EC OS=Pan troglodytes 
+OX=9598 GN=TFEC PE=3 SV=1
+Length=347
+
+ Score = 111 bits (277),  Expect = 3e-30, Method: Compositional matrix adjust.
+ Identities = 56/70 (80%), Positives = 63/70 (90%), Gaps = 3/70 (4%)
+
+Query  6    KELGTLIPKSNDPDMRWNKGTILKASVDYIR---KLQQRAKDLENRQKKLEHANRHLLLR  62
+            KELGTLIPKSNDPDMRWNKGTILKASV+YI+   K QQRA++LE+RQKKLE ANR LLLR
+Sbjct  160  KELGTLIPKSNDPDMRWNKGTILKASVEYIKWLQKEQQRARELEHRQKKLEQANRRLLLR  219
+
+Query  63   VQELEMQARA  72
+            +QELE+QAR 
+Sbjct  220  IQELEIQART  229
+
+
+> sp|A2T7L8|TFEC_PONPY Transcription factor EC OS=Pongo pygmaeus 
+OX=9600 GN=TFEC PE=3 SV=1
+Length=347
+
+ Score = 111 bits (277),  Expect = 3e-30, Method: Compositional matrix adjust.
+ Identities = 56/70 (80%), Positives = 63/70 (90%), Gaps = 3/70 (4%)
+
+Query  6    KELGTLIPKSNDPDMRWNKGTILKASVDYIR---KLQQRAKDLENRQKKLEHANRHLLLR  62
+            KELGTLIPKSNDPDMRWNKGTILKASV+YI+   K QQRA++LE+RQKKLE ANR LLLR
+Sbjct  160  KELGTLIPKSNDPDMRWNKGTILKASVEYIKWLQKEQQRARELEHRQKKLEQANRRLLLR  219
+
+Query  63   VQELEMQARA  72
+            +QELE+QAR 
+Sbjct  220  IQELEIQART  229
+
+
+> sp|O14948|TFEC_HUMAN Transcription factor EC OS=Homo sapiens 
+OX=9606 GN=TFEC PE=1 SV=1
+Length=347
+
+ Score = 111 bits (277),  Expect = 3e-30, Method: Compositional matrix adjust.
+ Identities = 56/70 (80%), Positives = 63/70 (90%), Gaps = 3/70 (4%)
+
+Query  6    KELGTLIPKSNDPDMRWNKGTILKASVDYIR---KLQQRAKDLENRQKKLEHANRHLLLR  62
+            KELGTLIPKSNDPDMRWNKGTILKASV+YI+   K QQRA++LE+RQKKLE ANR LLLR
+Sbjct  160  KELGTLIPKSNDPDMRWNKGTILKASVEYIKWLQKEQQRARELEHRQKKLEQANRRLLLR  219
+
+Query  63   VQELEMQARA  72
+            +QELE+QAR 
+Sbjct  220  IQELEIQART  229
+
+
+> sp|Q9R210|TFEB_MOUSE Transcription factor EB OS=Mus musculus 
+OX=10090 GN=Tfeb PE=1 SV=2
+Length=475
+
+ Score = 105 bits (262),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 51/74 (69%), Positives = 63/74 (85%), Gaps = 3/74 (4%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQ---QRAKDLENRQKKLEHANR  57
+            INDRIKELG LIPK+ND D+RWNKGTILKASVDYIR++Q   Q++++LEN  ++LE  N+
+Sbjct  250  INDRIKELGMLIPKANDLDVRWNKGTILKASVDYIRRMQKDLQKSRELENHSRRLEMTNK  309
+
+Query  58   HLLLRVQELEMQAR  71
+             L LR+QELEMQAR
+Sbjct  310  QLWLRIQELEMQAR  323
+
+
+> sp|P19484|TFEB_HUMAN Transcription factor EB OS=Homo sapiens 
+OX=9606 GN=TFEB PE=1 SV=3
+Length=476
+
+ Score = 105 bits (261),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 51/74 (69%), Positives = 63/74 (85%), Gaps = 3/74 (4%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQ---QRAKDLENRQKKLEHANR  57
+            INDRIKELG LIPK+ND D+RWNKGTILKASVDYIR++Q   Q++++LEN  ++LE  N+
+Sbjct  251  INDRIKELGMLIPKANDLDVRWNKGTILKASVDYIRRMQKDLQKSRELENHSRRLEMTNK  310
+
+Query  58   HLLLRVQELEMQAR  71
+             L LR+QELEMQAR
+Sbjct  311  QLWLRIQELEMQAR  324
+
+
+> sp|Q6GQ26|SRBP2_XENLA Sterol regulatory element-binding protein 
+2 OS=Xenopus laevis OX=8355 GN=srebf2 PE=2 SV=1
+Length=1088
+
+ Score = 37.4 bits (85),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 21/57 (37%), Positives = 33/57 (58%), Gaps = 3/57 (5%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQQRAKDLENRQKKLEHANR  57
+            IND+I EL  L+  +   D + +K  +LK ++DYI+ LQQ  + L      L+ AN+
+Sbjct  306  INDKIMELKDLVMGT---DAKMHKSGVLKKAIDYIKYLQQVNQKLRQENMALKLANQ  359
+
+
+> sp|O97676|SRBP1_PIG Sterol regulatory element-binding protein 
+1 OS=Sus scrofa OX=9823 GN=SREBF1 PE=2 SV=2
+Length=1151
+
+ Score = 37.0 bits (84),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 20/55 (36%), Positives = 31/55 (56%), Gaps = 3/55 (5%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQQRAKDLENRQKKLEHA  55
+            IND+I EL  L+  +   + + NK  +L+ ++DYIR LQQ  + L+     L  A
+Sbjct  340  INDKIIELKDLVVGT---EAKLNKSAVLRKAIDYIRFLQQSNQKLKQENLSLRTA  391
+
+
+> sp|Q9WTN3|SRBP1_MOUSE Sterol regulatory element-binding protein 
+1 OS=Mus musculus OX=10090 GN=Srebf1 PE=1 SV=4
+Length=1134
+
+ Score = 36.2 bits (82),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 20/62 (32%), Positives = 34/62 (55%), Gaps = 3/62 (5%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQQRAKDLENRQKKLEHANRHLL  60
+            IND+I EL  L+  +   + + NK  +L+ ++DYIR LQ   + L+     L  A++   
+Sbjct  333  INDKIVELKDLVVGT---EAKLNKSAVLRKAIDYIRFLQHSNQKLKQENLTLRSAHKSKS  389
+
+Query  61   LR  62
+            L+
+Sbjct  390  LK  391
+
+
+> sp|P56720|SRBP1_RAT Sterol regulatory element-binding protein 
+1 OS=Rattus norvegicus OX=10116 GN=Srebf1 PE=1 SV=3
+Length=1134
+
+ Score = 36.2 bits (82),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 20/62 (32%), Positives = 34/62 (55%), Gaps = 3/62 (5%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQQRAKDLENRQKKLEHANRHLL  60
+            IND+I EL  L+  +   + + NK  +L+ ++DYIR LQ   + L+     L  A++   
+Sbjct  333  INDKIVELKDLVVGT---EAKLNKSAVLRKAIDYIRFLQHSNQKLKQENLTLRSAHKSKS  389
+
+Query  61   LR  62
+            L+
+Sbjct  390  LK  391
+
+
+> sp|Q9UUD1|SREBP_SCHPO Sterol regulatory element-binding protein 
+1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) 
+OX=284812 GN=sre1 PE=1 SV=1
+Length=900
+
+ Score = 36.2 bits (82),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 23/71 (32%), Positives = 35/71 (49%), Gaps = 19/71 (27%)
+
+Query  1    INDRIKELGTLIPKS------------NDPDM-------RWNKGTILKASVDYIRKLQQR  41
+            +NDRI EL   +P              +D D+       + NKGTIL  + +YIR L+ +
+Sbjct  276  LNDRICELRDAVPSLRAAAALRCGNSLDDEDLGGLTPARKLNKGTILAKATEYIRHLEAK  335
+
+Query  42   AKDLENRQKKL  52
+             K+L+   K+L
+Sbjct  336  NKELQKTNKQL  346
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.133    0.370    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4984656824
+Results from round 2
+
+
+Query= 6FX5:A
+
+Length=72
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|O75030|MITF_HUMAN Microphthalmia-associated transcription fa...  130     3e-36
+  sp|O88368|MITF_RAT Microphthalmia-associated transcription fact...  129     4e-36
+  sp|Q08874|MITF_MOUSE Microphthalmia-associated transcription fa...  129     5e-36
+  sp|Q63302|TFEC_RAT Transcription factor EC OS=Rattus norvegicus...  123     3e-35
+  sp|Q9WTW4|TFEC_MOUSE Transcription factor EC OS=Mus musculus OX...  123     3e-35
+  sp|Q05B92|TFE3_BOVIN Transcription factor E3 OS=Bos taurus OX=9...  125     2e-34
+  sp|Q9R210|TFEB_MOUSE Transcription factor EB OS=Mus musculus OX...  124     2e-34
+  sp|Q64092|TFE3_MOUSE Transcription factor E3 OS=Mus musculus OX...  125     3e-34
+  sp|P19484|TFEB_HUMAN Transcription factor EB OS=Homo sapiens OX...  123     3e-34
+  sp|P19532|TFE3_HUMAN Transcription factor E3 OS=Homo sapiens OX...  123     7e-34
+  sp|Q5XFQ6|TFEC_CHICK Transcription factor EC OS=Gallus gallus O...  117     2e-32
+  sp|A4IFU7|TFEC_BOVIN Transcription factor EC OS=Bos taurus OX=9...  116     2e-32
+  sp|A2T7L8|TFEC_PONPY Transcription factor EC OS=Pongo pygmaeus ...  116     4e-32
+  sp|O14948|TFEC_HUMAN Transcription factor EC OS=Homo sapiens OX...  116     4e-32
+  sp|A2T713|TFEC_PANTR Transcription factor EC OS=Pan troglodytes...  116     5e-32
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q6GQ26|SRBP2_XENLA Sterol regulatory element-binding protein...  41.2    1e-04
+  sp|A3KNA7|SRBP2_DANRE Sterol regulatory element-binding protein...  38.9    8e-04
+  sp|Q15853|USF2_HUMAN Upstream stimulatory factor 2 OS=Homo sapi...  38.5    0.001
+  sp|Q9C8P8|BH080_ARATH Transcription factor bHLH80 OS=Arabidopsi...  36.9    0.004
+  sp|Q9M0R0|BH081_ARATH Transcription factor bHLH81 OS=Arabidopsi...  36.6    0.005
+
+
+> sp|O75030|MITF_HUMAN Microphthalmia-associated transcription 
+factor OS=Homo sapiens OX=9606 GN=MITF PE=1 SV=2
+Length=526
+
+ Score = 130 bits (326),  Expect = 3e-36, Method: Composition-based stats.
+ Identities = 70/75 (93%), Positives = 72/75 (96%), Gaps = 3/75 (4%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKL---QQRAKDLENRQKKLEHANR  57
+            INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKL   QQRAK+LENRQKKLEHANR
+Sbjct  327  INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQREQQRAKELENRQKKLEHANR  386
+
+Query  58   HLLLRVQELEMQARA  72
+            HLLLR+QELEMQARA
+Sbjct  387  HLLLRIQELEMQARA  401
+
+
+> sp|O88368|MITF_RAT Microphthalmia-associated transcription factor 
+OS=Rattus norvegicus OX=10116 GN=Mitf PE=2 SV=2
+Length=526
+
+ Score = 129 bits (324),  Expect = 4e-36, Method: Composition-based stats.
+ Identities = 72/75 (96%), Positives = 72/75 (96%), Gaps = 3/75 (4%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKL---QQRAKDLENRQKKLEHANR  57
+            INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKL   QQRAKDLENRQKKLEHANR
+Sbjct  327  INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQREQQRAKDLENRQKKLEHANR  386
+
+Query  58   HLLLRVQELEMQARA  72
+            HLLLRVQELEMQARA
+Sbjct  387  HLLLRVQELEMQARA  401
+
+
+> sp|Q08874|MITF_MOUSE Microphthalmia-associated transcription 
+factor OS=Mus musculus OX=10090 GN=Mitf PE=1 SV=4
+Length=526
+
+ Score = 129 bits (324),  Expect = 5e-36, Method: Composition-based stats.
+ Identities = 72/75 (96%), Positives = 72/75 (96%), Gaps = 3/75 (4%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKL---QQRAKDLENRQKKLEHANR  57
+            INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKL   QQRAKDLENRQKKLEHANR
+Sbjct  327  INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQREQQRAKDLENRQKKLEHANR  386
+
+Query  58   HLLLRVQELEMQARA  72
+            HLLLRVQELEMQARA
+Sbjct  387  HLLLRVQELEMQARA  401
+
+
+> sp|Q63302|TFEC_RAT Transcription factor EC OS=Rattus norvegicus 
+OX=10116 GN=Tfec PE=1 SV=2
+Length=317
+
+ Score = 123 bits (310),  Expect = 3e-35, Method: Composition-based stats.
+ Identities = 57/70 (81%), Positives = 65/70 (93%), Gaps = 3/70 (4%)
+
+Query  6    KELGTLIPKSNDPDMRWNKGTILKASVDYIR---KLQQRAKDLENRQKKLEHANRHLLLR  62
+            KELGTLIPKSNDPD+RWNKGTILKASVDYI+   K QQRA++LE+RQKKLEHANR L+LR
+Sbjct  131  KELGTLIPKSNDPDIRWNKGTILKASVDYIKWLQKEQQRARELEHRQKKLEHANRQLMLR  190
+
+Query  63   VQELEMQARA  72
+            +QELE+QARA
+Sbjct  191  IQELEIQARA  200
+
+
+> sp|Q9WTW4|TFEC_MOUSE Transcription factor EC OS=Mus musculus 
+OX=10090 GN=Tfec PE=1 SV=1
+Length=317
+
+ Score = 123 bits (310),  Expect = 3e-35, Method: Composition-based stats.
+ Identities = 58/70 (83%), Positives = 64/70 (91%), Gaps = 3/70 (4%)
+
+Query  6    KELGTLIPKSNDPDMRWNKGTILKASVDYIR---KLQQRAKDLENRQKKLEHANRHLLLR  62
+            KELGTLIPKSNDPDMRWNKGTILKASVDYI+   K QQRA++LE+RQKKLEHANR L LR
+Sbjct  131  KELGTLIPKSNDPDMRWNKGTILKASVDYIKWLQKEQQRARELEHRQKKLEHANRQLRLR  190
+
+Query  63   VQELEMQARA  72
+            +QELE+QARA
+Sbjct  191  IQELEIQARA  200
+
+
+> sp|Q05B92|TFE3_BOVIN Transcription factor E3 OS=Bos taurus OX=9913 
+GN=TFE3 PE=2 SV=1
+Length=573
+
+ Score = 125 bits (314),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 59/74 (80%), Positives = 67/74 (91%), Gaps = 3/74 (4%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKL---QQRAKDLENRQKKLEHANR  57
+            INDRIKELGTLIPKS+DP+MRWNKGTILKASVDYIRKL   QQR+KDLE+RQ+ LE ANR
+Sbjct  360  INDRIKELGTLIPKSSDPEMRWNKGTILKASVDYIRKLQKEQQRSKDLESRQRSLEQANR  419
+
+Query  58   HLLLRVQELEMQAR  71
+             L LR+QELE+QA+
+Sbjct  420  SLQLRIQELELQAQ  433
+
+
+> sp|Q9R210|TFEB_MOUSE Transcription factor EB OS=Mus musculus 
+OX=10090 GN=Tfeb PE=1 SV=2
+Length=475
+
+ Score = 124 bits (311),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 51/74 (69%), Positives = 63/74 (85%), Gaps = 3/74 (4%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQ---QRAKDLENRQKKLEHANR  57
+            INDRIKELG LIPK+ND D+RWNKGTILKASVDYIR++Q   Q++++LEN  ++LE  N+
+Sbjct  250  INDRIKELGMLIPKANDLDVRWNKGTILKASVDYIRRMQKDLQKSRELENHSRRLEMTNK  309
+
+Query  58   HLLLRVQELEMQAR  71
+             L LR+QELEMQAR
+Sbjct  310  QLWLRIQELEMQAR  323
+
+
+> sp|Q64092|TFE3_MOUSE Transcription factor E3 OS=Mus musculus 
+OX=10090 GN=Tfe3 PE=1 SV=2
+Length=572
+
+ Score = 125 bits (313),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 60/74 (81%), Positives = 67/74 (91%), Gaps = 3/74 (4%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKL---QQRAKDLENRQKKLEHANR  57
+            INDRIKELGTLIPKSNDP+MRWNKGTILKASVDYIRKL   QQR+KDLE+RQ+ LE ANR
+Sbjct  361  INDRIKELGTLIPKSNDPEMRWNKGTILKASVDYIRKLQKEQQRSKDLESRQRSLEQANR  420
+
+Query  58   HLLLRVQELEMQAR  71
+             L LR+QELE+QA+
+Sbjct  421  SLQLRIQELELQAQ  434
+
+
+> sp|P19484|TFEB_HUMAN Transcription factor EB OS=Homo sapiens 
+OX=9606 GN=TFEB PE=1 SV=3
+Length=476
+
+ Score = 123 bits (310),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 51/74 (69%), Positives = 63/74 (85%), Gaps = 3/74 (4%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQ---QRAKDLENRQKKLEHANR  57
+            INDRIKELG LIPK+ND D+RWNKGTILKASVDYIR++Q   Q++++LEN  ++LE  N+
+Sbjct  251  INDRIKELGMLIPKANDLDVRWNKGTILKASVDYIRRMQKDLQKSRELENHSRRLEMTNK  310
+
+Query  58   HLLLRVQELEMQAR  71
+             L LR+QELEMQAR
+Sbjct  311  QLWLRIQELEMQAR  324
+
+
+> sp|P19532|TFE3_HUMAN Transcription factor E3 OS=Homo sapiens 
+OX=9606 GN=TFE3 PE=1 SV=4
+Length=575
+
+ Score = 123 bits (310),  Expect = 7e-34, Method: Composition-based stats.
+ Identities = 59/74 (80%), Positives = 67/74 (91%), Gaps = 3/74 (4%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKL---QQRAKDLENRQKKLEHANR  57
+            INDRIKELGTLIPKS+DP+MRWNKGTILKASVDYIRKL   QQR+KDLE+RQ+ LE ANR
+Sbjct  362  INDRIKELGTLIPKSSDPEMRWNKGTILKASVDYIRKLQKEQQRSKDLESRQRSLEQANR  421
+
+Query  58   HLLLRVQELEMQAR  71
+             L LR+QELE+QA+
+Sbjct  422  SLQLRIQELELQAQ  435
+
+
+> sp|Q5XFQ6|TFEC_CHICK Transcription factor EC OS=Gallus gallus 
+OX=9031 GN=TFEC PE=2 SV=1
+Length=377
+
+ Score = 117 bits (294),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 58/70 (83%), Positives = 65/70 (93%), Gaps = 3/70 (4%)
+
+Query  6    KELGTLIPKSNDPDMRWNKGTILKASVDYIR---KLQQRAKDLENRQKKLEHANRHLLLR  62
+            KELGTLIPKSNDPDMRWNKGTILKASV+YI+   K QQRA++LE+RQKKLEHANR LLLR
+Sbjct  190  KELGTLIPKSNDPDMRWNKGTILKASVEYIKWLQKEQQRARELEHRQKKLEHANRRLLLR  249
+
+Query  63   VQELEMQARA  72
+            +QELE+QARA
+Sbjct  250  IQELEIQARA  259
+
+
+> sp|A4IFU7|TFEC_BOVIN Transcription factor EC OS=Bos taurus OX=9913 
+GN=TFEC PE=2 SV=1
+Length=317
+
+ Score = 116 bits (290),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 57/70 (81%), Positives = 64/70 (91%), Gaps = 3/70 (4%)
+
+Query  6    KELGTLIPKSNDPDMRWNKGTILKASVDYIR---KLQQRAKDLENRQKKLEHANRHLLLR  62
+            KELGTLIPKSNDPDMRWNKGTILKASV+YI+   K QQRA++LE+RQKKLE ANR LLLR
+Sbjct  131  KELGTLIPKSNDPDMRWNKGTILKASVEYIKWLQKEQQRAQELEHRQKKLEQANRRLLLR  190
+
+Query  63   VQELEMQARA  72
+            +QELE+QARA
+Sbjct  191  IQELEIQARA  200
+
+
+> sp|A2T7L8|TFEC_PONPY Transcription factor EC OS=Pongo pygmaeus 
+OX=9600 GN=TFEC PE=3 SV=1
+Length=347
+
+ Score = 116 bits (290),  Expect = 4e-32, Method: Composition-based stats.
+ Identities = 56/69 (81%), Positives = 63/69 (91%), Gaps = 3/69 (4%)
+
+Query  6    KELGTLIPKSNDPDMRWNKGTILKASVDYIR---KLQQRAKDLENRQKKLEHANRHLLLR  62
+            KELGTLIPKSNDPDMRWNKGTILKASV+YI+   K QQRA++LE+RQKKLE ANR LLLR
+Sbjct  160  KELGTLIPKSNDPDMRWNKGTILKASVEYIKWLQKEQQRARELEHRQKKLEQANRRLLLR  219
+
+Query  63   VQELEMQAR  71
+            +QELE+QAR
+Sbjct  220  IQELEIQAR  228
+
+
+> sp|O14948|TFEC_HUMAN Transcription factor EC OS=Homo sapiens 
+OX=9606 GN=TFEC PE=1 SV=1
+Length=347
+
+ Score = 116 bits (290),  Expect = 4e-32, Method: Composition-based stats.
+ Identities = 56/69 (81%), Positives = 63/69 (91%), Gaps = 3/69 (4%)
+
+Query  6    KELGTLIPKSNDPDMRWNKGTILKASVDYIR---KLQQRAKDLENRQKKLEHANRHLLLR  62
+            KELGTLIPKSNDPDMRWNKGTILKASV+YI+   K QQRA++LE+RQKKLE ANR LLLR
+Sbjct  160  KELGTLIPKSNDPDMRWNKGTILKASVEYIKWLQKEQQRARELEHRQKKLEQANRRLLLR  219
+
+Query  63   VQELEMQAR  71
+            +QELE+QAR
+Sbjct  220  IQELEIQAR  228
+
+
+> sp|A2T713|TFEC_PANTR Transcription factor EC OS=Pan troglodytes 
+OX=9598 GN=TFEC PE=3 SV=1
+Length=347
+
+ Score = 116 bits (290),  Expect = 5e-32, Method: Composition-based stats.
+ Identities = 56/69 (81%), Positives = 63/69 (91%), Gaps = 3/69 (4%)
+
+Query  6    KELGTLIPKSNDPDMRWNKGTILKASVDYIR---KLQQRAKDLENRQKKLEHANRHLLLR  62
+            KELGTLIPKSNDPDMRWNKGTILKASV+YI+   K QQRA++LE+RQKKLE ANR LLLR
+Sbjct  160  KELGTLIPKSNDPDMRWNKGTILKASVEYIKWLQKEQQRARELEHRQKKLEQANRRLLLR  219
+
+Query  63   VQELEMQAR  71
+            +QELE+QAR
+Sbjct  220  IQELEIQAR  228
+
+
+> sp|Q6GQ26|SRBP2_XENLA Sterol regulatory element-binding protein 
+2 OS=Xenopus laevis OX=8355 GN=srebf2 PE=2 SV=1
+Length=1088
+
+ Score = 41.2 bits (95),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 21/58 (36%), Positives = 33/58 (57%), Gaps = 3/58 (5%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQQRAKDLENRQKKLEHANRH  58
+            IND+I EL  L+  +   D + +K  +LK ++DYI+ LQQ  + L      L+ AN+ 
+Sbjct  306  INDKIMELKDLVMGT---DAKMHKSGVLKKAIDYIKYLQQVNQKLRQENMALKLANQK  360
+
+
+> sp|A3KNA7|SRBP2_DANRE Sterol regulatory element-binding protein 
+2 OS=Danio rerio OX=7955 GN=srebf2 PE=1 SV=1
+Length=1099
+
+ Score = 38.9 bits (89),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 22/58 (38%), Positives = 32/58 (55%), Gaps = 3/58 (5%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQQRAKDLENRQKKLEHANRH  58
+            IND+I EL  L+   ND  M  +K  +L+ ++DYI+ LQQ    L      L+ AN+ 
+Sbjct  336  INDKILELRDLV-LGNDAKM--HKSGVLRKAIDYIKYLQQVNHKLRQENLTLKMANQK  390
+
+
+> sp|Q15853|USF2_HUMAN Upstream stimulatory factor 2 OS=Homo sapiens 
+OX=9606 GN=USF2 PE=1 SV=1
+Length=346
+
+ Score = 38.5 bits (88),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 23/72 (32%), Positives = 41/72 (57%), Gaps = 5/72 (7%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRW--NKGTILKASVDYIRKLQ---QRAKDLENRQKKLEHA  55
+            IN+ I +L  +IP  N  + +   +KG IL  + DYIR+L+   QR ++     ++L+  
+Sbjct  251  INNWIVQLSKIIPDCNADNSKTGASKGGILSKACDYIRELRQTNQRMQETFKEAERLQMD  310
+
+Query  56   NRHLLLRVQELE  67
+            N  L  +++EL+
+Sbjct  311  NELLRQQIEELK  322
+
+
+> sp|Q9C8P8|BH080_ARATH Transcription factor bHLH80 OS=Arabidopsis 
+thaliana OX=3702 GN=BHLH80 PE=2 SV=1
+Length=259
+
+ Score = 36.9 bits (84),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 17/51 (33%), Positives = 33/51 (65%), Gaps = 3/51 (6%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQQRAKDLENRQKK  51
+            I+DRI+ L  L+P   + D + N   +L+ +V+Y++ LQ + ++L  +QK+
+Sbjct  203  ISDRIRRLQELVP---NMDKQTNTADMLEEAVEYVKALQSQIQELTEQQKR  250
+
+
+> sp|Q9M0R0|BH081_ARATH Transcription factor bHLH81 OS=Arabidopsis 
+thaliana OX=3702 GN=BHLH81 PE=2 SV=1
+Length=262
+
+ Score = 36.6 bits (83),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 17/51 (33%), Positives = 34/51 (67%), Gaps = 3/51 (6%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQQRAKDLENRQKK  51
+            I+DRI++L  L+P   + D + N   +L+ +V+Y++ LQ++ ++L   QK+
+Sbjct  206  ISDRIRKLQELVP---NMDKQTNTADMLEEAVEYVKVLQRQIQELTEEQKR  253
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.129    0.343    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0394    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4984656824
+Results from round 3
+
+
+Query= 6FX5:A
+
+Length=72
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|O75030|MITF_HUMAN Microphthalmia-associated transcription fa...  118     4e-32
+  sp|O88368|MITF_RAT Microphthalmia-associated transcription fact...  115     9e-31
+  sp|Q08874|MITF_MOUSE Microphthalmia-associated transcription fa...  114     1e-30
+  sp|Q9R210|TFEB_MOUSE Transcription factor EB OS=Mus musculus OX...  113     3e-30
+  sp|P19484|TFEB_HUMAN Transcription factor EB OS=Homo sapiens OX...  113     3e-30
+  sp|Q05B92|TFE3_BOVIN Transcription factor E3 OS=Bos taurus OX=9...  113     4e-30
+  sp|Q64092|TFE3_MOUSE Transcription factor E3 OS=Mus musculus OX...  112     1e-29
+  sp|P19532|TFE3_HUMAN Transcription factor E3 OS=Homo sapiens OX...  111     2e-29
+  sp|Q9WTW4|TFEC_MOUSE Transcription factor EC OS=Mus musculus OX...  107     4e-29
+  sp|Q63302|TFEC_RAT Transcription factor EC OS=Rattus norvegicus...  105     2e-28
+  sp|Q5XFQ6|TFEC_CHICK Transcription factor EC OS=Gallus gallus O...  99.4    2e-25
+  sp|A4IFU7|TFEC_BOVIN Transcription factor EC OS=Bos taurus OX=9...  98.2    2e-25
+  sp|A2T7L8|TFEC_PONPY Transcription factor EC OS=Pongo pygmaeus ...  97.1    8e-25
+  sp|O14948|TFEC_HUMAN Transcription factor EC OS=Homo sapiens OX...  97.1    8e-25
+  sp|A2T713|TFEC_PANTR Transcription factor EC OS=Pan troglodytes...  97.1    9e-25
+  sp|Q15853|USF2_HUMAN Upstream stimulatory factor 2 OS=Homo sapi...  88.6    1e-21
+  sp|Q6GQ26|SRBP2_XENLA Sterol regulatory element-binding protein...  81.3    1e-18
+  sp|A3KNA7|SRBP2_DANRE Sterol regulatory element-binding protein...  80.5    2e-18
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q63665|USF2_RAT Upstream stimulatory factor 2 OS=Rattus norv...  85.9    1e-20
+  sp|Q64705|USF2_MOUSE Upstream stimulatory factor 2 OS=Mus muscu...  85.9    1e-20
+  sp|Q3U1N2|SRBP2_MOUSE Sterol regulatory element-binding protein...  80.1    3e-18
+  sp|Q3T1I5|SRBP2_RAT Sterol regulatory element-binding protein 2...  80.1    3e-18
+  sp|Q60429|SRBP2_CRIGR Sterol regulatory element-binding protein...  80.1    3e-18
+  sp|Q12772|SRBP2_HUMAN Sterol regulatory element-binding protein...  80.1    3e-18
+  sp|Q6XBT4|USF1_BOVIN Upstream stimulatory factor 1 OS=Bos tauru...  67.4    5e-14
+  sp|O02818|USF1_RABIT Upstream stimulatory factor 1 OS=Oryctolag...  67.4    6e-14
+  sp|P22415|USF1_HUMAN Upstream stimulatory factor 1 OS=Homo sapi...  67.0    8e-14
+  sp|Q07957|USF1_XENBO Upstream stimulatory factor 1 OS=Xenopus b...  65.9    2e-13
+  sp|Q61069|USF1_MOUSE Upstream stimulatory factor 1 OS=Mus muscu...  65.1    4e-13
+  sp|O97676|SRBP1_PIG Sterol regulatory element-binding protein 1...  65.1    6e-13
+  sp|P56720|SRBP1_RAT Sterol regulatory element-binding protein 1...  64.3    1e-12
+  sp|Q9WTN3|SRBP1_MOUSE Sterol regulatory element-binding protein...  64.3    1e-12
+  sp|Q60416|SRBP1_CRIGR Sterol regulatory element-binding protein...  62.8    4e-12
+  sp|P36956|SRBP1_HUMAN Sterol regulatory element-binding protein...  62.4    5e-12
+  sp|Q07956|USF_STRPU Upstream stimulatory factor OS=Strongylocen...  49.7    1e-07
+  sp|Q9UUD1|SREBP_SCHPO Sterol regulatory element-binding protein...  47.0    1e-06
+  sp|O43019|SRE2_SCHPO Putative transcription factor sre2 OS=Schi...  46.2    3e-06
+  sp|Q9LSE2|ICE1_ARATH Transcription factor ICE1 OS=Arabidopsis t...  40.1    4e-04
+  sp|Q64210|MYC2_OTOBE N-myc 2 proto-oncogene protein OS=Otosperm...  40.1    4e-04
+  sp|P20389|MYC2_MARMO N-myc 2 proto-oncogene protein OS=Marmota ...  40.1    4e-04
+  sp|Q9M0R0|BH081_ARATH Transcription factor bHLH81 OS=Arabidopsi...  39.3    6e-04
+  sp|Q9C8P8|BH080_ARATH Transcription factor bHLH80 OS=Arabidopsi...  38.5    0.001
+  sp|Q99583|MNT_HUMAN Max-binding protein MNT OS=Homo sapiens OX=...  38.5    0.001
+  sp|O08789|MNT_MOUSE Max-binding protein MNT OS=Mus musculus OX=...  38.5    0.001
+  sp|A0A2R6QE26|BHL42_ACTCC Transcription factor BHLH42 OS=Actini...  38.1    0.001
+  sp|Q9PSI9|MCL1A_DANRE Protein L-Myc-1a OS=Danio rerio OX=7955 G...  38.1    0.001
+  sp|E3SXU4|BHLHW_PEA Basic helix-loop-helix protein A OS=Pisum s...  38.1    0.002
+  sp|Q9FUA4|SPT_ARATH Transcription factor SPATULA OS=Arabidopsis...  37.7    0.002
+  sp|Q9LSL1|BH093_ARATH Transcription factor bHLH93 OS=Arabidopsi...  37.7    0.002
+  sp|A0A286LEZ9|PSIR_PSICY Psilocybin cluster transcription regul...  37.4    0.003
+  sp|P06171|MYC1_XENLA Transcriptional regulator Myc-A OS=Xenopus...  36.6    0.006
+
+
+> sp|O75030|MITF_HUMAN Microphthalmia-associated transcription 
+factor OS=Homo sapiens OX=9606 GN=MITF PE=1 SV=2
+Length=526
+
+ Score = 118 bits (296),  Expect = 4e-32, Method: Composition-based stats.
+ Identities = 70/75 (93%), Positives = 72/75 (96%), Gaps = 3/75 (4%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKL---QQRAKDLENRQKKLEHANR  57
+            INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKL   QQRAK+LENRQKKLEHANR
+Sbjct  327  INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQREQQRAKELENRQKKLEHANR  386
+
+Query  58   HLLLRVQELEMQARA  72
+            HLLLR+QELEMQARA
+Sbjct  387  HLLLRIQELEMQARA  401
+
+
+> sp|O88368|MITF_RAT Microphthalmia-associated transcription factor 
+OS=Rattus norvegicus OX=10116 GN=Mitf PE=2 SV=2
+Length=526
+
+ Score = 115 bits (287),  Expect = 9e-31, Method: Composition-based stats.
+ Identities = 72/75 (96%), Positives = 72/75 (96%), Gaps = 3/75 (4%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKL---QQRAKDLENRQKKLEHANR  57
+            INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKL   QQRAKDLENRQKKLEHANR
+Sbjct  327  INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQREQQRAKDLENRQKKLEHANR  386
+
+Query  58   HLLLRVQELEMQARA  72
+            HLLLRVQELEMQARA
+Sbjct  387  HLLLRVQELEMQARA  401
+
+
+> sp|Q08874|MITF_MOUSE Microphthalmia-associated transcription 
+factor OS=Mus musculus OX=10090 GN=Mitf PE=1 SV=4
+Length=526
+
+ Score = 114 bits (286),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 72/75 (96%), Positives = 72/75 (96%), Gaps = 3/75 (4%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKL---QQRAKDLENRQKKLEHANR  57
+            INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKL   QQRAKDLENRQKKLEHANR
+Sbjct  327  INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQREQQRAKDLENRQKKLEHANR  386
+
+Query  58   HLLLRVQELEMQARA  72
+            HLLLRVQELEMQARA
+Sbjct  387  HLLLRVQELEMQARA  401
+
+
+> sp|Q9R210|TFEB_MOUSE Transcription factor EB OS=Mus musculus 
+OX=10090 GN=Tfeb PE=1 SV=2
+Length=475
+
+ Score = 113 bits (282),  Expect = 3e-30, Method: Composition-based stats.
+ Identities = 51/74 (69%), Positives = 63/74 (85%), Gaps = 3/74 (4%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQ---QRAKDLENRQKKLEHANR  57
+            INDRIKELG LIPK+ND D+RWNKGTILKASVDYIR++Q   Q++++LEN  ++LE  N+
+Sbjct  250  INDRIKELGMLIPKANDLDVRWNKGTILKASVDYIRRMQKDLQKSRELENHSRRLEMTNK  309
+
+Query  58   HLLLRVQELEMQAR  71
+             L LR+QELEMQAR
+Sbjct  310  QLWLRIQELEMQAR  323
+
+
+> sp|P19484|TFEB_HUMAN Transcription factor EB OS=Homo sapiens 
+OX=9606 GN=TFEB PE=1 SV=3
+Length=476
+
+ Score = 113 bits (282),  Expect = 3e-30, Method: Composition-based stats.
+ Identities = 51/74 (69%), Positives = 63/74 (85%), Gaps = 3/74 (4%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQ---QRAKDLENRQKKLEHANR  57
+            INDRIKELG LIPK+ND D+RWNKGTILKASVDYIR++Q   Q++++LEN  ++LE  N+
+Sbjct  251  INDRIKELGMLIPKANDLDVRWNKGTILKASVDYIRRMQKDLQKSRELENHSRRLEMTNK  310
+
+Query  58   HLLLRVQELEMQAR  71
+             L LR+QELEMQAR
+Sbjct  311  QLWLRIQELEMQAR  324
+
+
+> sp|Q05B92|TFE3_BOVIN Transcription factor E3 OS=Bos taurus OX=9913 
+GN=TFE3 PE=2 SV=1
+Length=573
+
+ Score = 113 bits (283),  Expect = 4e-30, Method: Composition-based stats.
+ Identities = 59/74 (80%), Positives = 67/74 (91%), Gaps = 3/74 (4%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKL---QQRAKDLENRQKKLEHANR  57
+            INDRIKELGTLIPKS+DP+MRWNKGTILKASVDYIRKL   QQR+KDLE+RQ+ LE ANR
+Sbjct  360  INDRIKELGTLIPKSSDPEMRWNKGTILKASVDYIRKLQKEQQRSKDLESRQRSLEQANR  419
+
+Query  58   HLLLRVQELEMQAR  71
+             L LR+QELE+QA+
+Sbjct  420  SLQLRIQELELQAQ  433
+
+
+> sp|Q64092|TFE3_MOUSE Transcription factor E3 OS=Mus musculus 
+OX=10090 GN=Tfe3 PE=1 SV=2
+Length=572
+
+ Score = 112 bits (280),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 60/74 (81%), Positives = 67/74 (91%), Gaps = 3/74 (4%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKL---QQRAKDLENRQKKLEHANR  57
+            INDRIKELGTLIPKSNDP+MRWNKGTILKASVDYIRKL   QQR+KDLE+RQ+ LE ANR
+Sbjct  361  INDRIKELGTLIPKSNDPEMRWNKGTILKASVDYIRKLQKEQQRSKDLESRQRSLEQANR  420
+
+Query  58   HLLLRVQELEMQAR  71
+             L LR+QELE+QA+
+Sbjct  421  SLQLRIQELELQAQ  434
+
+
+> sp|P19532|TFE3_HUMAN Transcription factor E3 OS=Homo sapiens 
+OX=9606 GN=TFE3 PE=1 SV=4
+Length=575
+
+ Score = 111 bits (278),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 59/74 (80%), Positives = 67/74 (91%), Gaps = 3/74 (4%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKL---QQRAKDLENRQKKLEHANR  57
+            INDRIKELGTLIPKS+DP+MRWNKGTILKASVDYIRKL   QQR+KDLE+RQ+ LE ANR
+Sbjct  362  INDRIKELGTLIPKSSDPEMRWNKGTILKASVDYIRKLQKEQQRSKDLESRQRSLEQANR  421
+
+Query  58   HLLLRVQELEMQAR  71
+             L LR+QELE+QA+
+Sbjct  422  SLQLRIQELELQAQ  435
+
+
+> sp|Q9WTW4|TFEC_MOUSE Transcription factor EC OS=Mus musculus 
+OX=10090 GN=Tfec PE=1 SV=1
+Length=317
+
+ Score = 107 bits (268),  Expect = 4e-29, Method: Composition-based stats.
+ Identities = 58/70 (83%), Positives = 64/70 (91%), Gaps = 3/70 (4%)
+
+Query  6    KELGTLIPKSNDPDMRWNKGTILKASVDYIRKL---QQRAKDLENRQKKLEHANRHLLLR  62
+            KELGTLIPKSNDPDMRWNKGTILKASVDYI+ L   QQRA++LE+RQKKLEHANR L LR
+Sbjct  131  KELGTLIPKSNDPDMRWNKGTILKASVDYIKWLQKEQQRARELEHRQKKLEHANRQLRLR  190
+
+Query  63   VQELEMQARA  72
+            +QELE+QARA
+Sbjct  191  IQELEIQARA  200
+
+
+> sp|Q63302|TFEC_RAT Transcription factor EC OS=Rattus norvegicus 
+OX=10116 GN=Tfec PE=1 SV=2
+Length=317
+
+ Score = 105 bits (263),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 57/70 (81%), Positives = 65/70 (93%), Gaps = 3/70 (4%)
+
+Query  6    KELGTLIPKSNDPDMRWNKGTILKASVDYIRKL---QQRAKDLENRQKKLEHANRHLLLR  62
+            KELGTLIPKSNDPD+RWNKGTILKASVDYI+ L   QQRA++LE+RQKKLEHANR L+LR
+Sbjct  131  KELGTLIPKSNDPDIRWNKGTILKASVDYIKWLQKEQQRARELEHRQKKLEHANRQLMLR  190
+
+Query  63   VQELEMQARA  72
+            +QELE+QARA
+Sbjct  191  IQELEIQARA  200
+
+
+> sp|Q5XFQ6|TFEC_CHICK Transcription factor EC OS=Gallus gallus 
+OX=9031 GN=TFEC PE=2 SV=1
+Length=377
+
+ Score = 99.4 bits (246),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 58/70 (83%), Positives = 65/70 (93%), Gaps = 3/70 (4%)
+
+Query  6    KELGTLIPKSNDPDMRWNKGTILKASVDYIRKL---QQRAKDLENRQKKLEHANRHLLLR  62
+            KELGTLIPKSNDPDMRWNKGTILKASV+YI+ L   QQRA++LE+RQKKLEHANR LLLR
+Sbjct  190  KELGTLIPKSNDPDMRWNKGTILKASVEYIKWLQKEQQRARELEHRQKKLEHANRRLLLR  249
+
+Query  63   VQELEMQARA  72
+            +QELE+QARA
+Sbjct  250  IQELEIQARA  259
+
+
+> sp|A4IFU7|TFEC_BOVIN Transcription factor EC OS=Bos taurus OX=9913 
+GN=TFEC PE=2 SV=1
+Length=317
+
+ Score = 98.2 bits (243),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 57/70 (81%), Positives = 64/70 (91%), Gaps = 3/70 (4%)
+
+Query  6    KELGTLIPKSNDPDMRWNKGTILKASVDYIRKL---QQRAKDLENRQKKLEHANRHLLLR  62
+            KELGTLIPKSNDPDMRWNKGTILKASV+YI+ L   QQRA++LE+RQKKLE ANR LLLR
+Sbjct  131  KELGTLIPKSNDPDMRWNKGTILKASVEYIKWLQKEQQRAQELEHRQKKLEQANRRLLLR  190
+
+Query  63   VQELEMQARA  72
+            +QELE+QARA
+Sbjct  191  IQELEIQARA  200
+
+
+> sp|A2T7L8|TFEC_PONPY Transcription factor EC OS=Pongo pygmaeus 
+OX=9600 GN=TFEC PE=3 SV=1
+Length=347
+
+ Score = 97.1 bits (240),  Expect = 8e-25, Method: Composition-based stats.
+ Identities = 56/69 (81%), Positives = 63/69 (91%), Gaps = 3/69 (4%)
+
+Query  6    KELGTLIPKSNDPDMRWNKGTILKASVDYIRKL---QQRAKDLENRQKKLEHANRHLLLR  62
+            KELGTLIPKSNDPDMRWNKGTILKASV+YI+ L   QQRA++LE+RQKKLE ANR LLLR
+Sbjct  160  KELGTLIPKSNDPDMRWNKGTILKASVEYIKWLQKEQQRARELEHRQKKLEQANRRLLLR  219
+
+Query  63   VQELEMQAR  71
+            +QELE+QAR
+Sbjct  220  IQELEIQAR  228
+
+
+> sp|O14948|TFEC_HUMAN Transcription factor EC OS=Homo sapiens 
+OX=9606 GN=TFEC PE=1 SV=1
+Length=347
+
+ Score = 97.1 bits (240),  Expect = 8e-25, Method: Composition-based stats.
+ Identities = 56/69 (81%), Positives = 63/69 (91%), Gaps = 3/69 (4%)
+
+Query  6    KELGTLIPKSNDPDMRWNKGTILKASVDYIRKL---QQRAKDLENRQKKLEHANRHLLLR  62
+            KELGTLIPKSNDPDMRWNKGTILKASV+YI+ L   QQRA++LE+RQKKLE ANR LLLR
+Sbjct  160  KELGTLIPKSNDPDMRWNKGTILKASVEYIKWLQKEQQRARELEHRQKKLEQANRRLLLR  219
+
+Query  63   VQELEMQAR  71
+            +QELE+QAR
+Sbjct  220  IQELEIQAR  228
+
+
+> sp|A2T713|TFEC_PANTR Transcription factor EC OS=Pan troglodytes 
+OX=9598 GN=TFEC PE=3 SV=1
+Length=347
+
+ Score = 97.1 bits (240),  Expect = 9e-25, Method: Composition-based stats.
+ Identities = 56/69 (81%), Positives = 63/69 (91%), Gaps = 3/69 (4%)
+
+Query  6    KELGTLIPKSNDPDMRWNKGTILKASVDYIRKL---QQRAKDLENRQKKLEHANRHLLLR  62
+            KELGTLIPKSNDPDMRWNKGTILKASV+YI+ L   QQRA++LE+RQKKLE ANR LLLR
+Sbjct  160  KELGTLIPKSNDPDMRWNKGTILKASVEYIKWLQKEQQRARELEHRQKKLEQANRRLLLR  219
+
+Query  63   VQELEMQAR  71
+            +QELE+QAR
+Sbjct  220  IQELEIQAR  228
+
+
+> sp|Q15853|USF2_HUMAN Upstream stimulatory factor 2 OS=Homo sapiens 
+OX=9606 GN=USF2 PE=1 SV=1
+Length=346
+
+ Score = 88.6 bits (218),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 23/72 (32%), Positives = 41/72 (57%), Gaps = 5/72 (7%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRW--NKGTILKASVDYIRKLQQ---RAKDLENRQKKLEHA  55
+            IN+ I +L  +IP  N  + +   +KG IL  + DYIR+L+Q   R ++     ++L+  
+Sbjct  251  INNWIVQLSKIIPDCNADNSKTGASKGGILSKACDYIRELRQTNQRMQETFKEAERLQMD  310
+
+Query  56   NRHLLLRVQELE  67
+            N  L  +++EL+
+Sbjct  311  NELLRQQIEELK  322
+
+
+> sp|Q63665|USF2_RAT Upstream stimulatory factor 2 OS=Rattus norvegicus 
+OX=10116 GN=Usf2 PE=1 SV=2
+Length=346
+
+ Score = 85.9 bits (211),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 22/72 (31%), Positives = 41/72 (57%), Gaps = 5/72 (7%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRW--NKGTILKASVDYIRKLQQ---RAKDLENRQKKLEHA  55
+            IN+ I +L  +IP  +  + +   +KG IL  + DYIR+L+Q   R ++     ++L+  
+Sbjct  251  INNWIVQLSKIIPDCHADNSKTGASKGGILSKACDYIRELRQTNQRMQETFKEAERLQMD  310
+
+Query  56   NRHLLLRVQELE  67
+            N  L  +++EL+
+Sbjct  311  NELLRQQIEELK  322
+
+
+> sp|Q64705|USF2_MOUSE Upstream stimulatory factor 2 OS=Mus musculus 
+OX=10090 GN=Usf2 PE=1 SV=1
+Length=346
+
+ Score = 85.9 bits (211),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 22/72 (31%), Positives = 41/72 (57%), Gaps = 5/72 (7%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRW--NKGTILKASVDYIRKLQQ---RAKDLENRQKKLEHA  55
+            IN+ I +L  +IP  +  + +   +KG IL  + DYIR+L+Q   R ++     ++L+  
+Sbjct  251  INNWIVQLSKIIPDCHADNSKTGASKGGILSKACDYIRELRQTNQRMQETFKEAERLQMD  310
+
+Query  56   NRHLLLRVQELE  67
+            N  L  +++EL+
+Sbjct  311  NELLRQQIEELK  322
+
+
+> sp|Q6GQ26|SRBP2_XENLA Sterol regulatory element-binding protein 
+2 OS=Xenopus laevis OX=8355 GN=srebf2 PE=2 SV=1
+Length=1088
+
+ Score = 81.3 bits (199),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 21/58 (36%), Positives = 33/58 (57%), Gaps = 3/58 (5%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQQRAKDLENRQKKLEHANRH  58
+            IND+I EL  L+  +   D + +K  +LK ++DYI+ LQQ  + L      L+ AN+ 
+Sbjct  306  INDKIMELKDLVMGT---DAKMHKSGVLKKAIDYIKYLQQVNQKLRQENMALKLANQK  360
+
+
+> sp|A3KNA7|SRBP2_DANRE Sterol regulatory element-binding protein 
+2 OS=Danio rerio OX=7955 GN=srebf2 PE=1 SV=1
+Length=1099
+
+ Score = 80.5 bits (197),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 20/58 (34%), Positives = 32/58 (55%), Gaps = 3/58 (5%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQQRAKDLENRQKKLEHANRH  58
+            IND+I EL  L+  +   D + +K  +L+ ++DYI+ LQQ    L      L+ AN+ 
+Sbjct  336  INDKILELRDLVLGN---DAKMHKSGVLRKAIDYIKYLQQVNHKLRQENLTLKMANQK  390
+
+
+> sp|Q3U1N2|SRBP2_MOUSE Sterol regulatory element-binding protein 
+2 OS=Mus musculus OX=10090 GN=Srebf2 PE=1 SV=2
+Length=1130
+
+ Score = 80.1 bits (196),  Expect = 3e-18, Method: Composition-based stats.
+ Identities = 20/58 (34%), Positives = 32/58 (55%), Gaps = 3/58 (5%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQQRAKDLENRQKKLEHANRH  58
+            IND+I EL  L+  +   D + +K  +L+ ++DYI+ LQQ    L      L+ AN+ 
+Sbjct  335  INDKIIELKDLVMGT---DAKMHKSGVLRKAIDYIKYLQQVNHKLRQENMVLKLANQK  389
+
+
+> sp|Q3T1I5|SRBP2_RAT Sterol regulatory element-binding protein 
+2 OS=Rattus norvegicus OX=10116 GN=Srebf2 PE=2 SV=1
+Length=1133
+
+ Score = 80.1 bits (196),  Expect = 3e-18, Method: Composition-based stats.
+ Identities = 20/58 (34%), Positives = 32/58 (55%), Gaps = 3/58 (5%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQQRAKDLENRQKKLEHANRH  58
+            IND+I EL  L+  +   D + +K  +L+ ++DYI+ LQQ    L      L+ AN+ 
+Sbjct  338  INDKIIELKDLVMGT---DAKMHKSGVLRKAIDYIKYLQQVNHKLRQENMVLKLANQK  392
+
+
+> sp|Q60429|SRBP2_CRIGR Sterol regulatory element-binding protein 
+2 OS=Cricetulus griseus OX=10029 GN=SREBF2 PE=2 SV=1
+Length=1139
+
+ Score = 80.1 bits (196),  Expect = 3e-18, Method: Composition-based stats.
+ Identities = 20/58 (34%), Positives = 32/58 (55%), Gaps = 3/58 (5%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQQRAKDLENRQKKLEHANRH  58
+            IND+I EL  L+  +   D + +K  +L+ ++DYI+ LQQ    L      L+ AN+ 
+Sbjct  344  INDKIIELKDLVMGT---DAKMHKSGVLRKAIDYIKYLQQVNHKLRQENMVLKLANQK  398
+
+
+> sp|Q12772|SRBP2_HUMAN Sterol regulatory element-binding protein 
+2 OS=Homo sapiens OX=9606 GN=SREBF2 PE=1 SV=2
+Length=1141
+
+ Score = 80.1 bits (196),  Expect = 3e-18, Method: Composition-based stats.
+ Identities = 20/58 (34%), Positives = 32/58 (55%), Gaps = 3/58 (5%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQQRAKDLENRQKKLEHANRH  58
+            IND+I EL  L+  +   D + +K  +L+ ++DYI+ LQQ    L      L+ AN+ 
+Sbjct  346  INDKIIELKDLVMGT---DAKMHKSGVLRKAIDYIKYLQQVNHKLRQENMVLKLANQK  400
+
+
+> sp|Q6XBT4|USF1_BOVIN Upstream stimulatory factor 1 OS=Bos taurus 
+OX=9913 GN=USF1 PE=2 SV=1
+Length=310
+
+ Score = 67.4 bits (163),  Expect = 5e-14, Method: Composition-based stats.
+ Identities = 21/72 (29%), Positives = 38/72 (53%), Gaps = 5/72 (7%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRW--NKGTILKASVDYIRKLQQRAKDLENRQK---KLEHA  55
+            IN+ I +L  +IP  +    +   +KG IL  + DYI++L+Q    L    +   +L+  
+Sbjct  215  INNWIVQLSKIIPDCSMESTKSGQSKGGILSKACDYIQELRQSNHRLSEELQGLDQLQLD  274
+
+Query  56   NRHLLLRVQELE  67
+            N  L  +V++L+
+Sbjct  275  NDVLRQQVEDLK  286
+
+
+> sp|O02818|USF1_RABIT Upstream stimulatory factor 1 OS=Oryctolagus 
+cuniculus OX=9986 GN=USF1 PE=2 SV=1
+Length=310
+
+ Score = 67.4 bits (163),  Expect = 6e-14, Method: Composition-based stats.
+ Identities = 21/72 (29%), Positives = 38/72 (53%), Gaps = 5/72 (7%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRW--NKGTILKASVDYIRKLQQRAKDLENRQK---KLEHA  55
+            IN+ I +L  +IP  +    +   +KG IL  + DYI++L+Q    L    +   +L+  
+Sbjct  215  INNWIVQLSKIIPDCSMESTKSGQSKGGILSKACDYIQELRQSNHRLSEELQGLDQLQLD  274
+
+Query  56   NRHLLLRVQELE  67
+            N  L  +V++L+
+Sbjct  275  NDVLRQQVEDLK  286
+
+
+> sp|P22415|USF1_HUMAN Upstream stimulatory factor 1 OS=Homo sapiens 
+OX=9606 GN=USF1 PE=1 SV=1
+Length=310
+
+ Score = 67.0 bits (162),  Expect = 8e-14, Method: Composition-based stats.
+ Identities = 21/72 (29%), Positives = 38/72 (53%), Gaps = 5/72 (7%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRW--NKGTILKASVDYIRKLQQRAKDLENRQK---KLEHA  55
+            IN+ I +L  +IP  +    +   +KG IL  + DYI++L+Q    L    +   +L+  
+Sbjct  215  INNWIVQLSKIIPDCSMESTKSGQSKGGILSKACDYIQELRQSNHRLSEELQGLDQLQLD  274
+
+Query  56   NRHLLLRVQELE  67
+            N  L  +V++L+
+Sbjct  275  NDVLRQQVEDLK  286
+
+
+> sp|Q07957|USF1_XENBO Upstream stimulatory factor 1 OS=Xenopus 
+borealis OX=8354 GN=usf1 PE=2 SV=1
+Length=307
+
+ Score = 65.9 bits (159),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 21/72 (29%), Positives = 38/72 (53%), Gaps = 5/72 (7%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRW--NKGTILKASVDYIRKLQQRAKDLENRQK---KLEHA  55
+            IN+ I +L  +IP  +    +   +KG IL  + DYI++L+Q    L    +   +L+  
+Sbjct  212  INNWIVQLSKIIPDCSMESTKTGQSKGGILSKACDYIQELRQSNLRLSEELQNLDQLQMD  271
+
+Query  56   NRHLLLRVQELE  67
+            N  L  +V++L+
+Sbjct  272  NEVLRQQVEDLK  283
+
+
+> sp|Q61069|USF1_MOUSE Upstream stimulatory factor 1 OS=Mus musculus 
+OX=10090 GN=Usf1 PE=1 SV=1
+Length=310
+
+ Score = 65.1 bits (157),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 21/72 (29%), Positives = 38/72 (53%), Gaps = 5/72 (7%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRW--NKGTILKASVDYIRKLQQRAKDLENRQK---KLEHA  55
+            IN+ I +L  +IP  +    +   +KG IL  + DYI++L+Q    L    +   +L+  
+Sbjct  215  INNWIVQLSKIIPDCSMESTKSGQSKGGILSKACDYIQELRQSNHRLSEELQGLDQLQLD  274
+
+Query  56   NRHLLLRVQELE  67
+            N  L  +V++L+
+Sbjct  275  NDVLRQQVEDLK  286
+
+
+> sp|O97676|SRBP1_PIG Sterol regulatory element-binding protein 
+1 OS=Sus scrofa OX=9823 GN=SREBF1 PE=2 SV=2
+Length=1151
+
+ Score = 65.1 bits (157),  Expect = 6e-13, Method: Composition-based stats.
+ Identities = 20/58 (34%), Positives = 31/58 (53%), Gaps = 3/58 (5%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQQRAKDLENRQKKLEHANRH  58
+            IND+I EL  L+  +   + + NK  +L+ ++DYIR LQQ  + L+     L  A   
+Sbjct  340  INDKIIELKDLVVGT---EAKLNKSAVLRKAIDYIRFLQQSNQKLKQENLSLRTAAHK  394
+
+
+> sp|P56720|SRBP1_RAT Sterol regulatory element-binding protein 
+1 OS=Rattus norvegicus OX=10116 GN=Srebf1 PE=1 SV=3
+Length=1134
+
+ Score = 64.3 bits (155),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 20/62 (32%), Positives = 34/62 (55%), Gaps = 3/62 (5%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQQRAKDLENRQKKLEHANRHLL  60
+            IND+I EL  L+  +   + + NK  +L+ ++DYIR LQ   + L+     L  A++   
+Sbjct  333  INDKIVELKDLVVGT---EAKLNKSAVLRKAIDYIRFLQHSNQKLKQENLTLRSAHKSKS  389
+
+Query  61   LR  62
+            L+
+Sbjct  390  LK  391
+
+
+> sp|Q9WTN3|SRBP1_MOUSE Sterol regulatory element-binding protein 
+1 OS=Mus musculus OX=10090 GN=Srebf1 PE=1 SV=4
+Length=1134
+
+ Score = 64.3 bits (155),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 20/62 (32%), Positives = 34/62 (55%), Gaps = 3/62 (5%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQQRAKDLENRQKKLEHANRHLL  60
+            IND+I EL  L+  +   + + NK  +L+ ++DYIR LQ   + L+     L  A++   
+Sbjct  333  INDKIVELKDLVVGT---EAKLNKSAVLRKAIDYIRFLQHSNQKLKQENLTLRSAHKSKS  389
+
+Query  61   LR  62
+            L+
+Sbjct  390  LK  391
+
+
+> sp|Q60416|SRBP1_CRIGR Sterol regulatory element-binding protein 
+1 OS=Cricetulus griseus OX=10029 GN=SREBF1 PE=2 SV=1
+Length=1133
+
+ Score = 62.8 bits (151),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 19/58 (33%), Positives = 31/58 (53%), Gaps = 3/58 (5%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQQRAKDLENRQKKLEHANRH  58
+            IND+I EL  L+  +   + + NK  +L+ ++DYIR LQ   + L+     L +A   
+Sbjct  333  INDKIVELKDLVVGT---EAKLNKSAVLRKAIDYIRFLQHSNQKLKQENLALRNAAHK  387
+
+
+> sp|P36956|SRBP1_HUMAN Sterol regulatory element-binding protein 
+1 OS=Homo sapiens OX=9606 GN=SREBF1 PE=1 SV=2
+Length=1147
+
+ Score = 62.4 bits (150),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 19/55 (35%), Positives = 30/55 (55%), Gaps = 3/55 (5%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQQRAKDLENRQKKLEHA  55
+            IND+I EL  L+  +   + + NK  +L+ ++DYIR LQ   + L+     L  A
+Sbjct  339  INDKIIELKDLVVGT---EAKLNKSAVLRKAIDYIRFLQHSNQKLKQENLSLRTA  390
+
+
+> sp|Q07956|USF_STRPU Upstream stimulatory factor OS=Strongylocentrotus 
+purpuratus OX=7668 PE=2 SV=1
+Length=265
+
+ Score = 49.7 bits (117),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 15/52 (29%), Positives = 24/52 (46%), Gaps = 2/52 (4%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRW--NKGTILKASVDYIRKLQQRAKDLENRQK  50
+            IN+ I +L  +IP  N    +   +KG IL  + DYI  L+     +    +
+Sbjct  206  INNWIVKLSKIIPDCNIDHSKQGQSKGGILTKTCDYIHDLRNSNTRMAKASR  257
+
+
+> sp|Q9UUD1|SREBP_SCHPO Sterol regulatory element-binding protein 
+1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) 
+OX=284812 GN=sre1 PE=1 SV=1
+Length=900
+
+ Score = 47.0 bits (110),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 22/71 (31%), Positives = 32/71 (45%), Gaps = 19/71 (27%)
+
+Query  1    INDRIKELGTLIP-------------------KSNDPDMRWNKGTILKASVDYIRKLQQR  41
+            +NDRI EL   +P                       P  + NKGTIL  + +YIR L+ +
+Sbjct  276  LNDRICELRDAVPSLRAAAALRCGNSLDDEDLGGLTPARKLNKGTILAKATEYIRHLEAK  335
+
+Query  42   AKDLENRQKKL  52
+             K+L+   K+L
+Sbjct  336  NKELQKTNKQL  346
+
+
+> sp|O43019|SRE2_SCHPO Putative transcription factor sre2 OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 
+GN=sre2 PE=1 SV=1
+Length=793
+
+ Score = 46.2 bits (108),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 19/69 (28%), Positives = 31/69 (45%), Gaps = 16/69 (23%)
+
+Query  1    INDRIKELGTLIP-------KSNDPDMR---------WNKGTILKASVDYIRKLQQRAKD  44
+            +ND+I EL   +P        +   +++          NK TIL  + +YI+ LQ + K 
+Sbjct  442  LNDKIAELRDAVPTLRSGYNSTTADELKGTYVPLSRKLNKATILSKATEYIKSLQSKNKK  501
+
+Query  45   LENRQKKLE  53
+            L    K L+
+Sbjct  502  LIEENKILQ  510
+
+
+> sp|Q9LSE2|ICE1_ARATH Transcription factor ICE1 OS=Arabidopsis 
+thaliana OX=3702 GN=SCRM PE=1 SV=1
+Length=494
+
+ Score = 40.1 bits (92),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 16/51 (31%), Positives = 32/51 (63%), Gaps = 4/51 (8%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQQRAKDLENRQKK  51
+            +NDR+  L +++PK +    + ++ +IL  ++DY+++L QR  DL N  + 
+Sbjct  319  LNDRLYMLRSVVPKIS----KMDRASILGDAIDYLKELLQRINDLHNELES  365
+
+
+> sp|Q64210|MYC2_OTOBE N-myc 2 proto-oncogene protein OS=Otospermophilus 
+beecheyi OX=34862 GN=N-MYC2 PE=3 SV=1
+Length=454
+
+ Score = 40.1 bits (92),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 17/59 (29%), Positives = 31/59 (53%), Gaps = 2/59 (3%)
+
+Query  8    LGTLIPKSNDPDMRWNKGTILKASVDYIRKLQQRAKDLENRQKKLEHANRHLLLRVQEL  66
+            L   +P+    + +  K  ILK + +Y+  LQ +   L   ++KL+ A +  LL++ EL
+Sbjct  394  LRDHVPEL-VKNEKAAKVVILKKACEYVHYLQAKEHQLLMEKEKLQ-ARQQQLLKIIEL  450
+
+
+> sp|P20389|MYC2_MARMO N-myc 2 proto-oncogene protein OS=Marmota 
+monax OX=9995 GN=N-MYC2 PE=3 SV=1
+Length=454
+
+ Score = 40.1 bits (92),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 17/59 (29%), Positives = 31/59 (53%), Gaps = 2/59 (3%)
+
+Query  8    LGTLIPKSNDPDMRWNKGTILKASVDYIRKLQQRAKDLENRQKKLEHANRHLLLRVQEL  66
+            L   +P+    + +  K  ILK + +Y+  LQ +   L   ++KL+ A +  LL++ EL
+Sbjct  394  LRDHVPEL-VKNEKAAKVVILKKACEYVHYLQAKEHQLLMEKEKLQ-ARQQQLLKIIEL  450
+
+
+> sp|Q9M0R0|BH081_ARATH Transcription factor bHLH81 OS=Arabidopsis 
+thaliana OX=3702 GN=BHLH81 PE=2 SV=1
+Length=262
+
+ Score = 39.3 bits (90),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 17/51 (33%), Positives = 34/51 (67%), Gaps = 3/51 (6%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQQRAKDLENRQKK  51
+            I+DRI++L  L+P   + D + N   +L+ +V+Y++ LQ++ ++L   QK+
+Sbjct  206  ISDRIRKLQELVP---NMDKQTNTADMLEEAVEYVKVLQRQIQELTEEQKR  253
+
+
+> sp|Q9C8P8|BH080_ARATH Transcription factor bHLH80 OS=Arabidopsis 
+thaliana OX=3702 GN=BHLH80 PE=2 SV=1
+Length=259
+
+ Score = 38.5 bits (88),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 17/53 (32%), Positives = 34/53 (64%), Gaps = 3/53 (6%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQQRAKDLENRQKKLE  53
+            I+DRI+ L  L+P   + D + N   +L+ +V+Y++ LQ + ++L  +QK+ +
+Sbjct  203  ISDRIRRLQELVP---NMDKQTNTADMLEEAVEYVKALQSQIQELTEQQKRCK  252
+
+
+> sp|Q99583|MNT_HUMAN Max-binding protein MNT OS=Homo sapiens OX=9606 
+GN=MNT PE=1 SV=1
+Length=582
+
+ Score = 38.5 bits (88),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 15/60 (25%), Positives = 32/60 (53%), Gaps = 2/60 (3%)
+
+Query  8    LGTLIPKSNDPDMRWNKGTILKASVDYIRKLQQRAKDLENRQKKLEHANRHLLLRVQELE  67
+            L   IP  N  D + +  ++L+ ++ YI+ L+++ K+ E+  ++L         R+ EL+
+Sbjct  243  LKRNIP--NVDDKKTSNLSVLRTALRYIQSLKRKEKEYEHEMERLAREKIATQQRLAELK  300
+
+
+> sp|O08789|MNT_MOUSE Max-binding protein MNT OS=Mus musculus OX=10090 
+GN=Mnt PE=2 SV=2
+Length=591
+
+ Score = 38.5 bits (88),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 15/60 (25%), Positives = 32/60 (53%), Gaps = 2/60 (3%)
+
+Query  8    LGTLIPKSNDPDMRWNKGTILKASVDYIRKLQQRAKDLENRQKKLEHANRHLLLRVQELE  67
+            L   IP  N  D + +  ++L+ ++ YI+ L+++ K+ E+  ++L         R+ EL+
+Sbjct  245  LKRNIP--NVDDKKTSNLSVLRTALRYIQSLKRKEKEYEHEMERLAREKIATQQRLAELK  302
+
+
+> sp|A0A2R6QE26|BHL42_ACTCC Transcription factor BHLH42 OS=Actinidia 
+chinensis var. chinensis OX=1590841 GN=BHLH42 PE=1 SV=1
+Length=689
+
+ Score = 38.1 bits (87),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 16/58 (28%), Positives = 35/58 (60%), Gaps = 4/58 (7%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQQRAKDLENRQKKLEHANRH  58
+            +N+R   L +L+P       + +K +IL  +++Y+++L++  +DLE R +++E   R 
+Sbjct  499  LNERFIILRSLVPFVT----KMDKASILGDTIEYVKQLRKNIQDLEARARQIEIDQRS  552
+
+
+> sp|Q9PSI9|MCL1A_DANRE Protein L-Myc-1a OS=Danio rerio OX=7955 
+GN=mycl1a PE=2 SV=2
+Length=372
+
+ Score = 38.1 bits (87),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 16/67 (24%), Positives = 31/67 (46%), Gaps = 1/67 (1%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQQRAKDLENRQKKLEHANRHLL  60
+            +  R + L   IP  +    + +K  IL  + DY+ +L    +     ++KL+   + LL
+Sbjct  305  LRSRFQALREEIPGLSG-SSKTSKVAILTQATDYLLQLHSSQRRQAQEKRKLKAKQQQLL  363
+
+Query  61   LRVQELE  67
+             R+  L+
+Sbjct  364  RRISALQ  370
+
+
+> sp|E3SXU4|BHLHW_PEA Basic helix-loop-helix protein A OS=Pisum 
+sativum OX=3888 GN=BHLH PE=3 SV=1
+Length=652
+
+ Score = 38.1 bits (87),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 15/53 (28%), Positives = 35/53 (66%), Gaps = 4/53 (8%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQQRAKDLENRQKKLE  53
+            +N+R   L +L+P       + +K +IL  +++Y+++L+++ +DLE R +++E
+Sbjct  480  LNERFIILRSLVPFVT----KMDKASILGDTIEYLKQLRRKIQDLETRNRQME  528
+
+
+> sp|Q9FUA4|SPT_ARATH Transcription factor SPATULA OS=Arabidopsis 
+thaliana OX=3702 GN=SPT PE=1 SV=1
+Length=373
+
+ Score = 37.7 bits (86),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 16/49 (33%), Positives = 32/49 (65%), Gaps = 4/49 (8%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQQRAKDLENRQ  49
+            IN+++K L +LIP SN    + +K ++L  +++Y+++LQ + + L  R 
+Sbjct  213  INEKMKALQSLIPNSN----KTDKASMLDEAIEYLKQLQLQVQMLTMRN  257
+
+
+> sp|Q9LSL1|BH093_ARATH Transcription factor bHLH93 OS=Arabidopsis 
+thaliana OX=3702 GN=BHLH93 PE=1 SV=1
+Length=351
+
+ Score = 37.7 bits (86),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 14/56 (25%), Positives = 37/56 (66%), Gaps = 4/56 (7%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQQRAKDLENRQKKLEHAN  56
+            +NDR+  L +++PK +    + ++ +IL  ++DY+++L  +   L++ +++L ++N
+Sbjct  190  LNDRLSMLRSIVPKIS----KMDRTSILGDAIDYMKELLDKINKLQDEEQELGNSN  241
+
+
+> sp|A0A286LEZ9|PSIR_PSICY Psilocybin cluster transcription regulator 
+OS=Psilocybe cyanescens OX=93625 GN=psiR PE=2 SV=1
+Length=370
+
+ Score = 37.4 bits (85),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 20/71 (28%), Positives = 38/71 (54%), Gaps = 7/71 (10%)
+
+Query  1    INDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQQ-RAKDLEN---RQKKLEHAN  56
+            IN+ I ELG ++P  +       KG IL  +V YI  L++  A+++E     +  ++ A 
+Sbjct  224  INEGINELGRIVPSGSGEKA---KGAILSRAVQYIHHLKENEARNIEKWTLEKLLMDQAM  280
+
+Query  57   RHLLLRVQELE  67
+              L  +++E++
+Sbjct  281  GDLQAQLEEIK  291
+
+
+> sp|P06171|MYC1_XENLA Transcriptional regulator Myc-A OS=Xenopus 
+laevis OX=8355 GN=myc-a PE=2 SV=1
+Length=419
+
+ Score = 36.6 bits (83),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 15/60 (25%), Positives = 29/60 (48%), Gaps = 1/60 (2%)
+
+Query  8    LGTLIPKSNDPDMRWNKGTILKASVDYIRKLQQRAKDLENRQKKLEHANRHLLLRVQELE  67
+            L   +P+    + +  K  ILK + +Y   LQ+  + L    ++L++    L  R+Q+L 
+Sbjct  358  LRDQVPEV-ASNEKAPKVVILKKATEYAISLQEDERRLIRETEQLKYRKEQLKQRLQQLR  416
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.334    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0411    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4984656824
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  1:45 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,827 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 5BU6:A
+
+Length=264
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P75906|PGAB_ECOLI Poly-beta-1,6-N-acetyl-D-glucosamine N-dea...  181     2e-51
+  sp|Q8XAR3|PGAB_ECO57 Poly-beta-1,6-N-acetyl-D-glucosamine N-dea...  180     3e-51
+  sp|Q5HKP8|ICAB_STAEQ Poly-beta-1,6-N-acetyl-D-glucosamine N-dea...  78.6    9e-16
+  sp|Q6TYB1|ICAB_STAEP Poly-beta-1,6-N-acetyl-D-glucosamine N-dea...  78.6    9e-16
+  sp|Q7A349|ICAB_STAAN Poly-beta-1,6-N-acetyl-D-glucosamine N-dea...  64.7    6e-11
+  sp|Q99QX2|ICAB_STAAM Poly-beta-1,6-N-acetyl-D-glucosamine N-dea...  64.7    6e-11
+  sp|Q8NUI6|ICAB_STAAW Poly-beta-1,6-N-acetyl-D-glucosamine N-dea...  64.7    6e-11
+  sp|Q6G606|ICAB_STAAS Poly-beta-1,6-N-acetyl-D-glucosamine N-dea...  64.7    6e-11
+  sp|Q9RQP7|ICAB_STAA8 Poly-beta-1,6-N-acetyl-D-glucosamine N-dea...  64.7    6e-11
+  sp|P31666|YADE_ECOLI Uncharacterized protein YadE OS=Escherichi...  65.5    7e-11
+  sp|Q5HCM9|ICAB_STAAC Poly-beta-1,6-N-acetyl-D-glucosamine N-dea...  64.7    7e-11
+  sp|Q6GDD6|ICAB_STAAR Poly-beta-1,6-N-acetyl-D-glucosamine N-dea...  64.3    9e-11
+  sp|P94361|YXKH_BACSU Putative polysaccharide deacetylase YxkH O...  56.6    4e-08
+
+
+> sp|P75906|PGAB_ECOLI Poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase 
+OS=Escherichia coli (strain K12) OX=83333 GN=pgaB 
+PE=1 SV=1
+Length=672
+
+ Score = 181 bits (458),  Expect = 2e-51, Method: Compositional matrix adjust.
+ Identities = 97/245 (40%), Positives = 139/245 (57%), Gaps = 12/245 (5%)
+
+Query  1    PDPDDGLTFRVLSMHDVRDNLRASFADMPDQ--FAIETRTLTDLFEWIRVKGFNPISMQQ  58
+            P P +G  F  +S H+V D       +  DQ   ++ T  L + F W+R  G+ P+S+ Q
+Sbjct  43   PWPHNG--FVAISWHNVED-------EAADQRFMSVRTSALREQFAWLRENGYQPVSIAQ  93
+
+Query  59   IIDSRAGVRPLPPRPILLTFDDGYASTYTKVFPLLAAFNYPAVVAVVTSWTDAPAGTKIR  118
+            I ++  G +PLP + ++LTFDDGY S YT+VFP+L AF +PAV A V SW D PA  +++
+Sbjct  94   IREAHRGGKPLPEKAVVLTFDDGYQSFYTRVFPILQAFQWPAVWAPVGSWVDTPADKQVK  153
+
+Query  119  LSPKIEVPHDFFMTWAQLREMAQSGLVELASHSHNLHRGVLANPQGNEQPAASSRQYLPA  178
+               ++ V  ++F TW Q+RE+A+S LVELASH+ N H G+ AN  G+  P   +R Y   
+Sbjct  154  FGDEL-VDREYFATWQQVREVARSRLVELASHTWNSHYGIQANATGSLLPVYVNRAYFTD  212
+
+Query  179  SGRYENDAEYRARVRQDLKTSAHLIRHHTGVTIRSIVWPYGAHNRDTDQVAAEVGLNIGL  238
+              RYE  AEYR R+R D       +R    V     VWPYG  N    +   ++G ++  
+Sbjct  213  HARYETAAEYRERIRLDAVKMTEYLRTKVEVNPHVFVWPYGEANGIAIEELKKLGYDMFF  272
+
+Query  239  TLQPG  243
+            TL+ G
+Sbjct  273  TLESG  277
+
+
+> sp|Q8XAR3|PGAB_ECO57 Poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase 
+OS=Escherichia coli O157:H7 OX=83334 GN=pgaB PE=3 
+SV=1
+Length=672
+
+ Score = 180 bits (457),  Expect = 3e-51, Method: Compositional matrix adjust.
+ Identities = 96/245 (39%), Positives = 139/245 (57%), Gaps = 12/245 (5%)
+
+Query  1    PDPDDGLTFRVLSMHDVRDNLRASFADMPDQ--FAIETRTLTDLFEWIRVKGFNPISMQQ  58
+            P P +G  F  +S H+V D       +  DQ   ++ T  L + F W+R  G+ P+S+ Q
+Sbjct  43   PWPHNG--FVAISWHNVED-------EAADQRFMSVRTSALREQFAWLRENGYQPVSIAQ  93
+
+Query  59   IIDSRAGVRPLPPRPILLTFDDGYASTYTKVFPLLAAFNYPAVVAVVTSWTDAPAGTKIR  118
+            I ++  G +PLP + ++LTFDDGY S YT+VFP+L AF +PAV A V SW D PA  +++
+Sbjct  94   IREAHRGGKPLPEKAVVLTFDDGYQSFYTRVFPILQAFQWPAVWAPVGSWVDTPADKQVK  153
+
+Query  119  LSPKIEVPHDFFMTWAQLREMAQSGLVELASHSHNLHRGVLANPQGNEQPAASSRQYLPA  178
+               ++ V  ++F TW Q+RE+A+S LVELASH+ N H G+ AN  G+  P   +R Y   
+Sbjct  154  FGDEL-VDREYFATWQQVREVARSRLVELASHTWNSHYGIQANATGSLLPVYVNRAYFTD  212
+
+Query  179  SGRYENDAEYRARVRQDLKTSAHLIRHHTGVTIRSIVWPYGAHNRDTDQVAAEVGLNIGL  238
+              RYE  AEYR R+R D       +R    V     +WPYG  N    +   ++G ++  
+Sbjct  213  HARYETAAEYRERIRLDAVKMTEYLRTKVEVNPHVFIWPYGEANGIAIEELKKLGYDMFF  272
+
+Query  239  TLQPG  243
+            TL+ G
+Sbjct  273  TLESG  277
+
+
+> sp|Q5HKP8|ICAB_STAEQ Poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase 
+OS=Staphylococcus epidermidis (strain ATCC 35984 
+/ RP62A) OX=176279 GN=icaB PE=3 SV=1
+Length=289
+
+ Score = 78.6 bits (192),  Expect = 9e-16, Method: Compositional matrix adjust.
+ Identities = 54/228 (24%), Positives = 99/228 (43%), Gaps = 31/228 (14%)
+
+Query  32   FAIETRTLTDLFEWIRVKGFNPISMQQIIDSRAGVRPLPPRPILLTFDDGYASTYTKVFP  91
+            +++  +      +W++      +++++ I  +   +  P R + + FDD   + Y   FP
+Sbjct  74   YSVTDQEFKSQIQWLKAHDAKFLTLKEFIKYKEKGK-FPKRSVWINFDDMDQTIYDNAFP  132
+
+Query  92   LLAAFNYPAVVAVVTSWTDAPAGTKIRLSPKIEVPHDFFMTWAQLREMAQSGLVELASHS  151
+            +L  ++ PA   ++T+   +     + L  K            QL EM ++GL +  SH+
+Sbjct  133  VLKKYHIPATGFLITNHIGSTNFHNLNLLSK-----------KQLDEMYETGLWDFESHT  181
+
+Query  152  HNLHRGVLANPQGNEQPAASSRQYLPASGRYENDAEYRARVRQDLKTSAHLIRHHTGVTI  211
+            H+LH    A  +GN+     S Q + +               +D+K S H +  +     
+Sbjct  182  HDLH----ALKKGNKSKFLDSSQSVAS---------------KDIKKSEHYLNKNYPKNE  222
+
+Query  212  RSIVWPYGAHNRDTDQVAAEVGLNIGLTLQPGPNTPDVALTQIRRSLV  259
+            R++ +PYG  N D  +   + G+  G TLQ    TPD    +I R LV
+Sbjct  223  RALAYPYGLINDDKIKAMKKNGIQYGFTLQEKAVTPDADNYRIPRILV  270
+
+
+> sp|Q6TYB1|ICAB_STAEP Poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase 
+OS=Staphylococcus epidermidis OX=1282 GN=icaB PE=1 
+SV=2
+Length=289
+
+ Score = 78.6 bits (192),  Expect = 9e-16, Method: Compositional matrix adjust.
+ Identities = 54/228 (24%), Positives = 99/228 (43%), Gaps = 31/228 (14%)
+
+Query  32   FAIETRTLTDLFEWIRVKGFNPISMQQIIDSRAGVRPLPPRPILLTFDDGYASTYTKVFP  91
+            +++  +      +W++      +++++ I  +   +  P R + + FDD   + Y   FP
+Sbjct  74   YSVTDQEFKSQIQWLKAHDAKFLTLKEFIKYKEKGK-FPKRSVWINFDDMDQTIYDNAFP  132
+
+Query  92   LLAAFNYPAVVAVVTSWTDAPAGTKIRLSPKIEVPHDFFMTWAQLREMAQSGLVELASHS  151
+            +L  ++ PA   ++T+   +     + L  K            QL EM ++GL +  SH+
+Sbjct  133  VLKKYHIPATGFLITNHIGSTNFHNLNLLSK-----------KQLDEMYETGLWDFESHT  181
+
+Query  152  HNLHRGVLANPQGNEQPAASSRQYLPASGRYENDAEYRARVRQDLKTSAHLIRHHTGVTI  211
+            H+LH    A  +GN+     S Q + +               +D+K S H +  +     
+Sbjct  182  HDLH----ALKKGNKSKFLDSSQSVAS---------------KDIKKSEHYLNKNYPKNE  222
+
+Query  212  RSIVWPYGAHNRDTDQVAAEVGLNIGLTLQPGPNTPDVALTQIRRSLV  259
+            R++ +PYG  N D  +   + G+  G TLQ    TPD    +I R LV
+Sbjct  223  RALAYPYGLINDDKIKAMKKNGIQYGFTLQEKAVTPDADNYRIPRILV  270
+
+
+> sp|Q7A349|ICAB_STAAN Poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase 
+OS=Staphylococcus aureus (strain N315) OX=158879 
+GN=icaB PE=3 SV=1
+Length=290
+
+ Score = 64.7 bits (156),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 48/229 (21%), Positives = 94/229 (41%), Gaps = 31/229 (14%)
+
+Query  31   QFAIETRTLTDLFEWIRVKGFNPISMQQIIDSRAGVRPLPPRPILLTFDDGYASTYTKVF  90
+             +++         +W++      +++++ +  +   +  P R + + FDD   + Y   +
+Sbjct  74   NYSVSQSQFESQIKWLKSHDAKFLTLKEFLYYKKKGK-FPKRSVWINFDDMDETIYENAY  132
+
+Query  91   PLLAAFNYPAVVAVVTSWTDAPAGTKIRLSPKIEVPHDFFMTWAQLREMAQSGLVELASH  150
+            P+L  +  PA   ++T          + +  K E           L+EM ++GL E  +H
+Sbjct  133  PILKKYKIPATGFIITGHVGEENFHNLDMISKKE-----------LKEMYKTGLWEFETH  181
+
+Query  151  SHNLHRGVLANPQGNEQPAASSRQYLPASGRYENDAEYRARVRQDLKTSAHLIRHHTGVT  210
+            +H+LH     N   N +      + + AS          A + +DL  S   +  +   +
+Sbjct  182  THDLH-----NLSKNNKS-----KLMKAS---------EATIIKDLNKSEKYLTKNFKKS  222
+
+Query  211  IRSIVWPYGAHNRDTDQVAAEVGLNIGLTLQPGPNTPDVALTQIRRSLV  259
+             ++I +PYG  N D   V  + GL  G +L+    TP+     I R L+
+Sbjct  223  QKTIAYPYGLMNDDKLPVIKKAGLKYGFSLEEKAVTPNSNDYYIPRILI  271
+
+
+> sp|Q99QX2|ICAB_STAAM Poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase 
+OS=Staphylococcus aureus (strain Mu50 / ATCC 700699) 
+OX=158878 GN=icaB PE=3 SV=1
+Length=290
+
+ Score = 64.7 bits (156),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 48/229 (21%), Positives = 94/229 (41%), Gaps = 31/229 (14%)
+
+Query  31   QFAIETRTLTDLFEWIRVKGFNPISMQQIIDSRAGVRPLPPRPILLTFDDGYASTYTKVF  90
+             +++         +W++      +++++ +  +   +  P R + + FDD   + Y   +
+Sbjct  74   NYSVSQSQFESQIKWLKSHDAKFLTLKEFLYYKKKGK-FPKRSVWINFDDMDETIYENAY  132
+
+Query  91   PLLAAFNYPAVVAVVTSWTDAPAGTKIRLSPKIEVPHDFFMTWAQLREMAQSGLVELASH  150
+            P+L  +  PA   ++T          + +  K E           L+EM ++GL E  +H
+Sbjct  133  PILKKYKIPATGFIITGHVGEENFHNLDMISKKE-----------LKEMYKTGLWEFETH  181
+
+Query  151  SHNLHRGVLANPQGNEQPAASSRQYLPASGRYENDAEYRARVRQDLKTSAHLIRHHTGVT  210
+            +H+LH     N   N +      + + AS          A + +DL  S   +  +   +
+Sbjct  182  THDLH-----NLSKNNKS-----KLMKAS---------EATIIKDLNKSEKYLTKNFKKS  222
+
+Query  211  IRSIVWPYGAHNRDTDQVAAEVGLNIGLTLQPGPNTPDVALTQIRRSLV  259
+             ++I +PYG  N D   V  + GL  G +L+    TP+     I R L+
+Sbjct  223  QKTIAYPYGLMNDDKLPVIKKAGLKYGFSLEEKAVTPNSNDYYIPRILI  271
+
+
+> sp|Q8NUI6|ICAB_STAAW Poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase 
+OS=Staphylococcus aureus (strain MW2) OX=196620 GN=icaB 
+PE=3 SV=1
+Length=290
+
+ Score = 64.7 bits (156),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 48/229 (21%), Positives = 94/229 (41%), Gaps = 31/229 (14%)
+
+Query  31   QFAIETRTLTDLFEWIRVKGFNPISMQQIIDSRAGVRPLPPRPILLTFDDGYASTYTKVF  90
+             +++         +W++      +++++ +  +   +  P R + + FDD   + Y   +
+Sbjct  74   NYSVSQSQFESQIKWLKSHDAKFLTLKEFLYYKKKGK-FPKRSVWINFDDMDETIYENAY  132
+
+Query  91   PLLAAFNYPAVVAVVTSWTDAPAGTKIRLSPKIEVPHDFFMTWAQLREMAQSGLVELASH  150
+            P+L  +  PA   ++T          + +  K E           L+EM ++GL E  +H
+Sbjct  133  PILKKYKIPATGFIITGHVGEENFHNLDMISKKE-----------LKEMYKTGLWEFETH  181
+
+Query  151  SHNLHRGVLANPQGNEQPAASSRQYLPASGRYENDAEYRARVRQDLKTSAHLIRHHTGVT  210
+            +H+LH     N   N +      + + AS          A + +DL  S   +  +   +
+Sbjct  182  THDLH-----NLSKNNKS-----KLMKAS---------EATIIKDLNKSEKYLTKNFKKS  222
+
+Query  211  IRSIVWPYGAHNRDTDQVAAEVGLNIGLTLQPGPNTPDVALTQIRRSLV  259
+             ++I +PYG  N D   V  + GL  G +L+    TP+     I R L+
+Sbjct  223  QKTIAYPYGLMNDDKLPVIKKAGLKYGFSLEEKAVTPNSNDYYIPRILI  271
+
+
+> sp|Q6G606|ICAB_STAAS Poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase 
+OS=Staphylococcus aureus (strain MSSA476) OX=282459 
+GN=icaB PE=3 SV=1
+Length=290
+
+ Score = 64.7 bits (156),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 48/229 (21%), Positives = 94/229 (41%), Gaps = 31/229 (14%)
+
+Query  31   QFAIETRTLTDLFEWIRVKGFNPISMQQIIDSRAGVRPLPPRPILLTFDDGYASTYTKVF  90
+             +++         +W++      +++++ +  +   +  P R + + FDD   + Y   +
+Sbjct  74   NYSVSQSQFESQIKWLKSHDAKFLTLKEFLYYKKKGK-FPKRSVWINFDDMDETIYENAY  132
+
+Query  91   PLLAAFNYPAVVAVVTSWTDAPAGTKIRLSPKIEVPHDFFMTWAQLREMAQSGLVELASH  150
+            P+L  +  PA   ++T          + +  K E           L+EM ++GL E  +H
+Sbjct  133  PILKKYKIPATGFIITGHVGEENFHNLDMISKKE-----------LKEMYKTGLWEFETH  181
+
+Query  151  SHNLHRGVLANPQGNEQPAASSRQYLPASGRYENDAEYRARVRQDLKTSAHLIRHHTGVT  210
+            +H+LH     N   N +      + + AS          A + +DL  S   +  +   +
+Sbjct  182  THDLH-----NLSKNNKS-----KLMKAS---------EATIIKDLNKSEKYLTKNFKKS  222
+
+Query  211  IRSIVWPYGAHNRDTDQVAAEVGLNIGLTLQPGPNTPDVALTQIRRSLV  259
+             ++I +PYG  N D   V  + GL  G +L+    TP+     I R L+
+Sbjct  223  QKTIAYPYGLMNDDKLPVIKKAGLKYGFSLEEKAVTPNSNDYYIPRILI  271
+
+
+> sp|Q9RQP7|ICAB_STAA8 Poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase 
+OS=Staphylococcus aureus (strain NCTC 8325 / PS 47) 
+OX=93061 GN=icaB PE=3 SV=2
+Length=290
+
+ Score = 64.7 bits (156),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 48/229 (21%), Positives = 94/229 (41%), Gaps = 31/229 (14%)
+
+Query  31   QFAIETRTLTDLFEWIRVKGFNPISMQQIIDSRAGVRPLPPRPILLTFDDGYASTYTKVF  90
+             +++         +W++      +++++ +  +   +  P R + + FDD   + Y   +
+Sbjct  74   NYSVSQSQFESQIKWLKSHDAKFLTLKEFLYYKKKGK-FPKRSVWINFDDMDETIYENAY  132
+
+Query  91   PLLAAFNYPAVVAVVTSWTDAPAGTKIRLSPKIEVPHDFFMTWAQLREMAQSGLVELASH  150
+            P+L  +  PA   ++T          + +  K E           L+EM ++GL E  +H
+Sbjct  133  PILKKYKIPATGFIITGHVGEENFHNLDMISKKE-----------LKEMYKTGLWEFETH  181
+
+Query  151  SHNLHRGVLANPQGNEQPAASSRQYLPASGRYENDAEYRARVRQDLKTSAHLIRHHTGVT  210
+            +H+LH     N   N +      + + AS          A + +DL  S   +  +   +
+Sbjct  182  THDLH-----NLSKNNKS-----KLMKAS---------EATIIKDLNKSEKYLTKNFKKS  222
+
+Query  211  IRSIVWPYGAHNRDTDQVAAEVGLNIGLTLQPGPNTPDVALTQIRRSLV  259
+             ++I +PYG  N D   V  + GL  G +L+    TP+     I R L+
+Sbjct  223  QKTIAYPYGLMNDDKLPVIKKAGLKYGFSLEEKAVTPNSNDYYIPRILI  271
+
+
+> sp|P31666|YADE_ECOLI Uncharacterized protein YadE OS=Escherichia 
+coli (strain K12) OX=83333 GN=yadE PE=3 SV=2
+Length=409
+
+ Score = 65.5 bits (158),  Expect = 7e-11, Method: Compositional matrix adjust.
+ Identities = 64/248 (26%), Positives = 108/248 (44%), Gaps = 38/248 (15%)
+
+Query  3    PDDGLTFRVLSMHDV-RDNLRASFADMPDQFAIETRTLTDLFEWIRVKGFNPISMQQIID  61
+            PD+GL+  VL+ H + RD     F       ++  R   +   W+R +G+  +SM Q+  
+Sbjct  166  PDNGLS--VLTYHHILRDEENTRFRHTSTTTSV--RAFNNQMAWLRDRGYATLSMVQLEG  221
+
+Query  62   SRAGVRPLPPRPILLTFDDGYASTYTKVFPLLAAFNYPAVVAVVTSWTDAPAGTKIRLSP  121
+                   LP R +++TFDDG  S     +P+L  +   A   +VTS        +I+  P
+Sbjct  222  YVKNKINLPARAVVITFDDGLKSVSRYAYPVLKQYGMKATAFIVTS--------RIKRHP  273
+
+Query  122  KIEVPHDF-FMTWAQLREMAQSGLVELASHSHNLHRGVLANPQGNEQPAASSRQYLPASG  180
+            +   P    FM+ ++L E+    + +  SH+H LHR       G  +P   SR       
+Sbjct  274  QKWNPKSLQFMSVSELNEIRD--VFDFQSHTHFLHR-----VDGYRRPILLSRS------  320
+
+Query  181  RYENDAEYR-ARVRQDLKTSAHLIRHHTGVTIRSIVWPYGAHNRDTDQVAAEVGLNIGLT  239
+              E++  +  AR R+ L   A    H     +  + +P+G  N +  + A + G ++ +T
+Sbjct  321  --EHNILFDFARSRRAL---AQFNPH-----VWYLSYPFGGFNDNAVKAANDAGFHLAVT  370
+
+Query  240  LQPGPNTP  247
+               G   P
+Sbjct  371  TMKGKVKP  378
+
+
+> sp|Q5HCM9|ICAB_STAAC Poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase 
+OS=Staphylococcus aureus (strain COL) OX=93062 GN=icaB 
+PE=3 SV=1
+Length=292
+
+ Score = 64.7 bits (156),  Expect = 7e-11, Method: Compositional matrix adjust.
+ Identities = 48/229 (21%), Positives = 94/229 (41%), Gaps = 31/229 (14%)
+
+Query  31   QFAIETRTLTDLFEWIRVKGFNPISMQQIIDSRAGVRPLPPRPILLTFDDGYASTYTKVF  90
+             +++         +W++      +++++ +  +   +  P R + + FDD   + Y   +
+Sbjct  74   NYSVSQSQFESQIKWLKSHDAKFLTLKEFLYYKKKGK-FPKRSVWINFDDMDETIYENAY  132
+
+Query  91   PLLAAFNYPAVVAVVTSWTDAPAGTKIRLSPKIEVPHDFFMTWAQLREMAQSGLVELASH  150
+            P+L  +  PA   ++T          + +  K E           L+EM ++GL E  +H
+Sbjct  133  PILKKYKIPATGFIITGHVGEENFHNLDMISKKE-----------LKEMYKTGLWEFETH  181
+
+Query  151  SHNLHRGVLANPQGNEQPAASSRQYLPASGRYENDAEYRARVRQDLKTSAHLIRHHTGVT  210
+            +H+LH     N   N +      + + AS          A + +DL  S   +  +   +
+Sbjct  182  THDLH-----NLSKNNKS-----KLMKAS---------EATIIKDLNKSEKYLTKNFKKS  222
+
+Query  211  IRSIVWPYGAHNRDTDQVAAEVGLNIGLTLQPGPNTPDVALTQIRRSLV  259
+             ++I +PYG  N D   V  + GL  G +L+    TP+     I R L+
+Sbjct  223  QKTIAYPYGLMNDDKLPVIKKAGLKYGFSLEEKAVTPNSNDYYIPRILI  271
+
+
+> sp|Q6GDD6|ICAB_STAAR Poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase 
+OS=Staphylococcus aureus (strain MRSA252) OX=282458 
+GN=icaB PE=3 SV=1
+Length=290
+
+ Score = 64.3 bits (155),  Expect = 9e-11, Method: Compositional matrix adjust.
+ Identities = 56/270 (21%), Positives = 109/270 (40%), Gaps = 43/270 (16%)
+
+Query  2    DPDDGLTFR-----VLSMHDVR-----DNLRASFADMPD--QFAIETRTLTDLFEWIRVK  49
+            DP   L ++      L+ H VR     +N    F+   +   +++         +W++  
+Sbjct  33   DPPKKLKYKENSALALNYHRVRKANFLNNFIYFFSSSKEIKNYSVSQSQFESQIKWLKSH  92
+
+Query  50   GFNPISMQQIIDSRAGVRPLPPRPILLTFDDGYASTYTKVFPLLAAFNYPAVVAVVTSWT  109
+                +++++ +  +   +  P R + + FDD   + Y   +P+L  +  PA   ++T   
+Sbjct  93   DAKFLTLKEFLYYKKKGK-FPKRSVWINFDDMDETIYENAYPILKKYKIPATGFIITGHV  151
+
+Query  110  DAPAGTKIRLSPKIEVPHDFFMTWAQLREMAQSGLVELASHSHNLHRGVLANPQGNEQPA  169
+                   + +  K E           L+EM ++GL E  +H+H++H     N   N +  
+Sbjct  152  GEENFHNLDMISKKE-----------LKEMYKTGLWEFETHTHDMH-----NLSKNNKS-  194
+
+Query  170  ASSRQYLPASGRYENDAEYRARVRQDLKTSAHLIRHHTGVTIRSIVWPYGAHNRDTDQVA  229
+                + + AS          A + +DL  S   +  +   + ++I +PYG  N D   V 
+Sbjct  195  ----KLMKAS---------EATIIKDLNKSEKYLTKNFKKSQKTIAYPYGLMNDDKLPVI  241
+
+Query  230  AEVGLNIGLTLQPGPNTPDVALTQIRRSLV  259
+             + GL  G +L+    TP+     I R L+
+Sbjct  242  KKAGLKYGFSLEEKAVTPNSNDYYIPRILI  271
+
+
+> sp|P94361|YXKH_BACSU Putative polysaccharide deacetylase YxkH 
+OS=Bacillus subtilis (strain 168) OX=224308 GN=yxkH PE=3 SV=1
+Length=279
+
+ Score = 56.6 bits (135),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 46/216 (21%), Positives = 87/216 (40%), Gaps = 48/216 (22%)
+
+Query  43   FEWIRVKGFNPISMQQIIDSRAGVRPLPPRPILLTFDDGYASTYTKVFPLLAAFNYPAVV  102
+             +W+   G+  ++ ++        +    + +L+TFDDGY   Y   +P+L  +   A +
+Sbjct  90   MKWLHDNGYQTLTPKEASLMLTQDKKPSEKCVLITFDDGYTDNYQDAYPVLKKYGMKATI  149
+
+Query  103  AVVTSWTDAPAGTKIRLSPKIEVPHDFFMTWAQLREMAQSGLVELASHS--HNLHRGVLA  160
+             ++                   + H   +T  Q++EMAQ G + + SH+  H    G+  
+Sbjct  150  FMIGK----------------SIGHKHHLTEEQMKEMAQHG-ISIESHTIDHLELNGL--  190
+
+Query  161  NPQGNEQPAASSRQYLPASGRYENDAEYRARVRQDLKTSAHLIRHHTGVTIRSIVWPYGA  220
+             PQ  +   A S++       ++N                     H   TI  I +P G 
+Sbjct  191  TPQQQQSEMADSKKL------FDN-------------------MFHQQTTI--ISYPVGR  223
+
+Query  221  HNRDTDQVAAEVGLNIGLTLQPGPNTPDVALTQIRR  256
+            +N +T + A + G  +G+T +PG  + D  +  + R
+Sbjct  224  YNEETLKAAEKTGYQMGVTTEPGAASRDQGMYALHR  259
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.135    0.408    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 20347269992
+Results from round 2
+
+
+Query= 5BU6:A
+
+Length=264
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P75906|PGAB_ECOLI Poly-beta-1,6-N-acetyl-D-glucosamine N-dea...  303     1e-97
+  sp|Q8XAR3|PGAB_ECO57 Poly-beta-1,6-N-acetyl-D-glucosamine N-dea...  302     2e-97
+  sp|Q6GDD6|ICAB_STAAR Poly-beta-1,6-N-acetyl-D-glucosamine N-dea...  262     2e-86
+  sp|Q8NUI6|ICAB_STAAW Poly-beta-1,6-N-acetyl-D-glucosamine N-dea...  259     2e-85
+  sp|Q6G606|ICAB_STAAS Poly-beta-1,6-N-acetyl-D-glucosamine N-dea...  259     2e-85
+  sp|Q9RQP7|ICAB_STAA8 Poly-beta-1,6-N-acetyl-D-glucosamine N-dea...  259     2e-85
+  sp|Q7A349|ICAB_STAAN Poly-beta-1,6-N-acetyl-D-glucosamine N-dea...  259     2e-85
+  sp|Q99QX2|ICAB_STAAM Poly-beta-1,6-N-acetyl-D-glucosamine N-dea...  259     2e-85
+  sp|Q5HCM9|ICAB_STAAC Poly-beta-1,6-N-acetyl-D-glucosamine N-dea...  259     2e-85
+  sp|Q5HKP8|ICAB_STAEQ Poly-beta-1,6-N-acetyl-D-glucosamine N-dea...  252     1e-82
+  sp|Q6TYB1|ICAB_STAEP Poly-beta-1,6-N-acetyl-D-glucosamine N-dea...  252     1e-82
+  sp|P31666|YADE_ECOLI Uncharacterized protein YadE OS=Escherichi...  233     1e-73
+  sp|P94361|YXKH_BACSU Putative polysaccharide deacetylase YxkH O...  192     3e-59
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|P75906|PGAB_ECOLI Poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase 
+OS=Escherichia coli (strain K12) OX=83333 GN=pgaB 
+PE=1 SV=1
+Length=672
+
+ Score = 303 bits (774),  Expect = 1e-97, Method: Composition-based stats.
+ Identities = 100/261 (38%), Positives = 143/261 (55%), Gaps = 13/261 (5%)
+
+Query  1    PDPDDGLTFRVLSMHDVRDNLRASFADMPDQ--FAIETRTLTDLFEWIRVKGFNPISMQQ  58
+            P P +G  F  +S H+V D       +  DQ   ++ T  L + F W+R  G+ P+S+ Q
+Sbjct  43   PWPHNG--FVAISWHNVED-------EAADQRFMSVRTSALREQFAWLRENGYQPVSIAQ  93
+
+Query  59   IIDSRAGVRPLPPRPILLTFDDGYASTYTKVFPLLAAFNYPAVVAVVTSWTDAPAGTKIR  118
+            I ++  G +PLP + ++LTFDDGY S YT+VFP+L AF +PAV A V SW D PA  +++
+Sbjct  94   IREAHRGGKPLPEKAVVLTFDDGYQSFYTRVFPILQAFQWPAVWAPVGSWVDTPADKQVK  153
+
+Query  119  LSPKIEVPHDFFMTWAQLREMAQSGLVELASHSHNLHRGVLANPQGNEQPAASSRQYLPA  178
+               ++ V  ++F TW Q+RE+A+S LVELASH+ N H G+ AN  G+  P   +R Y   
+Sbjct  154  FGDEL-VDREYFATWQQVREVARSRLVELASHTWNSHYGIQANATGSLLPVYVNRAYFTD  212
+
+Query  179  SGRYENDAEYRARVRQDLKTSAHLIRHHTGVTIRSIVWPYGAHNRDTDQVAAEVGLNIGL  238
+              RYE  AEYR R+R D       +R    V     VWPYG  N    +   ++G ++  
+Sbjct  213  HARYETAAEYRERIRLDAVKMTEYLRTKVEVNPHVFVWPYGEANGIAIEELKKLGYDMFF  272
+
+Query  239  TLQPGPNTPDVALTQIRRSLV  259
+            TL+ G          I R L+
+Sbjct  273  TLESGLANASQLD-SIPRVLI  292
+
+
+> sp|Q8XAR3|PGAB_ECO57 Poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase 
+OS=Escherichia coli O157:H7 OX=83334 GN=pgaB PE=3 
+SV=1
+Length=672
+
+ Score = 302 bits (772),  Expect = 2e-97, Method: Composition-based stats.
+ Identities = 99/261 (38%), Positives = 143/261 (55%), Gaps = 13/261 (5%)
+
+Query  1    PDPDDGLTFRVLSMHDVRDNLRASFADMPDQ--FAIETRTLTDLFEWIRVKGFNPISMQQ  58
+            P P +G  F  +S H+V D       +  DQ   ++ T  L + F W+R  G+ P+S+ Q
+Sbjct  43   PWPHNG--FVAISWHNVED-------EAADQRFMSVRTSALREQFAWLRENGYQPVSIAQ  93
+
+Query  59   IIDSRAGVRPLPPRPILLTFDDGYASTYTKVFPLLAAFNYPAVVAVVTSWTDAPAGTKIR  118
+            I ++  G +PLP + ++LTFDDGY S YT+VFP+L AF +PAV A V SW D PA  +++
+Sbjct  94   IREAHRGGKPLPEKAVVLTFDDGYQSFYTRVFPILQAFQWPAVWAPVGSWVDTPADKQVK  153
+
+Query  119  LSPKIEVPHDFFMTWAQLREMAQSGLVELASHSHNLHRGVLANPQGNEQPAASSRQYLPA  178
+               ++ V  ++F TW Q+RE+A+S LVELASH+ N H G+ AN  G+  P   +R Y   
+Sbjct  154  FGDEL-VDREYFATWQQVREVARSRLVELASHTWNSHYGIQANATGSLLPVYVNRAYFTD  212
+
+Query  179  SGRYENDAEYRARVRQDLKTSAHLIRHHTGVTIRSIVWPYGAHNRDTDQVAAEVGLNIGL  238
+              RYE  AEYR R+R D       +R    V     +WPYG  N    +   ++G ++  
+Sbjct  213  HARYETAAEYRERIRLDAVKMTEYLRTKVEVNPHVFIWPYGEANGIAIEELKKLGYDMFF  272
+
+Query  239  TLQPGPNTPDVALTQIRRSLV  259
+            TL+ G          I R L+
+Sbjct  273  TLESGLANASQLD-SIPRVLI  292
+
+
+> sp|Q6GDD6|ICAB_STAAR Poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase 
+OS=Staphylococcus aureus (strain MRSA252) OX=282458 
+GN=icaB PE=3 SV=1
+Length=290
+
+ Score = 262 bits (668),  Expect = 2e-86, Method: Composition-based stats.
+ Identities = 56/270 (21%), Positives = 109/270 (40%), Gaps = 43/270 (16%)
+
+Query  2    DPDDGLTFR-----VLSMHDVR-----DNLRASFADMPD--QFAIETRTLTDLFEWIRVK  49
+            DP   L ++      L+ H VR     +N    F+   +   +++         +W++  
+Sbjct  33   DPPKKLKYKENSALALNYHRVRKANFLNNFIYFFSSSKEIKNYSVSQSQFESQIKWLKSH  92
+
+Query  50   GFNPISMQQIIDSRAGVRPLPPRPILLTFDDGYASTYTKVFPLLAAFNYPAVVAVVTSWT  109
+                +++++ +  +   +  P R + + FDD   + Y   +P+L  +  PA   ++T   
+Sbjct  93   DAKFLTLKEFLYYKKKGK-FPKRSVWINFDDMDETIYENAYPILKKYKIPATGFIITGHV  151
+
+Query  110  DAPAGTKIRLSPKIEVPHDFFMTWAQLREMAQSGLVELASHSHNLHRGVLANPQGNEQPA  169
+                   + +  K E           L+EM ++GL E  +H+H++H     N   N +  
+Sbjct  152  GEENFHNLDMISKKE-----------LKEMYKTGLWEFETHTHDMH-----NLSKNNKS-  194
+
+Query  170  ASSRQYLPASGRYENDAEYRARVRQDLKTSAHLIRHHTGVTIRSIVWPYGAHNRDTDQVA  229
+                + + AS          A + +DL  S   +  +   + ++I +PYG  N D   V 
+Sbjct  195  ----KLMKAS---------EATIIKDLNKSEKYLTKNFKKSQKTIAYPYGLMNDDKLPVI  241
+
+Query  230  AEVGLNIGLTLQPGPNTPDVALTQIRRSLV  259
+             + GL  G +L+    TP+     I R L+
+Sbjct  242  KKAGLKYGFSLEEKAVTPNSNDYYIPRILI  271
+
+
+> sp|Q8NUI6|ICAB_STAAW Poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase 
+OS=Staphylococcus aureus (strain MW2) OX=196620 GN=icaB 
+PE=3 SV=1
+Length=290
+
+ Score = 259 bits (662),  Expect = 2e-85, Method: Composition-based stats.
+ Identities = 56/270 (21%), Positives = 108/270 (40%), Gaps = 43/270 (16%)
+
+Query  2    DPDDGLTFR-----VLSMHDVR-----DNLRASFADMPD--QFAIETRTLTDLFEWIRVK  49
+            D    L ++      L+ H VR     +N    F+   +   +++         +W++  
+Sbjct  33   DSPKKLKYKENSALALNYHRVRKANFLNNFIYFFSSSKEIKNYSVSQSQFESQIKWLKSH  92
+
+Query  50   GFNPISMQQIIDSRAGVRPLPPRPILLTFDDGYASTYTKVFPLLAAFNYPAVVAVVTSWT  109
+                +++++ +  +   +  P R + + FDD   + Y   +P+L  +  PA   ++T   
+Sbjct  93   DAKFLTLKEFLYYKKKGK-FPKRSVWINFDDMDETIYENAYPILKKYKIPATGFIITGHV  151
+
+Query  110  DAPAGTKIRLSPKIEVPHDFFMTWAQLREMAQSGLVELASHSHNLHRGVLANPQGNEQPA  169
+                   + +  K E           L+EM ++GL E  +H+H+LH     N   N +  
+Sbjct  152  GEENFHNLDMISKKE-----------LKEMYKTGLWEFETHTHDLH-----NLSKNNKS-  194
+
+Query  170  ASSRQYLPASGRYENDAEYRARVRQDLKTSAHLIRHHTGVTIRSIVWPYGAHNRDTDQVA  229
+                + + AS          A + +DL  S   +  +   + ++I +PYG  N D   V 
+Sbjct  195  ----KLMKAS---------EATIIKDLNKSEKYLTKNFKKSQKTIAYPYGLMNDDKLPVI  241
+
+Query  230  AEVGLNIGLTLQPGPNTPDVALTQIRRSLV  259
+             + GL  G +L+    TP+     I R L+
+Sbjct  242  KKAGLKYGFSLEEKAVTPNSNDYYIPRILI  271
+
+
+> sp|Q6G606|ICAB_STAAS Poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase 
+OS=Staphylococcus aureus (strain MSSA476) OX=282459 
+GN=icaB PE=3 SV=1
+Length=290
+
+ Score = 259 bits (662),  Expect = 2e-85, Method: Composition-based stats.
+ Identities = 56/270 (21%), Positives = 108/270 (40%), Gaps = 43/270 (16%)
+
+Query  2    DPDDGLTFR-----VLSMHDVR-----DNLRASFADMPD--QFAIETRTLTDLFEWIRVK  49
+            D    L ++      L+ H VR     +N    F+   +   +++         +W++  
+Sbjct  33   DSPKKLKYKENSALALNYHRVRKANFLNNFIYFFSSSKEIKNYSVSQSQFESQIKWLKSH  92
+
+Query  50   GFNPISMQQIIDSRAGVRPLPPRPILLTFDDGYASTYTKVFPLLAAFNYPAVVAVVTSWT  109
+                +++++ +  +   +  P R + + FDD   + Y   +P+L  +  PA   ++T   
+Sbjct  93   DAKFLTLKEFLYYKKKGK-FPKRSVWINFDDMDETIYENAYPILKKYKIPATGFIITGHV  151
+
+Query  110  DAPAGTKIRLSPKIEVPHDFFMTWAQLREMAQSGLVELASHSHNLHRGVLANPQGNEQPA  169
+                   + +  K E           L+EM ++GL E  +H+H+LH     N   N +  
+Sbjct  152  GEENFHNLDMISKKE-----------LKEMYKTGLWEFETHTHDLH-----NLSKNNKS-  194
+
+Query  170  ASSRQYLPASGRYENDAEYRARVRQDLKTSAHLIRHHTGVTIRSIVWPYGAHNRDTDQVA  229
+                + + AS          A + +DL  S   +  +   + ++I +PYG  N D   V 
+Sbjct  195  ----KLMKAS---------EATIIKDLNKSEKYLTKNFKKSQKTIAYPYGLMNDDKLPVI  241
+
+Query  230  AEVGLNIGLTLQPGPNTPDVALTQIRRSLV  259
+             + GL  G +L+    TP+     I R L+
+Sbjct  242  KKAGLKYGFSLEEKAVTPNSNDYYIPRILI  271
+
+
+> sp|Q9RQP7|ICAB_STAA8 Poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase 
+OS=Staphylococcus aureus (strain NCTC 8325 / PS 47) 
+OX=93061 GN=icaB PE=3 SV=2
+Length=290
+
+ Score = 259 bits (662),  Expect = 2e-85, Method: Composition-based stats.
+ Identities = 56/270 (21%), Positives = 108/270 (40%), Gaps = 43/270 (16%)
+
+Query  2    DPDDGLTFR-----VLSMHDVR-----DNLRASFADMPD--QFAIETRTLTDLFEWIRVK  49
+            D    L ++      L+ H VR     +N    F+   +   +++         +W++  
+Sbjct  33   DSPKKLKYKENSALALNYHRVRKANFLNNFIYFFSSSKEIKNYSVSQSQFESQIKWLKSH  92
+
+Query  50   GFNPISMQQIIDSRAGVRPLPPRPILLTFDDGYASTYTKVFPLLAAFNYPAVVAVVTSWT  109
+                +++++ +  +   +  P R + + FDD   + Y   +P+L  +  PA   ++T   
+Sbjct  93   DAKFLTLKEFLYYKKKGK-FPKRSVWINFDDMDETIYENAYPILKKYKIPATGFIITGHV  151
+
+Query  110  DAPAGTKIRLSPKIEVPHDFFMTWAQLREMAQSGLVELASHSHNLHRGVLANPQGNEQPA  169
+                   + +  K E           L+EM ++GL E  +H+H+LH     N   N +  
+Sbjct  152  GEENFHNLDMISKKE-----------LKEMYKTGLWEFETHTHDLH-----NLSKNNKS-  194
+
+Query  170  ASSRQYLPASGRYENDAEYRARVRQDLKTSAHLIRHHTGVTIRSIVWPYGAHNRDTDQVA  229
+                + + AS          A + +DL  S   +  +   + ++I +PYG  N D   V 
+Sbjct  195  ----KLMKAS---------EATIIKDLNKSEKYLTKNFKKSQKTIAYPYGLMNDDKLPVI  241
+
+Query  230  AEVGLNIGLTLQPGPNTPDVALTQIRRSLV  259
+             + GL  G +L+    TP+     I R L+
+Sbjct  242  KKAGLKYGFSLEEKAVTPNSNDYYIPRILI  271
+
+
+> sp|Q7A349|ICAB_STAAN Poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase 
+OS=Staphylococcus aureus (strain N315) OX=158879 
+GN=icaB PE=3 SV=1
+Length=290
+
+ Score = 259 bits (661),  Expect = 2e-85, Method: Composition-based stats.
+ Identities = 56/270 (21%), Positives = 108/270 (40%), Gaps = 43/270 (16%)
+
+Query  2    DPDDGLTFR-----VLSMHDVR-----DNLRASFADMPD--QFAIETRTLTDLFEWIRVK  49
+            D    L ++      L+ H VR     +N    F+   +   +++         +W++  
+Sbjct  33   DSPKKLKYKENSALALNYHRVRKANFLNNFIYFFSSSKEIKNYSVSQSQFESQIKWLKSH  92
+
+Query  50   GFNPISMQQIIDSRAGVRPLPPRPILLTFDDGYASTYTKVFPLLAAFNYPAVVAVVTSWT  109
+                +++++ +  +   +  P R + + FDD   + Y   +P+L  +  PA   ++T   
+Sbjct  93   DAKFLTLKEFLYYKKKGK-FPKRSVWINFDDMDETIYENAYPILKKYKIPATGFIITGHV  151
+
+Query  110  DAPAGTKIRLSPKIEVPHDFFMTWAQLREMAQSGLVELASHSHNLHRGVLANPQGNEQPA  169
+                   + +  K E           L+EM ++GL E  +H+H+LH     N   N +  
+Sbjct  152  GEENFHNLDMISKKE-----------LKEMYKTGLWEFETHTHDLH-----NLSKNNKS-  194
+
+Query  170  ASSRQYLPASGRYENDAEYRARVRQDLKTSAHLIRHHTGVTIRSIVWPYGAHNRDTDQVA  229
+                + + AS          A + +DL  S   +  +   + ++I +PYG  N D   V 
+Sbjct  195  ----KLMKAS---------EATIIKDLNKSEKYLTKNFKKSQKTIAYPYGLMNDDKLPVI  241
+
+Query  230  AEVGLNIGLTLQPGPNTPDVALTQIRRSLV  259
+             + GL  G +L+    TP+     I R L+
+Sbjct  242  KKAGLKYGFSLEEKAVTPNSNDYYIPRILI  271
+
+
+> sp|Q99QX2|ICAB_STAAM Poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase 
+OS=Staphylococcus aureus (strain Mu50 / ATCC 700699) 
+OX=158878 GN=icaB PE=3 SV=1
+Length=290
+
+ Score = 259 bits (661),  Expect = 2e-85, Method: Composition-based stats.
+ Identities = 56/270 (21%), Positives = 108/270 (40%), Gaps = 43/270 (16%)
+
+Query  2    DPDDGLTFR-----VLSMHDVR-----DNLRASFADMPD--QFAIETRTLTDLFEWIRVK  49
+            D    L ++      L+ H VR     +N    F+   +   +++         +W++  
+Sbjct  33   DSPKKLKYKENSALALNYHRVRKANFLNNFIYFFSSSKEIKNYSVSQSQFESQIKWLKSH  92
+
+Query  50   GFNPISMQQIIDSRAGVRPLPPRPILLTFDDGYASTYTKVFPLLAAFNYPAVVAVVTSWT  109
+                +++++ +  +   +  P R + + FDD   + Y   +P+L  +  PA   ++T   
+Sbjct  93   DAKFLTLKEFLYYKKKGK-FPKRSVWINFDDMDETIYENAYPILKKYKIPATGFIITGHV  151
+
+Query  110  DAPAGTKIRLSPKIEVPHDFFMTWAQLREMAQSGLVELASHSHNLHRGVLANPQGNEQPA  169
+                   + +  K E           L+EM ++GL E  +H+H+LH     N   N +  
+Sbjct  152  GEENFHNLDMISKKE-----------LKEMYKTGLWEFETHTHDLH-----NLSKNNKS-  194
+
+Query  170  ASSRQYLPASGRYENDAEYRARVRQDLKTSAHLIRHHTGVTIRSIVWPYGAHNRDTDQVA  229
+                + + AS          A + +DL  S   +  +   + ++I +PYG  N D   V 
+Sbjct  195  ----KLMKAS---------EATIIKDLNKSEKYLTKNFKKSQKTIAYPYGLMNDDKLPVI  241
+
+Query  230  AEVGLNIGLTLQPGPNTPDVALTQIRRSLV  259
+             + GL  G +L+    TP+     I R L+
+Sbjct  242  KKAGLKYGFSLEEKAVTPNSNDYYIPRILI  271
+
+
+> sp|Q5HCM9|ICAB_STAAC Poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase 
+OS=Staphylococcus aureus (strain COL) OX=93062 GN=icaB 
+PE=3 SV=1
+Length=292
+
+ Score = 259 bits (661),  Expect = 2e-85, Method: Composition-based stats.
+ Identities = 56/270 (21%), Positives = 108/270 (40%), Gaps = 43/270 (16%)
+
+Query  2    DPDDGLTFR-----VLSMHDVR-----DNLRASFADMPD--QFAIETRTLTDLFEWIRVK  49
+            D    L ++      L+ H VR     +N    F+   +   +++         +W++  
+Sbjct  33   DSPKKLKYKENSALALNYHRVRKANFLNNFIYFFSSSKEIKNYSVSQSQFESQIKWLKSH  92
+
+Query  50   GFNPISMQQIIDSRAGVRPLPPRPILLTFDDGYASTYTKVFPLLAAFNYPAVVAVVTSWT  109
+                +++++ +  +   +  P R + + FDD   + Y   +P+L  +  PA   ++T   
+Sbjct  93   DAKFLTLKEFLYYKKKGK-FPKRSVWINFDDMDETIYENAYPILKKYKIPATGFIITGHV  151
+
+Query  110  DAPAGTKIRLSPKIEVPHDFFMTWAQLREMAQSGLVELASHSHNLHRGVLANPQGNEQPA  169
+                   + +  K E           L+EM ++GL E  +H+H+LH     N   N +  
+Sbjct  152  GEENFHNLDMISKKE-----------LKEMYKTGLWEFETHTHDLH-----NLSKNNKS-  194
+
+Query  170  ASSRQYLPASGRYENDAEYRARVRQDLKTSAHLIRHHTGVTIRSIVWPYGAHNRDTDQVA  229
+                + + AS          A + +DL  S   +  +   + ++I +PYG  N D   V 
+Sbjct  195  ----KLMKAS---------EATIIKDLNKSEKYLTKNFKKSQKTIAYPYGLMNDDKLPVI  241
+
+Query  230  AEVGLNIGLTLQPGPNTPDVALTQIRRSLV  259
+             + GL  G +L+    TP+     I R L+
+Sbjct  242  KKAGLKYGFSLEEKAVTPNSNDYYIPRILI  271
+
+
+> sp|Q5HKP8|ICAB_STAEQ Poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase 
+OS=Staphylococcus epidermidis (strain ATCC 35984 
+/ RP62A) OX=176279 GN=icaB PE=3 SV=1
+Length=289
+
+ Score = 252 bits (643),  Expect = 1e-82, Method: Composition-based stats.
+ Identities = 58/256 (23%), Positives = 109/256 (43%), Gaps = 38/256 (15%)
+
+Query  11   VLSMHDVR-----DNLRASFADMPD--QFAIETRTLTDLFEWIRVKGFNPISMQQIIDSR  63
+             L+ H VR     ++  +  +   +   +++  +      +W++      +++++ I  +
+Sbjct  46   ALNYHRVRKKDPLNDFISLLSGSKEIKNYSVTDQEFKSQIQWLKAHDAKFLTLKEFIKYK  105
+
+Query  64   AGVRPLPPRPILLTFDDGYASTYTKVFPLLAAFNYPAVVAVVTSWTDAPAGTKIRLSPKI  123
+               +  P R + + FDD   + Y   FP+L  ++ PA   ++T+   +     + L  K 
+Sbjct  106  EKGK-FPKRSVWINFDDMDQTIYDNAFPVLKKYHIPATGFLITNHIGSTNFHNLNLLSKK  164
+
+Query  124  EVPHDFFMTWAQLREMAQSGLVELASHSHNLHRGVLANPQGNEQPAASSRQYLPASGRYE  183
+                       QL EM ++GL +  SH+H+LH    A  +GN+     S Q + +     
+Sbjct  165  -----------QLDEMYETGLWDFESHTHDLH----ALKKGNKSKFLDSSQSVAS-----  204
+
+Query  184  NDAEYRARVRQDLKTSAHLIRHHTGVTIRSIVWPYGAHNRDTDQVAAEVGLNIGLTLQPG  243
+                      +D+K S H +  +     R++ +PYG  N D  +   + G+  G TLQ  
+Sbjct  205  ----------KDIKKSEHYLNKNYPKNERALAYPYGLINDDKIKAMKKNGIQYGFTLQEK  254
+
+Query  244  PNTPDVALTQIRRSLV  259
+              TPD    +I R LV
+Sbjct  255  AVTPDADNYRIPRILV  270
+
+
+> sp|Q6TYB1|ICAB_STAEP Poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase 
+OS=Staphylococcus epidermidis OX=1282 GN=icaB PE=1 
+SV=2
+Length=289
+
+ Score = 252 bits (643),  Expect = 1e-82, Method: Composition-based stats.
+ Identities = 58/256 (23%), Positives = 109/256 (43%), Gaps = 38/256 (15%)
+
+Query  11   VLSMHDVR-----DNLRASFADMPD--QFAIETRTLTDLFEWIRVKGFNPISMQQIIDSR  63
+             L+ H VR     ++  +  +   +   +++  +      +W++      +++++ I  +
+Sbjct  46   ALNYHRVRKKDPLNDFISLLSGSKEIKNYSVTDQEFKSQIQWLKAHDAKFLTLKEFIKYK  105
+
+Query  64   AGVRPLPPRPILLTFDDGYASTYTKVFPLLAAFNYPAVVAVVTSWTDAPAGTKIRLSPKI  123
+               +  P R + + FDD   + Y   FP+L  ++ PA   ++T+   +     + L  K 
+Sbjct  106  EKGK-FPKRSVWINFDDMDQTIYDNAFPVLKKYHIPATGFLITNHIGSTNFHNLNLLSKK  164
+
+Query  124  EVPHDFFMTWAQLREMAQSGLVELASHSHNLHRGVLANPQGNEQPAASSRQYLPASGRYE  183
+                       QL EM ++GL +  SH+H+LH    A  +GN+     S Q + +     
+Sbjct  165  -----------QLDEMYETGLWDFESHTHDLH----ALKKGNKSKFLDSSQSVAS-----  204
+
+Query  184  NDAEYRARVRQDLKTSAHLIRHHTGVTIRSIVWPYGAHNRDTDQVAAEVGLNIGLTLQPG  243
+                      +D+K S H +  +     R++ +PYG  N D  +   + G+  G TLQ  
+Sbjct  205  ----------KDIKKSEHYLNKNYPKNERALAYPYGLINDDKIKAMKKNGIQYGFTLQEK  254
+
+Query  244  PNTPDVALTQIRRSLV  259
+              TPD    +I R LV
+Sbjct  255  AVTPDADNYRIPRILV  270
+
+
+> sp|P31666|YADE_ECOLI Uncharacterized protein YadE OS=Escherichia 
+coli (strain K12) OX=83333 GN=yadE PE=3 SV=2
+Length=409
+
+ Score = 233 bits (594),  Expect = 1e-73, Method: Composition-based stats.
+ Identities = 65/260 (25%), Positives = 112/260 (43%), Gaps = 38/260 (15%)
+
+Query  3    PDDGLTFRVLSMHDV-RDNLRASFADMPDQFAIETRTLTDLFEWIRVKGFNPISMQQIID  61
+            PD+GL+  VL+ H + RD     F       ++  R   +   W+R +G+  +SM Q+  
+Sbjct  166  PDNGLS--VLTYHHILRDEENTRFRHTSTTTSV--RAFNNQMAWLRDRGYATLSMVQLEG  221
+
+Query  62   SRAGVRPLPPRPILLTFDDGYASTYTKVFPLLAAFNYPAVVAVVTSWTDAPAGTKIRLSP  121
+                   LP R +++TFDDG  S     +P+L  +   A   +VTS        +I+  P
+Sbjct  222  YVKNKINLPARAVVITFDDGLKSVSRYAYPVLKQYGMKATAFIVTS--------RIKRHP  273
+
+Query  122  KIEVPHDF-FMTWAQLREMAQSGLVELASHSHNLHRGVLANPQGNEQPAASSRQYLPASG  180
+            +   P    FM+ ++L E+    + +  SH+H LHR       G  +P   SR       
+Sbjct  274  QKWNPKSLQFMSVSELNEIRD--VFDFQSHTHFLHR-----VDGYRRPILLSRS------  320
+
+Query  181  RYENDAEYR-ARVRQDLKTSAHLIRHHTGVTIRSIVWPYGAHNRDTDQVAAEVGLNIGLT  239
+              E++  +  AR R+ L   A    H     +  + +P+G  N +  + A + G ++ +T
+Sbjct  321  --EHNILFDFARSRRAL---AQFNPH-----VWYLSYPFGGFNDNAVKAANDAGFHLAVT  370
+
+Query  240  LQPGPNTPDVALTQIRRSLV  259
+               G   P      ++R  +
+Sbjct  371  TMKGKVKPGDNPLLLKRLYI  390
+
+
+> sp|P94361|YXKH_BACSU Putative polysaccharide deacetylase YxkH 
+OS=Bacillus subtilis (strain 168) OX=224308 GN=yxkH PE=3 SV=1
+Length=279
+
+ Score = 192 bits (487),  Expect = 3e-59, Method: Composition-based stats.
+ Identities = 46/252 (18%), Positives = 90/252 (36%), Gaps = 53/252 (21%)
+
+Query  8    TFRVLSMHDVRDNLRASFADMPDQFAIETRTLTDLFEWIRVKGFNPISMQQIIDSRAGVR  67
+               +L  H +            +   +  +      +W+   G+  ++ ++        +
+Sbjct  64   KLPILMYHSI---------SSGNSLRVPKKEFEAHMKWLHDNGYQTLTPKEASLMLTQDK  114
+
+Query  68   PLPPRPILLTFDDGYASTYTKVFPLLAAFNYPAVVAVVTSWTDAPAGTKIRLSPKIEVPH  127
+                + +L+TFDDGY   Y   +P+L  +   A + ++                   + H
+Sbjct  115  KPSEKCVLITFDDGYTDNYQDAYPVLKKYGMKATIFMIG----------------KSIGH  158
+
+Query  128  DFFMTWAQLREMAQSGLVELASHSHNLHRGVLANPQGNEQPAASSRQYLPASGRYENDAE  187
+               +T  Q++EMAQ G + + SH+ +        PQ  +   A S++             
+Sbjct  159  KHHLTEEQMKEMAQHG-ISIESHTIDHLELNGLTPQQQQSEMADSKKLFD----------  207
+
+Query  188  YRARVRQDLKTSAHLIRHHTGVTIRSIVWPYGAHNRDTDQVAAEVGLNIGLTLQPGPNTP  247
+                              H   TI  I +P G +N +T + A + G  +G+T +PG  + 
+Sbjct  208  ---------------NMFHQQTTI--ISYPVGRYNEETLKAAEKTGYQMGVTTEPGAASR  250
+
+Query  248  DVALTQIRRSLV  259
+            D  +  + R  V
+Sbjct  251  DQGMYALHRVRV  262
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.111    0.272    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0341    0.140     1.90     42.6     43.6 
+
+Effective search space used: 20347269992
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  1:45 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

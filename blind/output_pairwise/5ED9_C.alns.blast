@@ -1,0 +1,155 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 5ED9:C
+
+Length=63
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q8BJS4|SUN2_MOUSE SUN domain-containing protein 2 OS=Mus mus...  122     3e-33
+  sp|Q9UH99|SUN2_HUMAN SUN domain-containing protein 2 OS=Homo sa...  96.7    3e-24
+
+
+> sp|Q8BJS4|SUN2_MOUSE SUN domain-containing protein 2 OS=Mus musculus 
+OX=10090 GN=Sun2 PE=1 SV=3
+Length=731
+
+ Score = 122 bits (305),  Expect = 3e-33, Method: Compositional matrix adjust.
+ Identities = 62/63 (98%), Positives = 63/63 (100%), Gaps = 0/63 (0%)
+
+Query  1    FKSMTQEAFQESSVKELGRLEAQLASLRQELAALTLKQNSVADEVGLLPQKIQAARADVE  60
+            +KSMTQEAFQESSVKELGRLEAQLASLRQELAALTLKQNSVADEVGLLPQKIQAARADVE
+Sbjct  409  WKSMTQEAFQESSVKELGRLEAQLASLRQELAALTLKQNSVADEVGLLPQKIQAARADVE  468
+
+Query  61   SQF  63
+            SQF
+Sbjct  469  SQF  471
+
+
+> sp|Q9UH99|SUN2_HUMAN SUN domain-containing protein 2 OS=Homo 
+sapiens OX=9606 GN=SUN2 PE=1 SV=3
+Length=717
+
+ Score = 96.7 bits (239),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 50/63 (79%), Positives = 57/63 (90%), Gaps = 0/63 (0%)
+
+Query  1    FKSMTQEAFQESSVKELGRLEAQLASLRQELAALTLKQNSVADEVGLLPQKIQAARADVE  60
+            ++SMTQE+FQESSVKEL RLE QLA L+QELAAL LKQ+SVA+EVGLLPQ+IQA R DVE
+Sbjct  395  WQSMTQESFQESSVKELRRLEDQLAGLQQELAALALKQSSVAEEVGLLPQQIQAVRDDVE  454
+
+Query  61   SQF  63
+            SQF
+Sbjct  455  SQF  457
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.123    0.300    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5126553488
+Results from round 2
+
+
+Query= 5ED9:C
+
+Length=63
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q8BJS4|SUN2_MOUSE SUN domain-containing protein 2 OS=Mus mus...  111     2e-29
+  sp|Q9UH99|SUN2_HUMAN SUN domain-containing protein 2 OS=Homo sa...  107     4e-28
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q8BJS4|SUN2_MOUSE SUN domain-containing protein 2 OS=Mus musculus 
+OX=10090 GN=Sun2 PE=1 SV=3
+Length=731
+
+ Score = 111 bits (277),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 62/63 (98%), Positives = 63/63 (100%), Gaps = 0/63 (0%)
+
+Query  1    FKSMTQEAFQESSVKELGRLEAQLASLRQELAALTLKQNSVADEVGLLPQKIQAARADVE  60
+            +KSMTQEAFQESSVKELGRLEAQLASLRQELAALTLKQNSVADEVGLLPQKIQAARADVE
+Sbjct  409  WKSMTQEAFQESSVKELGRLEAQLASLRQELAALTLKQNSVADEVGLLPQKIQAARADVE  468
+
+Query  61   SQF  63
+            SQF
+Sbjct  469  SQF  471
+
+
+> sp|Q9UH99|SUN2_HUMAN SUN domain-containing protein 2 OS=Homo 
+sapiens OX=9606 GN=SUN2 PE=1 SV=3
+Length=717
+
+ Score = 107 bits (267),  Expect = 4e-28, Method: Composition-based stats.
+ Identities = 50/63 (79%), Positives = 57/63 (90%), Gaps = 0/63 (0%)
+
+Query  1    FKSMTQEAFQESSVKELGRLEAQLASLRQELAALTLKQNSVADEVGLLPQKIQAARADVE  60
+            ++SMTQE+FQESSVKEL RLE QLA L+QELAAL LKQ+SVA+EVGLLPQ+IQA R DVE
+Sbjct  395  WQSMTQESFQESSVKELRRLEDQLAGLQQELAALALKQSSVAEEVGLLPQQIQAVRDDVE  454
+
+Query  61   SQF  63
+            SQF
+Sbjct  455  SQF  457
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.124    0.299    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0380    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5126553488
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  1:45 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

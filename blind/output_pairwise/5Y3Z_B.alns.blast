@@ -1,0 +1,2339 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 5Y3Z:B
+
+Length=142
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P55892|MOTB_SALTY Motility protein B OS=Salmonella typhimuri...  288     2e-98
+  sp|P0AF06|MOTB_ECOLI Motility protein B OS=Escherichia coli (st...  278     2e-94
+  sp|P0AF07|MOTB_ECO57 Motility protein B OS=Escherichia coli O15...  278     2e-94
+  sp|Q47154|LAFU_ECOLI Putative truncated flagellar export/assemb...  116     3e-32
+  sp|D3GSC3|LAFU_ECO44 Putative flagellar export/assembly protein...  114     1e-30
+  sp|Q03478|LAFU_VIBPA Chemotaxis protein LafU OS=Vibrio parahaem...  102     1e-25
+  sp|P39064|YTXE_BACSU Uncharacterized protein YtxE OS=Bacillus s...  50.4    5e-07
+  sp|P46827|YTXE_BACME Uncharacterized 24.6 kDa protein in ccpA 3...  48.5    2e-06
+  sp|P28612|MOTB_BACSU Motility protein B OS=Bacillus subtilis (s...  43.1    2e-04
+
+
+> sp|P55892|MOTB_SALTY Motility protein B OS=Salmonella typhimurium 
+(strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=motB 
+PE=1 SV=1
+Length=309
+
+ Score = 288 bits (736),  Expect = 2e-98, Method: Compositional matrix adjust.
+ Identities = 141/142 (99%), Positives = 141/142 (99%), Gaps = 0/142 (0%)
+
+Query  1    LRPHLKIDLVQEGLRIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAG  60
+            LRPHLKIDLVQEGLRIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAG
+Sbjct  136  LRPHLKIDLVQEGLRIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAG  195
+
+Query  61   HTDDFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD  120
+            HTDDFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD
+Sbjct  196  HTDDFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD  255
+
+Query  121  AINRRISLLVLNKQAEQAILHH  142
+            AINRRISLLVLNKQAEQAILH 
+Sbjct  256  AINRRISLLVLNKQAEQAILHE  277
+
+
+> sp|P0AF06|MOTB_ECOLI Motility protein B OS=Escherichia coli (strain 
+K12) OX=83333 GN=motB PE=1 SV=1
+Length=308
+
+ Score = 278 bits (710),  Expect = 2e-94, Method: Compositional matrix adjust.
+ Identities = 133/142 (94%), Positives = 140/142 (99%), Gaps = 0/142 (0%)
+
+Query  1    LRPHLKIDLVQEGLRIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAG  60
+            LRPHLKIDLVQEGLRIQIIDSQNRPMF+TGSA+VEPYMRDILRAIAPVLNGIPNRISL+G
+Sbjct  135  LRPHLKIDLVQEGLRIQIIDSQNRPMFRTGSADVEPYMRDILRAIAPVLNGIPNRISLSG  194
+
+Query  61   HTDDFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD  120
+            HTDDFPYA+GEKGYSNWELSADRANASRREL+ GGLD+GKVLRVVGMAATMRLSDRGPDD
+Sbjct  195  HTDDFPYASGEKGYSNWELSADRANASRRELMVGGLDSGKVLRVVGMAATMRLSDRGPDD  254
+
+Query  121  AINRRISLLVLNKQAEQAILHH  142
+            A+NRRISLLVLNKQAEQAILH 
+Sbjct  255  AVNRRISLLVLNKQAEQAILHE  276
+
+
+> sp|P0AF07|MOTB_ECO57 Motility protein B OS=Escherichia coli O157:H7 
+OX=83334 GN=motB PE=3 SV=1
+Length=308
+
+ Score = 278 bits (710),  Expect = 2e-94, Method: Compositional matrix adjust.
+ Identities = 133/142 (94%), Positives = 140/142 (99%), Gaps = 0/142 (0%)
+
+Query  1    LRPHLKIDLVQEGLRIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAG  60
+            LRPHLKIDLVQEGLRIQIIDSQNRPMF+TGSA+VEPYMRDILRAIAPVLNGIPNRISL+G
+Sbjct  135  LRPHLKIDLVQEGLRIQIIDSQNRPMFRTGSADVEPYMRDILRAIAPVLNGIPNRISLSG  194
+
+Query  61   HTDDFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD  120
+            HTDDFPYA+GEKGYSNWELSADRANASRREL+ GGLD+GKVLRVVGMAATMRLSDRGPDD
+Sbjct  195  HTDDFPYASGEKGYSNWELSADRANASRRELMVGGLDSGKVLRVVGMAATMRLSDRGPDD  254
+
+Query  121  AINRRISLLVLNKQAEQAILHH  142
+            A+NRRISLLVLNKQAEQAILH 
+Sbjct  255  AVNRRISLLVLNKQAEQAILHE  276
+
+
+> sp|Q47154|LAFU_ECOLI Putative truncated flagellar export/assembly 
+protein LafU OS=Escherichia coli (strain K12) OX=83333 
+GN=lafU PE=5 SV=1
+Length=211
+
+ Score = 116 bits (290),  Expect = 3e-32, Method: Compositional matrix adjust.
+ Identities = 57/142 (40%), Positives = 87/142 (61%), Gaps = 2/142 (1%)
+
+Query  1    LRPHLKIDLVQEGLRIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAG  60
+            +  +L++++V +GLR+ I D QNR MF+ GSA++ P+ + +L  +APV + + N+I + G
+Sbjct  45   MEANLEMEIVPQGLRVLIKDDQNRNMFERGSAKIMPFFKTLLVELAPVFDSLDNKIIITG  104
+
+Query  61   HTDDFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD  120
+            HTD   Y N    Y+NW LS DRA ++RR L   G+   KV++V  MA  M L  + P  
+Sbjct  105  HTDAMAYKNN--IYNNWNLSGDRALSARRVLEEAGMPEDKVMQVSAMADQMLLDSKNPQS  162
+
+Query  121  AINRRISLLVLNKQAEQAILHH  142
+            A NRRI ++VL K A   +  +
+Sbjct  163  AGNRRIEIMVLTKSASDTLYQY  184
+
+
+> sp|D3GSC3|LAFU_ECO44 Putative flagellar export/assembly protein 
+LafU OS=Escherichia coli O44:H18 (strain 042 / EAEC) OX=216592 
+GN=lafU PE=3 SV=1
+Length=307
+
+ Score = 114 bits (286),  Expect = 1e-30, Method: Compositional matrix adjust.
+ Identities = 57/142 (40%), Positives = 87/142 (61%), Gaps = 2/142 (1%)
+
+Query  1    LRPHLKIDLVQEGLRIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAG  60
+            +  +L++++V +GLR+ I D QNR MF+ GSA++ P+ + +L  +APV + + N+I + G
+Sbjct  141  MEANLEMEIVPQGLRVLIKDDQNRNMFERGSAQIMPFFKTLLVELAPVFDSLDNKIIITG  200
+
+Query  61   HTDDFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD  120
+            HTD   Y N    Y+NW LS DRA ++RR L   G+   KV++V  MA  M L  + P  
+Sbjct  201  HTDAMAYKNNI--YNNWNLSGDRALSARRVLEEAGMPEDKVMQVSAMADQMLLDAKNPQS  258
+
+Query  121  AINRRISLLVLNKQAEQAILHH  142
+            A NRRI ++VL K A   +  +
+Sbjct  259  AGNRRIEIMVLTKSASDTLYQY  280
+
+
+> sp|Q03478|LAFU_VIBPA Chemotaxis protein LafU OS=Vibrio parahaemolyticus 
+serotype O3:K6 (strain RIMD 2210633) OX=223926 GN=lafU 
+PE=2 SV=2
+Length=330
+
+ Score = 102 bits (253),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 49/136 (36%), Positives = 80/136 (59%), Gaps = 0/136 (0%)
+
+Query  4    HLKIDLVQEGLRIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAGHTD  63
+            ++ + +  +GLRI + D   + MF  G AE+ P+  D+L A+AP+   + N + ++GHTD
+Sbjct  148  NVNVTVTPQGLRIVLQDDYKQHMFSRGGAELTPFFEDLLLALAPLFEQVTNPLIISGHTD  207
+
+Query  64   DFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDDAIN  123
+              P+       SNW LSA RA+ +R+ LV GG+ + +V++V GM+    L+   PD + N
+Sbjct  208  AIPFKKRFGRQSNWALSASRADVARKTLVEGGMPDDRVMQVTGMSDRALLNPDEPDSSEN  267
+
+Query  124  RRISLLVLNKQAEQAI  139
+            RRI L +L   A + +
+Sbjct  268  RRIELFILTTPAAKVL  283
+
+
+> sp|P39064|YTXE_BACSU Uncharacterized protein YtxE OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=ytxE PE=3 SV=1
+Length=242
+
+ Score = 50.4 bits (119),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 36/111 (32%), Positives = 54/111 (49%), Gaps = 3/111 (3%)
+
+Query  22   QNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAGHTDDFPYANGEKGYSNWELSA  81
+            Q   +F TG A+V      +L  IA +L  IPN I + GHTD    +   +  SNWELSA
+Sbjct  125  QEAVLFDTGEAKVLKNAETLLHQIAVLLQTIPNDIQVEGHTDSRNISTY-RYPSNWELSA  183
+
+Query  82   DRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDDAI--NRRISLLV  130
+             RA+   +   +      K    VG A T  + D   ++ +  NRR+ +++
+Sbjct  184  ARASGVIQYFTSKEKLPSKRFIAVGYADTKPVKDNKTNEHMKENRRVEIVI  234
+
+
+> sp|P46827|YTXE_BACME Uncharacterized 24.6 kDa protein in ccpA 
+3'region OS=Bacillus megaterium OX=1404 GN=ytxE PE=3 SV=1
+Length=218
+
+ Score = 48.5 bits (114),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 36/120 (30%), Positives = 58/120 (48%), Gaps = 9/120 (8%)
+
+Query  22   QNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAGHTDDFP---YANGEKGYSNWE  78
+            Q + +F+TG A++       L  +  + + IPN I + GHTD+ P   YA      SNWE
+Sbjct  103  QEQVLFETGQADILKKGTPFLDELGRLFSTIPNDIKVEGHTDNRPIHTYAYP----SNWE  158
+
+Query  79   LSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDDAI--NRRISLLVLNKQAE  136
+            LSA RA+   R L      +      +G   T  L     +D +  NRR+ +++ + +A+
+Sbjct  159  LSAARASGVIRYLTNHFSLSANRFEALGYGDTKPLVPNTSNDNLQKNRRVEIIISDPEAQ  218
+
+
+> sp|P28612|MOTB_BACSU Motility protein B OS=Bacillus subtilis 
+(strain 168) OX=224308 GN=motB PE=3 SV=1
+Length=261
+
+ Score = 43.1 bits (100),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 43/146 (29%), Positives = 63/146 (43%), Gaps = 17/146 (12%)
+
+Query  1    LRPHLKIDLVQEGLRIQIIDSQNRPMFKTGSAEVE----PYMRDI--LRAIAPVLNGIPN  54
+            L   L+  +  EGL I I DS     F +G A +     P  ++I  L  I P     P 
+Sbjct  122  LEHQLETKMTSEGLLITIKDSI---FFDSGKATIRKEDVPLAKEISNLLVINP-----PR  173
+
+Query  55   RISLAGHTDDFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLS  114
+             I ++GHTD+ P  N E   SNW LS  RA      L+     + KV    G      ++
+Sbjct  174  NIIISGHTDNMPIKNSE-FQSNWHLSVMRAVNFMGLLIENPKLDAKVFSAKGYGEYKPVA  232
+
+Query  115  DRGPDD--AINRRISLLVLNKQAEQA  138
+                 +  + NRR+ +L+L + A + 
+Sbjct  233  SNKTAEGRSKNRRVEVLILPRGAAET  258
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.137    0.393    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5152045464
+Results from round 2
+
+
+Query= 5Y3Z:B
+
+Length=142
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P55892|MOTB_SALTY Motility protein B OS=Salmonella typhimuri...  211     3e-68
+  sp|P0AF06|MOTB_ECOLI Motility protein B OS=Escherichia coli (st...  205     8e-66
+  sp|P0AF07|MOTB_ECO57 Motility protein B OS=Escherichia coli O15...  205     8e-66
+  sp|Q47154|LAFU_ECOLI Putative truncated flagellar export/assemb...  191     7e-62
+  sp|D3GSC3|LAFU_ECO44 Putative flagellar export/assembly protein...  194     1e-61
+  sp|Q03478|LAFU_VIBPA Chemotaxis protein LafU OS=Vibrio parahaem...  195     1e-61
+  sp|P46827|YTXE_BACME Uncharacterized 24.6 kDa protein in ccpA 3...  150     2e-45
+  sp|P28612|MOTB_BACSU Motility protein B OS=Bacillus subtilis (s...  151     2e-45
+  sp|P39064|YTXE_BACSU Uncharacterized protein YtxE OS=Bacillus s...  142     4e-42
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P38369|TPN50_TREPA Outer membrane protein Tpn50 OS=Treponema...  65.2    5e-12
+  sp|O07887|MOTB_TREPA Motility protein B OS=Treponema pallidum (...  63.6    9e-12
+  sp|A3M8K2|OMP38_ACIBT Outer membrane protein Omp38 OS=Acinetoba...  60.5    2e-10
+  sp|Q6RYW5|OMP38_ACIB2 Outer membrane protein Omp38 OS=Acinetoba...  60.5    2e-10
+  sp|Q7NFT5|PSAB_GLOVI Photosystem I P700 chlorophyll a apoprotei...  59.4    6e-10
+  sp|P13794|PORF_PSEAE Outer membrane porin F OS=Pseudomonas aeru...  58.2    1e-09
+  sp|P84838|OMPC_GLUDA Outer membrane protein OS=Gluconacetobacte...  57.9    2e-09
+  sp|Q05146|OMPA_BORAV Outer membrane protein A OS=Bordetella avi...  56.3    3e-09
+  sp|P37665|YIAD_ECOLI Probable lipoprotein YiaD OS=Escherichia c...  55.9    5e-09
+  sp|P22263|PORF_PSESY Outer membrane porin F OS=Pseudomonas syri...  56.3    6e-09
+  sp|Q9I4Z4|PAL_PSEAE Peptidoglycan-associated lipoprotein OS=Pse...  52.5    4e-08
+  sp|P0A139|PAL_PSEPU Peptidoglycan-associated lipoprotein OS=Pse...  51.3    1e-07
+  sp|P0A138|PAL_PSEPK Peptidoglycan-associated lipoprotein OS=Pse...  51.3    1e-07
+  sp|P24755|OMPA_SEROD Outer membrane protein A (Fragment) OS=Ser...  46.7    1e-05
+  sp|Q926C3|PAL_RHIME Peptidoglycan-associated lipoprotein OS=Rhi...  45.5    2e-05
+  sp|P38399|OMPA_YERPS Outer membrane protein A OS=Yersinia pseud...  45.5    4e-05
+  sp|Q8ZG77|OMPA_YERPE Outer membrane protein A OS=Yersinia pesti...  45.5    4e-05
+  sp|Q8U9L5|PAL_AGRFC Peptidoglycan-associated lipoprotein OS=Agr...  40.9    9e-04
+
+
+> sp|P55892|MOTB_SALTY Motility protein B OS=Salmonella typhimurium 
+(strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=motB 
+PE=1 SV=1
+Length=309
+
+ Score = 211 bits (537),  Expect = 3e-68, Method: Composition-based stats.
+ Identities = 141/142 (99%), Positives = 141/142 (99%), Gaps = 0/142 (0%)
+
+Query  1    LRPHLKIDLVQEGLRIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAG  60
+            LRPHLKIDLVQEGLRIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAG
+Sbjct  136  LRPHLKIDLVQEGLRIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAG  195
+
+Query  61   HTDDFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD  120
+            HTDDFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD
+Sbjct  196  HTDDFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD  255
+
+Query  121  AINRRISLLVLNKQAEQAILHH  142
+            AINRRISLLVLNKQAEQAILH 
+Sbjct  256  AINRRISLLVLNKQAEQAILHE  277
+
+
+> sp|P0AF06|MOTB_ECOLI Motility protein B OS=Escherichia coli (strain 
+K12) OX=83333 GN=motB PE=1 SV=1
+Length=308
+
+ Score = 205 bits (521),  Expect = 8e-66, Method: Composition-based stats.
+ Identities = 133/142 (94%), Positives = 140/142 (99%), Gaps = 0/142 (0%)
+
+Query  1    LRPHLKIDLVQEGLRIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAG  60
+            LRPHLKIDLVQEGLRIQIIDSQNRPMF+TGSA+VEPYMRDILRAIAPVLNGIPNRISL+G
+Sbjct  135  LRPHLKIDLVQEGLRIQIIDSQNRPMFRTGSADVEPYMRDILRAIAPVLNGIPNRISLSG  194
+
+Query  61   HTDDFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD  120
+            HTDDFPYA+GEKGYSNWELSADRANASRREL+ GGLD+GKVLRVVGMAATMRLSDRGPDD
+Sbjct  195  HTDDFPYASGEKGYSNWELSADRANASRRELMVGGLDSGKVLRVVGMAATMRLSDRGPDD  254
+
+Query  121  AINRRISLLVLNKQAEQAILHH  142
+            A+NRRISLLVLNKQAEQAILH 
+Sbjct  255  AVNRRISLLVLNKQAEQAILHE  276
+
+
+> sp|P0AF07|MOTB_ECO57 Motility protein B OS=Escherichia coli O157:H7 
+OX=83334 GN=motB PE=3 SV=1
+Length=308
+
+ Score = 205 bits (521),  Expect = 8e-66, Method: Composition-based stats.
+ Identities = 133/142 (94%), Positives = 140/142 (99%), Gaps = 0/142 (0%)
+
+Query  1    LRPHLKIDLVQEGLRIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAG  60
+            LRPHLKIDLVQEGLRIQIIDSQNRPMF+TGSA+VEPYMRDILRAIAPVLNGIPNRISL+G
+Sbjct  135  LRPHLKIDLVQEGLRIQIIDSQNRPMFRTGSADVEPYMRDILRAIAPVLNGIPNRISLSG  194
+
+Query  61   HTDDFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD  120
+            HTDDFPYA+GEKGYSNWELSADRANASRREL+ GGLD+GKVLRVVGMAATMRLSDRGPDD
+Sbjct  195  HTDDFPYASGEKGYSNWELSADRANASRRELMVGGLDSGKVLRVVGMAATMRLSDRGPDD  254
+
+Query  121  AINRRISLLVLNKQAEQAILHH  142
+            A+NRRISLLVLNKQAEQAILH 
+Sbjct  255  AVNRRISLLVLNKQAEQAILHE  276
+
+
+> sp|Q47154|LAFU_ECOLI Putative truncated flagellar export/assembly 
+protein LafU OS=Escherichia coli (strain K12) OX=83333 
+GN=lafU PE=5 SV=1
+Length=211
+
+ Score = 191 bits (486),  Expect = 7e-62, Method: Composition-based stats.
+ Identities = 57/142 (40%), Positives = 87/142 (61%), Gaps = 2/142 (1%)
+
+Query  1    LRPHLKIDLVQEGLRIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAG  60
+            +  +L++++V +GLR+ I D QNR MF+ GSA++ P+ + +L  +APV + + N+I + G
+Sbjct  45   MEANLEMEIVPQGLRVLIKDDQNRNMFERGSAKIMPFFKTLLVELAPVFDSLDNKIIITG  104
+
+Query  61   HTDDFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD  120
+            HTD   Y N    Y+NW LS DRA ++RR L   G+   KV++V  MA  M L  + P  
+Sbjct  105  HTDAMAYKNN--IYNNWNLSGDRALSARRVLEEAGMPEDKVMQVSAMADQMLLDSKNPQS  162
+
+Query  121  AINRRISLLVLNKQAEQAILHH  142
+            A NRRI ++VL K A   +  +
+Sbjct  163  AGNRRIEIMVLTKSASDTLYQY  184
+
+
+> sp|D3GSC3|LAFU_ECO44 Putative flagellar export/assembly protein 
+LafU OS=Escherichia coli O44:H18 (strain 042 / EAEC) OX=216592 
+GN=lafU PE=3 SV=1
+Length=307
+
+ Score = 194 bits (493),  Expect = 1e-61, Method: Composition-based stats.
+ Identities = 57/142 (40%), Positives = 87/142 (61%), Gaps = 2/142 (1%)
+
+Query  1    LRPHLKIDLVQEGLRIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAG  60
+            +  +L++++V +GLR+ I D QNR MF+ GSA++ P+ + +L  +APV + + N+I + G
+Sbjct  141  MEANLEMEIVPQGLRVLIKDDQNRNMFERGSAQIMPFFKTLLVELAPVFDSLDNKIIITG  200
+
+Query  61   HTDDFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD  120
+            HTD   Y N    Y+NW LS DRA ++RR L   G+   KV++V  MA  M L  + P  
+Sbjct  201  HTDAMAYKNN--IYNNWNLSGDRALSARRVLEEAGMPEDKVMQVSAMADQMLLDAKNPQS  258
+
+Query  121  AINRRISLLVLNKQAEQAILHH  142
+            A NRRI ++VL K A   +  +
+Sbjct  259  AGNRRIEIMVLTKSASDTLYQY  280
+
+
+> sp|Q03478|LAFU_VIBPA Chemotaxis protein LafU OS=Vibrio parahaemolyticus 
+serotype O3:K6 (strain RIMD 2210633) OX=223926 GN=lafU 
+PE=2 SV=2
+Length=330
+
+ Score = 195 bits (495),  Expect = 1e-61, Method: Composition-based stats.
+ Identities = 49/138 (36%), Positives = 81/138 (59%), Gaps = 0/138 (0%)
+
+Query  2    RPHLKIDLVQEGLRIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAGH  61
+            + ++ + +  +GLRI + D   + MF  G AE+ P+  D+L A+AP+   + N + ++GH
+Sbjct  146  QGNVNVTVTPQGLRIVLQDDYKQHMFSRGGAELTPFFEDLLLALAPLFEQVTNPLIISGH  205
+
+Query  62   TDDFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDDA  121
+            TD  P+       SNW LSA RA+ +R+ LV GG+ + +V++V GM+    L+   PD +
+Sbjct  206  TDAIPFKKRFGRQSNWALSASRADVARKTLVEGGMPDDRVMQVTGMSDRALLNPDEPDSS  265
+
+Query  122  INRRISLLVLNKQAEQAI  139
+             NRRI L +L   A + +
+Sbjct  266  ENRRIELFILTTPAAKVL  283
+
+
+> sp|P46827|YTXE_BACME Uncharacterized 24.6 kDa protein in ccpA 
+3'region OS=Bacillus megaterium OX=1404 GN=ytxE PE=3 SV=1
+Length=218
+
+ Score = 150 bits (379),  Expect = 2e-45, Method: Composition-based stats.
+ Identities = 36/138 (26%), Positives = 64/138 (46%), Gaps = 6/138 (4%)
+
+Query  1    LRPHLKIDLVQEGLRIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAG  60
+            L+  +     + G+ + +   Q + +F+TG A++       L  +  + + IPN I + G
+Sbjct  85   LQHVITAKRDERGVVLIL---QEQVLFETGQADILKKGTPFLDELGRLFSTIPNDIKVEG  141
+
+Query  61   HTDDFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD  120
+            HTD+ P        SNWELSA RA+   R L      +      +G   T  L     +D
+Sbjct  142  HTDNRPIHTY-AYPSNWELSAARASGVIRYLTNHFSLSANRFEALGYGDTKPLVPNTSND  200
+
+Query  121  AI--NRRISLLVLNKQAE  136
+             +  NRR+ +++ + +A+
+Sbjct  201  NLQKNRRVEIIISDPEAQ  218
+
+
+> sp|P28612|MOTB_BACSU Motility protein B OS=Bacillus subtilis 
+(strain 168) OX=224308 GN=motB PE=3 SV=1
+Length=261
+
+ Score = 151 bits (382),  Expect = 2e-45, Method: Composition-based stats.
+ Identities = 43/146 (29%), Positives = 63/146 (43%), Gaps = 17/146 (12%)
+
+Query  1    LRPHLKIDLVQEGLRIQIIDSQNRPMFKTGSAEVE----PYMRDI--LRAIAPVLNGIPN  54
+            L   L+  +  EGL I I DS     F +G A +     P  ++I  L  I P     P 
+Sbjct  122  LEHQLETKMTSEGLLITIKDSI---FFDSGKATIRKEDVPLAKEISNLLVINP-----PR  173
+
+Query  55   RISLAGHTDDFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLS  114
+             I ++GHTD+ P  N E   SNW LS  RA      L+     + KV    G      ++
+Sbjct  174  NIIISGHTDNMPIKNSE-FQSNWHLSVMRAVNFMGLLIENPKLDAKVFSAKGYGEYKPVA  232
+
+Query  115  DRGPDD--AINRRISLLVLNKQAEQA  138
+                 +  + NRR+ +L+L + A + 
+Sbjct  233  SNKTAEGRSKNRRVEVLILPRGAAET  258
+
+
+> sp|P39064|YTXE_BACSU Uncharacterized protein YtxE OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=ytxE PE=3 SV=1
+Length=242
+
+ Score = 142 bits (358),  Expect = 4e-42, Method: Composition-based stats.
+ Identities = 38/132 (29%), Positives = 62/132 (47%), Gaps = 6/132 (5%)
+
+Query  1    LRPHLKIDLVQEGLRIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAG  60
+            L+  +     + G+ + +   Q   +F TG A+V      +L  IA +L  IPN I + G
+Sbjct  107  LKAQMTAKRDERGVVLVL---QEAVLFDTGEAKVLKNAETLLHQIAVLLQTIPNDIQVEG  163
+
+Query  61   HTDDFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD  120
+            HTD    +   +  SNWELSA RA+   +   +      K    VG A T  + D   ++
+Sbjct  164  HTDSRNISTY-RYPSNWELSAARASGVIQYFTSKEKLPSKRFIAVGYADTKPVKDNKTNE  222
+
+Query  121  AI--NRRISLLV  130
+             +  NRR+ +++
+Sbjct  223  HMKENRRVEIVI  234
+
+
+> sp|P38369|TPN50_TREPA Outer membrane protein Tpn50 OS=Treponema 
+pallidum (strain Nichols) OX=243276 GN=tpn50 PE=3 SV=1
+Length=417
+
+ Score = 65.2 bits (157),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 34/134 (25%), Positives = 59/134 (44%), Gaps = 12/134 (9%)
+
+Query  3    PHLKIDLVQEGLRIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNR-ISLAGH  61
+            P  K+   +EG+ I I + Q    F   SA + P   + LR IA +L   P+R + ++GH
+Sbjct  293  PDAKVRETEEGVTISIENVQ----FDADSASLAPSEYEKLRKIAELLRAFPDRELLVSGH  348
+
+Query  62   TDDFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDDA  121
+                  A          +S +RA+   R L   G+ +   +   G  A   ++    +D 
+Sbjct  349  A-----ARRGSVQDQQRISEERADVVARYLQELGVVDAAHVYTRGCGAQQSIAPNDSEDG  403
+
+Query  122  --INRRISLLVLNK  133
+               NRR+ + +++K
+Sbjct  404  RRKNRRVEITIISK  417
+
+
+> sp|O07887|MOTB_TREPA Motility protein B OS=Treponema pallidum 
+(strain Nichols) OX=243276 GN=motB PE=3 SV=1
+Length=238
+
+ Score = 63.6 bits (153),  Expect = 9e-12, Method: Composition-based stats.
+ Identities = 32/137 (23%), Positives = 52/137 (38%), Gaps = 11/137 (8%)
+
+Query  4    HLKIDLVQEGLRIQIIDSQNRPMFKTGSAEV-EPYMRDILRAIAPVLNG---IPNRISLA  59
+             + +   + GL I +        F  GS+++     R+ L  +A  L+       R  + 
+Sbjct  105  KIAVTSDERGLVISLTSD---SFFYPGSSDLNVEESREALLRVAQFLSDHALAGRRFRIE  161
+
+Query  60   GHTDDFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPD  119
+            GHTD       +    NWELS  RA      L   G        + G A T         
+Sbjct  162  GHTDSVEVPE-DGSTDNWELSTRRAVRVLHYLTDFGAQE-NRFSLAGYADTRAKFSNESP  219
+
+Query  120  D--AINRRISLLVLNKQ  134
+            +  A NRR+ +++L++ 
+Sbjct  220  EGRAYNRRVDIVILDEG  236
+
+
+> sp|A3M8K2|OMP38_ACIBT Outer membrane protein Omp38 OS=Acinetobacter 
+baumannii (strain ATCC 17978 / CIP 53.77 / LMG 1025 / 
+NCDC KC755 / 5377) OX=400667 GN=omp38 PE=3 SV=2
+Length=356
+
+ Score = 60.5 bits (145),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 28/106 (26%), Positives = 44/106 (42%), Gaps = 8/106 (8%)
+
+Query  24   RPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRI-SLAGHTDDFPYANGEKGYSNWELSAD  82
+            R  F T  + ++   +  +  +A  L+  PN    + GHTD     N      N  LS  
+Sbjct  231  RVFFDTNKSNIKDQYKPEIAKVAEKLSEYPNATARIEGHTD-----NTGPRKLNERLSLA  285
+
+Query  83   RANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD--AINRRI  126
+            RAN+ +  LV     +   L   G A    ++D    +  A+NRR+
+Sbjct  286  RANSVKSALVNEYNVDASRLSTQGFAWDQPIADNKTKEGRAMNRRV  331
+
+
+> sp|Q6RYW5|OMP38_ACIB2 Outer membrane protein Omp38 OS=Acinetobacter 
+baumannii (strain ATCC 19606 / DSM 30007 / CIP 70.34 
+/ JCM 6841 / NBRC 109757 / NCIMB 12457 / NCTC 12156 / 81) OX=575584 
+GN=omp38 PE=1 SV=1
+Length=356
+
+ Score = 60.5 bits (145),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 28/106 (26%), Positives = 44/106 (42%), Gaps = 8/106 (8%)
+
+Query  24   RPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRI-SLAGHTDDFPYANGEKGYSNWELSAD  82
+            R  F T  + ++   +  +  +A  L+  PN    + GHTD     N      N  LS  
+Sbjct  231  RVFFDTNKSNIKDQYKPEIAKVAEKLSEYPNATARIEGHTD-----NTGPRKLNERLSLA  285
+
+Query  83   RANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD--AINRRI  126
+            RAN+ +  LV     +   L   G A    ++D    +  A+NRR+
+Sbjct  286  RANSVKSALVNEYNVDASRLSTQGFAWDQPIADNKTKEGRAMNRRV  331
+
+
+> sp|Q7NFT5|PSAB_GLOVI Photosystem I P700 chlorophyll a apoprotein 
+A2 OS=Gloeobacter violaceus (strain ATCC 29082 / PCC 7421) 
+OX=251221 GN=psaB PE=1 SV=1
+Length=872
+
+ Score = 59.4 bits (142),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 30/138 (22%), Positives = 54/138 (39%), Gaps = 18/138 (13%)
+
+Query  4    HLKIDLVQEGLRIQIIDSQNRPMFKTGSAEVEPYMRDIL-RAIAPVLNGIPNRISLAGHT  62
+              K   V  G+ + + ++    +F    + V+      L R +  +       + + GHT
+Sbjct  738  EFKAKPVPGGVMLLLPENI---VFDFDKSSVKLDADPALNRVVGVIQFYGSEPVEILGHT  794
+
+Query  63   DDFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDR-GPDDA  121
+            D      GE  Y N +LS +RA+A +      G+   + L   G   T  ++    PD +
+Sbjct  795  DSL----GEDAY-NQKLSEERASAVKAFFEKKGI-EAERLTAKGYGETKPVAPNAKPDGS  848
+
+Query  122  -------INRRISLLVLN  132
+                    NRR+ +L+  
+Sbjct  849  DNPDGRQQNRRVEILIKT  866
+
+
+> sp|P13794|PORF_PSEAE Outer membrane porin F OS=Pseudomonas aeruginosa 
+(strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 
+/ LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=oprF PE=1 
+SV=1
+Length=350
+
+ Score = 58.2 bits (139),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 31/121 (26%), Positives = 51/121 (42%), Gaps = 13/121 (11%)
+
+Query  10   VQEGLRIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPN-RISLAGHTDDFPYA  68
+            V E +R+Q+        F    ++V+      ++ +A  +   P+   ++ GHTD     
+Sbjct  232  VAEVVRVQL-----DVKFDFDKSKVKENSYADIKNLADFMKQYPSTSTTVEGHTDSVGTD  286
+
+Query  69   NGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD--AINRRI  126
+                   N +LS  RANA R  LV      G  +  VG   +  ++D    +  AINRR+
+Sbjct  287  AY-----NQKLSERRANAVRDVLVNEYGVEGGRVNAVGYGESRPVADNATAEGRAINRRV  341
+
+Query  127  S  127
+             
+Sbjct  342  E  342
+
+
+> sp|P84838|OMPC_GLUDA Outer membrane protein OS=Gluconacetobacter 
+diazotrophicus (strain ATCC 49037 / DSM 5601 / PAl5) OX=272568 
+GN=GDI2185 PE=1 SV=2
+Length=378
+
+ Score = 57.9 bits (138),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 27/110 (25%), Positives = 49/110 (45%), Gaps = 5/110 (5%)
+
+Query  25   PMFKTGSAEVEPYMRDILRAIAPVLNGI-PNRISLAGHTDDFPYANGEKGYS-NWELSAD  82
+              F    +++    R+I+   A     +   RI + G+TD+     G +G   N  LS  
+Sbjct  269  VFFDWDRSDLTARAREIVAEAAQASTHVQTTRIEVNGYTDNSAAHPGPRGEKYNMGLSIR  328
+
+Query  83   RANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPD--DAINRRISLLV  130
+            RA + + EL+  G+  G +  + G      L   GP+  +  NRR+ +++
+Sbjct  329  RAQSVKAELIRDGVPTGAI-DIHGYGEQHPLVPTGPNTREPQNRRVEIIL  377
+
+
+> sp|Q05146|OMPA_BORAV Outer membrane protein A OS=Bordetella avium 
+OX=521 GN=ompA PE=3 SV=1
+Length=194
+
+ Score = 56.3 bits (134),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 24/109 (22%), Positives = 45/109 (41%), Gaps = 9/109 (8%)
+
+Query  26   MFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLA-GHTDDFPYANGEKGYSNWELSADRA  84
+             F    + ++P  R +L  +A     I     +A G+TD            N +LS  RA
+Sbjct  88   FFDFDKSTLKPEGRQLLDQVAQQARAIDLETIIAVGNTDSIGTEAY-----NMKLSERRA  142
+
+Query  85   NASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD--AINRRISLLVL  131
+             + +  LV+ G+D  ++    G      ++     +  A NRR+ + ++
+Sbjct  143  ASVKAYLVSKGIDPNRIY-TEGKGKLNPIASNKTAEGRARNRRVEIEIV  190
+
+
+> sp|P37665|YIAD_ECOLI Probable lipoprotein YiaD OS=Escherichia 
+coli (strain K12) OX=83333 GN=yiaD PE=1 SV=2
+Length=219
+
+ Score = 55.9 bits (133),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 29/140 (21%), Positives = 57/140 (41%), Gaps = 15/140 (11%)
+
+Query  2    RPHLKIDLVQEGLRIQ------IIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNR  55
+               L+  +   G+ +       I++  N   F + SA ++P   + L  +A VL   P  
+Sbjct  85   EAKLRDKMRGTGVSVTRSGDNIILNMPNNVTFDSSSATLKPAGANTLTGVAMVLKEYPKT  144
+
+Query  56   -ISLAGHTDDFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLS  114
+             +++ G+TD            N  LS  RA++    L+  G+ +   +R  G+     ++
+Sbjct  145  AVNVIGYTDS-----TGGHDLNMRLSQQRADSVASALITQGV-DASRIRTQGLGPANPIA  198
+
+Query  115  DRGPDD--AINRRISLLVLN  132
+                 +  A NRR+ + +  
+Sbjct  199  SNSTAEGKAQNRRVEITLSP  218
+
+
+> sp|P22263|PORF_PSESY Outer membrane porin F OS=Pseudomonas syringae 
+pv. syringae OX=321 GN=oprF PE=3 SV=1
+Length=344
+
+ Score = 56.3 bits (134),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 27/105 (26%), Positives = 45/105 (43%), Gaps = 10/105 (10%)
+
+Query  27   FKTGSAEVEPYMRDILRAIAPVLNGIPNRIS-LAGHTDDF-PYANGEKGYSNWELSADRA  84
+            F    + V+P     ++ +A  +   P   + + GHTD   P A  +K      LS  RA
+Sbjct  238  FDFDKSVVKPNSYGDIKNLADFMQQYPQTTTTVEGHTDSVGPDAYNQK------LSERRA  291
+
+Query  85   NASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD--AINRRIS  127
+            NA ++ LV         +  VG   +  ++D   +   A+NRR+ 
+Sbjct  292  NAVKQVLVNQYGVGASRVNSVGYGESKPVADNATEAGRAVNRRVE  336
+
+
+> sp|Q9I4Z4|PAL_PSEAE Peptidoglycan-associated lipoprotein OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 
+/ JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 
+GN=pal PE=3 SV=1
+Length=168
+
+ Score = 52.5 bits (124),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 29/104 (28%), Positives = 43/104 (41%), Gaps = 8/104 (8%)
+
+Query  27   FKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAGHTDDFPYANGEKGYSNWELSADRANA  86
+            F+  S++++P     L   A  L G   R+ L GHTD+           N  L   RA A
+Sbjct  69   FEYDSSDLKPEAMRALDVHAKDLKGSGQRVVLEGHTDERGTREY-----NMALGERRAKA  123
+
+Query  87   SRRELVAGGLDNGKVLRVVGMAATMRLSD--RGPDDAINRRISL  128
+             +R LV  G+   + L +V       ++        A NRR+ L
+Sbjct  124  VQRYLVLQGVSPAQ-LELVSYGKERPVATGHDEQSWAQNRRVEL  166
+
+
+> sp|P0A139|PAL_PSEPU Peptidoglycan-associated lipoprotein OS=Pseudomonas 
+putida OX=303 GN=pal PE=3 SV=1
+Length=166
+
+ Score = 51.3 bits (121),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 27/104 (26%), Positives = 44/104 (42%), Gaps = 8/104 (8%)
+
+Query  27   FKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAGHTDDFPYANGEKGYSNWELSADRANA  86
+            F+  S++++P     L   A  L    NR+ L G+TD+           N  L   RA A
+Sbjct  67   FEYDSSDLKPEAMRALDVHAKDLKANGNRVVLEGNTDERGTREY-----NMALGERRAKA  121
+
+Query  87   SRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDDA--INRRISL  128
+             +R LV  G+   + L +V       ++    + +   NRR+ L
+Sbjct  122  VQRYLVLQGVSPAQ-LELVSYGEERPVATGNDEQSWAQNRRVEL  164
+
+
+> sp|P0A138|PAL_PSEPK Peptidoglycan-associated lipoprotein OS=Pseudomonas 
+putida (strain ATCC 47054 / DSM 6125 / NCIMB 11950 
+/ KT2440) OX=160488 GN=pal PE=3 SV=1
+Length=166
+
+ Score = 51.3 bits (121),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 27/104 (26%), Positives = 44/104 (42%), Gaps = 8/104 (8%)
+
+Query  27   FKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAGHTDDFPYANGEKGYSNWELSADRANA  86
+            F+  S++++P     L   A  L    NR+ L G+TD+           N  L   RA A
+Sbjct  67   FEYDSSDLKPEAMRALDVHAKDLKANGNRVVLEGNTDERGTREY-----NMALGERRAKA  121
+
+Query  87   SRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDDA--INRRISL  128
+             +R LV  G+   + L +V       ++    + +   NRR+ L
+Sbjct  122  VQRYLVLQGVSPAQ-LELVSYGEERPVATGNDEQSWAQNRRVEL  164
+
+
+> sp|P24755|OMPA_SEROD Outer membrane protein A (Fragment) OS=Serratia 
+odorifera OX=618 GN=ompA PE=3 SV=1
+Length=243
+
+ Score = 46.7 bits (109),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 24/121 (20%), Positives = 48/121 (40%), Gaps = 21/121 (17%)
+
+Query  25   PMFKTGSAEVEPYMRDILRAIAPVLNGIPNR---ISLAGHTDDFPYANGEKGYSNWELSA  81
+             +F +  + ++P  +  L  +   L+ +  +   + + G+TD        K  +N +LS 
+Sbjct  126  VLFNSAKSSLKPEGQQALDQLYTQLSSMDPKDGSVVVLGYTDPV-----GKDAANQKLSE  180
+
+Query  82   DRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDDAI------------NRRISLL  129
+             RA +    LV+ G+   K+    GM    +++D                   NRR+ + 
+Sbjct  181  ARARSVVDYLVSKGIPADKI-SARGMGEADQVTDSCGYKNGRATKAQIECLAPNRRVEIE  239
+
+Query  130  V  130
+            V
+Sbjct  240  V  240
+
+
+> sp|Q926C3|PAL_RHIME Peptidoglycan-associated lipoprotein OS=Rhizobium 
+meliloti (strain 1021) OX=266834 GN=pal PE=3 SV=1
+Length=176
+
+ Score = 45.5 bits (106),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 29/106 (27%), Positives = 43/106 (41%), Gaps = 9/106 (8%)
+
+Query  23   NRPMFKTGSAEVEPYMRDILRAIAPVLNGIPN-RISLAGHTDDFPYANGEKGYSNWELSA  81
+            +R  F T S  +    +  L   A  L   PN  I++ GH D+           N  L A
+Sbjct  67   DRIFFDTDSTSIRADAQATLDRQAQWLAKYPNYGITIEGHADERGTREY-----NLALGA  121
+
+Query  82   DRANASRRELVAGGLDNGKVLRVVGMAATMRLS--DRGPDDAINRR  125
+             RA A+R  LV+ G+  G  +R +       ++  D     + NRR
+Sbjct  122  RRAAATRDYLVSRGVP-GNRMRTISYGKEKPVAVCDDISCWSQNRR  166
+
+
+> sp|P38399|OMPA_YERPS Outer membrane protein A OS=Yersinia pseudotuberculosis 
+serotype I (strain IP32953) OX=273123 GN=ompA 
+PE=1 SV=2
+Length=353
+
+ Score = 45.5 bits (106),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 25/128 (20%), Positives = 47/128 (37%), Gaps = 19/128 (15%)
+
+Query  15   RIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAGHTDDFPYANGEKGY  74
+            R  +       +F    A ++P  +  L  +   L+ I  +    G      +A+     
+Sbjct  221  RFTLKSD---VLFGFNKANLKPEGQQALDQLYAQLSSIDPK---DGSVVVLGFADRIGQP  274
+
+Query  75   S-NWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD-----------AI  122
+            + N  LS  RA++ R  LV+ G+   K+    G      ++    D+           A 
+Sbjct  275  APNLALSQRRADSVRDYLVSKGIPADKI-TARGEGQANPVTGNTCDNVKPRAALIECLAP  333
+
+Query  123  NRRISLLV  130
+            +RR+ + V
+Sbjct  334  DRRVEIEV  341
+
+
+> sp|Q8ZG77|OMPA_YERPE Outer membrane protein A OS=Yersinia pestis 
+OX=632 GN=ompA PE=1 SV=1
+Length=353
+
+ Score = 45.5 bits (106),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 25/128 (20%), Positives = 47/128 (37%), Gaps = 19/128 (15%)
+
+Query  15   RIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAGHTDDFPYANGEKGY  74
+            R  +       +F    A ++P  +  L  +   L+ I  +    G      +A+     
+Sbjct  221  RFTLKSD---VLFGFNKANLKPEGQQALDQLYAQLSSIDPK---DGSVVVLGFADRIGQP  274
+
+Query  75   S-NWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD-----------AI  122
+            + N  LS  RA++ R  LV+ G+   K+    G      ++    D+           A 
+Sbjct  275  APNLALSQRRADSVRDYLVSKGIPADKI-TARGEGQANPVTGNTCDNVKPRAALIECLAP  333
+
+Query  123  NRRISLLV  130
+            +RR+ + V
+Sbjct  334  DRRVEIEV  341
+
+
+> sp|Q8U9L5|PAL_AGRFC Peptidoglycan-associated lipoprotein OS=Agrobacterium 
+fabrum (strain C58 / ATCC 33970) OX=176299 GN=pal 
+PE=3 SV=1
+Length=177
+
+ Score = 40.9 bits (94),  Expect = 9e-04, Method: Composition-based stats.
+ Identities = 26/106 (25%), Positives = 43/106 (41%), Gaps = 9/106 (8%)
+
+Query  23   NRPMFKTGSAEVEPYMRDILRAIAPVLNGIPN-RISLAGHTDDFPYANGEKGYSNWELSA  81
+            +R  F T S  +    +  L+  A  L+  PN  I++ GH D+           N  L A
+Sbjct  68   DRIFFDTDSTSIRADAQQTLQRQAQWLSRYPNYAITVEGHADERGTREY-----NLALGA  122
+
+Query  82   DRANASRRELVAGGLDNGKVLRVVGMAATMRLS--DRGPDDAINRR  125
+             RA A+R  L + G+     ++ +       ++  D     + NRR
+Sbjct  123  RRAAATRDFLASQGVP-ASRMKTISYGKEKPVAVCDDISCWSQNRR  167
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.127    0.307    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0388    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5152045464
+Results from round 3
+
+
+Query= 5Y3Z:B
+
+Length=142
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P55892|MOTB_SALTY Motility protein B OS=Salmonella typhimuri...  176     2e-54
+  sp|P0AF06|MOTB_ECOLI Motility protein B OS=Escherichia coli (st...  171     1e-52
+  sp|P0AF07|MOTB_ECO57 Motility protein B OS=Escherichia coli O15...  171     1e-52
+  sp|Q47154|LAFU_ECOLI Putative truncated flagellar export/assemb...  160     2e-49
+  sp|D3GSC3|LAFU_ECO44 Putative flagellar export/assembly protein...  162     6e-49
+  sp|Q03478|LAFU_VIBPA Chemotaxis protein LafU OS=Vibrio parahaem...  162     1e-48
+  sp|P46827|YTXE_BACME Uncharacterized 24.6 kDa protein in ccpA 3...  156     7e-48
+  sp|P39064|YTXE_BACSU Uncharacterized protein YtxE OS=Bacillus s...  145     4e-43
+  sp|P28612|MOTB_BACSU Motility protein B OS=Bacillus subtilis (s...  142     1e-41
+  sp|P13794|PORF_PSEAE Outer membrane porin F OS=Pseudomonas aeru...  125     2e-34
+  sp|P37665|YIAD_ECOLI Probable lipoprotein YiaD OS=Escherichia c...  121     5e-34
+  sp|P38369|TPN50_TREPA Outer membrane protein Tpn50 OS=Treponema...  124     1e-33
+  sp|Q05146|OMPA_BORAV Outer membrane protein A OS=Bordetella avi...  117     5e-33
+  sp|O07887|MOTB_TREPA Motility protein B OS=Treponema pallidum (...  118     9e-33
+  sp|P22263|PORF_PSESY Outer membrane porin F OS=Pseudomonas syri...  120     1e-32
+  sp|Q9I4Z4|PAL_PSEAE Peptidoglycan-associated lipoprotein OS=Pse...  115     1e-32
+  sp|P0A139|PAL_PSEPU Peptidoglycan-associated lipoprotein OS=Pse...  112     4e-31
+  sp|P0A138|PAL_PSEPK Peptidoglycan-associated lipoprotein OS=Pse...  112     4e-31
+  sp|Q7NFT5|PSAB_GLOVI Photosystem I P700 chlorophyll a apoprotei...  120     4e-31
+  sp|A3M8K2|OMP38_ACIBT Outer membrane protein Omp38 OS=Acinetoba...  112     2e-29
+  sp|P84838|OMPC_GLUDA Outer membrane protein OS=Gluconacetobacte...  112     2e-29
+  sp|Q6RYW5|OMP38_ACIB2 Outer membrane protein Omp38 OS=Acinetoba...  112     2e-29
+  sp|P38399|OMPA_YERPS Outer membrane protein A OS=Yersinia pseud...  110     7e-29
+  sp|Q8ZG77|OMPA_YERPE Outer membrane protein A OS=Yersinia pesti...  110     7e-29
+  sp|P24755|OMPA_SEROD Outer membrane protein A (Fragment) OS=Ser...  104     4e-27
+  sp|Q926C3|PAL_RHIME Peptidoglycan-associated lipoprotein OS=Rhi...  99.0    7e-26
+  sp|Q8U9L5|PAL_AGRFC Peptidoglycan-associated lipoprotein OS=Agr...  97.9    2e-25
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P0C8Z2|OMPA_ESCFE Outer membrane protein A (Fragment) OS=Esc...  109     3e-29
+  sp|P0A910|OMPA_ECOLI Outer membrane protein A OS=Escherichia co...  111     4e-29
+  sp|P0A911|OMPA_ECO57 Outer membrane protein A OS=Escherichia co...  111     4e-29
+  sp|A0A2S4N3N0|OMPA_SHIFL Outer membrane protein A OS=Shigella f...  111     4e-29
+  sp|P02935|OMPA_SHIDY Outer membrane protein A OS=Shigella dysen...  111     4e-29
+  sp|B7LNW7|OMPA_ESCF3 Outer membrane protein A OS=Escherichia fe...  111     4e-29
+  sp|P37726|PORF_PSEFL Outer membrane porin F OS=Pseudomonas fluo...  109     1e-28
+  sp|P24017|OMPA_KLEPN Outer membrane protein A OS=Klebsiella pne...  109     2e-28
+  sp|P24754|OMPA_ATLHE Outer membrane protein A (Fragment) OS=Atl...  107     2e-28
+  sp|I2BAK7|OMPA_SHIBC Outer membrane protein A OS=Shimwellia bla...  109     2e-28
+  sp|P02936|OMPA_SALTY Outer membrane protein A OS=Salmonella typ...  109     3e-28
+  sp|Q8Z7S0|OMPA_SALTI Outer membrane protein A OS=Salmonella typ...  109     3e-28
+  sp|P24016|OMPA_CITFR Outer membrane protein A (Fragment) OS=Cit...  106     4e-28
+  sp|P0A3S8|PAL_BRUSU Peptidoglycan-associated lipoprotein OS=Bru...  104     5e-28
+  sp|P0A3S7|PAL_BRUME Peptidoglycan-associated lipoprotein OS=Bru...  104     5e-28
+  sp|P0A3S9|PAL_BRUAB Peptidoglycan-associated lipoprotein OS=Bru...  104     5e-28
+  sp|P04845|OMPA_SERMA Outer membrane protein A OS=Serratia marce...  107     1e-27
+  sp|P0DJO6|OMPA_SHIBL Outer membrane protein A (Fragment) OS=Shi...  105     2e-27
+  sp|P09146|OMPA_KLEAE Outer membrane protein A OS=Klebsiella aer...  105     6e-27
+  sp|Q98F85|PAL_RHILO Peptidoglycan-associated lipoprotein OS=Mes...  96.0    1e-24
+  sp|Q51886|PAL_PASMU Peptidoglycan-associated lipoprotein OS=Pas...  89.4    2e-22
+  sp|P10324|PAL_HAEIN Peptidoglycan-associated lipoprotein OS=Hae...  85.9    5e-21
+  sp|P0A914|PAL_SHIFL Peptidoglycan-associated lipoprotein OS=Shi...  85.9    9e-21
+  sp|P0A912|PAL_ECOLI Peptidoglycan-associated lipoprotein OS=Esc...  85.9    9e-21
+  sp|P0A913|PAL_ECO57 Peptidoglycan-associated lipoprotein OS=Esc...  85.9    9e-21
+  sp|P9WIU5|ARFA_MYCTU Peptidoglycan-binding protein ArfA OS=Myco...  88.6    1e-20
+  sp|P9WIU4|ARFA_MYCTO Peptidoglycan-binding protein ArfA OS=Myco...  88.6    1e-20
+  sp|A1KH31|ARFA_MYCBP Peptidoglycan-binding protein ArfA OS=Myco...  88.6    1e-20
+  sp|P65594|ARFA_MYCBO Peptidoglycan-binding protein ArfA OS=Myco...  88.6    1e-20
+  sp|P43840|OMP5_HAEIN Outer membrane protein P5 OS=Haemophilus i...  87.5    5e-20
+  sp|P38368|OMP52_HAEIF Outer membrane protein P5 OS=Haemophilus ...  86.7    8e-20
+  sp|P45996|OMP53_HAEIF Outer membrane protein P5 OS=Haemophilus ...  85.6    2e-19
+  sp|Q89AJ5|PAL_BUCBP Peptidoglycan-associated lipoprotein OS=Buc...  78.2    1e-17
+  sp|P07021|YFIB_ECOLI Putative lipoprotein YfiB OS=Escherichia c...  75.9    5e-17
+  sp|P57414|OMPA_BUCAI Outer membrane protein A OS=Buchnera aphid...  77.5    2e-16
+  sp|Q8K9L4|OMPA_BUCAP Outer membrane protein A OS=Buchnera aphid...  75.2    1e-15
+  sp|P26493|PAL_LEGPN Peptidoglycan-associated lipoprotein OS=Leg...  72.1    2e-15
+  sp|P07050|OMP3_NEIGO Outer membrane protein P.III OS=Neisseria ...  72.1    6e-15
+  sp|P0A0V3|OMP4_NEIMB Outer membrane protein class 4 OS=Neisseri...  70.9    2e-14
+  sp|P0A0V2|OMP4_NEIMA Outer membrane protein class 4 OS=Neisseri...  70.5    2e-14
+  sp|Q9S3P9|MOTY_VIBAN Sodium-type flagellar protein MotY OS=Vibr...  69.0    1e-13
+  sp|P46233|MOTY_VIBPA Sodium-type flagellar protein MotY OS=Vibr...  69.0    2e-13
+  sp|Q9ZL29|MOTB_HELPJ Motility protein B OS=Helicobacter pylori ...  67.5    3e-13
+  sp|P56427|MOTB_HELPY Motility protein B OS=Helicobacter pylori ...  67.1    6e-13
+  sp|Q9S3R9|OMP41_PORGI Outer membrane protein 41 OS=Porphyromona...  59.4    6e-10
+  sp|Q8YDY8|YU36_BRUME Type IV secretion system putative outer me...  54.4    1e-08
+  sp|Q2YJ83|YP57_BRUA2 Type IV secretion system putative outer me...  53.6    2e-08
+  sp|P0C536|YN58_BRUAB Type IV secretion system putative outer me...  53.6    2e-08
+  sp|Q9RPX3|YU58_BRUSU Type IV secretion system putative outer me...  51.3    2e-07
+  sp|Q9S3R8|OMP40_PORGI Outer membrane protein 40 OS=Porphyromona...  48.6    3e-06
+
+
+> sp|P55892|MOTB_SALTY Motility protein B OS=Salmonella typhimurium 
+(strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=motB 
+PE=1 SV=1
+Length=309
+
+ Score = 176 bits (446),  Expect = 2e-54, Method: Composition-based stats.
+ Identities = 141/142 (99%), Positives = 141/142 (99%), Gaps = 0/142 (0%)
+
+Query  1    LRPHLKIDLVQEGLRIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAG  60
+            LRPHLKIDLVQEGLRIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAG
+Sbjct  136  LRPHLKIDLVQEGLRIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAG  195
+
+Query  61   HTDDFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD  120
+            HTDDFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD
+Sbjct  196  HTDDFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD  255
+
+Query  121  AINRRISLLVLNKQAEQAILHH  142
+            AINRRISLLVLNKQAEQAILH 
+Sbjct  256  AINRRISLLVLNKQAEQAILHE  277
+
+
+> sp|P0AF06|MOTB_ECOLI Motility protein B OS=Escherichia coli (strain 
+K12) OX=83333 GN=motB PE=1 SV=1
+Length=308
+
+ Score = 171 bits (433),  Expect = 1e-52, Method: Composition-based stats.
+ Identities = 133/142 (94%), Positives = 140/142 (99%), Gaps = 0/142 (0%)
+
+Query  1    LRPHLKIDLVQEGLRIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAG  60
+            LRPHLKIDLVQEGLRIQIIDSQNRPMF+TGSA+VEPYMRDILRAIAPVLNGIPNRISL+G
+Sbjct  135  LRPHLKIDLVQEGLRIQIIDSQNRPMFRTGSADVEPYMRDILRAIAPVLNGIPNRISLSG  194
+
+Query  61   HTDDFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD  120
+            HTDDFPYA+GEKGYSNWELSADRANASRREL+ GGLD+GKVLRVVGMAATMRLSDRGPDD
+Sbjct  195  HTDDFPYASGEKGYSNWELSADRANASRRELMVGGLDSGKVLRVVGMAATMRLSDRGPDD  254
+
+Query  121  AINRRISLLVLNKQAEQAILHH  142
+            A+NRRISLLVLNKQAEQAILH 
+Sbjct  255  AVNRRISLLVLNKQAEQAILHE  276
+
+
+> sp|P0AF07|MOTB_ECO57 Motility protein B OS=Escherichia coli O157:H7 
+OX=83334 GN=motB PE=3 SV=1
+Length=308
+
+ Score = 171 bits (433),  Expect = 1e-52, Method: Composition-based stats.
+ Identities = 133/142 (94%), Positives = 140/142 (99%), Gaps = 0/142 (0%)
+
+Query  1    LRPHLKIDLVQEGLRIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAG  60
+            LRPHLKIDLVQEGLRIQIIDSQNRPMF+TGSA+VEPYMRDILRAIAPVLNGIPNRISL+G
+Sbjct  135  LRPHLKIDLVQEGLRIQIIDSQNRPMFRTGSADVEPYMRDILRAIAPVLNGIPNRISLSG  194
+
+Query  61   HTDDFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD  120
+            HTDDFPYA+GEKGYSNWELSADRANASRREL+ GGLD+GKVLRVVGMAATMRLSDRGPDD
+Sbjct  195  HTDDFPYASGEKGYSNWELSADRANASRRELMVGGLDSGKVLRVVGMAATMRLSDRGPDD  254
+
+Query  121  AINRRISLLVLNKQAEQAILHH  142
+            A+NRRISLLVLNKQAEQAILH 
+Sbjct  255  AVNRRISLLVLNKQAEQAILHE  276
+
+
+> sp|Q47154|LAFU_ECOLI Putative truncated flagellar export/assembly 
+protein LafU OS=Escherichia coli (strain K12) OX=83333 
+GN=lafU PE=5 SV=1
+Length=211
+
+ Score = 160 bits (404),  Expect = 2e-49, Method: Composition-based stats.
+ Identities = 57/142 (40%), Positives = 87/142 (61%), Gaps = 2/142 (1%)
+
+Query  1    LRPHLKIDLVQEGLRIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAG  60
+            +  +L++++V +GLR+ I D QNR MF+ GSA++ P+ + +L  +APV + + N+I + G
+Sbjct  45   MEANLEMEIVPQGLRVLIKDDQNRNMFERGSAKIMPFFKTLLVELAPVFDSLDNKIIITG  104
+
+Query  61   HTDDFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD  120
+            HTD   Y N    Y+NW LS DRA ++RR L   G+   KV++V  MA  M L  + P  
+Sbjct  105  HTDAMAYKNN--IYNNWNLSGDRALSARRVLEEAGMPEDKVMQVSAMADQMLLDSKNPQS  162
+
+Query  121  AINRRISLLVLNKQAEQAILHH  142
+            A NRRI ++VL K A   +  +
+Sbjct  163  AGNRRIEIMVLTKSASDTLYQY  184
+
+
+> sp|D3GSC3|LAFU_ECO44 Putative flagellar export/assembly protein 
+LafU OS=Escherichia coli O44:H18 (strain 042 / EAEC) OX=216592 
+GN=lafU PE=3 SV=1
+Length=307
+
+ Score = 162 bits (409),  Expect = 6e-49, Method: Composition-based stats.
+ Identities = 57/142 (40%), Positives = 87/142 (61%), Gaps = 2/142 (1%)
+
+Query  1    LRPHLKIDLVQEGLRIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAG  60
+            +  +L++++V +GLR+ I D QNR MF+ GSA++ P+ + +L  +APV + + N+I + G
+Sbjct  141  MEANLEMEIVPQGLRVLIKDDQNRNMFERGSAQIMPFFKTLLVELAPVFDSLDNKIIITG  200
+
+Query  61   HTDDFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD  120
+            HTD   Y N    Y+NW LS DRA ++RR L   G+   KV++V  MA  M L  + P  
+Sbjct  201  HTDAMAYKNN--IYNNWNLSGDRALSARRVLEEAGMPEDKVMQVSAMADQMLLDAKNPQS  258
+
+Query  121  AINRRISLLVLNKQAEQAILHH  142
+            A NRRI ++VL K A   +  +
+Sbjct  259  AGNRRIEIMVLTKSASDTLYQY  280
+
+
+> sp|Q03478|LAFU_VIBPA Chemotaxis protein LafU OS=Vibrio parahaemolyticus 
+serotype O3:K6 (strain RIMD 2210633) OX=223926 GN=lafU 
+PE=2 SV=2
+Length=330
+
+ Score = 162 bits (409),  Expect = 1e-48, Method: Composition-based stats.
+ Identities = 49/138 (36%), Positives = 81/138 (59%), Gaps = 0/138 (0%)
+
+Query  2    RPHLKIDLVQEGLRIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAGH  61
+            + ++ + +  +GLRI + D   + MF  G AE+ P+  D+L A+AP+   + N + ++GH
+Sbjct  146  QGNVNVTVTPQGLRIVLQDDYKQHMFSRGGAELTPFFEDLLLALAPLFEQVTNPLIISGH  205
+
+Query  62   TDDFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDDA  121
+            TD  P+       SNW LSA RA+ +R+ LV GG+ + +V++V GM+    L+   PD +
+Sbjct  206  TDAIPFKKRFGRQSNWALSASRADVARKTLVEGGMPDDRVMQVTGMSDRALLNPDEPDSS  265
+
+Query  122  INRRISLLVLNKQAEQAI  139
+             NRRI L +L   A + +
+Sbjct  266  ENRRIELFILTTPAAKVL  283
+
+
+> sp|P46827|YTXE_BACME Uncharacterized 24.6 kDa protein in ccpA 
+3'region OS=Bacillus megaterium OX=1404 GN=ytxE PE=3 SV=1
+Length=218
+
+ Score = 156 bits (395),  Expect = 7e-48, Method: Composition-based stats.
+ Identities = 36/138 (26%), Positives = 63/138 (46%), Gaps = 6/138 (4%)
+
+Query  1    LRPHLKIDLVQEGLRIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAG  60
+            L+  +     + G+ + +   Q + +F+TG A++       L  +  + + IPN I + G
+Sbjct  85   LQHVITAKRDERGVVLIL---QEQVLFETGQADILKKGTPFLDELGRLFSTIPNDIKVEG  141
+
+Query  61   HTDDFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD  120
+            HTD+ P        SNWELSA RA+   R L      +      +G   T  L     +D
+Sbjct  142  HTDNRPIHTY-AYPSNWELSAARASGVIRYLTNHFSLSANRFEALGYGDTKPLVPNTSND  200
+
+Query  121  A--INRRISLLVLNKQAE  136
+                NRR+ +++ + +A+
+Sbjct  201  NLQKNRRVEIIISDPEAQ  218
+
+
+> sp|P39064|YTXE_BACSU Uncharacterized protein YtxE OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=ytxE PE=3 SV=1
+Length=242
+
+ Score = 145 bits (365),  Expect = 4e-43, Method: Composition-based stats.
+ Identities = 38/133 (29%), Positives = 62/133 (47%), Gaps = 6/133 (5%)
+
+Query  1    LRPHLKIDLVQEGLRIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAG  60
+            L+  +     + G+ + +   Q   +F TG A+V      +L  IA +L  IPN I + G
+Sbjct  107  LKAQMTAKRDERGVVLVL---QEAVLFDTGEAKVLKNAETLLHQIAVLLQTIPNDIQVEG  163
+
+Query  61   HTDDFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD  120
+            HTD    +   +  SNWELSA RA+   +   +      K    VG A T  + D   ++
+Sbjct  164  HTDSRNISTY-RYPSNWELSAARASGVIQYFTSKEKLPSKRFIAVGYADTKPVKDNKTNE  222
+
+Query  121  AI--NRRISLLVL  131
+             +  NRR+ +++ 
+Sbjct  223  HMKENRRVEIVIK  235
+
+
+> sp|P28612|MOTB_BACSU Motility protein B OS=Bacillus subtilis 
+(strain 168) OX=224308 GN=motB PE=3 SV=1
+Length=261
+
+ Score = 142 bits (357),  Expect = 1e-41, Method: Composition-based stats.
+ Identities = 41/141 (29%), Positives = 63/141 (45%), Gaps = 7/141 (5%)
+
+Query  1    LRPHLKIDLVQEGLRIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNR-ISLA  59
+            L   L+  +  EGL I I DS     F +G A +      + + I+ +L   P R I ++
+Sbjct  122  LEHQLETKMTSEGLLITIKDS---IFFDSGKATIRKEDVPLAKEISNLLVINPPRNIIIS  178
+
+Query  60   GHTDDFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPD  119
+            GHTD+ P  N E   SNW LS  RA      L+     + KV    G      ++     
+Sbjct  179  GHTDNMPIKNSE-FQSNWHLSVMRAVNFMGLLIENPKLDAKVFSAKGYGEYKPVASNKTA  237
+
+Query  120  D--AINRRISLLVLNKQAEQA  138
+            +  + NRR+ +L+L + A + 
+Sbjct  238  EGRSKNRRVEVLILPRGAAET  258
+
+
+> sp|P13794|PORF_PSEAE Outer membrane porin F OS=Pseudomonas aeruginosa 
+(strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 
+/ LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=oprF PE=1 
+SV=1
+Length=350
+
+ Score = 125 bits (314),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 32/124 (26%), Positives = 52/124 (42%), Gaps = 13/124 (10%)
+
+Query  10   VQEGLRIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNR-ISLAGHTDDFPYA  68
+            V E +R+Q+        F    ++V+      ++ +A  +   P+   ++ GHTD     
+Sbjct  232  VAEVVRVQL-----DVKFDFDKSKVKENSYADIKNLADFMKQYPSTSTTVEGHTDSVGTD  286
+
+Query  69   NGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD--AINRRI  126
+                   N +LS  RANA R  LV      G  +  VG   +  ++D    +  AINRR+
+Sbjct  287  AY-----NQKLSERRANAVRDVLVNEYGVEGGRVNAVGYGESRPVADNATAEGRAINRRV  341
+
+Query  127  SLLV  130
+               V
+Sbjct  342  EAEV  345
+
+
+> sp|P37665|YIAD_ECOLI Probable lipoprotein YiaD OS=Escherichia 
+coli (strain K12) OX=83333 GN=yiaD PE=1 SV=2
+Length=219
+
+ Score = 121 bits (303),  Expect = 5e-34, Method: Composition-based stats.
+ Identities = 29/140 (21%), Positives = 57/140 (41%), Gaps = 15/140 (11%)
+
+Query  2    RPHLKIDLVQEGLRIQ------IIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNR  55
+               L+  +   G+ +       I++  N   F + SA ++P   + L  +A VL   P  
+Sbjct  85   EAKLRDKMRGTGVSVTRSGDNIILNMPNNVTFDSSSATLKPAGANTLTGVAMVLKEYPKT  144
+
+Query  56   -ISLAGHTDDFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLS  114
+             +++ G+TD            N  LS  RA++    L+  G+ +   +R  G+     ++
+Sbjct  145  AVNVIGYTDS-----TGGHDLNMRLSQQRADSVASALITQGV-DASRIRTQGLGPANPIA  198
+
+Query  115  DRGPDD--AINRRISLLVLN  132
+                 +  A NRR+ + +  
+Sbjct  199  SNSTAEGKAQNRRVEITLSP  218
+
+
+> sp|P38369|TPN50_TREPA Outer membrane protein Tpn50 OS=Treponema 
+pallidum (strain Nichols) OX=243276 GN=tpn50 PE=3 SV=1
+Length=417
+
+ Score = 124 bits (311),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 34/134 (25%), Positives = 59/134 (44%), Gaps = 12/134 (9%)
+
+Query  3    PHLKIDLVQEGLRIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNR-ISLAGH  61
+            P  K+   +EG+ I I + Q    F   SA + P   + LR IA +L   P+R + ++GH
+Sbjct  293  PDAKVRETEEGVTISIENVQ----FDADSASLAPSEYEKLRKIAELLRAFPDRELLVSGH  348
+
+Query  62   TDDFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDDA  121
+                  A          +S +RA+   R L   G+ +   +   G  A   ++    +D 
+Sbjct  349  A-----ARRGSVQDQQRISEERADVVARYLQELGVVDAAHVYTRGCGAQQSIAPNDSEDG  403
+
+Query  122  --INRRISLLVLNK  133
+               NRR+ + +++K
+Sbjct  404  RRKNRRVEITIISK  417
+
+
+> sp|Q05146|OMPA_BORAV Outer membrane protein A OS=Bordetella avium 
+OX=521 GN=ompA PE=3 SV=1
+Length=194
+
+ Score = 117 bits (294),  Expect = 5e-33, Method: Composition-based stats.
+ Identities = 24/111 (22%), Positives = 44/111 (40%), Gaps = 9/111 (8%)
+
+Query  24   RPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLA-GHTDDFPYANGEKGYSNWELSAD  82
+               F    + ++P  R +L  +A     I     +A G+TD            N +LS  
+Sbjct  86   DTFFDFDKSTLKPEGRQLLDQVAQQARAIDLETIIAVGNTDSIGTEAY-----NMKLSER  140
+
+Query  83   RANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD--AINRRISLLVL  131
+            RA + +  LV+ G+D    +   G      ++     +  A NRR+ + ++
+Sbjct  141  RAASVKAYLVSKGIDP-NRIYTEGKGKLNPIASNKTAEGRARNRRVEIEIV  190
+
+
+> sp|O07887|MOTB_TREPA Motility protein B OS=Treponema pallidum 
+(strain Nichols) OX=243276 GN=motB PE=3 SV=1
+Length=238
+
+ Score = 118 bits (296),  Expect = 9e-33, Method: Composition-based stats.
+ Identities = 32/137 (23%), Positives = 52/137 (38%), Gaps = 11/137 (8%)
+
+Query  4    HLKIDLVQEGLRIQIIDSQNRPMFKTGSAEV-EPYMRDILRAIAPVLNG---IPNRISLA  59
+             + +   + GL I +        F  GS+++     R+ L  +A  L+       R  + 
+Sbjct  105  KIAVTSDERGLVISLTSD---SFFYPGSSDLNVEESREALLRVAQFLSDHALAGRRFRIE  161
+
+Query  60   GHTDDFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPD  119
+            GHTD       +    NWELS  RA      L   G        + G A T         
+Sbjct  162  GHTDSVEVPE-DGSTDNWELSTRRAVRVLHYLTDFGAQE-NRFSLAGYADTRAKFSNESP  219
+
+Query  120  D--AINRRISLLVLNKQ  134
+            +  A NRR+ +++L++ 
+Sbjct  220  EGRAYNRRVDIVILDEG  236
+
+
+> sp|P22263|PORF_PSESY Outer membrane porin F OS=Pseudomonas syringae 
+pv. syringae OX=321 GN=oprF PE=3 SV=1
+Length=344
+
+ Score = 120 bits (302),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 27/131 (21%), Positives = 52/131 (40%), Gaps = 8/131 (6%)
+
+Query  3    PHLKIDLVQEGLRIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRIS-LAGH  61
+             ++ +D        +++  +    F    + V+P     ++ +A  +   P   + + GH
+Sbjct  214  ANVTVDADGCPAVAEVVRVELDVKFDFDKSVVKPNSYGDIKNLADFMQQYPQTTTTVEGH  273
+
+Query  62   TDDFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD-  120
+            TD            N +LS  RANA ++ LV         +  VG   +  ++D   +  
+Sbjct  274  TDSVGPDAY-----NQKLSERRANAVKQVLVNQYGVGASRVNSVGYGESKPVADNATEAG  328
+
+Query  121  -AINRRISLLV  130
+             A+NRR+   V
+Sbjct  329  RAVNRRVEAEV  339
+
+
+> sp|Q9I4Z4|PAL_PSEAE Peptidoglycan-associated lipoprotein OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 
+/ JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 
+GN=pal PE=3 SV=1
+Length=168
+
+ Score = 115 bits (289),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 29/105 (28%), Positives = 43/105 (41%), Gaps = 8/105 (8%)
+
+Query  26   MFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAGHTDDFPYANGEKGYSNWELSADRAN  85
+             F+  S++++P     L   A  L G   R+ L GHTD+           N  L   RA 
+Sbjct  68   YFEYDSSDLKPEAMRALDVHAKDLKGSGQRVVLEGHTDERGTREY-----NMALGERRAK  122
+
+Query  86   ASRRELVAGGLDNGKVLRVVGMAATMRLSD--RGPDDAINRRISL  128
+            A +R LV  G+   + L +V       ++        A NRR+ L
+Sbjct  123  AVQRYLVLQGVSPAQ-LELVSYGKERPVATGHDEQSWAQNRRVEL  166
+
+
+> sp|P0A139|PAL_PSEPU Peptidoglycan-associated lipoprotein OS=Pseudomonas 
+putida OX=303 GN=pal PE=3 SV=1
+Length=166
+
+ Score = 112 bits (280),  Expect = 4e-31, Method: Composition-based stats.
+ Identities = 28/105 (27%), Positives = 43/105 (41%), Gaps = 8/105 (8%)
+
+Query  26   MFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAGHTDDFPYANGEKGYSNWELSADRAN  85
+             F+  S++++P     L   A  L    NR+ L G+TD+           N  L   RA 
+Sbjct  66   YFEYDSSDLKPEAMRALDVHAKDLKANGNRVVLEGNTDERGTREY-----NMALGERRAK  120
+
+Query  86   ASRRELVAGGLDNGKVLRVVGMAATMRLSD--RGPDDAINRRISL  128
+            A +R LV  G+   + L +V       ++        A NRR+ L
+Sbjct  121  AVQRYLVLQGVSPAQ-LELVSYGEERPVATGNDEQSWAQNRRVEL  164
+
+
+> sp|P0A138|PAL_PSEPK Peptidoglycan-associated lipoprotein OS=Pseudomonas 
+putida (strain ATCC 47054 / DSM 6125 / NCIMB 11950 
+/ KT2440) OX=160488 GN=pal PE=3 SV=1
+Length=166
+
+ Score = 112 bits (280),  Expect = 4e-31, Method: Composition-based stats.
+ Identities = 28/105 (27%), Positives = 43/105 (41%), Gaps = 8/105 (8%)
+
+Query  26   MFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAGHTDDFPYANGEKGYSNWELSADRAN  85
+             F+  S++++P     L   A  L    NR+ L G+TD+           N  L   RA 
+Sbjct  66   YFEYDSSDLKPEAMRALDVHAKDLKANGNRVVLEGNTDERGTREY-----NMALGERRAK  120
+
+Query  86   ASRRELVAGGLDNGKVLRVVGMAATMRLSD--RGPDDAINRRISL  128
+            A +R LV  G+   + L +V       ++        A NRR+ L
+Sbjct  121  AVQRYLVLQGVSPAQ-LELVSYGEERPVATGNDEQSWAQNRRVEL  164
+
+
+> sp|Q7NFT5|PSAB_GLOVI Photosystem I P700 chlorophyll a apoprotein 
+A2 OS=Gloeobacter violaceus (strain ATCC 29082 / PCC 7421) 
+OX=251221 GN=psaB PE=1 SV=1
+Length=872
+
+ Score = 120 bits (300),  Expect = 4e-31, Method: Composition-based stats.
+ Identities = 26/139 (19%), Positives = 48/139 (35%), Gaps = 18/139 (13%)
+
+Query  4    HLKIDLVQEGLRIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIP-NRISLAGHT  62
+              K   V  G+ + +       +F    + V+      L  +  V+       + + GHT
+Sbjct  738  EFKAKPVPGGVMLLL---PENIVFDFDKSSVKLDADPALNRVVGVIQFYGSEPVEILGHT  794
+
+Query  63   DDFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDDA-  121
+            D            N +LS +RA+A +      G+   + L   G   T  ++     D  
+Sbjct  795  DSLGEDAY-----NQKLSEERASAVKAFFEKKGI-EAERLTAKGYGETKPVAPNAKPDGS  848
+
+Query  122  -------INRRISLLVLNK  133
+                    NRR+ +L+  +
+Sbjct  849  DNPDGRQQNRRVEILIKTE  867
+
+
+> sp|A3M8K2|OMP38_ACIBT Outer membrane protein Omp38 OS=Acinetobacter 
+baumannii (strain ATCC 17978 / CIP 53.77 / LMG 1025 / 
+NCDC KC755 / 5377) OX=400667 GN=omp38 PE=3 SV=2
+Length=356
+
+ Score = 112 bits (280),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 28/110 (25%), Positives = 46/110 (42%), Gaps = 8/110 (7%)
+
+Query  20   DSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRI-SLAGHTDDFPYANGEKGYSNWE  78
+            + + R  F T  + ++   +  +  +A  L+  PN    + GHTD     N      N  
+Sbjct  227  NMELRVFFDTNKSNIKDQYKPEIAKVAEKLSEYPNATARIEGHTD-----NTGPRKLNER  281
+
+Query  79   LSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD--AINRRI  126
+            LS  RAN+ +  LV     +   L   G A    ++D    +  A+NRR+
+Sbjct  282  LSLARANSVKSALVNEYNVDASRLSTQGFAWDQPIADNKTKEGRAMNRRV  331
+
+
+> sp|P84838|OMPC_GLUDA Outer membrane protein OS=Gluconacetobacter 
+diazotrophicus (strain ATCC 49037 / DSM 5601 / PAl5) OX=272568 
+GN=GDI2185 PE=1 SV=2
+Length=378
+
+ Score = 112 bits (281),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 27/110 (25%), Positives = 49/110 (45%), Gaps = 5/110 (5%)
+
+Query  25   PMFKTGSAEVEPYMRDILRAIAPVLNGI-PNRISLAGHTDDFPYANGEKGYS-NWELSAD  82
+              F    +++    R+I+   A     +   RI + G+TD+     G +G   N  LS  
+Sbjct  269  VFFDWDRSDLTARAREIVAEAAQASTHVQTTRIEVNGYTDNSAAHPGPRGEKYNMGLSIR  328
+
+Query  83   RANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPD--DAINRRISLLV  130
+            RA + + EL+  G+  G +  + G      L   GP+  +  NRR+ +++
+Sbjct  329  RAQSVKAELIRDGVPTGAI-DIHGYGEQHPLVPTGPNTREPQNRRVEIIL  377
+
+
+> sp|Q6RYW5|OMP38_ACIB2 Outer membrane protein Omp38 OS=Acinetobacter 
+baumannii (strain ATCC 19606 / DSM 30007 / CIP 70.34 
+/ JCM 6841 / NBRC 109757 / NCIMB 12457 / NCTC 12156 / 81) OX=575584 
+GN=omp38 PE=1 SV=1
+Length=356
+
+ Score = 112 bits (280),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 28/110 (25%), Positives = 46/110 (42%), Gaps = 8/110 (7%)
+
+Query  20   DSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRI-SLAGHTDDFPYANGEKGYSNWE  78
+            + + R  F T  + ++   +  +  +A  L+  PN    + GHTD     N      N  
+Sbjct  227  NMELRVFFDTNKSNIKDQYKPEIAKVAEKLSEYPNATARIEGHTD-----NTGPRKLNER  281
+
+Query  79   LSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD--AINRRI  126
+            LS  RAN+ +  LV     +   L   G A    ++D    +  A+NRR+
+Sbjct  282  LSLARANSVKSALVNEYNVDASRLSTQGFAWDQPIADNKTKEGRAMNRRV  331
+
+
+> sp|P0C8Z2|OMPA_ESCFE Outer membrane protein A (Fragment) OS=Escherichia 
+fergusonii OX=564 GN=ompA PE=3 SV=1
+Length=243
+
+ Score = 109 bits (273),  Expect = 3e-29, Method: Composition-based stats.
+ Identities = 23/130 (18%), Positives = 47/130 (36%), Gaps = 23/130 (18%)
+
+Query  16   IQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNR---ISLAGHTDDFPYANGEK  72
+              +       +F    A ++P  +  L  +   L+ +  +   + + G+TD         
+Sbjct  121  FTLKSD---VLFNFNKATLKPEGQAALDQLYSQLSNLDPKDGSVVVLGYTDRIGSDAY--  175
+
+Query  73   GYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD-----------A  121
+               N  LS  RA +    L++ G+   K+    GM  +  ++    D+           A
+Sbjct  176  ---NQGLSERRAQSVVDYLISKGIPADKI-SARGMGESNPVTGNTCDNVKQRAALIDCLA  231
+
+Query  122  INRRISLLVL  131
+             +RR+ + V 
+Sbjct  232  PDRRVEIEVK  241
+
+
+> sp|P0A910|OMPA_ECOLI Outer membrane protein A OS=Escherichia 
+coli (strain K12) OX=83333 GN=ompA PE=1 SV=1
+Length=346
+
+ Score = 111 bits (278),  Expect = 4e-29, Method: Composition-based stats.
+ Identities = 24/140 (17%), Positives = 50/140 (36%), Gaps = 25/140 (18%)
+
+Query  16   IQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNR---ISLAGHTDDFPYANGEK  72
+              +       +F    A ++P  +  L  +   L+ +  +   + + G+TD         
+Sbjct  215  FTLKSD---VLFNFNKATLKPEGQAALDQLYSQLSNLDPKDGSVVVLGYTDRIGSDAY--  269
+
+Query  73   GYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD-----------A  121
+               N  LS  RA +    L++ G+   K+    GM  +  ++    D+           A
+Sbjct  270  ---NQGLSERRAQSVVDYLISKGIPADKI-SARGMGESNPVTGNTCDNVKQRAALIDCLA  325
+
+Query  122  INRRISLLVLNKQAEQAILH  141
+             +RR+ + V  K  +  +  
+Sbjct  326  PDRRVEIEV--KGIKDVVTQ  343
+
+
+> sp|P0A911|OMPA_ECO57 Outer membrane protein A OS=Escherichia 
+coli O157:H7 OX=83334 GN=ompA PE=3 SV=1
+Length=346
+
+ Score = 111 bits (278),  Expect = 4e-29, Method: Composition-based stats.
+ Identities = 24/140 (17%), Positives = 50/140 (36%), Gaps = 25/140 (18%)
+
+Query  16   IQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNR---ISLAGHTDDFPYANGEK  72
+              +       +F    A ++P  +  L  +   L+ +  +   + + G+TD         
+Sbjct  215  FTLKSD---VLFNFNKATLKPEGQAALDQLYSQLSNLDPKDGSVVVLGYTDRIGSDAY--  269
+
+Query  73   GYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD-----------A  121
+               N  LS  RA +    L++ G+   K+    GM  +  ++    D+           A
+Sbjct  270  ---NQGLSERRAQSVVDYLISKGIPADKI-SARGMGESNPVTGNTCDNVKQRAALIDCLA  325
+
+Query  122  INRRISLLVLNKQAEQAILH  141
+             +RR+ + V  K  +  +  
+Sbjct  326  PDRRVEIEV--KGIKDVVTQ  343
+
+
+> sp|A0A2S4N3N0|OMPA_SHIFL Outer membrane protein A OS=Shigella 
+flexneri OX=623 GN=ompA PE=1 SV=1
+Length=348
+
+ Score = 111 bits (278),  Expect = 4e-29, Method: Composition-based stats.
+ Identities = 24/140 (17%), Positives = 50/140 (36%), Gaps = 25/140 (18%)
+
+Query  16   IQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNR---ISLAGHTDDFPYANGEK  72
+              +       +F    A ++P  +  L  +   L+ +  +   + + G+TD         
+Sbjct  217  FTLKSD---VLFNFNKATLKPEGQAALDQLYSQLSNLDPKDGSVVVLGYTDRIGSDAY--  271
+
+Query  73   GYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD-----------A  121
+               N  LS  RA +    L++ G+   K+    GM  +  ++    D+           A
+Sbjct  272  ---NQGLSERRAQSVVDYLISKGIPADKI-SARGMGESNPVTGNTCDNVKQRAALIDCLA  327
+
+Query  122  INRRISLLVLNKQAEQAILH  141
+             +RR+ + V  K  +  +  
+Sbjct  328  PDRRVEIEV--KGIKDVVTQ  345
+
+
+> sp|P02935|OMPA_SHIDY Outer membrane protein A OS=Shigella dysenteriae 
+OX=622 GN=ompA PE=3 SV=1
+Length=351
+
+ Score = 111 bits (278),  Expect = 4e-29, Method: Composition-based stats.
+ Identities = 24/140 (17%), Positives = 50/140 (36%), Gaps = 25/140 (18%)
+
+Query  16   IQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNR---ISLAGHTDDFPYANGEK  72
+              +       +F    A ++P  +  L  +   L+ +  +   + + G+TD         
+Sbjct  220  FTLKSD---VLFNFNKATLKPEGQAALDQLYSQLSNLDPKDGSVVVLGYTDRIGSDAY--  274
+
+Query  73   GYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD-----------A  121
+               N  LS  RA +    L++ G+   K+    GM  +  ++    D+           A
+Sbjct  275  ---NQGLSERRAQSVVDYLISKGIPADKI-SARGMGESNPVTGNTCDNVKQRAALIDCLA  330
+
+Query  122  INRRISLLVLNKQAEQAILH  141
+             +RR+ + V  K  +  +  
+Sbjct  331  PDRRVEIEV--KGIKDVVTQ  348
+
+
+> sp|B7LNW7|OMPA_ESCF3 Outer membrane protein A OS=Escherichia 
+fergusonii (strain ATCC 35469 / DSM 13698 / CDC 0568-73) OX=585054 
+GN=ompA PE=3 SV=2
+Length=351
+
+ Score = 111 bits (278),  Expect = 4e-29, Method: Composition-based stats.
+ Identities = 24/140 (17%), Positives = 50/140 (36%), Gaps = 25/140 (18%)
+
+Query  16   IQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNR---ISLAGHTDDFPYANGEK  72
+              +       +F    A ++P  +  L  +   L+ +  +   + + G+TD         
+Sbjct  220  FTLKSD---VLFNFNKATLKPEGQAALDQLYSQLSNLDPKDGSVVVLGYTDRIGSDAY--  274
+
+Query  73   GYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD-----------A  121
+               N  LS  RA +    L++ G+   K+    GM  +  ++    D+           A
+Sbjct  275  ---NQGLSERRAQSVVDYLISKGIPADKI-SARGMGESNPVTGNTCDNVKQRAALIDCLA  330
+
+Query  122  INRRISLLVLNKQAEQAILH  141
+             +RR+ + V  K  +  +  
+Sbjct  331  PDRRVEIEV--KGIKDVVTQ  348
+
+
+> sp|P38399|OMPA_YERPS Outer membrane protein A OS=Yersinia pseudotuberculosis 
+serotype I (strain IP32953) OX=273123 GN=ompA 
+PE=1 SV=2
+Length=353
+
+ Score = 110 bits (276),  Expect = 7e-29, Method: Composition-based stats.
+ Identities = 26/139 (19%), Positives = 51/139 (37%), Gaps = 21/139 (15%)
+
+Query  15   RIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAGHTDDFPYANGEKGY  74
+            R  +       +F    A ++P  +  L  +   L+ I  +    G      +A+     
+Sbjct  221  RFTLKSD---VLFGFNKANLKPEGQQALDQLYAQLSSIDPK---DGSVVVLGFADRIGQP  274
+
+Query  75   S-NWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD-----------AI  122
+            + N  LS  RA++ R  LV+ G+   K+    G      ++    D+           A 
+Sbjct  275  APNLALSQRRADSVRDYLVSKGIPADKI-TARGEGQANPVTGNTCDNVKPRAALIECLAP  333
+
+Query  123  NRRISLLVLNKQAEQAILH  141
+            +RR+ + V  K  ++ +  
+Sbjct  334  DRRVEIEV--KGYKEVVTQ  350
+
+
+> sp|Q8ZG77|OMPA_YERPE Outer membrane protein A OS=Yersinia pestis 
+OX=632 GN=ompA PE=1 SV=1
+Length=353
+
+ Score = 110 bits (276),  Expect = 7e-29, Method: Composition-based stats.
+ Identities = 26/139 (19%), Positives = 51/139 (37%), Gaps = 21/139 (15%)
+
+Query  15   RIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAGHTDDFPYANGEKGY  74
+            R  +       +F    A ++P  +  L  +   L+ I  +    G      +A+     
+Sbjct  221  RFTLKSD---VLFGFNKANLKPEGQQALDQLYAQLSSIDPK---DGSVVVLGFADRIGQP  274
+
+Query  75   S-NWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD-----------AI  122
+            + N  LS  RA++ R  LV+ G+   K+    G      ++    D+           A 
+Sbjct  275  APNLALSQRRADSVRDYLVSKGIPADKI-TARGEGQANPVTGNTCDNVKPRAALIECLAP  333
+
+Query  123  NRRISLLVLNKQAEQAILH  141
+            +RR+ + V  K  ++ +  
+Sbjct  334  DRRVEIEV--KGYKEVVTQ  350
+
+
+> sp|P37726|PORF_PSEFL Outer membrane porin F OS=Pseudomonas fluorescens 
+OX=294 GN=oprF PE=1 SV=1
+Length=326
+
+ Score = 109 bits (273),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 28/124 (23%), Positives = 53/124 (43%), Gaps = 14/124 (11%)
+
+Query  10   VQEGLRIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIP-NRISLAGHTDDFPYA  68
+            V + +R+++        F    + V+P     ++ +A  +   P   + +AGHTD     
+Sbjct  209  VAQVVRVEL-----DVKFDFDKSVVKPNSYGDVKNLADFMAQYPATNVEVAGHTDSIGPD  263
+
+Query  69   NGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD--AINRRI  126
+                   N +LS  RA+  ++ LV  G+     +  VG   +  ++D   +   A+NRR+
+Sbjct  264  AY-----NQKLSQRRADRVKQVLVKDGVAP-SRITAVGYGESRPVADNATEAGRAVNRRV  317
+
+Query  127  SLLV  130
+               V
+Sbjct  318  EASV  321
+
+
+> sp|P24017|OMPA_KLEPN Outer membrane protein A OS=Klebsiella pneumoniae 
+OX=573 GN=ompA PE=1 SV=2
+Length=344
+
+ Score = 109 bits (273),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 27/140 (19%), Positives = 52/140 (37%), Gaps = 25/140 (18%)
+
+Query  16   IQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNR---ISLAGHTDDFPYANGEK  72
+              +       +F    A ++P  +  L  +   L+ +  +     + G+TD         
+Sbjct  213  FTLKSD---VLFNFNKATLKPEGQQALDQLYTQLSNMDPKDGSAVVLGYTDRIGSEAY--  267
+
+Query  73   GYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD-----------A  121
+               N +LS  RA +    LVA G+  GK+    GM  +  ++    D+           A
+Sbjct  268  ---NQQLSEKRAQSVVDYLVAKGIPAGKI-SARGMGESNPVTGNTCDNVKARAALIDCLA  323
+
+Query  122  INRRISLLVLNKQAEQAILH  141
+             +RR+ + V  K  ++ +  
+Sbjct  324  PDRRVEIEV--KGYKEVVTQ  341
+
+
+> sp|P24754|OMPA_ATLHE Outer membrane protein A (Fragment) OS=Atlantibacter 
+hermannii OX=565 GN=ompA PE=3 SV=1
+Length=243
+
+ Score = 107 bits (267),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 23/130 (18%), Positives = 47/130 (36%), Gaps = 23/130 (18%)
+
+Query  16   IQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNR---ISLAGHTDDFPYANGEK  72
+              +       +F    A ++P  +  L  +   L+ +  +   + + G TD         
+Sbjct  121  FTLKSD---VLFNFNKATLKPEGQQALDQMYTQLSNLDPKDGSVVVLGFTDRIGSDAY--  175
+
+Query  73   GYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD-----------A  121
+               N  LS  RA +    L++ G+ + K+    GM  +  ++    D+           A
+Sbjct  176  ---NQGLSEKRAQSVVDYLISKGIPSDKI-SARGMGESNPVTGNTCDNVKPRAALIDCLA  231
+
+Query  122  INRRISLLVL  131
+             +RR+ + V 
+Sbjct  232  PDRRVEIEVK  241
+
+
+> sp|I2BAK7|OMPA_SHIBC Outer membrane protein A OS=Shimwellia blattae 
+(strain ATCC 29907 / DSM 4481 / JCM 1650 / NBRC 105725 
+/ CDC 9005-74) OX=630626 GN=ompA PE=3 SV=1
+Length=355
+
+ Score = 109 bits (273),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 24/140 (17%), Positives = 50/140 (36%), Gaps = 25/140 (18%)
+
+Query  16   IQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNR---ISLAGHTDDFPYANGEK  72
+              +       +F    + ++P  +  L  +   L+ +  +   + + G+TD         
+Sbjct  224  FTLKSD---VLFNFNKSTLKPEGQQALDQLYTQLSNLDPKDGAVVVLGYTDRIGSDAY--  278
+
+Query  73   GYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD-----------A  121
+               N  LS  RA +    LV+ G+  GK+    G   +  ++    D+           A
+Sbjct  279  ---NQRLSQQRAQSVVDYLVSKGIPAGKI-TAQGQGESNPVTGNTCDNVKKRAALIDCLA  334
+
+Query  122  INRRISLLVLNKQAEQAILH  141
+             +RR+ + V  K  +  +  
+Sbjct  335  PDRRVEIEV--KGVKDVVTQ  352
+
+
+> sp|P02936|OMPA_SALTY Outer membrane protein A OS=Salmonella typhimurium 
+(strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=ompA 
+PE=3 SV=2
+Length=350
+
+ Score = 109 bits (272),  Expect = 3e-28, Method: Composition-based stats.
+ Identities = 23/140 (16%), Positives = 50/140 (36%), Gaps = 25/140 (18%)
+
+Query  16   IQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNR---ISLAGHTDDFPYANGEK  72
+              +       +F    + ++P  +  L  +   L+ +  +   + + G TD         
+Sbjct  219  FTLKSD---VLFNFNKSTLKPEGQQALDQLYSQLSNLDPKDGSVVVLGFTDRIGSDAY--  273
+
+Query  73   GYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD-----------A  121
+               N  LS  RA +    L++ G+ + K+    GM  +  ++    D+           A
+Sbjct  274  ---NQGLSEKRAQSVVDYLISKGIPSDKI-SARGMGESNPVTGNTCDNVKPRAALIDCLA  329
+
+Query  122  INRRISLLVLNKQAEQAILH  141
+             +RR+ + V  K  +  +  
+Sbjct  330  PDRRVEIEV--KGVKDVVTQ  347
+
+
+> sp|Q8Z7S0|OMPA_SALTI Outer membrane protein A OS=Salmonella typhi 
+OX=90370 GN=ompA PE=3 SV=1
+Length=350
+
+ Score = 109 bits (272),  Expect = 3e-28, Method: Composition-based stats.
+ Identities = 23/140 (16%), Positives = 50/140 (36%), Gaps = 25/140 (18%)
+
+Query  16   IQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNR---ISLAGHTDDFPYANGEK  72
+              +       +F    + ++P  +  L  +   L+ +  +   + + G TD         
+Sbjct  219  FTLKSD---VLFNFNKSTLKPEGQQALDQLYSQLSNLDPKDGSVVVLGFTDRIGSDAY--  273
+
+Query  73   GYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD-----------A  121
+               N  LS  RA +    L++ G+ + K+    GM  +  ++    D+           A
+Sbjct  274  ---NQGLSEKRAQSVVDYLISKGIPSDKI-SARGMGESNPVTGNTCDNVKPRAALIDCLA  329
+
+Query  122  INRRISLLVLNKQAEQAILH  141
+             +RR+ + V  K  +  +  
+Sbjct  330  PDRRVEIEV--KGVKDVVTQ  347
+
+
+> sp|P24016|OMPA_CITFR Outer membrane protein A (Fragment) OS=Citrobacter 
+freundii OX=546 GN=ompA PE=3 SV=1
+Length=238
+
+ Score = 106 bits (265),  Expect = 4e-28, Method: Composition-based stats.
+ Identities = 23/130 (18%), Positives = 47/130 (36%), Gaps = 23/130 (18%)
+
+Query  16   IQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNR---ISLAGHTDDFPYANGEK  72
+              +       +F    A ++P  +  L  +   L+ +  +   + + G TD         
+Sbjct  116  FTLKSD---VLFNFNKATLKPEGQQALDQMYSQLSNLDPKDGSVVVLGFTDRIGSDAY--  170
+
+Query  73   GYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD-----------A  121
+               N  LS  RA +    L++ G+ + K+    GM  +  ++    D+           A
+Sbjct  171  ---NQGLSEKRAQSVVDYLISKGIPSDKI-SARGMGESNPVTGNTCDNVKARAALIDCLA  226
+
+Query  122  INRRISLLVL  131
+             +RR+ + V 
+Sbjct  227  PDRRVEIEVK  236
+
+
+> sp|P0A3S8|PAL_BRUSU Peptidoglycan-associated lipoprotein OS=Brucella 
+suis biovar 1 (strain 1330) OX=204722 GN=pal PE=1 SV=1
+Length=168
+
+ Score = 104 bits (259),  Expect = 5e-28, Method: Composition-based stats.
+ Identities = 24/109 (22%), Positives = 40/109 (37%), Gaps = 9/109 (8%)
+
+Query  20   DSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPN-RISLAGHTDDFPYANGEKGYSNWE  78
+            +  +R  F   S+ +    +  L   A  L   P   I++ GH D+           N  
+Sbjct  56   NVGDRIFFDLDSSLIRADAQQTLSKQAQWLQRYPQYSITIEGHADERGTREY-----NLA  110
+
+Query  79   LSADRANASRRELVAGGLDNGKVLRVVGMAATMRLS--DRGPDDAINRR  125
+            L   RA A+R  L + G+     +R +       ++  D     + NRR
+Sbjct  111  LGQRRAAATRDFLASRGVPT-NRMRTISYGNERPVAVCDADTCWSQNRR  158
+
+
+> sp|P0A3S7|PAL_BRUME Peptidoglycan-associated lipoprotein OS=Brucella 
+melitensis biotype 1 (strain 16M / ATCC 23456 / NCTC 
+10094) OX=224914 GN=pal PE=1 SV=1
+Length=168
+
+ Score = 104 bits (259),  Expect = 5e-28, Method: Composition-based stats.
+ Identities = 24/109 (22%), Positives = 40/109 (37%), Gaps = 9/109 (8%)
+
+Query  20   DSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPN-RISLAGHTDDFPYANGEKGYSNWE  78
+            +  +R  F   S+ +    +  L   A  L   P   I++ GH D+           N  
+Sbjct  56   NVGDRIFFDLDSSLIRADAQQTLSKQAQWLQRYPQYSITIEGHADERGTREY-----NLA  110
+
+Query  79   LSADRANASRRELVAGGLDNGKVLRVVGMAATMRLS--DRGPDDAINRR  125
+            L   RA A+R  L + G+     +R +       ++  D     + NRR
+Sbjct  111  LGQRRAAATRDFLASRGVPT-NRMRTISYGNERPVAVCDADTCWSQNRR  158
+
+
+> sp|P0A3S9|PAL_BRUAB Peptidoglycan-associated lipoprotein OS=Brucella 
+abortus biovar 1 (strain 9-941) OX=262698 GN=pal PE=1 
+SV=1
+Length=168
+
+ Score = 104 bits (259),  Expect = 5e-28, Method: Composition-based stats.
+ Identities = 24/109 (22%), Positives = 40/109 (37%), Gaps = 9/109 (8%)
+
+Query  20   DSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPN-RISLAGHTDDFPYANGEKGYSNWE  78
+            +  +R  F   S+ +    +  L   A  L   P   I++ GH D+           N  
+Sbjct  56   NVGDRIFFDLDSSLIRADAQQTLSKQAQWLQRYPQYSITIEGHADERGTREY-----NLA  110
+
+Query  79   LSADRANASRRELVAGGLDNGKVLRVVGMAATMRLS--DRGPDDAINRR  125
+            L   RA A+R  L + G+     +R +       ++  D     + NRR
+Sbjct  111  LGQRRAAATRDFLASRGVPT-NRMRTISYGNERPVAVCDADTCWSQNRR  158
+
+
+> sp|P04845|OMPA_SERMA Outer membrane protein A OS=Serratia marcescens 
+OX=615 GN=ompA PE=3 SV=1
+Length=359
+
+ Score = 107 bits (267),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 23/143 (16%), Positives = 49/143 (34%), Gaps = 27/143 (19%)
+
+Query  15   RIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNR---ISLAGHTDDFPYANGE  71
+            R  +       +F    + ++   +  L  +   L+ +  +   + + G+TD        
+Sbjct  225  RFTLKSD---VLFNFNKSTLKAEGQQALDQLYTQLSSMDPKDGSVVVLGYTDAVGSDQY-  280
+
+Query  72   KGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGP-------------  118
+                N +LS  RA +    LV+ G+ + K+    GM     ++                 
+Sbjct  281  ----NQKLSEQRAQSVVDYLVSKGIPSDKI-SARGMGEADAVTGNTCGYKSGRATKAQIV  335
+
+Query  119  DDAINRRISLLVLNKQAEQAILH  141
+              A +RR+ + V  K  +  +  
+Sbjct  336  CLAPDRRVEIEV--KGIKDVVTQ  356
+
+
+> sp|P0DJO6|OMPA_SHIBL Outer membrane protein A (Fragment) OS=Shimwellia 
+blattae OX=563 GN=ompA PE=3 SV=1
+Length=241
+
+ Score = 105 bits (261),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 23/130 (18%), Positives = 47/130 (36%), Gaps = 23/130 (18%)
+
+Query  16   IQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNR---ISLAGHTDDFPYANGEK  72
+              +       +F    + ++P  +  L  +   L+ +  +   + + G+TD         
+Sbjct  119  FTLKSD---VLFNFNKSTLKPEGQQALDQLYTQLSNLDPKDGAVVVLGYTDRIGSDAY--  173
+
+Query  73   GYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD-----------A  121
+               N  LS  RA +    LV+ G+  GK+    G   +  ++    D+           A
+Sbjct  174  ---NQRLSQQRAQSVVDYLVSKGIPAGKI-TAQGQGESNPVTGSTCDNVKQRAALIDCLA  229
+
+Query  122  INRRISLLVL  131
+             +RR+ + V 
+Sbjct  230  PDRRVEIEVK  239
+
+
+> sp|P24755|OMPA_SEROD Outer membrane protein A (Fragment) OS=Serratia 
+odorifera OX=618 GN=ompA PE=3 SV=1
+Length=243
+
+ Score = 104 bits (258),  Expect = 4e-27, Method: Composition-based stats.
+ Identities = 25/132 (19%), Positives = 50/132 (38%), Gaps = 24/132 (18%)
+
+Query  15   RIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNR---ISLAGHTDDFPYANGE  71
+               +       +F +  + ++P  +  L  +   L+ +  +   + + G+TD        
+Sbjct  119  LFTLKSD---VLFNSAKSSLKPEGQQALDQLYTQLSSMDPKDGSVVVLGYTDPVG-----  170
+
+Query  72   KGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD-----------  120
+            K  +N +LS  RA +    LV+ G+   K+    GM    +++D                
+Sbjct  171  KDAANQKLSEARARSVVDYLVSKGIPADKI-SARGMGEADQVTDSCGYKNGRATKAQIEC  229
+
+Query  121  -AINRRISLLVL  131
+             A NRR+ + V 
+Sbjct  230  LAPNRRVEIEVK  241
+
+
+> sp|P09146|OMPA_KLEAE Outer membrane protein A OS=Klebsiella aerogenes 
+OX=548 GN=ompA PE=3 SV=1
+Length=350
+
+ Score = 105 bits (263),  Expect = 6e-27, Method: Composition-based stats.
+ Identities = 25/141 (18%), Positives = 50/141 (35%), Gaps = 25/141 (18%)
+
+Query  15   RIQIIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNR---ISLAGHTDDFPYANGE  71
+               +       +F    A ++P  +  L  +   L+ +  +     + G+TD        
+Sbjct  218  TFTLKSD---VLFNFNKATLKPEGQQALDQLYTQLSNMDPKDGSAVVLGYTDRIGSEQY-  273
+
+Query  72   KGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD-----------  120
+                N +LS  RA +    LVA G+     +   GM  +  ++    D+           
+Sbjct  274  ----NQKLSEKRAQSVVDYLVAKGIP-ANKISARGMGESDPVTGNTCDNVKARAALIDCL  328
+
+Query  121  AINRRISLLVLNKQAEQAILH  141
+            A +RR+++ V  K  +  +  
+Sbjct  329  APDRRVAIEV--KGYKDVVTQ  347
+
+
+> sp|Q926C3|PAL_RHIME Peptidoglycan-associated lipoprotein OS=Rhizobium 
+meliloti (strain 1021) OX=266834 GN=pal PE=3 SV=1
+Length=176
+
+ Score = 99.0 bits (245),  Expect = 7e-26, Method: Composition-based stats.
+ Identities = 29/109 (27%), Positives = 44/109 (40%), Gaps = 9/109 (8%)
+
+Query  20   DSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPN-RISLAGHTDDFPYANGEKGYSNWE  78
+            +  +R  F T S  +    +  L   A  L   PN  I++ GH D+           N  
+Sbjct  64   NVGDRIFFDTDSTSIRADAQATLDRQAQWLAKYPNYGITIEGHADERGTREY-----NLA  118
+
+Query  79   LSADRANASRRELVAGGLDNGKVLRVVGMAATMRLS--DRGPDDAINRR  125
+            L A RA A+R  LV+ G+  G  +R +       ++  D     + NRR
+Sbjct  119  LGARRAAATRDYLVSRGVP-GNRMRTISYGKEKPVAVCDDISCWSQNRR  166
+
+
+> sp|Q8U9L5|PAL_AGRFC Peptidoglycan-associated lipoprotein OS=Agrobacterium 
+fabrum (strain C58 / ATCC 33970) OX=176299 GN=pal 
+PE=3 SV=1
+Length=177
+
+ Score = 97.9 bits (242),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 26/109 (24%), Positives = 44/109 (40%), Gaps = 9/109 (8%)
+
+Query  20   DSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPN-RISLAGHTDDFPYANGEKGYSNWE  78
+            +  +R  F T S  +    +  L+  A  L+  PN  I++ GH D+           N  
+Sbjct  65   NVGDRIFFDTDSTSIRADAQQTLQRQAQWLSRYPNYAITVEGHADERGTREY-----NLA  119
+
+Query  79   LSADRANASRRELVAGGLDNGKVLRVVGMAATMRLS--DRGPDDAINRR  125
+            L A RA A+R  L + G+     ++ +       ++  D     + NRR
+Sbjct  120  LGARRAAATRDFLASQGVP-ASRMKTISYGKEKPVAVCDDISCWSQNRR  167
+
+
+> sp|Q98F85|PAL_RHILO Peptidoglycan-associated lipoprotein OS=Mesorhizobium 
+japonicum (strain LMG 29417 / CECT 9101 / MAFF 
+303099) OX=266835 GN=pal PE=3 SV=1
+Length=168
+
+ Score = 96.0 bits (237),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 27/109 (25%), Positives = 42/109 (39%), Gaps = 9/109 (8%)
+
+Query  20   DSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPN-RISLAGHTDDFPYANGEKGYSNWE  78
+            +  +R  F T S+ +    +  L   A  LN      I + GH D+           N  
+Sbjct  56   NIGDRIFFDTDSSSIRADAQTTLARQAQWLNQYKQYAIVVEGHADERGTREY-----NLA  110
+
+Query  79   LSADRANASRRELVAGGLDNGKVLRVVGMAATMRLS--DRGPDDAINRR  125
+            L A RA A+R  LV+ G+     L+ +       ++  D     + NRR
+Sbjct  111  LGARRAAAARDFLVSKGV-ASSRLKTISYGKERPVAVCDDISCWSQNRR  158
+
+
+> sp|Q51886|PAL_PASMU Peptidoglycan-associated lipoprotein OS=Pasteurella 
+multocida (strain Pm70) OX=272843 GN=pal PE=3 SV=1
+Length=150
+
+ Score = 89.4 bits (220),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 28/111 (25%), Positives = 40/111 (36%), Gaps = 9/111 (8%)
+
+Query  18   IIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIP-NRISLAGHTDDFPYANGEKGYSN  76
+            +    N   F      +E     IL A A  LN  P  ++ + G+TD+           N
+Sbjct  41   LQQRYNTVYFGFDKYNIEGEYVQILDAHAAFLNATPATKVVVEGNTDERGTPEY-----N  95
+
+Query  77   WELSADRANASRRELVAGGLDNGKVLRVVGMAATMR--LSDRGPDDAINRR  125
+              L   RA+A +  L A G+  G+V   V         L       + NRR
+Sbjct  96   IALGQRRADAVKHYLSAKGVQAGQV-STVSYGEEKPAVLGHDEAAYSKNRR  145
+
+
+> sp|P10324|PAL_HAEIN Peptidoglycan-associated lipoprotein OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 
+/ Rd) OX=71421 GN=pal PE=1 SV=1
+Length=153
+
+ Score = 85.9 bits (211),  Expect = 5e-21, Method: Composition-based stats.
+ Identities = 28/111 (25%), Positives = 40/111 (36%), Gaps = 9/111 (8%)
+
+Query  18   IIDSQNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPN-RISLAGHTDDFPYANGEKGYSN  76
+            +    N   F     ++      IL A A  LN  P  ++ + G+TD+           N
+Sbjct  44   LQQRYNTVYFGFDKYDITGEYVQILDAHAAYLNATPAAKVLVEGNTDERGTPEY-----N  98
+
+Query  77   WELSADRANASRRELVAGGLDNGKVLRVVGMAATMR--LSDRGPDDAINRR  125
+              L   RA+A +  L   G+D GK L  V         L       + NRR
+Sbjct  99   IALGQRRADAVKGYLAGKGVDAGK-LGTVSYGEEKPAVLGHDEAAYSKNRR  148
+
+
+> sp|P0A914|PAL_SHIFL Peptidoglycan-associated lipoprotein OS=Shigella 
+flexneri OX=623 GN=pal PE=3 SV=1
+Length=173
+
+ Score = 85.9 bits (211),  Expect = 9e-21, Method: Composition-based stats.
+ Identities = 23/106 (22%), Positives = 38/106 (36%), Gaps = 9/106 (8%)
+
+Query  23   NRPMFKTGSAEVEPYMRDILRAIAPVLNGIPN-RISLAGHTDDFPYANGEKGYSNWELSA  81
+            N   F     ++      +L A A  L   P+ ++++ GH D+           N  L  
+Sbjct  69   NIVYFDLDKYDIRSDFAQMLDAHANFLRSNPSYKVTVEGHADERGTPEY-----NISLGE  123
+
+Query  82   DRANASRRELVAGGLDNGKVLRVVGMAATMR--LSDRGPDDAINRR  125
+             RANA +  L   G+   ++  +V         L       + NRR
+Sbjct  124  RRANAVKMYLQGKGVSADQI-SIVSYGKEKPAVLGHDEAAYSKNRR  168
+
+
+> sp|P0A912|PAL_ECOLI Peptidoglycan-associated lipoprotein OS=Escherichia 
+coli (strain K12) OX=83333 GN=pal PE=1 SV=1
+Length=173
+
+ Score = 85.9 bits (211),  Expect = 9e-21, Method: Composition-based stats.
+ Identities = 23/106 (22%), Positives = 38/106 (36%), Gaps = 9/106 (8%)
+
+Query  23   NRPMFKTGSAEVEPYMRDILRAIAPVLNGIPN-RISLAGHTDDFPYANGEKGYSNWELSA  81
+            N   F     ++      +L A A  L   P+ ++++ GH D+           N  L  
+Sbjct  69   NIVYFDLDKYDIRSDFAQMLDAHANFLRSNPSYKVTVEGHADERGTPEY-----NISLGE  123
+
+Query  82   DRANASRRELVAGGLDNGKVLRVVGMAATMR--LSDRGPDDAINRR  125
+             RANA +  L   G+   ++  +V         L       + NRR
+Sbjct  124  RRANAVKMYLQGKGVSADQI-SIVSYGKEKPAVLGHDEAAYSKNRR  168
+
+
+> sp|P0A913|PAL_ECO57 Peptidoglycan-associated lipoprotein OS=Escherichia 
+coli O157:H7 OX=83334 GN=pal PE=3 SV=1
+Length=173
+
+ Score = 85.9 bits (211),  Expect = 9e-21, Method: Composition-based stats.
+ Identities = 23/106 (22%), Positives = 38/106 (36%), Gaps = 9/106 (8%)
+
+Query  23   NRPMFKTGSAEVEPYMRDILRAIAPVLNGIPN-RISLAGHTDDFPYANGEKGYSNWELSA  81
+            N   F     ++      +L A A  L   P+ ++++ GH D+           N  L  
+Sbjct  69   NIVYFDLDKYDIRSDFAQMLDAHANFLRSNPSYKVTVEGHADERGTPEY-----NISLGE  123
+
+Query  82   DRANASRRELVAGGLDNGKVLRVVGMAATMR--LSDRGPDDAINRR  125
+             RANA +  L   G+   ++  +V         L       + NRR
+Sbjct  124  RRANAVKMYLQGKGVSADQI-SIVSYGKEKPAVLGHDEAAYSKNRR  168
+
+
+> sp|P9WIU5|ARFA_MYCTU Peptidoglycan-binding protein ArfA OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 
+GN=arfA PE=1 SV=1
+Length=326
+
+ Score = 88.6 bits (218),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 31/107 (29%), Positives = 49/107 (46%), Gaps = 9/107 (8%)
+
+Query  27   FKTGSAEVEPYMRDILRAIAPVLNGIPN-RISLAGHTDDFPYANGEKGYSNWELSADRAN  85
+            F    A + P   +IL  +A  L   P+ R+++ G+TD     N      N  LSA RA 
+Sbjct  225  FGNDGASLIPADYEILNRVADKLKACPDARVTINGYTD-----NTGSEGINIPLSAQRAK  279
+
+Query  86   ASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD--AINRRISLLV  130
+                 LVA G+  G  +  VG+ +   ++     +  A NRR+ ++V
+Sbjct  280  IVADYLVARGV-AGDHIATVGLGSVNPIASNATPEGRAKNRRVEIVV  325
+
+
+> sp|P9WIU4|ARFA_MYCTO Peptidoglycan-binding protein ArfA OS=Mycobacterium 
+tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 
+GN=arfA PE=3 SV=1
+Length=326
+
+ Score = 88.6 bits (218),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 31/107 (29%), Positives = 49/107 (46%), Gaps = 9/107 (8%)
+
+Query  27   FKTGSAEVEPYMRDILRAIAPVLNGIPN-RISLAGHTDDFPYANGEKGYSNWELSADRAN  85
+            F    A + P   +IL  +A  L   P+ R+++ G+TD     N      N  LSA RA 
+Sbjct  225  FGNDGASLIPADYEILNRVADKLKACPDARVTINGYTD-----NTGSEGINIPLSAQRAK  279
+
+Query  86   ASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD--AINRRISLLV  130
+                 LVA G+  G  +  VG+ +   ++     +  A NRR+ ++V
+Sbjct  280  IVADYLVARGV-AGDHIATVGLGSVNPIASNATPEGRAKNRRVEIVV  325
+
+
+> sp|A1KH31|ARFA_MYCBP Peptidoglycan-binding protein ArfA OS=Mycobacterium 
+bovis (strain BCG / Pasteur 1173P2) OX=410289 GN=arfA 
+PE=1 SV=1
+Length=326
+
+ Score = 88.6 bits (218),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 31/107 (29%), Positives = 49/107 (46%), Gaps = 9/107 (8%)
+
+Query  27   FKTGSAEVEPYMRDILRAIAPVLNGIPN-RISLAGHTDDFPYANGEKGYSNWELSADRAN  85
+            F    A + P   +IL  +A  L   P+ R+++ G+TD     N      N  LSA RA 
+Sbjct  225  FGNDGASLIPADYEILNRVADKLKACPDARVTINGYTD-----NTGSEGINIPLSAQRAK  279
+
+Query  86   ASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD--AINRRISLLV  130
+                 LVA G+  G  +  VG+ +   ++     +  A NRR+ ++V
+Sbjct  280  IVADYLVARGV-AGDHIATVGLGSVNPIASNATPEGRAKNRRVEIVV  325
+
+
+> sp|P65594|ARFA_MYCBO Peptidoglycan-binding protein ArfA OS=Mycobacterium 
+bovis (strain ATCC BAA-935 / AF2122/97) OX=233413 
+GN=arfA PE=3 SV=1
+Length=326
+
+ Score = 88.6 bits (218),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 31/107 (29%), Positives = 49/107 (46%), Gaps = 9/107 (8%)
+
+Query  27   FKTGSAEVEPYMRDILRAIAPVLNGIPN-RISLAGHTDDFPYANGEKGYSNWELSADRAN  85
+            F    A + P   +IL  +A  L   P+ R+++ G+TD     N      N  LSA RA 
+Sbjct  225  FGNDGASLIPADYEILNRVADKLKACPDARVTINGYTD-----NTGSEGINIPLSAQRAK  279
+
+Query  86   ASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD--AINRRISLLV  130
+                 LVA G+  G  +  VG+ +   ++     +  A NRR+ ++V
+Sbjct  280  IVADYLVARGV-AGDHIATVGLGSVNPIASNATPEGRAKNRRVEIVV  325
+
+
+> sp|P43840|OMP5_HAEIN Outer membrane protein P5 OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd) OX=71421 
+GN=ompA PE=3 SV=1
+Length=353
+
+ Score = 87.5 bits (215),  Expect = 5e-20, Method: Composition-based stats.
+ Identities = 24/120 (20%), Positives = 49/120 (41%), Gaps = 18/120 (15%)
+
+Query  23   NRPMFKTGSAEVEPYMRDILRAIAPVLNGIPN-RISLAGHTDDFPYANGEKGYSNWELSA  81
+            +   F  G A ++P  +  L +I   ++ + + ++++AG+TD            N +LS 
+Sbjct  236  SDVTFAFGKANLKPQAQATLDSIYGEMSQVKSAKVAVAGYTDRIGSDAF-----NVKLSQ  290
+
+Query  82   DRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD-----------AINRRISLLV  130
+            +RA++     VA G+    +    G      ++    D            A +RR+ + V
+Sbjct  291  ERADSVANYFVAKGVAADAI-SATGYGKANPVTGATCDQVKGRKALIACFAPDRRVEIAV  349
+
+
+> sp|P38368|OMP52_HAEIF Outer membrane protein P5 OS=Haemophilus 
+influenzae OX=727 GN=ompA PE=1 SV=1
+Length=353
+
+ Score = 86.7 bits (213),  Expect = 8e-20, Method: Composition-based stats.
+ Identities = 24/120 (20%), Positives = 49/120 (41%), Gaps = 18/120 (15%)
+
+Query  23   NRPMFKTGSAEVEPYMRDILRAIAPVLNGIPN-RISLAGHTDDFPYANGEKGYSNWELSA  81
+            +   F  G A ++P  +  L +I   ++ + + ++++AG+TD            N +LS 
+Sbjct  236  SDVTFAFGKANLKPQAQATLDSIYGEMSQVKSAKVAVAGYTDRIGSDAF-----NVKLSQ  290
+
+Query  82   DRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD-----------AINRRISLLV  130
+            +RA++     VA G+    +    G      ++    D            A +RR+ + V
+Sbjct  291  ERADSVANYFVAKGVAADAI-SATGYGKANPVTGATCDQVKGRKALIACLAPDRRVEIAV  349
+
+
+> sp|P45996|OMP53_HAEIF Outer membrane protein P5 OS=Haemophilus 
+influenzae OX=727 GN=ompA PE=1 SV=1
+Length=359
+
+ Score = 85.6 bits (210),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 22/120 (18%), Positives = 48/120 (40%), Gaps = 18/120 (15%)
+
+Query  23   NRPMFKTGSAEVEPYMRDILRAIAPVLNGI-PNRISLAGHTDDFPYANGEKGYSNWELSA  81
+            +   F  G A ++P  +  L ++   ++ +   ++++AG+T+            N +LS 
+Sbjct  242  SDVTFAFGKANLKPQAQATLDSVYGEISQVKSRKVAVAGYTNRIGSDAF-----NVKLSQ  296
+
+Query  82   DRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD-----------AINRRISLLV  130
+            +RA++     VA G+    +    G      ++    D            A +RR+ + V
+Sbjct  297  ERADSVANYFVAKGVAADAI-SATGYGEANPVTGATCDQVKGRKALIACLAPDRRVEIAV  355
+
+
+> sp|Q89AJ5|PAL_BUCBP Peptidoglycan-associated lipoprotein OS=Buchnera 
+aphidicola subsp. Baizongia pistaciae (strain Bp) OX=224915 
+GN=pal PE=3 SV=1
+Length=173
+
+ Score = 78.2 bits (191),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 23/110 (21%), Positives = 44/110 (40%), Gaps = 9/110 (8%)
+
+Query  23   NRPMFKTGSAEVEPYMRDILRAIAPVLNGIPN-RISLAGHTDDFPYANGEKGYSNWELSA  81
+            N   F   + +V       L  +A  L    N +I + GHTD            N  L  
+Sbjct  68   NTIYFPFNNHQVNSKYAKNLNDLAQFLCHHSNQKIMIEGHTDSRGTNKY-----NMYLGQ  122
+
+Query  82   DRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD--AINRRISLL  129
+             RA++ +  L + G+ N ++   V   ++  ++    ++  + NRR  ++
+Sbjct  123  KRADSVKLYLESKGVSNQQI-TTVSYGSSKPVAHGNKENSYSKNRRSVII  171
+
+
+> sp|P07021|YFIB_ECOLI Putative lipoprotein YfiB OS=Escherichia 
+coli (strain K12) OX=83333 GN=yfiB PE=3 SV=2
+Length=160
+
+ Score = 75.9 bits (185),  Expect = 5e-17, Method: Composition-based stats.
+ Identities = 22/114 (19%), Positives = 42/114 (37%), Gaps = 8/114 (7%)
+
+Query  23   NRPMFKTGSAEVEPYMRDILRAIAPVLNGIP-NRISLAGHTDDFPYANGEKGYSNWELSA  81
+            +  +F     ++ P  +  ++ +A  L         + GHTD++   +      N  LS 
+Sbjct  52   DAILFAKNDYKLLPESQQQIQTMAAKLASTGLTHARMDGHTDNYGEDSY-----NEGLSL  106
+
+Query  82   DRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD--AINRRISLLVLNK  133
+             RAN        GG      L   G+     ++        A NRR+++++   
+Sbjct  107  KRANVVADAWAMGGQIPRSNLTTQGLGKKYPIASNKTAQGRAENRRVAVVITTP  160
+
+
+> sp|P57414|OMPA_BUCAI Outer membrane protein A OS=Buchnera aphidicola 
+subsp. Acyrthosiphon pisum (strain APS) OX=107806 GN=ompA 
+PE=3 SV=1
+Length=349
+
+ Score = 77.5 bits (189),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 30/124 (24%), Positives = 48/124 (39%), Gaps = 20/124 (16%)
+
+Query  23   NRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNR---ISLAGHTDDFPYANGEKGYSNWEL  79
+                F   S E++P   D L  +   +  +  +   I L GH D            N +L
+Sbjct  229  ENINFPFNSTELKPSSYDKLNKLDDDIKDMQLKNVSIVLLGHADKIGSDEY-----NQKL  283
+
+Query  80   SADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD-----------AINRRISL  128
+            S DRA + +  L + G    K+  V GM     L+++   D           A +RR+ +
+Sbjct  284  SEDRAYSIKNYLASRGFSRDKI-TVKGMGKLYPLTNQVCRDVVNKPLLISCLAPDRRVEI  342
+
+Query  129  LVLN  132
+             VL+
+Sbjct  343  EVLS  346
+
+
+> sp|Q8K9L4|OMPA_BUCAP Outer membrane protein A OS=Buchnera aphidicola 
+subsp. Schizaphis graminum (strain Sg) OX=198804 GN=ompA 
+PE=3 SV=1
+Length=347
+
+ Score = 75.2 bits (183),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 28/124 (23%), Positives = 51/124 (41%), Gaps = 20/124 (16%)
+
+Query  23   NRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNR---ISLAGHTDDFPYANGEKGYSNWEL  79
+                F   S E++P   D L+ +   +  I ++   I L+GH D            N +L
+Sbjct  229  ENINFPFNSTELKPISHDKLQKLQKEIKNIKSKNIFIMLSGHADRIGNKEY-----NQKL  283
+
+Query  80   SADRANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDD-----------AINRRISL  128
+            S +RA + +    + G+   K+  + GM     L+++   D           A +RR+ +
+Sbjct  284  SENRAYSIKNYFTSHGISQDKI-SIQGMGNEFSLTNQICKDVSDRPLLISCLAPDRRVEI  342
+
+Query  129  LVLN  132
+             VL+
+Sbjct  343  EVLS  346
+
+
+> sp|P26493|PAL_LEGPN Peptidoglycan-associated lipoprotein OS=Legionella 
+pneumophila OX=446 GN=pal PE=3 SV=1
+Length=176
+
+ Score = 72.1 bits (175),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 24/107 (22%), Positives = 38/107 (36%), Gaps = 9/107 (8%)
+
+Query  26   MFKTGSAEVEPYMRDILRAIAPVLNGIP-NRISLAGHTDDFPYANGEKGYSNWELSADRA  84
+            +F    + +       + A A  L   P  R+ +AGHTD+           N  L   RA
+Sbjct  71   LFAYDDSTLASKYLPSVNAQAEYLKTHPGARVMIAGHTDERGSREY-----NVALGERRA  125
+
+Query  85   NASRRELVAGGLDNGKVLRVVGMAATMRLS--DRGPDDAINRRISLL  129
+            +     L   G+   ++ RVV        +        A NRR+  +
+Sbjct  126  DTVAEILRMAGVSRQQI-RVVSYGKERPANYGHDEASHAQNRRVEFI  171
+
+
+> sp|P07050|OMP3_NEIGO Outer membrane protein P.III OS=Neisseria 
+gonorrhoeae OX=485 PE=3 SV=1
+Length=236
+
+ Score = 72.1 bits (175),  Expect = 6e-15, Method: Composition-based stats.
+ Identities = 19/89 (21%), Positives = 33/89 (37%), Gaps = 7/89 (8%)
+
+Query  24   RPMFKTGSAEVEPYMRDILRAIAPVLNGIP-NRISLAGHTDDFPYANGEKGYSNWELSAD  82
+            + +F      +    +D L+ +A  L+      + + GHTD            N  LS  
+Sbjct  96   KTLFGFDKDSLRAEAQDNLKVLAQRLSRTNVQSVRVEGHTDFMGSEKY-----NQALSER  150
+
+Query  83   RANASRRELVAGGLDNGKVLRVVGMAATM  111
+            RA      LV+ G+     +  VG+  + 
+Sbjct  151  RAYVVANNLVSNGVP-ASRISAVGLGESQ  178
+
+
+> sp|P0A0V3|OMP4_NEIMB Outer membrane protein class 4 OS=Neisseria 
+meningitidis serogroup B (strain MC58) OX=122586 GN=rmpM 
+PE=1 SV=1
+Length=242
+
+ Score = 70.9 bits (172),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 19/89 (21%), Positives = 33/89 (37%), Gaps = 7/89 (8%)
+
+Query  24   RPMFKTGSAEVEPYMRDILRAIAPVLNGIP-NRISLAGHTDDFPYANGEKGYSNWELSAD  82
+            + +F      +    +D L+ +A  L+      + + GHTD            N  LS  
+Sbjct  102  KTLFGFDKDSLRAEAQDNLKVLAQRLSRTNVQSVRVEGHTDFMGSDKY-----NQALSER  156
+
+Query  83   RANASRRELVAGGLDNGKVLRVVGMAATM  111
+            RA      LV+ G+     +  VG+  + 
+Sbjct  157  RAYVVANNLVSNGVP-VSRISAVGLGESQ  184
+
+
+> sp|P0A0V2|OMP4_NEIMA Outer membrane protein class 4 OS=Neisseria 
+meningitidis serogroup A / serotype 4A (strain Z2491) OX=122587 
+GN=rmpM PE=3 SV=1
+Length=242
+
+ Score = 70.5 bits (171),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 19/89 (21%), Positives = 32/89 (36%), Gaps = 7/89 (8%)
+
+Query  24   RPMFKTGSAEVEPYMRDILRAIAPVL-NGIPNRISLAGHTDDFPYANGEKGYSNWELSAD  82
+            + +F      +    +D L+ +A  L       + + GHTD            N  LS  
+Sbjct  102  KTLFGFDKDSLRAEAQDNLKVLAQRLGQTNIQSVRVEGHTDFMGSDKY-----NQALSER  156
+
+Query  83   RANASRRELVAGGLDNGKVLRVVGMAATM  111
+            RA      LV+ G+     +  VG+  + 
+Sbjct  157  RAYVVANNLVSNGVP-VSRISAVGLGESQ  184
+
+
+> sp|Q9S3P9|MOTY_VIBAN Sodium-type flagellar protein MotY OS=Vibrio 
+anguillarum OX=55601 GN=motY PE=3 SV=1
+Length=293
+
+ Score = 69.0 bits (167),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 18/108 (17%), Positives = 40/108 (37%), Gaps = 10/108 (9%)
+
+Query  27   FKTGSAEVEPYMRDILRAIAPVLNGIPN--RISLAGHTDDFPYANGEKGYSNWELSADRA  84
+            +   + ++    +  L  IA  +    +   + ++ +TD       +    + +LS  RA
+Sbjct  187  YDRDNVQLNKASQKRLAQIADYIRYNQDIDLVLVSTYTDSV-----DSRGVSQDLSERRA  241
+
+Query  85   NASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPD--DAINRRISLLV  130
+               R    + GL     ++V G      ++D         NRR+ + +
+Sbjct  242  EVLRDYFKSLGLPED-RIQVQGYGKRRPIADNASPIGKDKNRRVVISL  288
+
+
+> sp|P46233|MOTY_VIBPA Sodium-type flagellar protein MotY OS=Vibrio 
+parahaemolyticus serotype O3:K6 (strain RIMD 2210633) OX=223926 
+GN=motY PE=3 SV=1
+Length=293
+
+ Score = 69.0 bits (167),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 20/108 (19%), Positives = 41/108 (38%), Gaps = 10/108 (9%)
+
+Query  27   FKTGSAEVEPYMRDILRAIAPVLNGIPN--RISLAGHTDDFPYANGEKGYSNWELSADRA  84
+            ++    ++    +  L  IA  +    +   + +A +TD       +    +  LS  RA
+Sbjct  187  YERQGDQLTKASKKRLAQIADYVRHNQDIDLVLVATYTDS-----TDGKSESQSLSERRA  241
+
+Query  85   NASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPD--DAINRRISLLV  130
+             + R    + GL     ++V G      ++D G       NRR+ + +
+Sbjct  242  ESLRTYFESLGLPED-RIQVQGYGKRRPIADNGTPIGKDKNRRVVISL  288
+
+
+> sp|Q9ZL29|MOTB_HELPJ Motility protein B OS=Helicobacter pylori 
+(strain J99 / ATCC 700824) OX=85963 GN=motB PE=3 SV=1
+Length=257
+
+ Score = 67.5 bits (163),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 28/142 (20%), Positives = 60/142 (42%), Gaps = 13/142 (9%)
+
+Query  2    RPHLKIDLVQEGLRI------QIIDSQNRPMFKTGSAE-VEPYMRDILRAIAPVLNGIPN  54
+                 I    EG  +       ++   +  +F+  +++ +   M   +  IA ++  +P 
+Sbjct  95   ETKATIARKGEGSVLEQIDQGSVLKLPSSLLFENATSDAINQDMMLYIERIAKIIQKLPK  154
+
+Query  55   R--ISLAGHTDDFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMR  112
+            R  I++ G TD+ P  N  +  S++EL+A+RA    + L+  G+D  + L      +T  
+Sbjct  155  RVHINVRGFTDNTPL-NKTRFKSHYELAANRAYRVMKVLIQYGVDPNQ-LSFSSYGSTNP  212
+
+Query  113  LSDRGPDDA--INRRISLLVLN  132
+            ++     +    N R+ +    
+Sbjct  213  IAPNDSLENRMKNNRVEIFFST  234
+
+
+> sp|P56427|MOTB_HELPY Motility protein B OS=Helicobacter pylori 
+(strain ATCC 700392 / 26695) OX=85962 GN=motB PE=1 SV=1
+Length=257
+
+ Score = 67.1 bits (162),  Expect = 6e-13, Method: Composition-based stats.
+ Identities = 28/142 (20%), Positives = 59/142 (42%), Gaps = 13/142 (9%)
+
+Query  2    RPHLKIDLVQEGLRI------QIIDSQNRPMFKTGSAE-VEPYMRDILRAIAPVLNGIPN  54
+                 I    EG  +       I+   +  +F+  +++ +   M   +  IA ++  +P 
+Sbjct  95   ETKATIARKGEGSVLEQIDQGSILKLPSNLLFENATSDAINQDMMLYIERIAKIIQKLPK  154
+
+Query  55   R--ISLAGHTDDFPYANGEKGYSNWELSADRANASRRELVAGGLDNGKVLRVVGMAATMR  112
+            R  I++ G TDD P     +  S++EL+A+RA    + L+  G++  + L      +T  
+Sbjct  155  RVHINVRGFTDDTPLVKT-RFKSHYELAANRAYRVMKVLIQYGVNPNQ-LSFSSYGSTNP  212
+
+Query  113  LSDRGPDDA--INRRISLLVLN  132
+            ++     +    N R+ +    
+Sbjct  213  IAPNDSLENRMKNNRVEIFFST  234
+
+
+> sp|Q9S3R9|OMP41_PORGI Outer membrane protein 41 OS=Porphyromonas 
+gingivalis (strain ATCC BAA-308 / W83) OX=242619 GN=PG_0695 
+PE=1 SV=2
+Length=391
+
+ Score = 59.4 bits (142),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 20/106 (19%), Positives = 34/106 (32%), Gaps = 10/106 (9%)
+
+Query  22   QNRPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAGHTDDFPYANGEKGYSNWELSA  81
+            +   +F+  S  V+      L  +A  +      I++ G+ D            N +LS 
+Sbjct  290  EKAVLFRFDSHVVDKDQLINLYDVAQFVKETNEPITVVGYADPTGNTQY-----NEKLSE  344
+
+Query  82   DRANASRRELVAGGLDNGKVLRVVGMAA-TMRLSDRGPDDAINRRI  126
+             RA A    L        +++ V      T          A NR +
+Sbjct  345  RRAKAVVDVLTGKYGVPSELISVEWKGDSTQPF----SKKAWNRVV  386
+
+
+> sp|Q8YDY8|YU36_BRUME Type IV secretion system putative outer 
+membrane lipoprotein BMEII0036 OS=Brucella melitensis biotype 
+1 (strain 16M / ATCC 23456 / NCTC 10094) OX=224914 GN=BMEII0036 
+PE=3 SV=1
+Length=172
+
+ Score = 54.4 bits (129),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 21/113 (19%), Positives = 40/113 (35%), Gaps = 11/113 (10%)
+
+Query  24   RPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAGHTDDFPYANGEKGYSNWELSADR  83
+               F        P     +  +  +L  +P  I++ G TD+     G+       ++  R
+Sbjct  68   NVYFPQDVTVFRPTSAQ-INQLHTLLWPVPKHINVRGLTDNSCPPPGDTQ-----VARVR  121
+
+Query  84   ANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDDAI---NRRISLLVLNK  133
+            A A    L+  G+   ++   +  A     +   P       NRR+ + +L K
+Sbjct  122  ALAIYNWLINQGVPASRI--TISYAPVKDYASNAPLSPGRVLNRRVDIEILRK  172
+
+
+> sp|Q2YJ83|YP57_BRUA2 Type IV secretion system putative outer 
+membrane lipoprotein BAB2_0057 OS=Brucella abortus (strain 2308) 
+OX=359391 GN=BAB2_0057 PE=3 SV=1
+Length=172
+
+ Score = 53.6 bits (127),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 21/113 (19%), Positives = 40/113 (35%), Gaps = 11/113 (10%)
+
+Query  24   RPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAGHTDDFPYANGEKGYSNWELSADR  83
+               F        P     +  +  +L  +P  I++ G TD     N      + +++  R
+Sbjct  68   NVYFPQDVTVFRPTSAQ-INQLHTLLWPVPKHINVRGLTD-----NNCPPPGDTQVARVR  121
+
+Query  84   ANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDDAI---NRRISLLVLNK  133
+            A A    L+  G+   ++   +  A     +   P       NRR+ + +L K
+Sbjct  122  ALAIYNWLINQGVPASRI--TISYAPVKDYASNAPLSPGRVLNRRVDIEILRK  172
+
+
+> sp|P0C536|YN58_BRUAB Type IV secretion system putative outer 
+membrane lipoprotein BruAb2_0058 OS=Brucella abortus biovar 
+1 (strain 9-941) OX=262698 GN=BruAb2_0058 PE=3 SV=1
+Length=172
+
+ Score = 53.6 bits (127),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 21/113 (19%), Positives = 40/113 (35%), Gaps = 11/113 (10%)
+
+Query  24   RPMFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAGHTDDFPYANGEKGYSNWELSADR  83
+               F        P     +  +  +L  +P  I++ G TD     N      + +++  R
+Sbjct  68   NVYFPQDVTVFRPTSAQ-INQLHTLLWPVPKHINVRGLTD-----NNCPPPGDTQVARVR  121
+
+Query  84   ANASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDDAI---NRRISLLVLNK  133
+            A A    L+  G+   ++   +  A     +   P       NRR+ + +L K
+Sbjct  122  ALAIYNWLINQGVPASRI--TISYAPVKDYASNAPLSPGRVLNRRVDIEILRK  172
+
+
+> sp|Q9RPX3|YU58_BRUSU Type IV secretion system putative outer 
+membrane lipoprotein BRA0058/BS1330_II0058 OS=Brucella suis 
+biovar 1 (strain 1330) OX=204722 GN=BRA0058 PE=2 SV=1
+Length=172
+
+ Score = 51.3 bits (121),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 21/112 (19%), Positives = 40/112 (36%), Gaps = 11/112 (10%)
+
+Query  25   PMFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAGHTDDFPYANGEKGYSNWELSADRA  84
+              F        P     +  +  +L  +P  I++ G TD     N      + +++  RA
+Sbjct  69   VYFPQDVTVFRPTSAQ-INQLHTLLWPVPKHINVRGLTD-----NNCPPPGDTQVARVRA  122
+
+Query  85   NASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDDAI---NRRISLLVLNK  133
+             A    L+  G+   ++   +  A     +   P       NRR+ + +L K
+Sbjct  123  LAIYNWLINQGVSASRI--TISYAPVKDYASNAPLSPGRVLNRRVDIEILRK  172
+
+
+> sp|Q9S3R8|OMP40_PORGI Outer membrane protein 40 OS=Porphyromonas 
+gingivalis (strain ATCC BAA-308 / W83) OX=242619 GN=PG_0694 
+PE=1 SV=1
+Length=380
+
+ Score = 48.6 bits (114),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 17/101 (17%), Positives = 38/101 (38%), Gaps = 8/101 (8%)
+
+Query  26   MFKTGSAEVEPYMRDILRAIAPVLNGIPNRISLAGHTDDFPYANGEKGYSNWELSADRAN  85
+             F+  SA+++      +   A         I + G+ D+           N +LS  RA 
+Sbjct  282  YFRINSAKIDRNQEINVYNTAEYAKTNNAPIKVVGYADE----KTGTAAYNMKLSERRAK  337
+
+Query  86   ASRRELVAGGLDNGKVLRVVGMAATMRLSDRGPDDAINRRI  126
+            A  + L      +   + +    ++ ++ +   ++A NR +
+Sbjct  338  AVAKML-EKYGVSADRITIEWKGSSEQIYE---ENAWNRIV  374
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.129    0.314    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0396    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5152045464
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  1:45 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,282 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 6GHU:B
+
+Length=78
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P25060|GSPL_PSEAE Type II secretion system protein L OS=Pseu...  148     6e-44
+  sp|P45789|GSPL_AERHY Type II secretion system protein L OS=Aero...  38.1    0.002
+
+
+> sp|P25060|GSPL_PSEAE Type II secretion system protein L OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 
+/ JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 
+GN=xcpY PE=1 SV=2
+Length=382
+
+ Score = 148 bits (373),  Expect = 6e-44, Method: Compositional matrix adjust.
+ Identities = 78/78 (100%), Positives = 78/78 (100%), Gaps = 0/78 (0%)
+
+Query  1    QLLGLLGQAATVIGGEPTVSVEQLDFSAARGDVALQVRAPGFDVLERLRSRLSESGLAVQ  60
+            QLLGLLGQAATVIGGEPTVSVEQLDFSAARGDVALQVRAPGFDVLERLRSRLSESGLAVQ
+Sbjct  304  QLLGLLGQAATVIGGEPTVSVEQLDFSAARGDVALQVRAPGFDVLERLRSRLSESGLAVQ  363
+
+Query  61   LGSASRDGSTVSARLVIG  78
+            LGSASRDGSTVSARLVIG
+Sbjct  364  LGSASRDGSTVSARLVIG  381
+
+
+> sp|P45789|GSPL_AERHY Type II secretion system protein L OS=Aeromonas 
+hydrophila OX=644 GN=exeL PE=3 SV=1
+Length=389
+
+ Score = 38.1 bits (87),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 21/49 (43%), Positives = 28/49 (57%), Gaps = 0/49 (0%)
+
+Query  2    LLGLLGQAATVIGGEPTVSVEQLDFSAARGDVALQVRAPGFDVLERLRS  50
+            +L LL + A      P +  + L F AARG++ LQV APGF  +ER R 
+Sbjct  321  VLLLLTELAPTFAEVPGLKPQVLRFDAARGELRLQVTAPGFAEIERFRE  369
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.134    0.352    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5081033392
+Results from round 2
+
+
+Query= 6GHU:B
+
+Length=78
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P25060|GSPL_PSEAE Type II secretion system protein L OS=Pseu...  113     7e-31
+  sp|P45789|GSPL_AERHY Type II secretion system protein L OS=Aero...  82.0    6e-19
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P15751|GSPL_KLEPN Type II secretion system protein L OS=Kleb...  39.3    8e-04
+
+
+> sp|P25060|GSPL_PSEAE Type II secretion system protein L OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 
+/ JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 
+GN=xcpY PE=1 SV=2
+Length=382
+
+ Score = 113 bits (284),  Expect = 7e-31, Method: Composition-based stats.
+ Identities = 70/70 (100%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  9    AATVIGGEPTVSVEQLDFSAARGDVALQVRAPGFDVLERLRSRLSESGLAVQLGSASRDG  68
+            AATVIGGEPTVSVEQLDFSAARGDVALQVRAPGFDVLERLRSRLSESGLAVQLGSASRDG
+Sbjct  312  AATVIGGEPTVSVEQLDFSAARGDVALQVRAPGFDVLERLRSRLSESGLAVQLGSASRDG  371
+
+Query  69   STVSARLVIG  78
+            STVSARLVIG
+Sbjct  372  STVSARLVIG  381
+
+
+> sp|P45789|GSPL_AERHY Type II secretion system protein L OS=Aeromonas 
+hydrophila OX=644 GN=exeL PE=3 SV=1
+Length=389
+
+ Score = 82.0 bits (201),  Expect = 6e-19, Method: Composition-based stats.
+ Identities = 25/65 (38%), Positives = 35/65 (54%), Gaps = 1/65 (2%)
+
+Query  2    LLGLLGQAATVIGGEPTVSVEQLDFSAARGDVALQVRAPGFDVLERLRSRLSESGLAVQL  61
+            +L LL + A      P +  + L F AARG++ LQV APGF  +ER R  L+     VQ 
+Sbjct  321  VLLLLTELAPTFAEVPGLKPQVLRFDAARGELRLQVTAPGFAEIERFRE-LAGKRFEVQQ  379
+
+Query  62   GSASR  66
+            G  ++
+Sbjct  380  GEGAQ  384
+
+
+> sp|P15751|GSPL_KLEPN Type II secretion system protein L OS=Klebsiella 
+pneumoniae OX=573 GN=pulL PE=3 SV=1
+Length=398
+
+ Score = 39.3 bits (90),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 20/76 (26%), Positives = 32/76 (42%), Gaps = 1/76 (1%)
+
+Query  2    LLGLLGQAATVIGGEPTVSVEQLDFSAARGDVALQVRAPGFDVLERLRSRLSESGLAVQL  61
+            L+  LG    +I   P + +  L F AAR  + L++ A     LE+   R + +   VQ 
+Sbjct  319  LISRLGALQQIIDDTPGIRLRTLSFDAARNALQLEISAVSSQALEQFSQR-ARARFRVQT  377
+
+Query  62   GSASRDGSTVSARLVI  77
+            G        +  RL +
+Sbjct  378  GEMKPRADGIEGRLTL  393
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.135    0.351    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0413    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5081033392
+Results from round 3
+
+
+Query= 6GHU:B
+
+Length=78
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P15751|GSPL_KLEPN Type II secretion system protein L OS=Kleb...  102     1e-26
+  sp|P25060|GSPL_PSEAE Type II secretion system protein L OS=Pseu...  91.7    2e-22
+  sp|P45789|GSPL_AERHY Type II secretion system protein L OS=Aero...  87.1    9e-21
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P31707|GSPL_DICCH Type II secretion system protein L OS=Dick...  58.2    2e-10
+  sp|P31708|GSPL_PECCC Type II secretion system protein L OS=Pect...  57.4    3e-10
+
+
+> sp|P15751|GSPL_KLEPN Type II secretion system protein L OS=Klebsiella 
+pneumoniae OX=573 GN=pulL PE=3 SV=1
+Length=398
+
+ Score = 102 bits (255),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 20/76 (26%), Positives = 32/76 (42%), Gaps = 1/76 (1%)
+
+Query  2    LLGLLGQAATVIGGEPTVSVEQLDFSAARGDVALQVRAPGFDVLERLRSRLSESGLAVQL  61
+            L+  LG    +I   P + +  L F AAR  + L++ A     LE+   R + +   VQ 
+Sbjct  319  LISRLGALQQIIDDTPGIRLRTLSFDAARNALQLEISAVSSQALEQFSQR-ARARFRVQT  377
+
+Query  62   GSASRDGSTVSARLVI  77
+            G        +  RL +
+Sbjct  378  GEMKPRADGIEGRLTL  393
+
+
+> sp|P25060|GSPL_PSEAE Type II secretion system protein L OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 
+/ JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 
+GN=xcpY PE=1 SV=2
+Length=382
+
+ Score = 91.7 bits (226),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 70/70 (100%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  9    AATVIGGEPTVSVEQLDFSAARGDVALQVRAPGFDVLERLRSRLSESGLAVQLGSASRDG  68
+            AATVIGGEPTVSVEQLDFSAARGDVALQVRAPGFDVLERLRSRLSESGLAVQLGSASRDG
+Sbjct  312  AATVIGGEPTVSVEQLDFSAARGDVALQVRAPGFDVLERLRSRLSESGLAVQLGSASRDG  371
+
+Query  69   STVSARLVIG  78
+            STVSARLVIG
+Sbjct  372  STVSARLVIG  381
+
+
+> sp|P45789|GSPL_AERHY Type II secretion system protein L OS=Aeromonas 
+hydrophila OX=644 GN=exeL PE=3 SV=1
+Length=389
+
+ Score = 87.1 bits (214),  Expect = 9e-21, Method: Composition-based stats.
+ Identities = 25/65 (38%), Positives = 35/65 (54%), Gaps = 1/65 (2%)
+
+Query  2    LLGLLGQAATVIGGEPTVSVEQLDFSAARGDVALQVRAPGFDVLERLRSRLSESGLAVQL  61
+            +L LL + A      P +  + L F AARG++ LQV APGF  +ER R  L+     VQ 
+Sbjct  321  VLLLLTELAPTFAEVPGLKPQVLRFDAARGELRLQVTAPGFAEIERFRE-LAGKRFEVQQ  379
+
+Query  62   GSASR  66
+            G  ++
+Sbjct  380  GEGAQ  384
+
+
+> sp|P31707|GSPL_DICCH Type II secretion system protein L OS=Dickeya 
+chrysanthemi OX=556 GN=outL PE=1 SV=1
+Length=399
+
+ Score = 58.2 bits (139),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 13/76 (17%), Positives = 36/76 (47%), Gaps = 1/76 (1%)
+
+Query  2    LLGLLGQAATVIGGEPTVSVEQLDFSAARGDVALQVRAPGFDVLERLRSRLSESGLAVQL  61
+            L   + +   ++     VS++ L +  +R ++ L +RA  +  +E+ R + +++   +  
+Sbjct  321  LTEQMNRLQQLVAQNEGVSLQSLSYDRSRDELRLSLRATSYAQMEQFRQQ-AQAYFQIPP  379
+
+Query  62   GSASRDGSTVSARLVI  77
+            G   ++   V  +L +
+Sbjct  380  GEMKQEKDHVEGQLTL  395
+
+
+> sp|P31708|GSPL_PECCC Type II secretion system protein L OS=Pectobacterium 
+carotovorum subsp. carotovorum OX=555 GN=outL PE=3 
+SV=1
+Length=425
+
+ Score = 57.4 bits (137),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 15/76 (20%), Positives = 33/76 (43%), Gaps = 1/76 (1%)
+
+Query  2    LLGLLGQAATVIGGEPTVSVEQLDFSAARGDVALQVRAPGFDVLERLRSRLSESGLAVQL  61
+            LL  L     ++     + ++ L +  A G+  L ++   +  LE+ + + + +   VQ 
+Sbjct  347  LLDQLTPLQQLMTQNSAIKIQSLSYDGAAGEFRLALQGTSYQELEQFQQQ-AAAYYQVQA  405
+
+Query  62   GSASRDGSTVSARLVI  77
+            G   ++   V  RL +
+Sbjct  406  GEMRQENDRVEGRLTL  421
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.129    0.301    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0395    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5081033392
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  1:45 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

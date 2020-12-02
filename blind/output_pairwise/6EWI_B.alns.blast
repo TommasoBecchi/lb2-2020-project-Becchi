@@ -1,0 +1,259 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 6EWI:B
+
+Length=182
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|B1H2P5|CE120_XENTR Centrosomal protein of 120 kDa OS=Xenopus...  223     2e-67
+  sp|Q8N960|CE120_HUMAN Centrosomal protein of 120 kDa OS=Homo sa...  222     1e-66
+  sp|A0JN62|CE120_BOVIN Centrosomal protein of 120 kDa OS=Bos tau...  221     3e-66
+  sp|Q7TSG1|CE120_MOUSE Centrosomal protein of 120 kDa OS=Mus mus...  219     1e-65
+
+
+> sp|B1H2P5|CE120_XENTR Centrosomal protein of 120 kDa OS=Xenopus 
+tropicalis OX=8364 GN=cep120 PE=2 SV=1
+Length=882
+
+ Score = 223 bits (569),  Expect = 2e-67, Method: Compositional matrix adjust.
+ Identities = 104/177 (59%), Positives = 138/177 (78%), Gaps = 2/177 (1%)
+
+Query  4    ILIPDQGYHQVGPADLCTDMFVLSVTVAFPTKLEQLVPSTMKLSAEGSEFFFYYSLLGND  63
+            IL   +GYHQ+GPA+ C D FVLSVT+AF T+LEQL+PST++L     EFFFYYSLLGND
+Sbjct  170  ILNEAEGYHQIGPAEYCKDYFVLSVTIAFATQLEQLIPSTLRLPEPQPEFFFYYSLLGND  229
+
+Query  64   ITSEPFHNLLSPDFEPERASVRIRSSKQILKAFLSQQPSLQIHLCCGNHSLGSTDVSLSA  123
+            +T+EPF +L++P+FEPERASVRIRSSK++L  +LS QP LQIHLCCG+ SLGSTD++L+ 
+Sbjct  230  VTNEPFTDLINPEFEPERASVRIRSSKEVLCMYLSVQPKLQIHLCCGDQSLGSTDIALTG  289
+
+Query  124  LAG-ISTDLDNKAATVESAFILQPPKRVKQTLPALPTDLQPTLGVAVTLRREEVALQ  179
+            L    S ++++    VE AFIL PP R KQ L A+P ++ PT+GV++ L++ E+ LQ
+Sbjct  290  LLNKASVEIEHHPVVVEGAFILTPPNRAKQNLSAVPLEMSPTIGVSIALQK-EIGLQ  345
+
+
+> sp|Q8N960|CE120_HUMAN Centrosomal protein of 120 kDa OS=Homo 
+sapiens OX=9606 GN=CEP120 PE=1 SV=2
+Length=986
+
+ Score = 222 bits (566),  Expect = 1e-66, Method: Compositional matrix adjust.
+ Identities = 103/178 (58%), Positives = 136/178 (76%), Gaps = 1/178 (1%)
+
+Query  3    AILIPDQGYHQVGPADLCTDMFVLSVTVAFPTKLEQLVPSTMKLSAEGSEFFFYYSLLGN  62
+            A+L  + GYHQ+GPA+ CTD F++SVT+AF T+LEQL+P TMKL     EFFFYYSLLGN
+Sbjct  169  AVLNEEGGYHQIGPAEYCTDSFIMSVTIAFATQLEQLIPCTMKLPERQPEFFFYYSLLGN  228
+
+Query  63   DITSEPFHNLLSPDFEPERASVRIRSSKQILKAFLSQQPSLQIHLCCGNHSLGSTDVSLS  122
+            D+T+EPF++L++P+FEPERASVRIRSS +IL+ +L+ Q  LQIHLCCG+ SLGST++ L+
+Sbjct  229  DVTNEPFNDLINPNFEPERASVRIRSSVEILRVYLALQSKLQIHLCCGDQSLGSTEIPLT  288
+
+Query  123  A-LAGISTDLDNKAATVESAFILQPPKRVKQTLPALPTDLQPTLGVAVTLRREEVALQ  179
+              L   ST+++    TVE AF L PP R KQ L  +P +L PT+GV+V L+RE +  Q
+Sbjct  289  GLLKKGSTEINQHPVTVEGAFTLDPPNRAKQKLAPIPVELAPTVGVSVALQREGIDSQ  346
+
+
+> sp|A0JN62|CE120_BOVIN Centrosomal protein of 120 kDa OS=Bos taurus 
+OX=9913 GN=CEP120 PE=2 SV=2
+Length=987
+
+ Score = 221 bits (563),  Expect = 3e-66, Method: Compositional matrix adjust.
+ Identities = 102/178 (57%), Positives = 136/178 (76%), Gaps = 1/178 (1%)
+
+Query  3    AILIPDQGYHQVGPADLCTDMFVLSVTVAFPTKLEQLVPSTMKLSAEGSEFFFYYSLLGN  62
+            A+L  + GYHQ+GPA  CTD F++SVT+AF T+LEQL+P TMKL     EFFFYYSLLGN
+Sbjct  169  AVLNEEGGYHQIGPAGYCTDFFIMSVTIAFATQLEQLIPCTMKLPERQPEFFFYYSLLGN  228
+
+Query  63   DITSEPFHNLLSPDFEPERASVRIRSSKQILKAFLSQQPSLQIHLCCGNHSLGSTDVSLS  122
+            D+T+EPF +L++P+FEPERASVRIRSS +IL+ +L+    LQIHLCCG+ SLGST++ L+
+Sbjct  229  DVTNEPFSDLINPNFEPERASVRIRSSIEILRVYLTLHSKLQIHLCCGDQSLGSTEIPLT  288
+
+Query  123  A-LAGISTDLDNKAATVESAFILQPPKRVKQTLPALPTDLQPTLGVAVTLRREEVALQ  179
+              L   ST+++++  TVE AF L PP R KQ L  +P +L PT+GV+V L+RE + +Q
+Sbjct  289  GLLKKGSTEINHRPVTVEGAFTLDPPNRAKQKLAPIPVELAPTVGVSVALQREGMDVQ  346
+
+
+> sp|Q7TSG1|CE120_MOUSE Centrosomal protein of 120 kDa OS=Mus musculus 
+OX=10090 GN=Cep120 PE=1 SV=1
+Length=988
+
+ Score = 219 bits (559),  Expect = 1e-65, Method: Compositional matrix adjust.
+ Identities = 104/178 (58%), Positives = 134/178 (75%), Gaps = 1/178 (1%)
+
+Query  3    AILIPDQGYHQVGPADLCTDMFVLSVTVAFPTKLEQLVPSTMKLSAEGSEFFFYYSLLGN  62
+            A+L  + GYHQ+GPA+ CTD F+LSVT+AF T+LEQL+P TMKL     EFFFYYSLLGN
+Sbjct  169  AVLNEEGGYHQIGPAEHCTDPFILSVTIAFATQLEQLIPCTMKLPERQPEFFFYYSLLGN  228
+
+Query  63   DITSEPFHNLLSPDFEPERASVRIRSSKQILKAFLSQQPSLQIHLCCGNHSLGSTDVSLS  122
+            D+T+EPF +L++P+FEPERASVRIRSS +IL+ +L+    LQIHLCCG+ SLGST++ L+
+Sbjct  229  DVTNEPFSDLINPNFEPERASVRIRSSVEILRVYLALHSKLQIHLCCGDQSLGSTEIPLN  288
+
+Query  123  A-LAGISTDLDNKAATVESAFILQPPKRVKQTLPALPTDLQPTLGVAVTLRREEVALQ  179
+              L   ST+++    TVE AF L PP R KQ L  +P DL PT+GV+V L+RE +  Q
+Sbjct  289  GLLKKGSTEINQHPVTVEGAFTLDPPNRAKQKLAPVPLDLAPTVGVSVALQREGIDSQ  346
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.133    0.376    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 9961084444
+Results from round 2
+
+
+Query= 6EWI:B
+
+Length=182
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q8N960|CE120_HUMAN Centrosomal protein of 120 kDa OS=Homo sa...  309     6e-99
+  sp|Q7TSG1|CE120_MOUSE Centrosomal protein of 120 kDa OS=Mus mus...  304     5e-97
+  sp|A0JN62|CE120_BOVIN Centrosomal protein of 120 kDa OS=Bos tau...  301     9e-96
+  sp|B1H2P5|CE120_XENTR Centrosomal protein of 120 kDa OS=Xenopus...  298     1e-95
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q8N960|CE120_HUMAN Centrosomal protein of 120 kDa OS=Homo 
+sapiens OX=9606 GN=CEP120 PE=1 SV=2
+Length=986
+
+ Score = 309 bits (792),  Expect = 6e-99, Method: Composition-based stats.
+ Identities = 103/178 (58%), Positives = 136/178 (76%), Gaps = 1/178 (1%)
+
+Query  3    AILIPDQGYHQVGPADLCTDMFVLSVTVAFPTKLEQLVPSTMKLSAEGSEFFFYYSLLGN  62
+            A+L  + GYHQ+GPA+ CTD F++SVT+AF T+LEQL+P TMKL     EFFFYYSLLGN
+Sbjct  169  AVLNEEGGYHQIGPAEYCTDSFIMSVTIAFATQLEQLIPCTMKLPERQPEFFFYYSLLGN  228
+
+Query  63   DITSEPFHNLLSPDFEPERASVRIRSSKQILKAFLSQQPSLQIHLCCGNHSLGSTDVSLS  122
+            D+T+EPF++L++P+FEPERASVRIRSS +IL+ +L+ Q  LQIHLCCG+ SLGST++ L+
+Sbjct  229  DVTNEPFNDLINPNFEPERASVRIRSSVEILRVYLALQSKLQIHLCCGDQSLGSTEIPLT  288
+
+Query  123  A-LAGISTDLDNKAATVESAFILQPPKRVKQTLPALPTDLQPTLGVAVTLRREEVALQ  179
+              L   ST+++    TVE AF L PP R KQ L  +P +L PT+GV+V L+RE +  Q
+Sbjct  289  GLLKKGSTEINQHPVTVEGAFTLDPPNRAKQKLAPIPVELAPTVGVSVALQREGIDSQ  346
+
+
+> sp|Q7TSG1|CE120_MOUSE Centrosomal protein of 120 kDa OS=Mus musculus 
+OX=10090 GN=Cep120 PE=1 SV=1
+Length=988
+
+ Score = 304 bits (779),  Expect = 5e-97, Method: Composition-based stats.
+ Identities = 104/178 (58%), Positives = 134/178 (75%), Gaps = 1/178 (1%)
+
+Query  3    AILIPDQGYHQVGPADLCTDMFVLSVTVAFPTKLEQLVPSTMKLSAEGSEFFFYYSLLGN  62
+            A+L  + GYHQ+GPA+ CTD F+LSVT+AF T+LEQL+P TMKL     EFFFYYSLLGN
+Sbjct  169  AVLNEEGGYHQIGPAEHCTDPFILSVTIAFATQLEQLIPCTMKLPERQPEFFFYYSLLGN  228
+
+Query  63   DITSEPFHNLLSPDFEPERASVRIRSSKQILKAFLSQQPSLQIHLCCGNHSLGSTDVSLS  122
+            D+T+EPF +L++P+FEPERASVRIRSS +IL+ +L+    LQIHLCCG+ SLGST++ L+
+Sbjct  229  DVTNEPFSDLINPNFEPERASVRIRSSVEILRVYLALHSKLQIHLCCGDQSLGSTEIPLN  288
+
+Query  123  A-LAGISTDLDNKAATVESAFILQPPKRVKQTLPALPTDLQPTLGVAVTLRREEVALQ  179
+              L   ST+++    TVE AF L PP R KQ L  +P DL PT+GV+V L+RE +  Q
+Sbjct  289  GLLKKGSTEINQHPVTVEGAFTLDPPNRAKQKLAPVPLDLAPTVGVSVALQREGIDSQ  346
+
+
+> sp|A0JN62|CE120_BOVIN Centrosomal protein of 120 kDa OS=Bos taurus 
+OX=9913 GN=CEP120 PE=2 SV=2
+Length=987
+
+ Score = 301 bits (770),  Expect = 9e-96, Method: Composition-based stats.
+ Identities = 102/181 (56%), Positives = 137/181 (76%), Gaps = 1/181 (1%)
+
+Query  3    AILIPDQGYHQVGPADLCTDMFVLSVTVAFPTKLEQLVPSTMKLSAEGSEFFFYYSLLGN  62
+            A+L  + GYHQ+GPA  CTD F++SVT+AF T+LEQL+P TMKL     EFFFYYSLLGN
+Sbjct  169  AVLNEEGGYHQIGPAGYCTDFFIMSVTIAFATQLEQLIPCTMKLPERQPEFFFYYSLLGN  228
+
+Query  63   DITSEPFHNLLSPDFEPERASVRIRSSKQILKAFLSQQPSLQIHLCCGNHSLGSTDVSLS  122
+            D+T+EPF +L++P+FEPERASVRIRSS +IL+ +L+    LQIHLCCG+ SLGST++ L+
+Sbjct  229  DVTNEPFSDLINPNFEPERASVRIRSSIEILRVYLTLHSKLQIHLCCGDQSLGSTEIPLT  288
+
+Query  123  A-LAGISTDLDNKAATVESAFILQPPKRVKQTLPALPTDLQPTLGVAVTLRREEVALQQS  181
+              L   ST+++++  TVE AF L PP R KQ L  +P +L PT+GV+V L+RE + +Q  
+Sbjct  289  GLLKKGSTEINHRPVTVEGAFTLDPPNRAKQKLAPIPVELAPTVGVSVALQREGMDVQSL  348
+
+Query  182  V  182
+            +
+Sbjct  349  I  349
+
+
+> sp|B1H2P5|CE120_XENTR Centrosomal protein of 120 kDa OS=Xenopus 
+tropicalis OX=8364 GN=cep120 PE=2 SV=1
+Length=882
+
+ Score = 298 bits (764),  Expect = 1e-95, Method: Composition-based stats.
+ Identities = 105/180 (58%), Positives = 139/180 (77%), Gaps = 2/180 (1%)
+
+Query  1    LEAILIPDQGYHQVGPADLCTDMFVLSVTVAFPTKLEQLVPSTMKLSAEGSEFFFYYSLL  60
+            L  IL   +GYHQ+GPA+ C D FVLSVT+AF T+LEQL+PST++L     EFFFYYSLL
+Sbjct  167  LVPILNEAEGYHQIGPAEYCKDYFVLSVTIAFATQLEQLIPSTLRLPEPQPEFFFYYSLL  226
+
+Query  61   GNDITSEPFHNLLSPDFEPERASVRIRSSKQILKAFLSQQPSLQIHLCCGNHSLGSTDVS  120
+            GND+T+EPF +L++P+FEPERASVRIRSSK++L  +LS QP LQIHLCCG+ SLGSTD++
+Sbjct  227  GNDVTNEPFTDLINPEFEPERASVRIRSSKEVLCMYLSVQPKLQIHLCCGDQSLGSTDIA  286
+
+Query  121  LSALAG-ISTDLDNKAATVESAFILQPPKRVKQTLPALPTDLQPTLGVAVTLRREEVALQ  179
+            L+ L    S ++++    VE AFIL PP R KQ L A+P ++ PT+GV++ L++E + LQ
+Sbjct  287  LTGLLNKASVEIEHHPVVVEGAFILTPPNRAKQNLSAVPLEMSPTIGVSIALQKE-IGLQ  345
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.133    0.375    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0407    0.140     1.90     42.6     43.6 
+
+Effective search space used: 9961084444
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  1:45 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,181 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 6GNY:C
+
+Length=107
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q9D992|MAJIN_MOUSE Membrane-anchored junction protein OS=Mus...  202     5e-66
+  sp|Q6AYM7|MAJIN_RAT Membrane-anchored junction protein OS=Rattu...  197     3e-64
+  sp|Q3KP22|MAJIN_HUMAN Membrane-anchored junction protein OS=Hom...  103     4e-28
+
+
+> sp|Q9D992|MAJIN_MOUSE Membrane-anchored junction protein OS=Mus 
+musculus OX=10090 GN=Majin PE=1 SV=2
+Length=256
+
+ Score = 202 bits (513),  Expect = 5e-66, Method: Compositional matrix adjust.
+ Identities = 94/106 (89%), Positives = 99/106 (93%), Gaps = 0/106 (0%)
+
+Query  2    MSLKPFTYPFPETRFLHAGPNVYKFKIRYGKSIRGEEIENKEVITQELEDSVRVVLGNLD  61
+            MSLKPFTYPFPETRFLHAGPNVYKFKIRYG SIRGEEIE+KEVI QELEDS+R VL N+D
+Sbjct  1    MSLKPFTYPFPETRFLHAGPNVYKFKIRYGNSIRGEEIEDKEVIVQELEDSIRAVLANMD  60
+
+Query  62   NLQPFATEHFIVFPYKSKWERVSHLKFKHGEIILIPYPFVFTLYVE  107
+            +LQPF TEHFIVFPYKSKWERVSHLKFKHGE IL PYPFVFTLY+E
+Sbjct  61   SLQPFVTEHFIVFPYKSKWERVSHLKFKHGESILTPYPFVFTLYIE  106
+
+
+> sp|Q6AYM7|MAJIN_RAT Membrane-anchored junction protein OS=Rattus 
+norvegicus OX=10116 GN=Majin PE=2 SV=1
+Length=251
+
+ Score = 197 bits (502),  Expect = 3e-64, Method: Compositional matrix adjust.
+ Identities = 93/106 (88%), Positives = 98/106 (92%), Gaps = 0/106 (0%)
+
+Query  2    MSLKPFTYPFPETRFLHAGPNVYKFKIRYGKSIRGEEIENKEVITQELEDSVRVVLGNLD  61
+            MSLKPFTYPFPETRFLHAG NVYKFKIRYG SIRGEEIE+K VI QELEDS+R VL N+D
+Sbjct  1    MSLKPFTYPFPETRFLHAGTNVYKFKIRYGNSIRGEEIEDKGVIIQELEDSIRAVLANMD  60
+
+Query  62   NLQPFATEHFIVFPYKSKWERVSHLKFKHGEIILIPYPFVFTLYVE  107
+            +LQPF TEHFIVFPYKSKWERVSHLKFKHGEIIL PYPFVFTLY+E
+Sbjct  61   SLQPFVTEHFIVFPYKSKWERVSHLKFKHGEIILTPYPFVFTLYIE  106
+
+
+> sp|Q3KP22|MAJIN_HUMAN Membrane-anchored junction protein OS=Homo 
+sapiens OX=9606 GN=MAJIN PE=1 SV=2
+Length=176
+
+ Score = 103 bits (257),  Expect = 4e-28, Method: Compositional matrix adjust.
+ Identities = 49/49 (100%), Positives = 49/49 (100%), Gaps = 0/49 (0%)
+
+Query  2   MSLKPFTYPFPETRFLHAGPNVYKFKIRYGKSIRGEEIENKEVITQELE  50
+           MSLKPFTYPFPETRFLHAGPNVYKFKIRYGKSIRGEEIENKEVITQELE
+Sbjct  1   MSLKPFTYPFPETRFLHAGPNVYKFKIRYGKSIRGEEIENKEVITQELE  49
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.142    0.432    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4960149854
+Results from round 2
+
+
+Query= 6GNY:C
+
+Length=107
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q9D992|MAJIN_MOUSE Membrane-anchored junction protein OS=Mus...  208     3e-68
+  sp|Q6AYM7|MAJIN_RAT Membrane-anchored junction protein OS=Rattu...  202     4e-66
+  sp|Q3KP22|MAJIN_HUMAN Membrane-anchored junction protein OS=Hom...  99.7    1e-26
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q9D992|MAJIN_MOUSE Membrane-anchored junction protein OS=Mus 
+musculus OX=10090 GN=Majin PE=1 SV=2
+Length=256
+
+ Score = 208 bits (529),  Expect = 3e-68, Method: Composition-based stats.
+ Identities = 94/106 (89%), Positives = 99/106 (93%), Gaps = 0/106 (0%)
+
+Query  2    MSLKPFTYPFPETRFLHAGPNVYKFKIRYGKSIRGEEIENKEVITQELEDSVRVVLGNLD  61
+            MSLKPFTYPFPETRFLHAGPNVYKFKIRYG SIRGEEIE+KEVI QELEDS+R VL N+D
+Sbjct  1    MSLKPFTYPFPETRFLHAGPNVYKFKIRYGNSIRGEEIEDKEVIVQELEDSIRAVLANMD  60
+
+Query  62   NLQPFATEHFIVFPYKSKWERVSHLKFKHGEIILIPYPFVFTLYVE  107
+            +LQPF TEHFIVFPYKSKWERVSHLKFKHGE IL PYPFVFTLY+E
+Sbjct  61   SLQPFVTEHFIVFPYKSKWERVSHLKFKHGESILTPYPFVFTLYIE  106
+
+
+> sp|Q6AYM7|MAJIN_RAT Membrane-anchored junction protein OS=Rattus 
+norvegicus OX=10116 GN=Majin PE=2 SV=1
+Length=251
+
+ Score = 202 bits (514),  Expect = 4e-66, Method: Composition-based stats.
+ Identities = 93/106 (88%), Positives = 98/106 (92%), Gaps = 0/106 (0%)
+
+Query  2    MSLKPFTYPFPETRFLHAGPNVYKFKIRYGKSIRGEEIENKEVITQELEDSVRVVLGNLD  61
+            MSLKPFTYPFPETRFLHAG NVYKFKIRYG SIRGEEIE+K VI QELEDS+R VL N+D
+Sbjct  1    MSLKPFTYPFPETRFLHAGTNVYKFKIRYGNSIRGEEIEDKGVIIQELEDSIRAVLANMD  60
+
+Query  62   NLQPFATEHFIVFPYKSKWERVSHLKFKHGEIILIPYPFVFTLYVE  107
+            +LQPF TEHFIVFPYKSKWERVSHLKFKHGEIIL PYPFVFTLY+E
+Sbjct  61   SLQPFVTEHFIVFPYKSKWERVSHLKFKHGEIILTPYPFVFTLYIE  106
+
+
+> sp|Q3KP22|MAJIN_HUMAN Membrane-anchored junction protein OS=Homo 
+sapiens OX=9606 GN=MAJIN PE=1 SV=2
+Length=176
+
+ Score = 99.7 bits (247),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 49/49 (100%), Positives = 49/49 (100%), Gaps = 0/49 (0%)
+
+Query  2   MSLKPFTYPFPETRFLHAGPNVYKFKIRYGKSIRGEEIENKEVITQELE  50
+           MSLKPFTYPFPETRFLHAGPNVYKFKIRYGKSIRGEEIENKEVITQELE
+Sbjct  1   MSLKPFTYPFPETRFLHAGPNVYKFKIRYGKSIRGEEIENKEVITQELE  49
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.145    0.466    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0445    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4960149854
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  1:45 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

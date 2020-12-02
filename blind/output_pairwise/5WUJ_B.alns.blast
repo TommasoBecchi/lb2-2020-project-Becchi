@@ -1,0 +1,1033 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 5WUJ:B
+
+Length=105
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|O25119|FLIG_HELPY Flagellar motor switch protein FliG OS=Hel...  211     1e-68
+  sp|P23448|FLIG_BACSU Flagellar motor switch protein FliG OS=Bac...  67.0    3e-13
+  sp|Q9WY63|FLIG_THEMA Flagellar motor switch protein FliG OS=The...  66.6    5e-13
+  sp|P52610|FLIG_BORBU Flagellar motor switch protein FliG OS=Bor...  58.5    3e-10
+  sp|Q8KA44|FLIG_BUCAP Flagellar motor switch protein FliG OS=Buc...  50.4    2e-07
+  sp|Q51464|FLIG_PSEAE Flagellar motor switch protein FliG OS=Pse...  47.0    4e-06
+  sp|P0A1J9|FLIG_SALTY Flagellar motor switch protein FliG OS=Sal...  44.3    3e-05
+  sp|P0A1K0|FLIG_SALTI Flagellar motor switch protein FliG OS=Sal...  44.3    3e-05
+  sp|Q9X4Q9|FLIG_VIBCH Flagellar motor switch protein FliG OS=Vib...  40.8    6e-04
+  sp|P95715|FLIG_SHIBO Flagellar motor switch protein FliG (Fragm...  40.0    8e-04
+  sp|P0ABZ1|FLIG_ECOLI Flagellar motor switch protein FliG OS=Esc...  40.0    0.001
+  sp|P0ABZ2|FLIG_ECOL6 Flagellar motor switch protein FliG OS=Esc...  40.0    0.001
+  sp|P0ABZ3|FLIG_ECO57 Flagellar motor switch protein FliG OS=Esc...  40.0    0.001
+  sp|P57176|FLIG_BUCAI Flagellar motor switch protein FliG OS=Buc...  38.5    0.004
+
+
+> sp|O25119|FLIG_HELPY Flagellar motor switch protein FliG OS=Helicobacter 
+pylori (strain ATCC 700392 / 26695) OX=85962 GN=fliG 
+PE=1 SV=1
+Length=343
+
+ Score = 211 bits (538),  Expect = 1e-68, Method: Compositional matrix adjust.
+ Identities = 105/105 (100%), Positives = 105/105 (100%), Gaps = 0/105 (0%)
+
+Query  1    PKQKAQLDELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAA  60
+            PKQKAQLDELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAA
+Sbjct  7    PKQKAQLDELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAA  66
+
+Query  61   VLEEFFAIFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKLTK  105
+            VLEEFFAIFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKLTK
+Sbjct  67   VLEEFFAIFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKLTK  111
+
+
+> sp|P23448|FLIG_BACSU Flagellar motor switch protein FliG OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=fliG PE=3 SV=1
+Length=338
+
+ Score = 67.0 bits (162),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 33/97 (34%), Positives = 60/97 (62%), Gaps = 0/97 (0%)
+
+Query  8    DELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVLEEFFA  67
+            D+L+  +K AIL+I +G D +  + +HL  + I  ++ +I  +   D Q    ++EEF  
+Sbjct  7    DKLTGKQKAAILMISLGLDVSASVYKHLTDEEIERLTLEISGVRSVDHQKKDEIIEEFHN  66
+
+Query  68   IFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKLT  104
+            I  +  YI+ GGL YAR++L + LG ++A+ ++++LT
+Sbjct  67   IAIAQDYISQGGLSYARQVLEKALGEDKAENILNRLT  103
+
+
+> sp|Q9WY63|FLIG_THEMA Flagellar motor switch protein FliG OS=Thermotoga 
+maritima (strain ATCC 43589 / MSB8 / DSM 3109 / JCM 
+10099) OX=243274 GN=fliG PE=1 SV=1
+Length=335
+
+ Score = 66.6 bits (161),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 27/90 (30%), Positives = 59/90 (66%), Gaps = 0/90 (0%)
+
+Query  15   KIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVLEEFFAIFQSNQY  74
+            K A+LL+ +G +   ++++HLD +++ ++  +I  +     +    VLEEF ++ ++ + 
+Sbjct  11   KAAVLLVALGPEKAAQVMKHLDEETVEQLVVEIANIGRVTPEEKKQVLEEFLSLAKAKEM  70
+
+Query  75   INTGGLEYARELLTRTLGSEEAKKVMDKLT  104
+            I+ GG+EYA+++L +  G E A+K++++LT
+Sbjct  71   ISEGGIEYAKKVLEKAFGPERARKIIERLT  100
+
+
+> sp|P52610|FLIG_BORBU Flagellar motor switch protein FliG OS=Borrelia 
+burgdorferi (strain ATCC 35210 / B31 / CIP 102532 / 
+DSM 4680) OX=224326 GN=fliG PE=3 SV=1
+Length=344
+
+ Score = 58.5 bits (140),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 32/104 (31%), Positives = 64/104 (62%), Gaps = 2/104 (2%)
+
+Query  2    KQKAQLD--ELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGA  59
+            K+K  LD   L+  +K AILL+ +G + + ++ ++L  + I  ++ +I +L     ++  
+Sbjct  5    KEKEILDVSALTGKQKAAILLVSIGSEISSKVFKYLSQEEIESLTFEIAKLETITSELKD  64
+
+Query  60   AVLEEFFAIFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKL  103
+             VL EF  +  + ++I  GG++YARELL ++LG+++A  +++ L
+Sbjct  65   NVLLEFKELMMAQEFIQKGGIDYARELLEKSLGTQKAVDIINNL  108
+
+
+> sp|Q8KA44|FLIG_BUCAP Flagellar motor switch protein FliG OS=Buchnera 
+aphidicola subsp. Schizaphis graminum (strain Sg) OX=198804 
+GN=fliG PE=3 SV=1
+Length=331
+
+ Score = 50.4 bits (119),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 29/95 (31%), Positives = 53/95 (56%), Gaps = 1/95 (1%)
+
+Query  10   LSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVLEEFFAIF  69
+            L+ +EK AILL+ +G D   E+L+HL    + E+   +V +N     I   VL E + +F
+Sbjct  3    LNGTEKSAILLMSIGADQASEVLKHLTPFEVQELVASMVNINQFSNTILNTVLSECYDLF  62
+
+Query  70   -QSNQYINTGGLEYARELLTRTLGSEEAKKVMDKL  103
+             + N  I      Y  ++LT+TLG ++ + +++++
+Sbjct  63   SKKNNLICNNDENYISDVLTKTLGEKQGRILLNEV  97
+
+
+> sp|Q51464|FLIG_PSEAE Flagellar motor switch protein FliG OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 
+/ JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 
+GN=fliG PE=3 SV=2
+Length=338
+
+ Score = 47.0 bits (110),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 23/95 (24%), Positives = 49/95 (52%), Gaps = 0/95 (0%)
+
+Query  9    ELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVLEEFFAI  68
+            +L+  +K AILL+ +GE    ++LRH+    +  +   +  +    ++    V+ EF  +
+Sbjct  9    KLTKVDKAAILLLSLGETDAAQVLRHMGPKEVQRVGVAMASMRNVHREQVEQVMGEFVEV  68
+
+Query  69   FQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKL  103
+                  +  G   Y R++LT+ LG ++A  ++D++
+Sbjct  69   VGDQTSLGVGADGYIRKMLTQALGEDKANNLIDRI  103
+
+
+> sp|P0A1J9|FLIG_SALTY Flagellar motor switch protein FliG OS=Salmonella 
+typhimurium (strain LT2 / SGSC1412 / ATCC 700720) 
+OX=99287 GN=fliG PE=1 SV=1
+Length=331
+
+ Score = 44.3 bits (103),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 26/97 (27%), Positives = 46/97 (47%), Gaps = 0/97 (0%)
+
+Query  7    LDELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVLEEFF  66
+            +  LS ++K  ILL+ +GED   E+ +HL    +  +S  +  +     +    VL EF 
+Sbjct  1    MSNLSGTDKSVILLMTIGEDRAAEVFKHLSTREVQALSTAMANVRQISNKQLTDVLSEFE  60
+
+Query  67   AIFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKL  103
+               +    +N    EY R +L + LG E A  +++ +
+Sbjct  61   QEAEQFAALNINANEYLRSVLVKALGEERASSLLEDI  97
+
+
+> sp|P0A1K0|FLIG_SALTI Flagellar motor switch protein FliG OS=Salmonella 
+typhi OX=90370 GN=fliG PE=3 SV=1
+Length=331
+
+ Score = 44.3 bits (103),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 26/97 (27%), Positives = 46/97 (47%), Gaps = 0/97 (0%)
+
+Query  7    LDELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVLEEFF  66
+            +  LS ++K  ILL+ +GED   E+ +HL    +  +S  +  +     +    VL EF 
+Sbjct  1    MSNLSGTDKSVILLMTIGEDRAAEVFKHLSTREVQALSTAMANVRQISNKQLTDVLSEFE  60
+
+Query  67   AIFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKL  103
+               +    +N    EY R +L + LG E A  +++ +
+Sbjct  61   QEAEQFAALNINANEYLRSVLVKALGEERASSLLEDI  97
+
+
+> sp|Q9X4Q9|FLIG_VIBCH Flagellar motor switch protein FliG OS=Vibrio 
+cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba 
+N16961) OX=243277 GN=fliG PE=3 SV=1
+Length=348
+
+ Score = 40.8 bits (94),  Expect = 6e-04, Method: Compositional matrix adjust.
+ Identities = 24/97 (25%), Positives = 46/97 (47%), Gaps = 0/97 (0%)
+
+Query  7    LDELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVLEEFF  66
+            + E+   EK AILL+ + E+    I+RHL+   +  +   + +     +   +AV   F 
+Sbjct  18   ISEIPGEEKAAILLLSLNEEDAAGIIRHLEPKQVQRVGSAMARAKDLSQTKVSAVHRAFL  77
+
+Query  67   AIFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKL  103
+               Q    I  G  ++ R  L   LG+++A  ++D++
+Sbjct  78   EDIQKYTNIGMGSEDFLRNALVAALGADKANNLVDQI  114
+
+
+> sp|P95715|FLIG_SHIBO Flagellar motor switch protein FliG (Fragment) 
+OS=Shigella boydii OX=621 GN=fliG PE=3 SV=1
+Length=242
+
+ Score = 40.0 bits (92),  Expect = 8e-04, Method: Compositional matrix adjust.
+ Identities = 24/97 (25%), Positives = 46/97 (47%), Gaps = 0/97 (0%)
+
+Query  7    LDELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVLEEFF  66
+            +  L+ ++K  ILL+ +GED   E+ +HL    +  +S  +  +     +    VL EF 
+Sbjct  1    MSNLTGTDKSVILLMTIGEDRAAEVFKHLSQREVQTLSAAMANVTQISNKQLTDVLAEFE  60
+
+Query  67   AIFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKL  103
+               +    +N    +Y R +L + LG E A  +++ +
+Sbjct  61   QEAEQFAALNINANDYLRSVLVKALGEERAASLLEDI  97
+
+
+> sp|P0ABZ1|FLIG_ECOLI Flagellar motor switch protein FliG OS=Escherichia 
+coli (strain K12) OX=83333 GN=fliG PE=1 SV=1
+Length=331
+
+ Score = 40.0 bits (92),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 24/97 (25%), Positives = 46/97 (47%), Gaps = 0/97 (0%)
+
+Query  7    LDELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVLEEFF  66
+            +  L+ ++K  ILL+ +GED   E+ +HL    +  +S  +  +     +    VL EF 
+Sbjct  1    MSNLTGTDKSVILLMTIGEDRAAEVFKHLSQREVQTLSAAMANVTQISNKQLTDVLAEFE  60
+
+Query  67   AIFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKL  103
+               +    +N    +Y R +L + LG E A  +++ +
+Sbjct  61   QEAEQFAALNINANDYLRSVLVKALGEERAASLLEDI  97
+
+
+> sp|P0ABZ2|FLIG_ECOL6 Flagellar motor switch protein FliG OS=Escherichia 
+coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) OX=199310 
+GN=fliG PE=3 SV=1
+Length=331
+
+ Score = 40.0 bits (92),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 24/97 (25%), Positives = 46/97 (47%), Gaps = 0/97 (0%)
+
+Query  7    LDELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVLEEFF  66
+            +  L+ ++K  ILL+ +GED   E+ +HL    +  +S  +  +     +    VL EF 
+Sbjct  1    MSNLTGTDKSVILLMTIGEDRAAEVFKHLSQREVQTLSAAMANVTQISNKQLTDVLAEFE  60
+
+Query  67   AIFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKL  103
+               +    +N    +Y R +L + LG E A  +++ +
+Sbjct  61   QEAEQFAALNINANDYLRSVLVKALGEERAASLLEDI  97
+
+
+> sp|P0ABZ3|FLIG_ECO57 Flagellar motor switch protein FliG OS=Escherichia 
+coli O157:H7 OX=83334 GN=fliG PE=3 SV=1
+Length=331
+
+ Score = 40.0 bits (92),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 24/97 (25%), Positives = 46/97 (47%), Gaps = 0/97 (0%)
+
+Query  7    LDELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVLEEFF  66
+            +  L+ ++K  ILL+ +GED   E+ +HL    +  +S  +  +     +    VL EF 
+Sbjct  1    MSNLTGTDKSVILLMTIGEDRAAEVFKHLSQREVQTLSAAMANVTQISNKQLTDVLAEFE  60
+
+Query  67   AIFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKL  103
+               +    +N    +Y R +L + LG E A  +++ +
+Sbjct  61   QEAEQFAALNINANDYLRSVLVKALGEERAASLLEDI  97
+
+
+> sp|P57176|FLIG_BUCAI Flagellar motor switch protein FliG OS=Buchnera 
+aphidicola subsp. Acyrthosiphon pisum (strain APS) OX=107806 
+GN=fliG PE=3 SV=1
+Length=331
+
+ Score = 38.5 bits (88),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 23/81 (28%), Positives = 43/81 (53%), Gaps = 1/81 (1%)
+
+Query  13  SEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQ-IGAAVLEEFFAIFQS  71
+           +EK A+LL+ +G D  GEIL+HL    + E+   +V +     Q +   +L+ +    ++
+Sbjct  6   TEKSALLLMAIGSDQAGEILKHLTPFEVQELITAMVNIKRVSAQKLNEILLQCYNLAIKN  65
+
+Query  72  NQYINTGGLEYARELLTRTLG  92
+           N +      +Y  ++LT+ LG
+Sbjct  66  NAFNCNNSDKYLIKMLTKALG  86
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.132    0.341    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4995060938
+Results from round 2
+
+
+Query= 5WUJ:B
+
+Length=105
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P95715|FLIG_SHIBO Flagellar motor switch protein FliG (Fragm...  109     1e-29
+  sp|Q51464|FLIG_PSEAE Flagellar motor switch protein FliG OS=Pse...  110     2e-29
+  sp|O25119|FLIG_HELPY Flagellar motor switch protein FliG OS=Hel...  110     2e-29
+  sp|P0A1J9|FLIG_SALTY Flagellar motor switch protein FliG OS=Sal...  109     6e-29
+  sp|P0A1K0|FLIG_SALTI Flagellar motor switch protein FliG OS=Sal...  109     6e-29
+  sp|P0ABZ1|FLIG_ECOLI Flagellar motor switch protein FliG OS=Esc...  108     1e-28
+  sp|P0ABZ2|FLIG_ECOL6 Flagellar motor switch protein FliG OS=Esc...  108     1e-28
+  sp|P0ABZ3|FLIG_ECO57 Flagellar motor switch protein FliG OS=Esc...  108     1e-28
+  sp|P23448|FLIG_BACSU Flagellar motor switch protein FliG OS=Bac...  108     1e-28
+  sp|Q9X4Q9|FLIG_VIBCH Flagellar motor switch protein FliG OS=Vib...  102     5e-26
+  sp|P52610|FLIG_BORBU Flagellar motor switch protein FliG OS=Bor...  100     2e-25
+  sp|Q9WY63|FLIG_THEMA Flagellar motor switch protein FliG OS=The...  99.3    3e-25
+  sp|Q8KA44|FLIG_BUCAP Flagellar motor switch protein FliG OS=Buc...  98.5    7e-25
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P57176|FLIG_BUCAI Flagellar motor switch protein FliG OS=Buc...  79.7    6e-18
+  sp|Q89AZ9|FLIG_BUCBP Flagellar motor switch protein FliG OS=Buc...  56.6    2e-09
+  sp|Q04955|FLIG_CAUVC Flagellar motor switch protein FliG OS=Cau...  53.5    2e-08
+  sp|Q89ES2|FLIG_BRADU Flagellar motor switch protein FliG OS=Bra...  52.3    5e-08
+  sp|O54244|FLIG_RHIME Flagellar motor switch protein FliG OS=Rhi...  45.8    1e-05
+  sp|Q44458|FLIG_AGRFC Flagellar motor switch protein FliG OS=Agr...  44.2    3e-05
+
+
+> sp|P95715|FLIG_SHIBO Flagellar motor switch protein FliG (Fragment) 
+OS=Shigella boydii OX=621 GN=fliG PE=3 SV=1
+Length=242
+
+ Score = 109 bits (272),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 24/97 (25%), Positives = 46/97 (47%), Gaps = 0/97 (0%)
+
+Query  7    LDELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVLEEFF  66
+            +  L+ ++K  ILL+ +GED   E+ +HL    +  +S  +  +     +    VL EF 
+Sbjct  1    MSNLTGTDKSVILLMTIGEDRAAEVFKHLSQREVQTLSAAMANVTQISNKQLTDVLAEFE  60
+
+Query  67   AIFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKL  103
+               +    +N    +Y R +L + LG E A  +++ +
+Sbjct  61   QEAEQFAALNINANDYLRSVLVKALGEERAASLLEDI  97
+
+
+> sp|Q51464|FLIG_PSEAE Flagellar motor switch protein FliG OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 
+/ JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 
+GN=fliG PE=3 SV=2
+Length=338
+
+ Score = 110 bits (276),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 23/101 (23%), Positives = 50/101 (50%), Gaps = 0/101 (0%)
+
+Query  3    QKAQLDELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVL  62
+            +     +L+  +K AILL+ +GE    ++LRH+    +  +   +  +    ++    V+
+Sbjct  3    ENRLAAKLTKVDKAAILLLSLGETDAAQVLRHMGPKEVQRVGVAMASMRNVHREQVEQVM  62
+
+Query  63   EEFFAIFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKL  103
+             EF  +      +  G   Y R++LT+ LG ++A  ++D++
+Sbjct  63   GEFVEVVGDQTSLGVGADGYIRKMLTQALGEDKANNLIDRI  103
+
+
+> sp|O25119|FLIG_HELPY Flagellar motor switch protein FliG OS=Helicobacter 
+pylori (strain ATCC 700392 / 26695) OX=85962 GN=fliG 
+PE=1 SV=1
+Length=343
+
+ Score = 110 bits (276),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 105/105 (100%), Positives = 105/105 (100%), Gaps = 0/105 (0%)
+
+Query  1    PKQKAQLDELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAA  60
+            PKQKAQLDELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAA
+Sbjct  7    PKQKAQLDELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAA  66
+
+Query  61   VLEEFFAIFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKLTK  105
+            VLEEFFAIFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKLTK
+Sbjct  67   VLEEFFAIFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKLTK  111
+
+
+> sp|P0A1J9|FLIG_SALTY Flagellar motor switch protein FliG OS=Salmonella 
+typhimurium (strain LT2 / SGSC1412 / ATCC 700720) 
+OX=99287 GN=fliG PE=1 SV=1
+Length=331
+
+ Score = 109 bits (272),  Expect = 6e-29, Method: Composition-based stats.
+ Identities = 26/97 (27%), Positives = 46/97 (47%), Gaps = 0/97 (0%)
+
+Query  7    LDELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVLEEFF  66
+            +  LS ++K  ILL+ +GED   E+ +HL    +  +S  +  +     +    VL EF 
+Sbjct  1    MSNLSGTDKSVILLMTIGEDRAAEVFKHLSTREVQALSTAMANVRQISNKQLTDVLSEFE  60
+
+Query  67   AIFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKL  103
+               +    +N    EY R +L + LG E A  +++ +
+Sbjct  61   QEAEQFAALNINANEYLRSVLVKALGEERASSLLEDI  97
+
+
+> sp|P0A1K0|FLIG_SALTI Flagellar motor switch protein FliG OS=Salmonella 
+typhi OX=90370 GN=fliG PE=3 SV=1
+Length=331
+
+ Score = 109 bits (272),  Expect = 6e-29, Method: Composition-based stats.
+ Identities = 26/97 (27%), Positives = 46/97 (47%), Gaps = 0/97 (0%)
+
+Query  7    LDELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVLEEFF  66
+            +  LS ++K  ILL+ +GED   E+ +HL    +  +S  +  +     +    VL EF 
+Sbjct  1    MSNLSGTDKSVILLMTIGEDRAAEVFKHLSTREVQALSTAMANVRQISNKQLTDVLSEFE  60
+
+Query  67   AIFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKL  103
+               +    +N    EY R +L + LG E A  +++ +
+Sbjct  61   QEAEQFAALNINANEYLRSVLVKALGEERASSLLEDI  97
+
+
+> sp|P0ABZ1|FLIG_ECOLI Flagellar motor switch protein FliG OS=Escherichia 
+coli (strain K12) OX=83333 GN=fliG PE=1 SV=1
+Length=331
+
+ Score = 108 bits (270),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 24/97 (25%), Positives = 46/97 (47%), Gaps = 0/97 (0%)
+
+Query  7    LDELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVLEEFF  66
+            +  L+ ++K  ILL+ +GED   E+ +HL    +  +S  +  +     +    VL EF 
+Sbjct  1    MSNLTGTDKSVILLMTIGEDRAAEVFKHLSQREVQTLSAAMANVTQISNKQLTDVLAEFE  60
+
+Query  67   AIFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKL  103
+               +    +N    +Y R +L + LG E A  +++ +
+Sbjct  61   QEAEQFAALNINANDYLRSVLVKALGEERAASLLEDI  97
+
+
+> sp|P0ABZ2|FLIG_ECOL6 Flagellar motor switch protein FliG OS=Escherichia 
+coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) OX=199310 
+GN=fliG PE=3 SV=1
+Length=331
+
+ Score = 108 bits (270),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 24/97 (25%), Positives = 46/97 (47%), Gaps = 0/97 (0%)
+
+Query  7    LDELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVLEEFF  66
+            +  L+ ++K  ILL+ +GED   E+ +HL    +  +S  +  +     +    VL EF 
+Sbjct  1    MSNLTGTDKSVILLMTIGEDRAAEVFKHLSQREVQTLSAAMANVTQISNKQLTDVLAEFE  60
+
+Query  67   AIFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKL  103
+               +    +N    +Y R +L + LG E A  +++ +
+Sbjct  61   QEAEQFAALNINANDYLRSVLVKALGEERAASLLEDI  97
+
+
+> sp|P0ABZ3|FLIG_ECO57 Flagellar motor switch protein FliG OS=Escherichia 
+coli O157:H7 OX=83334 GN=fliG PE=3 SV=1
+Length=331
+
+ Score = 108 bits (270),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 24/97 (25%), Positives = 46/97 (47%), Gaps = 0/97 (0%)
+
+Query  7    LDELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVLEEFF  66
+            +  L+ ++K  ILL+ +GED   E+ +HL    +  +S  +  +     +    VL EF 
+Sbjct  1    MSNLTGTDKSVILLMTIGEDRAAEVFKHLSQREVQTLSAAMANVTQISNKQLTDVLAEFE  60
+
+Query  67   AIFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKL  103
+               +    +N    +Y R +L + LG E A  +++ +
+Sbjct  61   QEAEQFAALNINANDYLRSVLVKALGEERAASLLEDI  97
+
+
+> sp|P23448|FLIG_BACSU Flagellar motor switch protein FliG OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=fliG PE=3 SV=1
+Length=338
+
+ Score = 108 bits (270),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 33/97 (34%), Positives = 60/97 (62%), Gaps = 0/97 (0%)
+
+Query  8    DELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVLEEFFA  67
+            D+L+  +K AIL+I +G D +  + +HL  + I  ++ +I  +   D Q    ++EEF  
+Sbjct  7    DKLTGKQKAAILMISLGLDVSASVYKHLTDEEIERLTLEISGVRSVDHQKKDEIIEEFHN  66
+
+Query  68   IFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKLT  104
+            I  +  YI+ GGL YAR++L + LG ++A+ ++++LT
+Sbjct  67   IAIAQDYISQGGLSYARQVLEKALGEDKAENILNRLT  103
+
+
+> sp|Q9X4Q9|FLIG_VIBCH Flagellar motor switch protein FliG OS=Vibrio 
+cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba 
+N16961) OX=243277 GN=fliG PE=3 SV=1
+Length=348
+
+ Score = 102 bits (253),  Expect = 5e-26, Method: Composition-based stats.
+ Identities = 24/97 (25%), Positives = 46/97 (47%), Gaps = 0/97 (0%)
+
+Query  7    LDELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVLEEFF  66
+            + E+   EK AILL+ + E+    I+RHL+   +  +   + +     +   +AV   F 
+Sbjct  18   ISEIPGEEKAAILLLSLNEEDAAGIIRHLEPKQVQRVGSAMARAKDLSQTKVSAVHRAFL  77
+
+Query  67   AIFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKL  103
+               Q    I  G  ++ R  L   LG+++A  ++D++
+Sbjct  78   EDIQKYTNIGMGSEDFLRNALVAALGADKANNLVDQI  114
+
+
+> sp|P52610|FLIG_BORBU Flagellar motor switch protein FliG OS=Borrelia 
+burgdorferi (strain ATCC 35210 / B31 / CIP 102532 / 
+DSM 4680) OX=224326 GN=fliG PE=3 SV=1
+Length=344
+
+ Score = 100 bits (248),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 32/104 (31%), Positives = 64/104 (62%), Gaps = 2/104 (2%)
+
+Query  2    KQKAQLD--ELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGA  59
+            K+K  LD   L+  +K AILL+ +G + + ++ ++L  + I  ++ +I +L     ++  
+Sbjct  5    KEKEILDVSALTGKQKAAILLVSIGSEISSKVFKYLSQEEIESLTFEIAKLETITSELKD  64
+
+Query  60   AVLEEFFAIFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKL  103
+             VL EF  +  + ++I  GG++YARELL ++LG+++A  +++ L
+Sbjct  65   NVLLEFKELMMAQEFIQKGGIDYARELLEKSLGTQKAVDIINNL  108
+
+
+> sp|Q9WY63|FLIG_THEMA Flagellar motor switch protein FliG OS=Thermotoga 
+maritima (strain ATCC 43589 / MSB8 / DSM 3109 / JCM 
+10099) OX=243274 GN=fliG PE=1 SV=1
+Length=335
+
+ Score = 99.3 bits (246),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 27/96 (28%), Positives = 61/96 (64%), Gaps = 0/96 (0%)
+
+Query  9    ELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVLEEFFAI  68
+            ++    K A+LL+ +G +   ++++HLD +++ ++  +I  +     +    VLEEF ++
+Sbjct  5    KIDGRRKAAVLLVALGPEKAAQVMKHLDEETVEQLVVEIANIGRVTPEEKKQVLEEFLSL  64
+
+Query  69   FQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKLT  104
+             ++ + I+ GG+EYA+++L +  G E A+K++++LT
+Sbjct  65   AKAKEMISEGGIEYAKKVLEKAFGPERARKIIERLT  100
+
+
+> sp|Q8KA44|FLIG_BUCAP Flagellar motor switch protein FliG OS=Buchnera 
+aphidicola subsp. Schizaphis graminum (strain Sg) OX=198804 
+GN=fliG PE=3 SV=1
+Length=331
+
+ Score = 98.5 bits (244),  Expect = 7e-25, Method: Composition-based stats.
+ Identities = 29/95 (31%), Positives = 53/95 (56%), Gaps = 1/95 (1%)
+
+Query  10   LSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVLEEFFAIF  69
+            L+ +EK AILL+ +G D   E+L+HL    + E+   +V +N     I   VL E + +F
+Sbjct  3    LNGTEKSAILLMSIGADQASEVLKHLTPFEVQELVASMVNINQFSNTILNTVLSECYDLF  62
+
+Query  70   -QSNQYINTGGLEYARELLTRTLGSEEAKKVMDKL  103
+             + N  I      Y  ++LT+TLG ++ + +++++
+Sbjct  63   SKKNNLICNNDENYISDVLTKTLGEKQGRILLNEV  97
+
+
+> sp|P57176|FLIG_BUCAI Flagellar motor switch protein FliG OS=Buchnera 
+aphidicola subsp. Acyrthosiphon pisum (strain APS) OX=107806 
+GN=fliG PE=3 SV=1
+Length=331
+
+ Score = 79.7 bits (195),  Expect = 6e-18, Method: Composition-based stats.
+ Identities = 23/94 (24%), Positives = 47/94 (50%), Gaps = 1/94 (1%)
+
+Query  10   LSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVLEEFFAIF  69
+            ++ +EK A+LL+ +G D  GEIL+HL    + E+   +V +     Q    +L + + + 
+Sbjct  3    VNGTEKSALLLMAIGSDQAGEILKHLTPFEVQELITAMVNIKRVSAQKLNEILLQCYNLA  62
+
+Query  70   QSNQYI-NTGGLEYARELLTRTLGSEEAKKVMDK  102
+              N         +Y  ++LT+ LG ++   ++ +
+Sbjct  63   IKNNAFNCNNSDKYLIKMLTKALGEKKGTSLLKE  96
+
+
+> sp|Q89AZ9|FLIG_BUCBP Flagellar motor switch protein FliG OS=Buchnera 
+aphidicola subsp. Baizongia pistaciae (strain Bp) OX=224915 
+GN=fliG PE=3 SV=1
+Length=320
+
+ Score = 56.6 bits (135),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 29/96 (30%), Positives = 44/96 (46%), Gaps = 2/96 (2%)
+
+Query  9    ELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVLEEFFAI  68
+             L+  +K A+LL  VG D   EIL+ L I  I  I+K +  ++         VL EF   
+Sbjct  2    NLNGEQKSAVLLALVGIDKAIEILKELSIQEIENIAKCMSYMDVISSITADLVLSEFCNE  61
+
+Query  69   FQ--SNQYINTGGLEYARELLTRTLGSEEAKKVMDK  102
+             +   +Q I+     +   LL + LG   A  ++DK
+Sbjct  62   VRINKDQNISFINNNFIISLLKKVLGEHHAVLLLDK  97
+
+
+> sp|Q04955|FLIG_CAUVC Flagellar motor switch protein FliG OS=Caulobacter 
+vibrioides (strain ATCC 19089 / CB15) OX=190650 GN=fliG 
+PE=3 SV=1
+Length=340
+
+ Score = 53.5 bits (127),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 28/97 (29%), Positives = 47/97 (48%), Gaps = 2/97 (2%)
+
+Query  7    LDELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVLEEFF  66
+            +  LS  EK AI+L+ +GED T  I   LD + I E+S+ +  L      +   +L EF 
+Sbjct  10   VKNLSGPEKAAIVLLALGEDHT-RIWEALDDEEIKEVSQAMAGLGTVSASVVEDLLVEFV  68
+
+Query  67   AIFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKL  103
+            +   S   I  G  E  + LL   +  ++   +M+++
+Sbjct  69   SGMSSTGAI-MGSYEQTQRLLASFMPQDKVDALMEEI  104
+
+
+> sp|Q89ES2|FLIG_BRADU Flagellar motor switch protein FliG OS=Bradyrhizobium 
+diazoefficiens (strain JCM 10833 / IAM 13628 / 
+NBRC 14792 / USDA 110) OX=224911 GN=fliG PE=3 SV=2
+Length=329
+
+ Score = 52.3 bits (124),  Expect = 5e-08, Method: Composition-based stats.
+ Identities = 22/94 (23%), Positives = 46/94 (49%), Gaps = 1/94 (1%)
+
+Query  10   LSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVLEEFFAIF  69
+            ++  ++ AIL++ +GE   G+I   LD D + ++S ++  L   +      +L EF +  
+Sbjct  1    MAGPKRAAILMLALGEQYGGKIWSMLDDDEVRQLSLEMSTLGTVEVDTVEDMLLEFVSRM  60
+
+Query  70   QSNQYINTGGLEYARELLTRTLGSEEAKKVMDKL  103
+             ++  +  G  +    LL + L  E    +MD++
+Sbjct  61   SASGAL-MGNFDATERLLQQYLPPERVNGIMDEI  93
+
+
+> sp|O54244|FLIG_RHIME Flagellar motor switch protein FliG OS=Rhizobium 
+meliloti (strain 1021) OX=266834 GN=fliG PE=3 SV=2
+Length=345
+
+ Score = 45.8 bits (107),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 19/101 (19%), Positives = 39/101 (39%), Gaps = 1/101 (1%)
+
+Query  2    KQKAQLDELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAV  61
+            + +A    LS +EK A +L+ +G+   G++L+      +  I      L         A+
+Sbjct  10   QAQALAQPLSQTEKAAAVLLAMGKSIAGKLLKFFTQSELQAIIAAAQSLRAVPPHELEAL  69
+
+Query  62   LEEFFAIFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDK  102
+            + EF  +F     +          +L   L  +E   ++ +
+Sbjct  70   VNEFEDLFTEGAGLMDNAKA-MESILEEGLTPDEVDGLLGR  109
+
+
+> sp|Q44458|FLIG_AGRFC Flagellar motor switch protein FliG OS=Agrobacterium 
+fabrum (strain C58 / ATCC 33970) OX=176299 GN=fliG 
+PE=3 SV=2
+Length=347
+
+ Score = 44.2 bits (103),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 18/93 (19%), Positives = 36/93 (39%), Gaps = 1/93 (1%)
+
+Query  10   LSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVLEEFFAIF  69
+            LS ++K A +L+ +G+   G++L+      +  I      L        A ++ EF  +F
+Sbjct  16   LSQADKAAAVLLAMGKGVAGKLLKFFTQHELQMIISSAQTLRVIPPDELAQIVAEFEDLF  75
+
+Query  70   QSNQYINTGGLEYARELLTRTLGSEEAKKVMDK  102
+                 +          +L   L  EE   ++ +
+Sbjct  76   TEGTGLMDNAKA-IESILEEGLTPEEVDSLLGR  107
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.137    0.315    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0419    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4995060938
+Results from round 3
+
+
+Query= 5WUJ:B
+
+Length=105
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q51464|FLIG_PSEAE Flagellar motor switch protein FliG OS=Pse...  110     4e-29
+  sp|P95715|FLIG_SHIBO Flagellar motor switch protein FliG (Fragm...  104     7e-28
+  sp|P0A1J9|FLIG_SALTY Flagellar motor switch protein FliG OS=Sal...  105     2e-27
+  sp|P0A1K0|FLIG_SALTI Flagellar motor switch protein FliG OS=Sal...  105     2e-27
+  sp|P0ABZ1|FLIG_ECOLI Flagellar motor switch protein FliG OS=Esc...  103     6e-27
+  sp|P0ABZ2|FLIG_ECOL6 Flagellar motor switch protein FliG OS=Esc...  103     6e-27
+  sp|P0ABZ3|FLIG_ECO57 Flagellar motor switch protein FliG OS=Esc...  103     6e-27
+  sp|P23448|FLIG_BACSU Flagellar motor switch protein FliG OS=Bac...  103     2e-26
+  sp|O25119|FLIG_HELPY Flagellar motor switch protein FliG OS=Hel...  102     2e-26
+  sp|Q8KA44|FLIG_BUCAP Flagellar motor switch protein FliG OS=Buc...  97.0    3e-24
+  sp|Q9WY63|FLIG_THEMA Flagellar motor switch protein FliG OS=The...  97.0    3e-24
+  sp|Q89ES2|FLIG_BRADU Flagellar motor switch protein FliG OS=Bra...  93.5    4e-23
+  sp|Q9X4Q9|FLIG_VIBCH Flagellar motor switch protein FliG OS=Vib...  93.5    5e-23
+  sp|P57176|FLIG_BUCAI Flagellar motor switch protein FliG OS=Buc...  92.4    2e-22
+  sp|P52610|FLIG_BORBU Flagellar motor switch protein FliG OS=Bor...  92.0    2e-22
+  sp|O54244|FLIG_RHIME Flagellar motor switch protein FliG OS=Rhi...  90.9    6e-22
+  sp|Q04955|FLIG_CAUVC Flagellar motor switch protein FliG OS=Cau...  90.5    7e-22
+  sp|Q89AZ9|FLIG_BUCBP Flagellar motor switch protein FliG OS=Buc...  85.5    4e-20
+  sp|Q44458|FLIG_AGRFC Flagellar motor switch protein FliG OS=Agr...  84.7    1e-19
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q51464|FLIG_PSEAE Flagellar motor switch protein FliG OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 
+/ JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 
+GN=fliG PE=3 SV=2
+Length=338
+
+ Score = 110 bits (274),  Expect = 4e-29, Method: Composition-based stats.
+ Identities = 23/101 (23%), Positives = 50/101 (50%), Gaps = 0/101 (0%)
+
+Query  3    QKAQLDELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVL  62
+            +     +L+  +K AILL+ +GE    ++LRH+    +  +   +  +    ++    V+
+Sbjct  3    ENRLAAKLTKVDKAAILLLSLGETDAAQVLRHMGPKEVQRVGVAMASMRNVHREQVEQVM  62
+
+Query  63   EEFFAIFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKL  103
+             EF  +      +  G   Y R++LT+ LG ++A  ++D++
+Sbjct  63   GEFVEVVGDQTSLGVGADGYIRKMLTQALGEDKANNLIDRI  103
+
+
+> sp|P95715|FLIG_SHIBO Flagellar motor switch protein FliG (Fragment) 
+OS=Shigella boydii OX=621 GN=fliG PE=3 SV=1
+Length=242
+
+ Score = 104 bits (259),  Expect = 7e-28, Method: Composition-based stats.
+ Identities = 24/97 (25%), Positives = 46/97 (47%), Gaps = 0/97 (0%)
+
+Query  7    LDELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVLEEFF  66
+            +  L+ ++K  ILL+ +GED   E+ +HL    +  +S  +  +     +    VL EF 
+Sbjct  1    MSNLTGTDKSVILLMTIGEDRAAEVFKHLSQREVQTLSAAMANVTQISNKQLTDVLAEFE  60
+
+Query  67   AIFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKL  103
+               +    +N    +Y R +L + LG E A  +++ +
+Sbjct  61   QEAEQFAALNINANDYLRSVLVKALGEERAASLLEDI  97
+
+
+> sp|P0A1J9|FLIG_SALTY Flagellar motor switch protein FliG OS=Salmonella 
+typhimurium (strain LT2 / SGSC1412 / ATCC 700720) 
+OX=99287 GN=fliG PE=1 SV=1
+Length=331
+
+ Score = 105 bits (262),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 26/97 (27%), Positives = 46/97 (47%), Gaps = 0/97 (0%)
+
+Query  7    LDELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVLEEFF  66
+            +  LS ++K  ILL+ +GED   E+ +HL    +  +S  +  +     +    VL EF 
+Sbjct  1    MSNLSGTDKSVILLMTIGEDRAAEVFKHLSTREVQALSTAMANVRQISNKQLTDVLSEFE  60
+
+Query  67   AIFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKL  103
+               +    +N    EY R +L + LG E A  +++ +
+Sbjct  61   QEAEQFAALNINANEYLRSVLVKALGEERASSLLEDI  97
+
+
+> sp|P0A1K0|FLIG_SALTI Flagellar motor switch protein FliG OS=Salmonella 
+typhi OX=90370 GN=fliG PE=3 SV=1
+Length=331
+
+ Score = 105 bits (262),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 26/97 (27%), Positives = 46/97 (47%), Gaps = 0/97 (0%)
+
+Query  7    LDELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVLEEFF  66
+            +  LS ++K  ILL+ +GED   E+ +HL    +  +S  +  +     +    VL EF 
+Sbjct  1    MSNLSGTDKSVILLMTIGEDRAAEVFKHLSTREVQALSTAMANVRQISNKQLTDVLSEFE  60
+
+Query  67   AIFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKL  103
+               +    +N    EY R +L + LG E A  +++ +
+Sbjct  61   QEAEQFAALNINANEYLRSVLVKALGEERASSLLEDI  97
+
+
+> sp|P0ABZ1|FLIG_ECOLI Flagellar motor switch protein FliG OS=Escherichia 
+coli (strain K12) OX=83333 GN=fliG PE=1 SV=1
+Length=331
+
+ Score = 103 bits (258),  Expect = 6e-27, Method: Composition-based stats.
+ Identities = 24/97 (25%), Positives = 46/97 (47%), Gaps = 0/97 (0%)
+
+Query  7    LDELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVLEEFF  66
+            +  L+ ++K  ILL+ +GED   E+ +HL    +  +S  +  +     +    VL EF 
+Sbjct  1    MSNLTGTDKSVILLMTIGEDRAAEVFKHLSQREVQTLSAAMANVTQISNKQLTDVLAEFE  60
+
+Query  67   AIFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKL  103
+               +    +N    +Y R +L + LG E A  +++ +
+Sbjct  61   QEAEQFAALNINANDYLRSVLVKALGEERAASLLEDI  97
+
+
+> sp|P0ABZ2|FLIG_ECOL6 Flagellar motor switch protein FliG OS=Escherichia 
+coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) OX=199310 
+GN=fliG PE=3 SV=1
+Length=331
+
+ Score = 103 bits (258),  Expect = 6e-27, Method: Composition-based stats.
+ Identities = 24/97 (25%), Positives = 46/97 (47%), Gaps = 0/97 (0%)
+
+Query  7    LDELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVLEEFF  66
+            +  L+ ++K  ILL+ +GED   E+ +HL    +  +S  +  +     +    VL EF 
+Sbjct  1    MSNLTGTDKSVILLMTIGEDRAAEVFKHLSQREVQTLSAAMANVTQISNKQLTDVLAEFE  60
+
+Query  67   AIFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKL  103
+               +    +N    +Y R +L + LG E A  +++ +
+Sbjct  61   QEAEQFAALNINANDYLRSVLVKALGEERAASLLEDI  97
+
+
+> sp|P0ABZ3|FLIG_ECO57 Flagellar motor switch protein FliG OS=Escherichia 
+coli O157:H7 OX=83334 GN=fliG PE=3 SV=1
+Length=331
+
+ Score = 103 bits (258),  Expect = 6e-27, Method: Composition-based stats.
+ Identities = 24/97 (25%), Positives = 46/97 (47%), Gaps = 0/97 (0%)
+
+Query  7    LDELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVLEEFF  66
+            +  L+ ++K  ILL+ +GED   E+ +HL    +  +S  +  +     +    VL EF 
+Sbjct  1    MSNLTGTDKSVILLMTIGEDRAAEVFKHLSQREVQTLSAAMANVTQISNKQLTDVLAEFE  60
+
+Query  67   AIFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKL  103
+               +    +N    +Y R +L + LG E A  +++ +
+Sbjct  61   QEAEQFAALNINANDYLRSVLVKALGEERAASLLEDI  97
+
+
+> sp|P23448|FLIG_BACSU Flagellar motor switch protein FliG OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=fliG PE=3 SV=1
+Length=338
+
+ Score = 103 bits (256),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 33/102 (32%), Positives = 61/102 (60%), Gaps = 0/102 (0%)
+
+Query  3    QKAQLDELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVL  62
+             +   D+L+  +K AIL+I +G D +  + +HL  + I  ++ +I  +   D Q    ++
+Sbjct  2    ARRDQDKLTGKQKAAILMISLGLDVSASVYKHLTDEEIERLTLEISGVRSVDHQKKDEII  61
+
+Query  63   EEFFAIFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKLT  104
+            EEF  I  +  YI+ GGL YAR++L + LG ++A+ ++++LT
+Sbjct  62   EEFHNIAIAQDYISQGGLSYARQVLEKALGEDKAENILNRLT  103
+
+
+> sp|O25119|FLIG_HELPY Flagellar motor switch protein FliG OS=Helicobacter 
+pylori (strain ATCC 700392 / 26695) OX=85962 GN=fliG 
+PE=1 SV=1
+Length=343
+
+ Score = 102 bits (255),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 105/105 (100%), Positives = 105/105 (100%), Gaps = 0/105 (0%)
+
+Query  1    PKQKAQLDELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAA  60
+            PKQKAQLDELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAA
+Sbjct  7    PKQKAQLDELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAA  66
+
+Query  61   VLEEFFAIFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKLTK  105
+            VLEEFFAIFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKLTK
+Sbjct  67   VLEEFFAIFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKLTK  111
+
+
+> sp|Q8KA44|FLIG_BUCAP Flagellar motor switch protein FliG OS=Buchnera 
+aphidicola subsp. Schizaphis graminum (strain Sg) OX=198804 
+GN=fliG PE=3 SV=1
+Length=331
+
+ Score = 97.0 bits (240),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 28/95 (29%), Positives = 51/95 (54%), Gaps = 1/95 (1%)
+
+Query  10   LSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVLEEFFAIF  69
+            L+ +EK AILL+ +G D   E+L+HL    + E+   +V +N     I   VL E + +F
+Sbjct  3    LNGTEKSAILLMSIGADQASEVLKHLTPFEVQELVASMVNINQFSNTILNTVLSECYDLF  62
+
+Query  70   QSNQY-INTGGLEYARELLTRTLGSEEAKKVMDKL  103
+                  I      Y  ++LT+TLG ++ + +++++
+Sbjct  63   SKKNNLICNNDENYISDVLTKTLGEKQGRILLNEV  97
+
+
+> sp|Q9WY63|FLIG_THEMA Flagellar motor switch protein FliG OS=Thermotoga 
+maritima (strain ATCC 43589 / MSB8 / DSM 3109 / JCM 
+10099) OX=243274 GN=fliG PE=1 SV=1
+Length=335
+
+ Score = 97.0 bits (240),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 27/97 (28%), Positives = 61/97 (63%), Gaps = 0/97 (0%)
+
+Query  8    DELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVLEEFFA  67
+             ++    K A+LL+ +G +   ++++HLD +++ ++  +I  +     +    VLEEF +
+Sbjct  4    KKIDGRRKAAVLLVALGPEKAAQVMKHLDEETVEQLVVEIANIGRVTPEEKKQVLEEFLS  63
+
+Query  68   IFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKLT  104
+            + ++ + I+ GG+EYA+++L +  G E A+K++++LT
+Sbjct  64   LAKAKEMISEGGIEYAKKVLEKAFGPERARKIIERLT  100
+
+
+> sp|Q89ES2|FLIG_BRADU Flagellar motor switch protein FliG OS=Bradyrhizobium 
+diazoefficiens (strain JCM 10833 / IAM 13628 / 
+NBRC 14792 / USDA 110) OX=224911 GN=fliG PE=3 SV=2
+Length=329
+
+ Score = 93.5 bits (231),  Expect = 4e-23, Method: Composition-based stats.
+ Identities = 22/94 (23%), Positives = 46/94 (49%), Gaps = 1/94 (1%)
+
+Query  10   LSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVLEEFFAIF  69
+            ++  ++ AIL++ +GE   G+I   LD D + ++S ++  L   +      +L EF +  
+Sbjct  1    MAGPKRAAILMLALGEQYGGKIWSMLDDDEVRQLSLEMSTLGTVEVDTVEDMLLEFVSRM  60
+
+Query  70   QSNQYINTGGLEYARELLTRTLGSEEAKKVMDKL  103
+             ++  +  G  +    LL + L  E    +MD++
+Sbjct  61   SASGAL-MGNFDATERLLQQYLPPERVNGIMDEI  93
+
+
+> sp|Q9X4Q9|FLIG_VIBCH Flagellar motor switch protein FliG OS=Vibrio 
+cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba 
+N16961) OX=243277 GN=fliG PE=3 SV=1
+Length=348
+
+ Score = 93.5 bits (231),  Expect = 5e-23, Method: Composition-based stats.
+ Identities = 24/97 (25%), Positives = 46/97 (47%), Gaps = 0/97 (0%)
+
+Query  7    LDELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVLEEFF  66
+            + E+   EK AILL+ + E+    I+RHL+   +  +   + +     +   +AV   F 
+Sbjct  18   ISEIPGEEKAAILLLSLNEEDAAGIIRHLEPKQVQRVGSAMARAKDLSQTKVSAVHRAFL  77
+
+Query  67   AIFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKL  103
+               Q    I  G  ++ R  L   LG+++A  ++D++
+Sbjct  78   EDIQKYTNIGMGSEDFLRNALVAALGADKANNLVDQI  114
+
+
+> sp|P57176|FLIG_BUCAI Flagellar motor switch protein FliG OS=Buchnera 
+aphidicola subsp. Acyrthosiphon pisum (strain APS) OX=107806 
+GN=fliG PE=3 SV=1
+Length=331
+
+ Score = 92.4 bits (228),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 23/94 (24%), Positives = 47/94 (50%), Gaps = 1/94 (1%)
+
+Query  10   LSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVLEEFFAIF  69
+            ++ +EK A+LL+ +G D  GEIL+HL    + E+   +V +     Q    +L + + + 
+Sbjct  3    VNGTEKSALLLMAIGSDQAGEILKHLTPFEVQELITAMVNIKRVSAQKLNEILLQCYNLA  62
+
+Query  70   QSNQYI-NTGGLEYARELLTRTLGSEEAKKVMDK  102
+              N         +Y  ++LT+ LG ++   ++ +
+Sbjct  63   IKNNAFNCNNSDKYLIKMLTKALGEKKGTSLLKE  96
+
+
+> sp|P52610|FLIG_BORBU Flagellar motor switch protein FliG OS=Borrelia 
+burgdorferi (strain ATCC 35210 / B31 / CIP 102532 / 
+DSM 4680) OX=224326 GN=fliG PE=3 SV=1
+Length=344
+
+ Score = 92.0 bits (227),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 32/104 (31%), Positives = 64/104 (62%), Gaps = 2/104 (2%)
+
+Query  2    KQKAQLD--ELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGA  59
+            K+K  LD   L+  +K AILL+ +G + + ++ ++L  + I  ++ +I +L     ++  
+Sbjct  5    KEKEILDVSALTGKQKAAILLVSIGSEISSKVFKYLSQEEIESLTFEIAKLETITSELKD  64
+
+Query  60   AVLEEFFAIFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKL  103
+             VL EF  +  + ++I  GG++YARELL ++LG+++A  +++ L
+Sbjct  65   NVLLEFKELMMAQEFIQKGGIDYARELLEKSLGTQKAVDIINNL  108
+
+
+> sp|O54244|FLIG_RHIME Flagellar motor switch protein FliG OS=Rhizobium 
+meliloti (strain 1021) OX=266834 GN=fliG PE=3 SV=2
+Length=345
+
+ Score = 90.9 bits (224),  Expect = 6e-22, Method: Composition-based stats.
+ Identities = 19/101 (19%), Positives = 39/101 (39%), Gaps = 1/101 (1%)
+
+Query  2    KQKAQLDELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAV  61
+            + +A    LS +EK A +L+ +G+   G++L+      +  I      L         A+
+Sbjct  10   QAQALAQPLSQTEKAAAVLLAMGKSIAGKLLKFFTQSELQAIIAAAQSLRAVPPHELEAL  69
+
+Query  62   LEEFFAIFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDK  102
+            + EF  +F     +          +L   L  +E   ++ +
+Sbjct  70   VNEFEDLFTEGAGLMDNAKA-MESILEEGLTPDEVDGLLGR  109
+
+
+> sp|Q04955|FLIG_CAUVC Flagellar motor switch protein FliG OS=Caulobacter 
+vibrioides (strain ATCC 19089 / CB15) OX=190650 GN=fliG 
+PE=3 SV=1
+Length=340
+
+ Score = 90.5 bits (223),  Expect = 7e-22, Method: Composition-based stats.
+ Identities = 28/97 (29%), Positives = 47/97 (48%), Gaps = 2/97 (2%)
+
+Query  7    LDELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVLEEFF  66
+            +  LS  EK AI+L+ +GED T  I   LD + I E+S+ +  L      +   +L EF 
+Sbjct  10   VKNLSGPEKAAIVLLALGEDHT-RIWEALDDEEIKEVSQAMAGLGTVSASVVEDLLVEFV  68
+
+Query  67   AIFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKL  103
+            +   S   I  G  E  + LL   +  ++   +M+++
+Sbjct  69   SGMSSTGAI-MGSYEQTQRLLASFMPQDKVDALMEEI  104
+
+
+> sp|Q89AZ9|FLIG_BUCBP Flagellar motor switch protein FliG OS=Buchnera 
+aphidicola subsp. Baizongia pistaciae (strain Bp) OX=224915 
+GN=fliG PE=3 SV=1
+Length=320
+
+ Score = 85.5 bits (210),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 29/96 (30%), Positives = 44/96 (46%), Gaps = 2/96 (2%)
+
+Query  9    ELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVLEEFFAI  68
+             L+  +K A+LL  VG D   EIL+ L I  I  I+K +  ++         VL EF   
+Sbjct  2    NLNGEQKSAVLLALVGIDKAIEILKELSIQEIENIAKCMSYMDVISSITADLVLSEFCNE  61
+
+Query  69   FQ--SNQYINTGGLEYARELLTRTLGSEEAKKVMDK  102
+             +   +Q I+     +   LL + LG   A  ++DK
+Sbjct  62   VRINKDQNISFINNNFIISLLKKVLGEHHAVLLLDK  97
+
+
+> sp|Q44458|FLIG_AGRFC Flagellar motor switch protein FliG OS=Agrobacterium 
+fabrum (strain C58 / ATCC 33970) OX=176299 GN=fliG 
+PE=3 SV=2
+Length=347
+
+ Score = 84.7 bits (208),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 18/95 (19%), Positives = 36/95 (38%), Gaps = 1/95 (1%)
+
+Query  8    DELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVLEEFFA  67
+              LS ++K A +L+ +G+   G++L+      +  I      L        A ++ EF  
+Sbjct  14   KPLSQADKAAAVLLAMGKGVAGKLLKFFTQHELQMIISSAQTLRVIPPDELAQIVAEFED  73
+
+Query  68   IFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDK  102
+            +F     +          +L   L  EE   ++ +
+Sbjct  74   LFTEGTGLMDNAKA-IESILEEGLTPEEVDSLLGR  107
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.139    0.306    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0427    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4995060938
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  1:45 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

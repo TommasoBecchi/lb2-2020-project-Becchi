@@ -1,0 +1,129 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 5D16:A
+
+Length=161
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P05845|TNSE_ECOLX Transposon Tn7 transposition protein TnsE ...  331     4e-112
+
+
+> sp|P05845|TNSE_ECOLX Transposon Tn7 transposition protein TnsE 
+OS=Escherichia coli OX=562 GN=tnsE PE=1 SV=1
+Length=538
+
+ Score = 331 bits (849),  Expect = 4e-112, Method: Compositional matrix adjust.
+ Identities = 159/161 (99%), Positives = 160/161 (99%), Gaps = 0/161 (0%)
+
+Query  1    DATNYNSIFANRFAAFDELLSILKTKFACRVLFEETLVLPKVGRSRLHLCKDGSPRVIKA  60
+            DATNYNSIFANRFAAFDELLSILKTKFACRVLFEETLVLPKVGRSRLHLCKDGSPRVIKA
+Sbjct  377  DATNYNSIFANRFAAFDELLSILKTKFACRVLFEETLVLPKVGRSRLHLCKDGSPRVIKA  436
+
+Query  61   VGVQRNGSEFVLLEVDVSDGVKMLSTKVLSGVDSETWRNDFEKIRRGVVKSSLNWPNSLF  120
+            VGVQRNGSEFVLLEVD SDGVKMLSTKVLSGVDSETWRNDFEKIRRGVVKSSLNWPNSLF
+Sbjct  437  VGVQRNGSEFVLLEVDASDGVKMLSTKVLSGVDSETWRNDFEKIRRGVVKSSLNWPNSLF  496
+
+Query  121  DQLYGQDGHRGVNHPKGLGELQVSRENMEGWAERVVREQFT  161
+            DQLYGQDGHRGVNHPKGLGELQVSRE+MEGWAERVVREQFT
+Sbjct  497  DQLYGQDGHRGVNHPKGLGELQVSREDMEGWAERVVREQFT  537
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.136    0.402    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7525269130
+Results from round 2
+
+
+Query= 5D16:A
+
+Length=161
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P05845|TNSE_ECOLX Transposon Tn7 transposition protein TnsE ...  333     1e-112
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|P05845|TNSE_ECOLX Transposon Tn7 transposition protein TnsE 
+OS=Escherichia coli OX=562 GN=tnsE PE=1 SV=1
+Length=538
+
+ Score = 333 bits (853),  Expect = 1e-112, Method: Composition-based stats.
+ Identities = 159/161 (99%), Positives = 160/161 (99%), Gaps = 0/161 (0%)
+
+Query  1    DATNYNSIFANRFAAFDELLSILKTKFACRVLFEETLVLPKVGRSRLHLCKDGSPRVIKA  60
+            DATNYNSIFANRFAAFDELLSILKTKFACRVLFEETLVLPKVGRSRLHLCKDGSPRVIKA
+Sbjct  377  DATNYNSIFANRFAAFDELLSILKTKFACRVLFEETLVLPKVGRSRLHLCKDGSPRVIKA  436
+
+Query  61   VGVQRNGSEFVLLEVDVSDGVKMLSTKVLSGVDSETWRNDFEKIRRGVVKSSLNWPNSLF  120
+            VGVQRNGSEFVLLEVD SDGVKMLSTKVLSGVDSETWRNDFEKIRRGVVKSSLNWPNSLF
+Sbjct  437  VGVQRNGSEFVLLEVDASDGVKMLSTKVLSGVDSETWRNDFEKIRRGVVKSSLNWPNSLF  496
+
+Query  121  DQLYGQDGHRGVNHPKGLGELQVSRENMEGWAERVVREQFT  161
+            DQLYGQDGHRGVNHPKGLGELQVSRE+MEGWAERVVREQFT
+Sbjct  497  DQLYGQDGHRGVNHPKGLGELQVSREDMEGWAERVVREQFT  537
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.145    0.451    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0443    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7525269130
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  1:45 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

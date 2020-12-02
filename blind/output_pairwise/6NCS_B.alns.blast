@@ -1,0 +1,3181 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 6NCS:B
+
+Length=285
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q58465|Y1065_METJA Uncharacterized protein MJ1065 OS=Methano...  220     5e-69
+  sp|Q0P8T1|NEUBH_CAMJE N,N'-diacetyllegionaminic acid synthase O...  187     2e-56
+  sp|Q5ZXH9|NEUBH_LEGPH N,N'-diacetyllegionaminic acid synthase O...  175     2e-51
+  sp|Q99J77|SIAS_MOUSE Sialic acid synthase OS=Mus musculus OX=10...  154     3e-43
+  sp|Q9NR45|SIAS_HUMAN Sialic acid synthase OS=Homo sapiens OX=96...  152     1e-42
+  sp|Q9VG74|SIAS_DROME Sialic acid synthase OS=Drosophila melanog...  138     4e-37
+  sp|P39625|SPSE_BACSU Spore coat polysaccharide biosynthesis pro...  126     8e-33
+  sp|Q939J8|PSEI_CAMJJ Pseudaminic acid synthase OS=Campylobacter...  113     5e-28
+  sp|Q0P8U0|PSEI_CAMJE Pseudaminic acid synthase OS=Campylobacter...  112     7e-28
+  sp|O24980|PSEI_HELPY Pseudaminic acid synthase OS=Helicobacter ...  111     3e-27
+  sp|Q05873|SYV_BACSU Valine--tRNA ligase OS=Bacillus subtilis (s...  42.4    0.004
+
+
+> sp|Q58465|Y1065_METJA Uncharacterized protein MJ1065 OS=Methanocaldococcus 
+jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 
+/ JCM 10045 / NBRC 100440) OX=243232 GN=MJ1065 PE=4 SV=1
+Length=337
+
+ Score = 220 bits (560),  Expect = 5e-69, Method: Compositional matrix adjust.
+ Identities = 117/282 (41%), Positives = 177/282 (63%), Gaps = 2/282 (1%)
+
+Query  6    QEITLGNIKIGGNNPVFIIAEAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFG  65
+            ++I +G+  +G   P FIIAE GLNH GD+++   ++ EA    A+AIKFQ+Y++E+   
+Sbjct  2    EKIKIGDRYVGKGEPTFIIAEGGLNHNGDIDIGKELVKEAKKCGADAIKFQSYHTEDFIS  61
+
+Query  66   ENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCD  125
+            +  E   L K  E  ++EF  LKE ++K  I+F +TP D+  +++L ++ V   KIAS D
+Sbjct  62   KKSEYYELFKSLELSEEEFYELKEYAEKIGIMFISTPLDLKYVDILNKMNVPAFKIASGD  121
+
+Query  126  ICNITLLEAAADSGLIVILSRGTASASEIETAVSIFKKKKS-PFILLHCVSSYPMNEIDA  184
+            +    LLE  A +G  VILS G +   EI  AV + +       ILLHC+SSYP    D 
+Sbjct  122  LTFYPLLEKVAKTGKPVILSTGMSDIGEIWEAVKVLENNGCRDIILLHCISSYPTPYEDV  181
+
+Query  185  NLSAIQTLKSKYEFPIGYSDHSKGIEIPLLAVASGAEIIEKHYTVDRTLQGIDWEISAEP  244
+            NL+AI+TLKS +  P+GYSDH+ GI  P+++VA GA++IEKH+T+D+ ++G D  +SA+P
+Sbjct  182  NLNAIKTLKSIFNIPVGYSDHTLGILAPVVSVALGADVIEKHFTLDKNMEGPDHALSADP  241
+
+Query  245  KELAKLVTETERIRKILGHGKLEPQASEQEEI-EYRNSLRRK  285
+            +E  ++V     + K+LG G+  P  SE++ I E R S+  K
+Sbjct  242  EEFKEMVNNIRLVEKMLGSGEKIPMPSERDVIVEARRSIVAK  283
+
+
+> sp|Q0P8T1|NEUBH_CAMJE N,N'-diacetyllegionaminic acid synthase 
+OS=Campylobacter jejuni subsp. jejuni serotype O:2 (strain 
+ATCC 700819 / NCTC 11168) OX=192222 GN=legI PE=1 SV=1
+Length=334
+
+ Score = 187 bits (476),  Expect = 2e-56, Method: Compositional matrix adjust.
+ Identities = 109/283 (39%), Positives = 168/283 (59%), Gaps = 18/283 (6%)
+
+Query  21   VFIIAEAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSE--------------ERFGE  66
+              IIAEAG+NH GDLNLA ++I+ AAD+ A+ +KFQ++ ++              +    
+Sbjct  4    TLIIAEAGVNHNGDLNLAKKLIEIAADSGADFVKFQSFKAKNCISTKAKKAPYQLKTTAN  63
+
+Query  67   NKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCDI  126
+            ++  + +V+  E   K    L   ++K NI F +TPFD+ ++++L E+G++I KI S +I
+Sbjct  64   DESQLQMVQKLELDLKAHKELILHAKKCNIAFLSTPFDLESVDLLNELGLKIFKIPSGEI  123
+
+Query  127  CNITLLEAAADSGLIVILSRGTASASEIETAVSIFKK---KKSPFILLHCVSSYPMNEID  183
+             N+  L+  A     +ILS G A+  EIE A+++  K   K+    LLHC + YP    +
+Sbjct  124  TNLPYLKKIAKLNKKIILSTGMANLGEIEEALNVLCKNGAKRQNITLLHCTTEYPAPFNE  183
+
+Query  184  ANLSAIQTLKSKYEFPIGYSDHSKGIEIPLLAVASGAEIIEKHYTVDRTLQGIDWEISAE  243
+             NL A+Q+LK  ++  +GYSDH++GI I L AVA GA +IEKH+T+D+ + G D + S E
+Sbjct  184  VNLKAMQSLKDAFKLDVGYSDHTRGIHISLAAVALGACVIEKHFTLDKNMSGPDHKASLE  243
+
+Query  244  PKELAKLVTETERIRKILGHGKLEPQASEQEEIE-YRNSLRRK  285
+            P+EL  L T+  +I+K +G G  +   SEQ+ I   R SL  K
+Sbjct  244  PQELKMLCTQIRQIQKAMGDGIKKASKSEQKNINIVRKSLVAK  286
+
+
+> sp|Q5ZXH9|NEUBH_LEGPH N,N'-diacetyllegionaminic acid synthase 
+OS=Legionella pneumophila subsp. pneumophila (strain Philadelphia 
+1 / ATCC 33152 / DSM 7513) OX=272624 GN=neuB PE=1 SV=1
+Length=356
+
+ Score = 175 bits (444),  Expect = 2e-51, Method: Compositional matrix adjust.
+ Identities = 104/298 (35%), Positives = 157/298 (53%), Gaps = 28/298 (9%)
+
+Query  12   NIKIGGNNP------VFIIAEAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFG  65
+            N KI G  P       FIIAEAG+NH GDL LA  ++  A ++ A+A+KFQ + ++    
+Sbjct  4    NRKINGIKPRGSSMTCFIIAEAGVNHNGDLQLAKELVYAAKESGADAVKFQTFKADTLVN  63
+
+Query  66   --------------ENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNML  111
+                          E+     ++K  E  +++  LL E +    I F +T FD  +++ L
+Sbjct  64   KTVEKAEYQKNNAPESSTQYEMLKALELSEEDHYLLSELANSLGIEFMSTGFDEQSIDFL  123
+
+Query  112  KEIGVEILKIASCDICNITLLEAAADSGLIVILSRGTASASEIETAVSIFKKK-----KS  166
+              +GV+ LKI S +I N+  L+  A   L +I+S G     E+  A+   K         
+Sbjct  124  ISLGVKRLKIPSGEITNVPYLQHCASKKLPLIISTGMCDLQEVRVAIDTVKPYYGNSLSD  183
+
+Query  167  PFILLHCVSSYPMNEIDANLSAIQTLKSKYEFPIGYSDHSKGIEIPLLAVASGAEIIEKH  226
+              +LLHC S+YP +  D NL A+QTL  +++ P+GYSDH+ GI +P LAV  GA +IEKH
+Sbjct  184  YLVLLHCTSNYPASYQDVNLKAMQTLADEFQLPVGYSDHTLGILVPTLAVGMGACVIEKH  243
+
+Query  227  YTVDRTLQGIDWEISAEPKELAKLVTETERIRKILGHGKLEPQASEQEEIEYRNSLRR  284
+            +T+D++L G D   S +P+E+  LV        +LG G+ +P      E+  R  +RR
+Sbjct  244  FTMDKSLPGPDHLASMDPEEMKNLVQSIRDAETVLGSGEKKPS---DNELPIRALVRR  298
+
+
+> sp|Q99J77|SIAS_MOUSE Sialic acid synthase OS=Mus musculus OX=10090 
+GN=Nans PE=1 SV=1
+Length=359
+
+ Score = 154 bits (388),  Expect = 3e-43, Method: Compositional matrix adjust.
+ Identities = 95/266 (36%), Positives = 135/266 (51%), Gaps = 22/266 (8%)
+
+Query  15   IGGNNPVFIIAEAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFGENKEAVNLV  74
+            +GG +P FIIAE G NH GD+++A RMI  A +  A+  KFQ   SE  F  N++A  L 
+Sbjct  13   VGGKHPCFIIAEIGQNHQGDIDVAKRMIRTAKECGADCAKFQ--KSELEFKFNRKA--LE  68
+
+Query  75   KPA-----------------EFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVE  117
+            +P                  EF   ++  L+  +Q+  I F A+  D   +  L E+ V 
+Sbjct  69   RPYTSKHSWGKTYGEHKRHLEFSHDQYKELQSYAQEIGIFFTASGMDEMAVEFLHELNVP  128
+
+Query  118  ILKIASCDICNITLLEAAADSGLIVILSRGTASASEIETAVSIFKKKKSPFILLHCVSSY  177
+              K+ S D  N   LE  A  G  +++S G  S   ++    I K     F  L C S+Y
+Sbjct  129  FFKVGSGDTNNFPYLEKTAKKGRPMVISSGMQSMDTMKQVYQIVKPLNPNFCFLQCTSAY  188
+
+Query  178  PMNEIDANLSAIQTLKSKY-EFPIGYSDHSKGIEIPLLAVASGAEIIEKHYTVDRTLQGI  236
+            P+   DANL  I   +  + + PIGYS H  GI I + AVA GA+++E+H T+D+T +G 
+Sbjct  189  PLQPEDANLRVISEYQKLFPDIPIGYSGHETGIAISVAAVALGAKVLERHITLDKTWKGS  248
+
+Query  237  DWEISAEPKELAKLVTETERIRKILG  262
+            D   S EP ELA+LV     + + LG
+Sbjct  249  DHSASLEPGELAELVRSVRLVERALG  274
+
+
+> sp|Q9NR45|SIAS_HUMAN Sialic acid synthase OS=Homo sapiens OX=9606 
+GN=NANS PE=1 SV=2
+Length=359
+
+ Score = 152 bits (384),  Expect = 1e-42, Method: Compositional matrix adjust.
+ Identities = 94/266 (35%), Positives = 134/266 (50%), Gaps = 22/266 (8%)
+
+Query  15   IGGNNPVFIIAEAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFGENKEAVNLV  74
+            +GG +P FIIAE G NH GDL++A RMI  A +  A+  KFQ   SE  F  N++A  L 
+Sbjct  13   VGGQHPCFIIAEIGQNHQGDLDVAKRMIRMAKECGADCAKFQ--KSELEFKFNRKA--LE  68
+
+Query  75   KPA-----------------EFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVE  117
+            +P                  EF   ++  L+  +++  I F A+  D   +  L E+ V 
+Sbjct  69   RPYTSKHSWGKTYGEHKRHLEFSHDQYRELQRYAEEVGIFFTASGMDEMAVEFLHELNVP  128
+
+Query  118  ILKIASCDICNITLLEAAADSGLIVILSRGTASASEIETAVSIFKKKKSPFILLHCVSSY  177
+              K+ S D  N   LE  A  G  +++S G  S   ++    I K     F  L C S+Y
+Sbjct  129  FFKVGSGDTNNFPYLEKTAKKGRPMVISSGMQSMDTMKQVYQIVKPLNPNFCFLQCTSAY  188
+
+Query  178  PMNEIDANLSAIQTLKSKY-EFPIGYSDHSKGIEIPLLAVASGAEIIEKHYTVDRTLQGI  236
+            P+   D NL  I   +  + + PIGYS H  GI I + AVA GA+++E+H T+D+T +G 
+Sbjct  189  PLQPEDVNLRVISEYQKLFPDIPIGYSGHETGIAISVAAVALGAKVLERHITLDKTWKGS  248
+
+Query  237  DWEISAEPKELAKLVTETERIRKILG  262
+            D   S EP ELA+LV     + + LG
+Sbjct  249  DHSASLEPGELAELVRSVRLVERALG  274
+
+
+> sp|Q9VG74|SIAS_DROME Sialic acid synthase OS=Drosophila melanogaster 
+OX=7227 GN=NANS PE=1 SV=2
+Length=372
+
+ Score = 138 bits (347),  Expect = 4e-37, Method: Compositional matrix adjust.
+ Identities = 87/255 (34%), Positives = 133/255 (52%), Gaps = 27/255 (11%)
+
+Query  19   NPVFIIAEAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSEERF--------------  64
+            + V+IIAE G NH G +  A +MI EA  A  + +KFQ  +   +F              
+Sbjct  13   DSVYIIAEIGQNHQGCVETAKKMIWEAKKAGCHCVKFQKSDLPAKFTRSALDREYISDHA  72
+
+Query  65   -----GENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEIL  119
+                 GE+KE +      EF K ++L L+   ++ N+ F A+  D  +L  L  + V  +
+Sbjct  73   WGKTYGEHKEYL------EFSKDQYLQLQAHCKELNVDFTASAMDERSLEFLSALNVPFI  126
+
+Query  120  KIASCDICNITLLEAAADSGLIVILSRGTASASEIETAVSIFKKK-KSPFILLHCVSSYP  178
+            KI S D  N  LL+ AA+  L +++S G  +   +E  V   ++  K  + L+HCVSSYP
+Sbjct  127  KIGSGDANNFPLLKKAANLNLPLVISTGMQTMQTVERIVQTMRESGKEDYALMHCVSSYP  186
+
+Query  179  MNEIDANLSAIQTLKSKY-EFPIGYSDHSKGIEIPLLAVASGAEIIEKHYTVDRTLQGID  237
+             +  D +L  I  L++++    IGYS H  G+ I   AV  GA I+E+H+T+D++ +G D
+Sbjct  187  TDPKDCSLQLISVLRTRFPNVAIGYSGHELGVIISQAAVLLGARIVERHFTLDKSQKGSD  246
+
+Query  238  WEISAEPKELAKLVT  252
+               S EP+EL  L T
+Sbjct  247  HRCSLEPQELKALTT  261
+
+
+> sp|P39625|SPSE_BACSU Spore coat polysaccharide biosynthesis protein 
+SpsE OS=Bacillus subtilis (strain 168) OX=224308 GN=spsE 
+PE=1 SV=1
+Length=373
+
+ Score = 126 bits (317),  Expect = 8e-33, Method: Compositional matrix adjust.
+ Identities = 90/273 (33%), Positives = 146/273 (53%), Gaps = 14/273 (5%)
+
+Query  10   LGNIKIGGNNPVFIIAEAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSEERF-----  64
+            + N  +G + PVFIIAEAG+NH G L+ A  +ID AA+A A+A+KFQ + ++  +     
+Sbjct  6    IANKTVGKDAPVFIIAEAGINHDGKLDQAFALIDAAAEAGADAVKFQMFQADRMYQKDPG  65
+
+Query  65   ------GENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEI  118
+                  G++    +LV+  E   +  L L +  ++K ++F +T  D  + ++L+      
+Sbjct  66   LYKTAAGKDVSIFSLVQSMEMPAEWILPLLDYCREKQVIFLSTVCDEGSADLLQSTSPSA  125
+
+Query  119  LKIASCDICNITLLEAAADSGLIVILSRGTASASEIETAV-SIFKKKKSPFILLHCVSSY  177
+             KIAS +I ++ LL+  A     +I S   A  S++  A  +I  +  +   ++HCV+ Y
+Sbjct  126  FKIASYEINHLPLLKYVARLNRPMIFSTAGAEISDVHEAWRTIRAEGNNQIAIMHCVAKY  185
+
+Query  178  PMNEIDANLSAIQTLKSKY-EFPIGYSDHSK-GIEIPLLAVASGAEIIEKHYTVDRTLQG  235
+            P     +NLS I  L + + E  IG+SDHS+   E P  AV  GA++IEKH+T+D+ L G
+Sbjct  186  PAPPEYSNLSVIPMLAAAFPEAVIGFSDHSEHPTEAPCAAVRLGAKLIEKHFTIDKNLPG  245
+
+Query  236  IDWEISAEPKELAKLVTETERIRKILGHGKLEP  268
+             D   +  P EL ++V    +    L  G  +P
+Sbjct  246  ADHSFALNPDELKEMVDGIRKTEAELKQGITKP  278
+
+
+> sp|Q939J8|PSEI_CAMJJ Pseudaminic acid synthase OS=Campylobacter 
+jejuni subsp. jejuni serotype O:23/36 (strain 81-176) OX=354242 
+GN=pseI PE=3 SV=1
+Length=343
+
+ Score = 113 bits (283),  Expect = 5e-28, Method: Compositional matrix adjust.
+ Identities = 89/275 (32%), Positives = 136/275 (49%), Gaps = 17/275 (6%)
+
+Query  8    ITLGNIKIGGNNPVFIIAEAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFGEN  67
+            + +GN     +  VFIIAE   NH G L +AL+ I  A  A A+AIK Q Y  +     +
+Sbjct  1    MQIGNFNT--DKKVFIIAELSANHAGSLEMALKSIKAAKKAGADAIKIQTYTPDSLTLNS  58
+
+Query  68   KEAVNLVKPAEFGKKEFLLLKERS--------------QKKNILFFATPFDVPNLNMLKE  113
+             +   ++K   + K++   L E +              Q + IL F++PF   ++  LK 
+Sbjct  59   DKEDFIIKGGLWDKRKLYELYESAKTPYEWHSQIFETAQNEGILCFSSPFAKEDIEFLKR  118
+
+Query  114  IGVEILKIASCDICNITLLEAAADSGLIVILSRGTASASEIETAVSIFKKKKSP-FILLH  172
+                  KIAS +  +   +   A      I+S G A+  E+     IFK++K+P  I L 
+Sbjct  119  FDPIAYKIASFEANDENFVRLIAKEKKPTIVSTGIATEEELFKICEIFKEEKNPDLIFLK  178
+
+Query  173  CVSSYPMNEIDANLSAIQTLKSKYEFPIGYSDHSKGIEIPLLAVASGAEIIEKHYTVDRT  232
+            C S+YP    D NL  I +LK K+   +G SDHS G   P++AVA GA +IEKH+ +D++
+Sbjct  179  CTSAYPTAIEDMNLKGIVSLKEKFNVEVGLSDHSFGFLAPVMAVALGARVIEKHFMLDKS  238
+
+Query  233  LQGIDWEISAEPKELAKLVTETERIRKILGHGKLE  267
+            ++  D + S +  E   +V    +    LG GKL+
+Sbjct  239  IESEDSKFSLDFDEFKAMVDAVRQAESALGDGKLD  273
+
+
+> sp|Q0P8U0|PSEI_CAMJE Pseudaminic acid synthase OS=Campylobacter 
+jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 / NCTC 
+11168) OX=192222 GN=pseI PE=1 SV=1
+Length=343
+
+ Score = 112 bits (281),  Expect = 7e-28, Method: Compositional matrix adjust.
+ Identities = 88/275 (32%), Positives = 136/275 (49%), Gaps = 17/275 (6%)
+
+Query  8    ITLGNIKIGGNNPVFIIAEAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFGEN  67
+            + +GN     +  VFIIAE   NH G L +AL+ I  A  A A+AIK Q Y  +     +
+Sbjct  1    MQIGNFNT--DKKVFIIAELSANHAGSLEMALKSIKAAKKAGADAIKIQTYTPDSLTLNS  58
+
+Query  68   KEAVNLVKPAEFGKKEFLLLKERS--------------QKKNILFFATPFDVPNLNMLKE  113
+             +   ++K   + K++   L E +              Q + IL F++PF   ++  LK 
+Sbjct  59   DKEDFIIKGGLWDKRKLYELYESAKTPYEWHSQIFETAQNEGILCFSSPFAKEDVEFLKR  118
+
+Query  114  IGVEILKIASCDICNITLLEAAADSGLIVILSRGTASASEIETAVSIFKKKKSP-FILLH  172
+                  KIAS +  +   +   A      I+S G A+  E+     IFK++K+P  + L 
+Sbjct  119  FDPIAYKIASFEANDENFVRLIAKEKKPTIVSTGIATEEELFKICEIFKEEKNPDLVFLK  178
+
+Query  173  CVSSYPMNEIDANLSAIQTLKSKYEFPIGYSDHSKGIEIPLLAVASGAEIIEKHYTVDRT  232
+            C S+YP    D NL  I +LK K+   +G SDHS G   P++AVA GA +IEKH+ +D++
+Sbjct  179  CTSTYPTAIEDMNLKGIVSLKEKFNVEVGLSDHSFGFLAPVMAVALGARVIEKHFMLDKS  238
+
+Query  233  LQGIDWEISAEPKELAKLVTETERIRKILGHGKLE  267
+            ++  D + S +  E   +V    +    LG GKL+
+Sbjct  239  IESEDSKFSLDFDEFKAMVDAVRQAESALGDGKLD  273
+
+
+> sp|O24980|PSEI_HELPY Pseudaminic acid synthase OS=Helicobacter 
+pylori (strain ATCC 700392 / 26695) OX=85962 GN=pseI PE=3 
+SV=1
+Length=340
+
+ Score = 111 bits (277),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 79/266 (30%), Positives = 137/266 (52%), Gaps = 19/266 (7%)
+
+Query  20   PVFIIAEAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFGENKEAVNLVKPAEF  79
+            P  I+AE   NH  DLNLA   +    ++ A+ +K Q Y        +KE   +++   +
+Sbjct  4    PPKIVAELSANHNQDLNLAKESLHAIKESGADFVKLQTYTPSCMTLNSKEDPFIIQGTLW  63
+
+Query  80   GKKEFLLLKERS--------------QKKNILFFATPFDVPNLNMLKEIGVEILKIASCD  125
+             K+    L +++              +K ++  F++PF    L +L+ +   + KIAS +
+Sbjct  64   DKENLYELYQKASTPLEWHAELFELARKLDLGIFSSPFSSQALELLESLNCPMYKIASFE  123
+
+Query  126  ICNITLLEAAADSGLIVILSRGTASASEIETAVSIFKKKKS-PFILLHCVSSYPMNEIDA  184
+            I ++ L+E AA +   +ILS G A+ +E++ A+S+ ++  +    LL CVS+YP    DA
+Sbjct  124  IVDLDLIEKAARTQKPIILSSGIATHTELQDAISLCRRVNNFDITLLKCVSAYPSKIEDA  183
+
+Query  185  NLSAIQTLKSKYEFPIGYSDHSKGIEIPLLAVASGAEIIEKHYTVDRTLQGIDWEISAEP  244
+            NL ++  L   +    G SDH+ G   P+LA   GA +IEKH+ ++++LQ  D   S + 
+Sbjct  184  NLLSMVKLGEIFGVKFGLSDHTIGSLCPILATTLGASMIEKHFILNKSLQTPDSAFSMDF  243
+
+Query  245  KELAKLVTETERIRK-ILGHGKLEPQ  269
+                 +V   E I++ +L  G+ EP+
+Sbjct  244  NGFKSMV---EAIKQSVLALGEEEPR  266
+
+
+> sp|Q05873|SYV_BACSU Valine--tRNA ligase OS=Bacillus subtilis 
+(strain 168) OX=224308 GN=valS PE=1 SV=3
+Length=880
+
+ Score = 42.4 bits (98),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 45/164 (27%), Positives = 76/164 (46%), Gaps = 22/164 (13%)
+
+Query  133  EAAADSGLIVILSRGTASA-SEIETAVSIFKKKKSPFILLHCVSSYPMNEIDANLSAIQT  191
+            EAAAD  L+V L R   +  SE+ T +S     K   + +   +    + ++AN S ++ 
+Sbjct  722  EAAADMKLLVELIRSVRNIRSEVNTPMS-----KQVELYIKTSTDEIASRLEANRSYVER  776
+
+Query  192  LKSKYEFPIGYSDHSKGIEIPLLAVASGAEIIEKHYTVDRTLQGIDWEISAEPKELAKLV  251
+              +     IG     + ++  + AV SGAE+I         L  ID EI+   KE  KL 
+Sbjct  777  FTNPSVLKIGTD--IEAVDKAMTAVVSGAEVILPL----EGLINIDEEIARLQKEFDKLT  830
+
+Query  252  TETERIRKILG----------HGKLEPQASEQEEIEYRNSLRRK  285
+             E ER++K LG          H   E +  E++ +  R++++++
+Sbjct  831  KEVERVQKKLGNEGFMKKAPAHVIDEEREKEKDYVAKRDAVQKR  874
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.134    0.370    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 23002303296
+Results from round 2
+
+
+Query= 6NCS:B
+
+Length=285
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q58465|Y1065_METJA Uncharacterized protein MJ1065 OS=Methano...  398     3e-139
+  sp|Q5ZXH9|NEUBH_LEGPH N,N'-diacetyllegionaminic acid synthase O...  363     4e-125
+  sp|Q0P8T1|NEUBH_CAMJE N,N'-diacetyllegionaminic acid synthase O...  340     3e-116
+  sp|Q99J77|SIAS_MOUSE Sialic acid synthase OS=Mus musculus OX=10...  339     2e-115
+  sp|Q9NR45|SIAS_HUMAN Sialic acid synthase OS=Homo sapiens OX=96...  337     8e-115
+  sp|P39625|SPSE_BACSU Spore coat polysaccharide biosynthesis pro...  319     2e-107
+  sp|O24980|PSEI_HELPY Pseudaminic acid synthase OS=Helicobacter ...  310     2e-104
+  sp|Q9VG74|SIAS_DROME Sialic acid synthase OS=Drosophila melanog...  303     2e-101
+  sp|Q0P8U0|PSEI_CAMJE Pseudaminic acid synthase OS=Campylobacter...  290     3e-96 
+  sp|Q939J8|PSEI_CAMJJ Pseudaminic acid synthase OS=Campylobacter...  289     4e-96 
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q9WYH8|AROF_THEMA Phospho-2-dehydro-3-deoxyheptonate aldolas...  60.8    2e-09
+
+
+> sp|Q58465|Y1065_METJA Uncharacterized protein MJ1065 OS=Methanocaldococcus 
+jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 
+/ JCM 10045 / NBRC 100440) OX=243232 GN=MJ1065 PE=4 SV=1
+Length=337
+
+ Score = 398 bits (1023),  Expect = 3e-139, Method: Composition-based stats.
+ Identities = 117/282 (41%), Positives = 177/282 (63%), Gaps = 2/282 (1%)
+
+Query  6    QEITLGNIKIGGNNPVFIIAEAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFG  65
+            ++I +G+  +G   P FIIAE GLNH GD+++   ++ EA    A+AIKFQ+Y++E+   
+Sbjct  2    EKIKIGDRYVGKGEPTFIIAEGGLNHNGDIDIGKELVKEAKKCGADAIKFQSYHTEDFIS  61
+
+Query  66   ENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCD  125
+            +  E   L K  E  ++EF  LKE ++K  I+F +TP D+  +++L ++ V   KIAS D
+Sbjct  62   KKSEYYELFKSLELSEEEFYELKEYAEKIGIMFISTPLDLKYVDILNKMNVPAFKIASGD  121
+
+Query  126  ICNITLLEAAADSGLIVILSRGTASASEIETAVSIFKKKKS-PFILLHCVSSYPMNEIDA  184
+            +    LLE  A +G  VILS G +   EI  AV + +       ILLHC+SSYP    D 
+Sbjct  122  LTFYPLLEKVAKTGKPVILSTGMSDIGEIWEAVKVLENNGCRDIILLHCISSYPTPYEDV  181
+
+Query  185  NLSAIQTLKSKYEFPIGYSDHSKGIEIPLLAVASGAEIIEKHYTVDRTLQGIDWEISAEP  244
+            NL+AI+TLKS +  P+GYSDH+ GI  P+++VA GA++IEKH+T+D+ ++G D  +SA+P
+Sbjct  182  NLNAIKTLKSIFNIPVGYSDHTLGILAPVVSVALGADVIEKHFTLDKNMEGPDHALSADP  241
+
+Query  245  KELAKLVTETERIRKILGHGKLEPQASEQEEI-EYRNSLRRK  285
+            +E  ++V     + K+LG G+  P  SE++ I E R S+  K
+Sbjct  242  EEFKEMVNNIRLVEKMLGSGEKIPMPSERDVIVEARRSIVAK  283
+
+
+> sp|Q5ZXH9|NEUBH_LEGPH N,N'-diacetyllegionaminic acid synthase 
+OS=Legionella pneumophila subsp. pneumophila (strain Philadelphia 
+1 / ATCC 33152 / DSM 7513) OX=272624 GN=neuB PE=1 SV=1
+Length=356
+
+ Score = 363 bits (933),  Expect = 4e-125, Method: Composition-based stats.
+ Identities = 104/299 (35%), Positives = 157/299 (53%), Gaps = 28/299 (9%)
+
+Query  11   GNIKIGGNNP------VFIIAEAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSEERF  64
+             N KI G  P       FIIAEAG+NH GDL LA  ++  A ++ A+A+KFQ + ++   
+Sbjct  3    SNRKINGIKPRGSSMTCFIIAEAGVNHNGDLQLAKELVYAAKESGADAVKFQTFKADTLV  62
+
+Query  65   G--------------ENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNM  110
+                           E+     ++K  E  +++  LL E +    I F +T FD  +++ 
+Sbjct  63   NKTVEKAEYQKNNAPESSTQYEMLKALELSEEDHYLLSELANSLGIEFMSTGFDEQSIDF  122
+
+Query  111  LKEIGVEILKIASCDICNITLLEAAADSGLIVILSRGTASASEIETAVSIFKKK-----K  165
+            L  +GV+ LKI S +I N+  L+  A   L +I+S G     E+  A+   K        
+Sbjct  123  LISLGVKRLKIPSGEITNVPYLQHCASKKLPLIISTGMCDLQEVRVAIDTVKPYYGNSLS  182
+
+Query  166  SPFILLHCVSSYPMNEIDANLSAIQTLKSKYEFPIGYSDHSKGIEIPLLAVASGAEIIEK  225
+               +LLHC S+YP +  D NL A+QTL  +++ P+GYSDH+ GI +P LAV  GA +IEK
+Sbjct  183  DYLVLLHCTSNYPASYQDVNLKAMQTLADEFQLPVGYSDHTLGILVPTLAVGMGACVIEK  242
+
+Query  226  HYTVDRTLQGIDWEISAEPKELAKLVTETERIRKILGHGKLEPQASEQEEIEYRNSLRR  284
+            H+T+D++L G D   S +P+E+  LV        +LG G+ +P      E+  R  +RR
+Sbjct  243  HFTMDKSLPGPDHLASMDPEEMKNLVQSIRDAETVLGSGEKKPS---DNELPIRALVRR  298
+
+
+> sp|Q0P8T1|NEUBH_CAMJE N,N'-diacetyllegionaminic acid synthase 
+OS=Campylobacter jejuni subsp. jejuni serotype O:2 (strain 
+ATCC 700819 / NCTC 11168) OX=192222 GN=legI PE=1 SV=1
+Length=334
+
+ Score = 340 bits (872),  Expect = 3e-116, Method: Composition-based stats.
+ Identities = 109/285 (38%), Positives = 168/285 (59%), Gaps = 18/285 (6%)
+
+Query  19   NPVFIIAEAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSE--------------ERF  64
+                IIAEAG+NH GDLNLA ++I+ AAD+ A+ +KFQ++ ++              +  
+Sbjct  2    KKTLIIAEAGVNHNGDLNLAKKLIEIAADSGADFVKFQSFKAKNCISTKAKKAPYQLKTT  61
+
+Query  65   GENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASC  124
+              ++  + +V+  E   K    L   ++K NI F +TPFD+ ++++L E+G++I KI S 
+Sbjct  62   ANDESQLQMVQKLELDLKAHKELILHAKKCNIAFLSTPFDLESVDLLNELGLKIFKIPSG  121
+
+Query  125  DICNITLLEAAADSGLIVILSRGTASASEIETAVSIFKK---KKSPFILLHCVSSYPMNE  181
+            +I N+  L+  A     +ILS G A+  EIE A+++  K   K+    LLHC + YP   
+Sbjct  122  EITNLPYLKKIAKLNKKIILSTGMANLGEIEEALNVLCKNGAKRQNITLLHCTTEYPAPF  181
+
+Query  182  IDANLSAIQTLKSKYEFPIGYSDHSKGIEIPLLAVASGAEIIEKHYTVDRTLQGIDWEIS  241
+             + NL A+Q+LK  ++  +GYSDH++GI I L AVA GA +IEKH+T+D+ + G D + S
+Sbjct  182  NEVNLKAMQSLKDAFKLDVGYSDHTRGIHISLAAVALGACVIEKHFTLDKNMSGPDHKAS  241
+
+Query  242  AEPKELAKLVTETERIRKILGHGKLEPQASEQEEIEY-RNSLRRK  285
+             EP+EL  L T+  +I+K +G G  +   SEQ+ I   R SL  K
+Sbjct  242  LEPQELKMLCTQIRQIQKAMGDGIKKASKSEQKNINIVRKSLVAK  286
+
+
+> sp|Q99J77|SIAS_MOUSE Sialic acid synthase OS=Mus musculus OX=10090 
+GN=Nans PE=1 SV=1
+Length=359
+
+ Score = 339 bits (869),  Expect = 2e-115, Method: Composition-based stats.
+ Identities = 94/288 (33%), Positives = 136/288 (47%), Gaps = 15/288 (5%)
+
+Query  13   IKIGGNNPVFIIAEAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFGEN-----  67
+              +GG +P FIIAE G NH GD+++A RMI  A +  A+  KFQ    E +F        
+Sbjct  11   RWVGGKHPCFIIAEIGQNHQGDIDVAKRMIRTAKECGADCAKFQKSELEFKFNRKALERP  70
+
+Query  68   --------KEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEIL  119
+                    K      +  EF   ++  L+  +Q+  I F A+  D   +  L E+ V   
+Sbjct  71   YTSKHSWGKTYGEHKRHLEFSHDQYKELQSYAQEIGIFFTASGMDEMAVEFLHELNVPFF  130
+
+Query  120  KIASCDICNITLLEAAADSGLIVILSRGTASASEIETAVSIFKKKKSPFILLHCVSSYPM  179
+            K+ S D  N   LE  A  G  +++S G  S   ++    I K     F  L C S+YP+
+Sbjct  131  KVGSGDTNNFPYLEKTAKKGRPMVISSGMQSMDTMKQVYQIVKPLNPNFCFLQCTSAYPL  190
+
+Query  180  NEIDANLSAIQTLKSKY-EFPIGYSDHSKGIEIPLLAVASGAEIIEKHYTVDRTLQGIDW  238
+               DANL  I   +  + + PIGYS H  GI I + AVA GA+++E+H T+D+T +G D 
+Sbjct  191  QPEDANLRVISEYQKLFPDIPIGYSGHETGIAISVAAVALGAKVLERHITLDKTWKGSDH  250
+
+Query  239  EISAEPKELAKLVTETERIRKILGHGKLEPQASEQE-EIEYRNSLRRK  285
+              S EP ELA+LV     + + LG    +    E     +   S+  K
+Sbjct  251  SASLEPGELAELVRSVRLVERALGSPTKQLLPCEMACNEKLGKSVVAK  298
+
+
+> sp|Q9NR45|SIAS_HUMAN Sialic acid synthase OS=Homo sapiens OX=9606 
+GN=NANS PE=1 SV=2
+Length=359
+
+ Score = 337 bits (865),  Expect = 8e-115, Method: Composition-based stats.
+ Identities = 93/288 (32%), Positives = 135/288 (47%), Gaps = 15/288 (5%)
+
+Query  13   IKIGGNNPVFIIAEAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFGEN-----  67
+              +GG +P FIIAE G NH GDL++A RMI  A +  A+  KFQ    E +F        
+Sbjct  11   RWVGGQHPCFIIAEIGQNHQGDLDVAKRMIRMAKECGADCAKFQKSELEFKFNRKALERP  70
+
+Query  68   --------KEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEIL  119
+                    K      +  EF   ++  L+  +++  I F A+  D   +  L E+ V   
+Sbjct  71   YTSKHSWGKTYGEHKRHLEFSHDQYRELQRYAEEVGIFFTASGMDEMAVEFLHELNVPFF  130
+
+Query  120  KIASCDICNITLLEAAADSGLIVILSRGTASASEIETAVSIFKKKKSPFILLHCVSSYPM  179
+            K+ S D  N   LE  A  G  +++S G  S   ++    I K     F  L C S+YP+
+Sbjct  131  KVGSGDTNNFPYLEKTAKKGRPMVISSGMQSMDTMKQVYQIVKPLNPNFCFLQCTSAYPL  190
+
+Query  180  NEIDANLSAIQTLKSKY-EFPIGYSDHSKGIEIPLLAVASGAEIIEKHYTVDRTLQGIDW  238
+               D NL  I   +  + + PIGYS H  GI I + AVA GA+++E+H T+D+T +G D 
+Sbjct  191  QPEDVNLRVISEYQKLFPDIPIGYSGHETGIAISVAAVALGAKVLERHITLDKTWKGSDH  250
+
+Query  239  EISAEPKELAKLVTETERIRKILGHGKLEPQASEQE-EIEYRNSLRRK  285
+              S EP ELA+LV     + + LG    +    E     +   S+  K
+Sbjct  251  SASLEPGELAELVRSVRLVERALGSPTKQLLPCEMACNEKLGKSVVAK  298
+
+
+> sp|P39625|SPSE_BACSU Spore coat polysaccharide biosynthesis protein 
+SpsE OS=Bacillus subtilis (strain 168) OX=224308 GN=spsE 
+PE=1 SV=1
+Length=373
+
+ Score = 319 bits (818),  Expect = 2e-107, Method: Composition-based stats.
+ Identities = 90/274 (33%), Positives = 146/274 (53%), Gaps = 14/274 (5%)
+
+Query  9    TLGNIKIGGNNPVFIIAEAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSEERF----  64
+             + N  +G + PVFIIAEAG+NH G L+ A  +ID AA+A A+A+KFQ + ++  +    
+Sbjct  5    QIANKTVGKDAPVFIIAEAGINHDGKLDQAFALIDAAAEAGADAVKFQMFQADRMYQKDP  64
+
+Query  65   -------GENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVE  117
+                   G++    +LV+  E   +  L L +  ++K ++F +T  D  + ++L+     
+Sbjct  65   GLYKTAAGKDVSIFSLVQSMEMPAEWILPLLDYCREKQVIFLSTVCDEGSADLLQSTSPS  124
+
+Query  118  ILKIASCDICNITLLEAAADSGLIVILSRGTASASEIETAV-SIFKKKKSPFILLHCVSS  176
+              KIAS +I ++ LL+  A     +I S   A  S++  A  +I  +  +   ++HCV+ 
+Sbjct  125  AFKIASYEINHLPLLKYVARLNRPMIFSTAGAEISDVHEAWRTIRAEGNNQIAIMHCVAK  184
+
+Query  177  YPMNEIDANLSAIQTLKSKY-EFPIGYSDHSK-GIEIPLLAVASGAEIIEKHYTVDRTLQ  234
+            YP     +NLS I  L + + E  IG+SDHS+   E P  AV  GA++IEKH+T+D+ L 
+Sbjct  185  YPAPPEYSNLSVIPMLAAAFPEAVIGFSDHSEHPTEAPCAAVRLGAKLIEKHFTIDKNLP  244
+
+Query  235  GIDWEISAEPKELAKLVTETERIRKILGHGKLEP  268
+            G D   +  P EL ++V    +    L  G  +P
+Sbjct  245  GADHSFALNPDELKEMVDGIRKTEAELKQGITKP  278
+
+
+> sp|O24980|PSEI_HELPY Pseudaminic acid synthase OS=Helicobacter 
+pylori (strain ATCC 700392 / 26695) OX=85962 GN=pseI PE=3 
+SV=1
+Length=340
+
+ Score = 310 bits (794),  Expect = 2e-104, Method: Composition-based stats.
+ Identities = 80/281 (28%), Positives = 141/281 (50%), Gaps = 18/281 (6%)
+
+Query  19   NPVFIIAEAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFGENKEAVNLVKPAE  78
+             P  I+AE   NH  DLNLA   +    ++ A+ +K Q Y        +KE   +++   
+Sbjct  3    QPPKIVAELSANHNQDLNLAKESLHAIKESGADFVKLQTYTPSCMTLNSKEDPFIIQGTL  62
+
+Query  79   FGKKEFLLLKERS--------------QKKNILFFATPFDVPNLNMLKEIGVEILKIASC  124
+            + K+    L +++              +K ++  F++PF    L +L+ +   + KIAS 
+Sbjct  63   WDKENLYELYQKASTPLEWHAELFELARKLDLGIFSSPFSSQALELLESLNCPMYKIASF  122
+
+Query  125  DICNITLLEAAADSGLIVILSRGTASASEIETAVSIFKKKKS-PFILLHCVSSYPMNEID  183
+            +I ++ L+E AA +   +ILS G A+ +E++ A+S+ ++  +    LL CVS+YP    D
+Sbjct  123  EIVDLDLIEKAARTQKPIILSSGIATHTELQDAISLCRRVNNFDITLLKCVSAYPSKIED  182
+
+Query  184  ANLSAIQTLKSKYEFPIGYSDHSKGIEIPLLAVASGAEIIEKHYTVDRTLQGIDWEISAE  243
+            ANL ++  L   +    G SDH+ G   P+LA   GA +IEKH+ ++++LQ  D   S +
+Sbjct  183  ANLLSMVKLGEIFGVKFGLSDHTIGSLCPILATTLGASMIEKHFILNKSLQTPDSAFSMD  242
+
+Query  244  PKELAKLVTETERIRKILGHGKLEPQASEQEEIEYRNSLRR  284
+                  +V   ++   +L  G+ EP+ +  + +E R    R
+Sbjct  243  FNGFKSMVEAIKQ--SVLALGEEEPRINP-KTLEKRRFFAR  280
+
+
+> sp|Q9VG74|SIAS_DROME Sialic acid synthase OS=Drosophila melanogaster 
+OX=7227 GN=NANS PE=1 SV=2
+Length=372
+
+ Score = 303 bits (777),  Expect = 2e-101, Method: Composition-based stats.
+ Identities = 84/251 (33%), Positives = 130/251 (52%), Gaps = 15/251 (6%)
+
+Query  19   NPVFIIAEAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFGEN-----------  67
+            + V+IIAE G NH G +  A +MI EA  A  + +KFQ  +   +F  +           
+Sbjct  13   DSVYIIAEIGQNHQGCVETAKKMIWEAKKAGCHCVKFQKSDLPAKFTRSALDREYISDHA  72
+
+Query  68   --KEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCD  125
+              K      +  EF K ++L L+   ++ N+ F A+  D  +L  L  + V  +KI S D
+Sbjct  73   WGKTYGEHKEYLEFSKDQYLQLQAHCKELNVDFTASAMDERSLEFLSALNVPFIKIGSGD  132
+
+Query  126  ICNITLLEAAADSGLIVILSRGTASASEIETAVSIFKK-KKSPFILLHCVSSYPMNEIDA  184
+              N  LL+ AA+  L +++S G  +   +E  V   ++  K  + L+HCVSSYP +  D 
+Sbjct  133  ANNFPLLKKAANLNLPLVISTGMQTMQTVERIVQTMRESGKEDYALMHCVSSYPTDPKDC  192
+
+Query  185  NLSAIQTLKSKY-EFPIGYSDHSKGIEIPLLAVASGAEIIEKHYTVDRTLQGIDWEISAE  243
+            +L  I  L++++    IGYS H  G+ I   AV  GA I+E+H+T+D++ +G D   S E
+Sbjct  193  SLQLISVLRTRFPNVAIGYSGHELGVIISQAAVLLGARIVERHFTLDKSQKGSDHRCSLE  252
+
+Query  244  PKELAKLVTET  254
+            P+EL  L T  
+Sbjct  253  PQELKALTTAI  263
+
+
+> sp|Q0P8U0|PSEI_CAMJE Pseudaminic acid synthase OS=Campylobacter 
+jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 / NCTC 
+11168) OX=192222 GN=pseI PE=1 SV=1
+Length=343
+
+ Score = 290 bits (741),  Expect = 3e-96, Method: Composition-based stats.
+ Identities = 88/275 (32%), Positives = 136/275 (49%), Gaps = 17/275 (6%)
+
+Query  8    ITLGNIKIGGNNPVFIIAEAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFGEN  67
+            + +GN     +  VFIIAE   NH G L +AL+ I  A  A A+AIK Q Y  +     +
+Sbjct  1    MQIGNFNT--DKKVFIIAELSANHAGSLEMALKSIKAAKKAGADAIKIQTYTPDSLTLNS  58
+
+Query  68   KEAVNLVKPAEFGKKEFLLLKERS--------------QKKNILFFATPFDVPNLNMLKE  113
+             +   ++K   + K++   L E +              Q + IL F++PF   ++  LK 
+Sbjct  59   DKEDFIIKGGLWDKRKLYELYESAKTPYEWHSQIFETAQNEGILCFSSPFAKEDVEFLKR  118
+
+Query  114  IGVEILKIASCDICNITLLEAAADSGLIVILSRGTASASEIETAVSIFKKKKSP-FILLH  172
+                  KIAS +  +   +   A      I+S G A+  E+     IFK++K+P  + L 
+Sbjct  119  FDPIAYKIASFEANDENFVRLIAKEKKPTIVSTGIATEEELFKICEIFKEEKNPDLVFLK  178
+
+Query  173  CVSSYPMNEIDANLSAIQTLKSKYEFPIGYSDHSKGIEIPLLAVASGAEIIEKHYTVDRT  232
+            C S+YP    D NL  I +LK K+   +G SDHS G   P++AVA GA +IEKH+ +D++
+Sbjct  179  CTSTYPTAIEDMNLKGIVSLKEKFNVEVGLSDHSFGFLAPVMAVALGARVIEKHFMLDKS  238
+
+Query  233  LQGIDWEISAEPKELAKLVTETERIRKILGHGKLE  267
+            ++  D + S +  E   +V    +    LG GKL+
+Sbjct  239  IESEDSKFSLDFDEFKAMVDAVRQAESALGDGKLD  273
+
+
+> sp|Q939J8|PSEI_CAMJJ Pseudaminic acid synthase OS=Campylobacter 
+jejuni subsp. jejuni serotype O:23/36 (strain 81-176) OX=354242 
+GN=pseI PE=3 SV=1
+Length=343
+
+ Score = 289 bits (740),  Expect = 4e-96, Method: Composition-based stats.
+ Identities = 91/292 (31%), Positives = 140/292 (48%), Gaps = 17/292 (6%)
+
+Query  8    ITLGNIKIGGNNPVFIIAEAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFGEN  67
+            + +GN     +  VFIIAE   NH G L +AL+ I  A  A A+AIK Q Y  +     +
+Sbjct  1    MQIGNFNT--DKKVFIIAELSANHAGSLEMALKSIKAAKKAGADAIKIQTYTPDSLTLNS  58
+
+Query  68   KEAVNLVKPAEFGKKEFLLLKERS--------------QKKNILFFATPFDVPNLNMLKE  113
+             +   ++K   + K++   L E +              Q + IL F++PF   ++  LK 
+Sbjct  59   DKEDFIIKGGLWDKRKLYELYESAKTPYEWHSQIFETAQNEGILCFSSPFAKEDIEFLKR  118
+
+Query  114  IGVEILKIASCDICNITLLEAAADSGLIVILSRGTASASEIETAVSIFKKKKSP-FILLH  172
+                  KIAS +  +   +   A      I+S G A+  E+     IFK++K+P  I L 
+Sbjct  119  FDPIAYKIASFEANDENFVRLIAKEKKPTIVSTGIATEEELFKICEIFKEEKNPDLIFLK  178
+
+Query  173  CVSSYPMNEIDANLSAIQTLKSKYEFPIGYSDHSKGIEIPLLAVASGAEIIEKHYTVDRT  232
+            C S+YP    D NL  I +LK K+   +G SDHS G   P++AVA GA +IEKH+ +D++
+Sbjct  179  CTSAYPTAIEDMNLKGIVSLKEKFNVEVGLSDHSFGFLAPVMAVALGARVIEKHFMLDKS  238
+
+Query  233  LQGIDWEISAEPKELAKLVTETERIRKILGHGKLEPQASEQEEIEYRNSLRR  284
+            ++  D + S +  E   +V    +    LG GKL+      +   +  SL  
+Sbjct  239  IESEDSKFSLDFDEFKAMVDAVRQAESALGDGKLDLDEKALKNRVFARSLYA  290
+
+
+> sp|Q9WYH8|AROF_THEMA Phospho-2-dehydro-3-deoxyheptonate aldolase 
+OS=Thermotoga maritima (strain ATCC 43589 / MSB8 / DSM 3109 
+/ JCM 10099) OX=243274 GN=aroF PE=1 SV=1
+Length=338
+
+ Score = 60.8 bits (146),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 53/268 (20%), Positives = 102/268 (38%), Gaps = 29/268 (11%)
+
+Query  8    ITLGNIKIGGNNPVFIIAEAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFGEN  67
+            I LG++KIG      I     +       + +      ++     ++  AY         
+Sbjct  83   IDLGDVKIGNGYFTIIAGPCSVEGR---EMLMETAHFLSELGVKVLRGGAYKP-------  132
+
+Query  68   KEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCDIC  127
+            + +    +    G+K    L+E + K  +          +L  + E   +I++I + +  
+Sbjct  133  RTSPYSFQG--LGEKGLEYLREAADKYGMYVVTEALGEDDLPKVAEY-ADIIQIGARNAQ  189
+
+Query  128  NITLLEAAADSGLIVILSRG-TASASEIETAVSIFKKKKSPFILLHCV----SSYPMNEI  182
+            N  LL  A      V+L RG   +  E   +        +  I+L C     +       
+Sbjct  190  NFRLLSKAGSYNKPVLLKRGFMNTIEEFLLSAEYIANSGNTKIIL-CERGIRTFEKATRN  248
+
+Query  183  DANLSAIQTLKSKYEFPI----GYSDHSKGIEIPL--LAVASGAE--IIEKHYTVDRTLQ  234
+              ++SA+  ++ +   PI     +S   + + IPL   A+A GA   I+E H   ++ L 
+Sbjct  249  TLDISAVPIIRKESHLPILVDPSHSGGRRDLVIPLSRAAIAVGAHGIIVEVHPEPEKAL-  307
+
+Query  235  GIDWEISAEPKELAKLVTETERIRKILG  262
+              D + S + +   +LV E +++   LG
+Sbjct  308  -SDGKQSLDFELFKELVQEMKKLADALG  334
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.135    0.337    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0413    0.140     1.90     42.6     43.6 
+
+Effective search space used: 23002303296
+Results from round 3
+
+
+Query= 6NCS:B
+
+Length=285
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q58465|Y1065_METJA Uncharacterized protein MJ1065 OS=Methano...  373     3e-129
+  sp|Q99J77|SIAS_MOUSE Sialic acid synthase OS=Mus musculus OX=10...  344     2e-117
+  sp|Q9NR45|SIAS_HUMAN Sialic acid synthase OS=Homo sapiens OX=96...  344     3e-117
+  sp|Q5ZXH9|NEUBH_LEGPH N,N'-diacetyllegionaminic acid synthase O...  338     4e-115
+  sp|Q0P8T1|NEUBH_CAMJE N,N'-diacetyllegionaminic acid synthase O...  317     3e-107
+  sp|Q0P8U0|PSEI_CAMJE Pseudaminic acid synthase OS=Campylobacter...  302     5e-101
+  sp|Q939J8|PSEI_CAMJJ Pseudaminic acid synthase OS=Campylobacter...  301     8e-101
+  sp|O24980|PSEI_HELPY Pseudaminic acid synthase OS=Helicobacter ...  300     2e-100
+  sp|P39625|SPSE_BACSU Spore coat polysaccharide biosynthesis pro...  295     7e-98 
+  sp|Q9VG74|SIAS_DROME Sialic acid synthase OS=Drosophila melanog...  294     9e-98 
+  sp|Q9WYH8|AROF_THEMA Phospho-2-dehydro-3-deoxyheptonate aldolas...  226     3e-71 
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P39912|AROG_BACSU Protein AroA(G) OS=Bacillus subtilis (stra...  111     4e-27
+  sp|Q3A372|KDSA_PELCD 2-dehydro-3-deoxyphosphooctonate aldolase ...  62.4    5e-10
+  sp|Q1IKD0|KDSA_KORVE 2-dehydro-3-deoxyphosphooctonate aldolase ...  57.8    2e-08
+  sp|P61655|KDSA_GEOSL 2-dehydro-3-deoxyphosphooctonate aldolase ...  57.0    4e-08
+  sp|Q5ZWA3|KDSA_LEGPH 2-dehydro-3-deoxyphosphooctonate aldolase ...  56.6    4e-08
+  sp|A5IB80|KDSA_LEGPC 2-dehydro-3-deoxyphosphooctonate aldolase ...  56.6    4e-08
+  sp|Q5X5Y5|KDSA_LEGPA 2-dehydro-3-deoxyphosphooctonate aldolase ...  56.6    4e-08
+  sp|Q39W61|KDSA_GEOMG 2-dehydro-3-deoxyphosphooctonate aldolase ...  56.6    5e-08
+  sp|B3R497|KDSA_CUPTR 2-dehydro-3-deoxyphosphooctonate aldolase ...  56.3    6e-08
+  sp|Q6AQ79|KDSA_DESPS 2-dehydro-3-deoxyphosphooctonate aldolase ...  56.3    6e-08
+  sp|A5G5T2|KDSA_GEOUR 2-dehydro-3-deoxyphosphooctonate aldolase ...  55.9    7e-08
+  sp|P61653|KDSA_BDEBA 2-dehydro-3-deoxyphosphooctonate aldolase ...  55.5    1e-07
+  sp|Q1H010|KDSA_METFK 2-dehydro-3-deoxyphosphooctonate aldolase ...  55.1    1e-07
+  sp|B2JIX1|KDSA_PARP8 2-dehydro-3-deoxyphosphooctonate aldolase ...  54.3    2e-07
+  sp|Q47DI0|KDSA_DECAR 2-dehydro-3-deoxyphosphooctonate aldolase ...  54.3    3e-07
+  sp|Q5WXA7|KDSA_LEGPL 2-dehydro-3-deoxyphosphooctonate aldolase ...  54.3    3e-07
+  sp|B0UUE2|KDSA_HISS2 2-dehydro-3-deoxyphosphooctonate aldolase ...  53.6    4e-07
+  sp|Q13X06|KDSA_PARXL 2-dehydro-3-deoxyphosphooctonate aldolase ...  53.2    6e-07
+  sp|B8F521|KDSA_HAEPS 2-dehydro-3-deoxyphosphooctonate aldolase ...  52.8    9e-07
+  sp|Q0I3B9|KDSA_HAES1 2-dehydro-3-deoxyphosphooctonate aldolase ...  52.4    1e-06
+  sp|A5EW23|KDSA_DICNV 2-dehydro-3-deoxyphosphooctonate aldolase ...  52.4    1e-06
+  sp|B9M9Q6|KDSA_GEODF 2-dehydro-3-deoxyphosphooctonate aldolase ...  52.0    1e-06
+  sp|A9AGW1|KDSA_BURM1 2-dehydro-3-deoxyphosphooctonate aldolase ...  50.9    3e-06
+  sp|Q604M5|KDSA_METCA 2-dehydro-3-deoxyphosphooctonate aldolase ...  50.9    3e-06
+  sp|B4EDA2|KDSA_BURCJ 2-dehydro-3-deoxyphosphooctonate aldolase ...  50.5    6e-06
+  sp|A1JRS8|KDSA_YERE8 2-dehydro-3-deoxyphosphooctonate aldolase ...  50.5    6e-06
+  sp|B6EHH9|KDSA_ALISL 2-dehydro-3-deoxyphosphooctonate aldolase ...  50.5    6e-06
+  sp|Q2A271|KDSA_FRATH 2-dehydro-3-deoxyphosphooctonate aldolase ...  50.1    6e-06
+  sp|A4JFY6|KDSA_BURVG 2-dehydro-3-deoxyphosphooctonate aldolase ...  50.1    6e-06
+  sp|B1JM81|KDSA_YERPY 2-dehydro-3-deoxyphosphooctonate aldolase ...  49.7    9e-06
+  sp|Q66AX1|KDSA_YERPS 2-dehydro-3-deoxyphosphooctonate aldolase ...  49.7    9e-06
+  sp|A4TJN3|KDSA_YERPP 2-dehydro-3-deoxyphosphooctonate aldolase ...  49.7    9e-06
+  sp|Q1CJJ7|KDSA_YERPN 2-dehydro-3-deoxyphosphooctonate aldolase ...  49.7    9e-06
+  sp|A9QZ04|KDSA_YERPG 2-dehydro-3-deoxyphosphooctonate aldolase ...  49.7    9e-06
+  sp|Q8ZEX4|KDSA_YERPE 2-dehydro-3-deoxyphosphooctonate aldolase ...  49.7    9e-06
+  sp|B2K2Z4|KDSA_YERPB 2-dehydro-3-deoxyphosphooctonate aldolase ...  49.7    9e-06
+  sp|Q1C850|KDSA_YERPA 2-dehydro-3-deoxyphosphooctonate aldolase ...  49.7    9e-06
+  sp|A7FIF7|KDSA_YERP3 2-dehydro-3-deoxyphosphooctonate aldolase ...  49.7    9e-06
+  sp|A0K8N2|KDSA_BURCH 2-dehydro-3-deoxyphosphooctonate aldolase ...  49.3    1e-05
+  sp|B1JUY7|KDSA_BURCC 2-dehydro-3-deoxyphosphooctonate aldolase ...  49.3    1e-05
+  sp|Q1BHS1|KDSA_BURCA 2-dehydro-3-deoxyphosphooctonate aldolase ...  49.3    1e-05
+  sp|A5CW13|KDSA_VESOH 2-dehydro-3-deoxyphosphooctonate aldolase ...  48.9    2e-05
+  sp|Q8PLS2|KDSA_XANAC 2-dehydro-3-deoxyphosphooctonate aldolase ...  48.6    2e-05
+  sp|Q3BUT2|KDSA_XANC5 2-dehydro-3-deoxyphosphooctonate aldolase ...  48.6    2e-05
+  sp|B2SDK5|KDSA_FRATM 2-dehydro-3-deoxyphosphooctonate aldolase ...  47.8    4e-05
+  sp|Q8P9Z5|KDSA_XANCP 2-dehydro-3-deoxyphosphooctonate aldolase ...  47.8    4e-05
+  sp|B0RUK2|KDSA_XANCB 2-dehydro-3-deoxyphosphooctonate aldolase ...  47.8    4e-05
+  sp|Q4UTP0|KDSA_XANC8 2-dehydro-3-deoxyphosphooctonate aldolase ...  47.8    4e-05
+  sp|O66496|KDSA_AQUAE 2-dehydro-3-deoxyphosphooctonate aldolase ...  47.4    5e-05
+  sp|A1K7F7|KDSA_AZOSB 2-dehydro-3-deoxyphosphooctonate aldolase ...  47.0    7e-05
+  sp|A0Q5J1|KDSA_FRATN 2-dehydro-3-deoxyphosphooctonate aldolase ...  46.6    9e-05
+  sp|B2U9C1|KDSA_RALPJ 2-dehydro-3-deoxyphosphooctonate aldolase ...  46.6    1e-04
+  sp|Q83B43|KDSA_COXBU 2-dehydro-3-deoxyphosphooctonate aldolase ...  45.9    2e-04
+  sp|B6J3X3|KDSA_COXB2 2-dehydro-3-deoxyphosphooctonate aldolase ...  45.9    2e-04
+  sp|B6J4X2|KDSA_COXB1 2-dehydro-3-deoxyphosphooctonate aldolase ...  45.9    2e-04
+  sp|A9KDH6|KDSA_COXBN 2-dehydro-3-deoxyphosphooctonate aldolase ...  45.5    2e-04
+  sp|Q4UN94|KDSA_RICFE 2-dehydro-3-deoxyphosphooctonate aldolase ...  45.5    2e-04
+  sp|B5FBX4|KDSA_ALIFM 2-dehydro-3-deoxyphosphooctonate aldolase ...  45.5    3e-04
+  sp|Q5E6S9|KDSA_ALIF1 2-dehydro-3-deoxyphosphooctonate aldolase ...  45.5    3e-04
+  sp|A8EXC8|KDSA_RICCK 2-dehydro-3-deoxyphosphooctonate aldolase ...  45.1    3e-04
+  sp|C3LPI0|KDSA_VIBCM 2-dehydro-3-deoxyphosphooctonate aldolase ...  45.1    3e-04
+  sp|Q9KQ29|KDSA_VIBCH 2-dehydro-3-deoxyphosphooctonate aldolase ...  45.1    3e-04
+  sp|A5F692|KDSA_VIBC3 2-dehydro-3-deoxyphosphooctonate aldolase ...  45.1    3e-04
+  sp|Q68XT6|KDSA_RICTY 2-dehydro-3-deoxyphosphooctonate aldolase ...  44.3    5e-04
+  sp|Q1RGT8|KDSA_RICBR 2-dehydro-3-deoxyphosphooctonate aldolase ...  43.9    6e-04
+  sp|A8GUR8|KDSA_RICB8 2-dehydro-3-deoxyphosphooctonate aldolase ...  43.9    6e-04
+  sp|A8GM05|KDSA_RICAH 2-dehydro-3-deoxyphosphooctonate aldolase ...  43.5    9e-04
+  sp|A8GQM3|KDSA_RICRS 2-dehydro-3-deoxyphosphooctonate aldolase ...  43.5    0.001
+  sp|B0BW09|KDSA_RICRO 2-dehydro-3-deoxyphosphooctonate aldolase ...  43.5    0.001
+  sp|Q9ZE84|KDSA_RICPR 2-dehydro-3-deoxyphosphooctonate aldolase ...  43.5    0.001
+  sp|C3PMA0|KDSA_RICAE 2-dehydro-3-deoxyphosphooctonate aldolase ...  43.2    0.001
+  sp|Q92JH7|KDSA_RICCN 2-dehydro-3-deoxyphosphooctonate aldolase ...  43.2    0.001
+  sp|A0L7X4|KDSA_MAGMM 2-dehydro-3-deoxyphosphooctonate aldolase ...  42.4    0.003
+  sp|A1US93|KDSA_BARBK 2-dehydro-3-deoxyphosphooctonate aldolase ...  41.6    0.004
+  sp|Q89KV0|KDSA_BRADU 2-dehydro-3-deoxyphosphooctonate aldolase ...  40.5    0.009
+
+
+> sp|Q58465|Y1065_METJA Uncharacterized protein MJ1065 OS=Methanocaldococcus 
+jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 
+/ JCM 10045 / NBRC 100440) OX=243232 GN=MJ1065 PE=4 SV=1
+Length=337
+
+ Score = 373 bits (958),  Expect = 3e-129, Method: Composition-based stats.
+ Identities = 117/282 (41%), Positives = 177/282 (63%), Gaps = 2/282 (1%)
+
+Query  6    QEITLGNIKIGGNNPVFIIAEAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFG  65
+            ++I +G+  +G   P FIIAE GLNH GD+++   ++ EA    A+AIKFQ+Y++E+   
+Sbjct  2    EKIKIGDRYVGKGEPTFIIAEGGLNHNGDIDIGKELVKEAKKCGADAIKFQSYHTEDFIS  61
+
+Query  66   ENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCD  125
+            +  E   L K  E  ++EF  LKE ++K  I+F +TP D+  +++L ++ V   KIAS D
+Sbjct  62   KKSEYYELFKSLELSEEEFYELKEYAEKIGIMFISTPLDLKYVDILNKMNVPAFKIASGD  121
+
+Query  126  ICNITLLEAAADSGLIVILSRGTASASEIETAVSIFKKKKS-PFILLHCVSSYPMNEIDA  184
+            +    LLE  A +G  VILS G +   EI  AV + +       ILLHC+SSYP    D 
+Sbjct  122  LTFYPLLEKVAKTGKPVILSTGMSDIGEIWEAVKVLENNGCRDIILLHCISSYPTPYEDV  181
+
+Query  185  NLSAIQTLKSKYEFPIGYSDHSKGIEIPLLAVASGAEIIEKHYTVDRTLQGIDWEISAEP  244
+            NL+AI+TLKS +  P+GYSDH+ GI  P+++VA GA++IEKH+T+D+ ++G D  +SA+P
+Sbjct  182  NLNAIKTLKSIFNIPVGYSDHTLGILAPVVSVALGADVIEKHFTLDKNMEGPDHALSADP  241
+
+Query  245  KELAKLVTETERIRKILGHGKLEPQASEQEEI-EYRNSLRRK  285
+            +E  ++V     + K+LG G+  P  SE++ I E R S+  K
+Sbjct  242  EEFKEMVNNIRLVEKMLGSGEKIPMPSERDVIVEARRSIVAK  283
+
+
+> sp|Q99J77|SIAS_MOUSE Sialic acid synthase OS=Mus musculus OX=10090 
+GN=Nans PE=1 SV=1
+Length=359
+
+ Score = 344 bits (883),  Expect = 2e-117, Method: Composition-based stats.
+ Identities = 94/288 (33%), Positives = 136/288 (47%), Gaps = 15/288 (5%)
+
+Query  13   IKIGGNNPVFIIAEAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFGEN-----  67
+              +GG +P FIIAE G NH GD+++A RMI  A +  A+  KFQ    E +F        
+Sbjct  11   RWVGGKHPCFIIAEIGQNHQGDIDVAKRMIRTAKECGADCAKFQKSELEFKFNRKALERP  70
+
+Query  68   --------KEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEIL  119
+                    K      +  EF   ++  L+  +Q+  I F A+  D   +  L E+ V   
+Sbjct  71   YTSKHSWGKTYGEHKRHLEFSHDQYKELQSYAQEIGIFFTASGMDEMAVEFLHELNVPFF  130
+
+Query  120  KIASCDICNITLLEAAADSGLIVILSRGTASASEIETAVSIFKKKKSPFILLHCVSSYPM  179
+            K+ S D  N   LE  A  G  +++S G  S   ++    I K     F  L C S+YP+
+Sbjct  131  KVGSGDTNNFPYLEKTAKKGRPMVISSGMQSMDTMKQVYQIVKPLNPNFCFLQCTSAYPL  190
+
+Query  180  NEIDANLSAIQTLKSKY-EFPIGYSDHSKGIEIPLLAVASGAEIIEKHYTVDRTLQGIDW  238
+               DANL  I   +  + + PIGYS H  GI I + AVA GA+++E+H T+D+T +G D 
+Sbjct  191  QPEDANLRVISEYQKLFPDIPIGYSGHETGIAISVAAVALGAKVLERHITLDKTWKGSDH  250
+
+Query  239  EISAEPKELAKLVTETERIRKILGHGKLEPQASEQE-EIEYRNSLRRK  285
+              S EP ELA+LV     + + LG    +    E     +   S+  K
+Sbjct  251  SASLEPGELAELVRSVRLVERALGSPTKQLLPCEMACNEKLGKSVVAK  298
+
+
+> sp|Q9NR45|SIAS_HUMAN Sialic acid synthase OS=Homo sapiens OX=9606 
+GN=NANS PE=1 SV=2
+Length=359
+
+ Score = 344 bits (881),  Expect = 3e-117, Method: Composition-based stats.
+ Identities = 93/288 (32%), Positives = 135/288 (47%), Gaps = 15/288 (5%)
+
+Query  13   IKIGGNNPVFIIAEAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFGEN-----  67
+              +GG +P FIIAE G NH GDL++A RMI  A +  A+  KFQ    E +F        
+Sbjct  11   RWVGGQHPCFIIAEIGQNHQGDLDVAKRMIRMAKECGADCAKFQKSELEFKFNRKALERP  70
+
+Query  68   --------KEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEIL  119
+                    K      +  EF   ++  L+  +++  I F A+  D   +  L E+ V   
+Sbjct  71   YTSKHSWGKTYGEHKRHLEFSHDQYRELQRYAEEVGIFFTASGMDEMAVEFLHELNVPFF  130
+
+Query  120  KIASCDICNITLLEAAADSGLIVILSRGTASASEIETAVSIFKKKKSPFILLHCVSSYPM  179
+            K+ S D  N   LE  A  G  +++S G  S   ++    I K     F  L C S+YP+
+Sbjct  131  KVGSGDTNNFPYLEKTAKKGRPMVISSGMQSMDTMKQVYQIVKPLNPNFCFLQCTSAYPL  190
+
+Query  180  NEIDANLSAIQTLKSKY-EFPIGYSDHSKGIEIPLLAVASGAEIIEKHYTVDRTLQGIDW  238
+               D NL  I   +  + + PIGYS H  GI I + AVA GA+++E+H T+D+T +G D 
+Sbjct  191  QPEDVNLRVISEYQKLFPDIPIGYSGHETGIAISVAAVALGAKVLERHITLDKTWKGSDH  250
+
+Query  239  EISAEPKELAKLVTETERIRKILGHGKLEPQASEQE-EIEYRNSLRRK  285
+              S EP ELA+LV     + + LG    +    E     +   S+  K
+Sbjct  251  SASLEPGELAELVRSVRLVERALGSPTKQLLPCEMACNEKLGKSVVAK  298
+
+
+> sp|Q5ZXH9|NEUBH_LEGPH N,N'-diacetyllegionaminic acid synthase 
+OS=Legionella pneumophila subsp. pneumophila (strain Philadelphia 
+1 / ATCC 33152 / DSM 7513) OX=272624 GN=neuB PE=1 SV=1
+Length=356
+
+ Score = 338 bits (866),  Expect = 4e-115, Method: Composition-based stats.
+ Identities = 103/299 (34%), Positives = 157/299 (53%), Gaps = 28/299 (9%)
+
+Query  11   GNIKIGGNNP------VFIIAEAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSEERF  64
+             N KI G  P       FIIAEAG+NH GDL LA  ++  A ++ A+A+KFQ + ++   
+Sbjct  3    SNRKINGIKPRGSSMTCFIIAEAGVNHNGDLQLAKELVYAAKESGADAVKFQTFKADTLV  62
+
+Query  65   GE--------------NKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNM  110
+             +              +     ++K  E  +++  LL E +    I F +T FD  +++ 
+Sbjct  63   NKTVEKAEYQKNNAPESSTQYEMLKALELSEEDHYLLSELANSLGIEFMSTGFDEQSIDF  122
+
+Query  111  LKEIGVEILKIASCDICNITLLEAAADSGLIVILSRGTASASEIETAVSIFKKK-----K  165
+            L  +GV+ LKI S +I N+  L+  A   L +I+S G     E+  A+   K        
+Sbjct  123  LISLGVKRLKIPSGEITNVPYLQHCASKKLPLIISTGMCDLQEVRVAIDTVKPYYGNSLS  182
+
+Query  166  SPFILLHCVSSYPMNEIDANLSAIQTLKSKYEFPIGYSDHSKGIEIPLLAVASGAEIIEK  225
+               +LLHC S+YP +  D NL A+QTL  +++ P+GYSDH+ GI +P LAV  GA +IEK
+Sbjct  183  DYLVLLHCTSNYPASYQDVNLKAMQTLADEFQLPVGYSDHTLGILVPTLAVGMGACVIEK  242
+
+Query  226  HYTVDRTLQGIDWEISAEPKELAKLVTETERIRKILGHGKLEPQASEQEEIEYRNSLRR  284
+            H+T+D++L G D   S +P+E+  LV        +LG G+ +P      E+  R  +RR
+Sbjct  243  HFTMDKSLPGPDHLASMDPEEMKNLVQSIRDAETVLGSGEKKPS---DNELPIRALVRR  298
+
+
+> sp|Q0P8T1|NEUBH_CAMJE N,N'-diacetyllegionaminic acid synthase 
+OS=Campylobacter jejuni subsp. jejuni serotype O:2 (strain 
+ATCC 700819 / NCTC 11168) OX=192222 GN=legI PE=1 SV=1
+Length=334
+
+ Score = 317 bits (812),  Expect = 3e-107, Method: Composition-based stats.
+ Identities = 108/285 (38%), Positives = 166/285 (58%), Gaps = 18/285 (6%)
+
+Query  19   NPVFIIAEAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSE--------------ERF  64
+                IIAEAG+NH GDLNLA ++I+ AAD+ A+ +KFQ++ ++              +  
+Sbjct  2    KKTLIIAEAGVNHNGDLNLAKKLIEIAADSGADFVKFQSFKAKNCISTKAKKAPYQLKTT  61
+
+Query  65   GENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASC  124
+              ++  + +V+  E   K    L   ++K NI F +TPFD+ ++++L E+G++I KI S 
+Sbjct  62   ANDESQLQMVQKLELDLKAHKELILHAKKCNIAFLSTPFDLESVDLLNELGLKIFKIPSG  121
+
+Query  125  DICNITLLEAAADSGLIVILSRGTASASEIETAVSIFKKKK---SPFILLHCVSSYPMNE  181
+            +I N+  L+  A     +ILS G A+  EIE A+++  K         LLHC + YP   
+Sbjct  122  EITNLPYLKKIAKLNKKIILSTGMANLGEIEEALNVLCKNGAKRQNITLLHCTTEYPAPF  181
+
+Query  182  IDANLSAIQTLKSKYEFPIGYSDHSKGIEIPLLAVASGAEIIEKHYTVDRTLQGIDWEIS  241
+             + NL A+Q+LK  ++  +GYSDH++GI I L AVA GA +IEKH+T+D+ + G D + S
+Sbjct  182  NEVNLKAMQSLKDAFKLDVGYSDHTRGIHISLAAVALGACVIEKHFTLDKNMSGPDHKAS  241
+
+Query  242  AEPKELAKLVTETERIRKILGHGKLEPQASEQEEIEY-RNSLRRK  285
+             EP+EL  L T+  +I+K +G G  +   SEQ+ I   R SL  K
+Sbjct  242  LEPQELKMLCTQIRQIQKAMGDGIKKASKSEQKNINIVRKSLVAK  286
+
+
+> sp|Q0P8U0|PSEI_CAMJE Pseudaminic acid synthase OS=Campylobacter 
+jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 / NCTC 
+11168) OX=192222 GN=pseI PE=1 SV=1
+Length=343
+
+ Score = 302 bits (772),  Expect = 5e-101, Method: Composition-based stats.
+ Identities = 90/292 (31%), Positives = 140/292 (48%), Gaps = 17/292 (6%)
+
+Query  8    ITLGNIKIGGNNPVFIIAEAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFGEN  67
+            + +GN     +  VFIIAE   NH G L +AL+ I  A  A A+AIK Q Y  +     +
+Sbjct  1    MQIGNFNT--DKKVFIIAELSANHAGSLEMALKSIKAAKKAGADAIKIQTYTPDSLTLNS  58
+
+Query  68   KEAVNLVKPAEFGKKEFLLLKERS--------------QKKNILFFATPFDVPNLNMLKE  113
+             +   ++K   + K++   L E +              Q + IL F++PF   ++  LK 
+Sbjct  59   DKEDFIIKGGLWDKRKLYELYESAKTPYEWHSQIFETAQNEGILCFSSPFAKEDVEFLKR  118
+
+Query  114  IGVEILKIASCDICNITLLEAAADSGLIVILSRGTASASEIETAVSIFKKKKSP-FILLH  172
+                  KIAS +  +   +   A      I+S G A+  E+     IFK++K+P  + L 
+Sbjct  119  FDPIAYKIASFEANDENFVRLIAKEKKPTIVSTGIATEEELFKICEIFKEEKNPDLVFLK  178
+
+Query  173  CVSSYPMNEIDANLSAIQTLKSKYEFPIGYSDHSKGIEIPLLAVASGAEIIEKHYTVDRT  232
+            C S+YP    D NL  I +LK K+   +G SDHS G   P++AVA GA +IEKH+ +D++
+Sbjct  179  CTSTYPTAIEDMNLKGIVSLKEKFNVEVGLSDHSFGFLAPVMAVALGARVIEKHFMLDKS  238
+
+Query  233  LQGIDWEISAEPKELAKLVTETERIRKILGHGKLEPQASEQEEIEYRNSLRR  284
+            ++  D + S +  E   +V    +    LG GKL+      +   +  SL  
+Sbjct  239  IESEDSKFSLDFDEFKAMVDAVRQAESALGDGKLDLDEKVLKNRVFARSLYA  290
+
+
+> sp|Q939J8|PSEI_CAMJJ Pseudaminic acid synthase OS=Campylobacter 
+jejuni subsp. jejuni serotype O:23/36 (strain 81-176) OX=354242 
+GN=pseI PE=3 SV=1
+Length=343
+
+ Score = 301 bits (771),  Expect = 8e-101, Method: Composition-based stats.
+ Identities = 91/292 (31%), Positives = 140/292 (48%), Gaps = 17/292 (6%)
+
+Query  8    ITLGNIKIGGNNPVFIIAEAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFGEN  67
+            + +GN     +  VFIIAE   NH G L +AL+ I  A  A A+AIK Q Y  +     +
+Sbjct  1    MQIGNFNT--DKKVFIIAELSANHAGSLEMALKSIKAAKKAGADAIKIQTYTPDSLTLNS  58
+
+Query  68   KEAVNLVKPAEFGKKEFLLLKERS--------------QKKNILFFATPFDVPNLNMLKE  113
+             +   ++K   + K++   L E +              Q + IL F++PF   ++  LK 
+Sbjct  59   DKEDFIIKGGLWDKRKLYELYESAKTPYEWHSQIFETAQNEGILCFSSPFAKEDIEFLKR  118
+
+Query  114  IGVEILKIASCDICNITLLEAAADSGLIVILSRGTASASEIETAVSIFKKKKSP-FILLH  172
+                  KIAS +  +   +   A      I+S G A+  E+     IFK++K+P  I L 
+Sbjct  119  FDPIAYKIASFEANDENFVRLIAKEKKPTIVSTGIATEEELFKICEIFKEEKNPDLIFLK  178
+
+Query  173  CVSSYPMNEIDANLSAIQTLKSKYEFPIGYSDHSKGIEIPLLAVASGAEIIEKHYTVDRT  232
+            C S+YP    D NL  I +LK K+   +G SDHS G   P++AVA GA +IEKH+ +D++
+Sbjct  179  CTSAYPTAIEDMNLKGIVSLKEKFNVEVGLSDHSFGFLAPVMAVALGARVIEKHFMLDKS  238
+
+Query  233  LQGIDWEISAEPKELAKLVTETERIRKILGHGKLEPQASEQEEIEYRNSLRR  284
+            ++  D + S +  E   +V    +    LG GKL+      +   +  SL  
+Sbjct  239  IESEDSKFSLDFDEFKAMVDAVRQAESALGDGKLDLDEKALKNRVFARSLYA  290
+
+
+> sp|O24980|PSEI_HELPY Pseudaminic acid synthase OS=Helicobacter 
+pylori (strain ATCC 700392 / 26695) OX=85962 GN=pseI PE=3 
+SV=1
+Length=340
+
+ Score = 300 bits (767),  Expect = 2e-100, Method: Composition-based stats.
+ Identities = 81/281 (29%), Positives = 140/281 (50%), Gaps = 18/281 (6%)
+
+Query  19   NPVFIIAEAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFGENKEAVNLVKPAE  78
+             P  I+AE   NH  DLNLA   +    ++ A+ +K Q Y        +KE   +++   
+Sbjct  3    QPPKIVAELSANHNQDLNLAKESLHAIKESGADFVKLQTYTPSCMTLNSKEDPFIIQGTL  62
+
+Query  79   FGKKEFLLLK--------------ERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASC  124
+            + K+    L               E ++K ++  F++PF    L +L+ +   + KIAS 
+Sbjct  63   WDKENLYELYQKASTPLEWHAELFELARKLDLGIFSSPFSSQALELLESLNCPMYKIASF  122
+
+Query  125  DICNITLLEAAADSGLIVILSRGTASASEIETAVSIFKKKKS-PFILLHCVSSYPMNEID  183
+            +I ++ L+E AA +   +ILS G A+ +E++ A+S+ ++  +    LL CVS+YP    D
+Sbjct  123  EIVDLDLIEKAARTQKPIILSSGIATHTELQDAISLCRRVNNFDITLLKCVSAYPSKIED  182
+
+Query  184  ANLSAIQTLKSKYEFPIGYSDHSKGIEIPLLAVASGAEIIEKHYTVDRTLQGIDWEISAE  243
+            ANL ++  L   +    G SDH+ G   P+LA   GA +IEKH+ ++++LQ  D   S +
+Sbjct  183  ANLLSMVKLGEIFGVKFGLSDHTIGSLCPILATTLGASMIEKHFILNKSLQTPDSAFSMD  242
+
+Query  244  PKELAKLVTETERIRKILGHGKLEPQASEQEEIEYRNSLRR  284
+                  +V   ++   +L  G+ EP+ +  + +E R    R
+Sbjct  243  FNGFKSMVEAIKQ--SVLALGEEEPRINP-KTLEKRRFFAR  280
+
+
+> sp|P39625|SPSE_BACSU Spore coat polysaccharide biosynthesis protein 
+SpsE OS=Bacillus subtilis (strain 168) OX=224308 GN=spsE 
+PE=1 SV=1
+Length=373
+
+ Score = 295 bits (754),  Expect = 7e-98, Method: Composition-based stats.
+ Identities = 90/274 (33%), Positives = 146/274 (53%), Gaps = 14/274 (5%)
+
+Query  9    TLGNIKIGGNNPVFIIAEAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSEERF----  64
+             + N  +G + PVFIIAEAG+NH G L+ A  +ID AA+A A+A+KFQ + ++  +    
+Sbjct  5    QIANKTVGKDAPVFIIAEAGINHDGKLDQAFALIDAAAEAGADAVKFQMFQADRMYQKDP  64
+
+Query  65   -------GENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVE  117
+                   G++    +LV+  E   +  L L +  ++K ++F +T  D  + ++L+     
+Sbjct  65   GLYKTAAGKDVSIFSLVQSMEMPAEWILPLLDYCREKQVIFLSTVCDEGSADLLQSTSPS  124
+
+Query  118  ILKIASCDICNITLLEAAADSGLIVILSRGTASASEIETAV-SIFKKKKSPFILLHCVSS  176
+              KIAS +I ++ LL+  A     +I S   A  S++  A  +I  +  +   ++HCV+ 
+Sbjct  125  AFKIASYEINHLPLLKYVARLNRPMIFSTAGAEISDVHEAWRTIRAEGNNQIAIMHCVAK  184
+
+Query  177  YPMNEIDANLSAIQTLKSKY-EFPIGYSDHSK-GIEIPLLAVASGAEIIEKHYTVDRTLQ  234
+            YP     +NLS I  L + + E  IG+SDHS+   E P  AV  GA++IEKH+T+D+ L 
+Sbjct  185  YPAPPEYSNLSVIPMLAAAFPEAVIGFSDHSEHPTEAPCAAVRLGAKLIEKHFTIDKNLP  244
+
+Query  235  GIDWEISAEPKELAKLVTETERIRKILGHGKLEP  268
+            G D   +  P EL ++V    +    L  G  +P
+Sbjct  245  GADHSFALNPDELKEMVDGIRKTEAELKQGITKP  278
+
+
+> sp|Q9VG74|SIAS_DROME Sialic acid synthase OS=Drosophila melanogaster 
+OX=7227 GN=NANS PE=1 SV=2
+Length=372
+
+ Score = 294 bits (753),  Expect = 9e-98, Method: Composition-based stats.
+ Identities = 84/251 (33%), Positives = 130/251 (52%), Gaps = 15/251 (6%)
+
+Query  19   NPVFIIAEAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFGEN-----------  67
+            + V+IIAE G NH G +  A +MI EA  A  + +KFQ  +   +F  +           
+Sbjct  13   DSVYIIAEIGQNHQGCVETAKKMIWEAKKAGCHCVKFQKSDLPAKFTRSALDREYISDHA  72
+
+Query  68   --KEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCD  125
+              K      +  EF K ++L L+   ++ N+ F A+  D  +L  L  + V  +KI S D
+Sbjct  73   WGKTYGEHKEYLEFSKDQYLQLQAHCKELNVDFTASAMDERSLEFLSALNVPFIKIGSGD  132
+
+Query  126  ICNITLLEAAADSGLIVILSRGTASASEIETAVSIFKK-KKSPFILLHCVSSYPMNEIDA  184
+              N  LL+ AA+  L +++S G  +   +E  V   ++  K  + L+HCVSSYP +  D 
+Sbjct  133  ANNFPLLKKAANLNLPLVISTGMQTMQTVERIVQTMRESGKEDYALMHCVSSYPTDPKDC  192
+
+Query  185  NLSAIQTLKSKY-EFPIGYSDHSKGIEIPLLAVASGAEIIEKHYTVDRTLQGIDWEISAE  243
+            +L  I  L++++    IGYS H  G+ I   AV  GA I+E+H+T+D++ +G D   S E
+Sbjct  193  SLQLISVLRTRFPNVAIGYSGHELGVIISQAAVLLGARIVERHFTLDKSQKGSDHRCSLE  252
+
+Query  244  PKELAKLVTET  254
+            P+EL  L T  
+Sbjct  253  PQELKALTTAI  263
+
+
+> sp|Q9WYH8|AROF_THEMA Phospho-2-dehydro-3-deoxyheptonate aldolase 
+OS=Thermotoga maritima (strain ATCC 43589 / MSB8 / DSM 3109 
+/ JCM 10099) OX=243274 GN=aroF PE=1 SV=1
+Length=338
+
+ Score = 226 bits (575),  Expect = 3e-71, Method: Composition-based stats.
+ Identities = 53/268 (20%), Positives = 102/268 (38%), Gaps = 29/268 (11%)
+
+Query  8    ITLGNIKIGGNNPVFIIAEAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFGEN  67
+            I LG++KIG      I     +       + +      ++     ++  AY         
+Sbjct  83   IDLGDVKIGNGYFTIIAGPCSVEGR---EMLMETAHFLSELGVKVLRGGAYKP-------  132
+
+Query  68   KEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCDIC  127
+            + +    +    G+K    L+E + K  +          +L  + E   +I++I + +  
+Sbjct  133  RTSPYSFQG--LGEKGLEYLREAADKYGMYVVTEALGEDDLPKVAEY-ADIIQIGARNAQ  189
+
+Query  128  NITLLEAAADSGLIVILSRG-TASASEIETAVSIFKKKKSPFILLHCV----SSYPMNEI  182
+            N  LL  A      V+L RG   +  E   +        +  I+L C     +       
+Sbjct  190  NFRLLSKAGSYNKPVLLKRGFMNTIEEFLLSAEYIANSGNTKIIL-CERGIRTFEKATRN  248
+
+Query  183  DANLSAIQTLKSKYEFPI----GYSDHSKGIEIPL--LAVASGAE--IIEKHYTVDRTLQ  234
+              ++SA+  ++ +   PI     +S   + + IPL   A+A GA   I+E H   ++ L 
+Sbjct  249  TLDISAVPIIRKESHLPILVDPSHSGGRRDLVIPLSRAAIAVGAHGIIVEVHPEPEKAL-  307
+
+Query  235  GIDWEISAEPKELAKLVTETERIRKILG  262
+              D + S + +   +LV E +++   LG
+Sbjct  308  -SDGKQSLDFELFKELVQEMKKLADALG  334
+
+
+> sp|P39912|AROG_BACSU Protein AroA(G) OS=Bacillus subtilis (strain 
+168) OX=224308 GN=aroA PE=1 SV=1
+Length=358
+
+ Score = 111 bits (277),  Expect = 4e-27, Method: Composition-based stats.
+ Identities = 44/264 (17%), Positives = 98/264 (37%), Gaps = 25/264 (9%)
+
+Query  8    ITLGNIKIGGNNPVFIIAEAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFGEN  67
+            + +   KIG     FI+    +           +   A       ++  A+         
+Sbjct  107  VDIKGEKIGDGQQRFIVGPCAVE---SYEQVAEVAAAAKKQGIKILRGGAFKP-------  156
+
+Query  68   KEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCDIC  127
+            + +    +    G +   +LK  + + ++   +      ++    +  +++++I + ++ 
+Sbjct  157  RTSPYDFQG--LGVEGLQILKRVADEFDLAVISEIVTPAHIEEALDY-IDVIQIGARNMQ  213
+
+Query  128  NITLLEAAADSGLIVILSRGT-ASASEIETAVSIFKKKKSPFILLHCV----SSYPMNEI  182
+            N  LL+AA      V+L RG  A+ SE   A      + +  I+L C     +       
+Sbjct  214  NFELLKAAGAVKKPVLLKRGLAATISEFINAAEYIMSQGNDQIIL-CERGIRTYETATRN  272
+
+Query  183  DANLSAIQTLKSKYEFP----IGYSDHSKGIEIPL--LAVASGAEIIEKHYTVDRTLQGI  236
+              ++SA+  LK +   P    + +S   + + +P    A+A GA+ +      D ++   
+Sbjct  273  TLDISAVPILKQETHLPVFVDVTHSTGRRDLLLPTAKAALAIGADGVMAEVHPDPSVALS  332
+
+Query  237  DWEISAEPKELAKLVTETERIRKI  260
+            D        E  K + E + + K+
+Sbjct  333  DSAQQMAIPEFEKWLNELKPMVKV  356
+
+
+> sp|Q3A372|KDSA_PELCD 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Pelobacter carbinolicus (strain DSM 2380 / NBRC 103641 
+/ GraBd1) OX=338963 GN=kdsA PE=3 SV=1
+Length=277
+
+ Score = 62.4 bits (150),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 50/281 (18%), Positives = 103/281 (37%), Gaps = 31/281 (11%)
+
+Query  4    MSQEITLGNIKIGGNNPV-FIIAEAGL-NHGGDLNLALRMIDEAADAKANAIKFQAYNSE  61
+            M   + + ++  GGN+PV  I     + N    L +A ++++   +     +    + + 
+Sbjct  1    MPDTLKVADVTFGGNHPVALIAGPCVMENEAHTLAIARQLLEVKNELGVGVV----FKAS  56
+
+Query  62   ERFGENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKI  121
+                  + +V+  +     +    +L +  Q+  +   +   DV  +    E+ ++IL+I
+Sbjct  57   FDKAN-RTSVSAYRGPGL-ESGLRILDKVRQQTGLPIVSDIHDVSQVEAAAEV-LDILQI  113
+
+Query  122  ASCDICNITLLEAAADSGLIVILSRG--TASASEIETAVSIFKKKKSPFILLHCVSSYPM  179
+             +       LL AA  SG +V + +G   A          +        +L    +S+  
+Sbjct  114  PAFLCRQTDLLLAAGRSGKVVNIKKGQFLAPWDMANAVAKVASTGNDRILLTERGTSFGY  173
+
+Query  180  NEIDANLSAIQTLKS-----------KYEFPIGY---SDHSKGIEIPL--LAVASGAEII  223
+            N +  ++ ++  ++              + P G    S   +     L   AVA G + +
+Sbjct  174  NNLVVDMRSLAVMRELGCPVVFDATHAVQLPGGAGTSSGGQRQFVAALSRAAVAVGVDGL  233
+
+Query  224  --EKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKILG  262
+              E H   DR L   D   S    ++ K + E   I  I+ 
+Sbjct  234  FWEVHPDPDRAL--CDGANSLPLDQVKKTLKEMMAIDAIVK  272
+
+
+> sp|Q1IKD0|KDSA_KORVE 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Koribacter versatilis (strain Ellin345) OX=204669 GN=kdsA 
+PE=3 SV=1
+Length=278
+
+ Score = 57.8 bits (138),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 48/283 (17%), Positives = 109/283 (39%), Gaps = 36/283 (13%)
+
+Query  4    MSQEITLGNIKIGGNNPVFIIAEAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSEER  63
+            M +   + +++IGG     I     +        A++M +  +     A+K         
+Sbjct  1    MIEPFKVKDVEIGGPKLFLIAGPCVIESEAH---AMKMAEAISGV-CKAMKIPYIFKASY  56
+
+Query  64   FGENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIAS  123
+               N+ +++  +      +   +L + + + N+       D        +I V++L+I +
+Sbjct  57   DKANRTSLSSFRGPGL-HEGLRILAKVADEVNVPVLTDVHDTEQATAAGDI-VDVLQIPA  114
+
+Query  124  CDICNITLLEAAADSGLIVILSRG-TASASEIETAVSIFKKKKSPFILLHCVSSYPMNEI  182
+                   LL AAA +G +V + +G   + ++++ AV+  ++  +  +   C++    +  
+Sbjct  115  FLCRQTDLLVAAAKTGKVVNVKKGQFVAPNDMQYAVTKVRESGNQRV---CLTERGASFG  171
+
+Query  183  DANL----SAIQTLKS----KYEF-------PIGYSDHS----KGIEIPL---LAVASGA  220
+              NL     A+  ++      ++          G   H+    +   IP+    AVA+G 
+Sbjct  172  YNNLVVDMRALPIMRQFAPVIFDATHSVQLPSAGKDGHAVSGGQPEFIPVLSRAAVAAGV  231
+
+Query  221  E--IIEKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKIL  261
+            +   +E H          D   + + K L  ++T   RIR+ +
+Sbjct  232  DGVFMEVHDDPPHA--KSDGANALDLKLLRGVLTSLLRIREAV  272
+
+
+> sp|P61655|KDSA_GEOSL 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Geobacter sulfurreducens (strain ATCC 51573 / DSM 12127 
+/ PCA) OX=243231 GN=kdsA PE=3 SV=1
+Length=272
+
+ Score = 57.0 bits (136),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 49/283 (17%), Positives = 111/283 (39%), Gaps = 35/283 (12%)
+
+Query  4    MSQEITLGNIKIGGNNP-VFIIAEAGL-NHGGDLNLALRMIDEAADAKANAIKFQAYNSE  61
+            M++EIT+G++KIGG+ P V I     + N    L  A R++        + +   +Y+  
+Sbjct  1    MTREITIGSVKIGGDRPLVLIAGPCVIENEAATLRCAERLMTICNGVSVSLVFKASYD--  58
+
+Query  62   ERFGENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKI  121
+                 N+ +V   +     ++   +L++      I   +    +  +    E+ ++I+++
+Sbjct  59   ---KANRTSVTSFRGPGM-QEGLRILQKVKDSLGIPVISDIHSIEQVKPAAEV-LDIIQV  113
+
+Query  122  ASCDICNITLLEAAADSGLIVILSRG--TASASEIETAVSIFKKKKSPFILLHCVSSYPM  179
+             +       L+     +  +V + +G   A          I        IL     ++  
+Sbjct  114  PAFLCRQTDLVVEVGRTNRVVNVKKGQFMAPWDMENVVGKILSTGNERIILTERGVTFGY  173
+
+Query  180  NEIDANLSAIQTLKSKYEFPIGYSDHSKGIEIPL------------------LAVASGAE  221
+            N + +++ ++  ++    FP+ + D +  +++P                    AVA+G +
+Sbjct  174  NNLVSDMRSLPIMRRI-GFPVVF-DATHSVQLPGGQGGSSGGQREFVEYLSRAAVATGID  231
+
+Query  222  II--EKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKILG  262
+             I  E H   ++ L   D   S +  +L  L+ + + I  I+ 
+Sbjct  232  GIFMEVHEDPEKAL--CDGPNSVKLDDLPALLKKLKAIDAIVK  272
+
+
+> sp|Q5ZWA3|KDSA_LEGPH 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Legionella pneumophila subsp. pneumophila (strain Philadelphia 
+1 / ATCC 33152 / DSM 7513) OX=272624 GN=kdsA PE=1 SV=1
+Length=274
+
+ Score = 56.6 bits (135),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 36/277 (13%), Positives = 88/277 (32%), Gaps = 35/277 (13%)
+
+Query  8    ITLGNIKIGGNNPVFIIA-EAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFGE  66
+            + L   + G + P+F+IA    +       LAL       +   + +             
+Sbjct  1    MRLCGFEAGLDKPLFLIAGPCVIESE---ELALETAGYLKEM-CSQLNIPFIYKSSFDKA  56
+
+Query  67   NKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCDI  126
+            N+ +++  +   F +K   +L++   +  +       +   L  +  + V++L+  +   
+Sbjct  57   NRSSISSYRGPGF-EKGLSILEKVKSQIGVPVLTDVHEDTPLFEVSSV-VDVLQTPAFLC  114
+
+Query  127  CNITLLEAAADSGLIVILSRG--TASASEIETAVSIFKKKKSPFILLHCVSSYPMNEIDA  184
+                 ++  A     V + +G   A             +      ++ C         + 
+Sbjct  115  RQTNFIQKVAAMNKPVNIKKGQFLAPWEMKHVIAKAKAQGNEQ--IMACERGVSFGYNNL  172
+
+Query  185  --NLSAIQTLKSKYEFPI---------------GYSDHSKGIEIPL--LAVASGAE--II  223
+              ++ ++  ++     P+               G S   +     L   AVA G     +
+Sbjct  173  VSDMRSLVIMRET-GCPVVYDATHSVQLPGGNNGVSGGQREFIPALARAAVAVGISGLFM  231
+
+Query  224  EKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKI  260
+            E H   D+ L   D   S    ++ +L+   +   ++
+Sbjct  232  ETHPDPDKAL--SDGPNSWPLDKMKQLLESLKAADEV  266
+
+
+> sp|A5IB80|KDSA_LEGPC 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Legionella pneumophila (strain Corby) OX=400673 GN=kdsA 
+PE=3 SV=1
+Length=274
+
+ Score = 56.6 bits (135),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 36/277 (13%), Positives = 88/277 (32%), Gaps = 35/277 (13%)
+
+Query  8    ITLGNIKIGGNNPVFIIA-EAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFGE  66
+            + L   + G + P+F+IA    +       LAL       +   + +             
+Sbjct  1    MRLCGFEAGLDKPLFLIAGPCVIESE---ELALETAGYLKEM-CSQLNIPFIYKSSFDKA  56
+
+Query  67   NKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCDI  126
+            N+ +++  +   F +K   +L++   +  +       +   L  +  + V++L+  +   
+Sbjct  57   NRSSISSYRGPGF-EKGLSILEKVKSQIGVPVLTDVHEDTPLFEVSSV-VDVLQTPAFLC  114
+
+Query  127  CNITLLEAAADSGLIVILSRG--TASASEIETAVSIFKKKKSPFILLHCVSSYPMNEIDA  184
+                 ++  A     V + +G   A             +      ++ C         + 
+Sbjct  115  RQTNFIQKVAAMNKPVNIKKGQFLAPWEMKHVIAKAKAQGNEQ--IMACERGVSFGYNNL  172
+
+Query  185  --NLSAIQTLKSKYEFPI---------------GYSDHSKGIEIPL--LAVASGAE--II  223
+              ++ ++  ++     P+               G S   +     L   AVA G     +
+Sbjct  173  VSDMRSLVIMRET-GCPVVYDATHSVQLPGGNNGVSGGQREFIPALARAAVAVGISGLFM  231
+
+Query  224  EKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKI  260
+            E H   D+ L   D   S    ++ +L+   +   ++
+Sbjct  232  ETHPDPDKAL--SDGPNSWPLDKMKQLLESLKAADEV  266
+
+
+> sp|Q5X5Y5|KDSA_LEGPA 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Legionella pneumophila (strain Paris) OX=297246 GN=kdsA 
+PE=3 SV=1
+Length=274
+
+ Score = 56.6 bits (135),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 36/277 (13%), Positives = 88/277 (32%), Gaps = 35/277 (13%)
+
+Query  8    ITLGNIKIGGNNPVFIIA-EAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFGE  66
+            + L   + G + P+F+IA    +       LAL       +   + +             
+Sbjct  1    MRLCGFEAGLDKPLFLIAGPCVIESE---ELALETAGYLKEM-CSQLNIPFIYKSSFDKA  56
+
+Query  67   NKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCDI  126
+            N+ +++  +   F +K   +L++   +  +       +   L  +  + V++L+  +   
+Sbjct  57   NRSSISSYRGPGF-EKGLSILEKVKSQIGVPVLTDVHEDTPLFEVSSV-VDVLQTPAFLC  114
+
+Query  127  CNITLLEAAADSGLIVILSRG--TASASEIETAVSIFKKKKSPFILLHCVSSYPMNEIDA  184
+                 ++  A     V + +G   A             +      ++ C         + 
+Sbjct  115  RQTNFIQKVAAMNKPVNIKKGQFLAPWEMKHVIAKAKAQGNEQ--IMACERGVSFGYNNL  172
+
+Query  185  --NLSAIQTLKSKYEFPI---------------GYSDHSKGIEIPL--LAVASGAE--II  223
+              ++ ++  ++     P+               G S   +     L   AVA G     +
+Sbjct  173  VSDMRSLVIMRET-GCPVVYDATHSVQLPGGNNGVSGGQREFIPALARAAVAVGISGLFM  231
+
+Query  224  EKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKI  260
+            E H   D+ L   D   S    ++ +L+   +   ++
+Sbjct  232  ETHPDPDKAL--SDGPNSWPLDKMKQLLESLKAADEV  266
+
+
+> sp|Q39W61|KDSA_GEOMG 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Geobacter metallireducens (strain GS-15 / ATCC 53774 / 
+DSM 7210) OX=269799 GN=kdsA PE=3 SV=1
+Length=272
+
+ Score = 56.6 bits (135),  Expect = 5e-08, Method: Composition-based stats.
+ Identities = 56/283 (20%), Positives = 114/283 (40%), Gaps = 35/283 (12%)
+
+Query  4    MSQEITLGNIKIGGNNP-VFIIAEAGL-NHGGDLNLALRMIDEAADAKANAIKFQAYNSE  61
+            M++EI +GN+K+GG+ P V I     + N    L  A R++          I   +Y+  
+Sbjct  1    MTREIAIGNVKMGGSRPLVLIAGPCVIENETATLRCAERLMTIVNGLSIPLIFKASYD--  58
+
+Query  62   ERFGENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKI  121
+                 N+ +V   +     K+   +L +  +   +   +    +  +    E+ ++IL+I
+Sbjct  59   ---KANRTSVTAFRGPGL-KEGLRILAKVKESLGLPVISDIHSIEQVQPAAEV-LDILQI  113
+
+Query  122  ASCDICNITLLEAAADSGLIVILSRG--TASASEIETAVSIFKKKKSPFILLHCVSSYPM  179
+             +       LL  AA +G +V + +G   A          I        IL    +S+  
+Sbjct  114  PAFLCRQTDLLVEAARTGCVVNVKKGQFLAPWDMENVVGKIVASGNERIILTERGASFGY  173
+
+Query  180  NEIDANLSAIQTLKSKYEFPIGYSDHSKGIEIPL------------------LAVASGAE  221
+            N + +++ ++  ++ ++ FP+ + D +  +++P                    AVA+G +
+Sbjct  174  NNLVSDMRSLPIMR-RFGFPVVF-DATHSVQLPGGQGGSSGGQREFVEYLSRAAVATGID  231
+
+Query  222  --IIEKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKILG  262
+               +E H   D+ L   D   S    +L  L+ + + I  I+ 
+Sbjct  232  GVFLEVHEEPDKAL--CDGPNSVPLDDLPVLLKKLKAIDAIVK  272
+
+
+> sp|B3R497|KDSA_CUPTR 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Cupriavidus taiwanensis (strain DSM 17343 / BCRC 17206 
+/ CIP 107171 / LMG 19424 / R1) OX=977880 GN=kdsA PE=3 SV=1
+Length=289
+
+ Score = 56.3 bits (134),  Expect = 6e-08, Method: Composition-based stats.
+ Identities = 35/285 (12%), Positives = 93/285 (33%), Gaps = 41/285 (14%)
+
+Query  8    ITLGNIKIGGNNPVFIIA-EAGLNHGG-DLNLALRMIDEAADAKANAIKFQAYNSEERFG  65
+            + L   ++G + P F+IA    +      L+ A  +     +     I    Y S     
+Sbjct  1    MKLCGFEVGLDKPFFLIAGPCVIESEQMALDTAGELKAITTELGIPFI----YKSSFDKA  56
+
+Query  66   ENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCD  125
+              + +    +     +K   +L    ++  +       ++  +  +  + V++L+  +  
+Sbjct  57   N-RSSGKSFRGLGM-EKGLEILAHVKREIGVPVLTDIHEIDEIKPVAAV-VDVLQTPAFL  113
+
+Query  126  ICNITLLEAAADSGLIVILSRG-------TASASEIETAVSIFKKKK-SPFILLHCVSSY  177
+                  + A A SG  V + +G         +   I+ A    ++      + + C    
+Sbjct  114  CRQTDFIRACAQSGKPVNIKKGQFLAPHDMKNV--IDKARDAAREAGLPDDVFMACERGV  171
+
+Query  178  PMNEIDA--NLSAIQTLKSKYEFPIGYSDHSKGI----------------EIPLLAVASG  219
+                 +   ++ ++  ++      +  + HS  +                 +   AVA+G
+Sbjct  172  SFGYNNLVSDMRSLAIMRETGAPVVFDATHSVQLPGGQGTSSGGQREFVPVLSRAAVATG  231
+
+Query  220  AE--IIEKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKILG  262
+                 +E H    + +   D   +     + +L+T  + +  ++ 
+Sbjct  232  VAGLFMETHPDPSKAM--SDGPNAVPLSRMKELLTVLKELDTLVK  274
+
+
+> sp|Q6AQ79|KDSA_DESPS 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Desulfotalea psychrophila (strain LSv54 / DSM 12343) OX=177439 
+GN=kdsA PE=3 SV=1
+Length=280
+
+ Score = 56.3 bits (134),  Expect = 6e-08, Method: Composition-based stats.
+ Identities = 47/274 (17%), Positives = 104/274 (38%), Gaps = 33/274 (12%)
+
+Query  11   GNIKIGGNNPVFIIA-EAGLNHGG-DLNLALRMIDEAADAKANAIKFQAYNSEERFGENK  68
+             +I +G   P+ +I     L        +A  +         + +    + +       +
+Sbjct  15   SDILVGSGQPLLLIGGPCSLESEQLGREVAETVSKICKKLGISYV----FKASFDKAN-R  69
+
+Query  69   EAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCDICN  128
+             +++  +     KK    L    +   +   +   D+  +    E+ ++I++I +     
+Sbjct  70   TSISSYRGPGL-KKGLASLARIREDLQVPVISDIHDISQVGPAAEV-LDIIQIPAFLCRQ  127
+
+Query  129  ITLLEAAADSGLIVILSRG-TASASEIETAVSIFKKKKSPFILL-HCVSSYPMNEIDANL  186
+              LL AAA SG  V + +G   S  ++E A+   +   S  ++L    + +  N +  ++
+Sbjct  128  TDLLVAAAKSGKPVNVKKGQFVSPWDMENAIGKLRDAGSDKVMLVERGACFGYNNLVVDM  187
+
+Query  187  SAIQTLKSKYEFPIGY-SDHS--------------KGIEIPLLAVASGAEI----IEKHY  227
+             ++  ++S +  P+ Y + HS              +    PL   A  A I    +E H 
+Sbjct  188  RSLPVMRS-FNCPVIYDATHSVQLPGGAGGSSSGQREFIEPLSKAAIAAGIDGLFMEIHP  246
+
+Query  228  TVDRTLQGIDWEISAEPKELAKLVTETERIRKIL  261
+              D+ L   D   S    ++ +L+T+  ++R  +
+Sbjct  247  DPDKAL--CDGPNSIALDQVEELLTKLVKVRAAV  278
+
+
+> sp|A5G5T2|KDSA_GEOUR 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Geobacter uraniireducens (strain Rf4) OX=351605 GN=kdsA 
+PE=3 SV=1
+Length=272
+
+ Score = 55.9 bits (133),  Expect = 7e-08, Method: Composition-based stats.
+ Identities = 56/283 (20%), Positives = 112/283 (40%), Gaps = 35/283 (12%)
+
+Query  4    MSQEITLGNIKIGGNNP-VFIIAEAGL-NHGGDLNLALRMIDEAADAKANAIKFQAYNSE  61
+            M +EI++GN+KIGG+ P V I     + N    +  A R++        N +        
+Sbjct  1    MVKEISVGNVKIGGDRPLVLIAGPCVIENEVATMRCAERLMTI-----CNGVSIPLIFKA  55
+
+Query  62   ERFGENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKI  121
+                 N+ +VN  +     K    +LK+  +   +   +    +  +    E+ +++++I
+Sbjct  56   SYDKANRTSVNSFRGPGM-KDGLKILKKVKEALGVPVLSDIHSIEQVEPAAEV-LDVVQI  113
+
+Query  122  ASCDICNITLLEAAADSGLIVILSRG--TASASEIETAVSIFKKKKSPFILLHCVSSYPM  179
+             +       L+ AAA SG +V + +G   A       A           IL     S+  
+Sbjct  114  PAFLCRQTDLVVAAARSGKVVNIKKGQFLAPWDMENVAGKAVSTGNDNIILTERGVSFGY  173
+
+Query  180  NEIDANLSAIQTLKSKYEFPIGYSDHSKGIEIPL------------------LAVASGAE  221
+            N + +++ +   L+    +P+ + D +  +++P                    AVA+G +
+Sbjct  174  NNLVSDMRSFPILRKI-GYPVVF-DATHSVQLPGGLGGSSGGQREFVEYLGRAAVATGID  231
+
+Query  222  II--EKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKILG  262
+             I  E H   ++ L   D   S + ++L  L+ + + I  I+ 
+Sbjct  232  GIFMEVHDDPEKAL--CDGPNSVKLEDLPALLKKLKAIDAIVK  272
+
+
+> sp|P61653|KDSA_BDEBA 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Bdellovibrio bacteriovorus (strain ATCC 15356 / DSM 50701 
+/ NCIB 9529 / HD100) OX=264462 GN=kdsA PE=3 SV=1
+Length=288
+
+ Score = 55.5 bits (132),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 45/286 (16%), Positives = 97/286 (34%), Gaps = 45/286 (16%)
+
+Query  8    ITLGNIKIGGNNPVFIIAEAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFGEN  67
+            + +GNI++  + P  + A  GLN     +LA+++ +       + +K            N
+Sbjct  10   VKIGNIEVANDKPFVLFA--GLNVLESRDLAMQVCEHFVKV-TDKLKIPYVFKSSFDKAN  66
+
+Query  68   KEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCDIC  127
+            + +++  +     ++   +  E  +   +       ++     + E+ V+++++ +    
+Sbjct  67   RSSIHSYRGPGM-EEGLKIFAELKKTFGVKVITDVHEIHQAKPVAEV-VDVIQLPAFLAR  124
+
+Query  128  NITLLEAAADSG------LIVILSRGTASASEIETAVSIFKKKKSPFILLHCVSSYPMNE  181
+               L+EA A +G          LS G     ++   V  F +  +  I+L C      N 
+Sbjct  125  QTDLVEAMARTGAVINVKKPQFLSPG-----QMGNIVDKFAECGNDKIIL-CDRG--TNF  176
+
+Query  182  IDANL--------------SAIQTLKSKYEF-----PIGY-SDHSKGIEIPL----LAVA  217
+               NL                   +           P G  S   +G    L    LAV 
+Sbjct  177  GYDNLVVDTLGFNIMKKVSKGSPVILDATHALQCRDPFGAASGGRRGQVAELSRAGLAVG  236
+
+Query  218  SGAEIIEKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKILGH  263
+                 IE H   D+ L   D   +    ++   + + + +  ++  
+Sbjct  237  LAGLFIESHPNPDKAL--CDGPSALPLSKVEPFLQQMKALDDLVKS  280
+
+
+> sp|Q1H010|KDSA_METFK 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Methylobacillus flagellatus (strain KT / ATCC 51484 / DSM 
+6875) OX=265072 GN=kdsA PE=3 SV=1
+Length=279
+
+ Score = 55.1 bits (131),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 37/284 (13%), Positives = 93/284 (33%), Gaps = 43/284 (15%)
+
+Query  8    ITLGNIKIGGNNPVFIIA-EAGLNHGGDLNLALRMIDEAAD----AKANAIKFQAYNSEE  62
+            + L   ++G + P+F+IA    +       +A+    +  +       N I   +Y+   
+Sbjct  1    MQLCGFEVGIDQPLFLIAGPCVIESQ---EMAIETAGQLKEITTALGINFIYKSSYDKAN  57
+
+Query  63   RFGENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIA  122
+            R           +      +   +L E  ++  +           +  +  + V++L+  
+Sbjct  58   RSSNKT-----FRGFGMD-EGLKILDEVRRQVGVPILTDVHTEAQVPHVAAV-VDVLQTP  110
+
+Query  123  SCDICNITLLEAAADSGLIVILSRG-TASASEIETAVSIFKKKKSPF-ILLHCVSSYPMN  180
+            +        + A A SG  V + +G   +  +++  V   K+       ++ C       
+Sbjct  111  AFLCRQTDFITACAQSGKPVNIKKGQFLAPGDMKQVVQKAKEANGGADTIMVCERGASFG  170
+
+Query  181  EIDA--NLSAIQTLKSKYEFPIGY---------------SDHSKGIEIPL---LAVASGA  220
+                  ++  +  ++     P+ +               S   +   +P+    AVASG 
+Sbjct  171  YNTLISDMRGLAIMRET-NCPVVFDATHSVQQPGGQGDKSGGQREF-VPVLARAAVASGV  228
+
+Query  221  E--IIEKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKILG  262
+                +E H    + L   D   +    ++  L+     + +++ 
+Sbjct  229  AGVFMETHPDPAQAL--SDGPNAWPLSKMKALLEVLVDLDRVVK  270
+
+
+> sp|B2JIX1|KDSA_PARP8 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Paraburkholderia phymatum (strain DSM 17167 / CIP 108236 
+/ LMG 21445 / STM815) OX=391038 GN=kdsA PE=3 SV=1
+Length=284
+
+ Score = 54.3 bits (129),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 24/142 (17%), Positives = 56/142 (39%), Gaps = 9/142 (6%)
+
+Query  8    ITLGNIKIGGNNPVFIIAEAGL--NHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFG  65
+            + LG+ +IG + P F+IA   +  +    ++ A ++ +  A  K   I   +Y+      
+Sbjct  1    MKLGDFEIGLDKPFFLIAGTCVVESEQMTIDTAGKLKEICAKLKIPFIYKSSYD-----K  55
+
+Query  66   ENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCD  125
+             N+ +    +      +   +L E  ++  +           +  +  + V++L+  +  
+Sbjct  56   ANRSSGKSFRGLGMD-EGLRILSEVKRQLGLHVLTDVHSEHEIEPVASV-VDVLQTPAFL  113
+
+Query  126  ICNITLLEAAADSGLIVILSRG  147
+                  + A A SG  V + +G
+Sbjct  114  CRQTDFIHACARSGKPVNIKKG  135
+
+
+> sp|Q47DI0|KDSA_DECAR 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Dechloromonas aromatica (strain RCB) OX=159087 GN=kdsA 
+PE=3 SV=1
+Length=278
+
+ Score = 54.3 bits (129),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 37/279 (13%), Positives = 96/279 (34%), Gaps = 33/279 (12%)
+
+Query  8    ITLGNIKIGGNNPVFIIA-EAGLNHGG-DLNLALRMIDEAADAKANAIKFQAYNSEERFG  65
+            + L   + G + P F+IA           L++A  M +  A    N I   +Y+      
+Sbjct  1    MKLCGFEAGLDQPFFLIAGPCTAESEQLCLDVAGHMKEVCARLGINYIFKASYD-----K  55
+
+Query  66   ENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCD  125
+             N+ +   V+     ++   +  E  ++  +        + ++  +  + V++L+  +  
+Sbjct  56   ANRSSGKSVRGLGL-EEGLRIFSEVQRQIGVPVLTDVHTIEDIPAVAAV-VDVLQTPAFL  113
+
+Query  126  ICNITLLEAAADSGLIVILSRG-TASASEIETAVSIFKKKKSPF-ILLHCVSSYPMNEID  183
+                  + A A  G  V + +G   +  +++  V   ++  +    ++ C         +
+Sbjct  114  CRQTDFIHAVATCGKPVNIKKGQFLAPGDMKNVVDKAREVNNGADNIMVCERGASFGYNN  173
+
+Query  184  A--NLSAIQTLKSKYEFPIGYSDHSKGI-------------EIPL---LAVASGAE--II  223
+               ++ ++  ++      +  + HS  +              +P+    A+A G     +
+Sbjct  174  LVSDMRSLAIMRETGCPVVFDATHSVQLPGGQGTTSGGQREFVPVLARAAIAVGISGLFM  233
+
+Query  224  EKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKILG  262
+            E H   ++     D   S     +  L+     + K + 
+Sbjct  234  ETHPCPEKAW--SDGPNSWPLDRMESLLATLVALDKAVK  270
+
+
+> sp|Q5WXA7|KDSA_LEGPL 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Legionella pneumophila (strain Lens) OX=297245 GN=kdsA 
+PE=3 SV=1
+Length=274
+
+ Score = 54.3 bits (129),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 36/277 (13%), Positives = 87/277 (31%), Gaps = 35/277 (13%)
+
+Query  8    ITLGNIKIGGNNPVFIIA-EAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFGE  66
+            + L   + G + P+F+IA    +       LAL       +   + +             
+Sbjct  1    MRLCGFEAGLDKPLFLIAGPCVIESE---ELALETAGYLKEM-CSQLNIPFIYKSSFDKA  56
+
+Query  67   NKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCDI  126
+            N+ +++  +   F +K   +L++   +  +       +   L  +  + V++L+  +   
+Sbjct  57   NRSSISSYRGPGF-EKGLSILEKVKSQIGVPVLTDVHEDTPLFEVSSV-VDVLQTPAFLC  114
+
+Query  127  CNITLLEAAADSGLIVILSRG--TASASEIETAVSIFKKKKSPFILLHCVSSYPMNEIDA  184
+                 ++  A     V + +G   A             +      ++ C         + 
+Sbjct  115  RQTNFIQKVAAMNKPVNIKKGQFLAPWEMKHVIAKAKAQGNEQ--IMACERGVSFGYNNL  172
+
+Query  185  --NLSAIQTLKSKYEFPI---------------GYSDHSKGIEIPL--LAVASGAE--II  223
+              ++ ++  ++     P+               G S   +     L   AVA G     +
+Sbjct  173  VSDMRSLVIMRET-GCPVVYDATHSVQLPGGNNGVSGGQREFIPALARAAVAVGISGLFM  231
+
+Query  224  EKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKI  260
+            E H   D  L   D   S    ++ +L+   +   ++
+Sbjct  232  ETHPDPDNAL--SDGPNSWPLDKMKQLLESLKAADEV  266
+
+
+> sp|B0UUE2|KDSA_HISS2 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Histophilus somni (strain 2336) OX=228400 GN=kdsA PE=3 
+SV=1
+Length=284
+
+ Score = 53.6 bits (127),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 48/294 (16%), Positives = 102/294 (35%), Gaps = 49/294 (17%)
+
+Query  5    SQEITLGNIKIGGNNPVFIIAEAGLNHGGDLNLAL----RMIDEAADAKANAIKFQAYNS  60
+            +Q I LGNI+IG N P  +    G+N     ++A+    + ++         I   +++ 
+Sbjct  3    NQVIQLGNIEIGNNKPFVLFG--GMNVLESRDMAMQVCEKYVEVTQKLGVPYIFKASFD-  59
+
+Query  61   EERFGENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILK  120
+              +   +          E G K F  LKE      +       ++     + E+ V+I++
+Sbjct  60   --KANRSSIHSYRGPGMEEGLKIFQELKE---TFGVKVITDVHEIYQCRPVAEV-VDIIQ  113
+
+Query  121  IASCDICNITLLEAAADSG------LIVILSRGTASASEIETAVSIFKKKKSPFILLHCV  174
+            + +       L+EA A +G          LS G     +I   V    +  +  ++L C 
+Sbjct  114  LPAFLARQTDLVEAMARTGAVINVKKPQFLSPG-----QIGNIVEKIAECGNNKVIL-CD  167
+
+Query  175  --SSYPMNEIDANLSAIQTLKS-------KYEF--------PIG-YSDHSKGIEIPLL--  214
+              +++  + +  ++     +K         ++         P G  S   +     L   
+Sbjct  168  RGTNFGYDNLVVDMLGFNIMKKVSQGCPVIFDVTHSLQCRDPFGAASGGRRDQVTELARS  227
+
+Query  215  --AVASGAEIIEKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKILGHGKL  266
+              A+      +E H   ++     D   +    +L   V + + I  ++   + 
+Sbjct  228  GMAIGLAGLFLESHPNPNQA--KCDGPSALPLSKLEPFVAQMKAIDDLVKSFEE  279
+
+
+> sp|Q13X06|KDSA_PARXL 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Paraburkholderia xenovorans (strain LB400) OX=266265 GN=kdsA 
+PE=3 SV=1
+Length=284
+
+ Score = 53.2 bits (126),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 24/142 (17%), Positives = 55/142 (39%), Gaps = 9/142 (6%)
+
+Query  8    ITLGNIKIGGNNPVFIIAEAGL--NHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFG  65
+            + LG+ +IG + P F+IA   +  +    ++ A R+ +  A      I   +Y+      
+Sbjct  1    MKLGDFEIGLDRPFFLIAGTCVVESEQMTIDTAGRLKEICAKLNIPFIYKSSYD-----K  55
+
+Query  66   ENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCD  125
+             N+ +    +      +   +L E  ++  +           +  +  + V++L+  +  
+Sbjct  56   ANRSSGKSFRGLGMD-EGLRILSEVKRQLGLPVLTDVHAEHEIEQVASV-VDVLQTPAFL  113
+
+Query  126  ICNITLLEAAADSGLIVILSRG  147
+                  + A A SG  V + +G
+Sbjct  114  CRQTDFIHACARSGKPVNIKKG  135
+
+
+> sp|B8F521|KDSA_HAEPS 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Haemophilus parasuis serovar 5 (strain SH0165) OX=557723 
+GN=kdsA PE=3 SV=1
+Length=284
+
+ Score = 52.8 bits (125),  Expect = 9e-07, Method: Composition-based stats.
+ Identities = 40/296 (14%), Positives = 101/296 (34%), Gaps = 50/296 (17%)
+
+Query  4    MSQE-ITLGNIKIGGNNPVFIIAEAGLNHGGDLNLAL----RMIDEAADAKANAIKFQAY  58
+            M Q+ I+LGNI I  + P  +    G+N     ++A+    + ++         +    +
+Sbjct  1    MQQKTISLGNIDIANDKPFVLFG--GMNVLESRDMAMQVCEKYVEVTQRLGVPYV----F  54
+
+Query  59   NSEERFGENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEI  118
+             +           +   P    ++   + +E      +       ++     + E+ V+I
+Sbjct  55   KASFDKANRSSIHSYRGPGM--EEGLKIFQELKDTFGVKIITDVHEIYQCQPVAEV-VDI  111
+
+Query  119  LKIASCDICNITLLEAAADSG------LIVILSRGTASASEIETAVSIFKKKKSPFILLH  172
+            +++ +       L+EA A +G          LS G     ++   V   ++  +  ++L 
+Sbjct  112  IQLPAFLARQTDLVEAMARTGAVINVKKPQFLSPG-----QMGNIVEKIEECGNDKVIL-  165
+
+Query  173  CV--SSYPMNEIDANLSAIQTLKS-------KYEF--------PIGY-SDHSKGIEIPLL  214
+            C   +++  + +  ++     +K         ++         P G  S   +     L 
+Sbjct  166  CDRGTNFGYDNLVVDMLGFNVMKKVSKGCPVIFDVTHSLQCRDPFGAASGGRRDQVTKLA  225
+
+Query  215  ----AVASGAEIIEKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKILGHGKL  266
+                A+      +E H   ++     D   +    +L   V++ + I  ++   + 
+Sbjct  226  RAGMAIGLAGLFLEAHPDPNKA--KCDGPSALPLSKLEAFVSQMKAIDDLVKSFEE  279
+
+
+> sp|Q0I3B9|KDSA_HAES1 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Haemophilus somnus (strain 129Pt) OX=205914 GN=kdsA PE=3 
+SV=1
+Length=284
+
+ Score = 52.4 bits (124),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 47/294 (16%), Positives = 102/294 (35%), Gaps = 49/294 (17%)
+
+Query  5    SQEITLGNIKIGGNNPVFIIAEAGLNHGGDLNLAL----RMIDEAADAKANAIKFQAYNS  60
+            +Q I LGNI+IG N P  +    G+N     ++A+    + ++         I   +++ 
+Sbjct  3    NQVIQLGNIEIGNNKPFVLFG--GMNVLESRDMAMQVCEKYVEVTQKLGVPYIFKASFD-  59
+
+Query  61   EERFGENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILK  120
+              +   +          E G K F  LKE      +       ++     + E+ V+I++
+Sbjct  60   --KANRSSIHSYRGPGMEEGLKIFQELKE---TFGVKVITDVHEIYQCRPVAEV-VDIIQ  113
+
+Query  121  IASCDICNITLLEAAADSG------LIVILSRGTASASEIETAVSIFKKKKSPFILLHCV  174
+            + +       L+EA A +G          LS G     +I   V    +  +  ++L C 
+Sbjct  114  LPAFLARQTDLVEAMARTGAVINVKKPQFLSPG-----QIGNIVEKIAECGNNKVIL-CD  167
+
+Query  175  --SSYPMNEIDANLSAIQTLKS-------KYEF--------PIG-YSDHSKGIEIPLL--  214
+              +++  + +  ++     +K         ++         P G  S   +     L   
+Sbjct  168  RGTNFGYDNLVVDMLGFNIMKKVSQGCPVIFDVTHSLQCRDPFGAASGGRRDQVTELARS  227
+
+Query  215  --AVASGAEIIEKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKILGHGKL  266
+              A+      +E H   ++     D   +    +L   + + + I  ++   + 
+Sbjct  228  GMAIGLAGLFLESHPNPNQA--KCDGPSALPLSKLEPFIAQMKAIDDLVKSFEE  279
+
+
+> sp|A5EW23|KDSA_DICNV 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Dichelobacter nodosus (strain VCS1703A) OX=246195 GN=kdsA 
+PE=3 SV=1
+Length=277
+
+ Score = 52.4 bits (124),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 38/281 (14%), Positives = 92/281 (33%), Gaps = 31/281 (11%)
+
+Query  8    ITLGNIKIGGNNPVFIIA-EAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFGE  66
+            + L +  +  + P F+IA    +       LAL   +       + +K            
+Sbjct  1    MKLIDFDVDNDRPFFLIAGPCVIESEY---LALHTAEVLKTI-TDELKIPFIYKSSFDKA  56
+
+Query  67   NKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCDI  126
+            N+ +    +      +   +L +  +   +       +   L+ +  + V++L+  +   
+Sbjct  57   NRSSGASFRGLGL-AEGLRILAKVKETFAVPILTDVHEYTPLDEVASV-VDVLQTPAFLC  114
+
+Query  127  CNITLLEAAADSGLIVILSRG--TASASEIETAVSIFKKKKSPFILLHCVSSYPMNEIDA  184
+                 +      G  V + +G   A                   +L    +S+  N + A
+Sbjct  115  RQTDFITRVCAQGKPVNIKKGQFLAPWDMKHVVAKAKATGNEQIMLCERGASFGYNNLVA  174
+
+Query  185  NLSAIQTLKSKYEFPI--------------GYSDHSKGIEIPL---LAVASGAEII--EK  225
+            ++ ++  +K+ +  P+              G S   +   +P+    A+A G   I  E 
+Sbjct  175  DMRSLAVMKT-FSAPVVFDATHSVQLPGGNGASSGGQREFVPVLARAAIAVGVAGIFMET  233
+
+Query  226  HYTVDRTLQGIDWEISAEPKELAKLVTETERIRKILGHGKL  266
+            H   ++ L   D   S    ++  L+ +   +  ++   +L
+Sbjct  234  HPEPEKAL--SDGANSIPLAQMRHLLQQLRALDTLVKTNEL  272
+
+
+> sp|B9M9Q6|KDSA_GEODF 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Geobacter daltonii (strain DSM 22248 / JCM 15807 / FRC-32) 
+OX=316067 GN=kdsA PE=3 SV=1
+Length=272
+
+ Score = 52.0 bits (123),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 56/283 (20%), Positives = 112/283 (40%), Gaps = 35/283 (12%)
+
+Query  4    MSQEITLGNIKIGGNNP-VFIIAEAGL-NHGGDLNLALRMIDEAADAKANAIKFQAYNSE  61
+            M +EI++GNIKIGG+ P V +     + N    L  A R++          I   +Y+  
+Sbjct  1    MVKEISVGNIKIGGDRPLVLVAGPCVIENEAATLRCAERLMTICNGVSMPLIFKASYD--  58
+
+Query  62   ERFGENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKI  121
+                 N+ +VN  +     K    +LK+  +   +   +    +  +    E+ +++++I
+Sbjct  59   ---KANRTSVNSFRGPGL-KDGLKILKKVKESLGVPVLSDIHSIEQVEPAAEV-LDVIQI  113
+
+Query  122  ASCDICNITLLEAAADSGLIVILSRG--TASASEIETAVSIFKKKKSPFILLHCVSSYPM  179
+             +       L+ AAA SG ++ + +G   A                   IL     S+  
+Sbjct  114  PAFLCRQTDLVVAAAMSGRVINIKKGQFLAPWDMENVVGKAVSTGNDNVILTERGVSFGY  173
+
+Query  180  NEIDANLSAIQTLKSKYEFPIGYSDHSKGIEIPL------------------LAVASGAE  221
+            N + +++ +   L+    +P+ + D +  +++P                    AVA+G +
+Sbjct  174  NNLVSDMRSFPILRQT-GYPVIF-DATHSVQLPGGLGGSSGGQREFVEYLGRAAVATGID  231
+
+Query  222  II--EKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKILG  262
+             I  E H   ++ L   D   S +  +L  L+ + + I  I+ 
+Sbjct  232  GIFMEVHEDPEKAL--CDGPNSVKLDDLPALLKKLKAIDAIVK  272
+
+
+> sp|A9AGW1|KDSA_BURM1 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Burkholderia multivorans (strain ATCC 17616 / 249) OX=395019 
+GN=kdsA PE=3 SV=1
+Length=284
+
+ Score = 50.9 bits (120),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 38/289 (13%), Positives = 98/289 (34%), Gaps = 45/289 (16%)
+
+Query  8    ITLGNIKIGGNNPVFIIAEAGL--NHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFG  65
+            + L + ++G + P F+IA   +  +    ++ A R+ +  A      I   +Y+      
+Sbjct  1    MKLCDFEVGLDKPFFLIAGTCVVESEQMTIDTAGRLKEICAKLNIPFIYKSSYD-----K  55
+
+Query  66   ENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCD  125
+             N+ +    +      +   +L E  ++  +        +  +  +  + V++L+  +  
+Sbjct  56   ANRSSGKSFRGLGMD-EGLRILSEVKRQLGLPVLTDVHSIDEIEQVASV-VDVLQTPAFL  113
+
+Query  126  ICNITLLEAAADSGLIVILSRG-------TASASEIETAVSIFKKKK-SPFILLHCVSSY  177
+                  + A A SG  V + +G         +   I+ A    ++   S    + C    
+Sbjct  114  CRQTDFIHACARSGKPVNIKKGQFLAPHDMKNV--IDKARDAAREAGLSEDRFMACERGV  171
+
+Query  178  PMNEIDA--NLSAIQTLKSKYEFPIGYSDHSKGIEIPL------------------LAVA  217
+                 +   ++ ++  ++     P+ + D +  +++P                    AVA
+Sbjct  172  SFGYNNLVSDMRSLAIMRET-NAPVVF-DATHSVQLPGGQGTSSGGQREFVPVLARAAVA  229
+
+Query  218  SGAE--IIEKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKILGHG  264
+            +G     +E H          D   +     ++ L+     + + +  G
+Sbjct  230  TGVAGLFMETHPNPAEA--KSDGPNAVPLNRMSALLETLVTLDQAVKRG  276
+
+
+> sp|Q604M5|KDSA_METCA 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Methylococcus capsulatus (strain ATCC 33009 / NCIMB 11132 
+/ Bath) OX=243233 GN=kdsA PE=3 SV=2
+Length=283
+
+ Score = 50.9 bits (120),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 42/286 (15%), Positives = 86/286 (30%), Gaps = 43/286 (15%)
+
+Query  5    SQEITLGNIKIGGNNPVFIIA-EAGLNHGGDLNLALRMIDEAAD----AKANAIKFQAYN  59
+            ++   L    +G  +P+F+IA    +       LAL       +         I    Y 
+Sbjct  8    ARPFELCGFPVGLEHPLFLIAGPCVIETE---QLALDTAGALKEITDGLGIPFI----YK  60
+
+Query  60   SEERFGENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEIL  119
+            S           +   P    ++   +L E  ++  +       +   L  +  + V++L
+Sbjct  61   SSFDKANRSSHASYRGPGM--EEGLRILAEVKRQIGVPVLTDVHEDTPLQEVASV-VDVL  117
+
+Query  120  KIASCDICNITLLEAAADSGLIVILSRG--TASASEIETAVSIFKKKKSPFILLHCVSSY  177
+            +  +        ++  A++G  V L +G   A       A            ++ C    
+Sbjct  118  QTPAFLCRQTNFIQNVANTGKPVNLKKGQFLAPWDMKHVAAKALATGNRH--IMVCERGV  175
+
+Query  178  PMNEIDA--NLSAIQTLKSKYEFPIGY---------------SDHSKGIEIPLL--AVAS  218
+                 +   ++ ++  ++     P+ Y               S   +     L   AVA 
+Sbjct  176  SFGYNNLVSDMRSLSIMRET-GCPVVYDATHSVQLPGGQGTASGGQREFVPALARAAVAV  234
+
+Query  219  GAE--IIEKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKILG  262
+            G     +E H   DR L   D   S     +  L+     + + + 
+Sbjct  235  GISGLFMETHPDPDRAL--SDGPNSWPLDRMKALLELLSTLDRTVK  278
+
+
+> sp|B4EDA2|KDSA_BURCJ 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Burkholderia cenocepacia (strain ATCC BAA-245 / DSM 16553 
+/ LMG 16656 / NCTC 13227 / J2315 / CF5610) OX=216591 GN=kdsA 
+PE=1 SV=1
+Length=284
+
+ Score = 50.5 bits (119),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 21/142 (15%), Positives = 54/142 (38%), Gaps = 9/142 (6%)
+
+Query  8    ITLGNIKIGGNNPVFIIAEAGL--NHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFG  65
+            + L + ++G + P F+IA   +  +    ++ A R+ +         I   +Y+      
+Sbjct  1    MKLCDFEVGLDQPFFLIAGTCVVESEQMTIDTAGRLKEICEKLNVPFIYKSSYD-----K  55
+
+Query  66   ENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCD  125
+             N+ +    +      +   +L E  ++  +        +  +  +  + V++L+  +  
+Sbjct  56   ANRSSGKSFRGLGMD-EGLRILSEVKRQLGLPVLTDVHSIDEIEQVASV-VDVLQTPAFL  113
+
+Query  126  ICNITLLEAAADSGLIVILSRG  147
+                  + A A SG  V + +G
+Sbjct  114  CRQTDFIHACARSGKPVNIKKG  135
+
+
+> sp|A1JRS8|KDSA_YERE8 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Yersinia enterocolitica serotype O:8 / biotype 1B (strain 
+NCTC 13174 / 8081) OX=393305 GN=kdsA PE=3 SV=1
+Length=284
+
+ Score = 50.5 bits (119),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 42/293 (14%), Positives = 102/293 (35%), Gaps = 50/293 (17%)
+
+Query  4    MSQEI-TLGNIKIGGNNPVFIIAEAGLNHGGDLNLALRM----IDEAADAKANAIKFQAY  58
+            M Q++ ++G+IK+  + P  +    G+N     +LA+R+    +          +    +
+Sbjct  1    MKQKVVSIGDIKVANDLPFVLFG--GMNVLESRDLAMRICEHYVTVTQKLGIPYV----F  54
+
+Query  59   NSEERFGENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEI  118
+             +           +   P    ++   + +E  Q+  +       ++     + E+ V++
+Sbjct  55   KASFDKANRSSIHSYRGPGL--EEGMKIFQELKQQFGVKVITDVHEISQCQPVAEV-VDV  111
+
+Query  119  LKIASCDICNITLLEAAADSG------LIVILSRGTASASEIETAVSIFKKKKSPFILLH  172
+            +++ +       L+EA A +G          +S G     ++   V  FK+  +  ++L 
+Sbjct  112  IQLPAFLARQTDLVEAMARTGAVINVKKPQFVSPG-----QMGNIVEKFKEAGNDQVIL-  165
+
+Query  173  CV--SSYPMNEIDANLSAIQTLKSK-------YEF--------PIG-YSDHSKGIEIPLL  214
+            C   S++  + +  ++  I  +          ++         P G  S   +     L 
+Sbjct  166  CDRGSNFGYDNLVVDMLGINVMVKATGGHPVIFDVTHALQCRDPFGSASGGRRAQVAELA  225
+
+Query  215  ----AVASGAEIIEKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKILGH  263
+                AV      IE H   +      D   +    +L   + + + I  ++  
+Sbjct  226  RAGMAVGLAGLFIEAHPEPNSA--KCDGPSALPLDKLEPFLMQMKAIDDLVKS  276
+
+
+> sp|B6EHH9|KDSA_ALISL 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Aliivibrio salmonicida (strain LFI1238) OX=316275 GN=kdsA 
+PE=3 SV=1
+Length=284
+
+ Score = 50.5 bits (119),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 39/280 (14%), Positives = 98/280 (35%), Gaps = 31/280 (11%)
+
+Query  6    QEITLGNIKIGGNNPVFIIAEAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFG  65
+            + + +GNI +  + P  + A  G+N     +LA+RM +   +   + +            
+Sbjct  5    KTVKIGNIDVANDKPFTLFA--GMNVLESRDLAMRMCETYVEI-TDRLGIPYVFKASFDK  61
+
+Query  66   ENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCD  125
+             N+ +V+  +     ++   + +E      +              + ++ V+++++ +  
+Sbjct  62   ANRSSVHSYRGPGM-EEGLKIFQELKDTFGVKIITDIHTEAQAQPVADV-VDVIQLPAFL  119
+
+Query  126  ICNITLLEAAADSGLIVILSR-GTASASEIETAVSIFKKKKSPFILLHCVSSYPMNEID-  183
+                 L+E  A +G ++ + +    S  ++   V  F +  +  I+L C     M   + 
+Sbjct  120  ARQTDLVETMARTGAVINVKKPQFMSPDQVGNIVDKFAECGNENIIL-CERGSCMGYDNL  178
+
+Query  184  -ANLSAIQTLKSKYE-----FPIGYS-----------DHSKGIEIPLL----AVASGAEI  222
+              ++     +K         F + +S              +   + L     A       
+Sbjct  179  VVDMLGFGVMKKVSNGSPIIFDVTHSLQNRDPSGKASGGRRSQTVELAKAGLATGIAGLF  238
+
+Query  223  IEKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKILG  262
+            IE H T D+ L   D   +    +L   + + + +  ++ 
+Sbjct  239  IEAHPTPDKAL--CDGPSALPLDQLEPFLKQMKALDDLIK  276
+
+
+> sp|Q2A271|KDSA_FRATH 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Francisella tularensis subsp. holarctica (strain LVS) OX=376619 
+GN=kdsA PE=3 SV=1
+Length=275
+
+ Score = 50.1 bits (118),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 35/278 (13%), Positives = 91/278 (33%), Gaps = 31/278 (11%)
+
+Query  8    ITLGNIKIGGNNPVFII-AEAGLNHGG-DLNLALRMIDEAADAKANAIKFQAYNSEERFG  65
+            + + N ++G   P F++     +      ++ A  + +   D   N +    Y S     
+Sbjct  1    MKIANFEVGNGKPFFLMSGPCVIESEQMAMDTAGYLAEVTKDLGINFV----YKSSFDKA  56
+
+Query  66   ENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCD  125
+              + ++N  +     K    +L +  +  N+       +      + E+ V++L+I +  
+Sbjct  57   N-RSSINSFRGLGVDK-GLEILAKVKKTYNVPVVTDVHEDTPFAEVAEV-VDVLQIPAFL  113
+
+Query  126  ICNITLLEAAADSGLIVILSRGTASASEIETAVSIFKKKKSPFILLHCVSSYPMNEIDA-  184
+                  +      G  V + +G   A      V    K      ++ C         +  
+Sbjct  114  CRQTNFILEVCKQGKPVNIKKGQFLAPWDMQHVVTKAKSTGNEQIMVCERGVSFGYNNLV  173
+
+Query  185  -NLSAIQTLKSKYEFPIGYSDHSKGI----------------EIPLLAVASGAE--IIEK  225
+             ++ +++ +K+     +  + HS  +                 +   A+A G +   +E 
+Sbjct  174  SDMRSLEIMKATGCPVVFDATHSVQLPGGQGSSSGGQREFVPVLSKAAMAVGIDGLFMET  233
+
+Query  226  HYTVDRTLQGIDWEISAEPKELAKLVTETERIRKILGH  263
+            H   D      D   S    ++ + ++  + +  ++  
+Sbjct  234  HPNPDEA--KSDGPNSFPMYKIKEFLSLLKELDHLVKS  269
+
+
+> sp|A4JFY6|KDSA_BURVG 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Burkholderia vietnamiensis (strain G4 / LMG 22486) OX=269482 
+GN=kdsA PE=3 SV=1
+Length=284
+
+ Score = 50.1 bits (118),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 22/142 (15%), Positives = 55/142 (39%), Gaps = 9/142 (6%)
+
+Query  8    ITLGNIKIGGNNPVFIIAEAGL--NHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFG  65
+            + L + ++G + P F+IA   +  +    ++ A R+ +  A      I   +Y+      
+Sbjct  1    MKLCDFEVGLDQPFFLIAGTCVVESEQMTIDTAGRLKEICAKLNVPFIYKSSYD-----K  55
+
+Query  66   ENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCD  125
+             N+ +    +      +   +L E  ++  +        +  +  +  + V++L+  +  
+Sbjct  56   ANRSSGKSFRGLGMD-EGLRILGEVKRQLGLPVLTDVHSIDEIEQVASV-VDVLQTPAFL  113
+
+Query  126  ICNITLLEAAADSGLIVILSRG  147
+                  + A A SG  V + +G
+Sbjct  114  CRQTDFIHACARSGKPVNIKKG  135
+
+
+> sp|B1JM81|KDSA_YERPY 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Yersinia pseudotuberculosis serotype O:3 (strain YPIII) 
+OX=502800 GN=kdsA PE=3 SV=1
+Length=284
+
+ Score = 49.7 bits (117),  Expect = 9e-06, Method: Composition-based stats.
+ Identities = 41/293 (14%), Positives = 100/293 (34%), Gaps = 50/293 (17%)
+
+Query  4    MSQEI-TLGNIKIGGNNPVFIIAEAGLNHGGDLNLALRM----IDEAADAKANAIKFQAY  58
+            M Q++ ++G+I +  + P  +    G+N     +LA+R+    +          +    +
+Sbjct  1    MKQKVVSIGDINVANDLPFVLFG--GMNVLESRDLAMRICEHYVTVTQKLGIPYV----F  54
+
+Query  59   NSEERFGENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEI  118
+             +           +   P    ++   + +E  Q+  +       +      + E+ V++
+Sbjct  55   KASFDKANRSSIHSYRGPGL--EEGMKIFQELKQQFGVKVITDVHEASQAQPVSEV-VDV  111
+
+Query  119  LKIASCDICNITLLEAAADSG------LIVILSRGTASASEIETAVSIFKKKKSPFILLH  172
+            +++ +       L+EA A +G          +S G     ++   V  FK+  +  ++L 
+Sbjct  112  IQLPAFLARQTDLVEAMARTGAVINVKKPQFVSPG-----QMGNIVEKFKEAGNDQVIL-  165
+
+Query  173  CV--SSYPMNEIDANLSAIQTLKSK-------YEF--------PIGY-SDHSKGIEIPLL  214
+            C   S++  + +  ++  I  +          ++         P G  S   +     L 
+Sbjct  166  CDRGSNFGYDNLVVDMLGINVMVQATGGHPVIFDVTHALQCRDPFGAASGGRRAQVAELA  225
+
+Query  215  ----AVASGAEIIEKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKILGH  263
+                AV      IE H   +      D   +    +L   + + + I  ++  
+Sbjct  226  RAGMAVGLAGLFIEAHPEPNSA--KCDGPSALPLDKLEPFLVQMKAIDDLVKS  276
+
+
+> sp|Q66AX1|KDSA_YERPS 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Yersinia pseudotuberculosis serotype I (strain IP32953) 
+OX=273123 GN=kdsA PE=3 SV=1
+Length=284
+
+ Score = 49.7 bits (117),  Expect = 9e-06, Method: Composition-based stats.
+ Identities = 41/293 (14%), Positives = 100/293 (34%), Gaps = 50/293 (17%)
+
+Query  4    MSQEI-TLGNIKIGGNNPVFIIAEAGLNHGGDLNLALRM----IDEAADAKANAIKFQAY  58
+            M Q++ ++G+I +  + P  +    G+N     +LA+R+    +          +    +
+Sbjct  1    MKQKVVSIGDINVANDLPFVLFG--GMNVLESRDLAMRICEHYVTVTQKLGIPYV----F  54
+
+Query  59   NSEERFGENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEI  118
+             +           +   P    ++   + +E  Q+  +       +      + E+ V++
+Sbjct  55   KASFDKANRSSIHSYRGPGL--EEGMKIFQELKQQFGVKVITDVHEASQAQPVSEV-VDV  111
+
+Query  119  LKIASCDICNITLLEAAADSG------LIVILSRGTASASEIETAVSIFKKKKSPFILLH  172
+            +++ +       L+EA A +G          +S G     ++   V  FK+  +  ++L 
+Sbjct  112  IQLPAFLARQTDLVEAMARTGAVINVKKPQFVSPG-----QMGNIVEKFKEAGNDQVIL-  165
+
+Query  173  CV--SSYPMNEIDANLSAIQTLKSK-------YEF--------PIGY-SDHSKGIEIPLL  214
+            C   S++  + +  ++  I  +          ++         P G  S   +     L 
+Sbjct  166  CDRGSNFGYDNLVVDMLGINVMVQATGGHPVIFDVTHALQCRDPFGAASGGRRAQVAELA  225
+
+Query  215  ----AVASGAEIIEKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKILGH  263
+                AV      IE H   +      D   +    +L   + + + I  ++  
+Sbjct  226  RAGMAVGLAGLFIEAHPEPNSA--KCDGPSALPLDKLEPFLVQMKAIDDLVKS  276
+
+
+> sp|A4TJN3|KDSA_YERPP 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Yersinia pestis (strain Pestoides F) OX=386656 GN=kdsA 
+PE=3 SV=1
+Length=284
+
+ Score = 49.7 bits (117),  Expect = 9e-06, Method: Composition-based stats.
+ Identities = 41/293 (14%), Positives = 100/293 (34%), Gaps = 50/293 (17%)
+
+Query  4    MSQEI-TLGNIKIGGNNPVFIIAEAGLNHGGDLNLALRM----IDEAADAKANAIKFQAY  58
+            M Q++ ++G+I +  + P  +    G+N     +LA+R+    +          +    +
+Sbjct  1    MKQKVVSIGDINVANDLPFVLFG--GMNVLESRDLAMRICEHYVTVTQKLGIPYV----F  54
+
+Query  59   NSEERFGENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEI  118
+             +           +   P    ++   + +E  Q+  +       +      + E+ V++
+Sbjct  55   KASFDKANRSSIHSYRGPGL--EEGMKIFQELKQQFGVKVITDVHEASQAQPVSEV-VDV  111
+
+Query  119  LKIASCDICNITLLEAAADSG------LIVILSRGTASASEIETAVSIFKKKKSPFILLH  172
+            +++ +       L+EA A +G          +S G     ++   V  FK+  +  ++L 
+Sbjct  112  IQLPAFLARQTDLVEAMARTGAVINVKKPQFVSPG-----QMGNIVEKFKEAGNDQVIL-  165
+
+Query  173  CV--SSYPMNEIDANLSAIQTLKSK-------YEF--------PIGY-SDHSKGIEIPLL  214
+            C   S++  + +  ++  I  +          ++         P G  S   +     L 
+Sbjct  166  CDRGSNFGYDNLVVDMLGINVMVQATGGHPVIFDVTHALQCRDPFGAASGGRRAQVAELA  225
+
+Query  215  ----AVASGAEIIEKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKILGH  263
+                AV      IE H   +      D   +    +L   + + + I  ++  
+Sbjct  226  RAGMAVGLAGLFIEAHPEPNSA--KCDGPSALPLDKLEPFLVQMKAIDDLVKS  276
+
+
+> sp|Q1CJJ7|KDSA_YERPN 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Yersinia pestis bv. Antiqua (strain Nepal516) OX=377628 
+GN=kdsA PE=3 SV=1
+Length=284
+
+ Score = 49.7 bits (117),  Expect = 9e-06, Method: Composition-based stats.
+ Identities = 41/293 (14%), Positives = 100/293 (34%), Gaps = 50/293 (17%)
+
+Query  4    MSQEI-TLGNIKIGGNNPVFIIAEAGLNHGGDLNLALRM----IDEAADAKANAIKFQAY  58
+            M Q++ ++G+I +  + P  +    G+N     +LA+R+    +          +    +
+Sbjct  1    MKQKVVSIGDINVANDLPFVLFG--GMNVLESRDLAMRICEHYVTVTQKLGIPYV----F  54
+
+Query  59   NSEERFGENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEI  118
+             +           +   P    ++   + +E  Q+  +       +      + E+ V++
+Sbjct  55   KASFDKANRSSIHSYRGPGL--EEGMKIFQELKQQFGVKVITDVHEASQAQPVSEV-VDV  111
+
+Query  119  LKIASCDICNITLLEAAADSG------LIVILSRGTASASEIETAVSIFKKKKSPFILLH  172
+            +++ +       L+EA A +G          +S G     ++   V  FK+  +  ++L 
+Sbjct  112  IQLPAFLARQTDLVEAMARTGAVINVKKPQFVSPG-----QMGNIVEKFKEAGNDQVIL-  165
+
+Query  173  CV--SSYPMNEIDANLSAIQTLKSK-------YEF--------PIGY-SDHSKGIEIPLL  214
+            C   S++  + +  ++  I  +          ++         P G  S   +     L 
+Sbjct  166  CDRGSNFGYDNLVVDMLGINVMVQATGGHPVIFDVTHALQCRDPFGAASGGRRAQVAELA  225
+
+Query  215  ----AVASGAEIIEKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKILGH  263
+                AV      IE H   +      D   +    +L   + + + I  ++  
+Sbjct  226  RAGMAVGLAGLFIEAHPEPNSA--KCDGPSALPLDKLEPFLVQMKAIDDLVKS  276
+
+
+> sp|A9QZ04|KDSA_YERPG 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Yersinia pestis bv. Antiqua (strain Angola) OX=349746 GN=kdsA 
+PE=3 SV=1
+Length=284
+
+ Score = 49.7 bits (117),  Expect = 9e-06, Method: Composition-based stats.
+ Identities = 41/293 (14%), Positives = 100/293 (34%), Gaps = 50/293 (17%)
+
+Query  4    MSQEI-TLGNIKIGGNNPVFIIAEAGLNHGGDLNLALRM----IDEAADAKANAIKFQAY  58
+            M Q++ ++G+I +  + P  +    G+N     +LA+R+    +          +    +
+Sbjct  1    MKQKVVSIGDINVANDLPFVLFG--GMNVLESRDLAMRICEHYVTVTQKLGIPYV----F  54
+
+Query  59   NSEERFGENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEI  118
+             +           +   P    ++   + +E  Q+  +       +      + E+ V++
+Sbjct  55   KASFDKANRSSIHSYRGPGL--EEGMKIFQELKQQFGVKVITDVHEASQAQPVSEV-VDV  111
+
+Query  119  LKIASCDICNITLLEAAADSG------LIVILSRGTASASEIETAVSIFKKKKSPFILLH  172
+            +++ +       L+EA A +G          +S G     ++   V  FK+  +  ++L 
+Sbjct  112  IQLPAFLARQTDLVEAMARTGAVINVKKPQFVSPG-----QMGNIVEKFKEAGNDQVIL-  165
+
+Query  173  CV--SSYPMNEIDANLSAIQTLKSK-------YEF--------PIGY-SDHSKGIEIPLL  214
+            C   S++  + +  ++  I  +          ++         P G  S   +     L 
+Sbjct  166  CDRGSNFGYDNLVVDMLGINVMVQATGGHPVIFDVTHALQCRDPFGAASGGRRAQVAELA  225
+
+Query  215  ----AVASGAEIIEKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKILGH  263
+                AV      IE H   +      D   +    +L   + + + I  ++  
+Sbjct  226  RAGMAVGLAGLFIEAHPEPNSA--KCDGPSALPLDKLEPFLVQMKAIDDLVKS  276
+
+
+> sp|Q8ZEX4|KDSA_YERPE 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Yersinia pestis OX=632 GN=kdsA PE=3 SV=1
+Length=284
+
+ Score = 49.7 bits (117),  Expect = 9e-06, Method: Composition-based stats.
+ Identities = 41/293 (14%), Positives = 100/293 (34%), Gaps = 50/293 (17%)
+
+Query  4    MSQEI-TLGNIKIGGNNPVFIIAEAGLNHGGDLNLALRM----IDEAADAKANAIKFQAY  58
+            M Q++ ++G+I +  + P  +    G+N     +LA+R+    +          +    +
+Sbjct  1    MKQKVVSIGDINVANDLPFVLFG--GMNVLESRDLAMRICEHYVTVTQKLGIPYV----F  54
+
+Query  59   NSEERFGENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEI  118
+             +           +   P    ++   + +E  Q+  +       +      + E+ V++
+Sbjct  55   KASFDKANRSSIHSYRGPGL--EEGMKIFQELKQQFGVKVITDVHEASQAQPVSEV-VDV  111
+
+Query  119  LKIASCDICNITLLEAAADSG------LIVILSRGTASASEIETAVSIFKKKKSPFILLH  172
+            +++ +       L+EA A +G          +S G     ++   V  FK+  +  ++L 
+Sbjct  112  IQLPAFLARQTDLVEAMARTGAVINVKKPQFVSPG-----QMGNIVEKFKEAGNDQVIL-  165
+
+Query  173  CV--SSYPMNEIDANLSAIQTLKSK-------YEF--------PIGY-SDHSKGIEIPLL  214
+            C   S++  + +  ++  I  +          ++         P G  S   +     L 
+Sbjct  166  CDRGSNFGYDNLVVDMLGINVMVQATGGHPVIFDVTHALQCRDPFGAASGGRRAQVAELA  225
+
+Query  215  ----AVASGAEIIEKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKILGH  263
+                AV      IE H   +      D   +    +L   + + + I  ++  
+Sbjct  226  RAGMAVGLAGLFIEAHPEPNSA--KCDGPSALPLDKLEPFLVQMKAIDDLVKS  276
+
+
+> sp|B2K2Z4|KDSA_YERPB 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Yersinia pseudotuberculosis serotype IB (strain PB1/+) 
+OX=502801 GN=kdsA PE=3 SV=1
+Length=284
+
+ Score = 49.7 bits (117),  Expect = 9e-06, Method: Composition-based stats.
+ Identities = 41/293 (14%), Positives = 100/293 (34%), Gaps = 50/293 (17%)
+
+Query  4    MSQEI-TLGNIKIGGNNPVFIIAEAGLNHGGDLNLALRM----IDEAADAKANAIKFQAY  58
+            M Q++ ++G+I +  + P  +    G+N     +LA+R+    +          +    +
+Sbjct  1    MKQKVVSIGDINVANDLPFVLFG--GMNVLESRDLAMRICEHYVTVTQKLGIPYV----F  54
+
+Query  59   NSEERFGENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEI  118
+             +           +   P    ++   + +E  Q+  +       +      + E+ V++
+Sbjct  55   KASFDKANRSSIHSYRGPGL--EEGMKIFQELKQQFGVKVITDVHEASQAQPVSEV-VDV  111
+
+Query  119  LKIASCDICNITLLEAAADSG------LIVILSRGTASASEIETAVSIFKKKKSPFILLH  172
+            +++ +       L+EA A +G          +S G     ++   V  FK+  +  ++L 
+Sbjct  112  IQLPAFLARQTDLVEAMARTGAVINVKKPQFVSPG-----QMGNIVEKFKEAGNDQVIL-  165
+
+Query  173  CV--SSYPMNEIDANLSAIQTLKSK-------YEF--------PIGY-SDHSKGIEIPLL  214
+            C   S++  + +  ++  I  +          ++         P G  S   +     L 
+Sbjct  166  CDRGSNFGYDNLVVDMLGINVMVQATGGHPVIFDVTHALQCRDPFGAASGGRRAQVAELA  225
+
+Query  215  ----AVASGAEIIEKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKILGH  263
+                AV      IE H   +      D   +    +L   + + + I  ++  
+Sbjct  226  RAGMAVGLAGLFIEAHPEPNSA--KCDGPSALPLDKLEPFLVQMKAIDDLVKS  276
+
+
+> sp|Q1C850|KDSA_YERPA 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Yersinia pestis bv. Antiqua (strain Antiqua) OX=360102 
+GN=kdsA PE=3 SV=1
+Length=284
+
+ Score = 49.7 bits (117),  Expect = 9e-06, Method: Composition-based stats.
+ Identities = 41/293 (14%), Positives = 100/293 (34%), Gaps = 50/293 (17%)
+
+Query  4    MSQEI-TLGNIKIGGNNPVFIIAEAGLNHGGDLNLALRM----IDEAADAKANAIKFQAY  58
+            M Q++ ++G+I +  + P  +    G+N     +LA+R+    +          +    +
+Sbjct  1    MKQKVVSIGDINVANDLPFVLFG--GMNVLESRDLAMRICEHYVTVTQKLGIPYV----F  54
+
+Query  59   NSEERFGENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEI  118
+             +           +   P    ++   + +E  Q+  +       +      + E+ V++
+Sbjct  55   KASFDKANRSSIHSYRGPGL--EEGMKIFQELKQQFGVKVITDVHEASQAQPVSEV-VDV  111
+
+Query  119  LKIASCDICNITLLEAAADSG------LIVILSRGTASASEIETAVSIFKKKKSPFILLH  172
+            +++ +       L+EA A +G          +S G     ++   V  FK+  +  ++L 
+Sbjct  112  IQLPAFLARQTDLVEAMARTGAVINVKKPQFVSPG-----QMGNIVEKFKEAGNDQVIL-  165
+
+Query  173  CV--SSYPMNEIDANLSAIQTLKSK-------YEF--------PIGY-SDHSKGIEIPLL  214
+            C   S++  + +  ++  I  +          ++         P G  S   +     L 
+Sbjct  166  CDRGSNFGYDNLVVDMLGINVMVQATGGHPVIFDVTHALQCRDPFGAASGGRRAQVAELA  225
+
+Query  215  ----AVASGAEIIEKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKILGH  263
+                AV      IE H   +      D   +    +L   + + + I  ++  
+Sbjct  226  RAGMAVGLAGLFIEAHPEPNSA--KCDGPSALPLDKLEPFLVQMKAIDDLVKS  276
+
+
+> sp|A7FIF7|KDSA_YERP3 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Yersinia pseudotuberculosis serotype O:1b (strain IP 31758) 
+OX=349747 GN=kdsA PE=3 SV=1
+Length=284
+
+ Score = 49.7 bits (117),  Expect = 9e-06, Method: Composition-based stats.
+ Identities = 41/293 (14%), Positives = 100/293 (34%), Gaps = 50/293 (17%)
+
+Query  4    MSQEI-TLGNIKIGGNNPVFIIAEAGLNHGGDLNLALRM----IDEAADAKANAIKFQAY  58
+            M Q++ ++G+I +  + P  +    G+N     +LA+R+    +          +    +
+Sbjct  1    MKQKVVSIGDINVANDLPFVLFG--GMNVLESRDLAMRICEHYVTVTQKLGIPYV----F  54
+
+Query  59   NSEERFGENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEI  118
+             +           +   P    ++   + +E  Q+  +       +      + E+ V++
+Sbjct  55   KASFDKANRSSIHSYRGPGL--EEGMKIFQELKQQFGVKVITDVHEASQAQPVSEV-VDV  111
+
+Query  119  LKIASCDICNITLLEAAADSG------LIVILSRGTASASEIETAVSIFKKKKSPFILLH  172
+            +++ +       L+EA A +G          +S G     ++   V  FK+  +  ++L 
+Sbjct  112  IQLPAFLARQTDLVEAMARTGAVINVKKPQFVSPG-----QMGNIVEKFKEAGNDQVIL-  165
+
+Query  173  CV--SSYPMNEIDANLSAIQTLKSK-------YEF--------PIGY-SDHSKGIEIPLL  214
+            C   S++  + +  ++  I  +          ++         P G  S   +     L 
+Sbjct  166  CDRGSNFGYDNLVVDMLGINVMVQATGGHPVIFDVTHALQCRDPFGAASGGRRAQVAELA  225
+
+Query  215  ----AVASGAEIIEKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKILGH  263
+                AV      IE H   +      D   +    +L   + + + I  ++  
+Sbjct  226  RAGMAVGLAGLFIEAHPEPNSA--KCDGPSALPLDKLEPFLVQMKAIDDLVKS  276
+
+
+> sp|A0K8N2|KDSA_BURCH 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Burkholderia cenocepacia (strain HI2424) OX=331272 GN=kdsA 
+PE=3 SV=1
+Length=284
+
+ Score = 49.3 bits (116),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 21/142 (15%), Positives = 54/142 (38%), Gaps = 9/142 (6%)
+
+Query  8    ITLGNIKIGGNNPVFIIAEAGL--NHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFG  65
+            + L + ++G + P F+IA   +  +    ++ A R+ +         I   +Y+      
+Sbjct  1    MKLCDFEVGLDQPFFLIAGTCVVESEQMTIDTAGRLKEICEKLNVPFIYKSSYD-----K  55
+
+Query  66   ENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCD  125
+             N+ +    +      +   +L E  ++  +        +  +  +  + V++L+  +  
+Sbjct  56   ANRSSGKSFRGLGMD-EGLRILGEVKRQLGLPVLTDVHSIDEIEQVASV-VDVLQTPAFL  113
+
+Query  126  ICNITLLEAAADSGLIVILSRG  147
+                  + A A SG  V + +G
+Sbjct  114  CRQTDFIHACARSGKPVNIKKG  135
+
+
+> sp|B1JUY7|KDSA_BURCC 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Burkholderia cenocepacia (strain MC0-3) OX=406425 GN=kdsA 
+PE=3 SV=1
+Length=284
+
+ Score = 49.3 bits (116),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 21/142 (15%), Positives = 54/142 (38%), Gaps = 9/142 (6%)
+
+Query  8    ITLGNIKIGGNNPVFIIAEAGL--NHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFG  65
+            + L + ++G + P F+IA   +  +    ++ A R+ +         I   +Y+      
+Sbjct  1    MKLCDFEVGLDQPFFLIAGTCVVESEQMTIDTAGRLKEICEKLNVPFIYKSSYD-----K  55
+
+Query  66   ENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCD  125
+             N+ +    +      +   +L E  ++  +        +  +  +  + V++L+  +  
+Sbjct  56   ANRSSGKSFRGLGMD-EGLRILGEVKRQLGLPVLTDVHSIDEIEQVASV-VDVLQTPAFL  113
+
+Query  126  ICNITLLEAAADSGLIVILSRG  147
+                  + A A SG  V + +G
+Sbjct  114  CRQTDFIHACARSGKPVNIKKG  135
+
+
+> sp|Q1BHS1|KDSA_BURCA 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Burkholderia cenocepacia (strain AU 1054) OX=331271 GN=kdsA 
+PE=3 SV=1
+Length=284
+
+ Score = 49.3 bits (116),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 21/142 (15%), Positives = 54/142 (38%), Gaps = 9/142 (6%)
+
+Query  8    ITLGNIKIGGNNPVFIIAEAGL--NHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFG  65
+            + L + ++G + P F+IA   +  +    ++ A R+ +         I   +Y+      
+Sbjct  1    MKLCDFEVGLDQPFFLIAGTCVVESEQMTIDTAGRLKEICEKLNVPFIYKSSYD-----K  55
+
+Query  66   ENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCD  125
+             N+ +    +      +   +L E  ++  +        +  +  +  + V++L+  +  
+Sbjct  56   ANRSSGKSFRGLGMD-EGLRILGEVKRQLGLPVLTDVHSIDEIEQVASV-VDVLQTPAFL  113
+
+Query  126  ICNITLLEAAADSGLIVILSRG  147
+                  + A A SG  V + +G
+Sbjct  114  CRQTDFIHACARSGKPVNIKKG  135
+
+
+> sp|A5CW13|KDSA_VESOH 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Vesicomyosocius okutanii subsp. Calyptogena okutanii (strain 
+HA) OX=412965 GN=kdsA PE=3 SV=1
+Length=277
+
+ Score = 48.9 bits (115),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 37/277 (13%), Positives = 96/277 (35%), Gaps = 35/277 (13%)
+
+Query  8    ITLGNIKIGGNNPVFIIA-EAGLNHGG-DLNLALRMIDEAADAKANAIKFQAYNSEERFG  65
+            + L + ++G N+P F+IA    +      L  A  +     D   N I   +Y+      
+Sbjct  1    MKLLDFEVGINHPFFLIAGPCVIESEALALETATYLKRVTEDLGINFIYKSSYD-----K  55
+
+Query  66   ENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCD  125
+             N+ + N  +     K+   +L++   +  +       +   L+ +  + V++++  +  
+Sbjct  56   ANRTSTNSFRGLGV-KEGLRILQKVKDEVGVPVLTDVHEDTPLSEVASV-VDMMQTPAFL  113
+
+Query  126  ICNITLLEAAADSGLIVILSRG-TASASEIETAVSIFKKKKSPFILLHCVSSYPMNEIDA  184
+            +     ++     G+ V + +G   +  +I   V+   +  +  I + C           
+Sbjct  114  VRQTNFIQNVCKQGIPVNIKKGQFQAPWDIGNVVNKAYETGNRLITI-CERGTSFGYNTL  172
+
+Query  185  --NLSAIQTLKSKYEFPIGY---------------SDHSKGIEIPLLAVASGAEI----I  223
+              ++  + T++S    PI +               S   + +   +   A G  +    +
+Sbjct  173  ISDMRGLSTMRST-GCPIVFDATHSVQQPGGNGLTSGGQREMVPVVARAAIGVGVSGFFM  231
+
+Query  224  EKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKI  260
+            E H   +      D        ++ +L+   + +  +
+Sbjct  232  ETHPNPNEAF--SDGPNMVPIDKIDELLKTLQELDAV  266
+
+
+> sp|Q8PLS2|KDSA_XANAC 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Xanthomonas axonopodis pv. citri (strain 306) OX=190486 
+GN=kdsA PE=3 SV=1
+Length=276
+
+ Score = 48.6 bits (114),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 33/259 (13%), Positives = 92/259 (36%), Gaps = 31/259 (12%)
+
+Query  8    ITLGNIKIGGNNPVFIIA-EAGLNH-GGDLNLALRMIDEAADAKANAIKFQAYNSEERFG  65
+            + L + ++G + P+F+IA    +      L++A ++ +       N I   +++      
+Sbjct  1    MKLCDFEVGLDQPLFLIAGPCVIESMQLQLDVAGKLKEITGKLGVNFIFKSSFD-----K  55
+
+Query  66   ENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCD  125
+             N+ +    +     ++   +L    ++  +       +   +N +  + V++L+  +  
+Sbjct  56   ANRTSGTSFRGPGL-EEGLKVLDAVKKQIGVPVLTDVHEYTPMNEVAAV-VDVLQTPAFL  113
+
+Query  126  ICNITLLEAAADSGLIVILSRGTASAS-EIETAVSIFKKKKSPFILLHCVSSYPMNEIDA  184
+            +     ++    +G  V + +G   A  +++  V   K   +  I++ C         + 
+Sbjct  114  VRQTDFIKNVCAAGKPVNIKKGQFLAPWDMKPVVDKAKSTGNEQIMV-CERGASFGYNNL  172
+
+Query  185  --NLSAIQTLKSKYEFPIGYSDHSKGI-------------EIPL---LAVASGAE--IIE  224
+              ++ ++  ++      +  + HS  +              +P+    AVA G      E
+Sbjct  173  VSDMRSLSVMRDTGCPVVFDATHSVQLPGGQGSSSGGQREFVPVLARAAVAVGISGLFAE  232
+
+Query  225  KHYTVDRTLQGIDWEISAE  243
+             H    + L         +
+Sbjct  233  THPDPSKALSDGPNAWPLD  251
+
+
+> sp|Q3BUT2|KDSA_XANC5 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Xanthomonas campestris pv. vesicatoria (strain 85-10) OX=316273 
+GN=kdsA PE=3 SV=1
+Length=276
+
+ Score = 48.6 bits (114),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 34/259 (13%), Positives = 92/259 (36%), Gaps = 31/259 (12%)
+
+Query  8    ITLGNIKIGGNNPVFIIA-EAGLNH-GGDLNLALRMIDEAADAKANAIKFQAYNSEERFG  65
+            + L + ++G + P+F+IA    +      L++A R+ +       N I   +++      
+Sbjct  1    MKLCDFEVGLDQPLFLIAGPCVIESMQLQLDVAGRLKEITGKLGVNFIFKSSFD-----K  55
+
+Query  66   ENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCD  125
+             N+ +    +     ++   +L    ++  +       +   +N +  + V++L+  +  
+Sbjct  56   ANRTSGTSFRGPGL-EEGLKVLDAVKKQIGVPVLTDVHEYTPMNEVAAV-VDVLQTPAFL  113
+
+Query  126  ICNITLLEAAADSGLIVILSRGTASAS-EIETAVSIFKKKKSPFILLHCVSSYPMNEIDA  184
+            +     ++    +G  V + +G   A  +++  V   K   +  I++ C         + 
+Sbjct  114  VRQTDFIKNVCAAGKPVNIKKGQFLAPWDMKPVVDKAKSTGNEQIMV-CERGASFGYNNL  172
+
+Query  185  --NLSAIQTLKSKYEFPIGYSDHSKGI-------------EIPL---LAVASGAE--IIE  224
+              ++ ++  ++      +  + HS  +              +P+    AVA G      E
+Sbjct  173  VSDMRSLSVMRDTGCPVVFDATHSVQLPGGQGSSSGGQREFVPVLARAAVAVGISGLFAE  232
+
+Query  225  KHYTVDRTLQGIDWEISAE  243
+             H    + L         +
+Sbjct  233  THPDPSKALSDGPNAWPLD  251
+
+
+> sp|B2SDK5|KDSA_FRATM 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Francisella tularensis subsp. mediasiatica (strain FSC147) 
+OX=441952 GN=kdsA PE=3 SV=1
+Length=275
+
+ Score = 47.8 bits (112),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 34/278 (12%), Positives = 90/278 (32%), Gaps = 31/278 (11%)
+
+Query  8    ITLGNIKIGGNNPVFII-AEAGLNHGG-DLNLALRMIDEAADAKANAIKFQAYNSEERFG  65
+            + + N ++G   P F++     +      ++ A  + +   D   N +    Y S     
+Sbjct  1    MKIANFEVGNGKPFFLMSGPCVIESEQMAMDTAGYLAEVTKDLGINFV----YKSSFDKA  56
+
+Query  66   ENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCD  125
+              + ++N  +     K    +L +  +  N+       +      + E+ V++L+  +  
+Sbjct  57   N-RSSINSFRGLGVDK-GLEILAKVKKTYNVPVVTDVHEDTPFAEVAEV-VDVLQTPAFL  113
+
+Query  126  ICNITLLEAAADSGLIVILSRGTASASEIETAVSIFKKKKSPFILLHCVSSYPMNEIDA-  184
+                  +      G  V + +G   A      V    K      ++ C         +  
+Sbjct  114  CRQTNFILEVCKQGKPVNIKKGQFLAPWDMQHVVTKAKSTGNEQIMVCERGVSFGYNNLV  173
+
+Query  185  -NLSAIQTLKSKYEFPIGYSDHSKGI----------------EIPLLAVASGAE--IIEK  225
+             ++ +++ +K+     +  + HS  +                 +   A+A G +   +E 
+Sbjct  174  SDMRSLEIMKATGCPVVFDATHSVQLPGGQGSSSGGQREFVPVLSKAAMAVGIDGLFMET  233
+
+Query  226  HYTVDRTLQGIDWEISAEPKELAKLVTETERIRKILGH  263
+            H   D      D   S    ++ + ++  + +  ++  
+Sbjct  234  HPNPDEA--KSDGLNSFPMYKIKEFLSLLKELDHLVKS  269
+
+
+> sp|Q8P9Z5|KDSA_XANCP 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Xanthomonas campestris pv. campestris (strain ATCC 33913 
+/ DSM 3586 / NCPPB 528 / LMG 568 / P 25) OX=190485 GN=kdsA 
+PE=3 SV=1
+Length=276
+
+ Score = 47.8 bits (112),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 33/259 (13%), Positives = 92/259 (36%), Gaps = 31/259 (12%)
+
+Query  8    ITLGNIKIGGNNPVFIIA-EAGLNH-GGDLNLALRMIDEAADAKANAIKFQAYNSEERFG  65
+            + L + ++G + P+F+IA    +      L++A ++ +       N I   +++      
+Sbjct  1    MKLCDFEVGLDQPLFLIAGPCVIESMQLQLDVAGKLKEITGKLGINFIFKSSFD-----K  55
+
+Query  66   ENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCD  125
+             N+ +    +     ++   +L    ++  +       +   +N +  + V++L+  +  
+Sbjct  56   ANRTSGTSFRGPGL-EEGLKVLDAVKKQIGVPVLTDVHEYTPMNEVAAV-VDVLQTPAFL  113
+
+Query  126  ICNITLLEAAADSGLIVILSRGTASAS-EIETAVSIFKKKKSPFILLHCVSSYPMNEIDA  184
+            +     ++    +G  V + +G   A  +++  V   K   +  I++ C         + 
+Sbjct  114  VRQTDFIKNVCAAGKPVNIKKGQFLAPWDMKPVVDKAKSTGNEQIMV-CERGASFGYNNL  172
+
+Query  185  --NLSAIQTLKSKYEFPIGYSDHSKGI-------------EIPL---LAVASGAE--IIE  224
+              ++ ++  ++      +  + HS  +              +P+    AVA G      E
+Sbjct  173  VSDMRSLSVMRDTGCPVVFDATHSVQLPGGQGSSSGGQREFVPVLARAAVAVGISGLFAE  232
+
+Query  225  KHYTVDRTLQGIDWEISAE  243
+             H    + L         +
+Sbjct  233  THPDPSKALSDGPNAWPLD  251
+
+
+> sp|B0RUK2|KDSA_XANCB 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Xanthomonas campestris pv. campestris (strain B100) OX=509169 
+GN=kdsA PE=3 SV=1
+Length=276
+
+ Score = 47.8 bits (112),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 33/259 (13%), Positives = 92/259 (36%), Gaps = 31/259 (12%)
+
+Query  8    ITLGNIKIGGNNPVFIIA-EAGLNH-GGDLNLALRMIDEAADAKANAIKFQAYNSEERFG  65
+            + L + ++G + P+F+IA    +      L++A ++ +       N I   +++      
+Sbjct  1    MKLCDFEVGLDQPLFLIAGPCVIESMQLQLDVAGKLKEITGKLGINFIFKSSFD-----K  55
+
+Query  66   ENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCD  125
+             N+ +    +     ++   +L    ++  +       +   +N +  + V++L+  +  
+Sbjct  56   ANRTSGTSFRGPGL-EEGLKVLDAVKKQIGVPVLTDVHEYTPMNEVAAV-VDVLQTPAFL  113
+
+Query  126  ICNITLLEAAADSGLIVILSRGTASAS-EIETAVSIFKKKKSPFILLHCVSSYPMNEIDA  184
+            +     ++    +G  V + +G   A  +++  V   K   +  I++ C         + 
+Sbjct  114  VRQTDFIKNVCAAGKPVNIKKGQFLAPWDMKPVVDKAKSTGNEQIMV-CERGASFGYNNL  172
+
+Query  185  --NLSAIQTLKSKYEFPIGYSDHSKGI-------------EIPL---LAVASGAE--IIE  224
+              ++ ++  ++      +  + HS  +              +P+    AVA G      E
+Sbjct  173  VSDMRSLSVMRDTGCPVVFDATHSVQLPGGQGSSSGGQREFVPVLARAAVAVGISGLFAE  232
+
+Query  225  KHYTVDRTLQGIDWEISAE  243
+             H    + L         +
+Sbjct  233  THPDPSKALSDGPNAWPLD  251
+
+
+> sp|Q4UTP0|KDSA_XANC8 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Xanthomonas campestris pv. campestris (strain 8004) OX=314565 
+GN=kdsA PE=3 SV=1
+Length=276
+
+ Score = 47.8 bits (112),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 33/259 (13%), Positives = 92/259 (36%), Gaps = 31/259 (12%)
+
+Query  8    ITLGNIKIGGNNPVFIIA-EAGLNH-GGDLNLALRMIDEAADAKANAIKFQAYNSEERFG  65
+            + L + ++G + P+F+IA    +      L++A ++ +       N I   +++      
+Sbjct  1    MKLCDFEVGLDQPLFLIAGPCVIESMQLQLDVAGKLKEITGKLGINFIFKSSFD-----K  55
+
+Query  66   ENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCD  125
+             N+ +    +     ++   +L    ++  +       +   +N +  + V++L+  +  
+Sbjct  56   ANRTSGTSFRGPGL-EEGLKVLDAVKKQIGVPVLTDVHEYTPMNEVAAV-VDVLQTPAFL  113
+
+Query  126  ICNITLLEAAADSGLIVILSRGTASAS-EIETAVSIFKKKKSPFILLHCVSSYPMNEIDA  184
+            +     ++    +G  V + +G   A  +++  V   K   +  I++ C         + 
+Sbjct  114  VRQTDFIKNVCAAGKPVNIKKGQFLAPWDMKPVVDKAKSTGNEQIMV-CERGASFGYNNL  172
+
+Query  185  --NLSAIQTLKSKYEFPIGYSDHSKGI-------------EIPL---LAVASGAE--IIE  224
+              ++ ++  ++      +  + HS  +              +P+    AVA G      E
+Sbjct  173  VSDMRSLSVMRDTGCPVVFDATHSVQLPGGQGSSSGGQREFVPVLARAAVAVGISGLFAE  232
+
+Query  225  KHYTVDRTLQGIDWEISAE  243
+             H    + L         +
+Sbjct  233  THPDPSKALSDGPNAWPLD  251
+
+
+> sp|O66496|KDSA_AQUAE 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Aquifex aeolicus (strain VF5) OX=224324 GN=kdsA PE=1 SV=1
+Length=267
+
+ Score = 47.4 bits (111),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 46/266 (17%), Positives = 89/266 (33%), Gaps = 36/266 (14%)
+
+Query  19   NPVFIIAEAGLNHGGDLNLALRMIDEAADAKANA--IKFQAYNSEERFGENKEAVNLVKP  76
+              + I     +       L L++ +E          ++F   +S ++   +         
+Sbjct  3    KFLVIAGPCAIESE---ELLLKVGEEIKRLSEKFKEVEFVFKSSFDKANRSSIHSFRGHG  59
+
+Query  77   AEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCDICNITLLEAAA  136
+             E+G K    +KE   +  +       +      + E+  +I++I +       LL AAA
+Sbjct  60   LEYGVKALRKVKE---EFGLKITTDIHESWQAEPVAEV-ADIIQIPAFLCRQTDLLLAAA  115
+
+Query  137  DSGLIVILSRGTASAS-EIETAVSIFKKKKSPFILLHCVSSYPMNEIDANL----SAIQT  191
+             +G  V + +G   A  + +  V   K   +  I L   +         NL     ++  
+Sbjct  116  KTGRAVNVKKGQFLAPWDTKNVVEKLKFGGAKEIYL---TERGTTFGYNNLVVDFRSLPI  172
+
+Query  192  LKS----------KYEFPIGY---SDHSKGIEIPL--LAVASGAE--IIEKHYTVDRTLQ  234
+            +K             + P G    S   +    PL   AVA G +   +E H   ++ L 
+Sbjct  173  MKQWAKVIYDATHSVQLPGGLGDKSGGMREFIFPLIRAAVAVGCDGVFMETHPEPEKAL-  231
+
+Query  235  GIDWEISAEPKELAKLVTETERIRKI  260
+              D        +L  ++     IR++
+Sbjct  232  -SDASTQLPLSQLEGIIEAILEIREV  256
+
+
+> sp|A1K7F7|KDSA_AZOSB 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Azoarcus sp. (strain BH72) OX=62928 GN=kdsA PE=3 SV=1
+Length=279
+
+ Score = 47.0 bits (110),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 21/141 (15%), Positives = 48/141 (34%), Gaps = 7/141 (5%)
+
+Query  8    ITLGNIKIGGNNPVFIIA-EAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFGE  66
+            + L   ++G + PVF+IA    +       +A        D  A       Y S      
+Sbjct  1    MNLCGFEVGLDKPVFLIAGPCVIESR---EMAFETAGALKDICAEVGIPFIYKSSYDKAN  57
+
+Query  67   NKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCDI  126
+             + +    +     +K   +L +  ++  +        +  +  +  + V++L+  +   
+Sbjct  58   -RSSGKSYRGMGM-EKGLDILADVKKQLGVPVLTDVHSIEEIPAVAAV-VDVLQTPAFLC  114
+
+Query  127  CNITLLEAAADSGLIVILSRG  147
+                 + A A  G  V + +G
+Sbjct  115  RQTDFIHAVASCGRPVNIKKG  135
+
+
+> sp|A0Q5J1|KDSA_FRATN 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Francisella tularensis subsp. novicida (strain U112) OX=401614 
+GN=kdsA PE=3 SV=1
+Length=275
+
+ Score = 46.6 bits (109),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 34/278 (12%), Positives = 90/278 (32%), Gaps = 31/278 (11%)
+
+Query  8    ITLGNIKIGGNNPVFII-AEAGLNHGG-DLNLALRMIDEAADAKANAIKFQAYNSEERFG  65
+            + + N ++G   P F++     +      ++ A  + +   D   N +    Y S     
+Sbjct  1    MKIANFEVGNGKPFFLMSGPCVIESEQMAMDTAGYLAEVTRDLGINFV----YKSSFDKA  56
+
+Query  66   ENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCD  125
+              + ++N  +     K    +L +  +  N+       +      + E+ V++L+  +  
+Sbjct  57   N-RSSINSFRGLGVDK-GLEILAKVKKTYNVPVVTDVHEDTPFAEVAEV-VDVLQTPAFL  113
+
+Query  126  ICNITLLEAAADSGLIVILSRGTASASEIETAVSIFKKKKSPFILLHCVSSYPMNEIDA-  184
+                  +      G  V + +G   A      V    K      ++ C         +  
+Sbjct  114  CRQTNFILEVCKQGKPVNIKKGQFLAPWDMQHVVTKAKSTGNEQIMVCERGVSFGYNNLV  173
+
+Query  185  -NLSAIQTLKSKYEFPIGYSDHSKGI----------------EIPLLAVASGAE--IIEK  225
+             ++ +++ +K+     +  + HS  +                 +   A+A G +   +E 
+Sbjct  174  SDMRSLEIMKATGCPVVFDATHSVQLPGGQGSSSGGQREFVPVLSKAAMAVGIDGLFMET  233
+
+Query  226  HYTVDRTLQGIDWEISAEPKELAKLVTETERIRKILGH  263
+            H   D      D   S    ++ + ++  + +  ++  
+Sbjct  234  HPNPDEA--KSDGPNSFPMYKIKEFLSLLKELDHLVKS  269
+
+
+> sp|B2U9C1|KDSA_RALPJ 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Ralstonia pickettii (strain 12J) OX=402626 GN=kdsA PE=3 
+SV=1
+Length=284
+
+ Score = 46.6 bits (109),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 24/141 (17%), Positives = 54/141 (38%), Gaps = 7/141 (5%)
+
+Query  8    ITLGNIKIGGNNPVFIIAEAGLNHGGDLNLALRMIDEAAD-AKANAIKFQAYNSEERFGE  66
+            + L + ++G + P F+IA  G        +A+       +   A  I F  Y S      
+Sbjct  1    MKLCDFEVGLDKPFFLIA--GTCVIESEQMAIDTAGTLKEITGALGIPF-IYKSSFDKAN  57
+
+Query  67   NKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCDI  126
+             + +    +     ++   +L E  ++  +       ++  +  + E+ V++L+  +   
+Sbjct  58   -RSSDASFRGLGM-EEGLRILSEVRRQVGVPVLTDIHEIDEIKPVAEV-VDVLQTPAFLC  114
+
+Query  127  CNITLLEAAADSGLIVILSRG  147
+                 + A A SG  V + +G
+Sbjct  115  RQTDFIRACAQSGKPVNIKKG  135
+
+
+> sp|Q83B43|KDSA_COXBU 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Coxiella burnetii (strain RSA 493 / Nine Mile phase I) 
+OX=227377 GN=kdsA PE=3 SV=1
+Length=280
+
+ Score = 45.9 bits (107),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 43/280 (15%), Positives = 100/280 (36%), Gaps = 35/280 (13%)
+
+Query  8    ITLGNIKIGGNNPVFIIA-EAGLNHGG-DLNLALRMIDEAADAKANAIKFQAYNSEERFG  65
+            + + + +IG NNP+F+IA    +      +++A  +           I    + +     
+Sbjct  3    MQIADFEIGLNNPLFLIAGPCVIESEALVMDVAGELKSITQQLDMPFI----FKASFDKA  58
+
+Query  66   ENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCD  125
+                 ++   P    +K   +L++  +   +       +   L  +  + V++L+  +  
+Sbjct  59   NRSSHLSYRGPGI--EKGLTILEKVKKTLEVPIITDVHEDTPLQEVAAV-VDVLQTPAFL  115
+
+Query  126  ICNITLLEAAADSGLIVILSRGTASAS-EIETAVSIFKKKKSPFILLHCVSSYPMNEIDA  184
+                  + + A  G  V + +G   A  E++  V+      +  I++ C   Y     + 
+Sbjct  116  CRQSNFIRSVAACGKPVNIKKGQFLAPWEMKQVVAKAWATGNKKIMV-CERGYSFGYNNL  174
+
+Query  185  --NLSAIQTLKS-----------KYEFPIGY---SDHSKGIEIPLL-----AVASGAEII  223
+              ++ A+  L+              + P G+   S   +   +P+L     A       +
+Sbjct  175  ISDMRALAILRETACPVIFDATHSVQLPGGHGTNSGGQREF-VPVLARAATAAGIAGIFM  233
+
+Query  224  EKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKILGH  263
+            E H   DR L   D   S    ++  L+   + + K++ +
+Sbjct  234  ETHPDPDRAL--SDGPNSWPLAKMQPLLETLKELDKVVKN  271
+
+
+> sp|B6J3X3|KDSA_COXB2 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Coxiella burnetii (strain CbuG_Q212) OX=434923 GN=kdsA 
+PE=3 SV=1
+Length=280
+
+ Score = 45.9 bits (107),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 43/280 (15%), Positives = 100/280 (36%), Gaps = 35/280 (13%)
+
+Query  8    ITLGNIKIGGNNPVFIIA-EAGLNHGG-DLNLALRMIDEAADAKANAIKFQAYNSEERFG  65
+            + + + +IG NNP+F+IA    +      +++A  +           I    + +     
+Sbjct  3    MQIADFEIGLNNPLFLIAGPCVIESEALVMDVAGELKSITQQLDMPFI----FKASFDKA  58
+
+Query  66   ENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCD  125
+                 ++   P    +K   +L++  +   +       +   L  +  + V++L+  +  
+Sbjct  59   NRSSHLSYRGPGI--EKGLTILEKVKKTLEVPIITDVHEDTPLQEVAAV-VDVLQTPAFL  115
+
+Query  126  ICNITLLEAAADSGLIVILSRGTASAS-EIETAVSIFKKKKSPFILLHCVSSYPMNEIDA  184
+                  + + A  G  V + +G   A  E++  V+      +  I++ C   Y     + 
+Sbjct  116  CRQSNFIRSVAACGKPVNIKKGQFLAPWEMKQVVAKAWATGNKKIMV-CERGYSFGYNNL  174
+
+Query  185  --NLSAIQTLKS-----------KYEFPIGY---SDHSKGIEIPLL-----AVASGAEII  223
+              ++ A+  L+              + P G+   S   +   +P+L     A       +
+Sbjct  175  ISDMRALAILRETACPVIFDATHSVQLPGGHGTNSGGQREF-VPVLARAATAAGIAGIFM  233
+
+Query  224  EKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKILGH  263
+            E H   DR L   D   S    ++  L+   + + K++ +
+Sbjct  234  ETHPDPDRAL--SDGPNSWPLAKMQPLLETLKELDKVVKN  271
+
+
+> sp|B6J4X2|KDSA_COXB1 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Coxiella burnetii (strain CbuK_Q154) OX=434924 GN=kdsA 
+PE=3 SV=1
+Length=280
+
+ Score = 45.9 bits (107),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 43/280 (15%), Positives = 100/280 (36%), Gaps = 35/280 (13%)
+
+Query  8    ITLGNIKIGGNNPVFIIA-EAGLNHGG-DLNLALRMIDEAADAKANAIKFQAYNSEERFG  65
+            + + + +IG NNP+F+IA    +      +++A  +           I    + +     
+Sbjct  3    MQIADFEIGLNNPLFLIAGPCVIESEALVMDVAGELKSITQQLDMPFI----FKASFDKA  58
+
+Query  66   ENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCD  125
+                 ++   P    +K   +L++  +   +       +   L  +  + V++L+  +  
+Sbjct  59   NRSSHLSYRGPGI--EKGLTILEKVKKTLEVPIITDVHEDTPLQEVAAV-VDVLQTPAFL  115
+
+Query  126  ICNITLLEAAADSGLIVILSRGTASAS-EIETAVSIFKKKKSPFILLHCVSSYPMNEIDA  184
+                  + + A  G  V + +G   A  E++  V+      +  I++ C   Y     + 
+Sbjct  116  CRQSNFIRSVAACGKPVNIKKGQFLAPWEMKQVVAKAWATGNKKIMV-CERGYSFGYNNL  174
+
+Query  185  --NLSAIQTLKS-----------KYEFPIGY---SDHSKGIEIPLL-----AVASGAEII  223
+              ++ A+  L+              + P G+   S   +   +P+L     A       +
+Sbjct  175  ISDMRALAILRETACPVIFDATHSVQLPGGHGTSSGGQREF-VPVLARAATAAGIAGIFM  233
+
+Query  224  EKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKILGH  263
+            E H   DR L   D   S    ++  L+   + + K++ +
+Sbjct  234  ETHPDPDRAL--SDGPNSWPLAKMQPLLETLKELDKVVKN  271
+
+
+> sp|A9KDH6|KDSA_COXBN 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Coxiella burnetii (strain Dugway 5J108-111) OX=434922 GN=kdsA 
+PE=3 SV=2
+Length=280
+
+ Score = 45.5 bits (106),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 43/280 (15%), Positives = 100/280 (36%), Gaps = 35/280 (13%)
+
+Query  8    ITLGNIKIGGNNPVFIIA-EAGLNHGG-DLNLALRMIDEAADAKANAIKFQAYNSEERFG  65
+            + + + +IG NNP+F+IA    +      +++A  +           I    + +     
+Sbjct  3    MQIADFEIGLNNPLFLIAGPCVIESEALVMDVAGELKSITQQLDMPFI----FKASFDKA  58
+
+Query  66   ENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCD  125
+                 ++   P    +K   +L++  +   +       +   L  +  + V++L+  +  
+Sbjct  59   NRSSHLSYRGPGI--EKGLTILEKVKKTLEVPIITDVHEDTPLQEVAAV-VDVLQTPAFL  115
+
+Query  126  ICNITLLEAAADSGLIVILSRGTASAS-EIETAVSIFKKKKSPFILLHCVSSYPMNEIDA  184
+                  + + A  G  V + +G   A  E++  V+      +  I++ C   Y     + 
+Sbjct  116  CRQSNFIRSVAACGKPVNIKKGQFLAPWEMKQVVAKAWATGNKKIMV-CERGYSFGYNNL  174
+
+Query  185  --NLSAIQTLKS-----------KYEFPIGY---SDHSKGIEIPLL-----AVASGAEII  223
+              ++ A+  L+              + P G+   S   +   +P+L     A       +
+Sbjct  175  ISDMRALAILRETACPVIFDATHSVQLPGGHGTSSGGQRKF-VPVLARAATAAGIAGIFM  233
+
+Query  224  EKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKILGH  263
+            E H   DR L   D   S    ++  L+   + + K++ +
+Sbjct  234  ETHPDPDRAL--SDGPNSWPLAKMQPLLETLKELDKVVKN  271
+
+
+> sp|Q4UN94|KDSA_RICFE 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Rickettsia felis (strain ATCC VR-1525 / URRWXCal2) OX=315456 
+GN=kdsA PE=3 SV=1
+Length=274
+
+ Score = 45.5 bits (106),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 32/146 (22%), Positives = 61/146 (42%), Gaps = 9/146 (6%)
+
+Query  4    MSQEITLGNIKIGGNNP-VFIIAEAGLNH-GGDLNLALRMIDEAADAKANAIKFQAYNSE  61
+            M + + L NIKIG + P V I     +      L +A +++   +  +   I   +++  
+Sbjct  1    MQKVVKLNNIKIGNDLPFVLIAGPCQIEGKDHALFMAEKLVKLTSKLEIPFIYKSSFD--  58
+
+Query  62   ERFGENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKI  121
+                 N+ +VN ++     +K   +L +   + +                 EI  +IL+I
+Sbjct  59   ---KANRTSVNGIRGLGI-EKGLEILSKVKSEFDCPIVTDVHSESQCTETAEI-ADILQI  113
+
+Query  122  ASCDICNITLLEAAADSGLIVILSRG  147
+             +       LL+AAA +G IV + +G
+Sbjct  114  PAFLCRQTDLLQAAAKTGKIVKVKKG  139
+
+
+> sp|B5FBX4|KDSA_ALIFM 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Aliivibrio fischeri (strain MJ11) OX=388396 GN=kdsA PE=3 
+SV=1
+Length=284
+
+ Score = 45.5 bits (106),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 33/282 (12%), Positives = 94/282 (33%), Gaps = 35/282 (12%)
+
+Query  6    QEITLGNIKIGGNNPVFIIAEAGLNHGGDL--NLALRMIDEAADAKANAIKFQAYNSEER  63
+            + + +GNI +  + P  + A   +    DL   +  + ++         +    + +   
+Sbjct  5    KTVKIGNIDVANDKPFTLFAGMNVLESRDLAMQICEKYVEVTDRLGIPYV----FKASFD  60
+
+Query  64   FGENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIAS  123
+                + +V+  +     ++   + +E      +              + ++ V+++++ +
+Sbjct  61   KAN-RSSVHSYRGPGM-EEGLKIFQELKDTFGVKIITDIHTEAQAQPVADV-VDVIQLPA  117
+
+Query  124  CDICNITLLEAAADSGLIVILSR-GTASASEIETAVSIFKKKKSPFILLHCVSSYPMNEI  182
+                   L+EA A +G ++ + +    S  ++   +  F +  +  I+L C     M   
+Sbjct  118  FLARQTDLVEAMAKTGAVINVKKPQFMSPDQVGNIIDKFSECGNENIIL-CERGSCMGYD  176
+
+Query  183  D--ANLSAIQTLKSKYE-----FPIGYS-----------DHSKGIEIPLL----AVASGA  220
+            +   ++     +K         F + +S              +   + L     A     
+Sbjct  177  NLVVDMLGFGVMKKASNGSPIIFDVTHSLQNRDPSGKASGGRRSQTVELAKAGLATGIAG  236
+
+Query  221  EIIEKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKILG  262
+              IE H   D+ L   D   +    +L   + + + +  ++ 
+Sbjct  237  LFIEAHPNPDKAL--CDGPSALPLDQLEPFLKQMKSLDDLIK  276
+
+
+> sp|Q5E6S9|KDSA_ALIF1 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Aliivibrio fischeri (strain ATCC 700601 / ES114) OX=312309 
+GN=kdsA PE=3 SV=1
+Length=284
+
+ Score = 45.5 bits (106),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 33/282 (12%), Positives = 94/282 (33%), Gaps = 35/282 (12%)
+
+Query  6    QEITLGNIKIGGNNPVFIIAEAGLNHGGDL--NLALRMIDEAADAKANAIKFQAYNSEER  63
+            + + +GNI +  + P  + A   +    DL   +  + ++         +    + +   
+Sbjct  5    KTVKIGNIDVANDKPFTLFAGMNVLESRDLAMQICEKYVEVTDRLGIPYV----FKASFD  60
+
+Query  64   FGENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIAS  123
+                + +V+  +     ++   + +E      +              + ++ V+++++ +
+Sbjct  61   KAN-RSSVHSYRGPGM-EEGLKIFQELKDTFGVKIITDIHTEAQAQPVADV-VDVIQLPA  117
+
+Query  124  CDICNITLLEAAADSGLIVILSR-GTASASEIETAVSIFKKKKSPFILLHCVSSYPMNEI  182
+                   L+EA A +G ++ + +    S  ++   +  F +  +  I+L C     M   
+Sbjct  118  FLARQTDLVEAMAKTGAVINVKKPQFMSPDQVGNIIDKFSECGNENIIL-CERGSCMGYD  176
+
+Query  183  D--ANLSAIQTLKSKYE-----FPIGYS-----------DHSKGIEIPLL----AVASGA  220
+            +   ++     +K         F + +S              +   + L     A     
+Sbjct  177  NLVVDMLGFGVMKKASNGSPIIFDVTHSLQNRDPSGKASGGRRSQTVELAKAGLATGIAG  236
+
+Query  221  EIIEKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKILG  262
+              IE H   D+ L   D   +    +L   + + + +  ++ 
+Sbjct  237  LFIEAHPNPDKAL--CDGPSALPLDQLEPFLKQMKSLDDLIK  276
+
+
+> sp|A8EXC8|KDSA_RICCK 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Rickettsia canadensis (strain McKiel) OX=293613 GN=kdsA 
+PE=3 SV=1
+Length=274
+
+ Score = 45.1 bits (105),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 52/279 (19%), Positives = 97/279 (35%), Gaps = 31/279 (11%)
+
+Query  4    MSQEITLGNIKIGGNNP-VFIIAEAGLNHGG-DLNLALRMIDEAADAKANAIKFQAYNSE  61
+            M + + L NIKIG + P + I     +      L +A +++   +      I    Y S 
+Sbjct  1    MQKVVKLHNIKIGNDLPFILIAGPCQIEGQDHALFMAEKLVKLTSKLDIPFI----YKSS  56
+
+Query  62   ERFGENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKI  121
+                  + ++N V+     +K   +L +   + +                  + V+IL+I
+Sbjct  57   FDKAN-RTSINGVRGLGI-EKGLEVLSKVKAEFDCPIVTDVHSESQCTETARV-VDILQI  113
+
+Query  122  ASCDICNITLLEAAADSGLIVILSRG-------TASASEIETAVS----IFKKKKSPFIL  170
+             +       LL+AAA +G IV + +G         +      A      +F ++ + F  
+Sbjct  114  PAFLCRQTDLLQAAAKTGKIVKVKKGQFLAPWDMKNVQTKLKAFGAENILFTERGTCFGY  173
+
+Query  171  LHCVSSYPMNEIDANLSAIQTLKSKYEF--PIGYSDHSKG-----IEIPLLAVASG--AE  221
+             + VS      I A L+      + +    P G  D + G       +   A   G    
+Sbjct  174  NNLVSDMRSLAIMAKLNVPVIFDATHSVQQPGGLGDSTGGERKYVELLAKAATTVGIAGM  233
+
+Query  222  IIEKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKI  260
+             +E H   D      D     +   L  ++ + ++  KI
+Sbjct  234  YMEVHQDPDNA--PSDGPCMIKLDNLESILIKLKKYDKI  270
+
+
+> sp|C3LPI0|KDSA_VIBCM 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Vibrio cholerae serotype O1 (strain M66-2) OX=579112 GN=kdsA 
+PE=3 SV=1
+Length=283
+
+ Score = 45.1 bits (105),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 39/288 (14%), Positives = 95/288 (33%), Gaps = 49/288 (17%)
+
+Query  8    ITLGNIKIGGNNPVFIIAEAGLNHGGDLNLALRM----IDEAADAKANAIKFQAYNSEER  63
+            + +G+I +  + P  + A  G+N     +LA+++    +          +   +++   +
+Sbjct  6    VHVGDIPVANDKPFTLFA--GMNVLESRDLAMQICEHYVKVTDKLGIPYVFKASFD---K  60
+
+Query  64   FGENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIAS  123
+               +          E G K F  LKE      +              + ++ V+++++ +
+Sbjct  61   ANRSSVHSYRGPGLEEGMKIFQELKE---TFGVKIITDVHTEAQAQPVADV-VDVIQLPA  116
+
+Query  124  CDICNITLLEAAADSG------LIVILSRGTASASEIETAVSIFKKKKSPFILLHCV--S  175
+                   L+EA A +G          +S G     ++   V  F +  +  ++L C   S
+Sbjct  117  FLARQTDLVEAMAKTGAVINVKKPQFMSPG-----QVGNIVEKFAECGNDKVIL-CERGS  170
+
+Query  176  SYPMNEIDANLSAIQTLKSKYE-----FPIGYS-----------DHSKGIEIPLL----A  215
+             +  + +  ++     +K         F + +S              +   + L     A
+Sbjct  171  CHGYDNLVVDMLGFGVMKQASNGSPIIFDVTHSLQMRDPSGAASGGRREQTVELAKAGLA  230
+
+Query  216  VASGAEIIEKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKILGH  263
+                   IE H   D+     D   +    +L   + + + +  ++  
+Sbjct  231  TGIAGLFIEAHPNPDKA--RCDGPSALPLDKLEPFLAQMKALDDLIKS  276
+
+
+> sp|Q9KQ29|KDSA_VIBCH 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Vibrio cholerae serotype O1 (strain ATCC 39315 / El Tor 
+Inaba N16961) OX=243277 GN=kdsA PE=3 SV=1
+Length=283
+
+ Score = 45.1 bits (105),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 39/288 (14%), Positives = 95/288 (33%), Gaps = 49/288 (17%)
+
+Query  8    ITLGNIKIGGNNPVFIIAEAGLNHGGDLNLALRM----IDEAADAKANAIKFQAYNSEER  63
+            + +G+I +  + P  + A  G+N     +LA+++    +          +   +++   +
+Sbjct  6    VHVGDIPVANDKPFTLFA--GMNVLESRDLAMQICEHYVKVTDKLGIPYVFKASFD---K  60
+
+Query  64   FGENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIAS  123
+               +          E G K F  LKE      +              + ++ V+++++ +
+Sbjct  61   ANRSSVHSYRGPGLEEGMKIFQELKE---TFGVKIITDVHTEAQAQPVADV-VDVIQLPA  116
+
+Query  124  CDICNITLLEAAADSG------LIVILSRGTASASEIETAVSIFKKKKSPFILLHCV--S  175
+                   L+EA A +G          +S G     ++   V  F +  +  ++L C   S
+Sbjct  117  FLARQTDLVEAMAKTGAVINVKKPQFMSPG-----QVGNIVEKFAECGNDKVIL-CERGS  170
+
+Query  176  SYPMNEIDANLSAIQTLKSKYE-----FPIGYS-----------DHSKGIEIPLL----A  215
+             +  + +  ++     +K         F + +S              +   + L     A
+Sbjct  171  CHGYDNLVVDMLGFGVMKQASNGSPIIFDVTHSLQMRDPSGAASGGRREQTVELAKAGLA  230
+
+Query  216  VASGAEIIEKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKILGH  263
+                   IE H   D+     D   +    +L   + + + +  ++  
+Sbjct  231  TGIAGLFIEAHPNPDKA--RCDGPSALPLDKLEPFLAQMKALDDLIKS  276
+
+
+> sp|A5F692|KDSA_VIBC3 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Vibrio cholerae serotype O1 (strain ATCC 39541 / Classical 
+Ogawa 395 / O395) OX=345073 GN=kdsA PE=1 SV=1
+Length=283
+
+ Score = 45.1 bits (105),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 39/288 (14%), Positives = 95/288 (33%), Gaps = 49/288 (17%)
+
+Query  8    ITLGNIKIGGNNPVFIIAEAGLNHGGDLNLALRM----IDEAADAKANAIKFQAYNSEER  63
+            + +G+I +  + P  + A  G+N     +LA+++    +          +   +++   +
+Sbjct  6    VHVGDIPVANDKPFTLFA--GMNVLESRDLAMQICEHYVKVTDKLGIPYVFKASFD---K  60
+
+Query  64   FGENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIAS  123
+               +          E G K F  LKE      +              + ++ V+++++ +
+Sbjct  61   ANRSSVHSYRGPGLEEGMKIFQELKE---TFGVKIITDVHTEAQAQPVADV-VDVIQLPA  116
+
+Query  124  CDICNITLLEAAADSG------LIVILSRGTASASEIETAVSIFKKKKSPFILLHCV--S  175
+                   L+EA A +G          +S G     ++   V  F +  +  ++L C   S
+Sbjct  117  FLARQTDLVEAMAKTGAVINVKKPQFMSPG-----QVGNIVEKFAECGNDKVIL-CERGS  170
+
+Query  176  SYPMNEIDANLSAIQTLKSKYE-----FPIGYS-----------DHSKGIEIPLL----A  215
+             +  + +  ++     +K         F + +S              +   + L     A
+Sbjct  171  CHGYDNLVVDMLGFGVMKQASNGSPIIFDVTHSLQMRDPSGAASGGRREQTVELAKAGLA  230
+
+Query  216  VASGAEIIEKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKILGH  263
+                   IE H   D+     D   +    +L   + + + +  ++  
+Sbjct  231  TGIAGLFIEAHPNPDKA--RCDGPSALPLDKLEPFLAQMKALDDLIKS  276
+
+
+> sp|Q68XT6|KDSA_RICTY 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Rickettsia typhi (strain ATCC VR-144 / Wilmington) OX=257363 
+GN=kdsA PE=3 SV=1
+Length=274
+
+ Score = 44.3 bits (103),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 31/146 (21%), Positives = 60/146 (41%), Gaps = 9/146 (6%)
+
+Query  4    MSQEITLGNIKIGGN-NPVFIIAEAGLN-HGGDLNLALRMIDEAADAKANAIKFQAYNSE  61
+            M + + L NIKIG +   V I     +      L +A ++I   +      I   +++  
+Sbjct  1    MKKVVKLNNIKIGNDLQFVLIAGPCQIEDEDHALFMAEKLIQLTSKLSIPFIYKSSFD--  58
+
+Query  62   ERFGENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKI  121
+                 N+ ++N ++     +K   +L +   + N                 ++ V+IL+I
+Sbjct  59   ---KANRTSINGIRGLGI-EKGLEILSKVKSEFNCPIITDVHSESQCTDTAKV-VDILQI  113
+
+Query  122  ASCDICNITLLEAAADSGLIVILSRG  147
+             +       LL+AAA +G IV + +G
+Sbjct  114  PAFLCRQTDLLKAAAKTGKIVKVKKG  139
+
+
+> sp|Q1RGT8|KDSA_RICBR 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Rickettsia bellii (strain RML369-C) OX=336407 GN=kdsA PE=3 
+SV=1
+Length=274
+
+ Score = 43.9 bits (102),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 32/146 (22%), Positives = 55/146 (38%), Gaps = 9/146 (6%)
+
+Query  4    MSQEITLGNIKIGGNNP-VFIIAEAGLNH-GGDLNLALRMIDEAADAKANAIKFQAYNSE  61
+            M + I L ++KIG + P   I     +      L +A  ++          I    Y S 
+Sbjct  1    MQKIIKLKDLKIGNDLPFTLIAGPCQIEGLDHALFMAEELVKLTTRLNIPFI----YKSS  56
+
+Query  62   ERFGENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKI  121
+                  + +VN  +     K    +L E  +  N               + +I V++L+I
+Sbjct  57   FDKAN-RTSVNGARGLGIDK-GLEVLAEVKRAFNCPIVTDVHSENQCAEVAKI-VDMLQI  113
+
+Query  122  ASCDICNITLLEAAADSGLIVILSRG  147
+             +       LL+AAA +G IV + +G
+Sbjct  114  PAFLCRQTDLLQAAAATGKIVNVKKG  139
+
+
+> sp|A8GUR8|KDSA_RICB8 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Rickettsia bellii (strain OSU 85-389) OX=391896 GN=kdsA 
+PE=3 SV=1
+Length=274
+
+ Score = 43.9 bits (102),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 32/146 (22%), Positives = 55/146 (38%), Gaps = 9/146 (6%)
+
+Query  4    MSQEITLGNIKIGGNNP-VFIIAEAGLNH-GGDLNLALRMIDEAADAKANAIKFQAYNSE  61
+            M + I L ++KIG + P   I     +      L +A  ++          I    Y S 
+Sbjct  1    MQKIIKLKDLKIGNDLPFTLIAGPCQIEGLDHALFMAEELVKLTTRLNIPFI----YKSS  56
+
+Query  62   ERFGENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKI  121
+                  + +VN  +     K    +L E  +  N               + +I V++L+I
+Sbjct  57   FDKAN-RTSVNGARGLGIDK-GLEVLAEVKRAFNCPIVTDVHSENQCAEVAKI-VDMLQI  113
+
+Query  122  ASCDICNITLLEAAADSGLIVILSRG  147
+             +       LL+AAA +G IV + +G
+Sbjct  114  PAFLCRQTDLLQAAAATGKIVNVKKG  139
+
+
+> sp|A8GM05|KDSA_RICAH 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Rickettsia akari (strain Hartford) OX=293614 GN=kdsA PE=3 
+SV=1
+Length=274
+
+ Score = 43.5 bits (101),  Expect = 9e-04, Method: Composition-based stats.
+ Identities = 32/146 (22%), Positives = 58/146 (40%), Gaps = 9/146 (6%)
+
+Query  4    MSQEITLGNIKIGGNNP-VFIIAEAGLNH-GGDLNLALRMIDEAADAKANAIKFQAYNSE  61
+            M + + L NIKIG + P V I     +      L +A +++   +      I    Y S 
+Sbjct  1    MQKIVKLNNIKIGNDLPFVLIAGPCQIEGKDHALFMAEKLVKLTSKLDIAFI----YKSS  56
+
+Query  62   ERFGENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKI  121
+                  + +VN ++     +K   +L +   + +                 E+  +IL+I
+Sbjct  57   FDKAN-RTSVNGIRGVGI-EKGLEILSKVKSEFDCPIVTDIHSESQCTETAEV-ADILQI  113
+
+Query  122  ASCDICNITLLEAAADSGLIVILSRG  147
+             +       LL+AAA +G IV + +G
+Sbjct  114  PAFLCRQTDLLQAAAKTGKIVKVKKG  139
+
+
+> sp|A8GQM3|KDSA_RICRS 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Rickettsia rickettsii (strain Sheila Smith) OX=392021 GN=kdsA 
+PE=3 SV=1
+Length=274
+
+ Score = 43.5 bits (101),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 31/146 (21%), Positives = 59/146 (40%), Gaps = 9/146 (6%)
+
+Query  4    MSQEITLGNIKIGGNNP-VFIIAEAGLNH-GGDLNLALRMIDEAADAKANAIKFQAYNSE  61
+            M + + L NIKIG + P V I     +      L +A +++   +  +   I    Y S 
+Sbjct  1    MQKVVKLNNIKIGNDLPFVLITGPCQIEGKDHALFMAEKLVKLTSKLEIPFI----YKSS  56
+
+Query  62   ERFGENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKI  121
+                  + +V+ ++     +K   +L +   + +                 E+  +IL+I
+Sbjct  57   FDKAN-RTSVHGIRGVGI-EKGLEILSKVKSEFDCPIVTDVHSESQCTATAEV-ADILQI  113
+
+Query  122  ASCDICNITLLEAAADSGLIVILSRG  147
+             +       LL+AAA +G IV + +G
+Sbjct  114  PAFLCRQTDLLQAAAKTGKIVKVKKG  139
+
+
+> sp|B0BW09|KDSA_RICRO 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Rickettsia rickettsii (strain Iowa) OX=452659 GN=kdsA PE=3 
+SV=1
+Length=274
+
+ Score = 43.5 bits (101),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 31/146 (21%), Positives = 59/146 (40%), Gaps = 9/146 (6%)
+
+Query  4    MSQEITLGNIKIGGNNP-VFIIAEAGLNH-GGDLNLALRMIDEAADAKANAIKFQAYNSE  61
+            M + + L NIKIG + P V I     +      L +A +++   +  +   I    Y S 
+Sbjct  1    MQKVVKLNNIKIGNDLPFVLITGPCQIEGKDHALFMAEKLVKLTSKLEIPFI----YKSS  56
+
+Query  62   ERFGENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKI  121
+                  + +V+ ++     +K   +L +   + +                 E+  +IL+I
+Sbjct  57   FDKAN-RTSVHGIRGVGI-EKGLEILSKVKSEFDCPIVTDVHSESQCTATAEV-ADILQI  113
+
+Query  122  ASCDICNITLLEAAADSGLIVILSRG  147
+             +       LL+AAA +G IV + +G
+Sbjct  114  PAFLCRQTDLLQAAAKTGKIVKVKKG  139
+
+
+> sp|Q9ZE84|KDSA_RICPR 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Rickettsia prowazekii (strain Madrid E) OX=272947 GN=kdsA 
+PE=3 SV=1
+Length=275
+
+ Score = 43.5 bits (101),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 46/283 (16%), Positives = 104/283 (37%), Gaps = 39/283 (14%)
+
+Query  4    MSQEITLGNIKIGGN-NPVFIIAEAGLNH-GGDLNLALRMIDEAADAKANAIKFQAYNSE  61
+            M + + L NIKIG +   V I     +      L +A +++   +      I   +++  
+Sbjct  1    MKKVVKLNNIKIGNDLQFVLIAGPCQIEGKDHALFMAEKLMKLTSKLSIPFIYKSSFD--  58
+
+Query  62   ERFGENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKI  121
+                 N+ ++N ++     +K   +L +   + +                 ++ V+IL+I
+Sbjct  59   ---KANRTSINGIRGLGI-EKGLEILSKVKSEFDCPIITDVHSESQCIETAKV-VDILQI  113
+
+Query  122  ASCDICNITLLEAAADSGLIVILSRGTA----SASEIETAVSIFKKKKSPFILLHCVSSY  177
+             +       LL+AAA +G IV + +G          ++  + +F       +     S +
+Sbjct  114  PAFLCRQTDLLKAAAKTGKIVKVKKGQFLAPWDMKNVQKKLEVF--GAKDILFTERGSCF  171
+
+Query  178  PMNEIDANLSAIQTLKSKYEFPIGYSDHSKGIEIPL------------------LAVASG  219
+              N + +++ ++  + S+   P+ + D +  ++ P                    A++ G
+Sbjct  172  GYNNLVSDMRSLAIM-SELNVPVVF-DATHSVQQPGGRGGSSGGERKYVELLAKAAISVG  229
+
+Query  220  AEII--EKHYTVDRTLQGIDWEISAEPKELAKLVTETERIRKI  260
+               I  E H   D      D     +   L  ++ + ++  KI
+Sbjct  230  IAGIYMEVHQDPDNA--PSDGPCMIKLDNLESILIKLKKYDKI  270
+
+
+> sp|C3PMA0|KDSA_RICAE 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Rickettsia africae (strain ESF-5) OX=347255 GN=kdsA PE=3 
+SV=1
+Length=274
+
+ Score = 43.2 bits (100),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 31/146 (21%), Positives = 59/146 (40%), Gaps = 9/146 (6%)
+
+Query  4    MSQEITLGNIKIGGNNP-VFIIAEAGLNH-GGDLNLALRMIDEAADAKANAIKFQAYNSE  61
+            M + + L NIKIG + P V I     +      L +A +++   +  +   I    Y S 
+Sbjct  1    MQKVVKLNNIKIGNDLPFVLITGPCQIEGKDHALFMAEKLVKLTSKLEIPFI----YKSS  56
+
+Query  62   ERFGENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKI  121
+                  + +V+ ++     +K   +L +   + +                 E+  +IL+I
+Sbjct  57   FDKAN-RTSVHGIRGVGI-EKGLEILSKVKSEFDCPIVTDVHSESQCTETAEV-ADILQI  113
+
+Query  122  ASCDICNITLLEAAADSGLIVILSRG  147
+             +       LL+AAA +G IV + +G
+Sbjct  114  PAFLCRQTDLLQAAAKTGKIVKVKKG  139
+
+
+> sp|Q92JH7|KDSA_RICCN 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Rickettsia conorii (strain ATCC VR-613 / Malish 7) OX=272944 
+GN=kdsA PE=3 SV=1
+Length=274
+
+ Score = 43.2 bits (100),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 31/146 (21%), Positives = 59/146 (40%), Gaps = 9/146 (6%)
+
+Query  4    MSQEITLGNIKIGGNNP-VFIIAEAGLNH-GGDLNLALRMIDEAADAKANAIKFQAYNSE  61
+            M + + L NIKIG + P V I     +      L +A +++   +  +   I    Y S 
+Sbjct  1    MQKVVKLNNIKIGNDLPFVLITGPCQIEGKDHALFMAEKLVKLTSKLEIPFI----YKSS  56
+
+Query  62   ERFGENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKI  121
+                  + +V+ ++     +K   +L +   + +                 E+  +IL+I
+Sbjct  57   FDKAN-RTSVHGIRGVGI-EKGLEILSKVKSEFDCPIVTDVHSESQCTETAEV-ADILQI  113
+
+Query  122  ASCDICNITLLEAAADSGLIVILSRG  147
+             +       LL+AAA +G IV + +G
+Sbjct  114  PAFLCRQTDLLQAAAKTGKIVKVKKG  139
+
+
+> sp|A0L7X4|KDSA_MAGMM 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Magnetococcus marinus (strain ATCC BAA-1437 / JCM 17883 
+/ MC-1) OX=156889 GN=kdsA PE=3 SV=1
+Length=287
+
+ Score = 42.4 bits (98),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 39/285 (14%), Positives = 85/285 (30%), Gaps = 37/285 (13%)
+
+Query  8    ITLGNIKIGGNNP-VFIIAEAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFGE  66
+            IT+  ++ G + P   I     +     L  ALR  +         +  +          
+Sbjct  6    ITVDTVRFGNHLPMTLIAGPCVIEG---LEFALRTAEALKQI-CEGVGVELVYKSSFDKA  61
+
+Query  67   NKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCDI  126
+            N+ +    +     +    +L+   ++  +       +      + E+ V++L+  +   
+Sbjct  62   NRTSEGSFRGPGM-EAGLRILERVRREVGVPVITDVHEADQCVAVAEV-VDMLQTPAFLC  119
+
+Query  127  CNITLLEAAADSGLIVILSRG-TASASEIETAVSIFKKKKSPFILLHCVSSYPMNEID--  183
+                 ++AAA  G  V + +G   +  ++    +      +  ILL C   +     +  
+Sbjct  120  RQTDFIQAAARPGKPVNIKKGQFLAPQDMARVAAKAAATGNENILL-CERGFSFGYQNLV  178
+
+Query  184  ANLSAIQTLKSKYEFPI---------------GYSDHSKGIEIPLL----AVASGAEIIE  224
+             ++  +  +     +P+               G S   +     L     AV      +E
+Sbjct  179  VDMRGLSIMAQ-SGYPVIFDATHSVQQPGALGGASGGDRRFVSDLARAAVAVGVAGVFME  237
+
+Query  225  KHYTVDRT-LQGIDWE--ISAEP--KELAKLVTETERIRKILGHG  264
+             H   D     G +        P   +L  L     +    L  G
+Sbjct  238  VHPDPDHAPCDGPNMLPMAHLSPLLDQLKAL-DRIRKEAMALESG  281
+
+
+> sp|A1US93|KDSA_BARBK 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Bartonella bacilliformis (strain ATCC 35685 / NCTC 12138 
+/ KC583) OX=360095 GN=kdsA PE=3 SV=1
+Length=282
+
+ Score = 41.6 bits (96),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 33/205 (16%), Positives = 82/205 (40%), Gaps = 17/205 (8%)
+
+Query  4    MSQ---EITLGNIKIGGNNP-VFIIAEAGLNHGG-DLNLALRMIDEAADAKANAIKFQAY  58
+            MSQ    + +GN+      P   I+    +        +A R+   A  A    +   +Y
+Sbjct  1    MSQPNVSVKVGNVVFSNKAPLSLIVGPCQIESRDHAFEMAGRIKAIADQAGIGFVYKSSY  60
+
+Query  59   NSEERFGENKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEI  118
+            +       N+ +++  +     +K   +  +  ++                 +  + V++
+Sbjct  61   D-----KANRTSLSAARGIGL-EKAIAIFADLKKEFGFPILTDVHTEEQCRAVSSV-VDV  113
+
+Query  119  LKIASCDICNITLLEAAADSGLIVILSRGTASAS-EIETAVSIFKKKKSPFILLHCV--S  175
+            L+I +       LL AAA +G ++ + +G   A  ++E  +    +  +P ++L C   +
+Sbjct  114  LQIPAFLCRQTDLLVAAAKTGCVINIKKGQFLAPWDMENVLKKVTQSGNPDVML-CERGT  172
+
+Query  176  SYPMNEIDANLSAIQTLKSKYEFPI  200
+            S+  N + +++ ++  + S +  P+
+Sbjct  173  SFGYNRLVSDMRSLPIMSS-FGAPV  196
+
+
+> sp|Q89KV0|KDSA_BRADU 2-dehydro-3-deoxyphosphooctonate aldolase 
+OS=Bradyrhizobium diazoefficiens (strain JCM 10833 / IAM 13628 
+/ NBRC 14792 / USDA 110) OX=224911 GN=kdsA PE=3 SV=1
+Length=282
+
+ Score = 40.5 bits (93),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 43/269 (16%), Positives = 83/269 (31%), Gaps = 30/269 (11%)
+
+Query  8    ITLGNIKIGGNNPVFIIA-EAGLNHGGDLNLALRMIDEAADAKANAIKFQAYNSEERFGE  66
+            +T+G +K G + P+ IIA    L        AL +     +  A       Y +      
+Sbjct  11   VTIGRVKFGNDLPISIIAGPCQLESRQH---ALEVASALKEIAARLNIGLVYKTSFDKAN  67
+
+Query  67   NKEAVNLVKPAEFGKKEFLLLKERSQKKNILFFATPFDVPNLNMLKEIGVEILKIASCDI  126
+             + + +  +      +   +  E      +       +      + +  V+IL+I +   
+Sbjct  68   -RTSASAARGLGL-AQSLPIFAEIRSSLGLPVLTDVHEATQCAEVAQ-AVDILQIPAFLC  124
+
+Query  127  CNITLLEAAADSGLIVILSRG--TASASEIETAVSIFKKKKSPFILLHCVSSYPMNEIDA  184
+                LL AAA +G +V + +G   A          I        ++    +S+  N + +
+Sbjct  125  RQTDLLLAAAATGKVVNVKKGQFLAPWDMANVVTKITSANNPNVLVTERGASFGYNTLVS  184
+
+Query  185  NLSAIQTLKSKYEFPIGY---------------SDHSKGIE----IPLLAVASGAEIIEK  225
+            ++ A+  L      P+ +               S   +          +AV      IE 
+Sbjct  185  DMRALPILARTTGAPVIFDATHSVQQPGGKGTSSGGEREFVPVLARAAVAVGVAGVFIET  244
+
+Query  226  HYTVDRTLQGIDWEISAEPKELAKLVTET  254
+            H   D      D       +E   L+   
+Sbjct  245  HPDPDSA--PSDGPNMVPLREFEGLIRRL  271
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.132    0.311    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0403    0.140     1.90     42.6     43.6 
+
+Effective search space used: 23002303296
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  1:45 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
