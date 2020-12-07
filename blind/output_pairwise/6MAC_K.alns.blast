@@ -1,0 +1,874 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 6MAC:K
+
+Length=80
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P36897|TGFR1_HUMAN TGF-beta receptor type-1 OS=Homo sapiens ...  173     2e-52
+  sp|Q5CD18|TGFR1_PIG TGF-beta receptor type-1 OS=Sus scrofa OX=9...  171     1e-51
+  sp|O46680|TGFR1_BOVIN TGF-beta receptor type-1 OS=Bos taurus OX...  170     2e-51
+  sp|Q64729|TGFR1_MOUSE TGF-beta receptor type-1 OS=Mus musculus ...  169     5e-51
+  sp|P80204|TGFR1_RAT TGF-beta receptor type-1 OS=Rattus norvegic...  161     5e-48
+  sp|P36896|ACV1B_HUMAN Activin receptor type-1B OS=Homo sapiens ...  69.7    2e-14
+  sp|P80202|ACV1B_RAT Activin receptor type-1B OS=Rattus norvegic...  68.9    4e-14
+  sp|Q61271|ACV1B_MOUSE Activin receptor type-1B OS=Mus musculus ...  68.2    5e-14
+  sp|Q8NER5|ACV1C_HUMAN Activin receptor type-1C OS=Homo sapiens ...  43.1    4e-05
+  sp|P70539|ACV1C_RAT Activin receptor type-1C OS=Rattus norvegic...  42.7    5e-05
+  sp|Q8K348|ACV1C_MOUSE Activin receptor type-1C OS=Mus musculus ...  40.8    3e-04
+
+
+> sp|P36897|TGFR1_HUMAN TGF-beta receptor type-1 OS=Homo sapiens 
+OX=9606 GN=TGFBR1 PE=1 SV=1
+Length=503
+
+ Score = 173 bits (438),  Expect = 2e-52, Method: Compositional matrix adjust.
+ Identities = 80/80 (100%), Positives = 80/80 (100%), Gaps = 0/80 (0%)
+
+Query  1    ALQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT  60
+            ALQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT
+Sbjct  33   ALQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT  92
+
+Query  61   GSVTTTYCCNQDHCNKIELP  80
+            GSVTTTYCCNQDHCNKIELP
+Sbjct  93   GSVTTTYCCNQDHCNKIELP  112
+
+
+> sp|Q5CD18|TGFR1_PIG TGF-beta receptor type-1 OS=Sus scrofa OX=9823 
+GN=TGFBR1 PE=2 SV=1
+Length=503
+
+ Score = 171 bits (432),  Expect = 1e-51, Method: Compositional matrix adjust.
+ Identities = 79/80 (99%), Positives = 79/80 (99%), Gaps = 0/80 (0%)
+
+Query  1    ALQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT  60
+            A QCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT
+Sbjct  29   AFQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT  88
+
+Query  61   GSVTTTYCCNQDHCNKIELP  80
+            GSVTTTYCCNQDHCNKIELP
+Sbjct  89   GSVTTTYCCNQDHCNKIELP  108
+
+
+> sp|O46680|TGFR1_BOVIN TGF-beta receptor type-1 OS=Bos taurus 
+OX=9913 GN=TGFBR1 PE=2 SV=1
+Length=499
+
+ Score = 170 bits (431),  Expect = 2e-51, Method: Compositional matrix adjust.
+ Identities = 78/79 (99%), Positives = 79/79 (100%), Gaps = 0/79 (0%)
+
+Query  2    LQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKTG  61
+            LQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKTG
+Sbjct  30   LQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKTG  89
+
+Query  62   SVTTTYCCNQDHCNKIELP  80
+            S+TTTYCCNQDHCNKIELP
+Sbjct  90   SITTTYCCNQDHCNKIELP  108
+
+
+> sp|Q64729|TGFR1_MOUSE TGF-beta receptor type-1 OS=Mus musculus 
+OX=10090 GN=Tgfbr1 PE=1 SV=1
+Length=503
+
+ Score = 169 bits (428),  Expect = 5e-51, Method: Compositional matrix adjust.
+ Identities = 78/80 (98%), Positives = 79/80 (99%), Gaps = 0/80 (0%)
+
+Query  1    ALQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT  60
+            ALQCFCHLCTKDNFTC TDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT
+Sbjct  29   ALQCFCHLCTKDNFTCETDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT  88
+
+Query  61   GSVTTTYCCNQDHCNKIELP  80
+            G+VTTTYCCNQDHCNKIELP
+Sbjct  89   GAVTTTYCCNQDHCNKIELP  108
+
+
+> sp|P80204|TGFR1_RAT TGF-beta receptor type-1 OS=Rattus norvegicus 
+OX=10116 GN=Tgfbr1 PE=1 SV=1
+Length=501
+
+ Score = 161 bits (407),  Expect = 5e-48, Method: Compositional matrix adjust.
+ Identities = 76/80 (95%), Positives = 77/80 (96%), Gaps = 2/80 (3%)
+
+Query  1    ALQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT  60
+            ALQCFCHLCTKDNFTC TDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT
+Sbjct  29   ALQCFCHLCTKDNFTCETDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT  88
+
+Query  61   GSVTTTYCCNQDHCNKIELP  80
+            G+V  TYCCNQDHCNKIELP
+Sbjct  89   GAV--TYCCNQDHCNKIELP  106
+
+
+> sp|P36896|ACV1B_HUMAN Activin receptor type-1B OS=Homo sapiens 
+OX=9606 GN=ACVR1B PE=1 SV=1
+Length=505
+
+ Score = 69.7 bits (169),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 31/79 (39%), Positives = 44/79 (56%), Gaps = 3/79 (4%)
+
+Query  1    ALQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT  60
+            AL C C  C + N+TC TDG C VS+        H   CI +++L+P  +PF C  S   
+Sbjct  31   ALLCACTSCLQANYTCETDGACMVSIFNLDGMEHHVRTCIPKVELVPAGKPFYCLSSE--  88
+
+Query  61   GSVTTTYCCNQDHCNKIEL  79
+              +  T+CC  D+CN+I+L
+Sbjct  89   -DLRNTHCCYTDYCNRIDL  106
+
+
+> sp|P80202|ACV1B_RAT Activin receptor type-1B OS=Rattus norvegicus 
+OX=10116 GN=Acvr1b PE=2 SV=1
+Length=505
+
+ Score = 68.9 bits (167),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 32/79 (41%), Positives = 43/79 (54%), Gaps = 3/79 (4%)
+
+Query  1    ALQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT  60
+            AL C C  C + N+TC TDG C VS+        H   CI +++L+P  +PF C  S   
+Sbjct  31   ALLCACTSCLQTNYTCETDGACMVSIFNLDGMEHHVRTCIPKVELVPAGKPFYCLSSE--  88
+
+Query  61   GSVTTTYCCNQDHCNKIEL  79
+              +  T+CC  D CNKI+L
+Sbjct  89   -DLRNTHCCYIDFCNKIDL  106
+
+
+> sp|Q61271|ACV1B_MOUSE Activin receptor type-1B OS=Mus musculus 
+OX=10090 GN=Acvr1b PE=1 SV=1
+Length=505
+
+ Score = 68.2 bits (165),  Expect = 5e-14, Method: Composition-based stats.
+ Identities = 32/79 (41%), Positives = 43/79 (54%), Gaps = 3/79 (4%)
+
+Query  1    ALQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT  60
+            AL C C  C + N+TC TDG C VS+        H   CI +++L+P  +PF C  S   
+Sbjct  31   ALLCACTSCLQTNYTCETDGACMVSIFNLDGVEHHVRTCIPKVELVPAGKPFYCLSSE--  88
+
+Query  61   GSVTTTYCCNQDHCNKIEL  79
+              +  T+CC  D CNKI+L
+Sbjct  89   -DLRNTHCCYIDFCNKIDL  106
+
+
+> sp|Q8NER5|ACV1C_HUMAN Activin receptor type-1C OS=Homo sapiens 
+OX=9606 GN=ACVR1C PE=1 SV=1
+Length=493
+
+ Score = 43.1 bits (100),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 30/81 (37%), Positives = 42/81 (52%), Gaps = 10/81 (12%)
+
+Query  1   ALQCFCHLCTKDNFTCVTDGLCFVSV--TETTDKVIHNSMCIAEIDLIPRDRPFVCAPSS  58
+            L+C C LC   NFTC T+G C+ SV  T   ++VI + + + E++         C  S+
+Sbjct  25  GLKCVCLLCDSSNFTCQTEGACWASVMLTNGKEQVIKSCVSLPELNA-----QVFCHSSN  79
+
+Query  59  KTGSVTTTYCCNQDHCNKIEL  79
+              +VT T CC  D CN I L
+Sbjct  80  ---NVTKTECCFTDFCNNITL  97
+
+
+> sp|P70539|ACV1C_RAT Activin receptor type-1C OS=Rattus norvegicus 
+OX=10116 GN=Acvr1c PE=1 SV=1
+Length=493
+
+ Score = 42.7 bits (99),  Expect = 5e-05, Method: Compositional matrix adjust.
+ Identities = 29/77 (38%), Positives = 39/77 (51%), Gaps = 6/77 (8%)
+
+Query  1   ALQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT  60
+            L+C C LC   NFTC T+G C+ SV  T  K   +  C++  +L   +    C  S+  
+Sbjct  25  GLKCVCLLCDSSNFTCQTEGACWASVMLTNGKEQVSKSCVSLPEL---NAQVFCHSSN--  79
+
+Query  61  GSVTTTYCCNQDHCNKI  77
+            +VT T CC  D CN I
+Sbjct  80  -NVTKTECCFTDFCNNI  95
+
+
+> sp|Q8K348|ACV1C_MOUSE Activin receptor type-1C OS=Mus musculus 
+OX=10090 GN=Acvr1c PE=2 SV=3
+Length=493
+
+ Score = 40.8 bits (94),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 29/79 (37%), Positives = 41/79 (52%), Gaps = 10/79 (13%)
+
+Query  3   QCFCHLCTKDNFTCVTDGLCFVSV--TETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT  60
+           +C C LC   NFTC T+G C+ SV  T   ++VI + + + E++         C  S+  
+Sbjct  27  KCVCLLCDSSNFTCQTEGACWASVMLTNGKEQVIKSCVSLPELNA-----QVFCHSSN--  79
+
+Query  61  GSVTTTYCCNQDHCNKIEL  79
+            +VT T CC  D CN I L
+Sbjct  80  -NVTKTECCFTDFCNNITL  97
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.137    0.466    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5048374636
+Results from round 2
+
+
+Query= 6MAC:K
+
+Length=80
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q64729|TGFR1_MOUSE TGF-beta receptor type-1 OS=Mus musculus ...  134     4e-38
+  sp|Q5CD18|TGFR1_PIG TGF-beta receptor type-1 OS=Sus scrofa OX=9...  134     4e-38
+  sp|O46680|TGFR1_BOVIN TGF-beta receptor type-1 OS=Bos taurus OX...  133     2e-37
+  sp|P36897|TGFR1_HUMAN TGF-beta receptor type-1 OS=Homo sapiens ...  131     7e-37
+  sp|P36896|ACV1B_HUMAN Activin receptor type-1B OS=Homo sapiens ...  129     6e-36
+  sp|P80202|ACV1B_RAT Activin receptor type-1B OS=Rattus norvegic...  128     9e-36
+  sp|Q61271|ACV1B_MOUSE Activin receptor type-1B OS=Mus musculus ...  128     1e-35
+  sp|P80204|TGFR1_RAT TGF-beta receptor type-1 OS=Rattus norvegic...  127     3e-35
+  sp|P70539|ACV1C_RAT Activin receptor type-1C OS=Rattus norvegic...  102     5e-26
+  sp|Q8NER5|ACV1C_HUMAN Activin receptor type-1C OS=Homo sapiens ...  101     6e-26
+  sp|Q8K348|ACV1C_MOUSE Activin receptor type-1C OS=Mus musculus ...  100     2e-25
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P36894|BMR1A_HUMAN Bone morphogenetic protein receptor type-...  39.0    0.001
+  sp|Q05438|BMR1B_CHICK Bone morphogenetic protein receptor type-...  38.2    0.002
+  sp|Q78EA7|BMR1A_RAT Bone morphogenetic protein receptor type-1A...  38.2    0.002
+  sp|P36895|BMR1A_MOUSE Bone morphogenetic protein receptor type-...  38.2    0.002
+
+
+> sp|Q64729|TGFR1_MOUSE TGF-beta receptor type-1 OS=Mus musculus 
+OX=10090 GN=Tgfbr1 PE=1 SV=1
+Length=503
+
+ Score = 134 bits (338),  Expect = 4e-38, Method: Composition-based stats.
+ Identities = 78/80 (98%), Positives = 79/80 (99%), Gaps = 0/80 (0%)
+
+Query  1    ALQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT  60
+            ALQCFCHLCTKDNFTC TDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT
+Sbjct  29   ALQCFCHLCTKDNFTCETDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT  88
+
+Query  61   GSVTTTYCCNQDHCNKIELP  80
+            G+VTTTYCCNQDHCNKIELP
+Sbjct  89   GAVTTTYCCNQDHCNKIELP  108
+
+
+> sp|Q5CD18|TGFR1_PIG TGF-beta receptor type-1 OS=Sus scrofa OX=9823 
+GN=TGFBR1 PE=2 SV=1
+Length=503
+
+ Score = 134 bits (338),  Expect = 4e-38, Method: Composition-based stats.
+ Identities = 79/80 (99%), Positives = 79/80 (99%), Gaps = 0/80 (0%)
+
+Query  1    ALQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT  60
+            A QCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT
+Sbjct  29   AFQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT  88
+
+Query  61   GSVTTTYCCNQDHCNKIELP  80
+            GSVTTTYCCNQDHCNKIELP
+Sbjct  89   GSVTTTYCCNQDHCNKIELP  108
+
+
+> sp|O46680|TGFR1_BOVIN TGF-beta receptor type-1 OS=Bos taurus 
+OX=9913 GN=TGFBR1 PE=2 SV=1
+Length=499
+
+ Score = 133 bits (333),  Expect = 2e-37, Method: Composition-based stats.
+ Identities = 78/79 (99%), Positives = 79/79 (100%), Gaps = 0/79 (0%)
+
+Query  2    LQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKTG  61
+            LQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKTG
+Sbjct  30   LQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKTG  89
+
+Query  62   SVTTTYCCNQDHCNKIELP  80
+            S+TTTYCCNQDHCNKIELP
+Sbjct  90   SITTTYCCNQDHCNKIELP  108
+
+
+> sp|P36897|TGFR1_HUMAN TGF-beta receptor type-1 OS=Homo sapiens 
+OX=9606 GN=TGFBR1 PE=1 SV=1
+Length=503
+
+ Score = 131 bits (330),  Expect = 7e-37, Method: Composition-based stats.
+ Identities = 78/78 (100%), Positives = 78/78 (100%), Gaps = 0/78 (0%)
+
+Query  3    QCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKTGS  62
+            QCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKTGS
+Sbjct  35   QCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKTGS  94
+
+Query  63   VTTTYCCNQDHCNKIELP  80
+            VTTTYCCNQDHCNKIELP
+Sbjct  95   VTTTYCCNQDHCNKIELP  112
+
+
+> sp|P36896|ACV1B_HUMAN Activin receptor type-1B OS=Homo sapiens 
+OX=9606 GN=ACVR1B PE=1 SV=1
+Length=505
+
+ Score = 129 bits (323),  Expect = 6e-36, Method: Composition-based stats.
+ Identities = 31/79 (39%), Positives = 44/79 (56%), Gaps = 3/79 (4%)
+
+Query  1    ALQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT  60
+            AL C C  C + N+TC TDG C VS+        H   CI +++L+P  +PF C  S   
+Sbjct  31   ALLCACTSCLQANYTCETDGACMVSIFNLDGMEHHVRTCIPKVELVPAGKPFYCLSSE--  88
+
+Query  61   GSVTTTYCCNQDHCNKIEL  79
+              +  T+CC  D+CN+I+L
+Sbjct  89   -DLRNTHCCYTDYCNRIDL  106
+
+
+> sp|P80202|ACV1B_RAT Activin receptor type-1B OS=Rattus norvegicus 
+OX=10116 GN=Acvr1b PE=2 SV=1
+Length=505
+
+ Score = 128 bits (322),  Expect = 9e-36, Method: Composition-based stats.
+ Identities = 32/79 (41%), Positives = 43/79 (54%), Gaps = 3/79 (4%)
+
+Query  1    ALQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT  60
+            AL C C  C + N+TC TDG C VS+        H   CI +++L+P  +PF C  S   
+Sbjct  31   ALLCACTSCLQTNYTCETDGACMVSIFNLDGMEHHVRTCIPKVELVPAGKPFYCLSSE--  88
+
+Query  61   GSVTTTYCCNQDHCNKIEL  79
+              +  T+CC  D CNKI+L
+Sbjct  89   -DLRNTHCCYIDFCNKIDL  106
+
+
+> sp|Q61271|ACV1B_MOUSE Activin receptor type-1B OS=Mus musculus 
+OX=10090 GN=Acvr1b PE=1 SV=1
+Length=505
+
+ Score = 128 bits (321),  Expect = 1e-35, Method: Composition-based stats.
+ Identities = 32/79 (41%), Positives = 43/79 (54%), Gaps = 3/79 (4%)
+
+Query  1    ALQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT  60
+            AL C C  C + N+TC TDG C VS+        H   CI +++L+P  +PF C  S   
+Sbjct  31   ALLCACTSCLQTNYTCETDGACMVSIFNLDGVEHHVRTCIPKVELVPAGKPFYCLSSE--  88
+
+Query  61   GSVTTTYCCNQDHCNKIEL  79
+              +  T+CC  D CNKI+L
+Sbjct  89   -DLRNTHCCYIDFCNKIDL  106
+
+
+> sp|P80204|TGFR1_RAT TGF-beta receptor type-1 OS=Rattus norvegicus 
+OX=10116 GN=Tgfbr1 PE=1 SV=1
+Length=501
+
+ Score = 127 bits (318),  Expect = 3e-35, Method: Composition-based stats.
+ Identities = 76/80 (95%), Positives = 77/80 (96%), Gaps = 2/80 (3%)
+
+Query  1    ALQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT  60
+            ALQCFCHLCTKDNFTC TDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT
+Sbjct  29   ALQCFCHLCTKDNFTCETDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT  88
+
+Query  61   GSVTTTYCCNQDHCNKIELP  80
+            G+V  TYCCNQDHCNKIELP
+Sbjct  89   GAV--TYCCNQDHCNKIELP  106
+
+
+> sp|P70539|ACV1C_RAT Activin receptor type-1C OS=Rattus norvegicus 
+OX=10116 GN=Acvr1c PE=1 SV=1
+Length=493
+
+ Score = 102 bits (253),  Expect = 5e-26, Method: Composition-based stats.
+ Identities = 29/78 (37%), Positives = 39/78 (50%), Gaps = 6/78 (8%)
+
+Query  1   ALQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT  60
+            L+C C LC   NFTC T+G C+ SV  T  K   +  C++  +L   +    C  S+  
+Sbjct  25  GLKCVCLLCDSSNFTCQTEGACWASVMLTNGKEQVSKSCVSLPEL---NAQVFCHSSN--  79
+
+Query  61  GSVTTTYCCNQDHCNKIE  78
+            +VT T CC  D CN I 
+Sbjct  80  -NVTKTECCFTDFCNNIT  96
+
+
+> sp|Q8NER5|ACV1C_HUMAN Activin receptor type-1C OS=Homo sapiens 
+OX=9606 GN=ACVR1C PE=1 SV=1
+Length=493
+
+ Score = 101 bits (252),  Expect = 6e-26, Method: Composition-based stats.
+ Identities = 30/79 (38%), Positives = 39/79 (49%), Gaps = 6/79 (8%)
+
+Query  1   ALQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT  60
+            L+C C LC   NFTC T+G C+ SV  T  K      C++  +L   +    C  S+  
+Sbjct  25  GLKCVCLLCDSSNFTCQTEGACWASVMLTNGKEQVIKSCVSLPEL---NAQVFCHSSN--  79
+
+Query  61  GSVTTTYCCNQDHCNKIEL  79
+            +VT T CC  D CN I L
+Sbjct  80  -NVTKTECCFTDFCNNITL  97
+
+
+> sp|Q8K348|ACV1C_MOUSE Activin receptor type-1C OS=Mus musculus 
+OX=10090 GN=Acvr1c PE=2 SV=3
+Length=493
+
+ Score = 100 bits (249),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 29/77 (38%), Positives = 38/77 (49%), Gaps = 6/77 (8%)
+
+Query  3   QCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKTGS  62
+           +C C LC   NFTC T+G C+ SV  T  K      C++  +L   +    C  S+   +
+Sbjct  27  KCVCLLCDSSNFTCQTEGACWASVMLTNGKEQVIKSCVSLPEL---NAQVFCHSSN---N  80
+
+Query  63  VTTTYCCNQDHCNKIEL  79
+           VT T CC  D CN I L
+Sbjct  81  VTKTECCFTDFCNNITL  97
+
+
+> sp|P36894|BMR1A_HUMAN Bone morphogenetic protein receptor type-1A 
+OS=Homo sapiens OX=9606 GN=BMPR1A PE=1 SV=2
+Length=532
+
+ Score = 39.0 bits (89),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 23/82 (28%), Positives = 32/82 (39%), Gaps = 7/82 (9%)
+
+Query  2    LQCFCH-LC--TKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSS  58
+            L+C+C   C     N TC+T+G CF  + E           +A   +      F C  S 
+Sbjct  59   LKCYCSGHCPDDAINNTCITNGHCFAIIEEDDQGE----TTLASGCMKYEGSDFQCKDSP  114
+
+Query  59   KTGSVTTTYCCNQDHCNKIELP  80
+            K     T  CC  + CN+   P
+Sbjct  115  KAQLRRTIECCRTNLCNQYLQP  136
+
+
+> sp|Q05438|BMR1B_CHICK Bone morphogenetic protein receptor type-1B 
+OS=Gallus gallus OX=9031 GN=BMPR1B PE=2 SV=1
+Length=502
+
+ Score = 38.2 bits (87),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 24/80 (30%), Positives = 30/80 (38%), Gaps = 10/80 (13%)
+
+Query  2    LQCFCHL-C--TKDNFTCVTDGLCFVSVTETT-DKVIHNSMCIAEIDLIPRDRPFVCAPS  57
+            L C CH  C     N TC TDG CF  + E      +    C+           F C  +
+Sbjct  30   LSCQCHHHCPEDSVNSTCSTDGYCFTIIEEDDSGGHLVTKGCLGL-----EGSDFQCRDT  84
+
+Query  58   SKTGSVTTTYCCN-QDHCNK  76
+                   +  CC  QD+CNK
+Sbjct  85   PIPHQRRSIECCTGQDYCNK  104
+
+
+> sp|Q78EA7|BMR1A_RAT Bone morphogenetic protein receptor type-1A 
+OS=Rattus norvegicus OX=10116 GN=Bmpr1a PE=2 SV=1
+Length=532
+
+ Score = 38.2 bits (87),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 22/82 (27%), Positives = 32/82 (39%), Gaps = 7/82 (9%)
+
+Query  2    LQCFCH-LC--TKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSS  58
+            L+C+C   C     N TC+T+G CF  + E        +    + +       F C  S 
+Sbjct  59   LKCYCSGHCPDDAINNTCITNGHCFAIIEEDDQGETTLTSGCMKYE----GSDFQCKDSP  114
+
+Query  59   KTGSVTTTYCCNQDHCNKIELP  80
+            K     T  CC  + CN+   P
+Sbjct  115  KAQLRRTIECCRTNLCNQYLQP  136
+
+
+> sp|P36895|BMR1A_MOUSE Bone morphogenetic protein receptor type-1A 
+OS=Mus musculus OX=10090 GN=Bmpr1a PE=1 SV=1
+Length=532
+
+ Score = 38.2 bits (87),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 22/82 (27%), Positives = 32/82 (39%), Gaps = 7/82 (9%)
+
+Query  2    LQCFCH-LC--TKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSS  58
+            L+C+C   C     N TC+T+G CF  + E        +    + +       F C  S 
+Sbjct  59   LKCYCSGHCPDDAINNTCITNGHCFAIIEEDDQGETTLTSGCMKYE----GSDFQCKDSP  114
+
+Query  59   KTGSVTTTYCCNQDHCNKIELP  80
+            K     T  CC  + CN+   P
+Sbjct  115  KAQLRRTIECCRTNLCNQYLQP  136
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.121    0.406    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0371    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5048374636
+Results from round 3
+
+
+Query= 6MAC:K
+
+Length=80
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q64729|TGFR1_MOUSE TGF-beta receptor type-1 OS=Mus musculus ...  129     6e-36
+  sp|Q5CD18|TGFR1_PIG TGF-beta receptor type-1 OS=Sus scrofa OX=9...  127     3e-35
+  sp|O46680|TGFR1_BOVIN TGF-beta receptor type-1 OS=Bos taurus OX...  126     9e-35
+  sp|P36897|TGFR1_HUMAN TGF-beta receptor type-1 OS=Homo sapiens ...  124     3e-34
+  sp|P36896|ACV1B_HUMAN Activin receptor type-1B OS=Homo sapiens ...  123     7e-34
+  sp|P80202|ACV1B_RAT Activin receptor type-1B OS=Rattus norvegic...  123     1e-33
+  sp|Q61271|ACV1B_MOUSE Activin receptor type-1B OS=Mus musculus ...  122     2e-33
+  sp|P80204|TGFR1_RAT TGF-beta receptor type-1 OS=Rattus norvegic...  121     4e-33
+  sp|P36894|BMR1A_HUMAN Bone morphogenetic protein receptor type-...  99.2    7e-25
+  sp|P70539|ACV1C_RAT Activin receptor type-1C OS=Rattus norvegic...  95.7    1e-23
+  sp|Q8NER5|ACV1C_HUMAN Activin receptor type-1C OS=Homo sapiens ...  94.5    3e-23
+  sp|Q8K348|ACV1C_MOUSE Activin receptor type-1C OS=Mus musculus ...  93.0    1e-22
+  sp|Q05438|BMR1B_CHICK Bone morphogenetic protein receptor type-...  91.5    3e-22
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q78EA7|BMR1A_RAT Bone morphogenetic protein receptor type-1A...  96.9    5e-24
+  sp|P36895|BMR1A_MOUSE Bone morphogenetic protein receptor type-...  96.9    5e-24
+  sp|P36898|BMR1B_MOUSE Bone morphogenetic protein receptor type-...  78.7    1e-17
+  sp|O00238|BMR1B_HUMAN Bone morphogenetic protein receptor type-...  78.0    2e-17
+  sp|P37172|ACVR1_MOUSE Activin receptor type-1 OS=Mus musculus O...  36.8    0.007
+  sp|Q04771|ACVR1_HUMAN Activin receptor type-1 OS=Homo sapiens O...  36.8    0.007
+
+
+> sp|Q64729|TGFR1_MOUSE TGF-beta receptor type-1 OS=Mus musculus 
+OX=10090 GN=Tgfbr1 PE=1 SV=1
+Length=503
+
+ Score = 129 bits (323),  Expect = 6e-36, Method: Composition-based stats.
+ Identities = 78/80 (98%), Positives = 79/80 (99%), Gaps = 0/80 (0%)
+
+Query  1    ALQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT  60
+            ALQCFCHLCTKDNFTC TDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT
+Sbjct  29   ALQCFCHLCTKDNFTCETDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT  88
+
+Query  61   GSVTTTYCCNQDHCNKIELP  80
+            G+VTTTYCCNQDHCNKIELP
+Sbjct  89   GAVTTTYCCNQDHCNKIELP  108
+
+
+> sp|Q5CD18|TGFR1_PIG TGF-beta receptor type-1 OS=Sus scrofa OX=9823 
+GN=TGFBR1 PE=2 SV=1
+Length=503
+
+ Score = 127 bits (319),  Expect = 3e-35, Method: Composition-based stats.
+ Identities = 79/80 (99%), Positives = 79/80 (99%), Gaps = 0/80 (0%)
+
+Query  1    ALQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT  60
+            A QCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT
+Sbjct  29   AFQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT  88
+
+Query  61   GSVTTTYCCNQDHCNKIELP  80
+            GSVTTTYCCNQDHCNKIELP
+Sbjct  89   GSVTTTYCCNQDHCNKIELP  108
+
+
+> sp|O46680|TGFR1_BOVIN TGF-beta receptor type-1 OS=Bos taurus 
+OX=9913 GN=TGFBR1 PE=2 SV=1
+Length=499
+
+ Score = 126 bits (315),  Expect = 9e-35, Method: Composition-based stats.
+ Identities = 78/79 (99%), Positives = 79/79 (100%), Gaps = 0/79 (0%)
+
+Query  2    LQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKTG  61
+            LQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKTG
+Sbjct  30   LQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKTG  89
+
+Query  62   SVTTTYCCNQDHCNKIELP  80
+            S+TTTYCCNQDHCNKIELP
+Sbjct  90   SITTTYCCNQDHCNKIELP  108
+
+
+> sp|P36897|TGFR1_HUMAN TGF-beta receptor type-1 OS=Homo sapiens 
+OX=9606 GN=TGFBR1 PE=1 SV=1
+Length=503
+
+ Score = 124 bits (311),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 78/78 (100%), Positives = 78/78 (100%), Gaps = 0/78 (0%)
+
+Query  3    QCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKTGS  62
+            QCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKTGS
+Sbjct  35   QCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKTGS  94
+
+Query  63   VTTTYCCNQDHCNKIELP  80
+            VTTTYCCNQDHCNKIELP
+Sbjct  95   VTTTYCCNQDHCNKIELP  112
+
+
+> sp|P36896|ACV1B_HUMAN Activin receptor type-1B OS=Homo sapiens 
+OX=9606 GN=ACVR1B PE=1 SV=1
+Length=505
+
+ Score = 123 bits (309),  Expect = 7e-34, Method: Composition-based stats.
+ Identities = 31/79 (39%), Positives = 44/79 (56%), Gaps = 3/79 (4%)
+
+Query  1    ALQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT  60
+            AL C C  C + N+TC TDG C VS+        H   CI +++L+P  +PF C  S   
+Sbjct  31   ALLCACTSCLQANYTCETDGACMVSIFNLDGMEHHVRTCIPKVELVPAGKPFYCLSSE--  88
+
+Query  61   GSVTTTYCCNQDHCNKIEL  79
+              +  T+CC  D+CN+I+L
+Sbjct  89   -DLRNTHCCYTDYCNRIDL  106
+
+
+> sp|P80202|ACV1B_RAT Activin receptor type-1B OS=Rattus norvegicus 
+OX=10116 GN=Acvr1b PE=2 SV=1
+Length=505
+
+ Score = 123 bits (307),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 32/79 (41%), Positives = 43/79 (54%), Gaps = 3/79 (4%)
+
+Query  1    ALQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT  60
+            AL C C  C + N+TC TDG C VS+        H   CI +++L+P  +PF C  S   
+Sbjct  31   ALLCACTSCLQTNYTCETDGACMVSIFNLDGMEHHVRTCIPKVELVPAGKPFYCLSSE--  88
+
+Query  61   GSVTTTYCCNQDHCNKIEL  79
+              +  T+CC  D CNKI+L
+Sbjct  89   -DLRNTHCCYIDFCNKIDL  106
+
+
+> sp|Q61271|ACV1B_MOUSE Activin receptor type-1B OS=Mus musculus 
+OX=10090 GN=Acvr1b PE=1 SV=1
+Length=505
+
+ Score = 122 bits (305),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 32/79 (41%), Positives = 43/79 (54%), Gaps = 3/79 (4%)
+
+Query  1    ALQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT  60
+            AL C C  C + N+TC TDG C VS+        H   CI +++L+P  +PF C  S   
+Sbjct  31   ALLCACTSCLQTNYTCETDGACMVSIFNLDGVEHHVRTCIPKVELVPAGKPFYCLSSE--  88
+
+Query  61   GSVTTTYCCNQDHCNKIEL  79
+              +  T+CC  D CNKI+L
+Sbjct  89   -DLRNTHCCYIDFCNKIDL  106
+
+
+> sp|P80204|TGFR1_RAT TGF-beta receptor type-1 OS=Rattus norvegicus 
+OX=10116 GN=Tgfbr1 PE=1 SV=1
+Length=501
+
+ Score = 121 bits (304),  Expect = 4e-33, Method: Composition-based stats.
+ Identities = 76/80 (95%), Positives = 77/80 (96%), Gaps = 2/80 (3%)
+
+Query  1    ALQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT  60
+            ALQCFCHLCTKDNFTC TDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT
+Sbjct  29   ALQCFCHLCTKDNFTCETDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT  88
+
+Query  61   GSVTTTYCCNQDHCNKIELP  80
+            G+V  TYCCNQDHCNKIELP
+Sbjct  89   GAV--TYCCNQDHCNKIELP  106
+
+
+> sp|P36894|BMR1A_HUMAN Bone morphogenetic protein receptor type-1A 
+OS=Homo sapiens OX=9606 GN=BMPR1A PE=1 SV=2
+Length=532
+
+ Score = 99.2 bits (245),  Expect = 7e-25, Method: Composition-based stats.
+ Identities = 23/82 (28%), Positives = 32/82 (39%), Gaps = 7/82 (9%)
+
+Query  2    LQCFCH-LC--TKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSS  58
+            L+C+C   C     N TC+T+G CF  + E           +A   +      F C  S 
+Sbjct  59   LKCYCSGHCPDDAINNTCITNGHCFAIIEEDDQGE----TTLASGCMKYEGSDFQCKDSP  114
+
+Query  59   KTGSVTTTYCCNQDHCNKIELP  80
+            K     T  CC  + CN+   P
+Sbjct  115  KAQLRRTIECCRTNLCNQYLQP  136
+
+
+> sp|Q78EA7|BMR1A_RAT Bone morphogenetic protein receptor type-1A 
+OS=Rattus norvegicus OX=10116 GN=Bmpr1a PE=2 SV=1
+Length=532
+
+ Score = 96.9 bits (239),  Expect = 5e-24, Method: Composition-based stats.
+ Identities = 22/82 (27%), Positives = 31/82 (38%), Gaps = 7/82 (9%)
+
+Query  2    LQCFCH-LC--TKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSS  58
+            L+C+C   C     N TC+T+G CF  + E           +    +      F C  S 
+Sbjct  59   LKCYCSGHCPDDAINNTCITNGHCFAIIEEDDQGE----TTLTSGCMKYEGSDFQCKDSP  114
+
+Query  59   KTGSVTTTYCCNQDHCNKIELP  80
+            K     T  CC  + CN+   P
+Sbjct  115  KAQLRRTIECCRTNLCNQYLQP  136
+
+
+> sp|P36895|BMR1A_MOUSE Bone morphogenetic protein receptor type-1A 
+OS=Mus musculus OX=10090 GN=Bmpr1a PE=1 SV=1
+Length=532
+
+ Score = 96.9 bits (239),  Expect = 5e-24, Method: Composition-based stats.
+ Identities = 22/82 (27%), Positives = 31/82 (38%), Gaps = 7/82 (9%)
+
+Query  2    LQCFCH-LC--TKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSS  58
+            L+C+C   C     N TC+T+G CF  + E           +    +      F C  S 
+Sbjct  59   LKCYCSGHCPDDAINNTCITNGHCFAIIEEDDQGE----TTLTSGCMKYEGSDFQCKDSP  114
+
+Query  59   KTGSVTTTYCCNQDHCNKIELP  80
+            K     T  CC  + CN+   P
+Sbjct  115  KAQLRRTIECCRTNLCNQYLQP  136
+
+
+> sp|P70539|ACV1C_RAT Activin receptor type-1C OS=Rattus norvegicus 
+OX=10116 GN=Acvr1c PE=1 SV=1
+Length=493
+
+ Score = 95.7 bits (236),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 29/79 (37%), Positives = 39/79 (49%), Gaps = 6/79 (8%)
+
+Query  1   ALQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT  60
+            L+C C LC   NFTC T+G C+ SV  T  K   +  C++  +L   +    C  S+  
+Sbjct  25  GLKCVCLLCDSSNFTCQTEGACWASVMLTNGKEQVSKSCVSLPEL---NAQVFCHSSN--  79
+
+Query  61  GSVTTTYCCNQDHCNKIEL  79
+            +VT T CC  D CN I  
+Sbjct  80  -NVTKTECCFTDFCNNITQ  97
+
+
+> sp|Q8NER5|ACV1C_HUMAN Activin receptor type-1C OS=Homo sapiens 
+OX=9606 GN=ACVR1C PE=1 SV=1
+Length=493
+
+ Score = 94.5 bits (233),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 30/79 (38%), Positives = 39/79 (49%), Gaps = 6/79 (8%)
+
+Query  1   ALQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKT  60
+            L+C C LC   NFTC T+G C+ SV  T  K      C++  +L   +    C  S+  
+Sbjct  25  GLKCVCLLCDSSNFTCQTEGACWASVMLTNGKEQVIKSCVSLPEL---NAQVFCHSSN--  79
+
+Query  61  GSVTTTYCCNQDHCNKIEL  79
+            +VT T CC  D CN I L
+Sbjct  80  -NVTKTECCFTDFCNNITL  97
+
+
+> sp|Q8K348|ACV1C_MOUSE Activin receptor type-1C OS=Mus musculus 
+OX=10090 GN=Acvr1c PE=2 SV=3
+Length=493
+
+ Score = 93.0 bits (229),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 29/77 (38%), Positives = 38/77 (49%), Gaps = 6/77 (8%)
+
+Query  3   QCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKTGS  62
+           +C C LC   NFTC T+G C+ SV  T  K      C++  +L   +    C  S+   +
+Sbjct  27  KCVCLLCDSSNFTCQTEGACWASVMLTNGKEQVIKSCVSLPEL---NAQVFCHSSN---N  80
+
+Query  63  VTTTYCCNQDHCNKIEL  79
+           VT T CC  D CN I L
+Sbjct  81  VTKTECCFTDFCNNITL  97
+
+
+> sp|Q05438|BMR1B_CHICK Bone morphogenetic protein receptor type-1B 
+OS=Gallus gallus OX=9031 GN=BMPR1B PE=2 SV=1
+Length=502
+
+ Score = 91.5 bits (225),  Expect = 3e-22, Method: Composition-based stats.
+ Identities = 25/84 (30%), Positives = 31/84 (37%), Gaps = 10/84 (12%)
+
+Query  2    LQCFCHL-C--TKDNFTCVTDGLCFVSVTETT-DKVIHNSMCIAEIDLIPRDRPFVCAPS  57
+            L C CH  C     N TC TDG CF  + E      +    C+           F C  +
+Sbjct  30   LSCQCHHHCPEDSVNSTCSTDGYCFTIIEEDDSGGHLVTKGCLGL-----EGSDFQCRDT  84
+
+Query  58   SKTGSVTTTYCCN-QDHCNKIELP  80
+                   +  CC  QD+CNK   P
+Sbjct  85   PIPHQRRSIECCTGQDYCNKHLHP  108
+
+
+> sp|P36898|BMR1B_MOUSE Bone morphogenetic protein receptor type-1B 
+OS=Mus musculus OX=10090 GN=Bmpr1b PE=1 SV=1
+Length=502
+
+ Score = 78.7 bits (192),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 23/84 (27%), Positives = 31/84 (37%), Gaps = 10/84 (12%)
+
+Query  2    LQCFCHL-C--TKDNFTCVTDGLCFVSVTETT-DKVIHNSMCIAEIDLIPRDRPFVCAPS  57
+            L+C CH  C     N  C TDG CF  + E      +  S C+           F C  +
+Sbjct  30   LRCKCHHHCPEDSVNNICSTDGYCFTMIEEDDSGMPVVTSGCLGL-----EGSDFQCRDT  84
+
+Query  58   SKTGSVTTTYCCNQ-DHCNKIELP  80
+                   +  CC + + CNK   P
+Sbjct  85   PIPHQRRSIECCTERNECNKDLHP  108
+
+
+> sp|O00238|BMR1B_HUMAN Bone morphogenetic protein receptor type-1B 
+OS=Homo sapiens OX=9606 GN=BMPR1B PE=1 SV=1
+Length=502
+
+ Score = 78.0 bits (190),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 22/83 (27%), Positives = 30/83 (36%), Gaps = 8/83 (10%)
+
+Query  2    LQCFCHL-C--TKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSS  58
+            L+C CH  C     N  C TDG CF  + E    +      +    L      F C  + 
+Sbjct  30   LRCKCHHHCPEDSVNNICSTDGYCFTMIEEDDSGLPV----VTSGCLGLEGSDFQCRDTP  85
+
+Query  59   KTGSVTTTYCCNQ-DHCNKIELP  80
+                  +  CC + + CNK   P
+Sbjct  86   IPHQRRSIECCTERNECNKDLHP  108
+
+
+> sp|P37172|ACVR1_MOUSE Activin receptor type-1 OS=Mus musculus 
+OX=10090 GN=Acvr1 PE=2 SV=2
+Length=509
+
+ Score = 36.8 bits (83),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 14/73 (19%), Positives = 21/73 (29%), Gaps = 6/73 (8%)
+
+Query  4    CFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKTGSV  63
+            C C   +  N        CF S++      ++   C      +       C      G  
+Sbjct  35   CVCEGLSCGNEDHCEGQQCFSSLSINDGFHVYQKGCFQ----VYEQGKMTCKTPPSPGQ-  89
+
+Query  64   TTTYCCNQDHCNK  76
+                CC  D CN+
+Sbjct  90   -AVECCQGDWCNR  101
+
+
+> sp|Q04771|ACVR1_HUMAN Activin receptor type-1 OS=Homo sapiens 
+OX=9606 GN=ACVR1 PE=1 SV=1
+Length=509
+
+ Score = 36.8 bits (83),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 14/73 (19%), Positives = 21/73 (29%), Gaps = 6/73 (8%)
+
+Query  4    CFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKTGSV  63
+            C C   +  N        CF S++      ++   C      +       C      G  
+Sbjct  35   CVCEGLSCGNEDHCEGQQCFSSLSINDGFHVYQKGCFQ----VYEQGKMTCKTPPSPGQ-  89
+
+Query  64   TTTYCCNQDHCNK  76
+                CC  D CN+
+Sbjct  90   -AVECCQGDWCNR  101
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.116    0.382    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0355    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5048374636
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  1:45 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

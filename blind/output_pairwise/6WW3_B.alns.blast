@@ -1,0 +1,3493 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 6WW3:B
+
+Length=58
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|O95714|HERC2_HUMAN E3 ubiquitin-protein ligase HERC2 OS=Homo...  132     9e-37
+  sp|Q4U2R1|HERC2_MOUSE E3 ubiquitin-protein ligase HERC2 OS=Mus ...  129     7e-36
+  sp|Q804S5|MIB1_DANRE E3 ubiquitin-protein ligase mib1 OS=Danio ...  59.7    2e-11
+  sp|Q80SY4|MIB1_MOUSE E3 ubiquitin-protein ligase MIB1 OS=Mus mu...  57.8    1e-10
+  sp|Q86YT6|MIB1_HUMAN E3 ubiquitin-protein ligase MIB1 OS=Homo s...  57.8    1e-10
+  sp|Q9VUX2|MIB_DROME E3 ubiquitin-protein ligase mind-bomb OS=Dr...  57.8    1e-10
+  sp|Q6GNY1|MIB1_XENLA E3 ubiquitin-protein ligase mib1 OS=Xenopu...  57.8    1e-10
+  sp|P34664|YOY6_CAEEL Uncharacterized protein ZK652.6 OS=Caenorh...  55.8    6e-10
+  sp|Q8R516|MIB2_MOUSE E3 ubiquitin-protein ligase MIB2 OS=Mus mu...  55.1    9e-10
+  sp|Q68LP1|MIB2_RAT E3 ubiquitin-protein ligase MIB2 OS=Rattus n...  55.1    1e-09
+  sp|Q5ZIJ9|MIB2_CHICK E3 ubiquitin-protein ligase MIB2 OS=Gallus...  54.7    1e-09
+  sp|Q96AX9|MIB2_HUMAN E3 ubiquitin-protein ligase MIB2 OS=Homo s...  54.7    1e-09
+  sp|Q54QG5|Y3893_DICDI Probable E3 ubiquitin-protein ligase DDB_...  51.2    2e-08
+  sp|A2CI98|DYTN_MOUSE Dystrotelin OS=Mus musculus OX=10090 GN=Dy...  50.8    3e-08
+  sp|Q24629|REF2P_DROSI Protein ref(2)P OS=Drosophila simulans OX...  50.8    3e-08
+  sp|Q9SB64|NBR1_ARATH Protein NBR1 homolog OS=Arabidopsis thalia...  49.3    1e-07
+  sp|P14199|REF2P_DROME Protein ref(2)P OS=Drosophila melanogaste...  48.9    1e-07
+  sp|Q7T321|KCMF1_DANRE E3 ubiquitin-protein ligase KCMF1 OS=Dani...  48.5    2e-07
+  sp|Q80UY2|KCMF1_MOUSE E3 ubiquitin-protein ligase KCMF1 OS=Mus ...  48.1    3e-07
+  sp|Q9P0J7|KCMF1_HUMAN E3 ubiquitin-protein ligase KCMF1 OS=Homo...  48.1    3e-07
+  sp|Q95RX5|KCMF1_DROME E3 ubiquitin-protein ligase Kcmf1 OS=Dros...  48.1    3e-07
+  sp|Q1LZE1|KCMF1_BOVIN E3 ubiquitin-protein ligase KCMF1 OS=Bos ...  48.1    3e-07
+  sp|Q6GPB6|KCMF1_XENLA E3 ubiquitin-protein ligase KCMF1 OS=Xeno...  47.8    3e-07
+  sp|O08623|SQSTM_RAT Sequestosome-1 OS=Rattus norvegicus OX=1011...  47.8    4e-07
+  sp|A2CJ06|DYTN_HUMAN Dystrotelin OS=Homo sapiens OX=9606 GN=DYT...  47.8    4e-07
+  sp|Q9TW65|DMD_CAEEL Dystrophin-1 OS=Caenorhabditis elegans OX=6...  47.0    7e-07
+  sp|A2CI97|DYTN_DANRE Dystrotelin OS=Danio rerio OX=7955 GN=dytn...  47.0    8e-07
+  sp|Q9P792|YN8B_SCHPO ZZ-type zinc finger-containing protein P35...  46.6    1e-06
+  sp|Q5RBA5|SQSTM_PONAB Sequestosome-1 OS=Pongo abelii OX=9601 GN...  46.2    1e-06
+  sp|Q13501|SQSTM_HUMAN Sequestosome-1 OS=Homo sapiens OX=9606 GN...  46.2    1e-06
+  sp|Q64337|SQSTM_MOUSE Sequestosome-1 OS=Mus musculus OX=10090 G...  45.8    2e-06
+  sp|Q9Y048|DTN1_CAEEL Dystrobrevin-1 OS=Caenorhabditis elegans O...  45.8    2e-06
+  sp|Q5SSH7|ZZEF1_MOUSE Zinc finger ZZ-type and EF-hand domain-co...  45.1    3e-06
+  sp|O43149|ZZEF1_HUMAN Zinc finger ZZ-type and EF-hand domain-co...  45.1    4e-06
+  sp|B9G2A8|BIG_ORYSJ Auxin transport protein BIG OS=Oryza sativa...  44.7    4e-06
+  sp|M1BJF6|JOKA2_SOLTU Protein JOKA2 OS=Solanum tuberosum OX=411...  44.3    6e-06
+  sp|Q9SRU2|BIG_ARATH Auxin transport protein BIG OS=Arabidopsis ...  43.5    1e-05
+  sp|Q9VDW6|DMDA_DROME Dystrophin, isoforms A/C/F/G/H OS=Drosophi...  42.7    2e-05
+  sp|Q0KI50|DMDD_DROME Dystrophin, isoform D OS=Drosophila melano...  42.4    3e-05
+  sp|Q9VDW3|DMDB_DROME Dystrophin, isoform B OS=Drosophila melano...  42.4    3e-05
+  sp|Q7YU29|DMDE_DROME Dystrophin, isoform E OS=Drosophila melano...  41.2    9e-05
+  sp|Q9D9X6|ZSWM2_MOUSE E3 ubiquitin-protein ligase Zswim2 OS=Mus...  41.2    9e-05
+  sp|Q8LBL5|PRT1_ARATH E3 ubiquitin-protein ligase PRT1 OS=Arabid...  41.2    9e-05
+  sp|Q8NEG5|ZSWM2_HUMAN E3 ubiquitin-protein ligase ZSWIM2 OS=Hom...  40.4    2e-04
+  sp|Q8IYH5|ZZZ3_HUMAN ZZ-type zinc finger-containing protein 3 O...  37.0    0.003
+  sp|Q6KAQ7|ZZZ3_MOUSE ZZ-type zinc finger-containing protein 3 O...  36.6    0.003
+  sp|Q09472|EP300_HUMAN Histone acetyltransferase p300 OS=Homo sa...  35.8    0.006
+  sp|B2RWS6|EP300_MOUSE Histone acetyltransferase p300 OS=Mus mus...  35.8    0.006
+  sp|O70585|DTNB_MOUSE Dystrobrevin beta OS=Mus musculus OX=10090...  35.8    0.007
+
+
+> sp|O95714|HERC2_HUMAN E3 ubiquitin-protein ligase HERC2 OS=Homo 
+sapiens OX=9606 GN=HERC2 PE=1 SV=2
+Length=4834
+
+ Score = 132 bits (331),  Expect = 9e-37, Method: Composition-based stats.
+ Identities = 52/52 (100%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  7     IHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+             IHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP
+Sbjct  2702  IHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  2753
+
+
+> sp|Q4U2R1|HERC2_MOUSE E3 ubiquitin-protein ligase HERC2 OS=Mus 
+musculus OX=10090 GN=Herc2 PE=1 SV=3
+Length=4836
+
+ Score = 129 bits (324),  Expect = 7e-36, Method: Composition-based stats.
+ Identities = 51/52 (98%), Positives = 51/52 (98%), Gaps = 0/52 (0%)
+
+Query  7     IHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+             IHPGVTCDGCQ FPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP
+Sbjct  2703  IHPGVTCDGCQTFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  2754
+
+
+> sp|Q804S5|MIB1_DANRE E3 ubiquitin-protein ligase mib1 OS=Danio 
+rerio OX=7955 GN=mib1 PE=1 SV=1
+Length=1030
+
+ Score = 59.7 bits (143),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 24/51 (47%), Positives = 30/51 (59%), Gaps = 0/51 (0%)
+
+Query  8    HPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+            H G  CD C+  PI G R+KC  C ++D C TC+   KH+ RH F RI  P
+Sbjct  80   HDGTMCDTCRQQPIIGIRWKCAECTNYDLCTTCYHGDKHHLRHRFYRITTP  130
+
+
+> sp|Q80SY4|MIB1_MOUSE E3 ubiquitin-protein ligase MIB1 OS=Mus 
+musculus OX=10090 GN=Mib1 PE=1 SV=1
+Length=1006
+
+ Score = 57.8 bits (138),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 23/51 (45%), Positives = 29/51 (57%), Gaps = 0/51 (0%)
+
+Query  8    HPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+            H G  CD C+  PI G R+KC  C ++D C  C+   KH+ RH F RI  P
+Sbjct  80   HDGTMCDTCRQQPIIGIRWKCAECTNYDLCTVCYHGDKHHLRHRFYRITTP  130
+
+
+> sp|Q86YT6|MIB1_HUMAN E3 ubiquitin-protein ligase MIB1 OS=Homo 
+sapiens OX=9606 GN=MIB1 PE=1 SV=1
+Length=1006
+
+ Score = 57.8 bits (138),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 23/51 (45%), Positives = 29/51 (57%), Gaps = 0/51 (0%)
+
+Query  8    HPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+            H G  CD C+  PI G R+KC  C ++D C  C+   KH+ RH F RI  P
+Sbjct  80   HDGTMCDTCRQQPIIGIRWKCAECTNYDLCTVCYHGDKHHLRHRFYRITTP  130
+
+
+> sp|Q9VUX2|MIB_DROME E3 ubiquitin-protein ligase mind-bomb OS=Drosophila 
+melanogaster OX=7227 GN=mib1 PE=1 SV=3
+Length=1226
+
+ Score = 57.8 bits (138),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 23/51 (45%), Positives = 29/51 (57%), Gaps = 0/51 (0%)
+
+Query  8    HPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+            H G  CD C+  PI G R+KC  C ++D C  C+   KH+ RH F RI  P
+Sbjct  174  HEGTMCDTCRQQPIFGIRWKCAECINYDLCSICYHGDKHHLRHRFYRITTP  224
+
+
+> sp|Q6GNY1|MIB1_XENLA E3 ubiquitin-protein ligase mib1 OS=Xenopus 
+laevis OX=8355 GN=mib1 PE=2 SV=1
+Length=1011
+
+ Score = 57.8 bits (138),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 23/51 (45%), Positives = 29/51 (57%), Gaps = 0/51 (0%)
+
+Query  8    HPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+            H G  CD C+  PI G R+KC  C ++D C  C+   KH+ RH F RI  P
+Sbjct  80   HDGTMCDTCRQQPIIGIRWKCAECTNYDLCTVCYHGDKHHLRHRFYRITTP  130
+
+
+> sp|P34664|YOY6_CAEEL Uncharacterized protein ZK652.6 OS=Caenorhabditis 
+elegans OX=6239 GN=ZK652.6 PE=4 SV=2
+Length=575
+
+ Score = 55.8 bits (133),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 21/48 (44%), Positives = 28/48 (58%), Gaps = 0/48 (0%)
+
+Query  8   HPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRI  55
+           H GV+CDGC      G+R+KC  C D+D C +CF TK +  + T   I
+Sbjct  9   HEGVSCDGCAFTAFAGNRYKCLRCSDYDLCFSCFTTKNYGDQQTIADI  56
+
+
+> sp|Q8R516|MIB2_MOUSE E3 ubiquitin-protein ligase MIB2 OS=Mus 
+musculus OX=10090 GN=Mib2 PE=1 SV=2
+Length=973
+
+ Score = 55.1 bits (131),  Expect = 9e-10, Method: Composition-based stats.
+ Identities = 20/47 (43%), Positives = 27/47 (57%), Gaps = 0/47 (0%)
+
+Query  8    HPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGR  54
+            HP + CD C+   + G R+KCR C D+D C  C+   KH+  H F R
+Sbjct  86   HPNIICDCCKKHGLRGMRWKCRVCFDYDLCTQCYMHNKHDLTHAFER  132
+
+
+> sp|Q68LP1|MIB2_RAT E3 ubiquitin-protein ligase MIB2 OS=Rattus 
+norvegicus OX=10116 GN=Mib2 PE=1 SV=2
+Length=971
+
+ Score = 55.1 bits (131),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 20/47 (43%), Positives = 27/47 (57%), Gaps = 0/47 (0%)
+
+Query  8    HPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGR  54
+            HP + CD C+   + G R+KCR C D+D C  C+   KH+  H F R
+Sbjct  86   HPNIICDCCKKHGLRGMRWKCRVCFDYDLCTQCYMHNKHDLTHAFER  132
+
+
+> sp|Q5ZIJ9|MIB2_CHICK E3 ubiquitin-protein ligase MIB2 OS=Gallus 
+gallus OX=9031 GN=MIB2 PE=2 SV=1
+Length=954
+
+ Score = 54.7 bits (130),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 20/47 (43%), Positives = 27/47 (57%), Gaps = 0/47 (0%)
+
+Query  8    HPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGR  54
+            HP + CD C+   I G R+KC+ C D+D C  C+   KH+  H F R
+Sbjct  86   HPNIICDCCKKHGIRGMRWKCKMCFDYDLCTQCYMNNKHDLSHAFER  132
+
+
+> sp|Q96AX9|MIB2_HUMAN E3 ubiquitin-protein ligase MIB2 OS=Homo 
+sapiens OX=9606 GN=MIB2 PE=1 SV=3
+Length=1013
+
+ Score = 54.7 bits (130),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 20/47 (43%), Positives = 26/47 (55%), Gaps = 0/47 (0%)
+
+Query  8    HPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGR  54
+            HP + CD C+   + G R+KCR C D+D C  C+   KH   H F R
+Sbjct  144  HPNIICDCCKKHGLRGMRWKCRVCLDYDLCTQCYMHNKHELAHAFDR  190
+
+
+> sp|Q54QG5|Y3893_DICDI Probable E3 ubiquitin-protein ligase DDB_G0283893 
+OS=Dictyostelium discoideum OX=44689 GN=DDB_G0283893 
+PE=3 SV=2
+Length=5875
+
+ Score = 51.2 bits (121),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 22/51 (43%), Positives = 28/51 (55%), Gaps = 4/51 (8%)
+
+Query  12    TCDGCQMFPINGSRFKCRNCDDFDFCETCFKT--KKHNTRHTFGR--INEP  58
+             +CD C + PI G R+ C NC DFD C  C++   K H   H F    I+EP
+Sbjct  3230  SCDLCNINPITGKRWNCSNCGDFDLCNQCYQNPEKDHPKDHIFKEFIIDEP  3280
+
+
+> sp|A2CI98|DYTN_MOUSE Dystrotelin OS=Mus musculus OX=10090 GN=Dytn 
+PE=2 SV=1
+Length=653
+
+ Score = 50.8 bits (120),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 23/50 (46%), Positives = 26/50 (52%), Gaps = 1/50 (2%)
+
+Query  1    SDQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRH  50
+            S  E   HP V C  C+ FPI G R+ C  C DFD CE CF +  H   H
+Sbjct  217  SAAETVTHP-VRCSVCRTFPIIGLRYHCLKCLDFDICELCFLSGLHKNSH  265
+
+
+> sp|Q24629|REF2P_DROSI Protein ref(2)P OS=Drosophila simulans 
+OX=7240 GN=ref(2)P PE=3 SV=1
+Length=599
+
+ Score = 50.8 bits (120),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 19/40 (48%), Positives = 24/40 (60%), Gaps = 0/40 (0%)
+
+Query  7    IHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKH  46
+            IH  V CDGC + P+ G R+KC  C +FD C+ C    KH
+Sbjct  121  IHDSVQCDGCGLAPLIGFRYKCVQCSNFDLCQKCESAHKH  160
+
+
+> sp|Q9SB64|NBR1_ARATH Protein NBR1 homolog OS=Arabidopsis thaliana 
+OX=3702 GN=NBR1 PE=1 SV=1
+Length=704
+
+ Score = 49.3 bits (116),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 19/51 (37%), Positives = 30/51 (59%), Gaps = 2/51 (4%)
+
+Query  8    HPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+            H G+ CDGC + PI G RFK +  +D+D C  C+    +   +T  R+++P
+Sbjct  286  HKGIRCDGCGVLPITGPRFKSKVKEDYDLCTICYSVMGNEGDYT--RMDKP  334
+
+
+> sp|P14199|REF2P_DROME Protein ref(2)P OS=Drosophila melanogaster 
+OX=7227 GN=ref(2)P PE=1 SV=2
+Length=599
+
+ Score = 48.9 bits (115),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 18/40 (45%), Positives = 24/40 (60%), Gaps = 0/40 (0%)
+
+Query  7    IHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKH  46
+            IH  V CDGC + P+ G R+KC  C ++D C+ C    KH
+Sbjct  121  IHDAVECDGCGLAPLIGFRYKCVQCSNYDLCQKCELAHKH  160
+
+
+> sp|Q7T321|KCMF1_DANRE E3 ubiquitin-protein ligase KCMF1 OS=Danio 
+rerio OX=7955 GN=kcmf1 PE=2 SV=1
+Length=383
+
+ Score = 48.5 bits (114),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 19/44 (43%), Positives = 26/44 (59%), Gaps = 0/44 (0%)
+
+Query  8   HPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHT  51
+           H GV+CD C      G R+KC  C D+D C +C+++    TRHT
+Sbjct  4   HEGVSCDACLKGNFRGRRYKCLICYDYDLCASCYESGATTTRHT  47
+
+
+> sp|Q80UY2|KCMF1_MOUSE E3 ubiquitin-protein ligase KCMF1 OS=Mus 
+musculus OX=10090 GN=Kcmf1 PE=1 SV=1
+Length=381
+
+ Score = 48.1 bits (113),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 19/44 (43%), Positives = 26/44 (59%), Gaps = 0/44 (0%)
+
+Query  8   HPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHT  51
+           H GV+CD C      G R+KC  C D+D C +C+++    TRHT
+Sbjct  4   HEGVSCDACLKGNFRGRRYKCLICYDYDLCASCYESGATTTRHT  47
+
+
+> sp|Q9P0J7|KCMF1_HUMAN E3 ubiquitin-protein ligase KCMF1 OS=Homo 
+sapiens OX=9606 GN=KCMF1 PE=1 SV=2
+Length=381
+
+ Score = 48.1 bits (113),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 19/44 (43%), Positives = 26/44 (59%), Gaps = 0/44 (0%)
+
+Query  8   HPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHT  51
+           H GV+CD C      G R+KC  C D+D C +C+++    TRHT
+Sbjct  4   HEGVSCDACLKGNFRGRRYKCLICYDYDLCASCYESGATTTRHT  47
+
+
+> sp|Q95RX5|KCMF1_DROME E3 ubiquitin-protein ligase Kcmf1 OS=Drosophila 
+melanogaster OX=7227 GN=Kcmf1 PE=1 SV=1
+Length=599
+
+ Score = 48.1 bits (113),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 19/43 (44%), Positives = 25/43 (58%), Gaps = 0/43 (0%)
+
+Query  8   HPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRH  50
+           H GV+CD C     NG R+KC  C D+D C  C++    +TRH
+Sbjct  4   HEGVSCDSCLKSNFNGRRYKCLICYDYDLCADCYEDGVTSTRH  46
+
+
+> sp|Q1LZE1|KCMF1_BOVIN E3 ubiquitin-protein ligase KCMF1 OS=Bos 
+taurus OX=9913 GN=KCMF1 PE=2 SV=1
+Length=381
+
+ Score = 48.1 bits (113),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 19/44 (43%), Positives = 26/44 (59%), Gaps = 0/44 (0%)
+
+Query  8   HPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHT  51
+           H GV+CD C      G R+KC  C D+D C +C+++    TRHT
+Sbjct  4   HEGVSCDACLKGNFRGRRYKCLICYDYDLCASCYESGATTTRHT  47
+
+
+> sp|Q6GPB6|KCMF1_XENLA E3 ubiquitin-protein ligase KCMF1 OS=Xenopus 
+laevis OX=8355 GN=kcmf1 PE=2 SV=1
+Length=381
+
+ Score = 47.8 bits (112),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 19/44 (43%), Positives = 26/44 (59%), Gaps = 0/44 (0%)
+
+Query  8   HPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHT  51
+           H GV+CD C      G R+KC  C D+D C +C+++    TRHT
+Sbjct  4   HEGVSCDACLKGNFRGRRYKCLICYDYDLCASCYESGATTTRHT  47
+
+
+> sp|O08623|SQSTM_RAT Sequestosome-1 OS=Rattus norvegicus OX=10116 
+GN=Sqstm1 PE=1 SV=1
+Length=439
+
+ Score = 47.8 bits (112),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 20/40 (50%), Positives = 26/40 (65%), Gaps = 3/40 (8%)
+
+Query  3    QEAK--IHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETC  40
+            QEA+  +HP V CDGC   P+ G+R+KC  C D+D C  C
+Sbjct  113  QEARSMVHPNVICDGCNG-PVVGTRYKCSVCPDYDLCSVC  151
+
+
+> sp|A2CJ06|DYTN_HUMAN Dystrotelin OS=Homo sapiens OX=9606 GN=DYTN 
+PE=2 SV=1
+Length=578
+
+ Score = 47.8 bits (112),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 20/50 (40%), Positives = 27/50 (54%), Gaps = 1/50 (2%)
+
+Query  1    SDQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRH  50
+            S  E   HP   C  C+ FPI G R++C  C +FD C+ CF +  H+  H
+Sbjct  217  SAAERVTHPA-RCTLCRTFPITGLRYRCLKCLNFDICQMCFLSGLHSKSH  265
+
+
+> sp|Q9TW65|DMD_CAEEL Dystrophin-1 OS=Caenorhabditis elegans OX=6239 
+GN=dys-1 PE=1 SV=2
+Length=3674
+
+ Score = 47.0 bits (110),  Expect = 7e-07, Method: Composition-based stats.
+ Identities = 18/46 (39%), Positives = 27/46 (59%), Gaps = 3/46 (7%)
+
+Query  13    CDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+             C+ C+MFPI G R++C  C + D C+ CF +++    H   R N P
+Sbjct  3306  CNVCKMFPIIGIRYRCLTCFNCDLCQNCFFSQRTAKSH---RTNHP  3348
+
+
+> sp|A2CI97|DYTN_DANRE Dystrotelin OS=Danio rerio OX=7955 GN=dytn 
+PE=2 SV=1
+Length=648
+
+ Score = 47.0 bits (110),  Expect = 8e-07, Method: Composition-based stats.
+ Identities = 15/40 (38%), Positives = 25/40 (63%), Gaps = 0/40 (0%)
+
+Query  11   VTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRH  50
+            V C  C+ FPI G R++C  C +   C++CF T++ + +H
+Sbjct  226  VHCHACKAFPITGLRYRCLKCLNVHLCQSCFLTERRSRKH  265
+
+
+> sp|Q9P792|YN8B_SCHPO ZZ-type zinc finger-containing protein P35G2.11c 
+OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) 
+OX=284812 GN=SPBP35G2.11c PE=4 SV=1
+Length=397
+
+ Score = 46.6 bits (109),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 20/47 (43%), Positives = 27/47 (57%), Gaps = 1/47 (2%)
+
+Query  11   VTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINE  57
+              CD C+  PI+  R+KC  CDD+D CE+C     H+  H F RI +
+Sbjct  134  AICDHCEQ-PIHNVRYKCSVCDDYDICESCLTDNSHSNTHAFVRITK  179
+
+
+ Score = 42.0 bits (97),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 16/39 (41%), Positives = 22/39 (56%), Gaps = 0/39 (0%)
+
+Query  2    DQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETC  40
+            +  + +H  V CD C   PI G RF C  C+D+D C +C
+Sbjct  201  ESASTVHRSVQCDNCLAHPIVGPRFHCLVCEDYDLCSSC  239
+
+
+> sp|Q5RBA5|SQSTM_PONAB Sequestosome-1 OS=Pongo abelii OX=9601 
+GN=SQSTM1 PE=2 SV=1
+Length=440
+
+ Score = 46.2 bits (108),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 17/34 (50%), Positives = 22/34 (65%), Gaps = 1/34 (3%)
+
+Query  7    IHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETC  40
+            +HP V CDGC   P+ G+R+KC  C D+D C  C
+Sbjct  122  VHPNVICDGCNG-PVVGTRYKCSVCPDYDLCSVC  154
+
+
+> sp|Q13501|SQSTM_HUMAN Sequestosome-1 OS=Homo sapiens OX=9606 
+GN=SQSTM1 PE=1 SV=1
+Length=440
+
+ Score = 46.2 bits (108),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 17/34 (50%), Positives = 22/34 (65%), Gaps = 1/34 (3%)
+
+Query  7    IHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETC  40
+            +HP V CDGC   P+ G+R+KC  C D+D C  C
+Sbjct  122  VHPNVICDGCNG-PVVGTRYKCSVCPDYDLCSVC  154
+
+
+> sp|Q64337|SQSTM_MOUSE Sequestosome-1 OS=Mus musculus OX=10090 
+GN=Sqstm1 PE=1 SV=1
+Length=442
+
+ Score = 45.8 bits (107),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 17/34 (50%), Positives = 22/34 (65%), Gaps = 1/34 (3%)
+
+Query  7    IHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETC  40
+            +HP V CDGC   P+ G+R+KC  C D+D C  C
+Sbjct  122  VHPNVICDGCNG-PVVGTRYKCSVCPDYDLCSVC  154
+
+
+> sp|Q9Y048|DTN1_CAEEL Dystrobrevin-1 OS=Caenorhabditis elegans 
+OX=6239 GN=dyb-1 PE=1 SV=1
+Length=590
+
+ Score = 45.8 bits (107),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 17/47 (36%), Positives = 27/47 (57%), Gaps = 5/47 (11%)
+
+Query  8    HPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCF----KTKKHNTRH  50
+            HP V CD CQ+    G R+KC+ C ++  C++CF     ++ H+  H
+Sbjct  260  HP-VVCDACQVRSFTGFRYKCQRCANYQLCQSCFWRGRTSQNHSNEH  305
+
+
+> sp|Q5SSH7|ZZEF1_MOUSE Zinc finger ZZ-type and EF-hand domain-containing 
+protein 1 OS=Mus musculus OX=10090 GN=Zzef1 PE=1 
+SV=2
+Length=2924
+
+ Score = 45.1 bits (105),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 20/49 (41%), Positives = 25/49 (51%), Gaps = 1/49 (2%)
+
+Query  2     DQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRH  50
+             D    ++   TCD CQ   I G R  C  CDDFD C  C+  KK++  H
+Sbjct  1819  DDHEMVNMEFTCDHCQGLII-GRRMNCNVCDDFDLCYGCYTAKKYSYGH  1866
+
+
+ Score = 38.5 bits (88),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 17/45 (38%), Positives = 26/45 (58%), Gaps = 7/45 (16%)
+
+Query  11    VTCDGC-QMFPINGSRFKCRNCDDFDFCETCF----KTKKHNTRH  50
+             ++CDGC ++ P +  R++C  C D D C+TCF    K + H   H
+Sbjct  1779  ISCDGCDEIAPWH--RYRCLQCSDMDLCKTCFLGGVKPEGHGDDH  1821
+
+
+> sp|O43149|ZZEF1_HUMAN Zinc finger ZZ-type and EF-hand domain-containing 
+protein 1 OS=Homo sapiens OX=9606 GN=ZZEF1 PE=1 SV=6
+Length=2961
+
+ Score = 45.1 bits (105),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 20/49 (41%), Positives = 25/49 (51%), Gaps = 1/49 (2%)
+
+Query  2     DQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRH  50
+             D    ++   TCD CQ   I G R  C  CDDFD C  C+  KK++  H
+Sbjct  1821  DDHEMVNMEFTCDHCQGLII-GRRMNCNVCDDFDLCYGCYAAKKYSYGH  1868
+
+
+ Score = 38.5 bits (88),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 17/45 (38%), Positives = 26/45 (58%), Gaps = 7/45 (16%)
+
+Query  11    VTCDGC-QMFPINGSRFKCRNCDDFDFCETCF----KTKKHNTRH  50
+             ++CDGC ++ P +  R++C  C D D C+TCF    K + H   H
+Sbjct  1781  ISCDGCDEIAPWH--RYRCLQCSDMDLCKTCFLGGVKPEGHGDDH  1823
+
+
+> sp|B9G2A8|BIG_ORYSJ Auxin transport protein BIG OS=Oryza sativa 
+subsp. japonica OX=39947 GN=Os09g0247700 PE=2 SV=1
+Length=4965
+
+ Score = 44.7 bits (104),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 16/30 (53%), Positives = 19/30 (63%), Gaps = 0/30 (0%)
+
+Query  13    CDGCQMFPINGSRFKCRNCDDFDFCETCFK  42
+             CDGC   PI   R+ C  C DFD CETC++
+Sbjct  2474  CDGCSTVPILRRRWHCNICPDFDLCETCYE  2503
+
+
+> sp|M1BJF6|JOKA2_SOLTU Protein JOKA2 OS=Solanum tuberosum OX=4113 
+GN=JOKA2 PE=1 SV=1
+Length=862
+
+ Score = 44.3 bits (103),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 16/34 (47%), Positives = 21/34 (62%), Gaps = 0/34 (0%)
+
+Query  8    HPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCF  41
+            H GV CDGC + PI G RF  +  +++D C  CF
+Sbjct  442  HKGVRCDGCGVHPITGPRFISKVKENYDLCSICF  475
+
+
+> sp|Q9SRU2|BIG_ARATH Auxin transport protein BIG OS=Arabidopsis 
+thaliana OX=3702 GN=BIG PE=1 SV=2
+Length=5098
+
+ Score = 43.5 bits (101),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 15/30 (50%), Positives = 18/30 (60%), Gaps = 0/30 (0%)
+
+Query  13    CDGCQMFPINGSRFKCRNCDDFDFCETCFK  42
+             CDGC   PI   R+ C  C DFD CE C++
+Sbjct  2618  CDGCSTVPILRRRWHCTVCPDFDLCEACYE  2647
+
+
+> sp|Q9VDW6|DMDA_DROME Dystrophin, isoforms A/C/F/G/H OS=Drosophila 
+melanogaster OX=7227 GN=Dys PE=1 SV=3
+Length=3598
+
+ Score = 42.7 bits (99),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 16/42 (38%), Positives = 23/42 (55%), Gaps = 4/42 (10%)
+
+Query  13    CDGCQMFPINGSRFKCRNCDDFDFCETCF----KTKKHNTRH  50
+             C+ C+ +PI G R++C  C +FD C+ CF      K H   H
+Sbjct  3112  CNICKEYPIVGFRYRCLKCFNFDMCQKCFFFGRNAKNHKLTH  3153
+
+
+> sp|Q0KI50|DMDD_DROME Dystrophin, isoform D OS=Drosophila melanogaster 
+OX=7227 GN=Dys PE=1 SV=1
+Length=1854
+
+ Score = 42.4 bits (98),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 16/42 (38%), Positives = 23/42 (55%), Gaps = 4/42 (10%)
+
+Query  13    CDGCQMFPINGSRFKCRNCDDFDFCETCF----KTKKHNTRH  50
+             C+ C+ +PI G R++C  C +FD C+ CF      K H   H
+Sbjct  1469  CNICKEYPIVGFRYRCLKCFNFDMCQKCFFFGRNAKNHKLTH  1510
+
+
+> sp|Q9VDW3|DMDB_DROME Dystrophin, isoform B OS=Drosophila melanogaster 
+OX=7227 GN=Dys PE=1 SV=3
+Length=1669
+
+ Score = 42.4 bits (98),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 16/42 (38%), Positives = 23/42 (55%), Gaps = 4/42 (10%)
+
+Query  13    CDGCQMFPINGSRFKCRNCDDFDFCETCF----KTKKHNTRH  50
+             C+ C+ +PI G R++C  C +FD C+ CF      K H   H
+Sbjct  1284  CNICKEYPIVGFRYRCLKCFNFDMCQKCFFFGRNAKNHKLTH  1325
+
+
+> sp|Q7YU29|DMDE_DROME Dystrophin, isoform E OS=Drosophila melanogaster 
+OX=7227 GN=Dys PE=1 SV=1
+Length=1051
+
+ Score = 41.2 bits (95),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 16/42 (38%), Positives = 23/42 (55%), Gaps = 4/42 (10%)
+
+Query  13   CDGCQMFPINGSRFKCRNCDDFDFCETCF----KTKKHNTRH  50
+            C+ C+ +PI G R++C  C +FD C+ CF      K H   H
+Sbjct  666  CNICKEYPIVGFRYRCLKCFNFDMCQKCFFFGRNAKNHKLTH  707
+
+
+> sp|Q9D9X6|ZSWM2_MOUSE E3 ubiquitin-protein ligase Zswim2 OS=Mus 
+musculus OX=10090 GN=Zswim2 PE=1 SV=1
+Length=631
+
+ Score = 41.2 bits (95),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 16/46 (35%), Positives = 25/46 (54%), Gaps = 1/46 (2%)
+
+Query  8    HPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFG  53
+            H G+ C+ C   PI G  +KC  C ++  C+ CF +  H++ H F 
+Sbjct  230  HLGIPCNNCNQLPIEGRCYKCTECVEYHLCQECFDSCCHSS-HAFA  274
+
+
+> sp|Q8LBL5|PRT1_ARATH E3 ubiquitin-protein ligase PRT1 OS=Arabidopsis 
+thaliana OX=3702 GN=PRT1 PE=2 SV=2
+Length=410
+
+ Score = 41.2 bits (95),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 18/55 (33%), Positives = 33/55 (60%), Gaps = 8/55 (15%)
+
+Query  5    AKIHPGVTCDGCQMFPINGSRFKCRNCDD---FDFCETCFKTK-----KHNTRHT  51
+            + +H G  CD C ++PI G R++C++C +   +D C+ C++T      + N +HT
+Sbjct  303  SNVHFGAGCDSCGVYPIIGDRYRCKDCKEEIGYDLCKDCYETPSKVPGRFNQQHT  357
+
+
+> sp|Q8NEG5|ZSWM2_HUMAN E3 ubiquitin-protein ligase ZSWIM2 OS=Homo 
+sapiens OX=9606 GN=ZSWIM2 PE=1 SV=2
+Length=633
+
+ Score = 40.4 bits (93),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 18/45 (40%), Positives = 27/45 (60%), Gaps = 1/45 (2%)
+
+Query  8    HPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTF  52
+            H G+ C+ C+ FPI G  +KC  C ++  C+ CF +  H + HTF
+Sbjct  229  HLGIPCNNCKQFPIEGKCYKCTECIEYHLCQECFDSCCHLS-HTF  272
+
+
+> sp|Q8IYH5|ZZZ3_HUMAN ZZ-type zinc finger-containing protein 3 
+OS=Homo sapiens OX=9606 GN=ZZZ3 PE=1 SV=1
+Length=903
+
+ Score = 37.0 bits (84),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 15/36 (42%), Positives = 21/36 (58%), Gaps = 3/36 (8%)
+
+Query  8    HPGVTCDGCQMFPINGSRFKCRNCD---DFDFCETC  40
+            H G  CD C + PI G R+ C++C      DFC++C
+Sbjct  818  HVGFKCDNCGIEPIQGVRWHCQDCPPEMSLDFCDSC  853
+
+
+> sp|Q6KAQ7|ZZZ3_MOUSE ZZ-type zinc finger-containing protein 3 
+OS=Mus musculus OX=10090 GN=Zzz3 PE=1 SV=2
+Length=910
+
+ Score = 36.6 bits (83),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 15/36 (42%), Positives = 21/36 (58%), Gaps = 3/36 (8%)
+
+Query  8    HPGVTCDGCQMFPINGSRFKCRNCD---DFDFCETC  40
+            H G  CD C + PI G R+ C++C      DFC++C
+Sbjct  825  HVGFKCDNCGVEPIQGVRWHCQDCPPEMSLDFCDSC  860
+
+
+> sp|Q09472|EP300_HUMAN Histone acetyltransferase p300 OS=Homo 
+sapiens OX=9606 GN=EP300 PE=1 SV=2
+Length=2414
+
+ Score = 35.8 bits (81),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 14/38 (37%), Positives = 23/38 (61%), Gaps = 2/38 (5%)
+
+Query  12    TCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTR  49
+             TC+ C+      +R+ C  C+D+D C TC+ TK H+ +
+Sbjct  1669  TCNECKHHV--ETRWHCTVCEDYDLCITCYNTKNHDHK  1704
+
+
+> sp|B2RWS6|EP300_MOUSE Histone acetyltransferase p300 OS=Mus musculus 
+OX=10090 GN=Ep300 PE=1 SV=2
+Length=2412
+
+ Score = 35.8 bits (81),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 14/38 (37%), Positives = 23/38 (61%), Gaps = 2/38 (5%)
+
+Query  12    TCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTR  49
+             TC+ C+      +R+ C  C+D+D C TC+ TK H+ +
+Sbjct  1668  TCNECKHHV--ETRWHCTVCEDYDLCITCYNTKNHDHK  1703
+
+
+> sp|O70585|DTNB_MOUSE Dystrobrevin beta OS=Mus musculus OX=10090 
+GN=Dtnb PE=1 SV=3
+Length=659
+
+ Score = 35.8 bits (81),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 15/51 (29%), Positives = 25/51 (49%), Gaps = 5/51 (10%)
+
+Query  4    EAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCF----KTKKHNTRH  50
+            E   HP V C  C    + G R++C+ C ++  C+ CF     +  H+ +H
+Sbjct  235  ENVFHP-VECSYCHCESMMGFRYRCQQCHNYQLCQNCFWRGHASGAHSNQH  284
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.141    0.492    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5004275148
+Results from round 2
+
+
+Query= 6WW3:B
+
+Length=58
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q4U2R1|HERC2_MOUSE E3 ubiquitin-protein ligase HERC2 OS=Mus ...  104     4e-27
+  sp|O95714|HERC2_HUMAN E3 ubiquitin-protein ligase HERC2 OS=Homo...  104     5e-27
+  sp|Q9VUX2|MIB_DROME E3 ubiquitin-protein ligase mind-bomb OS=Dr...  89.3    8e-22
+  sp|Q804S5|MIB1_DANRE E3 ubiquitin-protein ligase mib1 OS=Danio ...  88.5    2e-21
+  sp|Q80SY4|MIB1_MOUSE E3 ubiquitin-protein ligase MIB1 OS=Mus mu...  87.7    3e-21
+  sp|Q86YT6|MIB1_HUMAN E3 ubiquitin-protein ligase MIB1 OS=Homo s...  87.7    3e-21
+  sp|Q6GNY1|MIB1_XENLA E3 ubiquitin-protein ligase mib1 OS=Xenopu...  87.3    4e-21
+  sp|Q68LP1|MIB2_RAT E3 ubiquitin-protein ligase MIB2 OS=Rattus n...  86.2    1e-20
+  sp|Q8R516|MIB2_MOUSE E3 ubiquitin-protein ligase MIB2 OS=Mus mu...  86.2    1e-20
+  sp|Q5ZIJ9|MIB2_CHICK E3 ubiquitin-protein ligase MIB2 OS=Gallus...  86.2    1e-20
+  sp|Q96AX9|MIB2_HUMAN E3 ubiquitin-protein ligase MIB2 OS=Homo s...  86.2    1e-20
+  sp|A2CI98|DYTN_MOUSE Dystrotelin OS=Mus musculus OX=10090 GN=Dy...  80.4    1e-18
+  sp|A2CJ06|DYTN_HUMAN Dystrotelin OS=Homo sapiens OX=9606 GN=DYT...  80.0    1e-18
+  sp|P14199|REF2P_DROME Protein ref(2)P OS=Drosophila melanogaste...  78.1    7e-18
+  sp|P34664|YOY6_CAEEL Uncharacterized protein ZK652.6 OS=Caenorh...  78.1    8e-18
+  sp|Q24629|REF2P_DROSI Protein ref(2)P OS=Drosophila simulans OX...  77.7    1e-17
+  sp|Q9SB64|NBR1_ARATH Protein NBR1 homolog OS=Arabidopsis thalia...  76.2    3e-17
+  sp|Q9TW65|DMD_CAEEL Dystrophin-1 OS=Caenorhabditis elegans OX=6...  76.2    4e-17
+  sp|Q54QG5|Y3893_DICDI Probable E3 ubiquitin-protein ligase DDB_...  74.2    2e-16
+  sp|Q95RX5|KCMF1_DROME E3 ubiquitin-protein ligase Kcmf1 OS=Dros...  73.5    3e-16
+  sp|Q6GPB6|KCMF1_XENLA E3 ubiquitin-protein ligase KCMF1 OS=Xeno...  71.9    1e-15
+  sp|Q9P0J7|KCMF1_HUMAN E3 ubiquitin-protein ligase KCMF1 OS=Homo...  71.9    1e-15
+  sp|Q5SSH7|ZZEF1_MOUSE Zinc finger ZZ-type and EF-hand domain-co...  71.9    1e-15
+  sp|Q7T321|KCMF1_DANRE E3 ubiquitin-protein ligase KCMF1 OS=Dani...  71.6    1e-15
+  sp|Q1LZE1|KCMF1_BOVIN E3 ubiquitin-protein ligase KCMF1 OS=Bos ...  71.6    1e-15
+  sp|Q80UY2|KCMF1_MOUSE E3 ubiquitin-protein ligase KCMF1 OS=Mus ...  71.6    1e-15
+  sp|A2CI97|DYTN_DANRE Dystrotelin OS=Danio rerio OX=7955 GN=dytn...  71.6    2e-15
+  sp|Q9D9X6|ZSWM2_MOUSE E3 ubiquitin-protein ligase Zswim2 OS=Mus...  70.8    3e-15
+  sp|O43149|ZZEF1_HUMAN Zinc finger ZZ-type and EF-hand domain-co...  70.4    3e-15
+  sp|M1BJF6|JOKA2_SOLTU Protein JOKA2 OS=Solanum tuberosum OX=411...  70.4    4e-15
+  sp|Q9Y048|DTN1_CAEEL Dystrobrevin-1 OS=Caenorhabditis elegans O...  70.0    5e-15
+  sp|O08623|SQSTM_RAT Sequestosome-1 OS=Rattus norvegicus OX=1011...  70.0    5e-15
+  sp|Q9VDW3|DMDB_DROME Dystrophin, isoform B OS=Drosophila melano...  69.6    6e-15
+  sp|Q0KI50|DMDD_DROME Dystrophin, isoform D OS=Drosophila melano...  69.6    6e-15
+  sp|Q9VDW6|DMDA_DROME Dystrophin, isoforms A/C/F/G/H OS=Drosophi...  69.6    6e-15
+  sp|Q8NEG5|ZSWM2_HUMAN E3 ubiquitin-protein ligase ZSWIM2 OS=Hom...  68.9    1e-14
+  sp|Q13501|SQSTM_HUMAN Sequestosome-1 OS=Homo sapiens OX=9606 GN...  68.1    3e-14
+  sp|Q5RBA5|SQSTM_PONAB Sequestosome-1 OS=Pongo abelii OX=9601 GN...  68.1    3e-14
+  sp|Q7YU29|DMDE_DROME Dystrophin, isoform E OS=Drosophila melano...  66.9    6e-14
+  sp|Q64337|SQSTM_MOUSE Sequestosome-1 OS=Mus musculus OX=10090 G...  66.9    6e-14
+  sp|Q9SRU2|BIG_ARATH Auxin transport protein BIG OS=Arabidopsis ...  64.6    5e-13
+  sp|B9G2A8|BIG_ORYSJ Auxin transport protein BIG OS=Oryza sativa...  62.3    3e-12
+  sp|Q9P792|YN8B_SCHPO ZZ-type zinc finger-containing protein P35...  61.5    5e-12
+  sp|Q8LBL5|PRT1_ARATH E3 ubiquitin-protein ligase PRT1 OS=Arabid...  55.4    7e-10
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P46939|UTRO_HUMAN Utrophin OS=Homo sapiens OX=9606 GN=UTRN P...  61.2    8e-12
+  sp|P11533|DMD_CHICK Dystrophin OS=Gallus gallus OX=9031 GN=DMD ...  60.4    1e-11
+  sp|Q5GN48|DMD_PIG Dystrophin OS=Sus scrofa OX=9823 GN=DMD PE=1 ...  60.4    1e-11
+  sp|P11530|DMD_RAT Dystrophin OS=Rattus norvegicus OX=10116 GN=D...  60.4    1e-11
+  sp|P11531|DMD_MOUSE Dystrophin OS=Mus musculus OX=10090 GN=Dmd ...  60.4    1e-11
+  sp|O97592|DMD_CANLF Dystrophin OS=Canis lupus familiaris OX=961...  60.4    1e-11
+  sp|P11532|DMD_HUMAN Dystrophin OS=Homo sapiens OX=9606 GN=DMD P...  60.4    1e-11
+  sp|Q9Y4J8|DTNA_HUMAN Dystrobrevin alpha OS=Homo sapiens OX=9606...  58.5    6e-11
+  sp|Q9D2N4|DTNA_MOUSE Dystrobrevin alpha OS=Mus musculus OX=1009...  58.5    7e-11
+  sp|O70585|DTNB_MOUSE Dystrobrevin beta OS=Mus musculus OX=10090...  56.5    3e-10
+  sp|O60941|DTNB_HUMAN Dystrobrevin beta OS=Homo sapiens OX=9606 ...  55.4    9e-10
+  sp|P84060|DTNB_RAT Dystrobrevin beta OS=Rattus norvegicus OX=10...  54.6    2e-09
+  sp|B2RWS6|EP300_MOUSE Histone acetyltransferase p300 OS=Mus mus...  53.1    5e-09
+  sp|Q09472|EP300_HUMAN Histone acetyltransferase p300 OS=Homo sa...  53.1    6e-09
+  sp|P45481|CBP_MOUSE Histone lysine acetyltransferase CREBBP OS=...  51.9    1e-08
+  sp|Q6JHU9|CBP_RAT Histone lysine acetyltransferase CREBBP OS=Ra...  51.9    1e-08
+  sp|Q92793|CBP_HUMAN CREB-binding protein OS=Homo sapiens OX=960...  51.9    1e-08
+  sp|Q14596|NBR1_HUMAN Next to BRCA1 gene 1 protein OS=Homo sapie...  50.8    4e-08
+  sp|Q9EPA0|DRP2_RAT Dystrophin-related protein 2 OS=Rattus norve...  50.8    4e-08
+  sp|Q13474|DRP2_HUMAN Dystrophin-related protein 2 OS=Homo sapie...  50.4    4e-08
+  sp|Q05AA6|DRP2_MOUSE Dystrophin-related protein 2 OS=Mus muscul...  50.4    5e-08
+  sp|Q8IYH5|ZZZ3_HUMAN ZZ-type zinc finger-containing protein 3 O...  50.0    5e-08
+  sp|Q501R9|NBR1_RAT Next to BRCA1 gene 1 protein OS=Rattus norve...  50.0    5e-08
+  sp|Q5RC94|NBR1_PONAB Next to BRCA1 gene 1 protein OS=Pongo abel...  50.0    6e-08
+  sp|P97432|NBR1_MOUSE Next to BRCA1 gene 1 protein OS=Mus muscul...  50.0    7e-08
+  sp|Q9FWQ5|HAC12_ARATH Histone acetyltransferase HAC12 OS=Arabid...  48.8    1e-07
+  sp|Q6KAQ7|ZZZ3_MOUSE ZZ-type zinc finger-containing protein 3 O...  48.8    2e-07
+  sp|Q9FYH1|HAC2_ARATH Histone acetyltransferase HAC2 OS=Arabidop...  47.7    4e-07
+  sp|Q75LL6|TADA2_ORYSJ Transcriptional adapter ADA2 OS=Oryza sat...  47.3    6e-07
+  sp|Q9SFD5|TAD2A_ARATH Transcriptional adapter ADA2a OS=Arabidop...  46.9    6e-07
+  sp|Q59WH0|ADA2_CANAL Transcriptional adapter 2 OS=Candida albic...  46.1    1e-06
+  sp|Q8I8V0|TAD2B_DROME Transcriptional adapter 2B OS=Drosophila ...  46.1    1e-06
+  sp|Q02336|ADA2_YEAST Transcriptional adapter 2 OS=Saccharomyces...  45.7    2e-06
+  sp|Q5Z8V7|HACL2_ORYSJ Probable histone acetyltransferase HAC-li...  45.7    2e-06
+  sp|Q9C5X9|HAC1_ARATH Histone acetyltransferase HAC1 OS=Arabidop...  45.4    2e-06
+  sp|Q9ATB4|TAD2B_ARATH Transcriptional adapter ADA2b OS=Arabidop...  44.2    6e-06
+  sp|Q6YXY2|HACL1_ORYSJ Probable histone acetyltransferase HAC-li...  43.0    2e-05
+  sp|Q9LG11|HAC4_ARATH Histone acetyltransferase HAC4 OS=Arabidop...  42.7    2e-05
+  sp|Q9P7J7|ADA2_SCHPO Transcriptional adapter 2 OS=Schizosacchar...  42.7    3e-05
+  sp|Q8VY05|SWI3D_ARATH SWI/SNF complex subunit SWI3D OS=Arabidop...  42.3    3e-05
+  sp|Q9LE42|HAC5_ARATH Histone acetyltransferase HAC5 OS=Arabidop...  42.3    4e-05
+  sp|Q8S8L9|Y2245_ARATH Uncharacterized TPR repeat-containing pro...  40.0    2e-04
+  sp|P34545|CBP1_CAEEL Protein cbp-1 OS=Caenorhabditis elegans OX...  38.0    0.001
+  sp|O23052|Y1515_ARATH Uncharacterized TPR repeat-containing pro...  38.0    0.001
+  sp|Q9XHY7|HACL3_ORYSJ Probable histone acetyltransferase HAC-li...  36.9    0.002
+  sp|P43609|RSC8_YEAST Chromatin structure-remodeling complex pro...  36.5    0.003
+  sp|Q503N9|TAD2B_DANRE Transcriptional adapter 2-beta OS=Danio r...  36.5    0.003
+  sp|Q6NRB5|TAD2B_XENLA Transcriptional adapter 2-beta OS=Xenopus...  36.1    0.006
+  sp|Q5RBN9|TAD2B_PONAB Transcriptional adapter 2-beta OS=Pongo a...  35.3    0.008
+  sp|Q86TJ2|TAD2B_HUMAN Transcriptional adapter 2-beta OS=Homo sa...  35.3    0.008
+
+
+> sp|Q4U2R1|HERC2_MOUSE E3 ubiquitin-protein ligase HERC2 OS=Mus 
+musculus OX=10090 GN=Herc2 PE=1 SV=3
+Length=4836
+
+ Score = 104 bits (259),  Expect = 4e-27, Method: Composition-based stats.
+ Identities = 51/52 (98%), Positives = 51/52 (98%), Gaps = 0/52 (0%)
+
+Query  7     IHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+             IHPGVTCDGCQ FPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP
+Sbjct  2703  IHPGVTCDGCQTFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  2754
+
+
+> sp|O95714|HERC2_HUMAN E3 ubiquitin-protein ligase HERC2 OS=Homo 
+sapiens OX=9606 GN=HERC2 PE=1 SV=2
+Length=4834
+
+ Score = 104 bits (259),  Expect = 5e-27, Method: Composition-based stats.
+ Identities = 52/52 (100%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  7     IHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+             IHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP
+Sbjct  2702  IHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  2753
+
+
+> sp|Q9VUX2|MIB_DROME E3 ubiquitin-protein ligase mind-bomb OS=Drosophila 
+melanogaster OX=7227 GN=mib1 PE=1 SV=3
+Length=1226
+
+ Score = 89.3 bits (220),  Expect = 8e-22, Method: Composition-based stats.
+ Identities = 24/58 (41%), Positives = 30/58 (52%), Gaps = 0/58 (0%)
+
+Query  1    SDQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+            S      H G  CD C+  PI G R+KC  C ++D C  C+   KH+ RH F RI  P
+Sbjct  167  SAPTGVKHEGTMCDTCRQQPIFGIRWKCAECINYDLCSICYHGDKHHLRHRFYRITTP  224
+
+
+> sp|Q804S5|MIB1_DANRE E3 ubiquitin-protein ligase mib1 OS=Danio 
+rerio OX=7955 GN=mib1 PE=1 SV=1
+Length=1030
+
+ Score = 88.5 bits (218),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 25/58 (43%), Positives = 31/58 (53%), Gaps = 0/58 (0%)
+
+Query  1    SDQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+            S      H G  CD C+  PI G R+KC  C ++D C TC+   KH+ RH F RI  P
+Sbjct  73   SAPTGIKHDGTMCDTCRQQPIIGIRWKCAECTNYDLCTTCYHGDKHHLRHRFYRITTP  130
+
+
+> sp|Q80SY4|MIB1_MOUSE E3 ubiquitin-protein ligase MIB1 OS=Mus 
+musculus OX=10090 GN=Mib1 PE=1 SV=1
+Length=1006
+
+ Score = 87.7 bits (216),  Expect = 3e-21, Method: Composition-based stats.
+ Identities = 24/58 (41%), Positives = 30/58 (52%), Gaps = 0/58 (0%)
+
+Query  1    SDQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+            S      H G  CD C+  PI G R+KC  C ++D C  C+   KH+ RH F RI  P
+Sbjct  73   SAPTGIKHDGTMCDTCRQQPIIGIRWKCAECTNYDLCTVCYHGDKHHLRHRFYRITTP  130
+
+
+> sp|Q86YT6|MIB1_HUMAN E3 ubiquitin-protein ligase MIB1 OS=Homo 
+sapiens OX=9606 GN=MIB1 PE=1 SV=1
+Length=1006
+
+ Score = 87.7 bits (216),  Expect = 3e-21, Method: Composition-based stats.
+ Identities = 24/58 (41%), Positives = 30/58 (52%), Gaps = 0/58 (0%)
+
+Query  1    SDQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+            S      H G  CD C+  PI G R+KC  C ++D C  C+   KH+ RH F RI  P
+Sbjct  73   SAPTGIKHDGTMCDTCRQQPIIGIRWKCAECTNYDLCTVCYHGDKHHLRHRFYRITTP  130
+
+
+> sp|Q6GNY1|MIB1_XENLA E3 ubiquitin-protein ligase mib1 OS=Xenopus 
+laevis OX=8355 GN=mib1 PE=2 SV=1
+Length=1011
+
+ Score = 87.3 bits (215),  Expect = 4e-21, Method: Composition-based stats.
+ Identities = 24/58 (41%), Positives = 30/58 (52%), Gaps = 0/58 (0%)
+
+Query  1    SDQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+            S      H G  CD C+  PI G R+KC  C ++D C  C+   KH+ RH F RI  P
+Sbjct  73   SAPTGIKHDGTMCDTCRQQPIIGIRWKCAECTNYDLCTVCYHGDKHHLRHRFYRITTP  130
+
+
+> sp|Q68LP1|MIB2_RAT E3 ubiquitin-protein ligase MIB2 OS=Rattus 
+norvegicus OX=10116 GN=Mib2 PE=1 SV=2
+Length=971
+
+ Score = 86.2 bits (212),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 20/47 (43%), Positives = 27/47 (57%), Gaps = 0/47 (0%)
+
+Query  8    HPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGR  54
+            HP + CD C+   + G R+KCR C D+D C  C+   KH+  H F R
+Sbjct  86   HPNIICDCCKKHGLRGMRWKCRVCFDYDLCTQCYMHNKHDLTHAFER  132
+
+
+> sp|Q8R516|MIB2_MOUSE E3 ubiquitin-protein ligase MIB2 OS=Mus 
+musculus OX=10090 GN=Mib2 PE=1 SV=2
+Length=973
+
+ Score = 86.2 bits (212),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 20/47 (43%), Positives = 27/47 (57%), Gaps = 0/47 (0%)
+
+Query  8    HPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGR  54
+            HP + CD C+   + G R+KCR C D+D C  C+   KH+  H F R
+Sbjct  86   HPNIICDCCKKHGLRGMRWKCRVCFDYDLCTQCYMHNKHDLTHAFER  132
+
+
+> sp|Q5ZIJ9|MIB2_CHICK E3 ubiquitin-protein ligase MIB2 OS=Gallus 
+gallus OX=9031 GN=MIB2 PE=2 SV=1
+Length=954
+
+ Score = 86.2 bits (212),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 21/54 (39%), Positives = 29/54 (54%), Gaps = 0/54 (0%)
+
+Query  1    SDQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGR  54
+            + Q    HP + CD C+   I G R+KC+ C D+D C  C+   KH+  H F R
+Sbjct  79   NAQIGVRHPNIICDCCKKHGIRGMRWKCKMCFDYDLCTQCYMNNKHDLSHAFER  132
+
+
+> sp|Q96AX9|MIB2_HUMAN E3 ubiquitin-protein ligase MIB2 OS=Homo 
+sapiens OX=9606 GN=MIB2 PE=1 SV=3
+Length=1013
+
+ Score = 86.2 bits (212),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 21/54 (39%), Positives = 28/54 (52%), Gaps = 0/54 (0%)
+
+Query  1    SDQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGR  54
+            + Q    HP + CD C+   + G R+KCR C D+D C  C+   KH   H F R
+Sbjct  137  NAQIGVRHPNIICDCCKKHGLRGMRWKCRVCLDYDLCTQCYMHNKHELAHAFDR  190
+
+
+> sp|A2CI98|DYTN_MOUSE Dystrotelin OS=Mus musculus OX=10090 GN=Dytn 
+PE=2 SV=1
+Length=653
+
+ Score = 80.4 bits (197),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 23/50 (46%), Positives = 26/50 (52%), Gaps = 1/50 (2%)
+
+Query  1    SDQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRH  50
+            S  E   HP V C  C+ FPI G R+ C  C DFD CE CF +  H   H
+Sbjct  217  SAAETVTHP-VRCSVCRTFPIIGLRYHCLKCLDFDICELCFLSGLHKNSH  265
+
+
+> sp|A2CJ06|DYTN_HUMAN Dystrotelin OS=Homo sapiens OX=9606 GN=DYTN 
+PE=2 SV=1
+Length=578
+
+ Score = 80.0 bits (196),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 20/50 (40%), Positives = 27/50 (54%), Gaps = 1/50 (2%)
+
+Query  1    SDQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRH  50
+            S  E   HP   C  C+ FPI G R++C  C +FD C+ CF +  H+  H
+Sbjct  217  SAAERVTHPA-RCTLCRTFPITGLRYRCLKCLNFDICQMCFLSGLHSKSH  265
+
+
+> sp|P14199|REF2P_DROME Protein ref(2)P OS=Drosophila melanogaster 
+OX=7227 GN=ref(2)P PE=1 SV=2
+Length=599
+
+ Score = 78.1 bits (191),  Expect = 7e-18, Method: Composition-based stats.
+ Identities = 20/50 (40%), Positives = 27/50 (54%), Gaps = 1/50 (2%)
+
+Query  6    KIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRI  55
+             IH  V CDGC + P+ G R+KC  C ++D C+ C    KH   H   R+
+Sbjct  120  TIHDAVECDGCGLAPLIGFRYKCVQCSNYDLCQKCELAHKHP-EHLMLRM  168
+
+
+> sp|P34664|YOY6_CAEEL Uncharacterized protein ZK652.6 OS=Caenorhabditis 
+elegans OX=6239 GN=ZK652.6 PE=4 SV=2
+Length=575
+
+ Score = 78.1 bits (191),  Expect = 8e-18, Method: Composition-based stats.
+ Identities = 21/49 (43%), Positives = 28/49 (57%), Gaps = 0/49 (0%)
+
+Query  7   IHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRI  55
+            H GV+CDGC      G+R+KC  C D+D C +CF TK +  + T   I
+Sbjct  8   THEGVSCDGCAFTAFAGNRYKCLRCSDYDLCFSCFTTKNYGDQQTIADI  56
+
+
+> sp|Q24629|REF2P_DROSI Protein ref(2)P OS=Drosophila simulans 
+OX=7240 GN=ref(2)P PE=3 SV=1
+Length=599
+
+ Score = 77.7 bits (190),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 21/50 (42%), Positives = 27/50 (54%), Gaps = 1/50 (2%)
+
+Query  6    KIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRI  55
+             IH  V CDGC + P+ G R+KC  C +FD C+ C    KH   H   R+
+Sbjct  120  TIHDSVQCDGCGLAPLIGFRYKCVQCSNFDLCQKCESAHKHP-EHLMLRM  168
+
+
+> sp|Q9SB64|NBR1_ARATH Protein NBR1 homolog OS=Arabidopsis thaliana 
+OX=3702 GN=NBR1 PE=1 SV=1
+Length=704
+
+ Score = 76.2 bits (186),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 19/53 (36%), Positives = 30/53 (57%), Gaps = 2/53 (4%)
+
+Query  6    KIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+              H G+ CDGC + PI G RFK +  +D+D C  C+    +   +T  R+++P
+Sbjct  284  VFHKGIRCDGCGVLPITGPRFKSKVKEDYDLCTICYSVMGNEGDYT--RMDKP  334
+
+
+> sp|Q9TW65|DMD_CAEEL Dystrophin-1 OS=Caenorhabditis elegans OX=6239 
+GN=dys-1 PE=1 SV=2
+Length=3674
+
+ Score = 76.2 bits (186),  Expect = 4e-17, Method: Composition-based stats.
+ Identities = 20/56 (36%), Positives = 30/56 (54%), Gaps = 4/56 (7%)
+
+Query  3     QEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+              E+  H    C+ C+MFPI G R++C  C + D C+ CF +++    H   R N P
+Sbjct  3297  SESTKHAS-KCNVCKMFPIIGIRYRCLTCFNCDLCQNCFFSQRTAKSH---RTNHP  3348
+
+
+> sp|Q54QG5|Y3893_DICDI Probable E3 ubiquitin-protein ligase DDB_G0283893 
+OS=Dictyostelium discoideum OX=44689 GN=DDB_G0283893 
+PE=3 SV=2
+Length=5875
+
+ Score = 74.2 bits (181),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 22/52 (42%), Positives = 28/52 (54%), Gaps = 4/52 (8%)
+
+Query  11    VTCDGCQMFPINGSRFKCRNCDDFDFCETCFKT--KKHNTRHTFGR--INEP  58
+              +CD C + PI G R+ C NC DFD C  C++   K H   H F    I+EP
+Sbjct  3229  FSCDLCNINPITGKRWNCSNCGDFDLCNQCYQNPEKDHPKDHIFKEFIIDEP  3280
+
+
+> sp|Q95RX5|KCMF1_DROME E3 ubiquitin-protein ligase Kcmf1 OS=Drosophila 
+melanogaster OX=7227 GN=Kcmf1 PE=1 SV=1
+Length=599
+
+ Score = 73.5 bits (179),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 19/43 (44%), Positives = 25/43 (58%), Gaps = 0/43 (0%)
+
+Query  8   HPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRH  50
+           H GV+CD C     NG R+KC  C D+D C  C++    +TRH
+Sbjct  4   HEGVSCDSCLKSNFNGRRYKCLICYDYDLCADCYEDGVTSTRH  46
+
+
+> sp|Q6GPB6|KCMF1_XENLA E3 ubiquitin-protein ligase KCMF1 OS=Xenopus 
+laevis OX=8355 GN=kcmf1 PE=2 SV=1
+Length=381
+
+ Score = 71.9 bits (175),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 20/51 (39%), Positives = 28/51 (55%), Gaps = 3/51 (6%)
+
+Query  8   HPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+           H GV+CD C      G R+KC  C D+D C +C+++    TRHT    + P
+Sbjct  4   HEGVSCDACLKGNFRGRRYKCLICYDYDLCASCYESGATTTRHT---TDHP  51
+
+
+> sp|Q9P0J7|KCMF1_HUMAN E3 ubiquitin-protein ligase KCMF1 OS=Homo 
+sapiens OX=9606 GN=KCMF1 PE=1 SV=2
+Length=381
+
+ Score = 71.9 bits (175),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 20/51 (39%), Positives = 28/51 (55%), Gaps = 3/51 (6%)
+
+Query  8   HPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+           H GV+CD C      G R+KC  C D+D C +C+++    TRHT    + P
+Sbjct  4   HEGVSCDACLKGNFRGRRYKCLICYDYDLCASCYESGATTTRHT---TDHP  51
+
+
+> sp|Q5SSH7|ZZEF1_MOUSE Zinc finger ZZ-type and EF-hand domain-containing 
+protein 1 OS=Mus musculus OX=10090 GN=Zzef1 PE=1 
+SV=2
+Length=2924
+
+ Score = 71.9 bits (175),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 20/49 (41%), Positives = 25/49 (51%), Gaps = 1/49 (2%)
+
+Query  2     DQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRH  50
+             D    ++   TCD CQ   I G R  C  CDDFD C  C+  KK++  H
+Sbjct  1819  DDHEMVNMEFTCDHCQGL-IIGRRMNCNVCDDFDLCYGCYTAKKYSYGH  1866
+
+
+ Score = 47.7 bits (112),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 16/51 (31%), Positives = 25/51 (49%), Gaps = 7/51 (14%)
+
+Query  11    VTCDGC-QMFPINGSRFKCRNCDDFDFCETCFKTK----KHNTRHTFGRIN  56
+             ++CDGC ++ P +  R++C  C D D C+TCF        H   H    + 
+Sbjct  1779  ISCDGCDEIAPWH--RYRCLQCSDMDLCKTCFLGGVKPEGHGDDHEMVNME  1827
+
+
+> sp|Q7T321|KCMF1_DANRE E3 ubiquitin-protein ligase KCMF1 OS=Danio 
+rerio OX=7955 GN=kcmf1 PE=2 SV=1
+Length=383
+
+ Score = 71.6 bits (174),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 19/44 (43%), Positives = 26/44 (59%), Gaps = 0/44 (0%)
+
+Query  8   HPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHT  51
+           H GV+CD C      G R+KC  C D+D C +C+++    TRHT
+Sbjct  4   HEGVSCDACLKGNFRGRRYKCLICYDYDLCASCYESGATTTRHT  47
+
+
+> sp|Q1LZE1|KCMF1_BOVIN E3 ubiquitin-protein ligase KCMF1 OS=Bos 
+taurus OX=9913 GN=KCMF1 PE=2 SV=1
+Length=381
+
+ Score = 71.6 bits (174),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 20/51 (39%), Positives = 28/51 (55%), Gaps = 3/51 (6%)
+
+Query  8   HPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+           H GV+CD C      G R+KC  C D+D C +C+++    TRHT    + P
+Sbjct  4   HEGVSCDACLKGNFRGRRYKCLICYDYDLCASCYESGATTTRHT---TDHP  51
+
+
+> sp|Q80UY2|KCMF1_MOUSE E3 ubiquitin-protein ligase KCMF1 OS=Mus 
+musculus OX=10090 GN=Kcmf1 PE=1 SV=1
+Length=381
+
+ Score = 71.6 bits (174),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 20/51 (39%), Positives = 28/51 (55%), Gaps = 3/51 (6%)
+
+Query  8   HPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+           H GV+CD C      G R+KC  C D+D C +C+++    TRHT    + P
+Sbjct  4   HEGVSCDACLKGNFRGRRYKCLICYDYDLCASCYESGATTTRHT---TDHP  51
+
+
+> sp|A2CI97|DYTN_DANRE Dystrotelin OS=Danio rerio OX=7955 GN=dytn 
+PE=2 SV=1
+Length=648
+
+ Score = 71.6 bits (174),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 19/50 (38%), Positives = 29/50 (58%), Gaps = 1/50 (2%)
+
+Query  1    SDQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRH  50
+            S  EA  H  V C  C+ FPI G R++C  C +   C++CF T++ + +H
+Sbjct  217  SVSEAVQHR-VHCHACKAFPITGLRYRCLKCLNVHLCQSCFLTERRSRKH  265
+
+
+> sp|Q9D9X6|ZSWM2_MOUSE E3 ubiquitin-protein ligase Zswim2 OS=Mus 
+musculus OX=10090 GN=Zswim2 PE=1 SV=1
+Length=631
+
+ Score = 70.8 bits (172),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 16/46 (35%), Positives = 24/46 (52%), Gaps = 1/46 (2%)
+
+Query  8    HPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFG  53
+            H G+ C+ C   PI G  +KC  C ++  C+ CF +  H+  H F 
+Sbjct  230  HLGIPCNNCNQLPIEGRCYKCTECVEYHLCQECFDSCCHS-SHAFA  274
+
+
+> sp|O43149|ZZEF1_HUMAN Zinc finger ZZ-type and EF-hand domain-containing 
+protein 1 OS=Homo sapiens OX=9606 GN=ZZEF1 PE=1 SV=6
+Length=2961
+
+ Score = 70.4 bits (171),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 20/49 (41%), Positives = 25/49 (51%), Gaps = 1/49 (2%)
+
+Query  2     DQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRH  50
+             D    ++   TCD CQ   I G R  C  CDDFD C  C+  KK++  H
+Sbjct  1821  DDHEMVNMEFTCDHCQGL-IIGRRMNCNVCDDFDLCYGCYAAKKYSYGH  1868
+
+
+ Score = 47.7 bits (112),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 16/51 (31%), Positives = 25/51 (49%), Gaps = 7/51 (14%)
+
+Query  11    VTCDGC-QMFPINGSRFKCRNCDDFDFCETCFKTK----KHNTRHTFGRIN  56
+             ++CDGC ++ P +  R++C  C D D C+TCF        H   H    + 
+Sbjct  1781  ISCDGCDEIAPWH--RYRCLQCSDMDLCKTCFLGGVKPEGHGDDHEMVNME  1829
+
+
+> sp|M1BJF6|JOKA2_SOLTU Protein JOKA2 OS=Solanum tuberosum OX=4113 
+GN=JOKA2 PE=1 SV=1
+Length=862
+
+ Score = 70.4 bits (171),  Expect = 4e-15, Method: Composition-based stats.
+ Identities = 18/54 (33%), Positives = 28/54 (52%), Gaps = 2/54 (4%)
+
+Query  5    AKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+               H GV CDGC + PI G RF  +  +++D C  CF    ++  +   R++ P
+Sbjct  439  TIFHKGVRCDGCGVHPITGPRFISKVKENYDLCSICFAEMGNDADYI--RMDRP  490
+
+
+> sp|Q9Y048|DTN1_CAEEL Dystrobrevin-1 OS=Caenorhabditis elegans 
+OX=6239 GN=dyb-1 PE=1 SV=1
+Length=590
+
+ Score = 70.0 bits (170),  Expect = 5e-15, Method: Composition-based stats.
+ Identities = 15/57 (26%), Positives = 28/57 (49%), Gaps = 4/57 (7%)
+
+Query  2    DQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCF----KTKKHNTRHTFGR  54
+               + ++  V CD CQ+    G R+KC+ C ++  C++CF     ++ H+  H    
+Sbjct  253  ASVSNVYHPVVCDACQVRSFTGFRYKCQRCANYQLCQSCFWRGRTSQNHSNEHEMKE  309
+
+
+> sp|O08623|SQSTM_RAT Sequestosome-1 OS=Rattus norvegicus OX=10116 
+GN=Sqstm1 PE=1 SV=1
+Length=439
+
+ Score = 70.0 bits (170),  Expect = 5e-15, Method: Composition-based stats.
+ Identities = 18/45 (40%), Positives = 25/45 (56%), Gaps = 1/45 (2%)
+
+Query  2    DQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKH  46
+            +  + +HP V CDGC   P+ G+R+KC  C D+D C  C     H
+Sbjct  114  EARSMVHPNVICDGCNG-PVVGTRYKCSVCPDYDLCSVCEGKGLH  157
+
+
+> sp|Q9VDW3|DMDB_DROME Dystrophin, isoform B OS=Drosophila melanogaster 
+OX=7227 GN=Dys PE=1 SV=3
+Length=1669
+
+ Score = 69.6 bits (169),  Expect = 6e-15, Method: Composition-based stats.
+ Identities = 15/46 (33%), Positives = 26/46 (57%), Gaps = 3/46 (7%)
+
+Query  13    CDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+             C+ C+ +PI G R++C  C +FD C+ CF   ++   H   ++  P
+Sbjct  1284  CNICKEYPIVGFRYRCLKCFNFDMCQKCFFFGRNAKNH---KLTHP  1326
+
+
+> sp|Q0KI50|DMDD_DROME Dystrophin, isoform D OS=Drosophila melanogaster 
+OX=7227 GN=Dys PE=1 SV=1
+Length=1854
+
+ Score = 69.6 bits (169),  Expect = 6e-15, Method: Composition-based stats.
+ Identities = 15/46 (33%), Positives = 26/46 (57%), Gaps = 3/46 (7%)
+
+Query  13    CDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+             C+ C+ +PI G R++C  C +FD C+ CF   ++   H   ++  P
+Sbjct  1469  CNICKEYPIVGFRYRCLKCFNFDMCQKCFFFGRNAKNH---KLTHP  1511
+
+
+> sp|Q9VDW6|DMDA_DROME Dystrophin, isoforms A/C/F/G/H OS=Drosophila 
+melanogaster OX=7227 GN=Dys PE=1 SV=3
+Length=3598
+
+ Score = 69.6 bits (169),  Expect = 6e-15, Method: Composition-based stats.
+ Identities = 15/46 (33%), Positives = 26/46 (57%), Gaps = 3/46 (7%)
+
+Query  13    CDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+             C+ C+ +PI G R++C  C +FD C+ CF   ++   H   ++  P
+Sbjct  3112  CNICKEYPIVGFRYRCLKCFNFDMCQKCFFFGRNAKNH---KLTHP  3154
+
+
+> sp|Q8NEG5|ZSWM2_HUMAN E3 ubiquitin-protein ligase ZSWIM2 OS=Homo 
+sapiens OX=9606 GN=ZSWIM2 PE=1 SV=2
+Length=633
+
+ Score = 68.9 bits (167),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 18/45 (40%), Positives = 26/45 (58%), Gaps = 1/45 (2%)
+
+Query  8    HPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTF  52
+            H G+ C+ C+ FPI G  +KC  C ++  C+ CF +  H   HTF
+Sbjct  229  HLGIPCNNCKQFPIEGKCYKCTECIEYHLCQECFDSCCH-LSHTF  272
+
+
+> sp|Q13501|SQSTM_HUMAN Sequestosome-1 OS=Homo sapiens OX=9606 
+GN=SQSTM1 PE=1 SV=1
+Length=440
+
+ Score = 68.1 bits (165),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 20/46 (43%), Positives = 25/46 (54%), Gaps = 2/46 (4%)
+
+Query  6    KIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHT  51
+             +HP V CDGC   P+ G+R+KC  C D+D C  C     H   HT
+Sbjct  121  MVHPNVICDGCNG-PVVGTRYKCSVCPDYDLCSVCEGKGLH-RGHT  164
+
+
+> sp|Q5RBA5|SQSTM_PONAB Sequestosome-1 OS=Pongo abelii OX=9601 
+GN=SQSTM1 PE=2 SV=1
+Length=440
+
+ Score = 68.1 bits (165),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 20/46 (43%), Positives = 25/46 (54%), Gaps = 2/46 (4%)
+
+Query  6    KIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHT  51
+             +HP V CDGC   P+ G+R+KC  C D+D C  C     H   HT
+Sbjct  121  MVHPNVICDGCNG-PVVGTRYKCSVCPDYDLCSVCEGKGLH-RGHT  164
+
+
+> sp|Q7YU29|DMDE_DROME Dystrophin, isoform E OS=Drosophila melanogaster 
+OX=7227 GN=Dys PE=1 SV=1
+Length=1051
+
+ Score = 66.9 bits (162),  Expect = 6e-14, Method: Composition-based stats.
+ Identities = 15/46 (33%), Positives = 26/46 (57%), Gaps = 3/46 (7%)
+
+Query  13   CDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+            C+ C+ +PI G R++C  C +FD C+ CF   ++   H   ++  P
+Sbjct  666  CNICKEYPIVGFRYRCLKCFNFDMCQKCFFFGRNAKNH---KLTHP  708
+
+
+> sp|Q64337|SQSTM_MOUSE Sequestosome-1 OS=Mus musculus OX=10090 
+GN=Sqstm1 PE=1 SV=1
+Length=442
+
+ Score = 66.9 bits (162),  Expect = 6e-14, Method: Composition-based stats.
+ Identities = 18/41 (44%), Positives = 23/41 (56%), Gaps = 1/41 (2%)
+
+Query  6    KIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKH  46
+             +HP V CDGC   P+ G+R+KC  C D+D C  C     H
+Sbjct  121  MVHPNVICDGCNG-PVVGTRYKCSVCPDYDLCSVCEGKGLH  160
+
+
+> sp|Q9SRU2|BIG_ARATH Auxin transport protein BIG OS=Arabidopsis 
+thaliana OX=3702 GN=BIG PE=1 SV=2
+Length=5098
+
+ Score = 64.6 bits (156),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 17/45 (38%), Positives = 20/45 (44%), Gaps = 7/45 (16%)
+
+Query  13    CDGCQMFPINGSRFKCRNCDDFDFCETCFKT-------KKHNTRH  50
+             CDGC   PI   R+ C  C DFD CE C++          H   H
+Sbjct  2618  CDGCSTVPILRRRWHCTVCPDFDLCEACYEVLDADRLPPPHTRDH  2662
+
+
+> sp|B9G2A8|BIG_ORYSJ Auxin transport protein BIG OS=Oryza sativa 
+subsp. japonica OX=39947 GN=Os09g0247700 PE=2 SV=1
+Length=4965
+
+ Score = 62.3 bits (150),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 19/50 (38%), Positives = 23/50 (46%), Gaps = 7/50 (14%)
+
+Query  13    CDGCQMFPINGSRFKCRNCDDFDFCETCFKTKK-------HNTRHTFGRI  55
+             CDGC   PI   R+ C  C DFD CETC++          H+  H    I
+Sbjct  2474  CDGCSTVPILRRRWHCNICPDFDLCETCYEILDADRLPAPHSRDHPMSAI  2523
+
+
+> sp|Q9P792|YN8B_SCHPO ZZ-type zinc finger-containing protein P35G2.11c 
+OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) 
+OX=284812 GN=SPBP35G2.11c PE=4 SV=1
+Length=397
+
+ Score = 61.5 bits (148),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 20/47 (43%), Positives = 27/47 (57%), Gaps = 1/47 (2%)
+
+Query  11   VTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINE  57
+              CD C+  PI+  R+KC  CDD+D CE+C     H+  H F RI +
+Sbjct  134  AICDHCEQ-PIHNVRYKCSVCDDYDICESCLTDNSHSNTHAFVRITK  179
+
+
+ Score = 57.3 bits (137),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 16/39 (41%), Positives = 22/39 (56%), Gaps = 0/39 (0%)
+
+Query  2    DQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETC  40
+            +  + +H  V CD C   PI G RF C  C+D+D C +C
+Sbjct  201  ESASTVHRSVQCDNCLAHPIVGPRFHCLVCEDYDLCSSC  239
+
+
+> sp|P46939|UTRO_HUMAN Utrophin OS=Homo sapiens OX=9606 GN=UTRN 
+PE=1 SV=2
+Length=3433
+
+ Score = 61.2 bits (147),  Expect = 8e-12, Method: Composition-based stats.
+ Identities = 13/50 (26%), Positives = 24/50 (48%), Gaps = 1/50 (2%)
+
+Query  1     SDQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRH  50
+             +  E   H    C+ C+  PI G R++     ++D C++CF + +    H
+Sbjct  3059  AAAETAKHQA-KCNICKECPIVGFRYRSLKHFNYDVCQSCFFSGRTAKGH  3107
+
+
+> sp|P11533|DMD_CHICK Dystrophin OS=Gallus gallus OX=9031 GN=DMD 
+PE=2 SV=1
+Length=3660
+
+ Score = 60.4 bits (145),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 13/50 (26%), Positives = 24/50 (48%), Gaps = 1/50 (2%)
+
+Query  1     SDQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRH  50
+             +  E   H    C+ C+  PI G R++     ++D C++CF + +    H
+Sbjct  3299  AAAETAKHQA-KCNICKECPIIGFRYRSLKHFNYDICQSCFFSGRVAKGH  3347
+
+
+> sp|Q5GN48|DMD_PIG Dystrophin OS=Sus scrofa OX=9823 GN=DMD PE=1 
+SV=1
+Length=3674
+
+ Score = 60.4 bits (145),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 13/50 (26%), Positives = 24/50 (48%), Gaps = 1/50 (2%)
+
+Query  1     SDQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRH  50
+             +  E   H    C+ C+  PI G R++     ++D C++CF + +    H
+Sbjct  3291  AAAETAKHQA-KCNICKECPIIGFRYRSLKHFNYDICQSCFFSGRVAKGH  3339
+
+
+> sp|P11530|DMD_RAT Dystrophin OS=Rattus norvegicus OX=10116 GN=Dmd 
+PE=1 SV=2
+Length=3677
+
+ Score = 60.4 bits (145),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 13/50 (26%), Positives = 24/50 (48%), Gaps = 1/50 (2%)
+
+Query  1     SDQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRH  50
+             +  E   H    C+ C+  PI G R++     ++D C++CF + +    H
+Sbjct  3294  AAAETAKHQA-KCNICKECPIIGFRYRSLKHFNYDICQSCFFSGRVAKGH  3342
+
+
+> sp|P11531|DMD_MOUSE Dystrophin OS=Mus musculus OX=10090 GN=Dmd 
+PE=1 SV=3
+Length=3678
+
+ Score = 60.4 bits (145),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 13/50 (26%), Positives = 24/50 (48%), Gaps = 1/50 (2%)
+
+Query  1     SDQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRH  50
+             +  E   H    C+ C+  PI G R++     ++D C++CF + +    H
+Sbjct  3295  AAAETAKHQA-KCNICKECPIIGFRYRSLKHFNYDICQSCFFSGRVAKGH  3343
+
+
+> sp|O97592|DMD_CANLF Dystrophin OS=Canis lupus familiaris OX=9615 
+GN=DMD PE=2 SV=1
+Length=3680
+
+ Score = 60.4 bits (145),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 13/50 (26%), Positives = 24/50 (48%), Gaps = 1/50 (2%)
+
+Query  1     SDQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRH  50
+             +  E   H    C+ C+  PI G R++     ++D C++CF + +    H
+Sbjct  3297  AAAETAKHQA-KCNICKECPIIGFRYRSLKHFNYDICQSCFFSGRVAKGH  3345
+
+
+> sp|P11532|DMD_HUMAN Dystrophin OS=Homo sapiens OX=9606 GN=DMD 
+PE=1 SV=3
+Length=3685
+
+ Score = 60.4 bits (145),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 13/50 (26%), Positives = 24/50 (48%), Gaps = 1/50 (2%)
+
+Query  1     SDQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRH  50
+             +  E   H    C+ C+  PI G R++     ++D C++CF + +    H
+Sbjct  3302  AAAETAKHQA-KCNICKECPIIGFRYRSLKHFNYDICQSCFFSGRVAKGH  3350
+
+
+> sp|Q9Y4J8|DTNA_HUMAN Dystrobrevin alpha OS=Homo sapiens OX=9606 
+GN=DTNA PE=1 SV=2
+Length=743
+
+ Score = 58.5 bits (140),  Expect = 6e-11, Method: Composition-based stats.
+ Identities = 15/57 (26%), Positives = 24/57 (42%), Gaps = 5/57 (9%)
+
+Query  4    EAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCF----KTKKHNTRHTFGRIN  56
+            E   HP V C  C    + G R++C+ C ++  C+ CF        H+ +H      
+Sbjct  235  ENVFHP-VECSYCHSESMMGFRYRCQQCHNYQLCQDCFWRGHAGGSHSNQHQMKEYT  290
+
+
+> sp|Q9D2N4|DTNA_MOUSE Dystrobrevin alpha OS=Mus musculus OX=10090 
+GN=Dtna PE=1 SV=2
+Length=746
+
+ Score = 58.5 bits (140),  Expect = 7e-11, Method: Composition-based stats.
+ Identities = 15/57 (26%), Positives = 24/57 (42%), Gaps = 5/57 (9%)
+
+Query  4    EAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCF----KTKKHNTRHTFGRIN  56
+            E   HP V C  C    + G R++C+ C ++  C+ CF        H+ +H      
+Sbjct  235  ENVFHP-VECSYCHSESMMGFRYRCQQCHNYQLCQDCFWRGHAGGSHSNQHQMKEYT  290
+
+
+> sp|O70585|DTNB_MOUSE Dystrobrevin beta OS=Mus musculus OX=10090 
+GN=Dtnb PE=1 SV=3
+Length=659
+
+ Score = 56.5 bits (135),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 15/55 (27%), Positives = 25/55 (45%), Gaps = 5/55 (9%)
+
+Query  4    EAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCF----KTKKHNTRHTFGR  54
+            E   HP V C  C    + G R++C+ C ++  C+ CF     +  H+ +H    
+Sbjct  235  ENVFHP-VECSYCHCESMMGFRYRCQQCHNYQLCQNCFWRGHASGAHSNQHQMKE  288
+
+
+> sp|Q8LBL5|PRT1_ARATH E3 ubiquitin-protein ligase PRT1 OS=Arabidopsis 
+thaliana OX=3702 GN=PRT1 PE=2 SV=2
+Length=410
+
+ Score = 55.4 bits (132),  Expect = 7e-10, Method: Composition-based stats.
+ Identities = 18/55 (33%), Positives = 33/55 (60%), Gaps = 8/55 (15%)
+
+Query  5    AKIHPGVTCDGCQMFPINGSRFKCRNCDD---FDFCETCFKT-----KKHNTRHT  51
+            + +H G  CD C ++PI G R++C++C +   +D C+ C++T      + N +HT
+Sbjct  303  SNVHFGAGCDSCGVYPIIGDRYRCKDCKEEIGYDLCKDCYETPSKVPGRFNQQHT  357
+
+
+> sp|O60941|DTNB_HUMAN Dystrobrevin beta OS=Homo sapiens OX=9606 
+GN=DTNB PE=1 SV=1
+Length=627
+
+ Score = 55.4 bits (132),  Expect = 9e-10, Method: Composition-based stats.
+ Identities = 15/55 (27%), Positives = 25/55 (45%), Gaps = 5/55 (9%)
+
+Query  4    EAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCF----KTKKHNTRHTFGR  54
+            E   HP V C  C+   + G R++C+ C ++  C+ CF        H+ +H    
+Sbjct  235  ENVFHP-VECSYCRCESMMGFRYRCQQCHNYQLCQNCFWRGHAGGPHSNQHQMKE  288
+
+
+> sp|P84060|DTNB_RAT Dystrobrevin beta OS=Rattus norvegicus OX=10116 
+GN=Dtnb PE=1 SV=2
+Length=654
+
+ Score = 54.6 bits (130),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 15/57 (26%), Positives = 26/57 (46%), Gaps = 5/57 (9%)
+
+Query  4    EAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCF----KTKKHNTRHTFGRIN  56
+            E   HP V C  C    + G R++C+ C ++  C+ CF        H+ +H    ++
+Sbjct  235  ENVFHP-VECSYCHCESMMGFRYRCQQCHNYQLCQNCFWRGHAGGPHSNQHQMKELS  290
+
+
+> sp|B2RWS6|EP300_MOUSE Histone acetyltransferase p300 OS=Mus musculus 
+OX=10090 GN=Ep300 PE=1 SV=2
+Length=2412
+
+ Score = 53.1 bits (126),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 14/36 (39%), Positives = 22/36 (61%), Gaps = 2/36 (6%)
+
+Query  12    TCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHN  47
+             TC+ C+      +R+ C  C+D+D C TC+ TK H+
+Sbjct  1668  TCNECKHH--VETRWHCTVCEDYDLCITCYNTKNHD  1701
+
+
+> sp|Q09472|EP300_HUMAN Histone acetyltransferase p300 OS=Homo 
+sapiens OX=9606 GN=EP300 PE=1 SV=2
+Length=2414
+
+ Score = 53.1 bits (126),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 14/36 (39%), Positives = 22/36 (61%), Gaps = 2/36 (6%)
+
+Query  12    TCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHN  47
+             TC+ C+      +R+ C  C+D+D C TC+ TK H+
+Sbjct  1669  TCNECKHH--VETRWHCTVCEDYDLCITCYNTKNHD  1702
+
+
+> sp|P45481|CBP_MOUSE Histone lysine acetyltransferase CREBBP OS=Mus 
+musculus OX=10090 GN=Crebbp PE=1 SV=3
+Length=2441
+
+ Score = 51.9 bits (123),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 13/36 (36%), Positives = 20/36 (56%), Gaps = 2/36 (6%)
+
+Query  12    TCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHN  47
+             TC+ C+      +R+ C  C+D+D C  C+ TK H 
+Sbjct  1707  TCNECKHH--VETRWHCTVCEDYDLCINCYNTKSHT  1740
+
+
+> sp|Q6JHU9|CBP_RAT Histone lysine acetyltransferase CREBBP OS=Rattus 
+norvegicus OX=10116 GN=Crebbp PE=1 SV=1
+Length=2442
+
+ Score = 51.9 bits (123),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 13/36 (36%), Positives = 20/36 (56%), Gaps = 2/36 (6%)
+
+Query  12    TCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHN  47
+             TC+ C+      +R+ C  C+D+D C  C+ TK H 
+Sbjct  1707  TCNECKHH--VETRWHCTVCEDYDLCINCYNTKSHT  1740
+
+
+> sp|Q92793|CBP_HUMAN CREB-binding protein OS=Homo sapiens OX=9606 
+GN=CREBBP PE=1 SV=3
+Length=2442
+
+ Score = 51.9 bits (123),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 13/36 (36%), Positives = 20/36 (56%), Gaps = 2/36 (6%)
+
+Query  12    TCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHN  47
+             TC+ C+      +R+ C  C+D+D C  C+ TK H 
+Sbjct  1706  TCNECKHH--VETRWHCTVCEDYDLCINCYNTKSHA  1739
+
+
+> sp|Q14596|NBR1_HUMAN Next to BRCA1 gene 1 protein OS=Homo sapiens 
+OX=9606 GN=NBR1 PE=1 SV=3
+Length=966
+
+ Score = 50.8 bits (120),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 15/49 (31%), Positives = 24/49 (49%), Gaps = 2/49 (4%)
+
+Query  11   VTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTK-KHNTRHTFGRINEP  58
+            + C+ CQ   I G R++C  C  ++ CE C      H+T H   ++  P
+Sbjct  215  IACNNCQRR-IVGVRYQCSLCPSYNICEDCEAGPYGHDTNHVLLKLRRP  262
+
+
+> sp|Q9EPA0|DRP2_RAT Dystrophin-related protein 2 OS=Rattus norvegicus 
+OX=10116 GN=Drp2 PE=1 SV=2
+Length=957
+
+ Score = 50.8 bits (120),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 15/46 (33%), Positives = 21/46 (46%), Gaps = 1/46 (2%)
+
+Query  3    QEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNT  48
+             E   H    C  C+  PI G R++     + D C+TCF T K + 
+Sbjct  601  AEQVKHQ-TKCSICRQCPIKGFRYRSLKQFNVDICQTCFLTGKASK  645
+
+
+> sp|Q13474|DRP2_HUMAN Dystrophin-related protein 2 OS=Homo sapiens 
+OX=9606 GN=DRP2 PE=2 SV=2
+Length=957
+
+ Score = 50.4 bits (119),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 14/46 (30%), Positives = 21/46 (46%), Gaps = 1/46 (2%)
+
+Query  3    QEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNT  48
+             E   H    C  C+  PI G R++     + D C+TCF T + + 
+Sbjct  601  AEQVKHQ-TKCSICRQCPIKGFRYRSLKQFNVDICQTCFLTGRASK  645
+
+
+> sp|Q05AA6|DRP2_MOUSE Dystrophin-related protein 2 OS=Mus musculus 
+OX=10090 GN=Drp2 PE=1 SV=1
+Length=957
+
+ Score = 50.4 bits (119),  Expect = 5e-08, Method: Composition-based stats.
+ Identities = 14/46 (30%), Positives = 21/46 (46%), Gaps = 1/46 (2%)
+
+Query  3    QEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNT  48
+             E   H    C  C+  PI G R++     + D C+TCF T + + 
+Sbjct  601  AEQVKHQ-TKCSICRQCPIKGFRYRSLKQFNVDICQTCFLTGRASK  645
+
+
+> sp|Q8IYH5|ZZZ3_HUMAN ZZ-type zinc finger-containing protein 3 
+OS=Homo sapiens OX=9606 GN=ZZZ3 PE=1 SV=1
+Length=903
+
+ Score = 50.0 bits (118),  Expect = 5e-08, Method: Composition-based stats.
+ Identities = 19/55 (35%), Positives = 26/55 (47%), Gaps = 7/55 (13%)
+
+Query  8    HPGVTCDGCQMFPINGSRFKCRNCD---DFDFCETC----FKTKKHNTRHTFGRI  55
+            H G  CD C + PI G R+ C++C      DFC++C     +T  H   H    I
+Sbjct  818  HVGFKCDNCGIEPIQGVRWHCQDCPPEMSLDFCDSCSDCLHETDIHKEDHQLEPI  872
+
+
+> sp|Q501R9|NBR1_RAT Next to BRCA1 gene 1 protein OS=Rattus norvegicus 
+OX=10116 GN=Nbr1 PE=1 SV=1
+Length=983
+
+ Score = 50.0 bits (118),  Expect = 5e-08, Method: Composition-based stats.
+ Identities = 15/49 (31%), Positives = 22/49 (45%), Gaps = 2/49 (4%)
+
+Query  11   VTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTK-KHNTRHTFGRINEP  58
+            + C  CQ   I G R++C  C  ++ CE C      H+T H   +   P
+Sbjct  217  IACSHCQKR-IVGVRYQCSLCPSYNICEDCEAGPYSHDTNHILLKFRRP  264
+
+
+> sp|Q5RC94|NBR1_PONAB Next to BRCA1 gene 1 protein OS=Pongo abelii 
+OX=9601 GN=NBR1 PE=2 SV=1
+Length=894
+
+ Score = 50.0 bits (118),  Expect = 6e-08, Method: Composition-based stats.
+ Identities = 15/49 (31%), Positives = 24/49 (49%), Gaps = 2/49 (4%)
+
+Query  11   VTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTK-KHNTRHTFGRINEP  58
+            + C+ CQ   I G R++C  C  ++ CE C      H+T H   ++  P
+Sbjct  215  IACNNCQRR-IVGVRYQCSLCPSYNICEDCEAGPYGHDTNHVLLKLRRP  262
+
+
+> sp|P97432|NBR1_MOUSE Next to BRCA1 gene 1 protein OS=Mus musculus 
+OX=10090 GN=Nbr1 PE=1 SV=1
+Length=988
+
+ Score = 50.0 bits (118),  Expect = 7e-08, Method: Composition-based stats.
+ Identities = 15/49 (31%), Positives = 23/49 (47%), Gaps = 2/49 (4%)
+
+Query  11   VTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTK-KHNTRHTFGRINEP  58
+            + C  CQ   I G R++C  C  ++ CE C      H+T H   ++  P
+Sbjct  216  IACSHCQKR-IVGVRYQCSLCPSYNICEDCEAGPYTHDTNHVLLKLRRP  263
+
+
+> sp|Q9FWQ5|HAC12_ARATH Histone acetyltransferase HAC12 OS=Arabidopsis 
+thaliana OX=3702 GN=HAC12 PE=3 SV=2
+Length=1706
+
+ Score = 48.8 bits (115),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 11/39 (28%), Positives = 20/39 (51%), Gaps = 0/39 (0%)
+
+Query  6     KIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTK  44
+              +H   +C  C    + G+R+ C  C DF  C+ C++ +
+Sbjct  1406  MVHLQHSCTHCCTLMVTGNRWVCSQCKDFQLCDGCYEAE  1444
+
+
+ Score = 43.0 bits (100),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 13/48 (27%), Positives = 21/48 (44%), Gaps = 1/48 (2%)
+
+Query  11    VTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+              TC+ C +   +G  ++C  C D+D C  C+K +     H       P
+Sbjct  1531  TTCNVCHLDIESGLGWRCEVCPDYDVCNACYKKEG-CINHPHKLTTHP  1577
+
+
+> sp|Q6KAQ7|ZZZ3_MOUSE ZZ-type zinc finger-containing protein 3 
+OS=Mus musculus OX=10090 GN=Zzz3 PE=1 SV=2
+Length=910
+
+ Score = 48.8 bits (115),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 18/50 (36%), Positives = 25/50 (50%), Gaps = 7/50 (14%)
+
+Query  8    HPGVTCDGCQMFPINGSRFKCRNCD---DFDFCETC----FKTKKHNTRH  50
+            H G  CD C + PI G R+ C++C      DFC++C     +T  H   H
+Sbjct  825  HVGFKCDNCGVEPIQGVRWHCQDCPPEMSLDFCDSCSDCPHETDIHKEDH  874
+
+
+> sp|Q9FYH1|HAC2_ARATH Histone acetyltransferase HAC2 OS=Arabidopsis 
+thaliana OX=3702 GN=HAC2 PE=2 SV=2
+Length=1367
+
+ Score = 47.7 bits (112),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 11/53 (21%), Positives = 24/53 (45%), Gaps = 1/53 (2%)
+
+Query  6     KIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKH-NTRHTFGRINE  57
+              +    +C  C    ++G R+ C  C +   CE+C+   +     H + R+++
+Sbjct  1092  VVELNYSCTRCSKAVLSGLRWFCEKCKNLHLCESCYDAGQELPGEHIYKRMDK  1144
+
+
+> sp|Q75LL6|TADA2_ORYSJ Transcriptional adapter ADA2 OS=Oryza sativa 
+subsp. japonica OX=39947 GN=ADA2 PE=2 SV=2
+Length=567
+
+ Score = 47.3 bits (111),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 17/47 (36%), Positives = 18/47 (38%), Gaps = 3/47 (6%)
+
+Query  12  TCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+            C+ C        R KC  C DFD C  CF      T H   R N P
+Sbjct  52  HCNYCNKDISGKIRIKCSKCPDFDLCVECFSVGAEVTPH---RSNHP  95
+
+
+> sp|Q9SFD5|TAD2A_ARATH Transcriptional adapter ADA2a OS=Arabidopsis 
+thaliana OX=3702 GN=ADA2A PE=1 SV=1
+Length=548
+
+ Score = 46.9 bits (110),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 15/48 (31%), Positives = 20/48 (42%), Gaps = 4/48 (8%)
+
+Query  13  CDGCQMFPINGSRFKCRNCDDFDFCETCFKT----KKHNTRHTFGRIN  56
+           C+ C        RFKC  C DFD C  CF       +H   H +  ++
+Sbjct  53  CNYCDKDLSGLVRFKCAVCMDFDLCVECFSVGVELNRHKNSHPYRVMD  100
+
+
+> sp|Q59WH0|ADA2_CANAL Transcriptional adapter 2 OS=Candida albicans 
+(strain SC5314 / ATCC MYA-2876) OX=237561 GN=ADA2 PE=3 
+SV=2
+Length=445
+
+ Score = 46.1 bits (108),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 13/40 (33%), Positives = 15/40 (38%), Gaps = 0/40 (0%)
+
+Query  11  VTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRH  50
+             CD C     N  R +C  C D+D C  CF        H
+Sbjct  8   FHCDVCSSDCTNRIRIQCAICTDYDLCVPCFAAGLTTGDH  47
+
+
+> sp|Q8I8V0|TAD2B_DROME Transcriptional adapter 2B OS=Drosophila 
+melanogaster OX=7227 GN=Ada2b PE=1 SV=1
+Length=555
+
+ Score = 46.1 bits (108),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 15/49 (31%), Positives = 21/49 (43%), Gaps = 5/49 (10%)
+
+Query  13  CDGCQMFPINGSRFKCRNCDDFDFCETCFKT----KKHNTRHTFGRINE  57
+           C  CQ   I G R  C  C++FD C  CF        H   H++  ++ 
+Sbjct  13  CTNCQDD-IQGIRVHCAECENFDLCLQCFAAGAEIGAHQNNHSYQFMDT  60
+
+
+> sp|Q02336|ADA2_YEAST Transcriptional adapter 2 OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=ADA2 
+PE=1 SV=1
+Length=434
+
+ Score = 45.7 bits (107),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 12/41 (29%), Positives = 16/41 (39%), Gaps = 0/41 (0%)
+
+Query  11  VTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHT  51
+             CD C     N  R  C  C ++D C  CF    +  +H 
+Sbjct  5   FHCDVCSADCTNRVRVSCAICPEYDLCVPCFSQGSYTGKHR  45
+
+
+> sp|Q5Z8V7|HACL2_ORYSJ Probable histone acetyltransferase HAC-like 
+2 OS=Oryza sativa subsp. japonica OX=39947 GN=Os06g0704800 
+PE=3 SV=2
+Length=1439
+
+ Score = 45.7 bits (107),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 12/43 (28%), Positives = 20/43 (47%), Gaps = 0/43 (0%)
+
+Query  2     DQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTK  44
+             D    +H   +C  C  F ++G R+ C  C  F  C+ C+  +
+Sbjct  1259  DDLIMVHLQYSCSHCCTFMVSGRRWVCNECKSFYICDRCYNAE  1301
+
+
+> sp|Q9C5X9|HAC1_ARATH Histone acetyltransferase HAC1 OS=Arabidopsis 
+thaliana OX=3702 GN=HAC1 PE=1 SV=2
+Length=1697
+
+ Score = 45.4 bits (106),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 14/48 (29%), Positives = 19/48 (40%), Gaps = 1/48 (2%)
+
+Query  11    VTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+              TC+ C +    G  ++C  C D+D C  CF        H     N P
+Sbjct  1522  TTCNACHLDIETGQGWRCEVCPDYDVCNACFSRDG-GVNHPHKLTNHP  1568
+
+
+ Score = 44.6 bits (104),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 10/39 (26%), Positives = 21/39 (54%), Gaps = 0/39 (0%)
+
+Query  6     KIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTK  44
+              +H   +C  C +  ++G+R+ C  C  F  C+ C++ +
+Sbjct  1397  MVHLQPSCTHCCILMVSGNRWVCSQCKHFQICDKCYEAE  1435
+
+
+> sp|Q9ATB4|TAD2B_ARATH Transcriptional adapter ADA2b OS=Arabidopsis 
+thaliana OX=3702 GN=ADA2B PE=1 SV=1
+Length=487
+
+ Score = 44.2 bits (103),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 16/46 (35%), Positives = 18/46 (39%), Gaps = 3/46 (7%)
+
+Query  13  CDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+           CD CQ       R KC  C DFD C  C       T H   + + P
+Sbjct  47  CDYCQKDITGKIRIKCAVCPDFDLCIECMSVGAEITPH---KCDHP  89
+
+
+> sp|Q6YXY2|HACL1_ORYSJ Probable histone acetyltransferase HAC-like 
+1 OS=Oryza sativa subsp. japonica OX=39947 GN=Os02g0137500 
+PE=3 SV=2
+Length=1668
+
+ Score = 43.0 bits (100),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 10/39 (26%), Positives = 18/39 (46%), Gaps = 0/39 (0%)
+
+Query  6     KIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTK  44
+              +H   +C  C    ++G R+ C  C  F  C+ C+  +
+Sbjct  1410  MVHLQYSCSHCCTLMVSGKRWVCHQCRSFYICDKCYDAE  1448
+
+
+> sp|Q9LG11|HAC4_ARATH Histone acetyltransferase HAC4 OS=Arabidopsis 
+thaliana OX=3702 GN=HAC4 PE=2 SV=2
+Length=1470
+
+ Score = 42.7 bits (99),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 10/41 (24%), Positives = 23/41 (56%), Gaps = 0/41 (0%)
+
+Query  6     KIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKH  46
+              +H    C  C    ++G+R+ C +C +F  C+ C++ +++
+Sbjct  1173  MVHLQHCCKHCTTLMVSGNRWVCNHCKNFQICDKCYEVEQN  1213
+
+
+ Score = 37.7 bits (86),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 11/41 (27%), Positives = 14/41 (34%), Gaps = 0/41 (0%)
+
+Query  10    GVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRH  50
+                C  CQ    N   + C  C  +D C  C+     N  H
+Sbjct  1297  ATVCTICQQEVENSQGWHCEVCPGYDVCSACYSKDSINHSH  1337
+
+
+> sp|Q9P7J7|ADA2_SCHPO Transcriptional adapter 2 OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=ada2 PE=1 
+SV=1
+Length=437
+
+ Score = 42.7 bits (99),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 11/39 (28%), Positives = 14/39 (36%), Gaps = 0/39 (0%)
+
+Query  12  TCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRH  50
+            C+ C          +C  C DFD C  CF +      H
+Sbjct  7   HCNVCAQDITRSIHIRCVECVDFDLCIPCFTSGASLGTH  45
+
+
+> sp|Q8VY05|SWI3D_ARATH SWI/SNF complex subunit SWI3D OS=Arabidopsis 
+thaliana OX=3702 GN=SWI3D PE=1 SV=3
+Length=985
+
+ Score = 42.3 bits (98),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 11/34 (32%), Positives = 15/34 (44%), Gaps = 1/34 (3%)
+
+Query  12   TCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKK  45
+             C+ C     +  R+ C    DFD C  CF + K
+Sbjct  309  HCNSCSAD-CSRKRYHCPKQADFDLCTECFNSGK  341
+
+
+> sp|Q9LE42|HAC5_ARATH Histone acetyltransferase HAC5 OS=Arabidopsis 
+thaliana OX=3702 GN=HAC5 PE=2 SV=1
+Length=1670
+
+ Score = 42.3 bits (98),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 10/41 (24%), Positives = 21/41 (51%), Gaps = 0/41 (0%)
+
+Query  6     KIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKH  46
+              +H    C  C    ++G+R+ C  C +F  C+ C + +++
+Sbjct  1377  MVHLQHCCKHCCTLMVSGNRWVCNQCKNFQICDKCHEVEEN  1417
+
+
+ Score = 39.2 bits (90),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 10/42 (24%), Positives = 16/42 (38%), Gaps = 0/42 (0%)
+
+Query  13    CDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGR  54
+             C  CQ        ++C  C D+D C  C+    ++      R
+Sbjct  1504  CAICQQELETAQGWRCEVCPDYDVCNACYSKGINHPHSIISR  1545
+
+
+> sp|Q8S8L9|Y2245_ARATH Uncharacterized TPR repeat-containing protein 
+At2g32450 OS=Arabidopsis thaliana OX=3702 GN=At2g32450 
+PE=1 SV=1
+Length=802
+
+ Score = 40.0 bits (92),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 14/42 (33%), Positives = 18/42 (43%), Gaps = 2/42 (5%)
+
+Query  4    EAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKK  45
+            +   H    C  C+ +PI GSRFK      F  C  C+   K
+Sbjct  722  DRNRHGNQVCSVCR-YPIIGSRFK-EVKTGFSLCNQCYSEGK  761
+
+
+> sp|P34545|CBP1_CAEEL Protein cbp-1 OS=Caenorhabditis elegans 
+OX=6239 GN=cbp-1 PE=1 SV=6
+Length=2017
+
+ Score = 38.0 bits (87),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 15/47 (32%), Positives = 23/47 (49%), Gaps = 6/47 (13%)
+
+Query  9     PGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRI  55
+                TC+ C    +    + C++CDDFD C+ C  T +H   H   +I
+Sbjct  1495  MEYTCNKCSSPAV----WHCQSCDDFDLCDGCKPTTQHP--HEMEKI  1535
+
+
+> sp|O23052|Y1515_ARATH Uncharacterized TPR repeat-containing protein 
+At1g05150 OS=Arabidopsis thaliana OX=3702 GN=At1g05150 
+PE=1 SV=1
+Length=808
+
+ Score = 38.0 bits (87),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 13/44 (30%), Positives = 18/44 (41%), Gaps = 2/44 (5%)
+
+Query  2    DQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKK  45
+              +   H    C  C+ +P+ GSRFK      F  C  C+   K
+Sbjct  727  ANDRNRHGNQVCSVCR-YPVIGSRFK-EVKARFSLCNQCYGEGK  768
+
+
+> sp|Q9XHY7|HACL3_ORYSJ Probable histone acetyltransferase HAC-like 
+3 OS=Oryza sativa subsp. japonica OX=39947 GN=Os01g0246100 
+PE=2 SV=2
+Length=1276
+
+ Score = 36.9 bits (84),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 15/56 (27%), Positives = 24/56 (43%), Gaps = 11/56 (20%)
+
+Query  13    CDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKH-----------NTRHTFGRINE  57
+             C  C    ++GS + C +C +F  CE C+  + +             +H F RI E
+Sbjct  1018  CKHCHHPIVSGSSWVCTSCKNFFLCERCYAEELNTPLKDRHPATTKQKHAFERIEE  1073
+
+
+> sp|P43609|RSC8_YEAST Chromatin structure-remodeling complex protein 
+RSC8 OS=Saccharomyces cerevisiae (strain ATCC 204508 
+/ S288c) OX=559292 GN=RSC8 PE=1 SV=1
+Length=557
+
+ Score = 36.5 bits (83),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 12/44 (27%), Positives = 16/44 (36%), Gaps = 1/44 (2%)
+
+Query  1    SDQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTK  44
+            S    +IH    C  C    IN  R+      D + C  CF+  
+Sbjct  248  SRNSRQIHKVYICHTCGNESIN-VRYHNLRARDTNLCSRCFQEG  290
+
+
+> sp|Q503N9|TAD2B_DANRE Transcriptional adapter 2-beta OS=Danio 
+rerio OX=7955 GN=tada2b PE=2 SV=1
+Length=486
+
+ Score = 36.5 bits (83),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 11/48 (23%), Positives = 19/48 (40%), Gaps = 5/48 (10%)
+
+Query  13  CDGCQMFPINGSRFKCRNCDDFDFCETCFKT----KKHNTRHTFGRIN  56
+           C  C +  +   R +C  C D + C  CF        H   H + +++
+Sbjct  9   CVNC-LADVTNLRIRCAECQDIELCPECFSAGAEIGNHRRWHGYQQVD  55
+
+
+> sp|Q6NRB5|TAD2B_XENLA Transcriptional adapter 2-beta OS=Xenopus 
+laevis OX=8355 GN=tada2b PE=2 SV=1
+Length=420
+
+ Score = 36.1 bits (82),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 8/31 (26%), Positives = 11/31 (35%), Gaps = 0/31 (0%)
+
+Query  21  INGSRFKCRNCDDFDFCETCFKTKKHNTRHT  51
+           +   R +C  C D + C  CF        H 
+Sbjct  16  VTSLRLRCTECQDIELCTDCFSAGAEIGNHR  46
+
+
+> sp|Q5RBN9|TAD2B_PONAB Transcriptional adapter 2-beta OS=Pongo 
+abelii OX=9601 GN=TADA2B PE=2 SV=1
+Length=420
+
+ Score = 35.3 bits (80),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 9/28 (32%), Positives = 11/28 (39%), Gaps = 0/28 (0%)
+
+Query  24  SRFKCRNCDDFDFCETCFKTKKHNTRHT  51
+            RF+C  C D + C  CF        H 
+Sbjct  19  LRFRCTECQDIELCPECFSAGAEIGHHR  46
+
+
+> sp|Q86TJ2|TAD2B_HUMAN Transcriptional adapter 2-beta OS=Homo 
+sapiens OX=9606 GN=TADA2B PE=1 SV=2
+Length=420
+
+ Score = 35.3 bits (80),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 9/28 (32%), Positives = 11/28 (39%), Gaps = 0/28 (0%)
+
+Query  24  SRFKCRNCDDFDFCETCFKTKKHNTRHT  51
+            RF+C  C D + C  CF        H 
+Sbjct  19  LRFRCTECQDIELCPECFSAGAEIGHHR  46
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.141    0.596    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0432    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5004275148
+Results from round 3
+
+
+Query= 6WW3:B
+
+Length=58
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q4U2R1|HERC2_MOUSE E3 ubiquitin-protein ligase HERC2 OS=Mus ...  95.8    5e-24
+  sp|O95714|HERC2_HUMAN E3 ubiquitin-protein ligase HERC2 OS=Homo...  95.4    6e-24
+  sp|Q804S5|MIB1_DANRE E3 ubiquitin-protein ligase mib1 OS=Danio ...  89.2    9e-22
+  sp|Q9VUX2|MIB_DROME E3 ubiquitin-protein ligase mind-bomb OS=Dr...  89.2    9e-22
+  sp|Q80SY4|MIB1_MOUSE E3 ubiquitin-protein ligase MIB1 OS=Mus mu...  88.1    2e-21
+  sp|Q86YT6|MIB1_HUMAN E3 ubiquitin-protein ligase MIB1 OS=Homo s...  88.1    2e-21
+  sp|Q5ZIJ9|MIB2_CHICK E3 ubiquitin-protein ligase MIB2 OS=Gallus...  88.1    2e-21
+  sp|Q6GNY1|MIB1_XENLA E3 ubiquitin-protein ligase mib1 OS=Xenopu...  87.7    3e-21
+  sp|Q8R516|MIB2_MOUSE E3 ubiquitin-protein ligase MIB2 OS=Mus mu...  87.3    5e-21
+  sp|Q68LP1|MIB2_RAT E3 ubiquitin-protein ligase MIB2 OS=Rattus n...  86.9    5e-21
+  sp|Q96AX9|MIB2_HUMAN E3 ubiquitin-protein ligase MIB2 OS=Homo s...  86.2    1e-20
+  sp|A2CI98|DYTN_MOUSE Dystrotelin OS=Mus musculus OX=10090 GN=Dy...  81.5    5e-19
+  sp|A2CJ06|DYTN_HUMAN Dystrotelin OS=Homo sapiens OX=9606 GN=DYT...  79.6    2e-18
+  sp|Q9TW65|DMD_CAEEL Dystrophin-1 OS=Caenorhabditis elegans OX=6...  79.6    2e-18
+  sp|Q24629|REF2P_DROSI Protein ref(2)P OS=Drosophila simulans OX...  79.2    3e-18
+  sp|P14199|REF2P_DROME Protein ref(2)P OS=Drosophila melanogaste...  78.8    5e-18
+  sp|Q9VDW3|DMDB_DROME Dystrophin, isoform B OS=Drosophila melano...  78.5    6e-18
+  sp|Q0KI50|DMDD_DROME Dystrophin, isoform D OS=Drosophila melano...  78.5    6e-18
+  sp|Q9VDW6|DMDA_DROME Dystrophin, isoforms A/C/F/G/H OS=Drosophi...  78.5    6e-18
+  sp|Q9Y4J8|DTNA_HUMAN Dystrobrevin alpha OS=Homo sapiens OX=9606...  75.4    7e-17
+  sp|Q9D2N4|DTNA_MOUSE Dystrobrevin alpha OS=Mus musculus OX=1009...  75.4    7e-17
+  sp|Q9SB64|NBR1_ARATH Protein NBR1 homolog OS=Arabidopsis thalia...  75.4    7e-17
+  sp|Q54QG5|Y3893_DICDI Probable E3 ubiquitin-protein ligase DDB_...  75.0    8e-17
+  sp|Q7YU29|DMDE_DROME Dystrophin, isoform E OS=Drosophila melano...  75.0    1e-16
+  sp|Q9SRU2|BIG_ARATH Auxin transport protein BIG OS=Arabidopsis ...  74.2    2e-16
+  sp|Q9Y048|DTN1_CAEEL Dystrobrevin-1 OS=Caenorhabditis elegans O...  73.8    2e-16
+  sp|Q13501|SQSTM_HUMAN Sequestosome-1 OS=Homo sapiens OX=9606 GN...  73.5    3e-16
+  sp|Q5RBA5|SQSTM_PONAB Sequestosome-1 OS=Pongo abelii OX=9601 GN...  73.5    3e-16
+  sp|Q6GPB6|KCMF1_XENLA E3 ubiquitin-protein ligase KCMF1 OS=Xeno...  72.3    6e-16
+  sp|Q9P0J7|KCMF1_HUMAN E3 ubiquitin-protein ligase KCMF1 OS=Homo...  72.3    7e-16
+  sp|O08623|SQSTM_RAT Sequestosome-1 OS=Rattus norvegicus OX=1011...  72.3    7e-16
+  sp|Q1LZE1|KCMF1_BOVIN E3 ubiquitin-protein ligase KCMF1 OS=Bos ...  71.9    9e-16
+  sp|Q64337|SQSTM_MOUSE Sequestosome-1 OS=Mus musculus OX=10090 G...  71.9    1e-15
+  sp|Q95RX5|KCMF1_DROME E3 ubiquitin-protein ligase Kcmf1 OS=Dros...  71.9    1e-15
+  sp|Q80UY2|KCMF1_MOUSE E3 ubiquitin-protein ligase KCMF1 OS=Mus ...  71.9    1e-15
+  sp|O70585|DTNB_MOUSE Dystrobrevin beta OS=Mus musculus OX=10090...  71.9    1e-15
+  sp|P11533|DMD_CHICK Dystrophin OS=Gallus gallus OX=9031 GN=DMD ...  71.5    1e-15
+  sp|Q5GN48|DMD_PIG Dystrophin OS=Sus scrofa OX=9823 GN=DMD PE=1 ...  71.5    1e-15
+  sp|P11530|DMD_RAT Dystrophin OS=Rattus norvegicus OX=10116 GN=D...  71.5    1e-15
+  sp|P11531|DMD_MOUSE Dystrophin OS=Mus musculus OX=10090 GN=Dmd ...  71.5    1e-15
+  sp|O97592|DMD_CANLF Dystrophin OS=Canis lupus familiaris OX=961...  71.5    1e-15
+  sp|P11532|DMD_HUMAN Dystrophin OS=Homo sapiens OX=9606 GN=DMD P...  71.5    1e-15
+  sp|Q5SSH7|ZZEF1_MOUSE Zinc finger ZZ-type and EF-hand domain-co...  71.5    2e-15
+  sp|Q7T321|KCMF1_DANRE E3 ubiquitin-protein ligase KCMF1 OS=Dani...  71.1    2e-15
+  sp|O43149|ZZEF1_HUMAN Zinc finger ZZ-type and EF-hand domain-co...  71.1    2e-15
+  sp|P46939|UTRO_HUMAN Utrophin OS=Homo sapiens OX=9606 GN=UTRN P...  71.1    2e-15
+  sp|M1BJF6|JOKA2_SOLTU Protein JOKA2 OS=Solanum tuberosum OX=411...  71.1    2e-15
+  sp|B9G2A8|BIG_ORYSJ Auxin transport protein BIG OS=Oryza sativa...  70.4    4e-15
+  sp|A2CI97|DYTN_DANRE Dystrotelin OS=Danio rerio OX=7955 GN=dytn...  70.0    5e-15
+  sp|P34664|YOY6_CAEEL Uncharacterized protein ZK652.6 OS=Caenorh...  69.6    8e-15
+  sp|P84060|DTNB_RAT Dystrobrevin beta OS=Rattus norvegicus OX=10...  69.6    8e-15
+  sp|O60941|DTNB_HUMAN Dystrobrevin beta OS=Homo sapiens OX=9606 ...  69.2    9e-15
+  sp|Q9SFD5|TAD2A_ARATH Transcriptional adapter ADA2a OS=Arabidop...  66.9    6e-14
+  sp|Q9FWQ5|HAC12_ARATH Histone acetyltransferase HAC12 OS=Arabid...  66.5    9e-14
+  sp|Q75LL6|TADA2_ORYSJ Transcriptional adapter ADA2 OS=Oryza sat...  66.5    9e-14
+  sp|Q5Z8V7|HACL2_ORYSJ Probable histone acetyltransferase HAC-li...  65.8    2e-13
+  sp|Q9ATB4|TAD2B_ARATH Transcriptional adapter ADA2b OS=Arabidop...  65.4    2e-13
+  sp|Q9D9X6|ZSWM2_MOUSE E3 ubiquitin-protein ligase Zswim2 OS=Mus...  65.4    3e-13
+  sp|Q501R9|NBR1_RAT Next to BRCA1 gene 1 protein OS=Rattus norve...  65.0    3e-13
+  sp|P97432|NBR1_MOUSE Next to BRCA1 gene 1 protein OS=Mus muscul...  64.2    6e-13
+  sp|Q6YXY2|HACL1_ORYSJ Probable histone acetyltransferase HAC-li...  63.8    8e-13
+  sp|Q14596|NBR1_HUMAN Next to BRCA1 gene 1 protein OS=Homo sapie...  63.8    9e-13
+  sp|Q8IYH5|ZZZ3_HUMAN ZZ-type zinc finger-containing protein 3 O...  63.4    1e-12
+  sp|Q8NEG5|ZSWM2_HUMAN E3 ubiquitin-protein ligase ZSWIM2 OS=Hom...  63.4    1e-12
+  sp|Q9LE42|HAC5_ARATH Histone acetyltransferase HAC5 OS=Arabidop...  63.1    1e-12
+  sp|Q9C5X9|HAC1_ARATH Histone acetyltransferase HAC1 OS=Arabidop...  63.1    2e-12
+  sp|Q5RC94|NBR1_PONAB Next to BRCA1 gene 1 protein OS=Pongo abel...  63.1    2e-12
+  sp|Q59WH0|ADA2_CANAL Transcriptional adapter 2 OS=Candida albic...  62.7    2e-12
+  sp|Q9FYH1|HAC2_ARATH Histone acetyltransferase HAC2 OS=Arabidop...  62.7    2e-12
+  sp|B2RWS6|EP300_MOUSE Histone acetyltransferase p300 OS=Mus mus...  62.3    3e-12
+  sp|Q09472|EP300_HUMAN Histone acetyltransferase p300 OS=Homo sa...  62.3    3e-12
+  sp|P45481|CBP_MOUSE Histone lysine acetyltransferase CREBBP OS=...  61.5    6e-12
+  sp|Q6JHU9|CBP_RAT Histone lysine acetyltransferase CREBBP OS=Ra...  61.1    7e-12
+  sp|Q6KAQ7|ZZZ3_MOUSE ZZ-type zinc finger-containing protein 3 O...  61.1    8e-12
+  sp|Q92793|CBP_HUMAN CREB-binding protein OS=Homo sapiens OX=960...  60.7    9e-12
+  sp|Q9LG11|HAC4_ARATH Histone acetyltransferase HAC4 OS=Arabidop...  60.4    1e-11
+  sp|Q8I8V0|TAD2B_DROME Transcriptional adapter 2B OS=Drosophila ...  60.4    1e-11
+  sp|Q02336|ADA2_YEAST Transcriptional adapter 2 OS=Saccharomyces...  60.4    1e-11
+  sp|Q9EPA0|DRP2_RAT Dystrophin-related protein 2 OS=Rattus norve...  60.0    2e-11
+  sp|Q13474|DRP2_HUMAN Dystrophin-related protein 2 OS=Homo sapie...  59.6    2e-11
+  sp|Q05AA6|DRP2_MOUSE Dystrophin-related protein 2 OS=Mus muscul...  59.6    3e-11
+  sp|Q9P7J7|ADA2_SCHPO Transcriptional adapter 2 OS=Schizosacchar...  58.8    4e-11
+  sp|Q9P792|YN8B_SCHPO ZZ-type zinc finger-containing protein P35...  56.9    2e-10
+  sp|Q8VY05|SWI3D_ARATH SWI/SNF complex subunit SWI3D OS=Arabidop...  55.4    7e-10
+  sp|P34545|CBP1_CAEEL Protein cbp-1 OS=Caenorhabditis elegans OX...  55.0    1e-09
+  sp|Q8LBL5|PRT1_ARATH E3 ubiquitin-protein ligase PRT1 OS=Arabid...  54.2    2e-09
+  sp|O23052|Y1515_ARATH Uncharacterized TPR repeat-containing pro...  52.7    8e-09
+  sp|Q8S8L9|Y2245_ARATH Uncharacterized TPR repeat-containing pro...  51.9    1e-08
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q9XHY7|HACL3_ORYSJ Probable histone acetyltransferase HAC-li...  45.3    2e-06
+  sp|Q6NRB5|TAD2B_XENLA Transcriptional adapter 2-beta OS=Xenopus...  44.2    7e-06
+  sp|Q503N9|TAD2B_DANRE Transcriptional adapter 2-beta OS=Danio r...  44.2    8e-06
+  sp|Q5RBN9|TAD2B_PONAB Transcriptional adapter 2-beta OS=Pongo a...  42.3    3e-05
+  sp|Q86TJ2|TAD2B_HUMAN Transcriptional adapter 2-beta OS=Homo sa...  42.3    3e-05
+  sp|P43609|RSC8_YEAST Chromatin structure-remodeling complex pro...  37.6    0.001
+  sp|Q5ZIX8|KDM3A_CHICK Lysine-specific demethylase 3A OS=Gallus ...  36.9    0.003
+  sp|O60014|UBR1_KLULA E3 ubiquitin-protein ligase UBR1 OS=Kluyve...  36.5    0.003
+  sp|Q8CHV6|TAD2A_MOUSE Transcriptional adapter 2-alpha OS=Mus mu...  36.1    0.004
+  sp|Q3SZP8|TAD2A_BOVIN Transcriptional adapter 2-alpha OS=Bos ta...  36.1    0.005
+  sp|O75478|TAD2A_HUMAN Transcriptional adapter 2-alpha OS=Homo s...  36.1    0.005
+  sp|Q6AYE3|TAD2A_RAT Transcriptional adapter 2-alpha OS=Rattus n...  36.1    0.005
+  sp|Q5ZJF3|TAD2A_CHICK Transcriptional adapter 2-alpha OS=Gallus...  35.7    0.007
+
+
+> sp|Q4U2R1|HERC2_MOUSE E3 ubiquitin-protein ligase HERC2 OS=Mus 
+musculus OX=10090 GN=Herc2 PE=1 SV=3
+Length=4836
+
+ Score = 95.8 bits (237),  Expect = 5e-24, Method: Composition-based stats.
+ Identities = 51/52 (98%), Positives = 51/52 (98%), Gaps = 0/52 (0%)
+
+Query  7     IHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+             IHPGVTCDGCQ FPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP
+Sbjct  2703  IHPGVTCDGCQTFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  2754
+
+
+> sp|O95714|HERC2_HUMAN E3 ubiquitin-protein ligase HERC2 OS=Homo 
+sapiens OX=9606 GN=HERC2 PE=1 SV=2
+Length=4834
+
+ Score = 95.4 bits (236),  Expect = 6e-24, Method: Composition-based stats.
+ Identities = 52/52 (100%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  7     IHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+             IHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP
+Sbjct  2702  IHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  2753
+
+
+> sp|Q804S5|MIB1_DANRE E3 ubiquitin-protein ligase mib1 OS=Danio 
+rerio OX=7955 GN=mib1 PE=1 SV=1
+Length=1030
+
+ Score = 89.2 bits (220),  Expect = 9e-22, Method: Composition-based stats.
+ Identities = 25/58 (43%), Positives = 31/58 (53%), Gaps = 0/58 (0%)
+
+Query  1    SDQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+            S      H G  CD C+  PI G R+KC  C ++D C TC+   KH+ RH F RI  P
+Sbjct  73   SAPTGIKHDGTMCDTCRQQPIIGIRWKCAECTNYDLCTTCYHGDKHHLRHRFYRITTP  130
+
+
+> sp|Q9VUX2|MIB_DROME E3 ubiquitin-protein ligase mind-bomb OS=Drosophila 
+melanogaster OX=7227 GN=mib1 PE=1 SV=3
+Length=1226
+
+ Score = 89.2 bits (220),  Expect = 9e-22, Method: Composition-based stats.
+ Identities = 24/58 (41%), Positives = 30/58 (52%), Gaps = 0/58 (0%)
+
+Query  1    SDQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+            S      H G  CD C+  PI G R+KC  C ++D C  C+   KH+ RH F RI  P
+Sbjct  167  SAPTGVKHEGTMCDTCRQQPIFGIRWKCAECINYDLCSICYHGDKHHLRHRFYRITTP  224
+
+
+> sp|Q80SY4|MIB1_MOUSE E3 ubiquitin-protein ligase MIB1 OS=Mus 
+musculus OX=10090 GN=Mib1 PE=1 SV=1
+Length=1006
+
+ Score = 88.1 bits (217),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 24/58 (41%), Positives = 30/58 (52%), Gaps = 0/58 (0%)
+
+Query  1    SDQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+            S      H G  CD C+  PI G R+KC  C ++D C  C+   KH+ RH F RI  P
+Sbjct  73   SAPTGIKHDGTMCDTCRQQPIIGIRWKCAECTNYDLCTVCYHGDKHHLRHRFYRITTP  130
+
+
+> sp|Q86YT6|MIB1_HUMAN E3 ubiquitin-protein ligase MIB1 OS=Homo 
+sapiens OX=9606 GN=MIB1 PE=1 SV=1
+Length=1006
+
+ Score = 88.1 bits (217),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 24/58 (41%), Positives = 30/58 (52%), Gaps = 0/58 (0%)
+
+Query  1    SDQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+            S      H G  CD C+  PI G R+KC  C ++D C  C+   KH+ RH F RI  P
+Sbjct  73   SAPTGIKHDGTMCDTCRQQPIIGIRWKCAECTNYDLCTVCYHGDKHHLRHRFYRITTP  130
+
+
+> sp|Q5ZIJ9|MIB2_CHICK E3 ubiquitin-protein ligase MIB2 OS=Gallus 
+gallus OX=9031 GN=MIB2 PE=2 SV=1
+Length=954
+
+ Score = 88.1 bits (217),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 21/57 (37%), Positives = 29/57 (51%), Gaps = 0/57 (0%)
+
+Query  1    SDQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINE  57
+            + Q    HP + CD C+   I G R+KC+ C D+D C  C+   KH+  H F R   
+Sbjct  79   NAQIGVRHPNIICDCCKKHGIRGMRWKCKMCFDYDLCTQCYMNNKHDLSHAFERYET  135
+
+
+> sp|Q6GNY1|MIB1_XENLA E3 ubiquitin-protein ligase mib1 OS=Xenopus 
+laevis OX=8355 GN=mib1 PE=2 SV=1
+Length=1011
+
+ Score = 87.7 bits (216),  Expect = 3e-21, Method: Composition-based stats.
+ Identities = 24/58 (41%), Positives = 30/58 (52%), Gaps = 0/58 (0%)
+
+Query  1    SDQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+            S      H G  CD C+  PI G R+KC  C ++D C  C+   KH+ RH F RI  P
+Sbjct  73   SAPTGIKHDGTMCDTCRQQPIIGIRWKCAECTNYDLCTVCYHGDKHHLRHRFYRITTP  130
+
+
+> sp|Q8R516|MIB2_MOUSE E3 ubiquitin-protein ligase MIB2 OS=Mus 
+musculus OX=10090 GN=Mib2 PE=1 SV=2
+Length=973
+
+ Score = 87.3 bits (215),  Expect = 5e-21, Method: Composition-based stats.
+ Identities = 21/57 (37%), Positives = 29/57 (51%), Gaps = 0/57 (0%)
+
+Query  1    SDQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINE  57
+            + Q    HP + CD C+   + G R+KCR C D+D C  C+   KH+  H F R   
+Sbjct  79   NAQIGIRHPNIICDCCKKHGLRGMRWKCRVCFDYDLCTQCYMHNKHDLTHAFERYET  135
+
+
+> sp|Q68LP1|MIB2_RAT E3 ubiquitin-protein ligase MIB2 OS=Rattus 
+norvegicus OX=10116 GN=Mib2 PE=1 SV=2
+Length=971
+
+ Score = 86.9 bits (214),  Expect = 5e-21, Method: Composition-based stats.
+ Identities = 21/57 (37%), Positives = 29/57 (51%), Gaps = 0/57 (0%)
+
+Query  1    SDQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINE  57
+            + Q    HP + CD C+   + G R+KCR C D+D C  C+   KH+  H F R   
+Sbjct  79   NAQIGIRHPNIICDCCKKHGLRGMRWKCRVCFDYDLCTQCYMHNKHDLTHAFERYET  135
+
+
+> sp|Q96AX9|MIB2_HUMAN E3 ubiquitin-protein ligase MIB2 OS=Homo 
+sapiens OX=9606 GN=MIB2 PE=1 SV=3
+Length=1013
+
+ Score = 86.2 bits (212),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 21/57 (37%), Positives = 28/57 (49%), Gaps = 0/57 (0%)
+
+Query  1    SDQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINE  57
+            + Q    HP + CD C+   + G R+KCR C D+D C  C+   KH   H F R   
+Sbjct  137  NAQIGVRHPNIICDCCKKHGLRGMRWKCRVCLDYDLCTQCYMHNKHELAHAFDRYET  193
+
+
+> sp|A2CI98|DYTN_MOUSE Dystrotelin OS=Mus musculus OX=10090 GN=Dytn 
+PE=2 SV=1
+Length=653
+
+ Score = 81.5 bits (200),  Expect = 5e-19, Method: Composition-based stats.
+ Identities = 23/51 (45%), Positives = 26/51 (51%), Gaps = 1/51 (2%)
+
+Query  1    SDQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHT  51
+            S  E   HP V C  C+ FPI G R+ C  C DFD CE CF +  H   H 
+Sbjct  217  SAAETVTHP-VRCSVCRTFPIIGLRYHCLKCLDFDICELCFLSGLHKNSHE  266
+
+
+> sp|A2CJ06|DYTN_HUMAN Dystrotelin OS=Homo sapiens OX=9606 GN=DYTN 
+PE=2 SV=1
+Length=578
+
+ Score = 79.6 bits (195),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 20/51 (39%), Positives = 27/51 (53%), Gaps = 1/51 (2%)
+
+Query  1    SDQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHT  51
+            S  E   HP   C  C+ FPI G R++C  C +FD C+ CF +  H+  H 
+Sbjct  217  SAAERVTHPA-RCTLCRTFPITGLRYRCLKCLNFDICQMCFLSGLHSKSHQ  266
+
+
+> sp|Q9TW65|DMD_CAEEL Dystrophin-1 OS=Caenorhabditis elegans OX=6239 
+GN=dys-1 PE=1 SV=2
+Length=3674
+
+ Score = 79.6 bits (195),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 20/56 (36%), Positives = 30/56 (54%), Gaps = 4/56 (7%)
+
+Query  3     QEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+              E+  H    C+ C+MFPI G R++C  C + D C+ CF +++    H   R N P
+Sbjct  3297  SESTKHAS-KCNVCKMFPIIGIRYRCLTCFNCDLCQNCFFSQRTAKSH---RTNHP  3348
+
+
+> sp|Q24629|REF2P_DROSI Protein ref(2)P OS=Drosophila simulans 
+OX=7240 GN=ref(2)P PE=3 SV=1
+Length=599
+
+ Score = 79.2 bits (194),  Expect = 3e-18, Method: Composition-based stats.
+ Identities = 21/50 (42%), Positives = 27/50 (54%), Gaps = 1/50 (2%)
+
+Query  6    KIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRI  55
+             IH  V CDGC + P+ G R+KC  C +FD C+ C    KH   H   R+
+Sbjct  120  TIHDSVQCDGCGLAPLIGFRYKCVQCSNFDLCQKCESAHKHP-EHLMLRM  168
+
+
+> sp|P14199|REF2P_DROME Protein ref(2)P OS=Drosophila melanogaster 
+OX=7227 GN=ref(2)P PE=1 SV=2
+Length=599
+
+ Score = 78.8 bits (193),  Expect = 5e-18, Method: Composition-based stats.
+ Identities = 20/50 (40%), Positives = 27/50 (54%), Gaps = 1/50 (2%)
+
+Query  6    KIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRI  55
+             IH  V CDGC + P+ G R+KC  C ++D C+ C    KH   H   R+
+Sbjct  120  TIHDAVECDGCGLAPLIGFRYKCVQCSNYDLCQKCELAHKHP-EHLMLRM  168
+
+
+> sp|Q9VDW3|DMDB_DROME Dystrophin, isoform B OS=Drosophila melanogaster 
+OX=7227 GN=Dys PE=1 SV=3
+Length=1669
+
+ Score = 78.5 bits (192),  Expect = 6e-18, Method: Composition-based stats.
+ Identities = 16/52 (31%), Positives = 27/52 (52%), Gaps = 4/52 (8%)
+
+Query  7     IHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+              H    C+ C+ +PI G R++C  C +FD C+ CF   ++   H   ++  P
+Sbjct  1279  KH-QAKCNICKEYPIVGFRYRCLKCFNFDMCQKCFFFGRNAKNH---KLTHP  1326
+
+
+> sp|Q0KI50|DMDD_DROME Dystrophin, isoform D OS=Drosophila melanogaster 
+OX=7227 GN=Dys PE=1 SV=1
+Length=1854
+
+ Score = 78.5 bits (192),  Expect = 6e-18, Method: Composition-based stats.
+ Identities = 16/52 (31%), Positives = 27/52 (52%), Gaps = 4/52 (8%)
+
+Query  7     IHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+              H    C+ C+ +PI G R++C  C +FD C+ CF   ++   H   ++  P
+Sbjct  1464  KH-QAKCNICKEYPIVGFRYRCLKCFNFDMCQKCFFFGRNAKNH---KLTHP  1511
+
+
+> sp|Q9VDW6|DMDA_DROME Dystrophin, isoforms A/C/F/G/H OS=Drosophila 
+melanogaster OX=7227 GN=Dys PE=1 SV=3
+Length=3598
+
+ Score = 78.5 bits (192),  Expect = 6e-18, Method: Composition-based stats.
+ Identities = 16/52 (31%), Positives = 27/52 (52%), Gaps = 4/52 (8%)
+
+Query  7     IHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+              H    C+ C+ +PI G R++C  C +FD C+ CF   ++   H   ++  P
+Sbjct  3107  KH-QAKCNICKEYPIVGFRYRCLKCFNFDMCQKCFFFGRNAKNH---KLTHP  3154
+
+
+> sp|Q9Y4J8|DTNA_HUMAN Dystrobrevin alpha OS=Homo sapiens OX=9606 
+GN=DTNA PE=1 SV=2
+Length=743
+
+ Score = 75.4 bits (184),  Expect = 7e-17, Method: Composition-based stats.
+ Identities = 15/57 (26%), Positives = 24/57 (42%), Gaps = 5/57 (9%)
+
+Query  4    EAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCF----KTKKHNTRHTFGRIN  56
+            E   HP V C  C    + G R++C+ C ++  C+ CF        H+ +H      
+Sbjct  235  ENVFHP-VECSYCHSESMMGFRYRCQQCHNYQLCQDCFWRGHAGGSHSNQHQMKEYT  290
+
+
+> sp|Q9D2N4|DTNA_MOUSE Dystrobrevin alpha OS=Mus musculus OX=10090 
+GN=Dtna PE=1 SV=2
+Length=746
+
+ Score = 75.4 bits (184),  Expect = 7e-17, Method: Composition-based stats.
+ Identities = 15/57 (26%), Positives = 24/57 (42%), Gaps = 5/57 (9%)
+
+Query  4    EAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCF----KTKKHNTRHTFGRIN  56
+            E   HP V C  C    + G R++C+ C ++  C+ CF        H+ +H      
+Sbjct  235  ENVFHP-VECSYCHSESMMGFRYRCQQCHNYQLCQDCFWRGHAGGSHSNQHQMKEYT  290
+
+
+> sp|Q9SB64|NBR1_ARATH Protein NBR1 homolog OS=Arabidopsis thaliana 
+OX=3702 GN=NBR1 PE=1 SV=1
+Length=704
+
+ Score = 75.4 bits (184),  Expect = 7e-17, Method: Composition-based stats.
+ Identities = 19/56 (34%), Positives = 30/56 (54%), Gaps = 2/56 (4%)
+
+Query  3    QEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+                 H G+ CDGC + PI G RFK +  +D+D C  C+    +   +T  R+++P
+Sbjct  281  SLGVFHKGIRCDGCGVLPITGPRFKSKVKEDYDLCTICYSVMGNEGDYT--RMDKP  334
+
+
+> sp|Q54QG5|Y3893_DICDI Probable E3 ubiquitin-protein ligase DDB_G0283893 
+OS=Dictyostelium discoideum OX=44689 GN=DDB_G0283893 
+PE=3 SV=2
+Length=5875
+
+ Score = 75.0 bits (183),  Expect = 8e-17, Method: Composition-based stats.
+ Identities = 22/52 (42%), Positives = 27/52 (52%), Gaps = 4/52 (8%)
+
+Query  11    VTCDGCQMFPINGSRFKCRNCDDFDFCETCF--KTKKHNTRHTFGR--INEP  58
+              +CD C + PI G R+ C NC DFD C  C+    K H   H F    I+EP
+Sbjct  3229  FSCDLCNINPITGKRWNCSNCGDFDLCNQCYQNPEKDHPKDHIFKEFIIDEP  3280
+
+
+> sp|Q7YU29|DMDE_DROME Dystrophin, isoform E OS=Drosophila melanogaster 
+OX=7227 GN=Dys PE=1 SV=1
+Length=1051
+
+ Score = 75.0 bits (183),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 15/49 (31%), Positives = 26/49 (53%), Gaps = 3/49 (6%)
+
+Query  10   GVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+               C+ C+ +PI G R++C  C +FD C+ CF   ++   H   ++  P
+Sbjct  663  QAKCNICKEYPIVGFRYRCLKCFNFDMCQKCFFFGRNAKNH---KLTHP  708
+
+
+> sp|Q9SRU2|BIG_ARATH Auxin transport protein BIG OS=Arabidopsis 
+thaliana OX=3702 GN=BIG PE=1 SV=2
+Length=5098
+
+ Score = 74.2 bits (181),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 18/53 (34%), Positives = 21/53 (40%), Gaps = 7/53 (13%)
+
+Query  10    GVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKT-------KKHNTRHTFGRI  55
+                CDGC   PI   R+ C  C DFD CE C++          H   H    I
+Sbjct  2615  QYCCDGCSTVPILRRRWHCTVCPDFDLCEACYEVLDADRLPPPHTRDHPMTAI  2667
+
+
+> sp|Q9Y048|DTN1_CAEEL Dystrobrevin-1 OS=Caenorhabditis elegans 
+OX=6239 GN=dyb-1 PE=1 SV=1
+Length=590
+
+ Score = 73.8 bits (180),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 15/58 (26%), Positives = 28/58 (48%), Gaps = 4/58 (7%)
+
+Query  2    DQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCF----KTKKHNTRHTFGRI  55
+               + ++  V CD CQ+    G R+KC+ C ++  C++CF     ++ H+  H     
+Sbjct  253  ASVSNVYHPVVCDACQVRSFTGFRYKCQRCANYQLCQSCFWRGRTSQNHSNEHEMKEY  310
+
+
+> sp|Q13501|SQSTM_HUMAN Sequestosome-1 OS=Homo sapiens OX=9606 
+GN=SQSTM1 PE=1 SV=1
+Length=440
+
+ Score = 73.5 bits (179),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 21/57 (37%), Positives = 26/57 (46%), Gaps = 2/57 (4%)
+
+Query  2    DQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+                 +HP V CDGC   P+ G+R+KC  C D+D C  C     H   HT      P
+Sbjct  117  APRNMVHPNVICDGCNG-PVVGTRYKCSVCPDYDLCSVCEGKGLH-RGHTKLAFPSP  171
+
+
+> sp|Q5RBA5|SQSTM_PONAB Sequestosome-1 OS=Pongo abelii OX=9601 
+GN=SQSTM1 PE=2 SV=1
+Length=440
+
+ Score = 73.5 bits (179),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 21/57 (37%), Positives = 26/57 (46%), Gaps = 2/57 (4%)
+
+Query  2    DQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+                 +HP V CDGC   P+ G+R+KC  C D+D C  C     H   HT      P
+Sbjct  117  APRNMVHPNVICDGCNG-PVVGTRYKCSVCPDYDLCSVCEGKGLH-RGHTKLAFPSP  171
+
+
+> sp|Q6GPB6|KCMF1_XENLA E3 ubiquitin-protein ligase KCMF1 OS=Xenopus 
+laevis OX=8355 GN=kcmf1 PE=2 SV=1
+Length=381
+
+ Score = 72.3 bits (176),  Expect = 6e-16, Method: Composition-based stats.
+ Identities = 20/52 (38%), Positives = 28/52 (54%), Gaps = 3/52 (6%)
+
+Query  7   IHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+            H GV+CD C      G R+KC  C D+D C +C+++    TRHT    + P
+Sbjct  3   RHEGVSCDACLKGNFRGRRYKCLICYDYDLCASCYESGATTTRHT---TDHP  51
+
+
+> sp|Q9P0J7|KCMF1_HUMAN E3 ubiquitin-protein ligase KCMF1 OS=Homo 
+sapiens OX=9606 GN=KCMF1 PE=1 SV=2
+Length=381
+
+ Score = 72.3 bits (176),  Expect = 7e-16, Method: Composition-based stats.
+ Identities = 20/52 (38%), Positives = 28/52 (54%), Gaps = 3/52 (6%)
+
+Query  7   IHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+            H GV+CD C      G R+KC  C D+D C +C+++    TRHT    + P
+Sbjct  3   RHEGVSCDACLKGNFRGRRYKCLICYDYDLCASCYESGATTTRHT---TDHP  51
+
+
+> sp|O08623|SQSTM_RAT Sequestosome-1 OS=Rattus norvegicus OX=10116 
+GN=Sqstm1 PE=1 SV=1
+Length=439
+
+ Score = 72.3 bits (176),  Expect = 7e-16, Method: Composition-based stats.
+ Identities = 19/49 (39%), Positives = 26/49 (53%), Gaps = 2/49 (4%)
+
+Query  2    DQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRH  50
+            +  + +HP V CDGC   P+ G+R+KC  C D+D C  C     H   H
+Sbjct  114  EARSMVHPNVICDGCNG-PVVGTRYKCSVCPDYDLCSVCEGKGLH-REH  160
+
+
+> sp|Q1LZE1|KCMF1_BOVIN E3 ubiquitin-protein ligase KCMF1 OS=Bos 
+taurus OX=9913 GN=KCMF1 PE=2 SV=1
+Length=381
+
+ Score = 71.9 bits (175),  Expect = 9e-16, Method: Composition-based stats.
+ Identities = 20/52 (38%), Positives = 28/52 (54%), Gaps = 3/52 (6%)
+
+Query  7   IHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+            H GV+CD C      G R+KC  C D+D C +C+++    TRHT    + P
+Sbjct  3   RHEGVSCDACLKGNFRGRRYKCLICYDYDLCASCYESGATTTRHT---TDHP  51
+
+
+> sp|Q64337|SQSTM_MOUSE Sequestosome-1 OS=Mus musculus OX=10090 
+GN=Sqstm1 PE=1 SV=1
+Length=442
+
+ Score = 71.9 bits (175),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 18/45 (40%), Positives = 23/45 (51%), Gaps = 1/45 (2%)
+
+Query  2    DQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKH  46
+                 +HP V CDGC   P+ G+R+KC  C D+D C  C     H
+Sbjct  117  APRNMVHPNVICDGCNG-PVVGTRYKCSVCPDYDLCSVCEGKGLH  160
+
+
+> sp|Q95RX5|KCMF1_DROME E3 ubiquitin-protein ligase Kcmf1 OS=Drosophila 
+melanogaster OX=7227 GN=Kcmf1 PE=1 SV=1
+Length=599
+
+ Score = 71.9 bits (175),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 20/52 (38%), Positives = 27/52 (52%), Gaps = 3/52 (6%)
+
+Query  7   IHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+            H GV+CD C     NG R+KC  C D+D C  C++    +TRH    +  P
+Sbjct  3   RHEGVSCDSCLKSNFNGRRYKCLICYDYDLCADCYEDGVTSTRH---LVEHP  51
+
+
+> sp|Q80UY2|KCMF1_MOUSE E3 ubiquitin-protein ligase KCMF1 OS=Mus 
+musculus OX=10090 GN=Kcmf1 PE=1 SV=1
+Length=381
+
+ Score = 71.9 bits (175),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 20/52 (38%), Positives = 28/52 (54%), Gaps = 3/52 (6%)
+
+Query  7   IHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+            H GV+CD C      G R+KC  C D+D C +C+++    TRHT    + P
+Sbjct  3   RHEGVSCDACLKGNFRGRRYKCLICYDYDLCASCYESGATTTRHT---TDHP  51
+
+
+> sp|O70585|DTNB_MOUSE Dystrobrevin beta OS=Mus musculus OX=10090 
+GN=Dtnb PE=1 SV=3
+Length=659
+
+ Score = 71.9 bits (175),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 15/55 (27%), Positives = 25/55 (45%), Gaps = 5/55 (9%)
+
+Query  4    EAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCF----KTKKHNTRHTFGR  54
+            E   HP V C  C    + G R++C+ C ++  C+ CF     +  H+ +H    
+Sbjct  235  ENVFHP-VECSYCHCESMMGFRYRCQQCHNYQLCQNCFWRGHASGAHSNQHQMKE  288
+
+
+> sp|P11533|DMD_CHICK Dystrophin OS=Gallus gallus OX=9031 GN=DMD 
+PE=2 SV=1
+Length=3660
+
+ Score = 71.5 bits (174),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 13/52 (25%), Positives = 24/52 (46%), Gaps = 1/52 (2%)
+
+Query  1     SDQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTF  52
+             +  E   H    C+ C+  PI G R++     ++D C++CF + +    H  
+Sbjct  3299  AAAETAKH-QAKCNICKECPIIGFRYRSLKHFNYDICQSCFFSGRVAKGHKM  3349
+
+
+> sp|Q5GN48|DMD_PIG Dystrophin OS=Sus scrofa OX=9823 GN=DMD PE=1 
+SV=1
+Length=3674
+
+ Score = 71.5 bits (174),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 13/52 (25%), Positives = 24/52 (46%), Gaps = 1/52 (2%)
+
+Query  1     SDQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTF  52
+             +  E   H    C+ C+  PI G R++     ++D C++CF + +    H  
+Sbjct  3291  AAAETAKH-QAKCNICKECPIIGFRYRSLKHFNYDICQSCFFSGRVAKGHKM  3341
+
+
+> sp|P11530|DMD_RAT Dystrophin OS=Rattus norvegicus OX=10116 GN=Dmd 
+PE=1 SV=2
+Length=3677
+
+ Score = 71.5 bits (174),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 13/52 (25%), Positives = 24/52 (46%), Gaps = 1/52 (2%)
+
+Query  1     SDQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTF  52
+             +  E   H    C+ C+  PI G R++     ++D C++CF + +    H  
+Sbjct  3294  AAAETAKH-QAKCNICKECPIIGFRYRSLKHFNYDICQSCFFSGRVAKGHKM  3344
+
+
+> sp|P11531|DMD_MOUSE Dystrophin OS=Mus musculus OX=10090 GN=Dmd 
+PE=1 SV=3
+Length=3678
+
+ Score = 71.5 bits (174),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 13/52 (25%), Positives = 24/52 (46%), Gaps = 1/52 (2%)
+
+Query  1     SDQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTF  52
+             +  E   H    C+ C+  PI G R++     ++D C++CF + +    H  
+Sbjct  3295  AAAETAKH-QAKCNICKECPIIGFRYRSLKHFNYDICQSCFFSGRVAKGHKM  3345
+
+
+> sp|O97592|DMD_CANLF Dystrophin OS=Canis lupus familiaris OX=9615 
+GN=DMD PE=2 SV=1
+Length=3680
+
+ Score = 71.5 bits (174),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 13/52 (25%), Positives = 24/52 (46%), Gaps = 1/52 (2%)
+
+Query  1     SDQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTF  52
+             +  E   H    C+ C+  PI G R++     ++D C++CF + +    H  
+Sbjct  3297  AAAETAKH-QAKCNICKECPIIGFRYRSLKHFNYDICQSCFFSGRVAKGHKM  3347
+
+
+> sp|P11532|DMD_HUMAN Dystrophin OS=Homo sapiens OX=9606 GN=DMD 
+PE=1 SV=3
+Length=3685
+
+ Score = 71.5 bits (174),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 13/52 (25%), Positives = 24/52 (46%), Gaps = 1/52 (2%)
+
+Query  1     SDQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTF  52
+             +  E   H    C+ C+  PI G R++     ++D C++CF + +    H  
+Sbjct  3302  AAAETAKH-QAKCNICKECPIIGFRYRSLKHFNYDICQSCFFSGRVAKGHKM  3352
+
+
+> sp|Q5SSH7|ZZEF1_MOUSE Zinc finger ZZ-type and EF-hand domain-containing 
+protein 1 OS=Mus musculus OX=10090 GN=Zzef1 PE=1 
+SV=2
+Length=2924
+
+ Score = 71.5 bits (174),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 22/59 (37%), Positives = 27/59 (46%), Gaps = 3/59 (5%)
+
+Query  2     DQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRH--TFGRINEP  58
+             D    ++   TCD CQ   I G R  C  CDDFD C  C+  KK++  H  T      P
+Sbjct  1819  DDHEMVNMEFTCDHCQGL-IIGRRMNCNVCDDFDLCYGCYTAKKYSYGHLPTHSITAHP  1876
+
+
+ Score = 50.7 bits (120),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 15/50 (30%), Positives = 21/50 (42%), Gaps = 5/50 (10%)
+
+Query  11    VTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTK----KHNTRHTFGRIN  56
+             ++CDGC        R++C  C D D C+TCF        H   H    + 
+Sbjct  1779  ISCDGCD-EIAPWHRYRCLQCSDMDLCKTCFLGGVKPEGHGDDHEMVNME  1827
+
+
+> sp|Q7T321|KCMF1_DANRE E3 ubiquitin-protein ligase KCMF1 OS=Danio 
+rerio OX=7955 GN=kcmf1 PE=2 SV=1
+Length=383
+
+ Score = 71.1 bits (173),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 20/52 (38%), Positives = 27/52 (52%), Gaps = 3/52 (6%)
+
+Query  7   IHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+            H GV+CD C      G R+KC  C D+D C +C+++    TRHT      P
+Sbjct  3   RHEGVSCDACLKGNFRGRRYKCLICYDYDLCASCYESGATTTRHT---TEHP  51
+
+
+> sp|O43149|ZZEF1_HUMAN Zinc finger ZZ-type and EF-hand domain-containing 
+protein 1 OS=Homo sapiens OX=9606 GN=ZZEF1 PE=1 SV=6
+Length=2961
+
+ Score = 71.1 bits (173),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 22/59 (37%), Positives = 27/59 (46%), Gaps = 3/59 (5%)
+
+Query  2     DQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRH--TFGRINEP  58
+             D    ++   TCD CQ   I G R  C  CDDFD C  C+  KK++  H  T      P
+Sbjct  1821  DDHEMVNMEFTCDHCQGL-IIGRRMNCNVCDDFDLCYGCYAAKKYSYGHLPTHSITAHP  1878
+
+
+ Score = 50.7 bits (120),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 15/50 (30%), Positives = 21/50 (42%), Gaps = 5/50 (10%)
+
+Query  11    VTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTK----KHNTRHTFGRIN  56
+             ++CDGC        R++C  C D D C+TCF        H   H    + 
+Sbjct  1781  ISCDGCD-EIAPWHRYRCLQCSDMDLCKTCFLGGVKPEGHGDDHEMVNME  1829
+
+
+> sp|P46939|UTRO_HUMAN Utrophin OS=Homo sapiens OX=9606 GN=UTRN 
+PE=1 SV=2
+Length=3433
+
+ Score = 71.1 bits (173),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 13/50 (26%), Positives = 24/50 (48%), Gaps = 1/50 (2%)
+
+Query  1     SDQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRH  50
+             +  E   H    C+ C+  PI G R++     ++D C++CF + +    H
+Sbjct  3059  AAAETAKH-QAKCNICKECPIVGFRYRSLKHFNYDVCQSCFFSGRTAKGH  3107
+
+
+> sp|M1BJF6|JOKA2_SOLTU Protein JOKA2 OS=Solanum tuberosum OX=4113 
+GN=JOKA2 PE=1 SV=1
+Length=862
+
+ Score = 71.1 bits (173),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 18/54 (33%), Positives = 28/54 (52%), Gaps = 2/54 (4%)
+
+Query  5    AKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+               H GV CDGC + PI G RF  +  +++D C  CF    ++  +   R++ P
+Sbjct  439  TIFHKGVRCDGCGVHPITGPRFISKVKENYDLCSICFAEMGNDADYI--RMDRP  490
+
+
+> sp|B9G2A8|BIG_ORYSJ Auxin transport protein BIG OS=Oryza sativa 
+subsp. japonica OX=39947 GN=Os09g0247700 PE=2 SV=1
+Length=4965
+
+ Score = 70.4 bits (171),  Expect = 4e-15, Method: Composition-based stats.
+ Identities = 19/53 (36%), Positives = 23/53 (43%), Gaps = 7/53 (13%)
+
+Query  10    GVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKT-------KKHNTRHTFGRI  55
+                CDGC   PI   R+ C  C DFD CETC++          H+  H    I
+Sbjct  2471  QYCCDGCSTVPILRRRWHCNICPDFDLCETCYEILDADRLPAPHSRDHPMSAI  2523
+
+
+> sp|A2CI97|DYTN_DANRE Dystrotelin OS=Danio rerio OX=7955 GN=dytn 
+PE=2 SV=1
+Length=648
+
+ Score = 70.0 bits (170),  Expect = 5e-15, Method: Composition-based stats.
+ Identities = 19/50 (38%), Positives = 29/50 (58%), Gaps = 1/50 (2%)
+
+Query  1    SDQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRH  50
+            S  EA  H  V C  C+ FPI G R++C  C +   C++CF T++ + +H
+Sbjct  217  SVSEAVQHR-VHCHACKAFPITGLRYRCLKCLNVHLCQSCFLTERRSRKH  265
+
+
+> sp|P34664|YOY6_CAEEL Uncharacterized protein ZK652.6 OS=Caenorhabditis 
+elegans OX=6239 GN=ZK652.6 PE=4 SV=2
+Length=575
+
+ Score = 69.6 bits (169),  Expect = 8e-15, Method: Composition-based stats.
+ Identities = 22/61 (36%), Positives = 28/61 (46%), Gaps = 12/61 (20%)
+
+Query  7   IHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKK------------HNTRHTFGR  54
+            H GV+CDGC      G+R+KC  C D+D C +CF TK             H+  H    
+Sbjct  8   THEGVSCDGCAFTAFAGNRYKCLRCSDYDLCFSCFTTKNYGDQQTIADIPIHDESHPMQL  67
+
+Query  55  I  55
+           I
+Sbjct  68  I  68
+
+
+> sp|P84060|DTNB_RAT Dystrobrevin beta OS=Rattus norvegicus OX=10116 
+GN=Dtnb PE=1 SV=2
+Length=654
+
+ Score = 69.6 bits (169),  Expect = 8e-15, Method: Composition-based stats.
+ Identities = 15/56 (27%), Positives = 25/56 (45%), Gaps = 5/56 (9%)
+
+Query  4    EAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCF----KTKKHNTRHTFGRI  55
+            E   HP V C  C    + G R++C+ C ++  C+ CF        H+ +H    +
+Sbjct  235  ENVFHP-VECSYCHCESMMGFRYRCQQCHNYQLCQNCFWRGHAGGPHSNQHQMKEL  289
+
+
+> sp|O60941|DTNB_HUMAN Dystrobrevin beta OS=Homo sapiens OX=9606 
+GN=DTNB PE=1 SV=1
+Length=627
+
+ Score = 69.2 bits (168),  Expect = 9e-15, Method: Composition-based stats.
+ Identities = 15/55 (27%), Positives = 25/55 (45%), Gaps = 5/55 (9%)
+
+Query  4    EAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCF----KTKKHNTRHTFGR  54
+            E   HP V C  C+   + G R++C+ C ++  C+ CF        H+ +H    
+Sbjct  235  ENVFHP-VECSYCRCESMMGFRYRCQQCHNYQLCQNCFWRGHAGGPHSNQHQMKE  288
+
+
+> sp|Q9SFD5|TAD2A_ARATH Transcriptional adapter ADA2a OS=Arabidopsis 
+thaliana OX=3702 GN=ADA2A PE=1 SV=1
+Length=548
+
+ Score = 66.9 bits (162),  Expect = 6e-14, Method: Composition-based stats.
+ Identities = 15/50 (30%), Positives = 20/50 (40%), Gaps = 4/50 (8%)
+
+Query  11  VTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTK----KHNTRHTFGRIN  56
+             C+ C        RFKC  C DFD C  CF       +H   H +  ++
+Sbjct  51  YCCNYCDKDLSGLVRFKCAVCMDFDLCVECFSVGVELNRHKNSHPYRVMD  100
+
+
+> sp|Q9FWQ5|HAC12_ARATH Histone acetyltransferase HAC12 OS=Arabidopsis 
+thaliana OX=3702 GN=HAC12 PE=3 SV=2
+Length=1706
+
+ Score = 66.5 bits (161),  Expect = 9e-14, Method: Composition-based stats.
+ Identities = 11/44 (25%), Positives = 22/44 (50%), Gaps = 0/44 (0%)
+
+Query  2     DQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKK  45
+             +    +H   +C  C    + G+R+ C  C DF  C+ C++ ++
+Sbjct  1402  EDFIMVHLQHSCTHCCTLMVTGNRWVCSQCKDFQLCDGCYEAEQ  1445
+
+
+ Score = 61.9 bits (149),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 13/48 (27%), Positives = 21/48 (44%), Gaps = 1/48 (2%)
+
+Query  11    VTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+              TC+ C +   +G  ++C  C D+D C  C+K +     H       P
+Sbjct  1531  TTCNVCHLDIESGLGWRCEVCPDYDVCNACYKKEG-CINHPHKLTTHP  1577
+
+
+> sp|Q75LL6|TADA2_ORYSJ Transcriptional adapter ADA2 OS=Oryza sativa 
+subsp. japonica OX=39947 GN=ADA2 PE=2 SV=2
+Length=567
+
+ Score = 66.5 bits (161),  Expect = 9e-14, Method: Composition-based stats.
+ Identities = 17/48 (35%), Positives = 18/48 (38%), Gaps = 3/48 (6%)
+
+Query  11  VTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+             C+ C        R KC  C DFD C  CF      T H   R N P
+Sbjct  51  YHCNYCNKDISGKIRIKCSKCPDFDLCVECFSVGAEVTPH---RSNHP  95
+
+
+> sp|Q5Z8V7|HACL2_ORYSJ Probable histone acetyltransferase HAC-like 
+2 OS=Oryza sativa subsp. japonica OX=39947 GN=Os06g0704800 
+PE=3 SV=2
+Length=1439
+
+ Score = 65.8 bits (159),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 15/64 (23%), Positives = 25/64 (39%), Gaps = 7/64 (11%)
+
+Query  2     DQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKT-------KKHNTRHTFGR  54
+             D    +H   +C  C  F ++G R+ C  C  F  C+ C+         ++H +      
+Sbjct  1259  DDLIMVHLQYSCSHCCTFMVSGRRWVCNECKSFYICDRCYNAEQRLEEKERHPSNSKCLH  1318
+
+Query  55    INEP  58
+             I  P
+Sbjct  1319  ILHP  1322
+
+
+> sp|Q9ATB4|TAD2B_ARATH Transcriptional adapter ADA2b OS=Arabidopsis 
+thaliana OX=3702 GN=ADA2B PE=1 SV=1
+Length=487
+
+ Score = 65.4 bits (158),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 16/48 (33%), Positives = 18/48 (38%), Gaps = 3/48 (6%)
+
+Query  11  VTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+             CD CQ       R KC  C DFD C  C       T H   + + P
+Sbjct  45  YNCDYCQKDITGKIRIKCAVCPDFDLCIECMSVGAEITPH---KCDHP  89
+
+
+> sp|Q9D9X6|ZSWM2_MOUSE E3 ubiquitin-protein ligase Zswim2 OS=Mus 
+musculus OX=10090 GN=Zswim2 PE=1 SV=1
+Length=631
+
+ Score = 65.4 bits (158),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 16/47 (34%), Positives = 24/47 (51%), Gaps = 1/47 (2%)
+
+Query  7    IHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFG  53
+             H G+ C+ C   PI G  +KC  C ++  C+ CF +  H+  H F 
+Sbjct  229  KHLGIPCNNCNQLPIEGRCYKCTECVEYHLCQECFDSCCHS-SHAFA  274
+
+
+> sp|Q501R9|NBR1_RAT Next to BRCA1 gene 1 protein OS=Rattus norvegicus 
+OX=10116 GN=Nbr1 PE=1 SV=1
+Length=983
+
+ Score = 65.0 bits (157),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 15/49 (31%), Positives = 22/49 (45%), Gaps = 2/49 (4%)
+
+Query  11   VTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTK-KHNTRHTFGRINEP  58
+            + C  CQ   I G R++C  C  ++ CE C      H+T H   +   P
+Sbjct  217  IACSHCQKR-IVGVRYQCSLCPSYNICEDCEAGPYSHDTNHILLKFRRP  264
+
+
+> sp|P97432|NBR1_MOUSE Next to BRCA1 gene 1 protein OS=Mus musculus 
+OX=10090 GN=Nbr1 PE=1 SV=1
+Length=988
+
+ Score = 64.2 bits (155),  Expect = 6e-13, Method: Composition-based stats.
+ Identities = 15/49 (31%), Positives = 23/49 (47%), Gaps = 2/49 (4%)
+
+Query  11   VTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTK-KHNTRHTFGRINEP  58
+            + C  CQ   I G R++C  C  ++ CE C      H+T H   ++  P
+Sbjct  216  IACSHCQKR-IVGVRYQCSLCPSYNICEDCEAGPYTHDTNHVLLKLRRP  263
+
+
+> sp|Q6YXY2|HACL1_ORYSJ Probable histone acetyltransferase HAC-like 
+1 OS=Oryza sativa subsp. japonica OX=39947 GN=Os02g0137500 
+PE=3 SV=2
+Length=1668
+
+ Score = 63.8 bits (154),  Expect = 8e-13, Method: Composition-based stats.
+ Identities = 12/64 (19%), Positives = 23/64 (36%), Gaps = 7/64 (11%)
+
+Query  2     DQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKT-------KKHNTRHTFGR  54
+             +    +H   +C  C    ++G R+ C  C  F  C+ C+         ++H +      
+Sbjct  1406  EDFIMVHLQYSCSHCCTLMVSGKRWVCHQCRSFYICDKCYDAEQQLEDRERHPSNSRDTH  1465
+
+Query  55    INEP  58
+                P
+Sbjct  1466  TLHP  1469
+
+
+ Score = 43.8 bits (102),  Expect = 9e-06, Method: Composition-based stats.
+ Identities = 9/26 (35%), Positives = 12/26 (46%), Gaps = 0/26 (0%)
+
+Query  11    VTCDGCQMFPINGSRFKCRNCDDFDF  36
+              TC+ C      G  ++C  C DFD 
+Sbjct  1535  TTCNVCCHDIETGQGWRCEVCPDFDL  1560
+
+
+> sp|Q14596|NBR1_HUMAN Next to BRCA1 gene 1 protein OS=Homo sapiens 
+OX=9606 GN=NBR1 PE=1 SV=3
+Length=966
+
+ Score = 63.8 bits (154),  Expect = 9e-13, Method: Composition-based stats.
+ Identities = 15/49 (31%), Positives = 24/49 (49%), Gaps = 2/49 (4%)
+
+Query  11   VTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTK-KHNTRHTFGRINEP  58
+            + C+ CQ   I G R++C  C  ++ CE C      H+T H   ++  P
+Sbjct  215  IACNNCQRR-IVGVRYQCSLCPSYNICEDCEAGPYGHDTNHVLLKLRRP  262
+
+
+> sp|Q8IYH5|ZZZ3_HUMAN ZZ-type zinc finger-containing protein 3 
+OS=Homo sapiens OX=9606 GN=ZZZ3 PE=1 SV=1
+Length=903
+
+ Score = 63.4 bits (153),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 19/57 (33%), Positives = 26/57 (46%), Gaps = 7/57 (12%)
+
+Query  6    KIHPGVTCDGCQMFPINGSRFKCRNCD---DFDFCETC----FKTKKHNTRHTFGRI  55
+              H G  CD C + PI G R+ C++C      DFC++C     +T  H   H    I
+Sbjct  816  VQHVGFKCDNCGIEPIQGVRWHCQDCPPEMSLDFCDSCSDCLHETDIHKEDHQLEPI  872
+
+
+> sp|Q8NEG5|ZSWM2_HUMAN E3 ubiquitin-protein ligase ZSWIM2 OS=Homo 
+sapiens OX=9606 GN=ZSWIM2 PE=1 SV=2
+Length=633
+
+ Score = 63.4 bits (153),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 18/46 (39%), Positives = 26/46 (57%), Gaps = 1/46 (2%)
+
+Query  7    IHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTF  52
+             H G+ C+ C+ FPI G  +KC  C ++  C+ CF +  H   HTF
+Sbjct  228  KHLGIPCNNCKQFPIEGKCYKCTECIEYHLCQECFDSCCH-LSHTF  272
+
+
+> sp|Q9LE42|HAC5_ARATH Histone acetyltransferase HAC5 OS=Arabidopsis 
+thaliana OX=3702 GN=HAC5 PE=2 SV=1
+Length=1670
+
+ Score = 63.1 bits (152),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 10/45 (22%), Positives = 22/45 (49%), Gaps = 0/45 (0%)
+
+Query  2     DQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKH  46
+             +    +H    C  C    ++G+R+ C  C +F  C+ C + +++
+Sbjct  1373  EDFIMVHLQHCCKHCCTLMVSGNRWVCNQCKNFQICDKCHEVEEN  1417
+
+
+ Score = 51.9 bits (123),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 12/46 (26%), Positives = 17/46 (37%), Gaps = 3/46 (7%)
+
+Query  13    CDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+             C  CQ        ++C  C D+D C  C+        H    I+ P
+Sbjct  1504  CAICQQELETAQGWRCEVCPDYDVCNACYSKG---INHPHSIISRP  1546
+
+
+> sp|Q9C5X9|HAC1_ARATH Histone acetyltransferase HAC1 OS=Arabidopsis 
+thaliana OX=3702 GN=HAC1 PE=1 SV=2
+Length=1697
+
+ Score = 63.1 bits (152),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 14/48 (29%), Positives = 19/48 (40%), Gaps = 1/48 (2%)
+
+Query  11    VTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+              TC+ C +    G  ++C  C D+D C  CF        H     N P
+Sbjct  1522  TTCNACHLDIETGQGWRCEVCPDYDVCNACFSRDG-GVNHPHKLTNHP  1568
+
+
+ Score = 61.1 bits (147),  Expect = 7e-12, Method: Composition-based stats.
+ Identities = 12/57 (21%), Positives = 25/57 (44%), Gaps = 4/57 (7%)
+
+Query  2     DQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINEP  58
+             +    +H   +C  C +  ++G+R+ C  C  F  C+ C++ ++        R   P
+Sbjct  1393  EDFIMVHLQPSCTHCCILMVSGNRWVCSQCKHFQICDKCYEAEQRRED----RERHP  1445
+
+
+> sp|Q5RC94|NBR1_PONAB Next to BRCA1 gene 1 protein OS=Pongo abelii 
+OX=9601 GN=NBR1 PE=2 SV=1
+Length=894
+
+ Score = 63.1 bits (152),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 15/49 (31%), Positives = 24/49 (49%), Gaps = 2/49 (4%)
+
+Query  11   VTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTK-KHNTRHTFGRINEP  58
+            + C+ CQ   I G R++C  C  ++ CE C      H+T H   ++  P
+Sbjct  215  IACNNCQRR-IVGVRYQCSLCPSYNICEDCEAGPYGHDTNHVLLKLRRP  262
+
+
+> sp|Q59WH0|ADA2_CANAL Transcriptional adapter 2 OS=Candida albicans 
+(strain SC5314 / ATCC MYA-2876) OX=237561 GN=ADA2 PE=3 
+SV=2
+Length=445
+
+ Score = 62.7 bits (151),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 13/40 (33%), Positives = 15/40 (38%), Gaps = 0/40 (0%)
+
+Query  11  VTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRH  50
+             CD C     N  R +C  C D+D C  CF        H
+Sbjct  8   FHCDVCSSDCTNRIRIQCAICTDYDLCVPCFAAGLTTGDH  47
+
+
+> sp|Q9FYH1|HAC2_ARATH Histone acetyltransferase HAC2 OS=Arabidopsis 
+thaliana OX=3702 GN=HAC2 PE=2 SV=2
+Length=1367
+
+ Score = 62.7 bits (151),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 11/56 (20%), Positives = 24/56 (43%), Gaps = 1/56 (2%)
+
+Query  3     QEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKH-NTRHTFGRINE  57
+                 +    +C  C    ++G R+ C  C +   CE+C+   +     H + R+++
+Sbjct  1089  DLMVVELNYSCTRCSKAVLSGLRWFCEKCKNLHLCESCYDAGQELPGEHIYKRMDK  1144
+
+
+ Score = 37.6 bits (86),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 11/42 (26%), Positives = 15/42 (36%), Gaps = 1/42 (2%)
+
+Query  12    TCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTR-HTF  52
+             TC  C+        F C  C D+  C  C+   +     H F
+Sbjct  1224  TCTACKKDVSTTIYFPCLLCPDYRACTGCYTKNRTLRHLHIF  1265
+
+
+> sp|B2RWS6|EP300_MOUSE Histone acetyltransferase p300 OS=Mus musculus 
+OX=10090 GN=Ep300 PE=1 SV=2
+Length=2412
+
+ Score = 62.3 bits (150),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 15/45 (33%), Positives = 24/45 (53%), Gaps = 4/45 (9%)
+
+Query  11    VTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRI  55
+              TC+ C+      +R+ C  C+D+D C TC+ TK H   H   ++
+Sbjct  1667  YTCNECKHH--VETRWHCTVCEDYDLCITCYNTKNH--DHKMEKL  1707
+
+
+> sp|Q09472|EP300_HUMAN Histone acetyltransferase p300 OS=Homo 
+sapiens OX=9606 GN=EP300 PE=1 SV=2
+Length=2414
+
+ Score = 62.3 bits (150),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 15/45 (33%), Positives = 24/45 (53%), Gaps = 4/45 (9%)
+
+Query  11    VTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRI  55
+              TC+ C+      +R+ C  C+D+D C TC+ TK H   H   ++
+Sbjct  1668  YTCNECKHH--VETRWHCTVCEDYDLCITCYNTKNH--DHKMEKL  1708
+
+
+> sp|P45481|CBP_MOUSE Histone lysine acetyltransferase CREBBP OS=Mus 
+musculus OX=10090 GN=Crebbp PE=1 SV=3
+Length=2441
+
+ Score = 61.5 bits (148),  Expect = 6e-12, Method: Composition-based stats.
+ Identities = 14/44 (32%), Positives = 22/44 (50%), Gaps = 4/44 (9%)
+
+Query  11    VTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGR  54
+              TC+ C+      +R+ C  C+D+D C  C+ TK H   H   +
+Sbjct  1706  YTCNECKHH--VETRWHCTVCEDYDLCINCYNTKSHT--HKMVK  1745
+
+
+> sp|Q6JHU9|CBP_RAT Histone lysine acetyltransferase CREBBP OS=Rattus 
+norvegicus OX=10116 GN=Crebbp PE=1 SV=1
+Length=2442
+
+ Score = 61.1 bits (147),  Expect = 7e-12, Method: Composition-based stats.
+ Identities = 14/44 (32%), Positives = 22/44 (50%), Gaps = 4/44 (9%)
+
+Query  11    VTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGR  54
+              TC+ C+      +R+ C  C+D+D C  C+ TK H   H   +
+Sbjct  1706  YTCNECKHH--VETRWHCTVCEDYDLCINCYNTKSHT--HKMVK  1745
+
+
+> sp|Q6KAQ7|ZZZ3_MOUSE ZZ-type zinc finger-containing protein 3 
+OS=Mus musculus OX=10090 GN=Zzz3 PE=1 SV=2
+Length=910
+
+ Score = 61.1 bits (147),  Expect = 8e-12, Method: Composition-based stats.
+ Identities = 18/55 (33%), Positives = 25/55 (45%), Gaps = 7/55 (13%)
+
+Query  6    KIHPGVTCDGCQMFPINGSRFKCRNCD---DFDFCETC----FKTKKHNTRHTFG  53
+              H G  CD C + PI G R+ C++C      DFC++C     +T  H   H   
+Sbjct  823  VQHVGFKCDNCGVEPIQGVRWHCQDCPPEMSLDFCDSCSDCPHETDIHKEDHQLE  877
+
+
+> sp|Q92793|CBP_HUMAN CREB-binding protein OS=Homo sapiens OX=9606 
+GN=CREBBP PE=1 SV=3
+Length=2442
+
+ Score = 60.7 bits (146),  Expect = 9e-12, Method: Composition-based stats.
+ Identities = 14/44 (32%), Positives = 22/44 (50%), Gaps = 4/44 (9%)
+
+Query  11    VTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGR  54
+              TC+ C+      +R+ C  C+D+D C  C+ TK H   H   +
+Sbjct  1705  YTCNECKHH--VETRWHCTVCEDYDLCINCYNTKSHA--HKMVK  1744
+
+
+> sp|Q9LG11|HAC4_ARATH Histone acetyltransferase HAC4 OS=Arabidopsis 
+thaliana OX=3702 GN=HAC4 PE=2 SV=2
+Length=1470
+
+ Score = 60.4 bits (145),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 10/45 (22%), Positives = 24/45 (53%), Gaps = 0/45 (0%)
+
+Query  2     DQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKH  46
+             +    +H    C  C    ++G+R+ C +C +F  C+ C++ +++
+Sbjct  1169  EDFIMVHLQHCCKHCTTLMVSGNRWVCNHCKNFQICDKCYEVEQN  1213
+
+
+ Score = 46.1 bits (108),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 11/41 (27%), Positives = 14/41 (34%), Gaps = 0/41 (0%)
+
+Query  10    GVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRH  50
+                C  CQ    N   + C  C  +D C  C+     N  H
+Sbjct  1297  ATVCTICQQEVENSQGWHCEVCPGYDVCSACYSKDSINHSH  1337
+
+
+> sp|Q8I8V0|TAD2B_DROME Transcriptional adapter 2B OS=Drosophila 
+melanogaster OX=7227 GN=Ada2b PE=1 SV=1
+Length=555
+
+ Score = 60.4 bits (145),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 15/51 (29%), Positives = 21/51 (41%), Gaps = 5/51 (10%)
+
+Query  11  VTCDGCQMFPINGSRFKCRNCDDFDFCETCFKT----KKHNTRHTFGRINE  57
+             C  CQ   I G R  C  C++FD C  CF        H   H++  ++ 
+Sbjct  11  YNCTNCQDD-IQGIRVHCAECENFDLCLQCFAAGAEIGAHQNNHSYQFMDT  60
+
+
+> sp|Q02336|ADA2_YEAST Transcriptional adapter 2 OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=ADA2 
+PE=1 SV=1
+Length=434
+
+ Score = 60.4 bits (145),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 12/41 (29%), Positives = 16/41 (39%), Gaps = 0/41 (0%)
+
+Query  11  VTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHT  51
+             CD C     N  R  C  C ++D C  CF    +  +H 
+Sbjct  5   FHCDVCSADCTNRVRVSCAICPEYDLCVPCFSQGSYTGKHR  45
+
+
+> sp|Q9EPA0|DRP2_RAT Dystrophin-related protein 2 OS=Rattus norvegicus 
+OX=10116 GN=Drp2 PE=1 SV=2
+Length=957
+
+ Score = 60.0 bits (144),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 15/49 (31%), Positives = 22/49 (45%), Gaps = 1/49 (2%)
+
+Query  1    SDQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTR  49
+            +  E   H    C  C+  PI G R++     + D C+TCF T K +  
+Sbjct  599  TVAEQVKH-QTKCSICRQCPIKGFRYRSLKQFNVDICQTCFLTGKASKG  646
+
+
+> sp|Q13474|DRP2_HUMAN Dystrophin-related protein 2 OS=Homo sapiens 
+OX=9606 GN=DRP2 PE=2 SV=2
+Length=957
+
+ Score = 59.6 bits (143),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 14/47 (30%), Positives = 21/47 (45%), Gaps = 1/47 (2%)
+
+Query  3    QEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTR  49
+             E   H    C  C+  PI G R++     + D C+TCF T + +  
+Sbjct  601  AEQVKH-QTKCSICRQCPIKGFRYRSLKQFNVDICQTCFLTGRASKG  646
+
+
+> sp|Q05AA6|DRP2_MOUSE Dystrophin-related protein 2 OS=Mus musculus 
+OX=10090 GN=Drp2 PE=1 SV=1
+Length=957
+
+ Score = 59.6 bits (143),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 14/47 (30%), Positives = 21/47 (45%), Gaps = 1/47 (2%)
+
+Query  3    QEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTR  49
+             E   H    C  C+  PI G R++     + D C+TCF T + +  
+Sbjct  601  AEQVKH-QTKCSICRQCPIKGFRYRSLKQFNVDICQTCFLTGRASKG  646
+
+
+> sp|Q9P7J7|ADA2_SCHPO Transcriptional adapter 2 OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=ada2 PE=1 
+SV=1
+Length=437
+
+ Score = 58.8 bits (141),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 13/51 (25%), Positives = 18/51 (35%), Gaps = 4/51 (8%)
+
+Query  11  VTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKK----HNTRHTFGRINE  57
+             C+ C          +C  C DFD C  CF +      H+  H +  I  
+Sbjct  6   YHCNVCAQDITRSIHIRCVECVDFDLCIPCFTSGASLGTHHPSHPYRIIET  56
+
+
+> sp|Q9P792|YN8B_SCHPO ZZ-type zinc finger-containing protein P35G2.11c 
+OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) 
+OX=284812 GN=SPBP35G2.11c PE=4 SV=1
+Length=397
+
+ Score = 56.9 bits (136),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 20/46 (43%), Positives = 27/46 (59%), Gaps = 1/46 (2%)
+
+Query  12   TCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRINE  57
+             CD C+  PI+  R+KC  CDD+D CE+C     H+  H F RI +
+Sbjct  135  ICDHCEQ-PIHNVRYKCSVCDDYDICESCLTDNSHSNTHAFVRITK  179
+
+
+ Score = 55.7 bits (133),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 16/39 (41%), Positives = 22/39 (56%), Gaps = 0/39 (0%)
+
+Query  2    DQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETC  40
+            +  + +H  V CD C   PI G RF C  C+D+D C +C
+Sbjct  201  ESASTVHRSVQCDNCLAHPIVGPRFHCLVCEDYDLCSSC  239
+
+
+ Score = 35.3 bits (80),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 12/33 (36%), Positives = 14/33 (42%), Gaps = 1/33 (3%)
+
+Query  10  GVTCDGCQMFPINGSRFKCRNCDDFDFCETCFK  42
+            V C+ C    I    F C  C DFD C  C+ 
+Sbjct  59  SVACNTCLK-IIRNDSFHCTKCFDFDVCRDCYA  90
+
+
+> sp|Q8VY05|SWI3D_ARATH SWI/SNF complex subunit SWI3D OS=Arabidopsis 
+thaliana OX=3702 GN=SWI3D PE=1 SV=3
+Length=985
+
+ Score = 55.4 bits (132),  Expect = 7e-10, Method: Composition-based stats.
+ Identities = 11/36 (31%), Positives = 15/36 (42%), Gaps = 1/36 (3%)
+
+Query  10   GVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKK  45
+               C+ C     +  R+ C    DFD C  CF + K
+Sbjct  307  EYHCNSCSADC-SRKRYHCPKQADFDLCTECFNSGK  341
+
+
+> sp|P34545|CBP1_CAEEL Protein cbp-1 OS=Caenorhabditis elegans 
+OX=6239 GN=cbp-1 PE=1 SV=6
+Length=2017
+
+ Score = 55.0 bits (131),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 15/47 (32%), Positives = 23/47 (49%), Gaps = 6/47 (13%)
+
+Query  9     PGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFGRI  55
+                TC+ C    +    + C++CDDFD C+ C  T +H   H   +I
+Sbjct  1495  MEYTCNKCSSPAV----WHCQSCDDFDLCDGCKPTTQHP--HEMEKI  1535
+
+
+> sp|Q8LBL5|PRT1_ARATH E3 ubiquitin-protein ligase PRT1 OS=Arabidopsis 
+thaliana OX=3702 GN=PRT1 PE=2 SV=2
+Length=410
+
+ Score = 54.2 bits (129),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 18/66 (27%), Positives = 32/66 (48%), Gaps = 12/66 (18%)
+
+Query  5    AKIHPGVTCDGCQMFPINGSRFKCRNCDD---FDFCETCFKTK---------KHNTRHTF  52
+            + +H G  CD C ++PI G R++C++C +   +D C+ C++T          +H   H  
+Sbjct  303  SNVHFGAGCDSCGVYPIIGDRYRCKDCKEEIGYDLCKDCYETPSKVPGRFNQQHTPDHRL  362
+
+Query  53   GRINEP  58
+                 P
+Sbjct  363  ELARSP  368
+
+
+> sp|O23052|Y1515_ARATH Uncharacterized TPR repeat-containing protein 
+At1g05150 OS=Arabidopsis thaliana OX=3702 GN=At1g05150 
+PE=1 SV=1
+Length=808
+
+ Score = 52.7 bits (125),  Expect = 8e-09, Method: Composition-based stats.
+ Identities = 13/44 (30%), Positives = 18/44 (41%), Gaps = 2/44 (5%)
+
+Query  2    DQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKK  45
+              +   H    C  C+ +P+ GSRFK      F  C  C+   K
+Sbjct  727  ANDRNRHGNQVCSVCR-YPVIGSRFK-EVKARFSLCNQCYGEGK  768
+
+
+> sp|Q8S8L9|Y2245_ARATH Uncharacterized TPR repeat-containing protein 
+At2g32450 OS=Arabidopsis thaliana OX=3702 GN=At2g32450 
+PE=1 SV=1
+Length=802
+
+ Score = 51.9 bits (123),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 14/42 (33%), Positives = 18/42 (43%), Gaps = 2/42 (5%)
+
+Query  4    EAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKK  45
+            +   H    C  C+ +PI GSRFK      F  C  C+   K
+Sbjct  722  DRNRHGNQVCSVCR-YPIIGSRFK-EVKTGFSLCNQCYSEGK  761
+
+
+> sp|Q9XHY7|HACL3_ORYSJ Probable histone acetyltransferase HAC-like 
+3 OS=Oryza sativa subsp. japonica OX=39947 GN=Os01g0246100 
+PE=2 SV=2
+Length=1276
+
+ Score = 45.3 bits (106),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 15/60 (25%), Positives = 24/60 (40%), Gaps = 11/60 (18%)
+
+Query  9     PGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHN-----------TRHTFGRINE  57
+                 C  C    ++GS + C +C +F  CE C+  + +             +H F RI E
+Sbjct  1014  LQQFCKHCHHPIVSGSSWVCTSCKNFFLCERCYAEELNTPLKDRHPATTKQKHAFERIEE  1073
+
+
+ Score = 37.2 bits (85),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 10/42 (24%), Positives = 17/42 (40%), Gaps = 1/42 (2%)
+
+Query  12    TCDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHTFG  53
+             TC  C         ++C  C   +FC++C+K    +  H   
+Sbjct  1129  TCSSCHRAMDQCLAWRCLVCLGCNFCDSCYKQDGESL-HIHK  1169
+
+
+> sp|Q6NRB5|TAD2B_XENLA Transcriptional adapter 2-beta OS=Xenopus 
+laevis OX=8355 GN=tada2b PE=2 SV=1
+Length=420
+
+ Score = 44.2 bits (103),  Expect = 7e-06, Method: Composition-based stats.
+ Identities = 10/39 (26%), Positives = 13/39 (33%), Gaps = 1/39 (3%)
+
+Query  13  CDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHT  51
+           C  C    +   R +C  C D + C  CF        H 
+Sbjct  9   CVYCLAD-VTSLRLRCTECQDIELCTDCFSAGAEIGNHR  46
+
+
+> sp|Q503N9|TAD2B_DANRE Transcriptional adapter 2-beta OS=Danio 
+rerio OX=7955 GN=tada2b PE=2 SV=1
+Length=486
+
+ Score = 44.2 bits (103),  Expect = 8e-06, Method: Composition-based stats.
+ Identities = 10/39 (26%), Positives = 13/39 (33%), Gaps = 1/39 (3%)
+
+Query  13  CDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHT  51
+           C  C    +   R +C  C D + C  CF        H 
+Sbjct  9   CVNCLAD-VTNLRIRCAECQDIELCPECFSAGAEIGNHR  46
+
+
+> sp|Q5RBN9|TAD2B_PONAB Transcriptional adapter 2-beta OS=Pongo 
+abelii OX=9601 GN=TADA2B PE=2 SV=1
+Length=420
+
+ Score = 42.3 bits (98),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 11/39 (28%), Positives = 15/39 (38%), Gaps = 1/39 (3%)
+
+Query  13  CDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHT  51
+           C  C    ++  RF+C  C D + C  CF        H 
+Sbjct  9   CVYCLAE-VSPLRFRCTECQDIELCPECFSAGAEIGHHR  46
+
+
+> sp|Q86TJ2|TAD2B_HUMAN Transcriptional adapter 2-beta OS=Homo 
+sapiens OX=9606 GN=TADA2B PE=1 SV=2
+Length=420
+
+ Score = 42.3 bits (98),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 11/39 (28%), Positives = 15/39 (38%), Gaps = 1/39 (3%)
+
+Query  13  CDGCQMFPINGSRFKCRNCDDFDFCETCFKTKKHNTRHT  51
+           C  C    ++  RF+C  C D + C  CF        H 
+Sbjct  9   CVYCLAE-VSPLRFRCTECQDIELCPECFSAGAEIGHHR  46
+
+
+> sp|P43609|RSC8_YEAST Chromatin structure-remodeling complex protein 
+RSC8 OS=Saccharomyces cerevisiae (strain ATCC 204508 
+/ S288c) OX=559292 GN=RSC8 PE=1 SV=1
+Length=557
+
+ Score = 37.6 bits (86),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 12/44 (27%), Positives = 16/44 (36%), Gaps = 1/44 (2%)
+
+Query  1    SDQEAKIHPGVTCDGCQMFPINGSRFKCRNCDDFDFCETCFKTK  44
+            S    +IH    C  C    IN  R+      D + C  CF+  
+Sbjct  248  SRNSRQIHKVYICHTCGNESIN-VRYHNLRARDTNLCSRCFQEG  290
+
+
+> sp|Q5ZIX8|KDM3A_CHICK Lysine-specific demethylase 3A OS=Gallus 
+gallus OX=9031 GN=KDM3A PE=2 SV=1
+Length=1325
+
+ Score = 36.9 bits (84),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 10/30 (33%), Positives = 12/30 (40%), Gaps = 2/30 (7%)
+
+Query  12   TCDGCQMFPINGSRFKCRNCDDFDFCETCF  41
+             CD C     N  R+ C  C  F  C  C+
+Sbjct  668  MCDVCDTTIFN-LRWVCSKC-GFGVCVDCY  695
+
+
+> sp|O60014|UBR1_KLULA E3 ubiquitin-protein ligase UBR1 OS=Kluyveromyces 
+lactis (strain ATCC 8585 / CBS 2359 / DSM 70799 / 
+NBRC 1267 / NRRL Y-1140 / WM37) OX=284590 GN=UBR1 PE=3 SV=2
+Length=1945
+
+ Score = 36.5 bits (83),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 15/52 (29%), Positives = 20/52 (38%), Gaps = 7/52 (13%)
+
+Query  8    HPGVTCDGCQMFPINGSRFKCRNCDDFD----FCETCFKTKKHNTRHTFGRI  55
+            H G  C     F +    ++C+ C  FD     C  CF  K H   H +  I
+Sbjct  106  HAGRICGA--KFRVGEPIYRCKEC-SFDDTCVLCVNCFNPKDHVGHHVYTSI  154
+
+
+> sp|Q8CHV6|TAD2A_MOUSE Transcriptional adapter 2-alpha OS=Mus 
+musculus OX=10090 GN=Tada2a PE=1 SV=1
+Length=443
+
+ Score = 36.1 bits (82),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 14/50 (28%), Positives = 19/50 (38%), Gaps = 7/50 (14%)
+
+Query  13  CDGCQMFPINGSRFKCRNC--DDFDFCETCFKTK----KHNTRHTFGRIN  56
+           C GC  + +     KC  C    F  C  CF       KH + HT+  + 
+Sbjct  17  CRGCSSY-LTEPYIKCAECGPPPFFLCLQCFTRGFEYKKHQSDHTYEIMT  65
+
+
+> sp|Q3SZP8|TAD2A_BOVIN Transcriptional adapter 2-alpha OS=Bos 
+taurus OX=9913 GN=TADA2A PE=2 SV=1
+Length=443
+
+ Score = 36.1 bits (82),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 14/50 (28%), Positives = 19/50 (38%), Gaps = 7/50 (14%)
+
+Query  13  CDGCQMFPINGSRFKCRNC--DDFDFCETCFKTK----KHNTRHTFGRIN  56
+           C GC  + +     KC  C    F  C  CF       KH + HT+  + 
+Sbjct  17  CRGCSSY-LMEPYIKCAECGPPPFFLCLQCFTRGFEYKKHQSDHTYEIMT  65
+
+
+> sp|O75478|TAD2A_HUMAN Transcriptional adapter 2-alpha OS=Homo 
+sapiens OX=9606 GN=TADA2A PE=1 SV=3
+Length=443
+
+ Score = 36.1 bits (82),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 14/50 (28%), Positives = 19/50 (38%), Gaps = 7/50 (14%)
+
+Query  13  CDGCQMFPINGSRFKCRNC--DDFDFCETCFKTK----KHNTRHTFGRIN  56
+           C GC  + +     KC  C    F  C  CF       KH + HT+  + 
+Sbjct  17  CRGCSSY-LMEPYIKCAECGPPPFFLCLQCFTRGFEYKKHQSDHTYEIMT  65
+
+
+> sp|Q6AYE3|TAD2A_RAT Transcriptional adapter 2-alpha OS=Rattus 
+norvegicus OX=10116 GN=Tada2a PE=2 SV=1
+Length=443
+
+ Score = 36.1 bits (82),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 14/50 (28%), Positives = 19/50 (38%), Gaps = 7/50 (14%)
+
+Query  13  CDGCQMFPINGSRFKCRNC--DDFDFCETCFKTK----KHNTRHTFGRIN  56
+           C GC  + +     KC  C    F  C  CF       KH + HT+  + 
+Sbjct  17  CRGCSSY-LMEPYIKCAECGPPPFFLCLQCFTRGFEYKKHQSDHTYEIMT  65
+
+
+> sp|Q5ZJF3|TAD2A_CHICK Transcriptional adapter 2-alpha OS=Gallus 
+gallus OX=9031 GN=TADA2A PE=2 SV=1
+Length=446
+
+ Score = 35.7 bits (81),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 14/50 (28%), Positives = 19/50 (38%), Gaps = 7/50 (14%)
+
+Query  13  CDGCQMFPINGSRFKCRNC--DDFDFCETCFKTK----KHNTRHTFGRIN  56
+           C GC  + +     KC  C    F  C  CF       KH + HT+  + 
+Sbjct  17  CRGCSSY-LTEPYVKCAECGPPPFLLCLQCFTRGFEYKKHQSDHTYEIMT  65
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.143    0.649    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0437    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5004275148
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  1:45 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

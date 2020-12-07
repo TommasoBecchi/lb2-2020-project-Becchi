@@ -1,0 +1,2615 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 5GHL:A
+
+Length=108
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P69328|AMYG_ASPNG Glucoamylase OS=Aspergillus niger OX=5061 ...  221     4e-69
+  sp|P69327|AMYG_ASPAW Glucoamylase OS=Aspergillus awamori OX=105...  221     4e-69
+  sp|P23176|AMYG_ASPKA Glucoamylase I OS=Aspergillus kawachii OX=...  216     2e-67
+  sp|P22832|AMYG_ASPSH Glucoamylase OS=Aspergillus shirousami OX=...  201     8e-62
+  sp|P36914|AMYG_ASPOR Glucoamylase OS=Aspergillus oryzae (strain...  139     1e-38
+  sp|P14804|AMYG_NEUCR Glucoamylase OS=Neurospora crassa (strain ...  115     2e-30
+  sp|P0DN29|AMYG_ARTBC Glucoamylase ARB_02327-1 OS=Arthroderma be...  112     7e-29
+  sp|D8Q9M3|AMYG_SCHCM Glucoamylase ARB_02327-1 OS=Schizophyllum ...  96.3    2e-23
+  sp|Q03045|AMYG_AMORE Glucoamylase P OS=Amorphotheca resinae OX=...  86.7    5e-20
+  sp|P22998|AMY_STRVL Alpha-amylase OS=Streptomyces violaceus OX=...  82.8    1e-18
+  sp|P26827|CDGT_THETU Cyclomaltodextrin glucanotransferase OS=Th...  79.3    2e-17
+  sp|P31797|CDGT_GEOSE Cyclomaltodextrin glucanotransferase OS=Ge...  79.0    3e-17
+  sp|O30565|CDGT_BREBE Cyclomaltodextrin glucanotransferase OS=Br...  78.6    4e-17
+  sp|P27036|CDGT_BACOH Cyclomaltodextrin glucanotransferase OS=Ba...  75.9    3e-16
+  sp|P31746|CDGT_BACS2 Cyclomaltodextrin glucanotransferase OS=Ba...  75.1    5e-16
+  sp|P30921|CDGT_BAC11 Cyclomaltodextrin glucanotransferase OS=Ba...  73.2    3e-15
+  sp|P09121|CDGT_BACS3 Cyclomaltodextrin glucanotransferase OS=Ba...  73.2    3e-15
+  sp|P05618|CDGT_BACS0 Cyclomaltodextrin glucanotransferase OS=Ba...  73.2    3e-15
+  sp|P43379|CDGT2_BACCI Cyclomaltodextrin glucanotransferase OS=B...  72.8    5e-15
+  sp|P31747|CDGT_BACSS Cyclomaltodextrin glucanotransferase OS=Ba...  72.4    5e-15
+  sp|P30270|AMY_STRGR Alpha-amylase OS=Streptomyces griseus OX=19...  72.4    5e-15
+  sp|P09794|AMY_STRLM Alpha-amylase OS=Streptomyces limosus OX=19...  72.4    5e-15
+  sp|P30920|CDGT1_BACCI Cyclomaltodextrin glucanotransferase OS=B...  72.0    7e-15
+  sp|P19584|AMYB_THETU Thermophilic beta-amylase OS=Thermoanaerob...  71.2    1e-14
+  sp|P14014|CDGT_BACLI Cyclomaltodextrin glucanotransferase OS=Ba...  71.2    1e-14
+  sp|P31835|CDGT2_PAEMA Cyclomaltodextrin glucanotransferase OS=P...  70.9    2e-14
+  sp|P17692|CDGT_BACS8 Cyclomaltodextrin glucanotransferase OS=Ba...  69.7    5e-14
+  sp|P04830|CDGT1_PAEMA Cyclomaltodextrin glucanotransferase OS=P...  69.7    5e-14
+  sp|P29750|AMY_THECU Alpha-amylase OS=Thermomonospora curvata OX...  62.4    2e-11
+  sp|P19531|AMYM_GEOSE Maltogenic alpha-amylase OS=Geobacillus st...  60.1    1e-10
+  sp|P22963|AMT4_PELSC Glucan 1,4-alpha-maltotetraohydrolase OS=P...  53.9    2e-08
+  sp|Q6ZY51|PWD_ARATH Phosphoglucan, water dikinase, chloroplasti...  50.8    2e-07
+  sp|P08704|CDGT_KLEOX Cyclomaltodextrin glucanotransferase OS=Kl...  48.5    1e-06
+  sp|P13507|AMT4_PSEST Glucan 1,4-alpha-maltotetraohydrolase OS=P...  47.8    3e-06
+  sp|Q9NPB8|GPCP1_HUMAN Glycerophosphocholine phosphodiesterase G...  45.1    2e-05
+  sp|Q8C0L9|GPCP1_MOUSE Glycerophosphocholine phosphodiesterase G...  44.7    3e-05
+  sp|Q8RXD9|DPE2_ARATH 4-alpha-glucanotransferase DPE2 OS=Arabido...  43.9    6e-05
+  sp|Q8C7E7|STBD1_MOUSE Starch-binding domain-containing protein ...  39.3    0.002
+  sp|Q5FVN1|STBD1_RAT Starch-binding domain-containing protein 1 ...  38.9    0.003
+  sp|Q80VJ4|GPCP1_RAT Glycerophosphocholine phosphodiesterase GPC...  38.5    0.005
+  sp|Q69Q02|DPE2_ORYSJ 4-alpha-glucanotransferase DPE2 OS=Oryza s...  38.1    0.007
+
+
+> sp|P69328|AMYG_ASPNG Glucoamylase OS=Aspergillus niger OX=5061 
+GN=GLAA PE=1 SV=1
+Length=640
+
+ Score = 221 bits (562),  Expect = 4e-69, Method: Compositional matrix adjust.
+ Identities = 108/108 (100%), Positives = 108/108 (100%), Gaps = 0/108 (0%)
+
+Query  1    CTTPTAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVT  60
+            CTTPTAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVT
+Sbjct  533  CTTPTAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVT  592
+
+Query  61   LPAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            LPAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR
+Sbjct  593  LPAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  640
+
+
+> sp|P69327|AMYG_ASPAW Glucoamylase OS=Aspergillus awamori OX=105351 
+GN=GLAA PE=1 SV=1
+Length=640
+
+ Score = 221 bits (562),  Expect = 4e-69, Method: Compositional matrix adjust.
+ Identities = 108/108 (100%), Positives = 108/108 (100%), Gaps = 0/108 (0%)
+
+Query  1    CTTPTAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVT  60
+            CTTPTAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVT
+Sbjct  533  CTTPTAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVT  592
+
+Query  61   LPAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            LPAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR
+Sbjct  593  LPAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  640
+
+
+> sp|P23176|AMYG_ASPKA Glucoamylase I OS=Aspergillus kawachii OX=40384 
+GN=gaI PE=1 SV=1
+Length=639
+
+ Score = 216 bits (550),  Expect = 2e-67, Method: Compositional matrix adjust.
+ Identities = 105/108 (97%), Positives = 107/108 (99%), Gaps = 0/108 (0%)
+
+Query  1    CTTPTAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVT  60
+            CTTPTAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSS+PLWYVTVT
+Sbjct  532  CTTPTAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSNPLWYVTVT  591
+
+Query  61   LPAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            LPAGESFEYKFIR+ESDDSVEWESDPNREYTVPQACG STATVTDTWR
+Sbjct  592  LPAGESFEYKFIRVESDDSVEWESDPNREYTVPQACGESTATVTDTWR  639
+
+
+> sp|P22832|AMYG_ASPSH Glucoamylase OS=Aspergillus shirousami OX=5070 
+GN=glaA PE=3 SV=1
+Length=639
+
+ Score = 201 bits (512),  Expect = 8e-62, Method: Compositional matrix adjust.
+ Identities = 99/103 (96%), Positives = 101/103 (98%), Gaps = 0/103 (0%)
+
+Query  6    AVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGE  65
+            AVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSS+P WYVTVTLPAGE
+Sbjct  537  AVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSNPPWYVTVTLPAGE  596
+
+Query  66   SFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            SFEYKFIR+ESDDSVEWESDPNREYTVPQACG STATVTDTWR
+Sbjct  597  SFEYKFIRVESDDSVEWESDPNREYTVPQACGESTATVTDTWR  639
+
+
+> sp|P36914|AMYG_ASPOR Glucoamylase OS=Aspergillus oryzae (strain 
+ATCC 42149 / RIB 40) OX=510516 GN=glaA PE=2 SV=2
+Length=612
+
+ Score = 139 bits (349),  Expect = 1e-38, Method: Compositional matrix adjust.
+ Identities = 64/108 (59%), Positives = 80/108 (74%), Gaps = 1/108 (1%)
+
+Query  1    CTTPTAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVT  60
+            C  PT V+VTF + ATT YGE+I +VGSISQLG W  S   AL+AD YT+ +PLW  T+ 
+Sbjct  506  CQVPTTVSVTFAVKATTVYGESIKIVGSISQLGSWNPSSATALNADSYTTDNPLWTGTIN  565
+
+Query  61   LPAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            LPAG+SFEYKFIR++ + +V WESDPNR+YTVP  CG  +A  +D WR
+Sbjct  566  LPAGQSFEYKFIRVQ-NGAVTWESDPNRKYTVPSTCGVKSAVQSDVWR  612
+
+
+> sp|P14804|AMYG_NEUCR Glucoamylase OS=Neurospora crassa (strain 
+ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987) 
+OX=367110 GN=gla-1 PE=1 SV=3
+Length=626
+
+ Score = 115 bits (289),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 54/108 (50%), Positives = 75/108 (69%), Gaps = 1/108 (1%)
+
+Query  1    CTTPTAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVT  60
+            C     V VTF+   TT+YG+ + +VGSI+ LG+W  + G+ LSA +Y+SS+PLW  T+ 
+Sbjct  520  CAADHEVLVTFNEKVTTSYGQTVKVVGSIAALGNWAPASGVTLSAKQYSSSNPLWSTTIA  579
+
+Query  61   LPAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            LP G SF+YK++ + SD SV+WE+DP+R Y V   C  STAT+ DTWR
+Sbjct  580  LPQGTSFKYKYVVVNSDGSVKWENDPDRSYAVGTDCA-STATLDDTWR  626
+
+
+> sp|P0DN29|AMYG_ARTBC Glucoamylase ARB_02327-1 OS=Arthroderma 
+benhamiae (strain ATCC MYA-4681 / CBS 112371) OX=663331 GN=ARB_02327-1 
+PE=1 SV=1
+Length=610
+
+ Score = 112 bits (279),  Expect = 7e-29, Method: Compositional matrix adjust.
+ Identities = 54/105 (51%), Positives = 66/105 (63%), Gaps = 1/105 (1%)
+
+Query  4    PTAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPA  63
+            PT   V F L ATT  GE+++LVGSI +LG W+    + L+AD Y  +   WYV + LP 
+Sbjct  507  PTKNNVRFRLLATTQVGEDVFLVGSIPELGSWDVKKAVPLNADIYADNCHQWYVDIELPT  566
+
+Query  64   GESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+              +FEYKFIR    + V WE DPNR+YTVPQ CG S A   DTWR
+Sbjct  567  AVAFEYKFIRKRGGEVV-WEQDPNRKYTVPQTCGVSGAIKRDTWR  610
+
+
+> sp|D8Q9M3|AMYG_SCHCM Glucoamylase ARB_02327-1 OS=Schizophyllum 
+commune (strain H4-8 / FGSC 9210) OX=578458 GN=SCHCODRAFT_57589 
+PE=1 SV=1
+Length=576
+
+ Score = 96.3 bits (238),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 51/102 (50%), Positives = 65/102 (64%), Gaps = 8/102 (8%)
+
+Query  7    VAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGES  66
+            VAVT ++ ATT YGENIY+ GS++QL +W   + IAL+AD Y    P W VTV LPA   
+Sbjct  483  VAVTLNVQATTVYGENIYVTGSVNQLANWSPDNAIALNADNY----PTWSVTVNLPANTQ  538
+
+Query  67   FEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+             EYK+IR +++  V WESDPNR  T      + + T  DTWR
+Sbjct  539  IEYKYIR-KNNGQVTWESDPNRSITT---SASGSFTQNDTWR  576
+
+
+> sp|Q03045|AMYG_AMORE Glucoamylase P OS=Amorphotheca resinae OX=5101 
+GN=GAMP PE=1 SV=1
+Length=616
+
+ Score = 86.7 bits (213),  Expect = 5e-20, Method: Compositional matrix adjust.
+ Identities = 45/106 (42%), Positives = 60/106 (57%), Gaps = 1/106 (1%)
+
+Query  2    TTPTAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTL  61
+            T+   V++TF++ ATT YGEN+Y++G+ S LG W  +D   LSA  YT   PLW   + L
+Sbjct  502  TSSCQVSITFNINATTYYGENLYVIGNSSDLGAWNIADAYPLSASAYTQDRPLWSAAIPL  561
+
+Query  62   PAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTW  107
+             AGE   Y+++R E  D        NR  TVP ACG +  T  D W
+Sbjct  562  NAGEVISYQYVRQEDCDQPYIYETVNRTLTVP-ACGGAAVTTDDAW  606
+
+
+> sp|P22998|AMY_STRVL Alpha-amylase OS=Streptomyces violaceus OX=1936 
+GN=aml PE=2 SV=1
+Length=569
+
+ Score = 82.8 bits (203),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 42/101 (42%), Positives = 62/101 (61%), Gaps = 7/101 (7%)
+
+Query  8    AVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGESF  67
+              +F++TATT  G+NIY+ G+ ++LG+W  +  + L    Y    P+W +TV LPAG SF
+Sbjct  475  GASFNVTATTVVGQNIYVTGNRAELGNWAPASALKLDPATY----PVWKLTVGLPAGTSF  530
+
+Query  68   EYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            EYK+IR ++  +V WES  NR  TVP    +    + DT+R
+Sbjct  531  EYKYIRKDAAGNVTWESGANRTATVP---ASGQLVLNDTFR  568
+
+
+> sp|P26827|CDGT_THETU Cyclomaltodextrin glucanotransferase OS=Thermoanaerobacterium 
+thermosulfurigenes OX=33950 GN=amyA PE=1 
+SV=2
+Length=710
+
+ Score = 79.3 bits (194),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 37/94 (39%), Positives = 60/94 (64%), Gaps = 4/94 (4%)
+
+Query  15   ATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGESFEYKFIRI  74
+            A+T YGEN+YL G++++LG+W+TS  I    ++     P WY  V++PAG + ++KFI+ 
+Sbjct  620  ASTVYGENVYLTGNVAELGNWDTSKAIGPMFNQVVYQYPTWYYDVSVPAGTTIQFKFIK-  678
+
+Query  75   ESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            ++ +++ WE   N  YTVP +   ST TV   W+
+Sbjct  679  KNGNTITWEGGSNHTYTVPSS---STGTVIVNWQ  709
+
+
+> sp|P31797|CDGT_GEOSE Cyclomaltodextrin glucanotransferase OS=Geobacillus 
+stearothermophilus OX=1422 GN=cgt PE=1 SV=1
+Length=711
+
+ Score = 79.0 bits (193),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 39/92 (42%), Positives = 59/92 (64%), Gaps = 1/92 (1%)
+
+Query  3    TPTAVAVTFDLT-ATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTL  61
+            T   V+V F +  ATT  G+NIY+VG++ +LG+W+TS  I    ++   S P WY+ V++
+Sbjct  607  TNDQVSVRFVVNNATTNLGQNIYIVGNVYELGNWDTSKAIGPMFNQVVYSYPTWYIDVSV  666
+
+Query  62   PAGESFEYKFIRIESDDSVEWESDPNREYTVP  93
+            P G++ E+KFI+ +S  +V WES  N  YT P
+Sbjct  667  PEGKTIEFKFIKKDSQGNVTWESGSNHVYTTP  698
+
+
+> sp|O30565|CDGT_BREBE Cyclomaltodextrin glucanotransferase OS=Brevibacillus 
+brevis OX=1393 GN=cgt PE=3 SV=1
+Length=692
+
+ Score = 78.6 bits (192),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 39/102 (38%), Positives = 62/102 (61%), Gaps = 4/102 (4%)
+
+Query  7    VAVTFDLT-ATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGE  65
+            V+V F +  ATT  G N+Y+VG++S+LG+W+ +  I    ++     P WY  +++PAG+
+Sbjct  594  VSVRFAVNNATTNSGTNVYIVGNVSELGNWDPNKAIGPMFNQVMYKYPTWYYDISVPAGK  653
+
+Query  66   SFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTW  107
+            + EYK+I+ + + +V W+S  NR YT P    T T TV   W
+Sbjct  654  NLEYKYIKKDHNGNVTWQSGNNRTYTSP---ATGTDTVISNW  692
+
+
+> sp|P27036|CDGT_BACOH Cyclomaltodextrin glucanotransferase OS=Bacillus 
+ohbensis OX=1481 GN=cgt PE=3 SV=2
+Length=704
+
+ Score = 75.9 bits (185),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 40/102 (39%), Positives = 61/102 (60%), Gaps = 2/102 (2%)
+
+Query  3    TPTAVAVTFDLT-ATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTL  61
+            T   V++ F +  ATT+ G N+Y+VG++++LG+W+    I    ++     P WY  +++
+Sbjct  601  TGDQVSIRFAVNNATTSLGTNLYMVGNVNELGNWDPDQAIGPMFNQVMYQYPTWYYDISV  660
+
+Query  62   PAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATV  103
+            PA E+ EYKFI+ +S  +V WES  N  YT P A GT T  V
+Sbjct  661  PAEENLEYKFIKKDSSGNVVWESGNNHTYTTP-ATGTDTVLV  701
+
+
+> sp|P31746|CDGT_BACS2 Cyclomaltodextrin glucanotransferase OS=Bacillus 
+sp. (strain 1-1) OX=29334 GN=cgt PE=1 SV=1
+Length=703
+
+ Score = 75.1 bits (183),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 38/104 (37%), Positives = 62/104 (60%), Gaps = 4/104 (4%)
+
+Query  5    TAVAVTFDLT-ATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPA  63
+              V+V F +  ATT+ G N+Y+VG++++LG+W+    I    ++     P WY  +++PA
+Sbjct  603  NQVSVRFGVNNATTSPGTNLYIVGNVNELGNWDADKAIGPMFNQVMYQYPTWYYDISVPA  662
+
+Query  64   GESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTW  107
+            G++ EYK+I+ + + +V W+S  NR YT P    T T TV   W
+Sbjct  663  GKNLEYKYIKKDQNGNVVWQSGNNRTYTSPT---TGTDTVMINW  703
+
+
+> sp|P30921|CDGT_BAC11 Cyclomaltodextrin glucanotransferase OS=Bacillus 
+sp. (strain 17-1) OX=72572 GN=cgt PE=1 SV=1
+Length=713
+
+ Score = 73.2 bits (178),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 38/103 (37%), Positives = 61/103 (59%), Gaps = 5/103 (5%)
+
+Query  7    VAVTFDLT-ATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGE  65
+            V+V F +  ATT  G+N+YL GS+S+LG+W+ +  I    ++     P WY  VT+PAG+
+Sbjct  614  VSVRFVVNNATTALGQNVYLAGSVSELGNWDPAKAIGPLYNQVIYQYPTWYYDVTVPAGK  673
+
+Query  66   SFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            + E+KF++ +   +V WE   N  +T P    + TAT+   W+
+Sbjct  674  TIEFKFLK-KQGSTVTWEGGSNHTFTAPT---SGTATINVNWQ  712
+
+
+> sp|P09121|CDGT_BACS3 Cyclomaltodextrin glucanotransferase OS=Bacillus 
+sp. (strain 38-2) OX=1412 GN=cgt PE=1 SV=2
+Length=712
+
+ Score = 73.2 bits (178),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 37/103 (36%), Positives = 62/103 (60%), Gaps = 5/103 (5%)
+
+Query  7    VAVTFDLT-ATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGE  65
+            V V F +  ATT  G+N++L G++S+LG+W+ ++ I    ++     P WY  V++PAG+
+Sbjct  613  VTVRFVINNATTALGQNVFLTGNVSELGNWDPNNAIGPMYNQVVYQYPTWYYDVSVPAGQ  672
+
+Query  66   SFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            + E+KF++ +   +V WE   NR +T P    + TATV   W+
+Sbjct  673  TIEFKFLK-KQGSTVTWEGGANRTFTTPT---SGTATVNVNWQ  711
+
+
+> sp|P05618|CDGT_BACS0 Cyclomaltodextrin glucanotransferase OS=Bacillus 
+sp. (strain 1011) OX=1410 GN=cgt PE=1 SV=1
+Length=713
+
+ Score = 73.2 bits (178),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 34/95 (36%), Positives = 58/95 (61%), Gaps = 4/95 (4%)
+
+Query  14   TATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGESFEYKFIR  73
+             ATT  G+N++L G++S+LG+W+ ++ I    ++     P WY  V++PAG++ E+KF++
+Sbjct  622  NATTALGQNVFLTGNVSELGNWDPNNAIGPMYNQVVYQYPTWYYDVSVPAGQTIEFKFLK  681
+
+Query  74   IESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+             +   +V WE   NR +T P    + TATV   W+
+Sbjct  682  -KQGSTVTWEGGANRTFTTPT---SGTATVNVNWQ  712
+
+
+> sp|P43379|CDGT2_BACCI Cyclomaltodextrin glucanotransferase OS=Bacillus 
+circulans OX=1397 GN=cgt PE=1 SV=1
+Length=713
+
+ Score = 72.8 bits (177),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 37/103 (36%), Positives = 61/103 (59%), Gaps = 5/103 (5%)
+
+Query  7    VAVTFDLT-ATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGE  65
+            V+V F +  ATT  G+N+YL GS+S+LG+W+ +  I    ++     P WY  V++PAG+
+Sbjct  614  VSVRFVVNNATTALGQNVYLTGSVSELGNWDPAKAIGPMYNQVVYQYPNWYYDVSVPAGK  673
+
+Query  66   SFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            + E+KF++ +   +V WE   N  +T P    + TAT+   W+
+Sbjct  674  TIEFKFLK-KQGSTVTWEGGSNHTFTAPS---SGTATINVNWQ  712
+
+
+> sp|P31747|CDGT_BACSS Cyclomaltodextrin glucanotransferase OS=Bacillus 
+sp. (strain 6.6.3) OX=29335 GN=cgt PE=3 SV=1
+Length=718
+
+ Score = 72.4 bits (176),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 36/92 (39%), Positives = 58/92 (63%), Gaps = 3/92 (3%)
+
+Query  14   TATTTYGENIYLVGSISQLGDWET-SDGIALSADKYTSSDPLWYVTVTLPAGESFEYKFI  72
+             A+TT G+NIYL G++++LG+W T S  I  + ++     P WY  V++PAG+  E+KF 
+Sbjct  627  NASTTLGQNIYLTGNVAELGNWSTGSTAIGPAFNQVIHQYPTWYYDVSVPAGKELEFKFF  686
+
+Query  73   RIESDDSVEWESDPNREYTVPQACGTSTATVT  104
+            + ++  ++ WE   N ++T P A GT+T TV 
+Sbjct  687  K-KNGSTITWEGGSNHKFTTP-ASGTATVTVN  716
+
+
+> sp|P30270|AMY_STRGR Alpha-amylase OS=Streptomyces griseus OX=1911 
+GN=amy PE=3 SV=1
+Length=566
+
+ Score = 72.4 bits (176),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 40/102 (39%), Positives = 59/102 (58%), Gaps = 9/102 (9%)
+
+Query  8    AVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGESF  67
+            + +F + ATT +GENIY+ G  + LG+W+ +  + L    Y    P+W + V L AG  F
+Sbjct  472  SASFHVNATTAWGENIYVTGDQAALGNWDPARALKLDPAAY----PVWKLDVPLAAGTPF  527
+
+Query  68   EYKFIRIESDDSVEWESDPNREYTVPQACGTSTA-TVTDTWR  108
+            +YK++R ++     WES  NR  TV    GT+ A T+ DTWR
+Sbjct  528  QYKYLRKDAAGKAVWESGANRTATV----GTTGALTLNDTWR  565
+
+
+> sp|P09794|AMY_STRLM Alpha-amylase OS=Streptomyces limosus OX=1947 
+GN=aml PE=3 SV=1
+Length=566
+
+ Score = 72.4 bits (176),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 40/102 (39%), Positives = 59/102 (58%), Gaps = 9/102 (9%)
+
+Query  8    AVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGESF  67
+            + +F + ATT +GENIY+ G  + LG+W+ +  + L    Y    P+W + V L AG  F
+Sbjct  472  SASFHVNATTAWGENIYVTGDQAALGNWDPARALKLDPAAY----PVWKLDVPLAAGTPF  527
+
+Query  68   EYKFIRIESDDSVEWESDPNREYTVPQACGTSTA-TVTDTWR  108
+            +YK++R ++     WES  NR  TV    GT+ A T+ DTWR
+Sbjct  528  QYKYLRKDAAGKAVWESGANRTATV----GTTGALTLNDTWR  565
+
+
+> sp|P30920|CDGT1_BACCI Cyclomaltodextrin glucanotransferase OS=Bacillus 
+circulans OX=1397 PE=1 SV=1
+Length=718
+
+ Score = 72.0 bits (175),  Expect = 7e-15, Method: Compositional matrix adjust.
+ Identities = 36/92 (39%), Positives = 58/92 (63%), Gaps = 3/92 (3%)
+
+Query  14   TATTTYGENIYLVGSISQLGDWET-SDGIALSADKYTSSDPLWYVTVTLPAGESFEYKFI  72
+             A+TT G+N+YL G++++LG+W T S  I  + ++     P WY  V++PAG+  E+KF 
+Sbjct  627  NASTTLGQNLYLTGNVAELGNWSTGSTAIGPAFNQVIHQYPTWYYDVSVPAGKQLEFKFF  686
+
+Query  73   RIESDDSVEWESDPNREYTVPQACGTSTATVT  104
+            + ++  ++ WES  N  +T P A GT+T TV 
+Sbjct  687  K-KNGSTITWESGSNHTFTTP-ASGTATVTVN  716
+
+
+> sp|P19584|AMYB_THETU Thermophilic beta-amylase OS=Thermoanaerobacterium 
+thermosulfurigenes OX=33950 PE=1 SV=1
+Length=551
+
+ Score = 71.2 bits (173),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 44/105 (42%), Positives = 62/105 (59%), Gaps = 11/105 (10%)
+
+Query  7    VAVTFDLT-ATTTYGENIYLVGSISQLGDWET--SDGIALSADKYTSSDPLWYVTVTLPA  63
+            + VTF +  ATT YG+N+Y+VGS S LG+W T  + G A S   Y    P W +T+ L  
+Sbjct  454  IPVTFTINNATTYYGQNVYIVGSTSDLGNWNTTYARGPA-SCPNY----PTWTITLNLLP  508
+
+Query  64   GESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            GE  ++K ++I+S  +V WE   N  YTVP    + T +VT TW+
+Sbjct  509  GEQIQFKAVKIDSSGNVTWEGGSNHTYTVPT---SGTGSVTITWQ  550
+
+
+> sp|P14014|CDGT_BACLI Cyclomaltodextrin glucanotransferase OS=Bacillus 
+licheniformis OX=1402 GN=cgtA PE=3 SV=1
+Length=718
+
+ Score = 71.2 bits (173),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 40/104 (38%), Positives = 63/104 (61%), Gaps = 6/104 (6%)
+
+Query  7    VAVTFDLT-ATTTYGENIYLVGSISQLGDWET-SDGIALSADKYTSSDPLWYVTVTLPAG  64
+            V+V F +  ATT  GENIYL G++S+LG+W T +  I  + ++   + P WY  V++PAG
+Sbjct  619  VSVRFVINNATTALGENIYLTGNVSELGNWTTGAASIGPAFNQVIHAYPTWYYDVSVPAG  678
+
+Query  65   ESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            +  E+KF + ++  ++ WE   N  +T P    + TATVT  W+
+Sbjct  679  KQLEFKFFK-KNGATITWEGGSNHTFTTPT---SGTATVTINWQ  718
+
+
+> sp|P31835|CDGT2_PAEMA Cyclomaltodextrin glucanotransferase OS=Paenibacillus 
+macerans OX=44252 PE=1 SV=1
+Length=713
+
+ Score = 70.9 bits (172),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 36/103 (35%), Positives = 60/103 (58%), Gaps = 5/103 (5%)
+
+Query  7    VAVTFDLT-ATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGE  65
+            V V F +  ATT  G+N+YL G++++LG+W  ++ I    ++  +S P WY  V++PA  
+Sbjct  614  VTVRFKVNNATTALGQNVYLTGNVAELGNWTAANAIGPMYNQVEASYPTWYFDVSVPANT  673
+
+Query  66   SFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            + ++KFI++    +V WE   N  +T P    +  ATVT  W+
+Sbjct  674  ALQFKFIKVNG-STVTWEGGNNHTFTSPS---SGVATVTVDWQ  712
+
+
+> sp|P17692|CDGT_BACS8 Cyclomaltodextrin glucanotransferase OS=Bacillus 
+sp. (strain B1018) OX=1417 GN=cgt PE=1 SV=1
+Length=713
+
+ Score = 69.7 bits (169),  Expect = 5e-14, Method: Composition-based stats.
+ Identities = 33/94 (35%), Positives = 56/94 (60%), Gaps = 4/94 (4%)
+
+Query  15   ATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGESFEYKFIRI  74
+            ATT  G+N+YL G++S+LG+W+ +  I    ++     P WY  V++PAG++ E+KF++ 
+Sbjct  623  ATTALGQNLYLTGNVSELGNWDPAKAIGPMYNQVVYQYPNWYYDVSVPAGKTIEFKFLK-  681
+
+Query  75   ESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            +   +V WE   N  +T P    + TAT+   W+
+Sbjct  682  KQGSTVTWEGGSNHTFTAPS---SGTATINVNWQ  712
+
+
+> sp|P04830|CDGT1_PAEMA Cyclomaltodextrin glucanotransferase OS=Paenibacillus 
+macerans OX=44252 GN=cgtM PE=1 SV=2
+Length=714
+
+ Score = 69.7 bits (169),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 35/89 (39%), Positives = 51/89 (57%), Gaps = 2/89 (2%)
+
+Query  15   ATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGESFEYKFIRI  74
+            A T YG N+YLVG+ ++LG W+ +  I    ++  +  P WY  V++PAG   ++KFI+ 
+Sbjct  624  ANTNYGTNVYLVGNAAELGSWDPNKAIGPMYNQVIAKYPSWYYDVSVPAGTKLDFKFIK-  682
+
+Query  75   ESDDSVEWESDPNREYTVPQACGTSTATV  103
+            +   +V WE   N  YT P A G  T TV
+Sbjct  683  KGGGTVTWEGGGNHTYTTP-ASGVGTVTV  710
+
+
+> sp|P29750|AMY_THECU Alpha-amylase OS=Thermomonospora curvata 
+OX=2020 GN=tam PE=1 SV=1
+Length=605
+
+ Score = 62.4 bits (150),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 33/75 (44%), Positives = 45/75 (60%), Gaps = 5/75 (7%)
+
+Query  1    CTTPTAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVT  60
+            CTT TA    F  T TT YG+ + +VGSI +LG W+ + G+ L  D  T   P+W   V 
+Sbjct  503  CTTVTA---RFHATVTTWYGQEVAVVGSIPELGSWQPAQGVRLRTDSGTY--PVWSGAVD  557
+
+Query  61   LPAGESFEYKFIRIE  75
+            LPAG  FEYK++++ 
+Sbjct  558  LPAGVGFEYKYVKLN  572
+
+
+> sp|P19531|AMYM_GEOSE Maltogenic alpha-amylase OS=Geobacillus 
+stearothermophilus OX=1422 GN=amyM PE=1 SV=2
+Length=719
+
+ Score = 60.1 bits (144),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 33/109 (30%), Positives = 56/109 (51%), Gaps = 6/109 (6%)
+
+Query  3    TPTAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADK---YTSSDPLWYVTV  59
+            T T+V  T      T  G+ IYL G+I +LG+W T    A++  +      + P W+   
+Sbjct  613  TQTSVVFTVKSAPPTNLGDKIYLTGNIPELGNWSTDTSGAVNNAQGPLLAPNYPDWFYVF  672
+
+Query  60   TLPAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            ++PAG++ ++KF    +D +++WE+  N   T P      T  +T TW+
+Sbjct  673  SVPAGKTIQFKFFIKRADGTIQWENGSNHVATTPTGA---TGNITVTWQ  718
+
+
+> sp|P22963|AMT4_PELSC Glucan 1,4-alpha-maltotetraohydrolase OS=Pelomonas 
+saccharophila OX=304 GN=mta PE=1 SV=1
+Length=551
+
+ Score = 53.9 bits (128),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 33/90 (37%), Positives = 54/90 (60%), Gaps = 8/90 (9%)
+
+Query  15   ATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGESFEYK-FIR  73
+              T  G+++Y VG++SQLG+W  +  + L+    TSS P W  ++ LP G++ E+K  IR
+Sbjct  464  GVTQMGDSVYAVGNVSQLGNWSPASAVRLTD---TSSYPTWKGSIALPDGQNVEWKCLIR  520
+
+Query  74   IESDDSV--EWESDPNREYTVPQACGTSTA  101
+             E+D ++  +W+S  N +  V  A G ST+
+Sbjct  521  NEADATLVRQWQSGGNNQ--VQAAAGASTS  548
+
+
+> sp|Q6ZY51|PWD_ARATH Phosphoglucan, water dikinase, chloroplastic 
+OS=Arabidopsis thaliana OX=3702 GN=GWD3 PE=1 SV=1
+Length=1196
+
+ Score = 50.8 bits (120),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 28/104 (27%), Positives = 47/104 (45%), Gaps = 7/104 (7%)
+
+Query  5    TAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAG  64
+            T V +   L     +G+++ + GS  ++G W+    +  S +        W   + L  G
+Sbjct  72   TKVRLNVRLDHQVNFGDHVAMFGSAKEIGSWKKKSPLNWSENG-------WVCELELDGG  124
+
+Query  65   ESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            +  EYKF+ +++D S+ WES  NR   VP +   S     D  R
+Sbjct  125  QVLEYKFVIVKNDGSLSWESGDNRVLKVPNSGNFSVVCHWDATR  168
+
+
+> sp|P08704|CDGT_KLEOX Cyclomaltodextrin glucanotransferase OS=Klebsiella 
+oxytoca OX=571 GN=cgt PE=3 SV=1
+Length=655
+
+ Score = 48.5 bits (114),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 25/93 (27%), Positives = 50/93 (54%), Gaps = 8/93 (9%)
+
+Query  3    TPTAVAVTFDLT-ATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTL  61
+             PT  ++ F      T  G+++Y++G+I QLG W+ +  + +S  +Y    P W  ++ L
+Sbjct  556  NPTVQSINFTCNNGYTISGQSVYIIGNIPQLGGWDLTKAVKISPTQY----PQWSASLEL  611
+
+Query  62   PAGESFEYKFIRIESDD---SVEWESDPNREYT  91
+            P+  + E+K ++    +   +VEW+S  N ++ 
+Sbjct  612  PSDLNVEWKCVKRNETNPTANVEWQSGANNQFN  644
+
+
+> sp|P13507|AMT4_PSEST Glucan 1,4-alpha-maltotetraohydrolase OS=Pseudomonas 
+stutzeri OX=316 GN=amyP PE=1 SV=2
+Length=548
+
+ Score = 47.8 bits (112),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 31/96 (32%), Positives = 53/96 (55%), Gaps = 7/96 (7%)
+
+Query  7    VAVTFDL-TATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGE  65
+            V+V+F      T  G+++Y VG++SQLG+W  +  + L+    TS  P W  ++ LPAG+
+Sbjct  452  VSVSFRCDNGATQMGDSVYAVGNVSQLGNWSPAAALRLTD---TSGYPTWKGSIALPAGQ  508
+
+Query  66   SFEYK-FIRIESDDSV--EWESDPNREYTVPQACGT  98
+            + E+K  IR E++ +   +W+   N   T  +   T
+Sbjct  509  NEEWKCLIRNEANATQVRQWQGGANNSLTPSEGATT  544
+
+
+> sp|Q9NPB8|GPCP1_HUMAN Glycerophosphocholine phosphodiesterase 
+GPCPD1 OS=Homo sapiens OX=9606 GN=GPCPD1 PE=1 SV=2
+Length=672
+
+ Score = 45.1 bits (105),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 23/71 (32%), Positives = 36/71 (51%), Gaps = 2/71 (3%)
+
+Query  3   TPTAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLP  62
+           TP+ VA  F++  T   GE   + GS   LG+W   + +AL  +  T    LW  T+ L 
+Sbjct  2   TPSQVA--FEIRGTLLPGEVFAICGSCDALGNWNPQNAVALLPENDTGESMLWKATIVLS  59
+
+Query  63  AGESFEYKFIR  73
+            G S +Y++ +
+Sbjct  60  RGVSVQYRYFK  70
+
+
+> sp|Q8C0L9|GPCP1_MOUSE Glycerophosphocholine phosphodiesterase 
+GPCPD1 OS=Mus musculus OX=10090 GN=Gpcpd1 PE=1 SV=1
+Length=675
+
+ Score = 44.7 bits (104),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 22/69 (32%), Positives = 33/69 (48%), Gaps = 0/69 (0%)
+
+Query  5   TAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAG  64
+           T   VTF++  T   GE   + GS   LG+W   + +AL  +  T    LW   + L  G
+Sbjct  2   TPSQVTFEIRGTLLPGEVFAICGSCDALGNWNPQNAVALINENETGDSVLWKAVIALNRG  61
+
+Query  65  ESFEYKFIR  73
+            S +Y++ R
+Sbjct  62  VSVKYRYFR  70
+
+
+> sp|Q8RXD9|DPE2_ARATH 4-alpha-glucanotransferase DPE2 OS=Arabidopsis 
+thaliana OX=3702 GN=DPE2 PE=1 SV=1
+Length=955
+
+ Score = 43.9 bits (102),  Expect = 6e-05, Method: Composition-based stats.
+ Identities = 19/74 (26%), Positives = 44/74 (59%), Gaps = 5/74 (7%)
+
+Query  20   GENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGE-SFEYKFIRIESDD  78
+            G ++Y++G+  +LG+W+  +G+ L+       D +W     +P  +   +Y++ +++ +D
+Sbjct  177  GTSVYVLGTPEKLGNWKVENGLRLN----YVDDSIWEADCLIPKADFPIKYRYCKVQKED  232
+
+Query  79   SVEWESDPNREYTV  92
+            S+ +ES  NRE ++
+Sbjct  233  SIGFESGGNRELSL  246
+
+
+> sp|Q8C7E7|STBD1_MOUSE Starch-binding domain-containing protein 
+1 OS=Mus musculus OX=10090 GN=Stbd1 PE=1 SV=1
+Length=338
+
+ Score = 39.3 bits (90),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 27/86 (31%), Positives = 40/86 (47%), Gaps = 7/86 (8%)
+
+Query  4    PTAVAVTFDLTATT-TYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLP  62
+            P  V++ F +  TT T  + I + G    LG W T   +      +   D LW  +V LP
+Sbjct  241  PQQVSIQFQVHYTTNTDVQFIAVTGDHESLGRWNTYIPL------HYCKDGLWSHSVFLP  294
+
+Query  63   AGESFEYKFIRIESDDSVEWESDPNR  88
+            A    E+KF+ +E+ +   WE   NR
+Sbjct  295  ADTVVEWKFVLVENKEVTRWEECSNR  320
+
+
+> sp|Q5FVN1|STBD1_RAT Starch-binding domain-containing protein 
+1 OS=Rattus norvegicus OX=10116 GN=Stbd1 PE=1 SV=1
+Length=333
+
+ Score = 38.9 bits (89),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 26/86 (30%), Positives = 41/86 (48%), Gaps = 7/86 (8%)
+
+Query  4    PTAVAVTFDL-TATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLP  62
+            P  V++ F +  +T+T  + I + G    LG W T   +      +   D LW  +V LP
+Sbjct  236  PRQVSIQFKVHYSTSTDVQFIAVTGDHESLGGWNTYIPL------HYCKDGLWSHSVFLP  289
+
+Query  63   AGESFEYKFIRIESDDSVEWESDPNR  88
+            A    E+KF+ +E+ +   WE   NR
+Sbjct  290  ADTVVEWKFVLVENKEVTRWEECSNR  315
+
+
+> sp|Q80VJ4|GPCP1_RAT Glycerophosphocholine phosphodiesterase GPCPD1 
+OS=Rattus norvegicus OX=10116 GN=Gpcpd1 PE=1 SV=1
+Length=672
+
+ Score = 38.5 bits (88),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 18/69 (26%), Positives = 34/69 (49%), Gaps = 2/69 (3%)
+
+Query  5   TAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAG  64
+           T   VTF++  T   GE   + G+   LG+W   + + L+  +  + + +W   + L  G
+Sbjct  2   TPSQVTFEIRGTLLPGEVFAMCGNCDALGNWSPQNAVPLTESE--TGESVWKAVIVLSRG  59
+
+Query  65  ESFEYKFIR  73
+            S +Y++ R
+Sbjct  60  MSVKYRYFR  68
+
+
+> sp|Q69Q02|DPE2_ORYSJ 4-alpha-glucanotransferase DPE2 OS=Oryza 
+sativa subsp. japonica OX=39947 GN=DPE2 PE=2 SV=1
+Length=946
+
+ Score = 38.1 bits (87),  Expect = 0.007, Method: Compositional matrix adjust.
+ Identities = 27/91 (30%), Positives = 39/91 (43%), Gaps = 6/91 (7%)
+
+Query  4    PTAVAVTFDLTATTT-YGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLP  62
+            P  + V F ++      G  + + GS  QLG W+T DG+ L+       D +W     L 
+Sbjct  153  PEDIVVQFIVSCPRLGAGSTVVVTGSNPQLGRWQTQDGLKLN----YVGDSIWKANCLLR  208
+
+Query  63   AGE-SFEYKFIRIESDDSVEWESDPNREYTV  92
+              E   +YK+ +I        E  PNRE  V
+Sbjct  209  KSEFPIKYKYCKISEAGVSSLEFGPNREADV  239
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.127    0.391    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5120154688
+Results from round 2
+
+
+Query= 5GHL:A
+
+Length=108
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P69328|AMYG_ASPNG Glucoamylase OS=Aspergillus niger OX=5061 ...  147     1e-41
+  sp|P69327|AMYG_ASPAW Glucoamylase OS=Aspergillus awamori OX=105...  147     1e-41
+  sp|P23176|AMYG_ASPKA Glucoamylase I OS=Aspergillus kawachii OX=...  147     2e-41
+  sp|P22832|AMYG_ASPSH Glucoamylase OS=Aspergillus shirousami OX=...  146     4e-41
+  sp|P27036|CDGT_BACOH Cyclomaltodextrin glucanotransferase OS=Ba...  143     5e-40
+  sp|P05618|CDGT_BACS0 Cyclomaltodextrin glucanotransferase OS=Ba...  142     1e-39
+  sp|P09121|CDGT_BACS3 Cyclomaltodextrin glucanotransferase OS=Ba...  142     1e-39
+  sp|O30565|CDGT_BREBE Cyclomaltodextrin glucanotransferase OS=Br...  141     2e-39
+  sp|P17692|CDGT_BACS8 Cyclomaltodextrin glucanotransferase OS=Ba...  140     5e-39
+  sp|P43379|CDGT2_BACCI Cyclomaltodextrin glucanotransferase OS=B...  140     5e-39
+  sp|P36914|AMYG_ASPOR Glucoamylase OS=Aspergillus oryzae (strain...  139     6e-39
+  sp|P31797|CDGT_GEOSE Cyclomaltodextrin glucanotransferase OS=Ge...  140     7e-39
+  sp|P31746|CDGT_BACS2 Cyclomaltodextrin glucanotransferase OS=Ba...  139     2e-38
+  sp|P30921|CDGT_BAC11 Cyclomaltodextrin glucanotransferase OS=Ba...  137     8e-38
+  sp|P26827|CDGT_THETU Cyclomaltodextrin glucanotransferase OS=Th...  134     6e-37
+  sp|P04830|CDGT1_PAEMA Cyclomaltodextrin glucanotransferase OS=P...  131     1e-35
+  sp|P0DN29|AMYG_ARTBC Glucoamylase ARB_02327-1 OS=Arthroderma be...  130     1e-35
+  sp|P14804|AMYG_NEUCR Glucoamylase OS=Neurospora crassa (strain ...  126     3e-34
+  sp|P14014|CDGT_BACLI Cyclomaltodextrin glucanotransferase OS=Ba...  126     8e-34
+  sp|P31747|CDGT_BACSS Cyclomaltodextrin glucanotransferase OS=Ba...  125     1e-33
+  sp|P30920|CDGT1_BACCI Cyclomaltodextrin glucanotransferase OS=B...  125     1e-33
+  sp|Q03045|AMYG_AMORE Glucoamylase P OS=Amorphotheca resinae OX=...  124     4e-33
+  sp|P31835|CDGT2_PAEMA Cyclomaltodextrin glucanotransferase OS=P...  122     1e-32
+  sp|P30270|AMY_STRGR Alpha-amylase OS=Streptomyces griseus OX=19...  118     3e-31
+  sp|P09794|AMY_STRLM Alpha-amylase OS=Streptomyces limosus OX=19...  117     4e-31
+  sp|P22998|AMY_STRVL Alpha-amylase OS=Streptomyces violaceus OX=...  117     4e-31
+  sp|Q6ZY51|PWD_ARATH Phosphoglucan, water dikinase, chloroplasti...  114     1e-29
+  sp|D8Q9M3|AMYG_SCHCM Glucoamylase ARB_02327-1 OS=Schizophyllum ...  112     3e-29
+  sp|P19531|AMYM_GEOSE Maltogenic alpha-amylase OS=Geobacillus st...  112     5e-29
+  sp|P19584|AMYB_THETU Thermophilic beta-amylase OS=Thermoanaerob...  106     5e-27
+  sp|P22963|AMT4_PELSC Glucan 1,4-alpha-maltotetraohydrolase OS=P...  94.0    1e-22
+  sp|P13507|AMT4_PSEST Glucan 1,4-alpha-maltotetraohydrolase OS=P...  93.7    2e-22
+  sp|P29750|AMY_THECU Alpha-amylase OS=Thermomonospora curvata OX...  93.7    2e-22
+  sp|P08704|CDGT_KLEOX Cyclomaltodextrin glucanotransferase OS=Kl...  91.3    1e-21
+  sp|Q8C0L9|GPCP1_MOUSE Glycerophosphocholine phosphodiesterase G...  87.5    3e-20
+  sp|Q9NPB8|GPCP1_HUMAN Glycerophosphocholine phosphodiesterase G...  86.7    5e-20
+  sp|Q8RXD9|DPE2_ARATH 4-alpha-glucanotransferase DPE2 OS=Arabido...  80.2    1e-17
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q80VJ4|GPCP1_RAT Glycerophosphocholine phosphodiesterase GPC...  76.3    3e-16
+  sp|Q69Q02|DPE2_ORYSJ 4-alpha-glucanotransferase DPE2 OS=Oryza s...  67.5    3e-13
+  sp|Q2QTC2|PWD_ORYSJ Phosphoglucan, water dikinase, chloroplasti...  66.7    6e-13
+  sp|P36924|AMYB_BACCE Beta-amylase OS=Bacillus cereus OX=1396 GN...  62.1    2e-11
+  sp|F4IV66|RNE_ARATH Ribonuclease E/G-like protein, chloroplasti...  60.1    1e-10
+  sp|O95210|STBD1_HUMAN Starch-binding domain-containing protein ...  58.2    4e-10
+  sp|Q8C7E7|STBD1_MOUSE Starch-binding domain-containing protein ...  57.8    7e-10
+  sp|Q5FVN1|STBD1_RAT Starch-binding domain-containing protein 1 ...  57.4    1e-09
+  sp|Q1M199|EPM2A_CANLF Laforin OS=Canis lupus familiaris OX=9615...  50.1    3e-07
+  sp|Q9WUA5|EPM2A_MOUSE Laforin OS=Mus musculus OX=10090 GN=Epm2a...  45.1    2e-05
+  sp|Q91XQ2|EPM2A_RAT Laforin OS=Rattus norvegicus OX=10116 GN=Ep...  43.6    7e-05
+  sp|O95278|EPM2A_HUMAN Laforin OS=Homo sapiens OX=9606 GN=EPM2A ...  41.3    4e-04
+  sp|A0P8X0|AAMY_BACCI Alpha-amylase OS=Bacillus circulans OX=139...  38.6    0.004
+
+
+> sp|P69328|AMYG_ASPNG Glucoamylase OS=Aspergillus niger OX=5061 
+GN=GLAA PE=1 SV=1
+Length=640
+
+ Score = 147 bits (371),  Expect = 1e-41, Method: Composition-based stats.
+ Identities = 103/103 (100%), Positives = 103/103 (100%), Gaps = 0/103 (0%)
+
+Query  6    AVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGE  65
+            AVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGE
+Sbjct  538  AVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGE  597
+
+Query  66   SFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            SFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR
+Sbjct  598  SFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  640
+
+
+> sp|P69327|AMYG_ASPAW Glucoamylase OS=Aspergillus awamori OX=105351 
+GN=GLAA PE=1 SV=1
+Length=640
+
+ Score = 147 bits (371),  Expect = 1e-41, Method: Composition-based stats.
+ Identities = 103/103 (100%), Positives = 103/103 (100%), Gaps = 0/103 (0%)
+
+Query  6    AVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGE  65
+            AVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGE
+Sbjct  538  AVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGE  597
+
+Query  66   SFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            SFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR
+Sbjct  598  SFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  640
+
+
+> sp|P23176|AMYG_ASPKA Glucoamylase I OS=Aspergillus kawachii OX=40384 
+GN=gaI PE=1 SV=1
+Length=639
+
+ Score = 147 bits (370),  Expect = 2e-41, Method: Composition-based stats.
+ Identities = 100/103 (97%), Positives = 102/103 (99%), Gaps = 0/103 (0%)
+
+Query  6    AVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGE  65
+            AVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSS+PLWYVTVTLPAGE
+Sbjct  537  AVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSNPLWYVTVTLPAGE  596
+
+Query  66   SFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            SFEYKFIR+ESDDSVEWESDPNREYTVPQACG STATVTDTWR
+Sbjct  597  SFEYKFIRVESDDSVEWESDPNREYTVPQACGESTATVTDTWR  639
+
+
+> sp|P22832|AMYG_ASPSH Glucoamylase OS=Aspergillus shirousami OX=5070 
+GN=glaA PE=3 SV=1
+Length=639
+
+ Score = 146 bits (367),  Expect = 4e-41, Method: Composition-based stats.
+ Identities = 99/103 (96%), Positives = 101/103 (98%), Gaps = 0/103 (0%)
+
+Query  6    AVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGE  65
+            AVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSS+P WYVTVTLPAGE
+Sbjct  537  AVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSNPPWYVTVTLPAGE  596
+
+Query  66   SFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            SFEYKFIR+ESDDSVEWESDPNREYTVPQACG STATVTDTWR
+Sbjct  597  SFEYKFIRVESDDSVEWESDPNREYTVPQACGESTATVTDTWR  639
+
+
+> sp|P27036|CDGT_BACOH Cyclomaltodextrin glucanotransferase OS=Bacillus 
+ohbensis OX=1481 GN=cgt PE=3 SV=2
+Length=704
+
+ Score = 143 bits (361),  Expect = 5e-40, Method: Composition-based stats.
+ Identities = 40/107 (37%), Positives = 62/107 (58%), Gaps = 4/107 (4%)
+
+Query  3    TPTAVAVTFDLT-ATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTL  61
+            T   V++ F +  ATT+ G N+Y+VG++++LG+W+    I    ++     P WY  +++
+Sbjct  601  TGDQVSIRFAVNNATTSLGTNLYMVGNVNELGNWDPDQAIGPMFNQVMYQYPTWYYDISV  660
+
+Query  62   PAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            PA E+ EYKFI+ +S  +V WES  N  YT P    T T TV   W+
+Sbjct  661  PAEENLEYKFIKKDSSGNVVWESGNNHTYTTP---ATGTDTVLVDWQ  704
+
+
+> sp|P05618|CDGT_BACS0 Cyclomaltodextrin glucanotransferase OS=Bacillus 
+sp. (strain 1011) OX=1410 GN=cgt PE=1 SV=1
+Length=713
+
+ Score = 142 bits (358),  Expect = 1e-39, Method: Composition-based stats.
+ Identities = 38/107 (36%), Positives = 63/107 (59%), Gaps = 5/107 (5%)
+
+Query  3    TPTAVAVTFDLT-ATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTL  61
+            T   V V F +  ATT  G+N++L G++S+LG+W+ ++ I    ++     P WY  V++
+Sbjct  610  TGDQVTVRFVINNATTALGQNVFLTGNVSELGNWDPNNAIGPMYNQVVYQYPTWYYDVSV  669
+
+Query  62   PAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            PAG++ E+KF++ +   +V WE   NR +T P    + TATV   W+
+Sbjct  670  PAGQTIEFKFLKKQ-GSTVTWEGGANRTFTTPT---SGTATVNVNWQ  712
+
+
+> sp|P09121|CDGT_BACS3 Cyclomaltodextrin glucanotransferase OS=Bacillus 
+sp. (strain 38-2) OX=1412 GN=cgt PE=1 SV=2
+Length=712
+
+ Score = 142 bits (357),  Expect = 1e-39, Method: Composition-based stats.
+ Identities = 38/107 (36%), Positives = 63/107 (59%), Gaps = 5/107 (5%)
+
+Query  3    TPTAVAVTFDLT-ATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTL  61
+            T   V V F +  ATT  G+N++L G++S+LG+W+ ++ I    ++     P WY  V++
+Sbjct  609  TGDQVTVRFVINNATTALGQNVFLTGNVSELGNWDPNNAIGPMYNQVVYQYPTWYYDVSV  668
+
+Query  62   PAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            PAG++ E+KF++ +   +V WE   NR +T P    + TATV   W+
+Sbjct  669  PAGQTIEFKFLKKQ-GSTVTWEGGANRTFTTPT---SGTATVNVNWQ  711
+
+
+> sp|O30565|CDGT_BREBE Cyclomaltodextrin glucanotransferase OS=Brevibacillus 
+brevis OX=1393 GN=cgt PE=3 SV=1
+Length=692
+
+ Score = 141 bits (356),  Expect = 2e-39, Method: Composition-based stats.
+ Identities = 39/106 (37%), Positives = 63/106 (59%), Gaps = 4/106 (4%)
+
+Query  3    TPTAVAVTFDLT-ATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTL  61
+            +   V+V F +  ATT  G N+Y+VG++S+LG+W+ +  I    ++     P WY  +++
+Sbjct  590  SGNQVSVRFAVNNATTNSGTNVYIVGNVSELGNWDPNKAIGPMFNQVMYKYPTWYYDISV  649
+
+Query  62   PAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTW  107
+            PAG++ EYK+I+ + + +V W+S  NR YT P    T T TV   W
+Sbjct  650  PAGKNLEYKYIKKDHNGNVTWQSGNNRTYTSP---ATGTDTVISNW  692
+
+
+> sp|P17692|CDGT_BACS8 Cyclomaltodextrin glucanotransferase OS=Bacillus 
+sp. (strain B1018) OX=1417 GN=cgt PE=1 SV=1
+Length=713
+
+ Score = 140 bits (353),  Expect = 5e-39, Method: Composition-based stats.
+ Identities = 36/107 (34%), Positives = 62/107 (58%), Gaps = 5/107 (5%)
+
+Query  3    TPTAVAVTFDLT-ATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTL  61
+            +   V+V F +  ATT  G+N+YL G++S+LG+W+ +  I    ++     P WY  V++
+Sbjct  610  SGDQVSVRFVVNNATTALGQNLYLTGNVSELGNWDPAKAIGPMYNQVVYQYPNWYYDVSV  669
+
+Query  62   PAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            PAG++ E+KF++ +   +V WE   N  +T P    + TAT+   W+
+Sbjct  670  PAGKTIEFKFLKKQ-GSTVTWEGGSNHTFTAPS---SGTATINVNWQ  712
+
+
+> sp|P43379|CDGT2_BACCI Cyclomaltodextrin glucanotransferase OS=Bacillus 
+circulans OX=1397 GN=cgt PE=1 SV=1
+Length=713
+
+ Score = 140 bits (353),  Expect = 5e-39, Method: Composition-based stats.
+ Identities = 37/107 (35%), Positives = 62/107 (58%), Gaps = 5/107 (5%)
+
+Query  3    TPTAVAVTFDLT-ATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTL  61
+            +   V+V F +  ATT  G+N+YL GS+S+LG+W+ +  I    ++     P WY  V++
+Sbjct  610  SGDQVSVRFVVNNATTALGQNVYLTGSVSELGNWDPAKAIGPMYNQVVYQYPNWYYDVSV  669
+
+Query  62   PAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            PAG++ E+KF++ +   +V WE   N  +T P    + TAT+   W+
+Sbjct  670  PAGKTIEFKFLKKQ-GSTVTWEGGSNHTFTAPS---SGTATINVNWQ  712
+
+
+> sp|P36914|AMYG_ASPOR Glucoamylase OS=Aspergillus oryzae (strain 
+ATCC 42149 / RIB 40) OX=510516 GN=glaA PE=2 SV=2
+Length=612
+
+ Score = 139 bits (351),  Expect = 6e-39, Method: Composition-based stats.
+ Identities = 64/108 (59%), Positives = 80/108 (74%), Gaps = 1/108 (1%)
+
+Query  1    CTTPTAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVT  60
+            C  PT V+VTF + ATT YGE+I +VGSISQLG W  S   AL+AD YT+ +PLW  T+ 
+Sbjct  506  CQVPTTVSVTFAVKATTVYGESIKIVGSISQLGSWNPSSATALNADSYTTDNPLWTGTIN  565
+
+Query  61   LPAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            LPAG+SFEYKFIR+++  +V WESDPNR+YTVP  CG  +A  +D WR
+Sbjct  566  LPAGQSFEYKFIRVQN-GAVTWESDPNRKYTVPSTCGVKSAVQSDVWR  612
+
+
+> sp|P31797|CDGT_GEOSE Cyclomaltodextrin glucanotransferase OS=Geobacillus 
+stearothermophilus OX=1422 GN=cgt PE=1 SV=1
+Length=711
+
+ Score = 140 bits (352),  Expect = 7e-39, Method: Composition-based stats.
+ Identities = 41/107 (38%), Positives = 64/107 (60%), Gaps = 4/107 (4%)
+
+Query  3    TPTAVAVTFDLT-ATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTL  61
+            T   V+V F +  ATT  G+NIY+VG++ +LG+W+TS  I    ++   S P WY+ V++
+Sbjct  607  TNDQVSVRFVVNNATTNLGQNIYIVGNVYELGNWDTSKAIGPMFNQVVYSYPTWYIDVSV  666
+
+Query  62   PAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            P G++ E+KFI+ +S  +V WES  N  YT P     +T  +   W+
+Sbjct  667  PEGKTIEFKFIKKDSQGNVTWESGSNHVYTTPTN---TTGKIIVDWQ  710
+
+
+> sp|P31746|CDGT_BACS2 Cyclomaltodextrin glucanotransferase OS=Bacillus 
+sp. (strain 1-1) OX=29334 GN=cgt PE=1 SV=1
+Length=703
+
+ Score = 139 bits (349),  Expect = 2e-38, Method: Composition-based stats.
+ Identities = 38/106 (36%), Positives = 63/106 (59%), Gaps = 4/106 (4%)
+
+Query  3    TPTAVAVTFDLT-ATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTL  61
+            +   V+V F +  ATT+ G N+Y+VG++++LG+W+    I    ++     P WY  +++
+Sbjct  601  SGNQVSVRFGVNNATTSPGTNLYIVGNVNELGNWDADKAIGPMFNQVMYQYPTWYYDISV  660
+
+Query  62   PAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTW  107
+            PAG++ EYK+I+ + + +V W+S  NR YT P    T T TV   W
+Sbjct  661  PAGKNLEYKYIKKDQNGNVVWQSGNNRTYTSPT---TGTDTVMINW  703
+
+
+> sp|P30921|CDGT_BAC11 Cyclomaltodextrin glucanotransferase OS=Bacillus 
+sp. (strain 17-1) OX=72572 GN=cgt PE=1 SV=1
+Length=713
+
+ Score = 137 bits (344),  Expect = 8e-38, Method: Composition-based stats.
+ Identities = 38/107 (36%), Positives = 62/107 (58%), Gaps = 5/107 (5%)
+
+Query  3    TPTAVAVTFDLT-ATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTL  61
+            +   V+V F +  ATT  G+N+YL GS+S+LG+W+ +  I    ++     P WY  VT+
+Sbjct  610  SGDQVSVRFVVNNATTALGQNVYLAGSVSELGNWDPAKAIGPLYNQVIYQYPTWYYDVTV  669
+
+Query  62   PAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            PAG++ E+KF++ +   +V WE   N  +T P    + TAT+   W+
+Sbjct  670  PAGKTIEFKFLKKQ-GSTVTWEGGSNHTFTAPT---SGTATINVNWQ  712
+
+
+> sp|P26827|CDGT_THETU Cyclomaltodextrin glucanotransferase OS=Thermoanaerobacterium 
+thermosulfurigenes OX=33950 GN=amyA PE=1 
+SV=2
+Length=710
+
+ Score = 134 bits (338),  Expect = 6e-37, Method: Composition-based stats.
+ Identities = 40/107 (37%), Positives = 65/107 (61%), Gaps = 5/107 (5%)
+
+Query  3    TPTAVAVTFDLT-ATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTL  61
+            T   + V F +  A+T YGEN+YL G++++LG+W+TS  I    ++     P WY  V++
+Sbjct  607  TGNQICVRFVVNNASTVYGENVYLTGNVAELGNWDTSKAIGPMFNQVVYQYPTWYYDVSV  666
+
+Query  62   PAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            PAG + ++KFI+ ++ +++ WE   N  YTVP    +ST TV   W+
+Sbjct  667  PAGTTIQFKFIK-KNGNTITWEGGSNHTYTVPS---SSTGTVIVNWQ  709
+
+
+> sp|P04830|CDGT1_PAEMA Cyclomaltodextrin glucanotransferase OS=Paenibacillus 
+macerans OX=44252 GN=cgtM PE=1 SV=2
+Length=714
+
+ Score = 131 bits (329),  Expect = 1e-35, Method: Composition-based stats.
+ Identities = 38/107 (36%), Positives = 57/107 (53%), Gaps = 5/107 (5%)
+
+Query  3    TPTAVAVTFDLT-ATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTL  61
+            T   V V F +  A T YG N+YLVG+ ++LG W+ +  I    ++  +  P WY  V++
+Sbjct  611  TGDQVTVRFLVNQANTNYGTNVYLVGNAAELGSWDPNKAIGPMYNQVIAKYPSWYYDVSV  670
+
+Query  62   PAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            PAG   ++KFI+ +   +V WE   N  YT P    +   TVT  W+
+Sbjct  671  PAGTKLDFKFIK-KGGGTVTWEGGGNHTYTTP---ASGVGTVTVDWQ  713
+
+
+> sp|P0DN29|AMYG_ARTBC Glucoamylase ARB_02327-1 OS=Arthroderma 
+benhamiae (strain ATCC MYA-4681 / CBS 112371) OX=663331 GN=ARB_02327-1 
+PE=1 SV=1
+Length=610
+
+ Score = 130 bits (327),  Expect = 1e-35, Method: Composition-based stats.
+ Identities = 54/105 (51%), Positives = 65/105 (62%), Gaps = 1/105 (1%)
+
+Query  4    PTAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPA  63
+            PT   V F L ATT  GE+++LVGSI +LG W+    + L+AD Y  +   WYV + LP 
+Sbjct  507  PTKNNVRFRLLATTQVGEDVFLVGSIPELGSWDVKKAVPLNADIYADNCHQWYVDIELPT  566
+
+Query  64   GESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+              +FEYKFIR      V WE DPNR+YTVPQ CG S A   DTWR
+Sbjct  567  AVAFEYKFIRKR-GGEVVWEQDPNRKYTVPQTCGVSGAIKRDTWR  610
+
+
+> sp|P14804|AMYG_NEUCR Glucoamylase OS=Neurospora crassa (strain 
+ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987) 
+OX=367110 GN=gla-1 PE=1 SV=3
+Length=626
+
+ Score = 126 bits (317),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 54/108 (50%), Positives = 75/108 (69%), Gaps = 1/108 (1%)
+
+Query  1    CTTPTAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVT  60
+            C     V VTF+   TT+YG+ + +VGSI+ LG+W  + G+ LSA +Y+SS+PLW  T+ 
+Sbjct  520  CAADHEVLVTFNEKVTTSYGQTVKVVGSIAALGNWAPASGVTLSAKQYSSSNPLWSTTIA  579
+
+Query  61   LPAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            LP G SF+YK++ + SD SV+WE+DP+R Y V   C  STAT+ DTWR
+Sbjct  580  LPQGTSFKYKYVVVNSDGSVKWENDPDRSYAVGTDCA-STATLDDTWR  626
+
+
+> sp|P14014|CDGT_BACLI Cyclomaltodextrin glucanotransferase OS=Bacillus 
+licheniformis OX=1402 GN=cgtA PE=3 SV=1
+Length=718
+
+ Score = 126 bits (315),  Expect = 8e-34, Method: Composition-based stats.
+ Identities = 40/108 (37%), Positives = 64/108 (59%), Gaps = 6/108 (6%)
+
+Query  3    TPTAVAVTFDLT-ATTTYGENIYLVGSISQLGDWET-SDGIALSADKYTSSDPLWYVTVT  60
+            +   V+V F +  ATT  GENIYL G++S+LG+W T +  I  + ++   + P WY  V+
+Sbjct  615  SGDQVSVRFVINNATTALGENIYLTGNVSELGNWTTGAASIGPAFNQVIHAYPTWYYDVS  674
+
+Query  61   LPAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            +PAG+  E+KF + ++  ++ WE   N  +T P    + TATVT  W+
+Sbjct  675  VPAGKQLEFKFFK-KNGATITWEGGSNHTFTTPT---SGTATVTINWQ  718
+
+
+> sp|P31747|CDGT_BACSS Cyclomaltodextrin glucanotransferase OS=Bacillus 
+sp. (strain 6.6.3) OX=29335 GN=cgt PE=3 SV=1
+Length=718
+
+ Score = 125 bits (314),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 40/108 (37%), Positives = 64/108 (59%), Gaps = 6/108 (6%)
+
+Query  3    TPTAVAVTFDLT-ATTTYGENIYLVGSISQLGDWET-SDGIALSADKYTSSDPLWYVTVT  60
+            T   V V F +  A+TT G+NIYL G++++LG+W T S  I  + ++     P WY  V+
+Sbjct  615  TGDQVTVRFVINNASTTLGQNIYLTGNVAELGNWSTGSTAIGPAFNQVIHQYPTWYYDVS  674
+
+Query  61   LPAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            +PAG+  E+KF + ++  ++ WE   N ++T P    + TATVT  W+
+Sbjct  675  VPAGKELEFKFFK-KNGSTITWEGGSNHKFTTP---ASGTATVTVNWQ  718
+
+
+> sp|P30920|CDGT1_BACCI Cyclomaltodextrin glucanotransferase OS=Bacillus 
+circulans OX=1397 PE=1 SV=1
+Length=718
+
+ Score = 125 bits (313),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 40/108 (37%), Positives = 64/108 (59%), Gaps = 6/108 (6%)
+
+Query  3    TPTAVAVTFDLT-ATTTYGENIYLVGSISQLGDWET-SDGIALSADKYTSSDPLWYVTVT  60
+            T   V V F +  A+TT G+N+YL G++++LG+W T S  I  + ++     P WY  V+
+Sbjct  615  TGDQVTVRFVVNNASTTLGQNLYLTGNVAELGNWSTGSTAIGPAFNQVIHQYPTWYYDVS  674
+
+Query  61   LPAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            +PAG+  E+KF + ++  ++ WES  N  +T P    + TATVT  W+
+Sbjct  675  VPAGKQLEFKFFK-KNGSTITWESGSNHTFTTP---ASGTATVTVNWQ  718
+
+
+> sp|Q03045|AMYG_AMORE Glucoamylase P OS=Amorphotheca resinae OX=5101 
+GN=GAMP PE=1 SV=1
+Length=616
+
+ Score = 124 bits (310),  Expect = 4e-33, Method: Composition-based stats.
+ Identities = 45/106 (42%), Positives = 60/106 (57%), Gaps = 1/106 (1%)
+
+Query  2    TTPTAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTL  61
+            T+   V++TF++ ATT YGEN+Y++G+ S LG W  +D   LSA  YT   PLW   + L
+Sbjct  502  TSSCQVSITFNINATTYYGENLYVIGNSSDLGAWNIADAYPLSASAYTQDRPLWSAAIPL  561
+
+Query  62   PAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTW  107
+             AGE   Y+++R E  D        NR  TVP ACG +  T  D W
+Sbjct  562  NAGEVISYQYVRQEDCDQPYIYETVNRTLTVP-ACGGAAVTTDDAW  606
+
+
+> sp|P31835|CDGT2_PAEMA Cyclomaltodextrin glucanotransferase OS=Paenibacillus 
+macerans OX=44252 PE=1 SV=1
+Length=713
+
+ Score = 122 bits (306),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 37/107 (35%), Positives = 61/107 (57%), Gaps = 5/107 (5%)
+
+Query  3    TPTAVAVTFDLT-ATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTL  61
+            T   V V F +  ATT  G+N+YL G++++LG+W  ++ I    ++  +S P WY  V++
+Sbjct  610  TADQVTVRFKVNNATTALGQNVYLTGNVAELGNWTAANAIGPMYNQVEASYPTWYFDVSV  669
+
+Query  62   PAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            PA  + ++KFI++    +V WE   N  +T P    +  ATVT  W+
+Sbjct  670  PANTALQFKFIKVN-GSTVTWEGGNNHTFTSPS---SGVATVTVDWQ  712
+
+
+> sp|P30270|AMY_STRGR Alpha-amylase OS=Streptomyces griseus OX=1911 
+GN=amy PE=3 SV=1
+Length=566
+
+ Score = 118 bits (295),  Expect = 3e-31, Method: Composition-based stats.
+ Identities = 38/101 (38%), Positives = 56/101 (55%), Gaps = 7/101 (7%)
+
+Query  8    AVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGESF  67
+            + +F + ATT +GENIY+ G  + LG+W+ +  + L    Y    P+W + V L AG  F
+Sbjct  472  SASFHVNATTAWGENIYVTGDQAALGNWDPARALKLDPAAY----PVWKLDVPLAAGTPF  527
+
+Query  68   EYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            +YK++R ++     WES  NR  TV     T   T+ DTWR
+Sbjct  528  QYKYLRKDAAGKAVWESGANRTATVGT---TGALTLNDTWR  565
+
+
+> sp|P09794|AMY_STRLM Alpha-amylase OS=Streptomyces limosus OX=1947 
+GN=aml PE=3 SV=1
+Length=566
+
+ Score = 117 bits (294),  Expect = 4e-31, Method: Composition-based stats.
+ Identities = 38/101 (38%), Positives = 56/101 (55%), Gaps = 7/101 (7%)
+
+Query  8    AVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGESF  67
+            + +F + ATT +GENIY+ G  + LG+W+ +  + L    Y    P+W + V L AG  F
+Sbjct  472  SASFHVNATTAWGENIYVTGDQAALGNWDPARALKLDPAAY----PVWKLDVPLAAGTPF  527
+
+Query  68   EYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            +YK++R ++     WES  NR  TV     T   T+ DTWR
+Sbjct  528  QYKYLRKDAAGKAVWESGANRTATVGT---TGALTLNDTWR  565
+
+
+> sp|P22998|AMY_STRVL Alpha-amylase OS=Streptomyces violaceus OX=1936 
+GN=aml PE=2 SV=1
+Length=569
+
+ Score = 117 bits (294),  Expect = 4e-31, Method: Composition-based stats.
+ Identities = 42/100 (42%), Positives = 62/100 (62%), Gaps = 7/100 (7%)
+
+Query  9    VTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGESFE  68
+             +F++TATT  G+NIY+ G+ ++LG+W  +  + L    Y    P+W +TV LPAG SFE
+Sbjct  476  ASFNVTATTVVGQNIYVTGNRAELGNWAPASALKLDPATY----PVWKLTVGLPAGTSFE  531
+
+Query  69   YKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            YK+IR ++  +V WES  NR  TVP    +    + DT+R
+Sbjct  532  YKYIRKDAAGNVTWESGANRTATVP---ASGQLVLNDTFR  568
+
+
+> sp|Q6ZY51|PWD_ARATH Phosphoglucan, water dikinase, chloroplastic 
+OS=Arabidopsis thaliana OX=3702 GN=GWD3 PE=1 SV=1
+Length=1196
+
+ Score = 114 bits (285),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 28/106 (26%), Positives = 48/106 (45%), Gaps = 7/106 (7%)
+
+Query  3    TPTAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLP  62
+            + T V +   L     +G+++ + GS  ++G W+    +  S +        W   + L 
+Sbjct  70   SGTKVRLNVRLDHQVNFGDHVAMFGSAKEIGSWKKKSPLNWSENG-------WVCELELD  122
+
+Query  63   AGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+             G+  EYKF+ +++D S+ WES  NR   VP +   S     D  R
+Sbjct  123  GGQVLEYKFVIVKNDGSLSWESGDNRVLKVPNSGNFSVVCHWDATR  168
+
+
+> sp|D8Q9M3|AMYG_SCHCM Glucoamylase ARB_02327-1 OS=Schizophyllum 
+commune (strain H4-8 / FGSC 9210) OX=578458 GN=SCHCODRAFT_57589 
+PE=1 SV=1
+Length=576
+
+ Score = 112 bits (280),  Expect = 3e-29, Method: Composition-based stats.
+ Identities = 51/104 (49%), Positives = 65/104 (63%), Gaps = 8/104 (8%)
+
+Query  5    TAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAG  64
+              VAVT ++ ATT YGENIY+ GS++QL +W   + IAL+AD Y    P W VTV LPA 
+Sbjct  481  DTVAVTLNVQATTVYGENIYVTGSVNQLANWSPDNAIALNADNY----PTWSVTVNLPAN  536
+
+Query  65   ESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+               EYK+IR +++  V WESDPNR  T      + + T  DTWR
+Sbjct  537  TQIEYKYIR-KNNGQVTWESDPNRSITT---SASGSFTQNDTWR  576
+
+
+> sp|P19531|AMYM_GEOSE Maltogenic alpha-amylase OS=Geobacillus 
+stearothermophilus OX=1422 GN=amyM PE=1 SV=2
+Length=719
+
+ Score = 112 bits (280),  Expect = 5e-29, Method: Composition-based stats.
+ Identities = 33/109 (30%), Positives = 56/109 (51%), Gaps = 6/109 (6%)
+
+Query  3    TPTAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADK---YTSSDPLWYVTV  59
+            T T+V  T      T  G+ IYL G+I +LG+W T    A++  +      + P W+   
+Sbjct  613  TQTSVVFTVKSAPPTNLGDKIYLTGNIPELGNWSTDTSGAVNNAQGPLLAPNYPDWFYVF  672
+
+Query  60   TLPAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            ++PAG++ ++KF    +D +++WE+  N   T P      T  +T TW+
+Sbjct  673  SVPAGKTIQFKFFIKRADGTIQWENGSNHVATTPTGA---TGNITVTWQ  718
+
+
+> sp|P19584|AMYB_THETU Thermophilic beta-amylase OS=Thermoanaerobacterium 
+thermosulfurigenes OX=33950 PE=1 SV=1
+Length=551
+
+ Score = 106 bits (264),  Expect = 5e-27, Method: Composition-based stats.
+ Identities = 41/108 (38%), Positives = 62/108 (57%), Gaps = 7/108 (6%)
+
+Query  2    TTPTAVAVTFDLT-ATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVT  60
+            T    + VTF +  ATT YG+N+Y+VGS S LG+W T+     ++     + P W +T+ 
+Sbjct  449  TPNGTIPVTFTINNATTYYGQNVYIVGSTSDLGNWNTTYARGPAS---CPNYPTWTITLN  505
+
+Query  61   LPAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            L  GE  ++K ++I+S  +V WE   N  YTVP    + T +VT TW+
+Sbjct  506  LLPGEQIQFKAVKIDSSGNVTWEGGSNHTYTVPT---SGTGSVTITWQ  550
+
+
+> sp|P22963|AMT4_PELSC Glucan 1,4-alpha-maltotetraohydrolase OS=Pelomonas 
+saccharophila OX=304 GN=mta PE=1 SV=1
+Length=551
+
+ Score = 94.0 bits (232),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 33/99 (33%), Positives = 54/99 (55%), Gaps = 7/99 (7%)
+
+Query  7    VAVTFDL-TATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGE  65
+            V V F      T  G+++Y VG++SQLG+W  +  + L+    TSS P W  ++ LP G+
+Sbjct  455  VNVNFRCDNGVTQMGDSVYAVGNVSQLGNWSPASAVRLTD---TSSYPTWKGSIALPDGQ  511
+
+Query  66   SFEYKF-IRIESDDSV--EWESDPNREYTVPQACGTSTA  101
+            + E+K  IR E+D ++  +W+S  N +        TS +
+Sbjct  512  NVEWKCLIRNEADATLVRQWQSGGNNQVQAAAGASTSGS  550
+
+
+> sp|P13507|AMT4_PSEST Glucan 1,4-alpha-maltotetraohydrolase OS=Pseudomonas 
+stutzeri OX=316 GN=amyP PE=1 SV=2
+Length=548
+
+ Score = 93.7 bits (231),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 28/96 (29%), Positives = 50/96 (52%), Gaps = 7/96 (7%)
+
+Query  7    VAVTFDL-TATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGE  65
+            V+V+F      T  G+++Y VG++SQLG+W  +  + L+    TS  P W  ++ LPAG+
+Sbjct  452  VSVSFRCDNGATQMGDSVYAVGNVSQLGNWSPAAALRLTD---TSGYPTWKGSIALPAGQ  508
+
+Query  66   SFEYKFIRIESDDSV---EWESDPNREYTVPQACGT  98
+            + E+K +     ++    +W+   N   T  +   T
+Sbjct  509  NEEWKCLIRNEANATQVRQWQGGANNSLTPSEGATT  544
+
+
+> sp|P29750|AMY_THECU Alpha-amylase OS=Thermomonospora curvata 
+OX=2020 GN=tam PE=1 SV=1
+Length=605
+
+ Score = 93.7 bits (231),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 35/106 (33%), Positives = 51/106 (48%), Gaps = 6/106 (6%)
+
+Query  5    TAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAG  64
+            T V   F  T TT YG+ + +VGSI +LG W+ + G+ L  D  T   P+W   V LPAG
+Sbjct  504  TTVTARFHATVTTWYGQEVAVVGSIPELGSWQPAQGVRLRTDSGT--YPVWSGAVDLPAG  561
+
+Query  65   ESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVT--DTWR  108
+              FEYK++++    +  W        + P        +    D+WR
+Sbjct  562  VGFEYKYVKLNR--TAPWSGSRAATASPPWMTSGGGCSQNFYDSWR  605
+
+
+> sp|P08704|CDGT_KLEOX Cyclomaltodextrin glucanotransferase OS=Klebsiella 
+oxytoca OX=571 GN=cgt PE=3 SV=1
+Length=655
+
+ Score = 91.3 bits (225),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 26/103 (25%), Positives = 53/103 (51%), Gaps = 8/103 (8%)
+
+Query  3    TPTAVAVTFDLT-ATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTL  61
+             PT  ++ F      T  G+++Y++G+I QLG W+ +  + +S  +Y    P W  ++ L
+Sbjct  556  NPTVQSINFTCNNGYTISGQSVYIIGNIPQLGGWDLTKAVKISPTQY----PQWSASLEL  611
+
+Query  62   PAGESFEYKFIRIESDD---SVEWESDPNREYTVPQACGTSTA  101
+            P+  + E+K ++    +   +VEW+S  N ++       T+ +
+Sbjct  612  PSDLNVEWKCVKRNETNPTANVEWQSGANNQFNSNDTQTTNGS  654
+
+
+> sp|Q8C0L9|GPCP1_MOUSE Glycerophosphocholine phosphodiesterase 
+GPCPD1 OS=Mus musculus OX=10090 GN=Gpcpd1 PE=1 SV=1
+Length=675
+
+ Score = 87.5 bits (215),  Expect = 3e-20, Method: Composition-based stats.
+ Identities = 22/69 (32%), Positives = 33/69 (48%), Gaps = 0/69 (0%)
+
+Query  5   TAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAG  64
+           T   VTF++  T   GE   + GS   LG+W   + +AL  +  T    LW   + L  G
+Sbjct  2   TPSQVTFEIRGTLLPGEVFAICGSCDALGNWNPQNAVALINENETGDSVLWKAVIALNRG  61
+
+Query  65  ESFEYKFIR  73
+            S +Y++ R
+Sbjct  62  VSVKYRYFR  70
+
+
+> sp|Q9NPB8|GPCP1_HUMAN Glycerophosphocholine phosphodiesterase 
+GPCPD1 OS=Homo sapiens OX=9606 GN=GPCPD1 PE=1 SV=2
+Length=672
+
+ Score = 86.7 bits (213),  Expect = 5e-20, Method: Composition-based stats.
+ Identities = 23/71 (32%), Positives = 36/71 (51%), Gaps = 2/71 (3%)
+
+Query  3   TPTAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLP  62
+           TP+ VA  F++  T   GE   + GS   LG+W   + +AL  +  T    LW  T+ L 
+Sbjct  2   TPSQVA--FEIRGTLLPGEVFAICGSCDALGNWNPQNAVALLPENDTGESMLWKATIVLS  59
+
+Query  63  AGESFEYKFIR  73
+            G S +Y++ +
+Sbjct  60  RGVSVQYRYFK  70
+
+
+> sp|Q8RXD9|DPE2_ARATH 4-alpha-glucanotransferase DPE2 OS=Arabidopsis 
+thaliana OX=3702 GN=DPE2 PE=1 SV=1
+Length=955
+
+ Score = 80.2 bits (196),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 22/91 (24%), Positives = 48/91 (53%), Gaps = 6/91 (7%)
+
+Query  4    PTAVAVTFD-LTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLP  62
+              +V V F         G ++Y++G+  +LG+W+  +G+ L+       D +W     +P
+Sbjct  160  DDSVVVQFKICCPDIGEGTSVYVLGTPEKLGNWKVENGLRLNY----VDDSIWEADCLIP  215
+
+Query  63   AGE-SFEYKFIRIESDDSVEWESDPNREYTV  92
+              +   +Y++ +++ +DS+ +ES  NRE ++
+Sbjct  216  KADFPIKYRYCKVQKEDSIGFESGGNRELSL  246
+
+
+ Score = 62.5 bits (150),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 26/104 (25%), Positives = 49/104 (47%), Gaps = 3/104 (3%)
+
+Query  7    VAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGES  66
+            V+++F +   T +GE++ + GS   LG      G+ L   +      +W  +V++P G S
+Sbjct  19   VSISFWIPYFTHWGESLLVCGSAPGLGSGNVKKGLLLKPSQ-QDDQLIWSGSVSVPPGFS  77
+
+Query  67   FEYKFIRIESDDSV-EWESDPNREYTVPQA-CGTSTATVTDTWR  108
+             +Y +  ++   SV   E    R+  VP+   G  +  + D W+
+Sbjct  78   SDYCYYVVDDSKSVLRSEFGMKRKLVVPETLTGGESVHLRDLWQ  121
+
+
+> sp|Q80VJ4|GPCP1_RAT Glycerophosphocholine phosphodiesterase GPCPD1 
+OS=Rattus norvegicus OX=10116 GN=Gpcpd1 PE=1 SV=1
+Length=672
+
+ Score = 76.3 bits (186),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 18/69 (26%), Positives = 34/69 (49%), Gaps = 2/69 (3%)
+
+Query  5   TAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAG  64
+           T   VTF++  T   GE   + G+   LG+W   + + L+  +  + + +W   + L  G
+Sbjct  2   TPSQVTFEIRGTLLPGEVFAMCGNCDALGNWSPQNAVPLTESE--TGESVWKAVIVLSRG  59
+
+Query  65  ESFEYKFIR  73
+            S +Y++ R
+Sbjct  60  MSVKYRYFR  68
+
+
+> sp|Q69Q02|DPE2_ORYSJ 4-alpha-glucanotransferase DPE2 OS=Oryza 
+sativa subsp. japonica OX=39947 GN=DPE2 PE=2 SV=1
+Length=946
+
+ Score = 67.5 bits (163),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 24/106 (23%), Positives = 50/106 (47%), Gaps = 3/106 (3%)
+
+Query  5    TAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAG  64
+              V + F L   T +G+++ + GS   LG W    G++LS   +  ++ +W   V++  G
+Sbjct  11   NTVTLVFKLPYYTQWGQSLLIAGSEPALGSWNVKQGLSLSP-VHQGNELIWSGRVSVATG  69
+
+Query  65   ESFEYKFIRIESDDSV-EWESDPNREYTVPQACGTS-TATVTDTWR  108
+             + +Y +  ++ + +V   ES   R+  +P+         + D W+
+Sbjct  70   FTCQYNYYVVDDNKNVLRSESGEKRKLVLPEGVQDGDVVEIRDWWQ  115
+
+
+ Score = 58.6 bits (140),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 27/91 (30%), Positives = 39/91 (43%), Gaps = 6/91 (7%)
+
+Query  4    PTAVAVTFDLTAT-TTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLP  62
+            P  + V F ++      G  + + GS  QLG W+T DG+ L+       D +W     L 
+Sbjct  153  PEDIVVQFIVSCPRLGAGSTVVVTGSNPQLGRWQTQDGLKLNY----VGDSIWKANCLLR  208
+
+Query  63   AGE-SFEYKFIRIESDDSVEWESDPNREYTV  92
+              E   +YK+ +I        E  PNRE  V
+Sbjct  209  KSEFPIKYKYCKISEAGVSSLEFGPNREADV  239
+
+
+> sp|Q2QTC2|PWD_ORYSJ Phosphoglucan, water dikinase, chloroplastic 
+OS=Oryza sativa subsp. japonica OX=39947 GN=GWD3 PE=3 SV=2
+Length=1206
+
+ Score = 66.7 bits (161),  Expect = 6e-13, Method: Composition-based stats.
+ Identities = 21/99 (21%), Positives = 37/99 (37%), Gaps = 8/99 (8%)
+
+Query  7    VAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGES  66
+            V +   L     +GE++ ++GS  +LG WE    +  + +        W   + LP    
+Sbjct  75   VHLQVCLEHQVKFGEHVGIIGSTKELGSWEEQVELEWTTNG-------WVCQLKLPGETL  127
+
+Query  67   FEYKFIRIESDDSVE-WESDPNREYTVPQACGTSTATVT  104
+             E+KF+        + WE   NR   +P+          
+Sbjct  128  VEFKFVIFLVGGKDKIWEDGNNRVVELPKDGKFDIVCHW  166
+
+
+> sp|P36924|AMYB_BACCE Beta-amylase OS=Bacillus cereus OX=1396 
+GN=spoII PE=1 SV=2
+Length=546
+
+ Score = 62.1 bits (149),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 25/82 (30%), Positives = 40/82 (49%), Gaps = 6/82 (7%)
+
+Query  5    TAVAVTFDL-TATTTYGENIYLVGSISQLGDWETSD-GIALSADKYTSSDPLWYVTVTLP  62
+            T V  T  +    TT G+ +Y+ G+ ++LG W+T    I L  D +++    W   V LP
+Sbjct  448  TPVMQTIVVKNVPTTIGDTVYITGNRAELGSWDTKQYPIQLYYDSHSND---WRGNVVLP  504
+
+Query  63   AGESFEYKFIRIESDDSV-EWE  83
+            A  + E+K      D +V  W+
+Sbjct  505  AERNIEFKAFIKSKDGTVKSWQ  526
+
+
+> sp|F4IV66|RNE_ARATH Ribonuclease E/G-like protein, chloroplastic 
+OS=Arabidopsis thaliana OX=3702 GN=RNE PE=1 SV=1
+Length=1001
+
+ Score = 60.1 bits (144),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 25/99 (25%), Positives = 41/99 (41%), Gaps = 7/99 (7%)
+
+Query  13   LTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGESFEYKFI  72
+            + A     E++Y+ G  S LG WE    I++     T +D  W   V + +G +F Y ++
+Sbjct  88   VEADLAANEHLYVTGDPSTLGSWEPDCAISMYP---TENDNEWEAKVKIASGVNFRYNYL  144
+
+Query  73   RIESDDS---VEWESDPNREYTVPQACGTS-TATVTDTW  107
+                  S   V W   P    +VP +        + D+W
+Sbjct  145  LKAGYGSSSDVIWRPGPQFSLSVPSSVNQDRKIIIRDSW  183
+
+
+> sp|O95210|STBD1_HUMAN Starch-binding domain-containing protein 
+1 OS=Homo sapiens OX=9606 GN=STBD1 PE=1 SV=1
+Length=358
+
+ Score = 58.2 bits (139),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 23/88 (26%), Positives = 37/88 (42%), Gaps = 7/88 (8%)
+
+Query  6    AVAVTFDLTATTTYG-ENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAG  64
+             V+V F +   T+   + I + G    LG W T   +  + D +      W  ++ LPA 
+Sbjct  263  QVSVRFQVHYVTSTDVQFIAVTGDHECLGRWNTYIPLHYNKDGF------WSHSIFLPAD  316
+
+Query  65   ESFEYKFIRIESDDSVEWESDPNREYTV  92
+               E+KF+ +E+     WE   NR    
+Sbjct  317  TVVEWKFVLVENGGVTRWEECSNRFLET  344
+
+
+> sp|Q8C7E7|STBD1_MOUSE Starch-binding domain-containing protein 
+1 OS=Mus musculus OX=10090 GN=Stbd1 PE=1 SV=1
+Length=338
+
+ Score = 57.8 bits (138),  Expect = 7e-10, Method: Composition-based stats.
+ Identities = 26/90 (29%), Positives = 39/90 (43%), Gaps = 7/90 (8%)
+
+Query  4    PTAVAVTFDLTATTTYG-ENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLP  62
+            P  V++ F +  TT    + I + G    LG W T   +      +   D LW  +V LP
+Sbjct  241  PQQVSIQFQVHYTTNTDVQFIAVTGDHESLGRWNTYIPL------HYCKDGLWSHSVFLP  294
+
+Query  63   AGESFEYKFIRIESDDSVEWESDPNREYTV  92
+            A    E+KF+ +E+ +   WE   NR    
+Sbjct  295  ADTVVEWKFVLVENKEVTRWEECSNRFLQT  324
+
+
+> sp|Q5FVN1|STBD1_RAT Starch-binding domain-containing protein 
+1 OS=Rattus norvegicus OX=10116 GN=Stbd1 PE=1 SV=1
+Length=333
+
+ Score = 57.4 bits (137),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 25/90 (28%), Positives = 40/90 (44%), Gaps = 7/90 (8%)
+
+Query  4    PTAVAVTFDLTATTTYG-ENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLP  62
+            P  V++ F +  +T+   + I + G    LG W T   +      +   D LW  +V LP
+Sbjct  236  PRQVSIQFKVHYSTSTDVQFIAVTGDHESLGGWNTYIPL------HYCKDGLWSHSVFLP  289
+
+Query  63   AGESFEYKFIRIESDDSVEWESDPNREYTV  92
+            A    E+KF+ +E+ +   WE   NR    
+Sbjct  290  ADTVVEWKFVLVENKEVTRWEECSNRRLQT  319
+
+
+> sp|Q1M199|EPM2A_CANLF Laforin OS=Canis lupus familiaris OX=9615 
+GN=EPM2A PE=3 SV=1
+Length=331
+
+ Score = 50.1 bits (118),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 22/84 (26%), Positives = 33/84 (39%), Gaps = 20/84 (24%)
+
+Query  25   LVGSISQLGDWETSDGIALSADKYTS-------SDP-LWYVTVTLPAGE-----------  65
+            +VGS  +LG WE    + L      +        +P LW   V L  GE           
+Sbjct  22   VVGSRPELGRWEPRGAVRLRPAGSAAGGGARALQEPGLWLGEVELAPGEAARDGAEPARV  81
+
+Query  66   -SFEYKFIRIESDDSVEWESDPNR  88
+             +F YKF++ E   ++ WE +   
+Sbjct  82   DTFWYKFLKREPGGALSWEGNGPH  105
+
+
+> sp|Q9WUA5|EPM2A_MOUSE Laforin OS=Mus musculus OX=10090 GN=Epm2a 
+PE=1 SV=2
+Length=330
+
+ Score = 45.1 bits (105),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 22/87 (25%), Positives = 32/87 (37%), Gaps = 19/87 (22%)
+
+Query  21   ENIYLVGSISQLGDWETSDGIALSA-------DKYTSSDP-LWYVTVTLPAGE-------  65
+            + + L GS  +LG WE    + L               +P LW   V L A E       
+Sbjct  18   QELLLAGSRPELGRWEPHGAVRLRPAGTAAGAAALALQEPGLWLAEVELEAYEEAGGAEP  77
+
+Query  66   ----SFEYKFIRIESDDSVEWESDPNR  88
+                +F YKF++ E    + WE +   
+Sbjct  78   GRVDTFWYKFLQREPGGELHWEGNGPH  104
+
+
+> sp|Q91XQ2|EPM2A_RAT Laforin OS=Rattus norvegicus OX=10116 GN=Epm2a 
+PE=2 SV=2
+Length=331
+
+ Score = 43.6 bits (101),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 21/84 (25%), Positives = 29/84 (35%), Gaps = 20/84 (24%)
+
+Query  25   LVGSISQLGDWETSDGIALSA-------DKYTSSDP-LWYVTVTLPAGE-----------  65
+            L GS  +LG WE    + L               +P LW   V L   E           
+Sbjct  22   LAGSRPELGRWEPRGAVRLRPAGTAAGAAALALQEPGLWLAEVELAPEEEAADGAEPGRI  81
+
+Query  66   -SFEYKFIRIESDDSVEWESDPNR  88
+             +F YKF++ E    + WE +   
+Sbjct  82   DTFWYKFLQREPGGELHWEGNGPH  105
+
+
+> sp|O95278|EPM2A_HUMAN Laforin OS=Homo sapiens OX=9606 GN=EPM2A 
+PE=1 SV=2
+Length=331
+
+ Score = 41.3 bits (95),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 19/84 (23%), Positives = 29/84 (35%), Gaps = 20/84 (24%)
+
+Query  25   LVGSISQLGDWETSDGIALSADKYTSSD--------PLWYV-----------TVTLPAG-  64
+            +VGS  +LG WE    + L      + D         LW                 P   
+Sbjct  22   VVGSRPELGRWEPRGAVRLRPAGTAAGDGALALQEPGLWLGEVELAAEEAAQDGAEPGRV  81
+
+Query  65   ESFEYKFIRIESDDSVEWESDPNR  88
+            ++F YKF++ E    + WE +   
+Sbjct  82   DTFWYKFLKREPGGELSWEGNGPH  105
+
+
+> sp|A0P8X0|AAMY_BACCI Alpha-amylase OS=Bacillus circulans OX=1397 
+GN=igtZ PE=1 SV=1
+Length=1290
+
+ Score = 38.6 bits (88),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 27/102 (26%), Positives = 38/102 (37%), Gaps = 9/102 (9%)
+
+Query  5     TAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAG  64
+              +V     +  +T     +YL GS +    W  +D   L       SD ++ +T+ LPAG
+Sbjct  1189  DSVTFRVSVPGSTPANAPVYLTGSFN---SWNAADPAYLLTR---GSDGIYSITLNLPAG  1242
+
+Query  65    ESFEYKFIRIESDDSVEWESDP---NREYTVPQACGTSTATV  103
+              +  YK  R          S     NR  T      T T TV
+Sbjct  1243  SAVTYKLTRGSWATVETASSGADITNRTLTPAGGAQTVTLTV  1284
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.130    0.380    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0397    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5120154688
+Results from round 3
+
+
+Query= 5GHL:A
+
+Length=108
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P17692|CDGT_BACS8 Cyclomaltodextrin glucanotransferase OS=Ba...  143     6e-40
+  sp|P27036|CDGT_BACOH Cyclomaltodextrin glucanotransferase OS=Ba...  143     7e-40
+  sp|P43379|CDGT2_BACCI Cyclomaltodextrin glucanotransferase OS=B...  142     9e-40
+  sp|P05618|CDGT_BACS0 Cyclomaltodextrin glucanotransferase OS=Ba...  142     2e-39
+  sp|P09121|CDGT_BACS3 Cyclomaltodextrin glucanotransferase OS=Ba...  142     2e-39
+  sp|P69328|AMYG_ASPNG Glucoamylase OS=Aspergillus niger OX=5061 ...  140     5e-39
+  sp|P69327|AMYG_ASPAW Glucoamylase OS=Aspergillus awamori OX=105...  140     5e-39
+  sp|P30921|CDGT_BAC11 Cyclomaltodextrin glucanotransferase OS=Ba...  139     1e-38
+  sp|P23176|AMYG_ASPKA Glucoamylase I OS=Aspergillus kawachii OX=...  139     1e-38
+  sp|O30565|CDGT_BREBE Cyclomaltodextrin glucanotransferase OS=Br...  139     1e-38
+  sp|P31797|CDGT_GEOSE Cyclomaltodextrin glucanotransferase OS=Ge...  139     2e-38
+  sp|P22832|AMYG_ASPSH Glucoamylase OS=Aspergillus shirousami OX=...  137     4e-38
+  sp|P36914|AMYG_ASPOR Glucoamylase OS=Aspergillus oryzae (strain...  137     4e-38
+  sp|P31746|CDGT_BACS2 Cyclomaltodextrin glucanotransferase OS=Ba...  136     2e-37
+  sp|P26827|CDGT_THETU Cyclomaltodextrin glucanotransferase OS=Th...  135     5e-37
+  sp|P04830|CDGT1_PAEMA Cyclomaltodextrin glucanotransferase OS=P...  134     1e-36
+  sp|P31747|CDGT_BACSS Cyclomaltodextrin glucanotransferase OS=Ba...  128     1e-34
+  sp|P30920|CDGT1_BACCI Cyclomaltodextrin glucanotransferase OS=B...  128     1e-34
+  sp|P14014|CDGT_BACLI Cyclomaltodextrin glucanotransferase OS=Ba...  127     2e-34
+  sp|P0DN29|AMYG_ARTBC Glucoamylase ARB_02327-1 OS=Arthroderma be...  126     3e-34
+  sp|P31835|CDGT2_PAEMA Cyclomaltodextrin glucanotransferase OS=P...  125     8e-34
+  sp|P14804|AMYG_NEUCR Glucoamylase OS=Neurospora crassa (strain ...  122     8e-33
+  sp|Q03045|AMYG_AMORE Glucoamylase P OS=Amorphotheca resinae OX=...  120     9e-32
+  sp|P30270|AMY_STRGR Alpha-amylase OS=Streptomyces griseus OX=19...  118     3e-31
+  sp|P09794|AMY_STRLM Alpha-amylase OS=Streptomyces limosus OX=19...  117     4e-31
+  sp|P22998|AMY_STRVL Alpha-amylase OS=Streptomyces violaceus OX=...  117     9e-31
+  sp|Q6ZY51|PWD_ARATH Phosphoglucan, water dikinase, chloroplasti...  115     6e-30
+  sp|D8Q9M3|AMYG_SCHCM Glucoamylase ARB_02327-1 OS=Schizophyllum ...  114     1e-29
+  sp|P19531|AMYM_GEOSE Maltogenic alpha-amylase OS=Geobacillus st...  111     8e-29
+  sp|P19584|AMYB_THETU Thermophilic beta-amylase OS=Thermoanaerob...  110     2e-28
+  sp|P29750|AMY_THECU Alpha-amylase OS=Thermomonospora curvata OX...  104     3e-26
+  sp|Q69Q02|DPE2_ORYSJ 4-alpha-glucanotransferase DPE2 OS=Oryza s...  102     2e-25
+  sp|Q8C7E7|STBD1_MOUSE Starch-binding domain-containing protein ...  94.4    3e-23
+  sp|O95210|STBD1_HUMAN Starch-binding domain-containing protein ...  93.6    8e-23
+  sp|Q5FVN1|STBD1_RAT Starch-binding domain-containing protein 1 ...  92.4    2e-22
+  sp|P13507|AMT4_PSEST Glucan 1,4-alpha-maltotetraohydrolase OS=P...  93.2    3e-22
+  sp|P08704|CDGT_KLEOX Cyclomaltodextrin glucanotransferase OS=Kl...  92.8    4e-22
+  sp|P22963|AMT4_PELSC Glucan 1,4-alpha-maltotetraohydrolase OS=P...  92.8    4e-22
+  sp|F4IV66|RNE_ARATH Ribonuclease E/G-like protein, chloroplasti...  90.9    2e-21
+  sp|Q2QTC2|PWD_ORYSJ Phosphoglucan, water dikinase, chloroplasti...  90.9    2e-21
+  sp|Q8RXD9|DPE2_ARATH 4-alpha-glucanotransferase DPE2 OS=Arabido...  87.0    4e-20
+  sp|Q9NPB8|GPCP1_HUMAN Glycerophosphocholine phosphodiesterase G...  86.3    8e-20
+  sp|Q8C0L9|GPCP1_MOUSE Glycerophosphocholine phosphodiesterase G...  85.9    1e-19
+  sp|Q80VJ4|GPCP1_RAT Glycerophosphocholine phosphodiesterase GPC...  78.6    3e-17
+  sp|P36924|AMYB_BACCE Beta-amylase OS=Bacillus cereus OX=1396 GN...  74.7    8e-16
+  sp|Q1M199|EPM2A_CANLF Laforin OS=Canis lupus familiaris OX=9615...  71.6    6e-15
+  sp|Q9WUA5|EPM2A_MOUSE Laforin OS=Mus musculus OX=10090 GN=Epm2a...  69.7    4e-14
+  sp|Q91XQ2|EPM2A_RAT Laforin OS=Rattus norvegicus OX=10116 GN=Ep...  68.2    1e-13
+  sp|O95278|EPM2A_HUMAN Laforin OS=Homo sapiens OX=9606 GN=EPM2A ...  66.6    4e-13
+
+Sequences not found previously or not previously below threshold:
+
+  sp|A0P8X0|AAMY_BACCI Alpha-amylase OS=Bacillus circulans OX=139...  42.0    3e-04
+  sp|Q9MB58|F26_ARATH 6-phosphofructo-2-kinase/fructose-2,6-bisph...  41.6    4e-04
+  sp|Q21407|GPCP1_CAEEL Putative glycerophosphocholine phosphodie...  41.2    5e-04
+  sp|Q10003|GPCP2_CAEEL Putative glycerophosphocholine phosphodie...  40.1    0.001
+
+
+> sp|P17692|CDGT_BACS8 Cyclomaltodextrin glucanotransferase OS=Bacillus 
+sp. (strain B1018) OX=1417 GN=cgt PE=1 SV=1
+Length=713
+
+ Score = 143 bits (360),  Expect = 6e-40, Method: Composition-based stats.
+ Identities = 36/107 (34%), Positives = 62/107 (58%), Gaps = 5/107 (5%)
+
+Query  3    TPTAVAVTFDLT-ATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTL  61
+            +   V+V F +  ATT  G+N+YL G++S+LG+W+ +  I    ++     P WY  V++
+Sbjct  610  SGDQVSVRFVVNNATTALGQNLYLTGNVSELGNWDPAKAIGPMYNQVVYQYPNWYYDVSV  669
+
+Query  62   PAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            PAG++ E+KF++ +   +V WE   N  +T P    + TAT+   W+
+Sbjct  670  PAGKTIEFKFLKKQ-GSTVTWEGGSNHTFTAPS---SGTATINVNWQ  712
+
+
+> sp|P27036|CDGT_BACOH Cyclomaltodextrin glucanotransferase OS=Bacillus 
+ohbensis OX=1481 GN=cgt PE=3 SV=2
+Length=704
+
+ Score = 143 bits (360),  Expect = 7e-40, Method: Composition-based stats.
+ Identities = 40/107 (37%), Positives = 62/107 (58%), Gaps = 4/107 (4%)
+
+Query  3    TPTAVAVTFDLT-ATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTL  61
+            T   V++ F +  ATT+ G N+Y+VG++++LG+W+    I    ++     P WY  +++
+Sbjct  601  TGDQVSIRFAVNNATTSLGTNLYMVGNVNELGNWDPDQAIGPMFNQVMYQYPTWYYDISV  660
+
+Query  62   PAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            PA E+ EYKFI+ +S  +V WES  N  YT P    T T TV   W+
+Sbjct  661  PAEENLEYKFIKKDSSGNVVWESGNNHTYTTP---ATGTDTVLVDWQ  704
+
+
+> sp|P43379|CDGT2_BACCI Cyclomaltodextrin glucanotransferase OS=Bacillus 
+circulans OX=1397 GN=cgt PE=1 SV=1
+Length=713
+
+ Score = 142 bits (359),  Expect = 9e-40, Method: Composition-based stats.
+ Identities = 37/107 (35%), Positives = 62/107 (58%), Gaps = 5/107 (5%)
+
+Query  3    TPTAVAVTFDLT-ATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTL  61
+            +   V+V F +  ATT  G+N+YL GS+S+LG+W+ +  I    ++     P WY  V++
+Sbjct  610  SGDQVSVRFVVNNATTALGQNVYLTGSVSELGNWDPAKAIGPMYNQVVYQYPNWYYDVSV  669
+
+Query  62   PAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            PAG++ E+KF++ +   +V WE   N  +T P    + TAT+   W+
+Sbjct  670  PAGKTIEFKFLKKQ-GSTVTWEGGSNHTFTAPS---SGTATINVNWQ  712
+
+
+> sp|P05618|CDGT_BACS0 Cyclomaltodextrin glucanotransferase OS=Bacillus 
+sp. (strain 1011) OX=1410 GN=cgt PE=1 SV=1
+Length=713
+
+ Score = 142 bits (357),  Expect = 2e-39, Method: Composition-based stats.
+ Identities = 38/107 (36%), Positives = 63/107 (59%), Gaps = 5/107 (5%)
+
+Query  3    TPTAVAVTFDLT-ATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTL  61
+            T   V V F +  ATT  G+N++L G++S+LG+W+ ++ I    ++     P WY  V++
+Sbjct  610  TGDQVTVRFVINNATTALGQNVFLTGNVSELGNWDPNNAIGPMYNQVVYQYPTWYYDVSV  669
+
+Query  62   PAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            PAG++ E+KF++ +   +V WE   NR +T P    + TATV   W+
+Sbjct  670  PAGQTIEFKFLKKQ-GSTVTWEGGANRTFTTPT---SGTATVNVNWQ  712
+
+
+> sp|P09121|CDGT_BACS3 Cyclomaltodextrin glucanotransferase OS=Bacillus 
+sp. (strain 38-2) OX=1412 GN=cgt PE=1 SV=2
+Length=712
+
+ Score = 142 bits (357),  Expect = 2e-39, Method: Composition-based stats.
+ Identities = 38/107 (36%), Positives = 63/107 (59%), Gaps = 5/107 (5%)
+
+Query  3    TPTAVAVTFDLT-ATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTL  61
+            T   V V F +  ATT  G+N++L G++S+LG+W+ ++ I    ++     P WY  V++
+Sbjct  609  TGDQVTVRFVINNATTALGQNVFLTGNVSELGNWDPNNAIGPMYNQVVYQYPTWYYDVSV  668
+
+Query  62   PAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            PAG++ E+KF++ +   +V WE   NR +T P    + TATV   W+
+Sbjct  669  PAGQTIEFKFLKKQ-GSTVTWEGGANRTFTTPT---SGTATVNVNWQ  711
+
+
+> sp|P69328|AMYG_ASPNG Glucoamylase OS=Aspergillus niger OX=5061 
+GN=GLAA PE=1 SV=1
+Length=640
+
+ Score = 140 bits (352),  Expect = 5e-39, Method: Composition-based stats.
+ Identities = 102/102 (100%), Positives = 102/102 (100%), Gaps = 0/102 (0%)
+
+Query  7    VAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGES  66
+            VAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGES
+Sbjct  539  VAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGES  598
+
+Query  67   FEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            FEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR
+Sbjct  599  FEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  640
+
+
+> sp|P69327|AMYG_ASPAW Glucoamylase OS=Aspergillus awamori OX=105351 
+GN=GLAA PE=1 SV=1
+Length=640
+
+ Score = 140 bits (352),  Expect = 5e-39, Method: Composition-based stats.
+ Identities = 102/102 (100%), Positives = 102/102 (100%), Gaps = 0/102 (0%)
+
+Query  7    VAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGES  66
+            VAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGES
+Sbjct  539  VAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGES  598
+
+Query  67   FEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            FEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR
+Sbjct  599  FEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  640
+
+
+> sp|P30921|CDGT_BAC11 Cyclomaltodextrin glucanotransferase OS=Bacillus 
+sp. (strain 17-1) OX=72572 GN=cgt PE=1 SV=1
+Length=713
+
+ Score = 139 bits (351),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 38/107 (36%), Positives = 62/107 (58%), Gaps = 5/107 (5%)
+
+Query  3    TPTAVAVTFDLT-ATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTL  61
+            +   V+V F +  ATT  G+N+YL GS+S+LG+W+ +  I    ++     P WY  VT+
+Sbjct  610  SGDQVSVRFVVNNATTALGQNVYLAGSVSELGNWDPAKAIGPLYNQVIYQYPTWYYDVTV  669
+
+Query  62   PAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            PAG++ E+KF++ +   +V WE   N  +T P    + TAT+   W+
+Sbjct  670  PAGKTIEFKFLKKQ-GSTVTWEGGSNHTFTAPT---SGTATINVNWQ  712
+
+
+> sp|P23176|AMYG_ASPKA Glucoamylase I OS=Aspergillus kawachii OX=40384 
+GN=gaI PE=1 SV=1
+Length=639
+
+ Score = 139 bits (350),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 99/102 (97%), Positives = 101/102 (99%), Gaps = 0/102 (0%)
+
+Query  7    VAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGES  66
+            VAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSS+PLWYVTVTLPAGES
+Sbjct  538  VAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSNPLWYVTVTLPAGES  597
+
+Query  67   FEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            FEYKFIR+ESDDSVEWESDPNREYTVPQACG STATVTDTWR
+Sbjct  598  FEYKFIRVESDDSVEWESDPNREYTVPQACGESTATVTDTWR  639
+
+
+> sp|O30565|CDGT_BREBE Cyclomaltodextrin glucanotransferase OS=Brevibacillus 
+brevis OX=1393 GN=cgt PE=3 SV=1
+Length=692
+
+ Score = 139 bits (350),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 39/106 (37%), Positives = 63/106 (59%), Gaps = 4/106 (4%)
+
+Query  3    TPTAVAVTFDLT-ATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTL  61
+            +   V+V F +  ATT  G N+Y+VG++S+LG+W+ +  I    ++     P WY  +++
+Sbjct  590  SGNQVSVRFAVNNATTNSGTNVYIVGNVSELGNWDPNKAIGPMFNQVMYKYPTWYYDISV  649
+
+Query  62   PAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTW  107
+            PAG++ EYK+I+ + + +V W+S  NR YT P    T T TV   W
+Sbjct  650  PAGKNLEYKYIKKDHNGNVTWQSGNNRTYTSP---ATGTDTVISNW  692
+
+
+> sp|P31797|CDGT_GEOSE Cyclomaltodextrin glucanotransferase OS=Geobacillus 
+stearothermophilus OX=1422 GN=cgt PE=1 SV=1
+Length=711
+
+ Score = 139 bits (350),  Expect = 2e-38, Method: Composition-based stats.
+ Identities = 41/107 (38%), Positives = 63/107 (59%), Gaps = 4/107 (4%)
+
+Query  3    TPTAVAVTFDLT-ATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTL  61
+            T   V+V F +  ATT  G+NIY+VG++ +LG+W+TS  I    ++   S P WY+ V++
+Sbjct  607  TNDQVSVRFVVNNATTNLGQNIYIVGNVYELGNWDTSKAIGPMFNQVVYSYPTWYIDVSV  666
+
+Query  62   PAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            P G++ E+KFI+ +S  +V WES  N  YT P      T  +   W+
+Sbjct  667  PEGKTIEFKFIKKDSQGNVTWESGSNHVYTTPTNT---TGKIIVDWQ  710
+
+
+> sp|P22832|AMYG_ASPSH Glucoamylase OS=Aspergillus shirousami OX=5070 
+GN=glaA PE=3 SV=1
+Length=639
+
+ Score = 137 bits (346),  Expect = 4e-38, Method: Composition-based stats.
+ Identities = 98/102 (96%), Positives = 100/102 (98%), Gaps = 0/102 (0%)
+
+Query  7    VAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGES  66
+            VAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSS+P WYVTVTLPAGES
+Sbjct  538  VAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSNPPWYVTVTLPAGES  597
+
+Query  67   FEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            FEYKFIR+ESDDSVEWESDPNREYTVPQACG STATVTDTWR
+Sbjct  598  FEYKFIRVESDDSVEWESDPNREYTVPQACGESTATVTDTWR  639
+
+
+> sp|P36914|AMYG_ASPOR Glucoamylase OS=Aspergillus oryzae (strain 
+ATCC 42149 / RIB 40) OX=510516 GN=glaA PE=2 SV=2
+Length=612
+
+ Score = 137 bits (345),  Expect = 4e-38, Method: Composition-based stats.
+ Identities = 64/108 (59%), Positives = 80/108 (74%), Gaps = 1/108 (1%)
+
+Query  1    CTTPTAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVT  60
+            C  PT V+VTF + ATT YGE+I +VGSISQLG W  S   AL+AD YT+ +PLW  T+ 
+Sbjct  506  CQVPTTVSVTFAVKATTVYGESIKIVGSISQLGSWNPSSATALNADSYTTDNPLWTGTIN  565
+
+Query  61   LPAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            LPAG+SFEYKFIR+++  +V WESDPNR+YTVP  CG  +A  +D WR
+Sbjct  566  LPAGQSFEYKFIRVQN-GAVTWESDPNRKYTVPSTCGVKSAVQSDVWR  612
+
+
+> sp|P31746|CDGT_BACS2 Cyclomaltodextrin glucanotransferase OS=Bacillus 
+sp. (strain 1-1) OX=29334 GN=cgt PE=1 SV=1
+Length=703
+
+ Score = 136 bits (342),  Expect = 2e-37, Method: Composition-based stats.
+ Identities = 38/106 (36%), Positives = 63/106 (59%), Gaps = 4/106 (4%)
+
+Query  3    TPTAVAVTFDLT-ATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTL  61
+            +   V+V F +  ATT+ G N+Y+VG++++LG+W+    I    ++     P WY  +++
+Sbjct  601  SGNQVSVRFGVNNATTSPGTNLYIVGNVNELGNWDADKAIGPMFNQVMYQYPTWYYDISV  660
+
+Query  62   PAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTW  107
+            PAG++ EYK+I+ + + +V W+S  NR YT P    T T TV   W
+Sbjct  661  PAGKNLEYKYIKKDQNGNVVWQSGNNRTYTSPT---TGTDTVMINW  703
+
+
+> sp|P26827|CDGT_THETU Cyclomaltodextrin glucanotransferase OS=Thermoanaerobacterium 
+thermosulfurigenes OX=33950 GN=amyA PE=1 
+SV=2
+Length=710
+
+ Score = 135 bits (339),  Expect = 5e-37, Method: Composition-based stats.
+ Identities = 40/107 (37%), Positives = 64/107 (60%), Gaps = 5/107 (5%)
+
+Query  3    TPTAVAVTFDLT-ATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTL  61
+            T   + V F +  A+T YGEN+YL G++++LG+W+TS  I    ++     P WY  V++
+Sbjct  607  TGNQICVRFVVNNASTVYGENVYLTGNVAELGNWDTSKAIGPMFNQVVYQYPTWYYDVSV  666
+
+Query  62   PAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            PAG + ++KFI+  + +++ WE   N  YTVP    +ST TV   W+
+Sbjct  667  PAGTTIQFKFIKK-NGNTITWEGGSNHTYTVPS---SSTGTVIVNWQ  709
+
+
+> sp|P04830|CDGT1_PAEMA Cyclomaltodextrin glucanotransferase OS=Paenibacillus 
+macerans OX=44252 GN=cgtM PE=1 SV=2
+Length=714
+
+ Score = 134 bits (336),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 38/107 (36%), Positives = 56/107 (52%), Gaps = 5/107 (5%)
+
+Query  3    TPTAVAVTFDLT-ATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTL  61
+            T   V V F +  A T YG N+YLVG+ ++LG W+ +  I    ++  +  P WY  V++
+Sbjct  611  TGDQVTVRFLVNQANTNYGTNVYLVGNAAELGSWDPNKAIGPMYNQVIAKYPSWYYDVSV  670
+
+Query  62   PAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            PAG   ++KFI+     +V WE   N  YT P    +   TVT  W+
+Sbjct  671  PAGTKLDFKFIKK-GGGTVTWEGGGNHTYTTP---ASGVGTVTVDWQ  713
+
+
+> sp|P31747|CDGT_BACSS Cyclomaltodextrin glucanotransferase OS=Bacillus 
+sp. (strain 6.6.3) OX=29335 GN=cgt PE=3 SV=1
+Length=718
+
+ Score = 128 bits (321),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 40/108 (37%), Positives = 63/108 (58%), Gaps = 6/108 (6%)
+
+Query  3    TPTAVAVTFDLT-ATTTYGENIYLVGSISQLGDWET-SDGIALSADKYTSSDPLWYVTVT  60
+            T   V V F +  A+TT G+NIYL G++++LG+W T S  I  + ++     P WY  V+
+Sbjct  615  TGDQVTVRFVINNASTTLGQNIYLTGNVAELGNWSTGSTAIGPAFNQVIHQYPTWYYDVS  674
+
+Query  61   LPAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            +PAG+  E+KF +  +  ++ WE   N ++T P    + TATVT  W+
+Sbjct  675  VPAGKELEFKFFKK-NGSTITWEGGSNHKFTTP---ASGTATVTVNWQ  718
+
+
+> sp|P30920|CDGT1_BACCI Cyclomaltodextrin glucanotransferase OS=Bacillus 
+circulans OX=1397 PE=1 SV=1
+Length=718
+
+ Score = 128 bits (321),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 40/108 (37%), Positives = 63/108 (58%), Gaps = 6/108 (6%)
+
+Query  3    TPTAVAVTFDLT-ATTTYGENIYLVGSISQLGDWET-SDGIALSADKYTSSDPLWYVTVT  60
+            T   V V F +  A+TT G+N+YL G++++LG+W T S  I  + ++     P WY  V+
+Sbjct  615  TGDQVTVRFVVNNASTTLGQNLYLTGNVAELGNWSTGSTAIGPAFNQVIHQYPTWYYDVS  674
+
+Query  61   LPAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            +PAG+  E+KF +  +  ++ WES  N  +T P    + TATVT  W+
+Sbjct  675  VPAGKQLEFKFFKK-NGSTITWESGSNHTFTTP---ASGTATVTVNWQ  718
+
+
+> sp|P14014|CDGT_BACLI Cyclomaltodextrin glucanotransferase OS=Bacillus 
+licheniformis OX=1402 GN=cgtA PE=3 SV=1
+Length=718
+
+ Score = 127 bits (320),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 40/108 (37%), Positives = 62/108 (57%), Gaps = 6/108 (6%)
+
+Query  3    TPTAVAVTFDLT-ATTTYGENIYLVGSISQLGDWETSDG-IALSADKYTSSDPLWYVTVT  60
+            +   V+V F +  ATT  GENIYL G++S+LG+W T    I  + ++   + P WY  V+
+Sbjct  615  SGDQVSVRFVINNATTALGENIYLTGNVSELGNWTTGAASIGPAFNQVIHAYPTWYYDVS  674
+
+Query  61   LPAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            +PAG+  E+KF +  +  ++ WE   N  +T P    + TATVT  W+
+Sbjct  675  VPAGKQLEFKFFKK-NGATITWEGGSNHTFTTPT---SGTATVTINWQ  718
+
+
+> sp|P0DN29|AMYG_ARTBC Glucoamylase ARB_02327-1 OS=Arthroderma 
+benhamiae (strain ATCC MYA-4681 / CBS 112371) OX=663331 GN=ARB_02327-1 
+PE=1 SV=1
+Length=610
+
+ Score = 126 bits (317),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 54/105 (51%), Positives = 65/105 (62%), Gaps = 1/105 (1%)
+
+Query  4    PTAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPA  63
+            PT   V F L ATT  GE+++LVGSI +LG W+    + L+AD Y  +   WYV + LP 
+Sbjct  507  PTKNNVRFRLLATTQVGEDVFLVGSIPELGSWDVKKAVPLNADIYADNCHQWYVDIELPT  566
+
+Query  64   GESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+              +FEYKFIR      V WE DPNR+YTVPQ CG S A   DTWR
+Sbjct  567  AVAFEYKFIRKR-GGEVVWEQDPNRKYTVPQTCGVSGAIKRDTWR  610
+
+
+> sp|P31835|CDGT2_PAEMA Cyclomaltodextrin glucanotransferase OS=Paenibacillus 
+macerans OX=44252 PE=1 SV=1
+Length=713
+
+ Score = 125 bits (315),  Expect = 8e-34, Method: Composition-based stats.
+ Identities = 37/107 (35%), Positives = 62/107 (58%), Gaps = 5/107 (5%)
+
+Query  3    TPTAVAVTFDLT-ATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTL  61
+            T   V V F +  ATT  G+N+YL G++++LG+W  ++ I    ++  +S P WY  V++
+Sbjct  610  TADQVTVRFKVNNATTALGQNVYLTGNVAELGNWTAANAIGPMYNQVEASYPTWYFDVSV  669
+
+Query  62   PAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            PA  + ++KFI++ +  +V WE   N  +T P    +  ATVT  W+
+Sbjct  670  PANTALQFKFIKV-NGSTVTWEGGNNHTFTSPS---SGVATVTVDWQ  712
+
+
+> sp|P14804|AMYG_NEUCR Glucoamylase OS=Neurospora crassa (strain 
+ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987) 
+OX=367110 GN=gla-1 PE=1 SV=3
+Length=626
+
+ Score = 122 bits (307),  Expect = 8e-33, Method: Composition-based stats.
+ Identities = 54/108 (50%), Positives = 75/108 (69%), Gaps = 1/108 (1%)
+
+Query  1    CTTPTAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVT  60
+            C     V VTF+   TT+YG+ + +VGSI+ LG+W  + G+ LSA +Y+SS+PLW  T+ 
+Sbjct  520  CAADHEVLVTFNEKVTTSYGQTVKVVGSIAALGNWAPASGVTLSAKQYSSSNPLWSTTIA  579
+
+Query  61   LPAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            LP G SF+YK++ + SD SV+WE+DP+R Y V   C  STAT+ DTWR
+Sbjct  580  LPQGTSFKYKYVVVNSDGSVKWENDPDRSYAVGTDCA-STATLDDTWR  626
+
+
+> sp|Q03045|AMYG_AMORE Glucoamylase P OS=Amorphotheca resinae OX=5101 
+GN=GAMP PE=1 SV=1
+Length=616
+
+ Score = 120 bits (300),  Expect = 9e-32, Method: Composition-based stats.
+ Identities = 45/106 (42%), Positives = 60/106 (57%), Gaps = 1/106 (1%)
+
+Query  2    TTPTAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTL  61
+            T+   V++TF++ ATT YGEN+Y++G+ S LG W  +D   LSA  YT   PLW   + L
+Sbjct  502  TSSCQVSITFNINATTYYGENLYVIGNSSDLGAWNIADAYPLSASAYTQDRPLWSAAIPL  561
+
+Query  62   PAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTW  107
+             AGE   Y+++R E  D        NR  TVP ACG +  T  D W
+Sbjct  562  NAGEVISYQYVRQEDCDQPYIYETVNRTLTVP-ACGGAAVTTDDAW  606
+
+
+> sp|P30270|AMY_STRGR Alpha-amylase OS=Streptomyces griseus OX=1911 
+GN=amy PE=3 SV=1
+Length=566
+
+ Score = 118 bits (295),  Expect = 3e-31, Method: Composition-based stats.
+ Identities = 37/101 (37%), Positives = 55/101 (54%), Gaps = 7/101 (7%)
+
+Query  8    AVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGESF  67
+            + +F + ATT +GENIY+ G  + LG+W+ +  + L         P+W + V L AG  F
+Sbjct  472  SASFHVNATTAWGENIYVTGDQAALGNWDPARALKLDPAA----YPVWKLDVPLAAGTPF  527
+
+Query  68   EYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            +YK++R ++     WES  NR  TV     T   T+ DTWR
+Sbjct  528  QYKYLRKDAAGKAVWESGANRTATVGT---TGALTLNDTWR  565
+
+
+> sp|P09794|AMY_STRLM Alpha-amylase OS=Streptomyces limosus OX=1947 
+GN=aml PE=3 SV=1
+Length=566
+
+ Score = 117 bits (294),  Expect = 4e-31, Method: Composition-based stats.
+ Identities = 37/101 (37%), Positives = 55/101 (54%), Gaps = 7/101 (7%)
+
+Query  8    AVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGESF  67
+            + +F + ATT +GENIY+ G  + LG+W+ +  + L         P+W + V L AG  F
+Sbjct  472  SASFHVNATTAWGENIYVTGDQAALGNWDPARALKLDPAA----YPVWKLDVPLAAGTPF  527
+
+Query  68   EYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            +YK++R ++     WES  NR  TV     T   T+ DTWR
+Sbjct  528  QYKYLRKDAAGKAVWESGANRTATVGT---TGALTLNDTWR  565
+
+
+> sp|P22998|AMY_STRVL Alpha-amylase OS=Streptomyces violaceus OX=1936 
+GN=aml PE=2 SV=1
+Length=569
+
+ Score = 117 bits (292),  Expect = 9e-31, Method: Composition-based stats.
+ Identities = 41/100 (41%), Positives = 61/100 (61%), Gaps = 7/100 (7%)
+
+Query  9    VTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGESFE  68
+             +F++TATT  G+NIY+ G+ ++LG+W  +  + L         P+W +TV LPAG SFE
+Sbjct  476  ASFNVTATTVVGQNIYVTGNRAELGNWAPASALKLDPAT----YPVWKLTVGLPAGTSFE  531
+
+Query  69   YKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            YK+IR ++  +V WES  NR  TVP    +    + DT+R
+Sbjct  532  YKYIRKDAAGNVTWESGANRTATVP---ASGQLVLNDTFR  568
+
+
+> sp|Q6ZY51|PWD_ARATH Phosphoglucan, water dikinase, chloroplastic 
+OS=Arabidopsis thaliana OX=3702 GN=GWD3 PE=1 SV=1
+Length=1196
+
+ Score = 115 bits (287),  Expect = 6e-30, Method: Composition-based stats.
+ Identities = 28/106 (26%), Positives = 48/106 (45%), Gaps = 7/106 (7%)
+
+Query  3    TPTAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLP  62
+            + T V +   L     +G+++ + GS  ++G W+    +  S +        W   + L 
+Sbjct  70   SGTKVRLNVRLDHQVNFGDHVAMFGSAKEIGSWKKKSPLNWSENG-------WVCELELD  122
+
+Query  63   AGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+             G+  EYKF+ +++D S+ WES  NR   VP +   S     D  R
+Sbjct  123  GGQVLEYKFVIVKNDGSLSWESGDNRVLKVPNSGNFSVVCHWDATR  168
+
+
+> sp|D8Q9M3|AMYG_SCHCM Glucoamylase ARB_02327-1 OS=Schizophyllum 
+commune (strain H4-8 / FGSC 9210) OX=578458 GN=SCHCODRAFT_57589 
+PE=1 SV=1
+Length=576
+
+ Score = 114 bits (284),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 50/104 (48%), Positives = 63/104 (61%), Gaps = 8/104 (8%)
+
+Query  5    TAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAG  64
+              VAVT ++ ATT YGENIY+ GS++QL +W   + IAL+AD    + P W VTV LPA 
+Sbjct  481  DTVAVTLNVQATTVYGENIYVTGSVNQLANWSPDNAIALNAD----NYPTWSVTVNLPAN  536
+
+Query  65   ESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+               EYK+IR  +   V WESDPNR  T      + + T  DTWR
+Sbjct  537  TQIEYKYIRKNN-GQVTWESDPNRSITT---SASGSFTQNDTWR  576
+
+
+> sp|P19531|AMYM_GEOSE Maltogenic alpha-amylase OS=Geobacillus 
+stearothermophilus OX=1422 GN=amyM PE=1 SV=2
+Length=719
+
+ Score = 111 bits (278),  Expect = 8e-29, Method: Composition-based stats.
+ Identities = 33/109 (30%), Positives = 56/109 (51%), Gaps = 6/109 (6%)
+
+Query  3    TPTAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADK---YTSSDPLWYVTV  59
+            T T+V  T      T  G+ IYL G+I +LG+W T    A++  +      + P W+   
+Sbjct  613  TQTSVVFTVKSAPPTNLGDKIYLTGNIPELGNWSTDTSGAVNNAQGPLLAPNYPDWFYVF  672
+
+Query  60   TLPAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            ++PAG++ ++KF    +D +++WE+  N   T P      T  +T TW+
+Sbjct  673  SVPAGKTIQFKFFIKRADGTIQWENGSNHVATTPTGA---TGNITVTWQ  718
+
+
+> sp|P19584|AMYB_THETU Thermophilic beta-amylase OS=Thermoanaerobacterium 
+thermosulfurigenes OX=33950 PE=1 SV=1
+Length=551
+
+ Score = 110 bits (275),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 41/108 (38%), Positives = 60/108 (56%), Gaps = 7/108 (6%)
+
+Query  2    TTPTAVAVTFDLT-ATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVT  60
+            T    + VTF +  ATT YG+N+Y+VGS S LG+W T+            + P W +T+ 
+Sbjct  449  TPNGTIPVTFTINNATTYYGQNVYIVGSTSDLGNWNTTYARGP---ASCPNYPTWTITLN  505
+
+Query  61   LPAGESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVTDTWR  108
+            L  GE  ++K ++I+S  +V WE   N  YTVP    + T +VT TW+
+Sbjct  506  LLPGEQIQFKAVKIDSSGNVTWEGGSNHTYTVPT---SGTGSVTITWQ  550
+
+
+> sp|P29750|AMY_THECU Alpha-amylase OS=Thermomonospora curvata 
+OX=2020 GN=tam PE=1 SV=1
+Length=605
+
+ Score = 104 bits (259),  Expect = 3e-26, Method: Composition-based stats.
+ Identities = 35/106 (33%), Positives = 51/106 (48%), Gaps = 6/106 (6%)
+
+Query  5    TAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAG  64
+            T V   F  T TT YG+ + +VGSI +LG W+ + G+ L  D  T   P+W   V LPAG
+Sbjct  504  TTVTARFHATVTTWYGQEVAVVGSIPELGSWQPAQGVRLRTDSGT--YPVWSGAVDLPAG  561
+
+Query  65   ESFEYKFIRIESDDSVEWESDPNREYTVPQACGTSTATVT--DTWR  108
+              FEYK++++    +  W        + P        +    D+WR
+Sbjct  562  VGFEYKYVKLNR--TAPWSGSRAATASPPWMTSGGGCSQNFYDSWR  605
+
+
+> sp|Q69Q02|DPE2_ORYSJ 4-alpha-glucanotransferase DPE2 OS=Oryza 
+sativa subsp. japonica OX=39947 GN=DPE2 PE=2 SV=1
+Length=946
+
+ Score = 102 bits (254),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 24/106 (23%), Positives = 50/106 (47%), Gaps = 3/106 (3%)
+
+Query  5    TAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAG  64
+              V + F L   T +G+++ + GS   LG W    G++LS   +  ++ +W   V++  G
+Sbjct  11   NTVTLVFKLPYYTQWGQSLLIAGSEPALGSWNVKQGLSLSP-VHQGNELIWSGRVSVATG  69
+
+Query  65   ESFEYKFIRIESDDSV-EWESDPNREYTVPQACGTS-TATVTDTWR  108
+             + +Y +  ++ + +V   ES   R+  +P+         + D W+
+Sbjct  70   FTCQYNYYVVDDNKNVLRSESGEKRKLVLPEGVQDGDVVEIRDWWQ  115
+
+
+ Score = 64.3 bits (155),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 26/91 (29%), Positives = 38/91 (42%), Gaps = 6/91 (7%)
+
+Query  4    PTAVAVTFDL-TATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTL-  61
+            P  + V F +       G  + + GS  QLG W+T DG+ L+       D +W     L 
+Sbjct  153  PEDIVVQFIVSCPRLGAGSTVVVTGSNPQLGRWQTQDGLKLNY----VGDSIWKANCLLR  208
+
+Query  62   PAGESFEYKFIRIESDDSVEWESDPNREYTV  92
+             +    +YK+ +I        E  PNRE  V
+Sbjct  209  KSEFPIKYKYCKISEAGVSSLEFGPNREADV  239
+
+
+> sp|Q8C7E7|STBD1_MOUSE Starch-binding domain-containing protein 
+1 OS=Mus musculus OX=10090 GN=Stbd1 PE=1 SV=1
+Length=338
+
+ Score = 94.4 bits (233),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 26/90 (29%), Positives = 39/90 (43%), Gaps = 7/90 (8%)
+
+Query  4    PTAVAVTFDLTATTTYG-ENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLP  62
+            P  V++ F +  TT    + I + G    LG W T   +      +   D LW  +V LP
+Sbjct  241  PQQVSIQFQVHYTTNTDVQFIAVTGDHESLGRWNTYIPL------HYCKDGLWSHSVFLP  294
+
+Query  63   AGESFEYKFIRIESDDSVEWESDPNREYTV  92
+            A    E+KF+ +E+ +   WE   NR    
+Sbjct  295  ADTVVEWKFVLVENKEVTRWEECSNRFLQT  324
+
+
+> sp|O95210|STBD1_HUMAN Starch-binding domain-containing protein 
+1 OS=Homo sapiens OX=9606 GN=STBD1 PE=1 SV=1
+Length=358
+
+ Score = 93.6 bits (231),  Expect = 8e-23, Method: Composition-based stats.
+ Identities = 23/89 (26%), Positives = 37/89 (42%), Gaps = 7/89 (8%)
+
+Query  5    TAVAVTFDLTATTTYG-ENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPA  63
+              V+V F +   T+   + I + G    LG W T   +  + D +      W  ++ LPA
+Sbjct  262  QQVSVRFQVHYVTSTDVQFIAVTGDHECLGRWNTYIPLHYNKDGF------WSHSIFLPA  315
+
+Query  64   GESFEYKFIRIESDDSVEWESDPNREYTV  92
+                E+KF+ +E+     WE   NR    
+Sbjct  316  DTVVEWKFVLVENGGVTRWEECSNRFLET  344
+
+
+> sp|Q5FVN1|STBD1_RAT Starch-binding domain-containing protein 
+1 OS=Rattus norvegicus OX=10116 GN=Stbd1 PE=1 SV=1
+Length=333
+
+ Score = 92.4 bits (228),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 25/90 (28%), Positives = 40/90 (44%), Gaps = 7/90 (8%)
+
+Query  4    PTAVAVTFDLTATTTYG-ENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLP  62
+            P  V++ F +  +T+   + I + G    LG W T   +      +   D LW  +V LP
+Sbjct  236  PRQVSIQFKVHYSTSTDVQFIAVTGDHESLGGWNTYIPL------HYCKDGLWSHSVFLP  289
+
+Query  63   AGESFEYKFIRIESDDSVEWESDPNREYTV  92
+            A    E+KF+ +E+ +   WE   NR    
+Sbjct  290  ADTVVEWKFVLVENKEVTRWEECSNRRLQT  319
+
+
+> sp|P13507|AMT4_PSEST Glucan 1,4-alpha-maltotetraohydrolase OS=Pseudomonas 
+stutzeri OX=316 GN=amyP PE=1 SV=2
+Length=548
+
+ Score = 93.2 bits (230),  Expect = 3e-22, Method: Composition-based stats.
+ Identities = 28/96 (29%), Positives = 50/96 (52%), Gaps = 7/96 (7%)
+
+Query  7    VAVTFDL-TATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGE  65
+            V+V+F      T  G+++Y VG++SQLG+W  +  + L+    TS  P W  ++ LPAG+
+Sbjct  452  VSVSFRCDNGATQMGDSVYAVGNVSQLGNWSPAAALRLTD---TSGYPTWKGSIALPAGQ  508
+
+Query  66   SFEYKFIRIESDDSV---EWESDPNREYTVPQACGT  98
+            + E+K +     ++    +W+   N   T  +   T
+Sbjct  509  NEEWKCLIRNEANATQVRQWQGGANNSLTPSEGATT  544
+
+
+> sp|P08704|CDGT_KLEOX Cyclomaltodextrin glucanotransferase OS=Klebsiella 
+oxytoca OX=571 GN=cgt PE=3 SV=1
+Length=655
+
+ Score = 92.8 bits (229),  Expect = 4e-22, Method: Composition-based stats.
+ Identities = 25/103 (24%), Positives = 52/103 (50%), Gaps = 8/103 (8%)
+
+Query  3    TPTAVAVTFDLT-ATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTL  61
+             PT  ++ F      T  G+++Y++G+I QLG W+ +  + +S  +     P W  ++ L
+Sbjct  556  NPTVQSINFTCNNGYTISGQSVYIIGNIPQLGGWDLTKAVKISPTQ----YPQWSASLEL  611
+
+Query  62   PAGESFEYKFIRIESDD---SVEWESDPNREYTVPQACGTSTA  101
+            P+  + E+K ++    +   +VEW+S  N ++       T+ +
+Sbjct  612  PSDLNVEWKCVKRNETNPTANVEWQSGANNQFNSNDTQTTNGS  654
+
+
+> sp|P22963|AMT4_PELSC Glucan 1,4-alpha-maltotetraohydrolase OS=Pelomonas 
+saccharophila OX=304 GN=mta PE=1 SV=1
+Length=551
+
+ Score = 92.8 bits (229),  Expect = 4e-22, Method: Composition-based stats.
+ Identities = 30/99 (30%), Positives = 50/99 (51%), Gaps = 7/99 (7%)
+
+Query  7    VAVTFDL-TATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGE  65
+            V V F      T  G+++Y VG++SQLG+W  +  + L+    TSS P W  ++ LP G+
+Sbjct  455  VNVNFRCDNGVTQMGDSVYAVGNVSQLGNWSPASAVRLTD---TSSYPTWKGSIALPDGQ  511
+
+Query  66   SFEYKFIRIESDDSV---EWESDPNREYTVPQACGTSTA  101
+            + E+K +     D+    +W+S  N +        TS +
+Sbjct  512  NVEWKCLIRNEADATLVRQWQSGGNNQVQAAAGASTSGS  550
+
+
+> sp|F4IV66|RNE_ARATH Ribonuclease E/G-like protein, chloroplastic 
+OS=Arabidopsis thaliana OX=3702 GN=RNE PE=1 SV=1
+Length=1001
+
+ Score = 90.9 bits (224),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 26/103 (25%), Positives = 43/103 (42%), Gaps = 7/103 (7%)
+
+Query  9    VTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGESFE  68
+            V + + A     E++Y+ G  S LG WE    I++     T +D  W   V + +G +F 
+Sbjct  84   VVWIVEADLAANEHLYVTGDPSTLGSWEPDCAISMYP---TENDNEWEAKVKIASGVNFR  140
+
+Query  69   YKFIRIESDDS---VEWESDPNREYTVPQACGTS-TATVTDTW  107
+            Y ++      S   V W   P    +VP +        + D+W
+Sbjct  141  YNYLLKAGYGSSSDVIWRPGPQFSLSVPSSVNQDRKIIIRDSW  183
+
+
+> sp|Q2QTC2|PWD_ORYSJ Phosphoglucan, water dikinase, chloroplastic 
+OS=Oryza sativa subsp. japonica OX=39947 GN=GWD3 PE=3 SV=2
+Length=1206
+
+ Score = 90.9 bits (224),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 21/99 (21%), Positives = 37/99 (37%), Gaps = 8/99 (8%)
+
+Query  7    VAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGES  66
+            V +   L     +GE++ ++GS  +LG WE    +  + +        W   + LP    
+Sbjct  75   VHLQVCLEHQVKFGEHVGIIGSTKELGSWEEQVELEWTTNG-------WVCQLKLPGETL  127
+
+Query  67   FEYKFIRIESDDSVE-WESDPNREYTVPQACGTSTATVT  104
+             E+KF+        + WE   NR   +P+          
+Sbjct  128  VEFKFVIFLVGGKDKIWEDGNNRVVELPKDGKFDIVCHW  166
+
+
+> sp|Q8RXD9|DPE2_ARATH 4-alpha-glucanotransferase DPE2 OS=Arabidopsis 
+thaliana OX=3702 GN=DPE2 PE=1 SV=1
+Length=955
+
+ Score = 87.0 bits (214),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 23/91 (25%), Positives = 48/91 (53%), Gaps = 6/91 (7%)
+
+Query  4    PTAVAVTFD-LTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLP  62
+              +V V F         G ++Y++G+  +LG+W+  +G+ L+       D +W     +P
+Sbjct  160  DDSVVVQFKICCPDIGEGTSVYVLGTPEKLGNWKVENGLRLNY----VDDSIWEADCLIP  215
+
+Query  63   -AGESFEYKFIRIESDDSVEWESDPNREYTV  92
+             A    +Y++ +++ +DS+ +ES  NRE ++
+Sbjct  216  KADFPIKYRYCKVQKEDSIGFESGGNRELSL  246
+
+
+ Score = 80.5 bits (197),  Expect = 9e-18, Method: Composition-based stats.
+ Identities = 26/104 (25%), Positives = 49/104 (47%), Gaps = 3/104 (3%)
+
+Query  7    VAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAGES  66
+            V+++F +   T +GE++ + GS   LG      G+ L   +      +W  +V++P G S
+Sbjct  19   VSISFWIPYFTHWGESLLVCGSAPGLGSGNVKKGLLLKPSQ-QDDQLIWSGSVSVPPGFS  77
+
+Query  67   FEYKFIRIESDDSV-EWESDPNREYTVPQA-CGTSTATVTDTWR  108
+             +Y +  ++   SV   E    R+  VP+   G  +  + D W+
+Sbjct  78   SDYCYYVVDDSKSVLRSEFGMKRKLVVPETLTGGESVHLRDLWQ  121
+
+
+> sp|Q9NPB8|GPCP1_HUMAN Glycerophosphocholine phosphodiesterase 
+GPCPD1 OS=Homo sapiens OX=9606 GN=GPCPD1 PE=1 SV=2
+Length=672
+
+ Score = 86.3 bits (212),  Expect = 8e-20, Method: Composition-based stats.
+ Identities = 21/69 (30%), Positives = 33/69 (48%), Gaps = 0/69 (0%)
+
+Query  5   TAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAG  64
+           T   V F++  T   GE   + GS   LG+W   + +AL  +  T    LW  T+ L  G
+Sbjct  2   TPSQVAFEIRGTLLPGEVFAICGSCDALGNWNPQNAVALLPENDTGESMLWKATIVLSRG  61
+
+Query  65  ESFEYKFIR  73
+            S +Y++ +
+Sbjct  62  VSVQYRYFK  70
+
+
+> sp|Q8C0L9|GPCP1_MOUSE Glycerophosphocholine phosphodiesterase 
+GPCPD1 OS=Mus musculus OX=10090 GN=Gpcpd1 PE=1 SV=1
+Length=675
+
+ Score = 85.9 bits (211),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 22/69 (32%), Positives = 33/69 (48%), Gaps = 0/69 (0%)
+
+Query  5   TAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAG  64
+           T   VTF++  T   GE   + GS   LG+W   + +AL  +  T    LW   + L  G
+Sbjct  2   TPSQVTFEIRGTLLPGEVFAICGSCDALGNWNPQNAVALINENETGDSVLWKAVIALNRG  61
+
+Query  65  ESFEYKFIR  73
+            S +Y++ R
+Sbjct  62  VSVKYRYFR  70
+
+
+> sp|Q80VJ4|GPCP1_RAT Glycerophosphocholine phosphodiesterase GPCPD1 
+OS=Rattus norvegicus OX=10116 GN=Gpcpd1 PE=1 SV=1
+Length=672
+
+ Score = 78.6 bits (192),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 18/69 (26%), Positives = 34/69 (49%), Gaps = 2/69 (3%)
+
+Query  5   TAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAG  64
+           T   VTF++  T   GE   + G+   LG+W   + + L+  +  + + +W   + L  G
+Sbjct  2   TPSQVTFEIRGTLLPGEVFAMCGNCDALGNWSPQNAVPLTESE--TGESVWKAVIVLSRG  59
+
+Query  65  ESFEYKFIR  73
+            S +Y++ R
+Sbjct  60  MSVKYRYFR  68
+
+
+> sp|P36924|AMYB_BACCE Beta-amylase OS=Bacillus cereus OX=1396 
+GN=spoII PE=1 SV=2
+Length=546
+
+ Score = 74.7 bits (182),  Expect = 8e-16, Method: Composition-based stats.
+ Identities = 25/82 (30%), Positives = 40/82 (49%), Gaps = 6/82 (7%)
+
+Query  5    TAVAVTFDL-TATTTYGENIYLVGSISQLGDWETSD-GIALSADKYTSSDPLWYVTVTLP  62
+            T V  T  +    TT G+ +Y+ G+ ++LG W+T    I L  D +++    W   V LP
+Sbjct  448  TPVMQTIVVKNVPTTIGDTVYITGNRAELGSWDTKQYPIQLYYDSHSND---WRGNVVLP  504
+
+Query  63   AGESFEYKFIRIESDDSV-EWE  83
+            A  + E+K      D +V  W+
+Sbjct  505  AERNIEFKAFIKSKDGTVKSWQ  526
+
+
+> sp|Q1M199|EPM2A_CANLF Laforin OS=Canis lupus familiaris OX=9615 
+GN=EPM2A PE=3 SV=1
+Length=331
+
+ Score = 71.6 bits (174),  Expect = 6e-15, Method: Composition-based stats.
+ Identities = 22/87 (25%), Positives = 34/87 (39%), Gaps = 20/87 (23%)
+
+Query  22   NIYLVGSISQLGDWETSDGIALSADKYTS-------SDP-LWYVTVTLPAGE--------  65
+             + +VGS  +LG WE    + L      +        +P LW   V L  GE        
+Sbjct  19   ELLVVGSRPELGRWEPRGAVRLRPAGSAAGGGARALQEPGLWLGEVELAPGEAARDGAEP  78
+
+Query  66   ----SFEYKFIRIESDDSVEWESDPNR  88
+                +F YKF++ E   ++ WE +   
+Sbjct  79   ARVDTFWYKFLKREPGGALSWEGNGPH  105
+
+
+> sp|Q9WUA5|EPM2A_MOUSE Laforin OS=Mus musculus OX=10090 GN=Epm2a 
+PE=1 SV=2
+Length=330
+
+ Score = 69.7 bits (169),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 22/87 (25%), Positives = 32/87 (37%), Gaps = 19/87 (22%)
+
+Query  21   ENIYLVGSISQLGDWETSDGIALSA-------DKYTSSDP-LWYVTVTLPAGE-------  65
+            + + L GS  +LG WE    + L               +P LW   V L A E       
+Sbjct  18   QELLLAGSRPELGRWEPHGAVRLRPAGTAAGAAALALQEPGLWLAEVELEAYEEAGGAEP  77
+
+Query  66   ----SFEYKFIRIESDDSVEWESDPNR  88
+                +F YKF++ E    + WE +   
+Sbjct  78   GRVDTFWYKFLQREPGGELHWEGNGPH  104
+
+
+> sp|Q91XQ2|EPM2A_RAT Laforin OS=Rattus norvegicus OX=10116 GN=Epm2a 
+PE=2 SV=2
+Length=331
+
+ Score = 68.2 bits (165),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 21/87 (24%), Positives = 31/87 (36%), Gaps = 20/87 (23%)
+
+Query  22   NIYLVGSISQLGDWETSDGIALSADKYTS-------SDP-LWYVTVTLPAGE--------  65
+             + L GS  +LG WE    + L      +        +P LW   V L   E        
+Sbjct  19   ELLLAGSRPELGRWEPRGAVRLRPAGTAAGAAALALQEPGLWLAEVELAPEEEAADGAEP  78
+
+Query  66   ----SFEYKFIRIESDDSVEWESDPNR  88
+                +F YKF++ E    + WE +   
+Sbjct  79   GRIDTFWYKFLQREPGGELHWEGNGPH  105
+
+
+> sp|O95278|EPM2A_HUMAN Laforin OS=Homo sapiens OX=9606 GN=EPM2A 
+PE=1 SV=2
+Length=331
+
+ Score = 66.6 bits (161),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 19/87 (22%), Positives = 30/87 (34%), Gaps = 20/87 (23%)
+
+Query  22   NIYLVGSISQLGDWETSDGIALSADKYTSSD--------PLWYV-----------TVTLP  62
+             + +VGS  +LG WE    + L      + D         LW                 P
+Sbjct  19   ELLVVGSRPELGRWEPRGAVRLRPAGTAAGDGALALQEPGLWLGEVELAAEEAAQDGAEP  78
+
+Query  63   AG-ESFEYKFIRIESDDSVEWESDPNR  88
+               ++F YKF++ E    + WE +   
+Sbjct  79   GRVDTFWYKFLKREPGGELSWEGNGPH  105
+
+
+> sp|A0P8X0|AAMY_BACCI Alpha-amylase OS=Bacillus circulans OX=1397 
+GN=igtZ PE=1 SV=1
+Length=1290
+
+ Score = 42.0 bits (97),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 27/102 (26%), Positives = 38/102 (37%), Gaps = 9/102 (9%)
+
+Query  5     TAVAVTFDLTATTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAG  64
+              +V     +  +T     +YL GS +    W  +D   L       SD ++ +T+ LPAG
+Sbjct  1189  DSVTFRVSVPGSTPANAPVYLTGSFN---SWNAADPAYLLTRG---SDGIYSITLNLPAG  1242
+
+Query  65    ESFEYKFIRIESDDSVEWESDP---NREYTVPQACGTSTATV  103
+              +  YK  R          S     NR  T      T T TV
+Sbjct  1243  SAVTYKLTRGSWATVETASSGADITNRTLTPAGGAQTVTLTV  1284
+
+
+> sp|Q9MB58|F26_ARATH 6-phosphofructo-2-kinase/fructose-2,6-bisphosphatase 
+OS=Arabidopsis thaliana OX=3702 GN=FKFBP PE=1 SV=1
+Length=744
+
+ Score = 41.6 bits (96),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 19/100 (19%), Positives = 42/100 (42%), Gaps = 12/100 (12%)
+
+Query  6    AVAVTFDLTATTTYGE---NIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLP  62
+             + V+  +  +   GE   ++Y  GS+  +G W+ S  + +  +    S+    ++  +P
+Sbjct  22   QLYVSLKMENSKVEGELTPHVY--GSLPLIGSWDPSKALPMQRESALMSE----LSFVVP  75
+
+Query  63   AG-ESFEYKFIRIESDDSVE--WESDPNREYTVPQACGTS  99
+               E+ ++KF+    + +     E   NR  T     G +
+Sbjct  76   PDHETLDFKFLLKPKNRNTPCIVEEGENRLLTGGSLQGDA  115
+
+
+> sp|Q21407|GPCP1_CAEEL Putative glycerophosphocholine phosphodiesterase 
+GPCPD1 homolog 1 OS=Caenorhabditis elegans OX=6239 
+GN=gpcp-1 PE=3 SV=2
+Length=690
+
+ Score = 41.2 bits (95),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 15/55 (27%), Positives = 31/55 (56%), Gaps = 3/55 (5%)
+
+Query  21  ENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAG-ESFEYKFIRI  74
+           E I++VGS+  LG+W       L+    T  +  ++  V++P+  + F +++IR+
+Sbjct  20  EKIHVVGSLPVLGEWNPRKSFPLTKS--TDEENTFHAIVSVPSSIKEFNFRYIRV  72
+
+
+> sp|Q10003|GPCP2_CAEEL Putative glycerophosphocholine phosphodiesterase 
+GPCPD1 homolog 2 OS=Caenorhabditis elegans OX=6239 
+GN=gpcp-2 PE=3 SV=1
+Length=796
+
+ Score = 40.1 bits (92),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 13/69 (19%), Positives = 28/69 (41%), Gaps = 4/69 (6%)
+
+Query  6    AVAVTFDLTA-TTTYGENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTVTLPAG  64
+             V V F +        +++Y+VGS   LG WE +  + L   +       W  ++     
+Sbjct  83   PVRVHFAVDVENLHAHQSVYVVGSNDVLGTWEATRAMPLV--QDPDRFMRWKGSIVTDVH  140
+
+Query  65   ESFEYKFIR  73
+            +  ++++  
+Sbjct  141  Q-LKFRYFI  148
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.135    0.411    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0413    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5120154688
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  1:45 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

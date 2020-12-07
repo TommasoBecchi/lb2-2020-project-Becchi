@@ -1,0 +1,241 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 5BOI:A
+
+Length=226
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P38490|YPEB_BACSU Sporulation protein YpeB OS=Bacillus subti...  253     9e-82
+  sp|Q9RC82|YPEB_BACHD Sporulation protein YpeB OS=Bacillus halod...  226     6e-71
+  sp|P59106|YPEB_OCEIH Sporulation protein YpeB OS=Oceanobacillus...  186     1e-55
+
+
+> sp|P38490|YPEB_BACSU Sporulation protein YpeB OS=Bacillus subtilis 
+(strain 168) OX=224308 GN=ypeB PE=1 SV=2
+Length=450
+
+ Score = 253 bits (647),  Expect = 9e-82, Method: Compositional matrix adjust.
+ Identities = 123/228 (54%), Positives = 174/228 (76%), Gaps = 4/228 (2%)
+
+Query  1    GREVSEDVAKQVARSFLNLKGNEQIHIVKSGKDADYEVYSLTITDPKTNQETYMDITQKG  60
+            G+++SE  AKQ+A  F     N  I +VKSGK  + +VYS+++ DP      YMDIT+KG
+Sbjct  217  GKQISEQEAKQIAERFAP-DDNYSIKVVKSGKKTNRDVYSISMKDPDHKAVIYMDITKKG  275
+
+Query  61   GYPLWVLEDRDIKKQNISLNDAMNKATKFLKDHRFES--LVMAESAQYDNMGVFTFVEQT  118
+            G+P++++++R++K Q ISLND  N+A  FLK + FE+  L + ESAQYD +GVF++V   
+Sbjct  276  GHPVYLIQNREVKDQKISLNDGSNRALAFLKKNGFETDDLEIDESAQYDKIGVFSYVP-V  334
+
+Query  119  ESGVRIYPDSVKMKMSLEDGSVIGFSAKDFLLKHRTRDIPKPKISKEQAKTKLNSNVKVM  178
+            E+ VR+YP++++MK++L+DG V+GFSA+DFL  HR R IPKP I++ +AK+KLN NV+V 
+Sbjct  335  ENKVRMYPEAIRMKVALDDGEVVGFSARDFLTSHRKRTIPKPAITEAEAKSKLNKNVQVR  394
+
+Query  179  EERLAIITNDLNEEVLCYEFLGTIKNDTYRIFINADTGFEEKVEKLQN  226
+            E RLA+ITN+L +EVLCYE LGTI+NDT+R++INA  G EEKVEKL+N
+Sbjct  395  ETRLALITNELGQEVLCYEMLGTIENDTFRMYINAKDGSEEKVEKLKN  442
+
+
+> sp|Q9RC82|YPEB_BACHD Sporulation protein YpeB OS=Bacillus halodurans 
+(strain ATCC BAA-125 / DSM 18197 / FERM 7344 / JCM 9153 
+/ C-125) OX=272558 GN=BH1632 PE=3 SV=1
+Length=447
+
+ Score = 226 bits (575),  Expect = 6e-71, Method: Compositional matrix adjust.
+ Identities = 100/224 (45%), Positives = 168/224 (75%), Gaps = 3/224 (1%)
+
+Query  2    REVSEDVAKQVARSFLNLKGNEQIHIVKSGKDADYEVYSLTITDPKTNQETYMDITQKGG  61
+            R+++E+ AK++A S+++++    + + ++G   D  +YS+ I DP+     Y+D+TQ+GG
+Sbjct  218  RKITEEEAKEIALSYVDMEQATDVIVSETGDGLD--MYSVIIDDPERQAHYYLDMTQQGG  275
+
+Query  62   YPLWVLEDRDIKKQNISLNDAMNKATKFLKDHRFESLVMAESAQYDNMGVFTFVEQTESG  121
+            +P+W L++R I +QNISLN+A NKA +FL++H  E++ + +S QYD++GVF FV   E  
+Sbjct  276  HPIWFLQERQINEQNISLNEASNKAQEFLEEHDKENMQLVDSKQYDSIGVFEFV-YLEDN  334
+
+Query  122  VRIYPDSVKMKMSLEDGSVIGFSAKDFLLKHRTRDIPKPKISKEQAKTKLNSNVKVMEER  181
+            VR+YPD++K++++L++G +IG+ A  +L+ H  RD+ +P+++ ++A+ +LN  ++VME+ 
+Sbjct  335  VRVYPDTIKVEVALDEGDIIGYEAMSYLVNHHDRDLEEPELTADEARERLNPRLEVMEDH  394
+
+Query  182  LAIITNDLNEEVLCYEFLGTIKNDTYRIFINADTGFEEKVEKLQ  225
+            +A+I NDL EEVLCYEF G I ++TYRI+INA+ G EEKVEK+Q
+Sbjct  395  IALIQNDLGEEVLCYEFFGVINDETYRIYINAEDGEEEKVEKMQ  438
+
+
+> sp|P59106|YPEB_OCEIH Sporulation protein YpeB OS=Oceanobacillus 
+iheyensis (strain DSM 14371 / CIP 107618 / JCM 11309 / KCTC 
+3954 / HTE831) OX=221109 GN=OB1805 PE=3 SV=1
+Length=447
+
+ Score = 186 bits (473),  Expect = 1e-55, Method: Compositional matrix adjust.
+ Identities = 92/224 (41%), Positives = 150/224 (67%), Gaps = 3/224 (1%)
+
+Query  1    GREVSEDVAKQVARSFLNLKGNEQIHIVKSGKDADYEVYSLTITDPKTNQETYMDITQKG  60
+            G EV+E+ A Q A     +K  + + I KSG+ AD  +YS++    K  +  YMD+  KG
+Sbjct  216  GSEVTENEALQRAMEIFEIKDKDLLSISKSGEGADTPLYSISYN--KDEEHGYMDMAIKG  273
+
+Query  61   GYPLWVLEDRDIKKQNISLNDAMNKATKFLKDHRFESLVMAESAQYDNMGVFTFVEQTES  120
+            G+PL +L  R++K++ +SLN+   KA  +L     E + + +S++YD++GV++++   ++
+Sbjct  274  GHPLNLLVSREMKEKKVSLNEGSEKAKDYLASFGLEDMTLFQSSEYDHIGVYSYL-YNDN  332
+
+Query  121  GVRIYPDSVKMKMSLEDGSVIGFSAKDFLLKHRTRDIPKPKISKEQAKTKLNSNVKVMEE  180
+            GVR+Y D+V++K+ L++G ++G +   + + H  R+IP+PKIS+++A+  +NS V + E 
+Sbjct  333  GVRVYSDAVEVKVGLDNGDLLGLTTNSYFMNHTDREIPEPKISEDEARDNVNSTVDIQES  392
+
+Query  181  RLAIITNDLNEEVLCYEFLGTIKNDTYRIFINADTGFEEKVEKL  224
+             LAII N+  EEVL YEFLG + ++TYRIFINA+ G EE VEKL
+Sbjct  393  HLAIIDNNAGEEVLTYEFLGIMDDETYRIFINAENGQEELVEKL  436
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.132    0.362    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 15524064416
+Results from round 2
+
+
+Query= 5BOI:A
+
+Length=226
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P38490|YPEB_BACSU Sporulation protein YpeB OS=Bacillus subti...  328     8e-111
+  sp|Q9RC82|YPEB_BACHD Sporulation protein YpeB OS=Bacillus halod...  322     1e-108
+  sp|P59106|YPEB_OCEIH Sporulation protein YpeB OS=Oceanobacillus...  311     2e-104
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|P38490|YPEB_BACSU Sporulation protein YpeB OS=Bacillus subtilis 
+(strain 168) OX=224308 GN=ypeB PE=1 SV=2
+Length=450
+
+ Score = 328 bits (840),  Expect = 8e-111, Method: Composition-based stats.
+ Identities = 123/228 (54%), Positives = 173/228 (76%), Gaps = 4/228 (2%)
+
+Query  1    GREVSEDVAKQVARSFLNLKGNEQIHIVKSGKDADYEVYSLTITDPKTNQETYMDITQKG  60
+            G+++SE  AKQ+A  F     N  I +VKSGK  + +VYS+++ DP      YMDIT+KG
+Sbjct  217  GKQISEQEAKQIAERFAP-DDNYSIKVVKSGKKTNRDVYSISMKDPDHKAVIYMDITKKG  275
+
+Query  61   GYPLWVLEDRDIKKQNISLNDAMNKATKFLKDHRFE--SLVMAESAQYDNMGVFTFVEQT  118
+            G+P++++++R++K Q ISLND  N+A  FLK + FE   L + ESAQYD +GVF++V   
+Sbjct  276  GHPVYLIQNREVKDQKISLNDGSNRALAFLKKNGFETDDLEIDESAQYDKIGVFSYVP-V  334
+
+Query  119  ESGVRIYPDSVKMKMSLEDGSVIGFSAKDFLLKHRTRDIPKPKISKEQAKTKLNSNVKVM  178
+            E+ VR+YP++++MK++L+DG V+GFSA+DFL  HR R IPKP I++ +AK+KLN NV+V 
+Sbjct  335  ENKVRMYPEAIRMKVALDDGEVVGFSARDFLTSHRKRTIPKPAITEAEAKSKLNKNVQVR  394
+
+Query  179  EERLAIITNDLNEEVLCYEFLGTIKNDTYRIFINADTGFEEKVEKLQN  226
+            E RLA+ITN+L +EVLCYE LGTI+NDT+R++INA  G EEKVEKL+N
+Sbjct  395  ETRLALITNELGQEVLCYEMLGTIENDTFRMYINAKDGSEEKVEKLKN  442
+
+
+> sp|Q9RC82|YPEB_BACHD Sporulation protein YpeB OS=Bacillus halodurans 
+(strain ATCC BAA-125 / DSM 18197 / FERM 7344 / JCM 9153 
+/ C-125) OX=272558 GN=BH1632 PE=3 SV=1
+Length=447
+
+ Score = 322 bits (826),  Expect = 1e-108, Method: Composition-based stats.
+ Identities = 100/224 (45%), Positives = 168/224 (75%), Gaps = 3/224 (1%)
+
+Query  2    REVSEDVAKQVARSFLNLKGNEQIHIVKSGKDADYEVYSLTITDPKTNQETYMDITQKGG  61
+            R+++E+ AK++A S+++++    + + ++G   D  +YS+ I DP+     Y+D+TQ+GG
+Sbjct  218  RKITEEEAKEIALSYVDMEQATDVIVSETGDGLD--MYSVIIDDPERQAHYYLDMTQQGG  275
+
+Query  62   YPLWVLEDRDIKKQNISLNDAMNKATKFLKDHRFESLVMAESAQYDNMGVFTFVEQTESG  121
+            +P+W L++R I +QNISLN+A NKA +FL++H  E++ + +S QYD++GVF FV   E  
+Sbjct  276  HPIWFLQERQINEQNISLNEASNKAQEFLEEHDKENMQLVDSKQYDSIGVFEFV-YLEDN  334
+
+Query  122  VRIYPDSVKMKMSLEDGSVIGFSAKDFLLKHRTRDIPKPKISKEQAKTKLNSNVKVMEER  181
+            VR+YPD++K++++L++G +IG+ A  +L+ H  RD+ +P+++ ++A+ +LN  ++VME+ 
+Sbjct  335  VRVYPDTIKVEVALDEGDIIGYEAMSYLVNHHDRDLEEPELTADEARERLNPRLEVMEDH  394
+
+Query  182  LAIITNDLNEEVLCYEFLGTIKNDTYRIFINADTGFEEKVEKLQ  225
+            +A+I NDL EEVLCYEF G I ++TYRI+INA+ G EEKVEK+Q
+Sbjct  395  IALIQNDLGEEVLCYEFFGVINDETYRIYINAEDGEEEKVEKMQ  438
+
+
+> sp|P59106|YPEB_OCEIH Sporulation protein YpeB OS=Oceanobacillus 
+iheyensis (strain DSM 14371 / CIP 107618 / JCM 11309 / KCTC 
+3954 / HTE831) OX=221109 GN=OB1805 PE=3 SV=1
+Length=447
+
+ Score = 311 bits (798),  Expect = 2e-104, Method: Composition-based stats.
+ Identities = 92/224 (41%), Positives = 150/224 (67%), Gaps = 3/224 (1%)
+
+Query  1    GREVSEDVAKQVARSFLNLKGNEQIHIVKSGKDADYEVYSLTITDPKTNQETYMDITQKG  60
+            G EV+E+ A Q A     +K  + + I KSG+ AD  +YS++    K  +  YMD+  KG
+Sbjct  216  GSEVTENEALQRAMEIFEIKDKDLLSISKSGEGADTPLYSISYN--KDEEHGYMDMAIKG  273
+
+Query  61   GYPLWVLEDRDIKKQNISLNDAMNKATKFLKDHRFESLVMAESAQYDNMGVFTFVEQTES  120
+            G+PL +L  R++K++ +SLN+   KA  +L     E + + +S++YD++GV++++   ++
+Sbjct  274  GHPLNLLVSREMKEKKVSLNEGSEKAKDYLASFGLEDMTLFQSSEYDHIGVYSYL-YNDN  332
+
+Query  121  GVRIYPDSVKMKMSLEDGSVIGFSAKDFLLKHRTRDIPKPKISKEQAKTKLNSNVKVMEE  180
+            GVR+Y D+V++K+ L++G ++G +   + + H  R+IP+PKIS+++A+  +NS V + E 
+Sbjct  333  GVRVYSDAVEVKVGLDNGDLLGLTTNSYFMNHTDREIPEPKISEDEARDNVNSTVDIQES  392
+
+Query  181  RLAIITNDLNEEVLCYEFLGTIKNDTYRIFINADTGFEEKVEKL  224
+             LAII N+  EEVL YEFLG + ++TYRIFINA+ G EE VEKL
+Sbjct  393  HLAIIDNNAGEEVLTYEFLGIMDDETYRIFINAENGQEELVEKL  436
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.137    0.345    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0420    0.140     1.90     42.6     43.6 
+
+Effective search space used: 15524064416
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  1:45 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

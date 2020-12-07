@@ -1,0 +1,321 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 6B29:C
+
+Length=57
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q8BZ71|STAC3_MOUSE SH3 and cysteine-rich domain-containing p...  116     3e-32
+  sp|Q96MF2|STAC3_HUMAN SH3 and cysteine-rich domain-containing p...  115     4e-32
+  sp|Q68F99|STAC3_XENTR SH3 and cysteine-rich domain-containing p...  100     3e-26
+  sp|Q6DBR6|STAC3_DANRE SH3 and cysteine-rich domain-containing p...  89.4    3e-22
+  sp|Q99469|STAC_HUMAN SH3 and cysteine-rich domain-containing pr...  60.5    1e-11
+  sp|A0JNJ1|STAC_BOVIN SH3 and cysteine-rich domain-containing pr...  58.2    7e-11
+  sp|P97306|STAC_MOUSE SH3 and cysteine-rich domain-containing pr...  57.4    1e-10
+  sp|Q6ZMT1|STAC2_HUMAN SH3 and cysteine-rich domain-containing p...  48.9    2e-07
+  sp|Q8R1B0|STAC2_MOUSE SH3 and cysteine-rich domain-containing p...  47.8    4e-07
+
+
+> sp|Q8BZ71|STAC3_MOUSE SH3 and cysteine-rich domain-containing 
+protein 3 OS=Mus musculus OX=10090 GN=Stac3 PE=1 SV=1
+Length=360
+
+ Score = 116 bits (290),  Expect = 3e-32, Method: Compositional matrix adjust.
+ Identities = 56/56 (100%), Positives = 56/56 (100%), Gaps = 0/56 (0%)
+
+Query  2    RVHRVTRSFVGNREIGQITLKKDQIVVQKGDEAGGYVKVYTGRKVGLFPTDFLEEI  57
+            RVHRVTRSFVGNREIGQITLKKDQIVVQKGDEAGGYVKVYTGRKVGLFPTDFLEEI
+Sbjct  305  RVHRVTRSFVGNREIGQITLKKDQIVVQKGDEAGGYVKVYTGRKVGLFPTDFLEEI  360
+
+
+> sp|Q96MF2|STAC3_HUMAN SH3 and cysteine-rich domain-containing 
+protein 3 OS=Homo sapiens OX=9606 GN=STAC3 PE=1 SV=1
+Length=364
+
+ Score = 115 bits (289),  Expect = 4e-32, Method: Compositional matrix adjust.
+ Identities = 56/56 (100%), Positives = 56/56 (100%), Gaps = 0/56 (0%)
+
+Query  2    RVHRVTRSFVGNREIGQITLKKDQIVVQKGDEAGGYVKVYTGRKVGLFPTDFLEEI  57
+            RVHRVTRSFVGNREIGQITLKKDQIVVQKGDEAGGYVKVYTGRKVGLFPTDFLEEI
+Sbjct  309  RVHRVTRSFVGNREIGQITLKKDQIVVQKGDEAGGYVKVYTGRKVGLFPTDFLEEI  364
+
+
+> sp|Q68F99|STAC3_XENTR SH3 and cysteine-rich domain-containing 
+protein 3 OS=Xenopus tropicalis OX=8364 GN=stac3 PE=2 SV=1
+Length=337
+
+ Score = 100 bits (248),  Expect = 3e-26, Method: Compositional matrix adjust.
+ Identities = 48/56 (86%), Positives = 52/56 (93%), Gaps = 0/56 (0%)
+
+Query  2    RVHRVTRSFVGNREIGQITLKKDQIVVQKGDEAGGYVKVYTGRKVGLFPTDFLEEI  57
+            RV++VTRSFVGNREIGQITLKKDQIVVQKGDE  GY+KV TGRKVGLFP DFL+EI
+Sbjct  282  RVYKVTRSFVGNREIGQITLKKDQIVVQKGDEVNGYIKVSTGRKVGLFPLDFLQEI  337
+
+
+> sp|Q6DBR6|STAC3_DANRE SH3 and cysteine-rich domain-containing 
+protein 3 OS=Danio rerio OX=7955 GN=stac3 PE=1 SV=1
+Length=334
+
+ Score = 89.4 bits (220),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 41/56 (73%), Positives = 49/56 (88%), Gaps = 0/56 (0%)
+
+Query  2    RVHRVTRSFVGNREIGQITLKKDQIVVQKGDEAGGYVKVYTGRKVGLFPTDFLEEI  57
+            RV++VTRSFVGNRE+GQITLKKDQIVV+KG+E  GY+KV TGRK+G FP D L E+
+Sbjct  279  RVYKVTRSFVGNREMGQITLKKDQIVVKKGEEVNGYLKVSTGRKLGFFPADLLHEL  334
+
+
+> sp|Q99469|STAC_HUMAN SH3 and cysteine-rich domain-containing 
+protein OS=Homo sapiens OX=9606 GN=STAC PE=1 SV=1
+Length=402
+
+ Score = 60.5 bits (145),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 26/56 (46%), Positives = 39/56 (70%), Gaps = 0/56 (0%)
+
+Query  2    RVHRVTRSFVGNREIGQITLKKDQIVVQKGDEAGGYVKVYTGRKVGLFPTDFLEEI  57
+            ++ R  R+F+G +E GQITLK++QI V   +E  G+++V +G+K GL P D LE I
+Sbjct  347  KIFRCVRTFIGCKEQGQITLKENQICVSSEEEQDGFIRVLSGKKKGLIPLDVLENI  402
+
+
+> sp|A0JNJ1|STAC_BOVIN SH3 and cysteine-rich domain-containing 
+protein OS=Bos taurus OX=9913 GN=STAC PE=2 SV=1
+Length=403
+
+ Score = 58.2 bits (139),  Expect = 7e-11, Method: Composition-based stats.
+ Identities = 26/56 (46%), Positives = 38/56 (68%), Gaps = 0/56 (0%)
+
+Query  2    RVHRVTRSFVGNREIGQITLKKDQIVVQKGDEAGGYVKVYTGRKVGLFPTDFLEEI  57
+            ++ R  R+F G +E GQITLK++QI V   +E  G+++V +G+K GL P D LE I
+Sbjct  348  KIFRCVRTFSGCKEQGQITLKENQICVASEEEQDGFIRVLSGKKRGLVPLDVLENI  403
+
+
+> sp|P97306|STAC_MOUSE SH3 and cysteine-rich domain-containing 
+protein OS=Mus musculus OX=10090 GN=Stac PE=1 SV=1
+Length=403
+
+ Score = 57.4 bits (137),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 23/56 (41%), Positives = 40/56 (71%), Gaps = 0/56 (0%)
+
+Query  2    RVHRVTRSFVGNREIGQITLKKDQIVVQKGDEAGGYVKVYTGRKVGLFPTDFLEEI  57
+            +++R  R+F+G ++ GQITLK++QI V   +E  G+++V +G+K GL P D L ++
+Sbjct  348  KIYRCVRTFIGCKDQGQITLKENQICVTSEEEQDGFIRVLSGKKRGLVPLDVLVDV  403
+
+
+> sp|Q6ZMT1|STAC2_HUMAN SH3 and cysteine-rich domain-containing 
+protein 2 OS=Homo sapiens OX=9606 GN=STAC2 PE=1 SV=1
+Length=411
+
+ Score = 48.9 bits (115),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 25/57 (44%), Positives = 37/57 (65%), Gaps = 2/57 (4%)
+
+Query  3    VHRVTRSFVGNREIGQITLKKDQIVVQKG--DEAGGYVKVYTGRKVGLFPTDFLEEI  57
+            V R  + F GN+E G ++LK++QI V  G   +A G+++V +G+K GL P D L EI
+Sbjct  355  VWRCCQPFSGNKEQGYMSLKENQICVGVGRSKDADGFIRVSSGKKRGLVPVDALTEI  411
+
+
+> sp|Q8R1B0|STAC2_MOUSE SH3 and cysteine-rich domain-containing 
+protein 2 OS=Mus musculus OX=10090 GN=Stac2 PE=1 SV=1
+Length=408
+
+ Score = 47.8 bits (112),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 23/57 (40%), Positives = 37/57 (65%), Gaps = 2/57 (4%)
+
+Query  3    VHRVTRSFVGNREIGQITLKKDQIVV--QKGDEAGGYVKVYTGRKVGLFPTDFLEEI  57
+            V R  + F GN+E G ++LK++QI V   +  ++ G+++V +G+K GL P D L EI
+Sbjct  352  VWRCCQPFSGNKEQGYMSLKENQICVGVSRSKDSDGFIRVSSGKKRGLVPADSLAEI  408
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.142    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5019478362
+Results from round 2
+
+
+Query= 6B29:C
+
+Length=57
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|A0JNJ1|STAC_BOVIN SH3 and cysteine-rich domain-containing pr...  98.1    3e-25
+  sp|P97306|STAC_MOUSE SH3 and cysteine-rich domain-containing pr...  97.7    4e-25
+  sp|Q99469|STAC_HUMAN SH3 and cysteine-rich domain-containing pr...  96.9    7e-25
+  sp|Q6ZMT1|STAC2_HUMAN SH3 and cysteine-rich domain-containing p...  91.2    1e-22
+  sp|Q8R1B0|STAC2_MOUSE SH3 and cysteine-rich domain-containing p...  90.8    2e-22
+  sp|Q68F99|STAC3_XENTR SH3 and cysteine-rich domain-containing p...  89.6    2e-22
+  sp|Q8BZ71|STAC3_MOUSE SH3 and cysteine-rich domain-containing p...  89.2    3e-22
+  sp|Q96MF2|STAC3_HUMAN SH3 and cysteine-rich domain-containing p...  88.8    6e-22
+  sp|Q6DBR6|STAC3_DANRE SH3 and cysteine-rich domain-containing p...  87.3    2e-21
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|A0JNJ1|STAC_BOVIN SH3 and cysteine-rich domain-containing 
+protein OS=Bos taurus OX=9913 GN=STAC PE=2 SV=1
+Length=403
+
+ Score = 98.1 bits (243),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 26/56 (46%), Positives = 38/56 (68%), Gaps = 0/56 (0%)
+
+Query  2    RVHRVTRSFVGNREIGQITLKKDQIVVQKGDEAGGYVKVYTGRKVGLFPTDFLEEI  57
+            ++ R  R+F G +E GQITLK++QI V   +E  G+++V +G+K GL P D LE I
+Sbjct  348  KIFRCVRTFSGCKEQGQITLKENQICVASEEEQDGFIRVLSGKKRGLVPLDVLENI  403
+
+
+> sp|P97306|STAC_MOUSE SH3 and cysteine-rich domain-containing 
+protein OS=Mus musculus OX=10090 GN=Stac PE=1 SV=1
+Length=403
+
+ Score = 97.7 bits (242),  Expect = 4e-25, Method: Composition-based stats.
+ Identities = 23/56 (41%), Positives = 40/56 (71%), Gaps = 0/56 (0%)
+
+Query  2    RVHRVTRSFVGNREIGQITLKKDQIVVQKGDEAGGYVKVYTGRKVGLFPTDFLEEI  57
+            +++R  R+F+G ++ GQITLK++QI V   +E  G+++V +G+K GL P D L ++
+Sbjct  348  KIYRCVRTFIGCKDQGQITLKENQICVTSEEEQDGFIRVLSGKKRGLVPLDVLVDV  403
+
+
+> sp|Q99469|STAC_HUMAN SH3 and cysteine-rich domain-containing 
+protein OS=Homo sapiens OX=9606 GN=STAC PE=1 SV=1
+Length=402
+
+ Score = 96.9 bits (240),  Expect = 7e-25, Method: Composition-based stats.
+ Identities = 26/56 (46%), Positives = 39/56 (70%), Gaps = 0/56 (0%)
+
+Query  2    RVHRVTRSFVGNREIGQITLKKDQIVVQKGDEAGGYVKVYTGRKVGLFPTDFLEEI  57
+            ++ R  R+F+G +E GQITLK++QI V   +E  G+++V +G+K GL P D LE I
+Sbjct  347  KIFRCVRTFIGCKEQGQITLKENQICVSSEEEQDGFIRVLSGKKKGLIPLDVLENI  402
+
+
+> sp|Q6ZMT1|STAC2_HUMAN SH3 and cysteine-rich domain-containing 
+protein 2 OS=Homo sapiens OX=9606 GN=STAC2 PE=1 SV=1
+Length=411
+
+ Score = 91.2 bits (225),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 25/57 (44%), Positives = 37/57 (65%), Gaps = 2/57 (4%)
+
+Query  3    VHRVTRSFVGNREIGQITLKKDQIVVQKG--DEAGGYVKVYTGRKVGLFPTDFLEEI  57
+            V R  + F GN+E G ++LK++QI V  G   +A G+++V +G+K GL P D L EI
+Sbjct  355  VWRCCQPFSGNKEQGYMSLKENQICVGVGRSKDADGFIRVSSGKKRGLVPVDALTEI  411
+
+
+> sp|Q8R1B0|STAC2_MOUSE SH3 and cysteine-rich domain-containing 
+protein 2 OS=Mus musculus OX=10090 GN=Stac2 PE=1 SV=1
+Length=408
+
+ Score = 90.8 bits (224),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 23/57 (40%), Positives = 37/57 (65%), Gaps = 2/57 (4%)
+
+Query  3    VHRVTRSFVGNREIGQITLKKDQIV--VQKGDEAGGYVKVYTGRKVGLFPTDFLEEI  57
+            V R  + F GN+E G ++LK++QI   V +  ++ G+++V +G+K GL P D L EI
+Sbjct  352  VWRCCQPFSGNKEQGYMSLKENQICVGVSRSKDSDGFIRVSSGKKRGLVPADSLAEI  408
+
+
+> sp|Q68F99|STAC3_XENTR SH3 and cysteine-rich domain-containing 
+protein 3 OS=Xenopus tropicalis OX=8364 GN=stac3 PE=2 SV=1
+Length=337
+
+ Score = 89.6 bits (221),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 48/56 (86%), Positives = 52/56 (93%), Gaps = 0/56 (0%)
+
+Query  2    RVHRVTRSFVGNREIGQITLKKDQIVVQKGDEAGGYVKVYTGRKVGLFPTDFLEEI  57
+            RV++VTRSFVGNREIGQITLKKDQIVVQKGDE  GY+KV TGRKVGLFP DFL+EI
+Sbjct  282  RVYKVTRSFVGNREIGQITLKKDQIVVQKGDEVNGYIKVSTGRKVGLFPLDFLQEI  337
+
+
+> sp|Q8BZ71|STAC3_MOUSE SH3 and cysteine-rich domain-containing 
+protein 3 OS=Mus musculus OX=10090 GN=Stac3 PE=1 SV=1
+Length=360
+
+ Score = 89.2 bits (220),  Expect = 3e-22, Method: Composition-based stats.
+ Identities = 56/56 (100%), Positives = 56/56 (100%), Gaps = 0/56 (0%)
+
+Query  2    RVHRVTRSFVGNREIGQITLKKDQIVVQKGDEAGGYVKVYTGRKVGLFPTDFLEEI  57
+            RVHRVTRSFVGNREIGQITLKKDQIVVQKGDEAGGYVKVYTGRKVGLFPTDFLEEI
+Sbjct  305  RVHRVTRSFVGNREIGQITLKKDQIVVQKGDEAGGYVKVYTGRKVGLFPTDFLEEI  360
+
+
+> sp|Q96MF2|STAC3_HUMAN SH3 and cysteine-rich domain-containing 
+protein 3 OS=Homo sapiens OX=9606 GN=STAC3 PE=1 SV=1
+Length=364
+
+ Score = 88.8 bits (219),  Expect = 6e-22, Method: Composition-based stats.
+ Identities = 56/56 (100%), Positives = 56/56 (100%), Gaps = 0/56 (0%)
+
+Query  2    RVHRVTRSFVGNREIGQITLKKDQIVVQKGDEAGGYVKVYTGRKVGLFPTDFLEEI  57
+            RVHRVTRSFVGNREIGQITLKKDQIVVQKGDEAGGYVKVYTGRKVGLFPTDFLEEI
+Sbjct  309  RVHRVTRSFVGNREIGQITLKKDQIVVQKGDEAGGYVKVYTGRKVGLFPTDFLEEI  364
+
+
+> sp|Q6DBR6|STAC3_DANRE SH3 and cysteine-rich domain-containing 
+protein 3 OS=Danio rerio OX=7955 GN=stac3 PE=1 SV=1
+Length=334
+
+ Score = 87.3 bits (215),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 41/56 (73%), Positives = 49/56 (88%), Gaps = 0/56 (0%)
+
+Query  2    RVHRVTRSFVGNREIGQITLKKDQIVVQKGDEAGGYVKVYTGRKVGLFPTDFLEEI  57
+            RV++VTRSFVGNRE+GQITLKKDQIVV+KG+E  GY+KV TGRK+G FP D L E+
+Sbjct  279  RVYKVTRSFVGNREMGQITLKKDQIVVKKGEEVNGYLKVSTGRKLGFFPADLLHEL  334
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.146    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0446    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5019478362
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  1:45 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,795 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 5J9I:C
+
+Length=69
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q9KMA5|HIGA2_VIBCH Antitoxin HigA-2 OS=Vibrio cholerae serot...  142     3e-45
+  sp|Q46864|MQSA_ECOLI Antitoxin MqsA OS=Escherichia coli (strain...  38.1    8e-04
+
+
+> sp|Q9KMA5|HIGA2_VIBCH Antitoxin HigA-2 OS=Vibrio cholerae serotype 
+O1 (strain ATCC 39315 / El Tor Inaba N16961) OX=243277 
+GN=higA-2 PE=1 SV=1
+Length=104
+
+ Score = 142 bits (359),  Expect = 3e-45, Method: Compositional matrix adjust.
+ Identities = 69/69 (100%), Positives = 69/69 (100%), Gaps = 0/69 (0%)
+
+Query  1    GELNISPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVTLLKLVQRHP  60
+            GELNISPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVTLLKLVQRHP
+Sbjct  36   GELNISPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVTLLKLVQRHP  95
+
+Query  61   ETLSHIAEL  69
+            ETLSHIAEL
+Sbjct  96   ETLSHIAEL  104
+
+
+> sp|Q46864|MQSA_ECOLI Antitoxin MqsA OS=Escherichia coli (strain 
+K12) OX=83333 GN=mqsA PE=1 SV=1
+Length=131
+
+ Score = 38.1 bits (87),  Expect = 8e-04, Method: Compositional matrix adjust.
+ Identities = 14/62 (23%), Positives = 36/62 (58%), Gaps = 0/62 (0%)
+
+Query  5    ISPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVTLLKLVQRHPETLS  64
+            ++P+ IV +R++ ++++   + +          +E+G + P+   + LL+++ +HPE L+
+Sbjct  69   VAPEFIVKVRKKLSLTQKEASEIFGGGVNAFSRYEKGNAQPHPSTIKLLRVLDKHPELLN  128
+
+Query  65   HI  66
+             I
+Sbjct  129  EI  130
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.131    0.371    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5031955712
+Results from round 2
+
+
+Query= 5J9I:C
+
+Length=69
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q9KMA5|HIGA2_VIBCH Antitoxin HigA-2 OS=Vibrio cholerae serot...  112     2e-33
+  sp|Q46864|MQSA_ECOLI Antitoxin MqsA OS=Escherichia coli (strain...  107     9e-31
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P11408|MTM1_MORSP Modification methylase MspI OS=Moraxella s...  42.0    7e-05
+  sp|P0A9V5|YIAG_ECOLI Uncharacterized HTH-type transcriptional r...  39.7    1e-04
+  sp|P0A9V6|YIAG_ECOL6 Uncharacterized HTH-type transcriptional r...  39.7    1e-04
+  sp|P0A9V7|YIAG_ECO57 Uncharacterized HTH-type transcriptional r...  39.7    1e-04
+  sp|Q2NF79|Y1143_METST Putative HTH-type transcriptional regulat...  39.3    6e-04
+  sp|P34879|MTS2_SHISO Modification methylase SsoII OS=Shigella s...  38.5    0.001
+
+
+> sp|Q9KMA5|HIGA2_VIBCH Antitoxin HigA-2 OS=Vibrio cholerae serotype 
+O1 (strain ATCC 39315 / El Tor Inaba N16961) OX=243277 
+GN=higA-2 PE=1 SV=1
+Length=104
+
+ Score = 112 bits (281),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 69/69 (100%), Positives = 69/69 (100%), Gaps = 0/69 (0%)
+
+Query  1    GELNISPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVTLLKLVQRHP  60
+            GELNISPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVTLLKLVQRHP
+Sbjct  36   GELNISPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVTLLKLVQRHP  95
+
+Query  61   ETLSHIAEL  69
+            ETLSHIAEL
+Sbjct  96   ETLSHIAEL  104
+
+
+> sp|Q46864|MQSA_ECOLI Antitoxin MqsA OS=Escherichia coli (strain 
+K12) OX=83333 GN=mqsA PE=1 SV=1
+Length=131
+
+ Score = 107 bits (266),  Expect = 9e-31, Method: Composition-based stats.
+ Identities = 14/62 (23%), Positives = 36/62 (58%), Gaps = 0/62 (0%)
+
+Query  5    ISPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVTLLKLVQRHPETLS  64
+            ++P+ IV +R++ ++++   + +          +E+G + P+   + LL+++ +HPE L+
+Sbjct  69   VAPEFIVKVRKKLSLTQKEASEIFGGGVNAFSRYEKGNAQPHPSTIKLLRVLDKHPELLN  128
+
+Query  65   HI  66
+             I
+Sbjct  129  EI  130
+
+
+> sp|P11408|MTM1_MORSP Modification methylase MspI OS=Moraxella 
+sp. OX=479 GN=mspIM PE=3 SV=1
+Length=418
+
+ Score = 42.0 bits (97),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 9/50 (18%), Positives = 27/50 (54%), Gaps = 0/50 (0%)
+
+Query  5   ISPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVTLLK  54
+           + P+ +  IR + ++++   + ++  S +T + WE G++  +    + L+
+Sbjct  1   MKPEILKLIRSKLDLTQKQASEIIEVSDKTWQQWESGKTEMHPAYYSFLQ  50
+
+
+> sp|P0A9V5|YIAG_ECOLI Uncharacterized HTH-type transcriptional 
+regulator YiaG OS=Escherichia coli (strain K12) OX=83333 GN=yiaG 
+PE=4 SV=1
+Length=96
+
+ Score = 39.7 bits (91),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 17/60 (28%), Positives = 30/60 (50%), Gaps = 0/60 (0%)
+
+Query  9   EIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVTLLKLVQRHPETLSHIAE  68
+           EI  +R+   +    FAR+L  S   ++ WE  R  P+   + L++L+Q +P     + E
+Sbjct  37  EIEQLRKGTGLKIDDFARVLGVSVAMVKEWESRRVKPSSAELKLMRLIQANPALSKQLME  96
+
+
+> sp|P0A9V6|YIAG_ECOL6 Uncharacterized HTH-type transcriptional 
+regulator YiaG OS=Escherichia coli O6:H1 (strain CFT073 / ATCC 
+700928 / UPEC) OX=199310 GN=yiaG PE=4 SV=1
+Length=96
+
+ Score = 39.7 bits (91),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 17/60 (28%), Positives = 30/60 (50%), Gaps = 0/60 (0%)
+
+Query  9   EIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVTLLKLVQRHPETLSHIAE  68
+           EI  +R+   +    FAR+L  S   ++ WE  R  P+   + L++L+Q +P     + E
+Sbjct  37  EIEQLRKGTGLKIDDFARVLGVSVAMVKEWESRRVKPSSAELKLMRLIQANPALSKQLME  96
+
+
+> sp|P0A9V7|YIAG_ECO57 Uncharacterized HTH-type transcriptional 
+regulator YiaG OS=Escherichia coli O157:H7 OX=83334 GN=yiaG 
+PE=4 SV=1
+Length=96
+
+ Score = 39.7 bits (91),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 17/60 (28%), Positives = 30/60 (50%), Gaps = 0/60 (0%)
+
+Query  9   EIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVTLLKLVQRHPETLSHIAE  68
+           EI  +R+   +    FAR+L  S   ++ WE  R  P+   + L++L+Q +P     + E
+Sbjct  37  EIEQLRKGTGLKIDDFARVLGVSVAMVKEWESRRVKPSSAELKLMRLIQANPALSKQLME  96
+
+
+> sp|Q2NF79|Y1143_METST Putative HTH-type transcriptional regulatory 
+protein Msp_1143 OS=Methanosphaera stadtmanae (strain 
+ATCC 43021 / DSM 3091 / JCM 11832 / MCB-3) OX=339860 GN=Msp_1143 
+PE=3 SV=2
+Length=350
+
+ Score = 39.3 bits (90),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 15/58 (26%), Positives = 30/58 (52%), Gaps = 0/58 (0%)
+
+Query  3    LNISPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVTLLKLVQRHP  60
+            + I+ + + ++RE+ N+S    A + H S  T+  +E+G S    +   +L+ V   P
+Sbjct  128  VKINGNLLKNLREKNNLSLKELADISHVSRETIYKYEKGNSQTYPETAMMLEQVLNSP  185
+
+
+> sp|P34879|MTS2_SHISO Modification methylase SsoII OS=Shigella 
+sonnei OX=624 GN=ssoIIM PE=3 SV=1
+Length=379
+
+ Score = 38.5 bits (88),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 13/41 (32%), Positives = 21/41 (51%), Gaps = 3/41 (7%)
+
+Query  14  REQFNMSRGVFARLLHT---SSRTLENWEQGRSVPNGQAVT  51
+           RE+ +M++  FA  L       RT+  WE+G + P G  + 
+Sbjct  13  RERLHMTQKEFADALGLSKYGDRTIRRWERGETKPTGAELK  53
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.127    0.323    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0389    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5031955712
+Results from round 3
+
+
+Query= 5J9I:C
+
+Length=69
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q9KMA5|HIGA2_VIBCH Antitoxin HigA-2 OS=Vibrio cholerae serot...  92.5    3e-25
+  sp|Q46864|MQSA_ECOLI Antitoxin MqsA OS=Escherichia coli (strain...  89.0    1e-23
+  sp|P0A9V5|YIAG_ECOLI Uncharacterized HTH-type transcriptional r...  70.2    2e-16
+  sp|P0A9V6|YIAG_ECOL6 Uncharacterized HTH-type transcriptional r...  70.2    2e-16
+  sp|P0A9V7|YIAG_ECO57 Uncharacterized HTH-type transcriptional r...  70.2    2e-16
+  sp|P11408|MTM1_MORSP Modification methylase MspI OS=Moraxella s...  72.5    1e-15
+  sp|Q2NF79|Y1143_METST Putative HTH-type transcriptional regulat...  70.2    6e-15
+  sp|P34879|MTS2_SHISO Modification methylase SsoII OS=Shigella s...  57.5    2e-10
+
+Sequences not found previously or not previously below threshold:
+
+  sp|O27048|Y967_METTH Putative HTH-type transcriptional regulato...  49.7    1e-07
+  sp|A5UKD0|Y453_METS3 Putative HTH-type transcriptional regulato...  47.4    8e-07
+  sp|B8GI76|Y031_METPE Putative HTH-type transcriptional regulato...  47.1    1e-06
+  sp|Q0W4J4|Y1526_METAR Putative HTH-type transcriptional regulat...  46.7    1e-06
+  sp|A7I4Q7|Y195_METB6 Putative HTH-type transcriptional regulato...  46.3    2e-06
+  sp|A3CY20|Y2347_METMJ Putative HTH-type transcriptional regulat...  45.9    3e-06
+  sp|Q5WNW9|BCRR_ENTFL HTH-type transcriptional activator BcrR OS...  44.4    8e-06
+  sp|O28487|Y1787_ARCFU Putative HTH-type transcriptional regulat...  44.4    9e-06
+  sp|P34877|MTSA_LACLC Modification methylase ScrFIA OS=Lactococc...  43.6    2e-05
+  sp|A6USD6|Y1514_METVS Putative HTH-type transcriptional regulat...  42.8    3e-05
+  sp|Q3ISY4|Y1320_NATPD Putative HTH-type transcriptional regulat...  42.0    5e-05
+  sp|Q6LZF1|Y678_METMP Putative HTH-type transcriptional regulato...  42.0    6e-05
+  sp|Q2FTM0|Y2548_METHJ Putative HTH-type transcriptional regulat...  42.0    7e-05
+  sp|A4FYC1|Y898_METM5 Putative HTH-type transcriptional regulato...  41.3    1e-04
+  sp|A6VJY2|Y1702_METM7 Putative HTH-type transcriptional regulat...  41.3    1e-04
+  sp|A9A7A8|Y210_METM6 Putative HTH-type transcriptional regulato...  40.9    1e-04
+  sp|Q8TZX4|Y1851_PYRFU Putative HTH-type transcriptional regulat...  40.5    2e-04
+  sp|P69202|RPC2_BPP22 Repressor protein C2 OS=Salmonella phage P...  40.5    2e-04
+  sp|Q9HIH6|Y1363_THEAC Putative HTH-type transcriptional regulat...  40.5    2e-04
+  sp|O59472|Y1808_PYRHO Putative HTH-type transcriptional regulat...  40.5    2e-04
+  sp|Q97QZ2|PEZA_STRPN Antitoxin PezA OS=Streptococcus pneumoniae...  39.7    3e-04
+  sp|Q9V1R0|Y367_PYRAB Putative HTH-type transcriptional regulato...  39.7    5e-04
+  sp|A2SPT1|Y160_METLZ Putative HTH-type transcriptional regulato...  39.0    7e-04
+  sp|C5A6F6|Y1316_THEGJ Putative HTH-type transcriptional regulat...  39.0    7e-04
+  sp|Q5JF28|Y539_THEKO Putative HTH-type transcriptional regulato...  38.6    0.001
+  sp|O30257|Y2414_ARCFU Uncharacterized HTH-type transcriptional ...  38.2    0.001
+  sp|Q58564|Y1164_METJA Putative HTH-type transcriptional regulat...  37.8    0.002
+  sp|Q971W0|Y1268_SULTO Putative HTH-type transcriptional regulat...  35.9    0.009
+
+
+> sp|Q9KMA5|HIGA2_VIBCH Antitoxin HigA-2 OS=Vibrio cholerae serotype 
+O1 (strain ATCC 39315 / El Tor Inaba N16961) OX=243277 
+GN=higA-2 PE=1 SV=1
+Length=104
+
+ Score = 92.5 bits (228),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 69/69 (100%), Positives = 69/69 (100%), Gaps = 0/69 (0%)
+
+Query  1    GELNISPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVTLLKLVQRHP  60
+            GELNISPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVTLLKLVQRHP
+Sbjct  36   GELNISPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVTLLKLVQRHP  95
+
+Query  61   ETLSHIAEL  69
+            ETLSHIAEL
+Sbjct  96   ETLSHIAEL  104
+
+
+> sp|Q46864|MQSA_ECOLI Antitoxin MqsA OS=Escherichia coli (strain 
+K12) OX=83333 GN=mqsA PE=1 SV=1
+Length=131
+
+ Score = 89.0 bits (219),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 14/62 (23%), Positives = 36/62 (58%), Gaps = 0/62 (0%)
+
+Query  5    ISPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVTLLKLVQRHPETLS  64
+            ++P+ IV +R++ ++++   + +          +E+G + P+   + LL+++ +HPE L+
+Sbjct  69   VAPEFIVKVRKKLSLTQKEASEIFGGGVNAFSRYEKGNAQPHPSTIKLLRVLDKHPELLN  128
+
+Query  65   HI  66
+             I
+Sbjct  129  EI  130
+
+
+> sp|P0A9V5|YIAG_ECOLI Uncharacterized HTH-type transcriptional 
+regulator YiaG OS=Escherichia coli (strain K12) OX=83333 GN=yiaG 
+PE=4 SV=1
+Length=96
+
+ Score = 70.2 bits (170),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 17/60 (28%), Positives = 30/60 (50%), Gaps = 0/60 (0%)
+
+Query  9   EIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVTLLKLVQRHPETLSHIAE  68
+           EI  +R+   +    FAR+L  S   ++ WE  R  P+   + L++L+Q +P     + E
+Sbjct  37  EIEQLRKGTGLKIDDFARVLGVSVAMVKEWESRRVKPSSAELKLMRLIQANPALSKQLME  96
+
+
+> sp|P0A9V6|YIAG_ECOL6 Uncharacterized HTH-type transcriptional 
+regulator YiaG OS=Escherichia coli O6:H1 (strain CFT073 / ATCC 
+700928 / UPEC) OX=199310 GN=yiaG PE=4 SV=1
+Length=96
+
+ Score = 70.2 bits (170),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 17/60 (28%), Positives = 30/60 (50%), Gaps = 0/60 (0%)
+
+Query  9   EIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVTLLKLVQRHPETLSHIAE  68
+           EI  +R+   +    FAR+L  S   ++ WE  R  P+   + L++L+Q +P     + E
+Sbjct  37  EIEQLRKGTGLKIDDFARVLGVSVAMVKEWESRRVKPSSAELKLMRLIQANPALSKQLME  96
+
+
+> sp|P0A9V7|YIAG_ECO57 Uncharacterized HTH-type transcriptional 
+regulator YiaG OS=Escherichia coli O157:H7 OX=83334 GN=yiaG 
+PE=4 SV=1
+Length=96
+
+ Score = 70.2 bits (170),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 17/60 (28%), Positives = 30/60 (50%), Gaps = 0/60 (0%)
+
+Query  9   EIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVTLLKLVQRHPETLSHIAE  68
+           EI  +R+   +    FAR+L  S   ++ WE  R  P+   + L++L+Q +P     + E
+Sbjct  37  EIEQLRKGTGLKIDDFARVLGVSVAMVKEWESRRVKPSSAELKLMRLIQANPALSKQLME  96
+
+
+> sp|P11408|MTM1_MORSP Modification methylase MspI OS=Moraxella 
+sp. OX=479 GN=mspIM PE=3 SV=1
+Length=418
+
+ Score = 72.5 bits (176),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 9/50 (18%), Positives = 27/50 (54%), Gaps = 0/50 (0%)
+
+Query  5   ISPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVTLLK  54
+           + P+ +  IR + ++++   + ++  S +T + WE G++  +    + L+
+Sbjct  1   MKPEILKLIRSKLDLTQKQASEIIEVSDKTWQQWESGKTEMHPAYYSFLQ  50
+
+
+> sp|Q2NF79|Y1143_METST Putative HTH-type transcriptional regulatory 
+protein Msp_1143 OS=Methanosphaera stadtmanae (strain 
+ATCC 43021 / DSM 3091 / JCM 11832 / MCB-3) OX=339860 GN=Msp_1143 
+PE=3 SV=2
+Length=350
+
+ Score = 70.2 bits (170),  Expect = 6e-15, Method: Composition-based stats.
+ Identities = 15/58 (26%), Positives = 30/58 (52%), Gaps = 0/58 (0%)
+
+Query  3    LNISPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVTLLKLVQRHP  60
+            + I+ + + ++RE+ N+S    A + H S  T+  +E+G S    +   +L+ V   P
+Sbjct  128  VKINGNLLKNLREKNNLSLKELADISHVSRETIYKYEKGNSQTYPETAMMLEQVLNSP  185
+
+
+> sp|P34879|MTS2_SHISO Modification methylase SsoII OS=Shigella 
+sonnei OX=624 GN=ssoIIM PE=3 SV=1
+Length=379
+
+ Score = 57.5 bits (137),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 15/45 (33%), Positives = 23/45 (51%), Gaps = 3/45 (7%)
+
+Query  10  IVSIREQFNMSRGVFARLLHTS---SRTLENWEQGRSVPNGQAVT  51
+           I   RE+ +M++  FA  L  S    RT+  WE+G + P G  + 
+Sbjct  9   IKEKRERLHMTQKEFADALGLSKYGDRTIRRWERGETKPTGAELK  53
+
+
+> sp|O27048|Y967_METTH Putative HTH-type transcriptional regulatory 
+protein MTH_967 OS=Methanothermobacter thermautotrophicus 
+(strain ATCC 29096 / DSM 1053 / JCM 10044 / NBRC 100330 / 
+Delta H) OX=187420 GN=MTH_967 PE=3 SV=1
+Length=311
+
+ Score = 49.7 bits (117),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 13/56 (23%), Positives = 29/56 (52%), Gaps = 0/56 (0%)
+
+Query  3    LNISPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVTLLKLVQR  58
+            ++I    +  +RE++N+S    A L H S +T+  +E G +  + +   +L+ +  
+Sbjct  127  VHIDGKTLREVREEYNLSLKDLADLAHVSRKTIYKYENGLARASAETAMILEEILN  182
+
+
+> sp|A5UKD0|Y453_METS3 Putative HTH-type transcriptional regulatory 
+protein Msm_0453 OS=Methanobrevibacter smithii (strain 
+ATCC 35061 / DSM 861 / OCM 144 / PS) OX=420247 GN=Msm_0453 PE=3 
+SV=1
+Length=313
+
+ Score = 47.4 bits (111),  Expect = 8e-07, Method: Composition-based stats.
+ Identities = 14/62 (23%), Positives = 27/62 (44%), Gaps = 0/62 (0%)
+
+Query  3    LNISPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVTLLKLVQRHPET  62
+            + +  + I   RE++++S    A L H S  T+  +E      N +   +L+ +     T
+Sbjct  124  VKVDGNVIKQYREEYSLSLKDLADLAHVSRATMYKYENEIVRANTETAMILEEILNTKVT  183
+
+Query  63   LS  64
+            L 
+Sbjct  184  LD  185
+
+
+> sp|B8GI76|Y031_METPE Putative HTH-type transcriptional regulatory 
+protein Mpal_0031 OS=Methanosphaerula palustris (strain 
+ATCC BAA-1556 / DSM 19958 / E1-9c) OX=521011 GN=Mpal_0031 PE=3 
+SV=1
+Length=303
+
+ Score = 47.1 bits (110),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 17/56 (30%), Positives = 28/56 (50%), Gaps = 0/56 (0%)
+
+Query  3    LNISPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVTLLKLVQR  58
+            +NI+ D +  +REQ NMS G    +L  S RT+  +E G       A+ + ++   
+Sbjct  125  VNINGDVLRGLREQRNMSLGDLGAVLGVSRRTISKYESGMGTTLEIAIKIEEVFDS  180
+
+
+> sp|Q0W4J4|Y1526_METAR Putative HTH-type transcriptional regulatory 
+protein UNCMA_15260 OS=Methanocella arvoryzae (strain 
+DSM 22066 / NBRC 105507 / MRE50) OX=351160 GN=UNCMA_15260 PE=3 
+SV=1
+Length=324
+
+ Score = 46.7 bits (109),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 16/56 (29%), Positives = 28/56 (50%), Gaps = 0/56 (0%)
+
+Query  3    LNISPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVTLLKLVQR  58
+            + I  + + S+RE  N+S G  A  L  S RT+  +E G +     A+ L +++  
+Sbjct  125  VEIDGETLRSLREAKNISLGELAMALGVSRRTISKYESGMNATIEAALKLEEILDA  180
+
+
+> sp|A7I4Q7|Y195_METB6 Putative HTH-type transcriptional regulatory 
+protein Mboo_0195 OS=Methanoregula boonei (strain DSM 21154 
+/ JCM 14090 / 6A8) OX=456442 GN=Mboo_0195 PE=3 SV=1
+Length=317
+
+ Score = 46.3 bits (108),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 14/39 (36%), Positives = 24/39 (62%), Gaps = 0/39 (0%)
+
+Query  3    LNISPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQG  41
+            +NI+ D +  +RE+ +MS G   ++L  S RT+  +E G
+Sbjct  125  VNINGDALRELRERRSMSLGDLGQVLGVSRRTISKYESG  163
+
+
+> sp|A3CY20|Y2347_METMJ Putative HTH-type transcriptional regulatory 
+protein Memar_2347 OS=Methanoculleus marisnigri (strain 
+ATCC 35101 / DSM 1498 / JR1) OX=368407 GN=Memar_2347 PE=3 
+SV=1
+Length=304
+
+ Score = 45.9 bits (107),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 21/67 (31%), Positives = 30/67 (45%), Gaps = 3/67 (4%)
+
+Query  3    LNISPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVTLLKLVQRHPET  62
+            + I  D +  +RE+F MS G  A  L  S RT+  +E G       A+  L+ +   P  
+Sbjct  125  VRIKGDLLREVRERFRMSLGDLASHLGVSRRTISKYESGMGTTLDVAIK-LEEIFNAP--  181
+
+Query  63   LSHIAEL  69
+            L    EL
+Sbjct  182  LVETIEL  188
+
+
+> sp|Q5WNW9|BCRR_ENTFL HTH-type transcriptional activator BcrR 
+OS=Enterococcus faecalis OX=1351 GN=bcrR PE=1 SV=1
+Length=204
+
+ Score = 44.4 bits (103),  Expect = 8e-06, Method: Composition-based stats.
+ Identities = 10/44 (23%), Positives = 23/44 (52%), Gaps = 0/44 (0%)
+
+Query  8   DEIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVT  51
+           +++  +R   N+++   A  L+ S   +  WE G+  PN +++ 
+Sbjct  5   EKLQQLRTGKNLTQEQLAEQLYVSRTAISKWESGKGYPNMESLK  48
+
+
+> sp|O28487|Y1787_ARCFU Putative HTH-type transcriptional regulatory 
+protein AF_1787 OS=Archaeoglobus fulgidus (strain ATCC 
+49558 / VC-16 / DSM 4304 / JCM 9628 / NBRC 100126) OX=224325 
+GN=AF_1787 PE=3 SV=1
+Length=309
+
+ Score = 44.4 bits (103),  Expect = 9e-06, Method: Composition-based stats.
+ Identities = 13/54 (24%), Positives = 28/54 (52%), Gaps = 0/54 (0%)
+
+Query  3    LNISPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVTLLKLV  56
+            + +  + I   RE+  +S G  A++L  S RT++ +E+G       A  + +++
+Sbjct  124  VKLDSERIREARERLGLSVGDMAKMLGVSRRTVKKYEEGTDTTLSTAAKIEEII  177
+
+
+> sp|P34877|MTSA_LACLC Modification methylase ScrFIA OS=Lactococcus 
+lactis subsp. cremoris OX=1359 GN=scrFIAM PE=3 SV=1
+Length=389
+
+ Score = 43.6 bits (101),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 15/57 (26%), Positives = 25/57 (44%), Gaps = 6/57 (11%)
+
+Query  9   EIVSIREQFNMSRGVFARLLHTS---SRTLENWEQGRSVPNGQAVTLLKLVQRHPET  62
+            I   R + NM++   A  +  S    RT+  WE G + P+   ++    + R PE 
+Sbjct  15  MIKEKRLRLNMTQKELADAVGMSKNGDRTIRRWENGETCPSQLEIS---AILRFPEI  68
+
+
+> sp|A6USD6|Y1514_METVS Putative HTH-type transcriptional regulatory 
+protein Mevan_1514 OS=Methanococcus vannielii (strain 
+ATCC 35089 / DSM 1224 / JCM 13029 / OCM 148 / SB) OX=406327 
+GN=Mevan_1514 PE=3 SV=1
+Length=327
+
+ Score = 42.8 bits (99),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 14/58 (24%), Positives = 26/58 (45%), Gaps = 0/58 (0%)
+
+Query  3    LNISPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVTLLKLVQRHP  60
+            +NI    +   RE+ N+S G  A     S +T+  +EQ  + P+ +    ++     P
+Sbjct  121  VNIDGKALKETREKLNISVGELAEFSRVSRKTIYKYEQNEANPSAEVAIKIEEYLDVP  178
+
+
+> sp|Q3ISY4|Y1320_NATPD Putative HTH-type transcriptional regulatory 
+protein NP_1320A OS=Natronomonas pharaonis (strain ATCC 
+35678 / DSM 2160 / CIP 103997 / NBRC 14720 / NCIMB 2260 / 
+Gabara) OX=348780 GN=NP_1320A PE=3 SV=1
+Length=317
+
+ Score = 42.0 bits (97),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 20/56 (36%), Positives = 27/56 (48%), Gaps = 0/56 (0%)
+
+Query  3    LNISPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVTLLKLVQR  58
+            +NI  D +  IR Q +MS G  A  L  S RT+  +E G S     A  L ++  R
+Sbjct  125  VNIDGDLLSDIRSQEDMSLGKLANELGVSRRTVSKYEDGMSASVEVAAELEEIFDR  180
+
+
+> sp|Q6LZF1|Y678_METMP Putative HTH-type transcriptional regulatory 
+protein MMP0678 OS=Methanococcus maripaludis (strain S2 
+/ LL) OX=267377 GN=MMP0678 PE=3 SV=2
+Length=326
+
+ Score = 42.0 bits (97),  Expect = 6e-05, Method: Composition-based stats.
+ Identities = 13/58 (22%), Positives = 26/58 (45%), Gaps = 0/58 (0%)
+
+Query  3    LNISPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVTLLKLVQRHP  60
+            +NI    +   RE+  +S G  A +   S +T+  +EQ  + P+ +    ++     P
+Sbjct  121  VNIDGKVLRETREKLKISVGELAEVSRVSRKTIYKYEQNEANPSAEVAIKIEEYLDVP  178
+
+
+> sp|Q2FTM0|Y2548_METHJ Putative HTH-type transcriptional regulatory 
+protein Mhun_2548 OS=Methanospirillum hungatei JF-1 (strain 
+ATCC 27890 / DSM 864 / NBRC 100397 / JF-1) OX=323259 GN=Mhun_2548 
+PE=3 SV=1
+Length=306
+
+ Score = 42.0 bits (97),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 13/39 (33%), Positives = 23/39 (59%), Gaps = 0/39 (0%)
+
+Query  3    LNISPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQG  41
+            +NIS + +  +RE  ++S G   ++L  S RT+  +E G
+Sbjct  125  VNISGERLRELRETRSLSLGDLGQILGVSRRTVAKYEAG  163
+
+
+> sp|A4FYC1|Y898_METM5 Putative HTH-type transcriptional regulatory 
+protein MmarC5_0898 OS=Methanococcus maripaludis (strain 
+C5 / ATCC BAA-1333) OX=402880 GN=MmarC5_0898 PE=3 SV=1
+Length=326
+
+ Score = 41.3 bits (95),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 13/58 (22%), Positives = 26/58 (45%), Gaps = 0/58 (0%)
+
+Query  3    LNISPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVTLLKLVQRHP  60
+            +NI    +   RE+  +S G  A +   S +T+  +EQ  + P+ +    ++     P
+Sbjct  121  VNIDGAVLRETREKLKISVGELAEISRVSRKTIYKYEQNEANPSAEVAIKIEEYLDVP  178
+
+
+> sp|A6VJY2|Y1702_METM7 Putative HTH-type transcriptional regulatory 
+protein MmarC7_1702 OS=Methanococcus maripaludis (strain 
+C7 / ATCC BAA-1331) OX=426368 GN=MmarC7_1702 PE=3 SV=1
+Length=326
+
+ Score = 41.3 bits (95),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 13/58 (22%), Positives = 26/58 (45%), Gaps = 0/58 (0%)
+
+Query  3    LNISPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVTLLKLVQRHP  60
+            +NI    +   RE+  +S G  A +   S +T+  +EQ  + P+ +    ++     P
+Sbjct  121  VNIDGAVLRETREKLKISVGELAEISRVSRKTIYKYEQNEANPSAEVAIKIEEYLDVP  178
+
+
+> sp|A9A7A8|Y210_METM6 Putative HTH-type transcriptional regulatory 
+protein MmarC6_0210 OS=Methanococcus maripaludis (strain 
+C6 / ATCC BAA-1332) OX=444158 GN=MmarC6_0210 PE=3 SV=1
+Length=327
+
+ Score = 40.9 bits (94),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 13/58 (22%), Positives = 26/58 (45%), Gaps = 0/58 (0%)
+
+Query  3    LNISPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVTLLKLVQRHP  60
+            +NI    +   RE+  +S G  A +   S +T+  +EQ  + P+ +    ++     P
+Sbjct  121  VNIDGAVLRETREKLKISVGELAEISRVSRKTIYKYEQNEANPSAEVAIKIEEYLDVP  178
+
+
+> sp|Q8TZX4|Y1851_PYRFU Putative HTH-type transcriptional regulatory 
+protein PF1851 OS=Pyrococcus furiosus (strain ATCC 43587 
+/ DSM 3638 / JCM 8422 / Vc1) OX=186497 GN=PF1851 PE=3 SV=2
+Length=315
+
+ Score = 40.5 bits (93),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 11/58 (19%), Positives = 28/58 (48%), Gaps = 0/58 (0%)
+
+Query  3    LNISPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVTLLKLVQRHP  60
+            + I  + +  +RE++  S    A +L  S ++++ +E+G  + +      L+ +   P
+Sbjct  124  VRIDGERLRELREKYGYSTTELAEMLGVSRKSVQRYEKGEGMVSIDVAIRLEEIFDEP  181
+
+
+> sp|P69202|RPC2_BPP22 Repressor protein C2 OS=Salmonella phage 
+P22 OX=10754 GN=C2 PE=1 SV=1
+Length=216
+
+ Score = 40.5 bits (93),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 13/61 (21%), Positives = 31/61 (51%), Gaps = 1/61 (2%)
+
+Query  4   NISPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVTLL-KLVQRHPET  62
+            +  + I + R++  + +    +++  S+  +  WE+  + PNG+ +  L K +Q  P+ 
+Sbjct  4   QLMGERIRARRKKLKIRQAALGKMVGVSNVAISQWERSETEPNGENLLALSKALQCSPDY  63
+
+Query  63  L  63
+           L
+Sbjct  64  L  64
+
+
+> sp|Q9HIH6|Y1363_THEAC Putative HTH-type transcriptional regulatory 
+protein Ta1363 OS=Thermoplasma acidophilum (strain ATCC 
+25905 / DSM 1728 / JCM 9062 / NBRC 15155 / AMRC-C165) OX=273075 
+GN=Ta1363 PE=3 SV=1
+Length=312
+
+ Score = 40.5 bits (93),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 11/56 (20%), Positives = 28/56 (50%), Gaps = 0/56 (0%)
+
+Query  3    LNISPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVTLLKLVQR  58
+            + I+ + +  +R + ++S G  +  L  S R++  +E G S      + L ++++ 
+Sbjct  126  VKINGEALREMRMKMSLSIGYLSHYLGVSRRSVSLYENGSSATIDVFLKLQEIIKS  181
+
+
+> sp|O59472|Y1808_PYRHO Putative HTH-type transcriptional regulatory 
+protein PH1808 OS=Pyrococcus horikoshii (strain ATCC 700860 
+/ DSM 12428 / JCM 9974 / NBRC 100139 / OT-3) OX=70601 
+GN=PH1808 PE=3 SV=2
+Length=315
+
+ Score = 40.5 bits (93),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 15/58 (26%), Positives = 30/58 (52%), Gaps = 0/58 (0%)
+
+Query  3    LNISPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVTLLKLVQRHP  60
+            + I   ++ ++RE+   S    A +L  S ++L+ +E+G SV + +    L+ V   P
+Sbjct  124  VRIDGKKLKALREEHGYSITELAGILGISRKSLQRYEKGESVVSLEVALRLEEVFDEP  181
+
+
+> sp|Q97QZ2|PEZA_STRPN Antitoxin PezA OS=Streptococcus pneumoniae 
+serotype 4 (strain ATCC BAA-334 / TIGR4) OX=170187 GN=pezA 
+PE=1 SV=1
+Length=158
+
+ Score = 39.7 bits (91),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 11/49 (22%), Positives = 27/49 (55%), Gaps = 0/49 (0%)
+
+Query  5   ISPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVTLL  53
+           +    I S+R+  ++++  FAR++  S  +L  +E G S  + + + ++
+Sbjct  1   MIGKNIKSLRKTHDLTQLEFARIVGISRNSLSRYENGTSSVSTELIDII  49
+
+
+> sp|Q9V1R0|Y367_PYRAB Putative HTH-type transcriptional regulatory 
+protein PYRAB03670 OS=Pyrococcus abyssi (strain GE5 / Orsay) 
+OX=272844 GN=PYRAB03670 PE=3 SV=1
+Length=316
+
+ Score = 39.7 bits (91),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 13/54 (24%), Positives = 26/54 (48%), Gaps = 0/54 (0%)
+
+Query  3    LNISPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVTLLKLV  56
+            + I    +  +RE+   S    A +L  S ++L+ +E+G S+   +    L+ V
+Sbjct  124  VRIDGKRLKDLREKHGYSLSELANILGVSRKSLQRYEKGDSMVTLEVALRLEEV  177
+
+
+> sp|A2SPT1|Y160_METLZ Putative HTH-type transcriptional regulatory 
+protein Mlab_0160 OS=Methanocorpusculum labreanum (strain 
+ATCC 43576 / DSM 4855 / Z) OX=410358 GN=Mlab_0160 PE=3 SV=1
+Length=317
+
+ Score = 39.0 bits (89),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 14/39 (36%), Positives = 22/39 (56%), Gaps = 0/39 (0%)
+
+Query  3    LNISPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQG  41
+            +NI  + + ++RE+  MS G  A  L  S RT+  +E G
+Sbjct  125  VNIDAERLRTLREEQAMSLGDLAHALGVSRRTISKYEGG  163
+
+
+> sp|C5A6F6|Y1316_THEGJ Putative HTH-type transcriptional regulatory 
+protein TGAM_1316 OS=Thermococcus gammatolerans (strain 
+DSM 15229 / JCM 11827 / EJ3) OX=593117 GN=TGAM_1316 PE=3 SV=1
+Length=317
+
+ Score = 39.0 bits (89),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 13/58 (22%), Positives = 28/58 (48%), Gaps = 0/58 (0%)
+
+Query  3    LNISPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVTLLKLVQRHP  60
+            + I+ + +  +RE+   S G  A LL  S ++L N+E+     + +    ++ +   P
+Sbjct  124  VRINGELLKKLREKHGYSVGELASLLGVSRKSLLNYERNEQAVSLEVALRMEELFDEP  181
+
+
+> sp|Q5JF28|Y539_THEKO Putative HTH-type transcriptional regulatory 
+protein TK0539 OS=Thermococcus kodakarensis (strain ATCC 
+BAA-918 / JCM 12380 / KOD1) OX=69014 GN=TK0539 PE=3 SV=1
+Length=318
+
+ Score = 38.6 bits (88),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 12/40 (30%), Positives = 23/40 (58%), Gaps = 0/40 (0%)
+
+Query  3    LNISPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQGR  42
+            + I+ + +  +RE+   S    A+LL  S ++L N+E+G 
+Sbjct  124  VRINGELLRELREKHGYSVNELAQLLGVSRKSLLNYERGE  163
+
+
+> sp|O30257|Y2414_ARCFU Uncharacterized HTH-type transcriptional 
+regulator AF_2414 OS=Archaeoglobus fulgidus (strain ATCC 49558 
+/ VC-16 / DSM 4304 / JCM 9628 / NBRC 100126) OX=224325 
+GN=AF_2414 PE=4 SV=1
+Length=229
+
+ Score = 38.2 bits (87),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 13/46 (28%), Positives = 20/46 (43%), Gaps = 0/46 (0%)
+
+Query  6   SPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPNGQAVT  51
+           S + +   R  FN S+   AR L  S   + ++E GR  P    + 
+Sbjct  20  SGEALRKWRSIFNASQSDLARKLGISPSVISDYESGRRKPGTAFLK  65
+
+
+> sp|Q58564|Y1164_METJA Putative HTH-type transcriptional regulatory 
+protein MJ1164 OS=Methanocaldococcus jannaschii (strain 
+ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 / NBRC 100440) OX=243232 
+GN=MJ1164 PE=3 SV=1
+Length=318
+
+ Score = 37.8 bits (86),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 9/44 (20%), Positives = 19/44 (43%), Gaps = 0/44 (0%)
+
+Query  3    LNISPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRSVPN  46
+            + I    +  +RE   +S G  A +   S + +  +E   + P+
+Sbjct  124  VKIDGKVLKEVREAMGISVGKLAEVAGVSRKAIYKYETQMANPS  167
+
+
+> sp|Q971W0|Y1268_SULTO Putative HTH-type transcriptional regulatory 
+protein STK_12680 OS=Sulfurisphaera tokodaii (strain DSM 
+16993 / JCM 10545 / NBRC 100140 / 7) OX=273063 GN=STK_12680 
+PE=3 SV=2
+Length=294
+
+ Score = 35.9 bits (81),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 11/41 (27%), Positives = 22/41 (54%), Gaps = 0/41 (0%)
+
+Query  3    LNISPDEIVSIREQFNMSRGVFARLLHTSSRTLENWEQGRS  43
+            + I+  E+   RE+  +S G  A+ L  S  ++ ++E+  S
+Sbjct  116  VKINSKELKKKREEMGLSLGEVAQALGVSRISIYDYEREDS  156
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.127    0.301    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0390    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5031955712
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  1:45 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

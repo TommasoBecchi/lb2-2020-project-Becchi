@@ -1,0 +1,171 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 5BP5:C
+
+Length=144
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P46083|HA17C_CBCP Hemagglutinin component HA-17 type C OS=Cl...  169     6e-54
+  sp|Q9LBR4|HA17D_CBDP Hemagglutinin component HA-17 type D OS=Cl...  167     3e-53
+
+
+> sp|P46083|HA17C_CBCP Hemagglutinin component HA-17 type C OS=Clostridium 
+botulinum C phage OX=12336 GN=HA-17 PE=1 SV=3
+Length=146
+
+ Score = 169 bits (429),  Expect = 6e-54, Method: Compositional matrix adjust.
+ Identities = 90/143 (63%), Positives = 111/143 (78%), Gaps = 0/143 (0%)
+
+Query  2    ERTFLPNGNYNIKSIFSGSLYLNPVSKSLTFSNESSANNQKWNVEYMAENRCFKISNVAE  61
+            ERTFLPNGNY IKS+FS SLYL   S +L+FSN SS +NQKW +EY++ +  F+ SNVAE
+Sbjct  4    ERTFLPNGNYKIKSLFSDSLYLTYSSGALSFSNTSSLDNQKWKLEYISSSNGFRFSNVAE  63
+
+Query  62   PNKYLSYDNFGFISLDSLSNRCYWFPIKIAVNTYIMLSLNKVNELDYAWDIYDTNENILS  121
+            PNKYL+Y+++GFI L S SN   W PIKIA+N+YI+ +L+ VN  DYAW IYD N NI  
+Sbjct  64   PNKYLAYNDYGFIYLSSSSNNSLWNPIKIAINSYIICTLSIVNVTDYAWTIYDNNNNITD  123
+
+Query  122  QPLLLLPNFDIYNSNQMFKLEKI  144
+            QP+L LPNFDI NSNQ+ KLEK+
+Sbjct  124  QPILNLPNFDINNSNQILKLEKL  146
+
+
+> sp|Q9LBR4|HA17D_CBDP Hemagglutinin component HA-17 type D OS=Clostridium 
+botulinum D phage OX=29342 GN=ha-17 PE=1 SV=1
+Length=146
+
+ Score = 167 bits (424),  Expect = 3e-53, Method: Compositional matrix adjust.
+ Identities = 90/143 (63%), Positives = 110/143 (77%), Gaps = 0/143 (0%)
+
+Query  2    ERTFLPNGNYNIKSIFSGSLYLNPVSKSLTFSNESSANNQKWNVEYMAENRCFKISNVAE  61
+            ERTFLPNGNY IKS+FS SLYL   S SL+F N SS +NQKW +EY++ +  F+ SNVAE
+Sbjct  4    ERTFLPNGNYKIKSLFSDSLYLTYSSGSLSFLNTSSLDNQKWKLEYISSSNGFRFSNVAE  63
+
+Query  62   PNKYLSYDNFGFISLDSLSNRCYWFPIKIAVNTYIMLSLNKVNELDYAWDIYDTNENILS  121
+            PNKYL+Y+++GFI L S SN   W PIKIA+N+YI+ +L+ VN  DYAW IYD N NI  
+Sbjct  64   PNKYLAYNDYGFIYLSSSSNNSLWNPIKIAINSYIICTLSIVNVTDYAWTIYDNNNNITD  123
+
+Query  122  QPLLLLPNFDIYNSNQMFKLEKI  144
+            QP+L LPNFDI NSNQ+ KLEK+
+Sbjct  124  QPILNLPNFDINNSNQILKLEKL  146
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.402    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5438270212
+Results from round 2
+
+
+Query= 5BP5:C
+
+Length=144
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P46083|HA17C_CBCP Hemagglutinin component HA-17 type C OS=Cl...  188     2e-61
+  sp|Q9LBR4|HA17D_CBDP Hemagglutinin component HA-17 type D OS=Cl...  186     1e-60
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|P46083|HA17C_CBCP Hemagglutinin component HA-17 type C OS=Clostridium 
+botulinum C phage OX=12336 GN=HA-17 PE=1 SV=3
+Length=146
+
+ Score = 188 bits (478),  Expect = 2e-61, Method: Composition-based stats.
+ Identities = 90/143 (63%), Positives = 111/143 (78%), Gaps = 0/143 (0%)
+
+Query  2    ERTFLPNGNYNIKSIFSGSLYLNPVSKSLTFSNESSANNQKWNVEYMAENRCFKISNVAE  61
+            ERTFLPNGNY IKS+FS SLYL   S +L+FSN SS +NQKW +EY++ +  F+ SNVAE
+Sbjct  4    ERTFLPNGNYKIKSLFSDSLYLTYSSGALSFSNTSSLDNQKWKLEYISSSNGFRFSNVAE  63
+
+Query  62   PNKYLSYDNFGFISLDSLSNRCYWFPIKIAVNTYIMLSLNKVNELDYAWDIYDTNENILS  121
+            PNKYL+Y+++GFI L S SN   W PIKIA+N+YI+ +L+ VN  DYAW IYD N NI  
+Sbjct  64   PNKYLAYNDYGFIYLSSSSNNSLWNPIKIAINSYIICTLSIVNVTDYAWTIYDNNNNITD  123
+
+Query  122  QPLLLLPNFDIYNSNQMFKLEKI  144
+            QP+L LPNFDI NSNQ+ KLEK+
+Sbjct  124  QPILNLPNFDINNSNQILKLEKL  146
+
+
+> sp|Q9LBR4|HA17D_CBDP Hemagglutinin component HA-17 type D OS=Clostridium 
+botulinum D phage OX=29342 GN=ha-17 PE=1 SV=1
+Length=146
+
+ Score = 186 bits (472),  Expect = 1e-60, Method: Composition-based stats.
+ Identities = 90/143 (63%), Positives = 110/143 (77%), Gaps = 0/143 (0%)
+
+Query  2    ERTFLPNGNYNIKSIFSGSLYLNPVSKSLTFSNESSANNQKWNVEYMAENRCFKISNVAE  61
+            ERTFLPNGNY IKS+FS SLYL   S SL+F N SS +NQKW +EY++ +  F+ SNVAE
+Sbjct  4    ERTFLPNGNYKIKSLFSDSLYLTYSSGSLSFLNTSSLDNQKWKLEYISSSNGFRFSNVAE  63
+
+Query  62   PNKYLSYDNFGFISLDSLSNRCYWFPIKIAVNTYIMLSLNKVNELDYAWDIYDTNENILS  121
+            PNKYL+Y+++GFI L S SN   W PIKIA+N+YI+ +L+ VN  DYAW IYD N NI  
+Sbjct  64   PNKYLAYNDYGFIYLSSSSNNSLWNPIKIAINSYIICTLSIVNVTDYAWTIYDNNNNITD  123
+
+Query  122  QPLLLLPNFDIYNSNQMFKLEKI  144
+            QP+L LPNFDI NSNQ+ KLEK+
+Sbjct  124  QPILNLPNFDINNSNQILKLEKL  146
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.139    0.411    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0424    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5438270212
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  1:45 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

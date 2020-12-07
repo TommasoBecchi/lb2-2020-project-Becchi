@@ -1,0 +1,121 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 5BS2:A
+
+Length=113
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q94AU9|RBCX1_ARATH Chaperonin-like RBCX protein 1, chloropla...  85.1    6e-21
+
+
+> sp|Q94AU9|RBCX1_ARATH Chaperonin-like RBCX protein 1, chloroplastic 
+OS=Arabidopsis thaliana OX=3702 GN=RBCX1 PE=1 SV=1
+Length=174
+
+ Score = 85.1 bits (209),  Expect = 6e-21, Method: Compositional matrix adjust.
+ Identities = 49/113 (43%), Positives = 70/113 (62%), Gaps = 12/113 (11%)
+
+Query  1    ASPERKAAVALRSLFTFVAARVVLEQLQGPGGPETTYNQQAYLDLMDFLGTPMKGDGGDE  60
+            ASPE KAA  L   FT+VA R+V  QL+       +YN +AY++L +FL T    D GD+
+Sbjct  55   ASPEAKAAKHLHDFFTYVAVRIVSAQLE-------SYNPEAYMELREFLDTNSVSD-GDK  106
+
+Query  61   WMAAVMRKNH---ALALRLMEVREAYL-DEFEWGKTMEMASRETREANTRLMR  109
+            + A +MR++     LALR++EVR AY  ++FEW     +A +   ++NTRLMR
+Sbjct  107  FCATLMRRSSRHMNLALRILEVRSAYCKNDFEWDNMKRLAFKNVDDSNTRLMR  159
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.130    0.376    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5030061568
+Results from round 2
+
+
+Query= 5BS2:A
+
+Length=113
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q94AU9|RBCX1_ARATH Chaperonin-like RBCX protein 1, chloropla...  153     1e-47
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q94AU9|RBCX1_ARATH Chaperonin-like RBCX protein 1, chloroplastic 
+OS=Arabidopsis thaliana OX=3702 GN=RBCX1 PE=1 SV=1
+Length=174
+
+ Score = 153 bits (386),  Expect = 1e-47, Method: Composition-based stats.
+ Identities = 49/113 (43%), Positives = 70/113 (62%), Gaps = 12/113 (11%)
+
+Query  1    ASPERKAAVALRSLFTFVAARVVLEQLQGPGGPETTYNQQAYLDLMDFLGTPMKGDGGDE  60
+            ASPE KAA  L   FT+VA R+V  QL+       +YN +AY++L +FL T    D GD+
+Sbjct  55   ASPEAKAAKHLHDFFTYVAVRIVSAQLE-------SYNPEAYMELREFLDTNSVSD-GDK  106
+
+Query  61   WMAAVMRKNH---ALALRLMEVREAYL-DEFEWGKTMEMASRETREANTRLMR  109
+            + A +MR++     LALR++EVR AY  ++FEW     +A +   ++NTRLMR
+Sbjct  107  FCATLMRRSSRHMNLALRILEVRSAYCKNDFEWDNMKRLAFKNVDDSNTRLMR  159
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.124    0.328    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0378    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5030061568
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  1:45 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

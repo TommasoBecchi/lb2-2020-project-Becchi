@@ -1,0 +1,1006 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 4XQM:A
+
+Length=94
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q9USH8|GLU2B_SCHPO Glucosidase 2 subunit beta OS=Schizosacch...  199     4e-62
+  sp|P0CT24|GLU2B_USTMA Glucosidase 2 subunit beta OS=Ustilago ma...  75.5    3e-16
+  sp|Q9FM96|PSL4_ARATH Glucosidase 2 subunit beta OS=Arabidopsis ...  67.0    3e-13
+  sp|Q5NBP9|GLU2B_ORYSJ Glucosidase 2 subunit beta OS=Oryza sativ...  62.0    2e-11
+  sp|Q04924|GLU2B_YEAST Glucosidase 2 subunit beta OS=Saccharomyc...  62.0    2e-11
+  sp|A2WNF5|GLU2B_ORYSI Glucosidase 2 subunit beta OS=Oryza sativ...  62.0    2e-11
+  sp|Q28034|GLU2B_BOVIN Glucosidase 2 subunit beta OS=Bos taurus ...  54.3    8e-09
+  sp|P14314|GLU2B_HUMAN Glucosidase 2 subunit beta OS=Homo sapien...  53.1    2e-08
+  sp|O08795|GLU2B_MOUSE Glucosidase 2 subunit beta OS=Mus musculu...  52.4    3e-08
+
+
+> sp|Q9USH8|GLU2B_SCHPO Glucosidase 2 subunit beta OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=gtb1 
+PE=1 SV=1
+Length=506
+
+ Score = 199 bits (505),  Expect = 4e-62, Method: Composition-based stats.
+ Identities = 94/94 (100%), Positives = 94/94 (100%), Gaps = 0/94 (0%)
+
+Query  1    YRAIKGMETKREIGGYTYKVVFYENVFQDSILLGNFASQEGNVLKYENGQSCWNGPHRSA  60
+            YRAIKGMETKREIGGYTYKVVFYENVFQDSILLGNFASQEGNVLKYENGQSCWNGPHRSA
+Sbjct  380  YRAIKGMETKREIGGYTYKVVFYENVFQDSILLGNFASQEGNVLKYENGQSCWNGPHRSA  439
+
+Query  61   IVTVECGVENEIVSVLEAQKCEYLIKMKSPAACS  94
+            IVTVECGVENEIVSVLEAQKCEYLIKMKSPAACS
+Sbjct  440  IVTVECGVENEIVSVLEAQKCEYLIKMKSPAACS  473
+
+
+> sp|P0CT24|GLU2B_USTMA Glucosidase 2 subunit beta OS=Ustilago 
+maydis (strain 521 / FGSC 9021) OX=237631 GN=UMAG_12045 PE=3 
+SV=1
+Length=583
+
+ Score = 75.5 bits (184),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 41/111 (37%), Positives = 60/111 (54%), Gaps = 18/111 (16%)
+
+Query  1    YRAIKGMETKREIGGYTYKVVFYENVFQ------DSILLGNF----------ASQEGNVL  44
+            ++A++     +++G YTY+  F+    Q        I LG F          A ++   L
+Sbjct  450  FKALENKCFSKDMGEYTYEYCFFGRATQIPNNGGAQISLGTFTNFNPKHDKSADEDAYWL  509
+
+Query  45   K--YENGQSCWNGPHRSAIVTVECGVENEIVSVLEAQKCEYLIKMKSPAAC  93
+            +  Y  GQ CWNGP RSAIV +EC  EN+++ V EA+KC Y IK+ +PA C
+Sbjct  510  QQIYARGQKCWNGPERSAIVDLECSTENKVLDVFEAEKCIYSIKVATPAVC  560
+
+
+> sp|Q9FM96|PSL4_ARATH Glucosidase 2 subunit beta OS=Arabidopsis 
+thaliana OX=3702 GN=PSL4 PE=2 SV=1
+Length=647
+
+ Score = 67.0 bits (162),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 34/86 (40%), Positives = 48/86 (56%), Gaps = 6/86 (7%)
+
+Query  14   GGYTYKVVFYENVFQDS----ILLGNFASQEGN--VLKYENGQSCWNGPHRSAIVTVECG  67
+            G YTYKV  Y+   Q+       LG +   E +   + Y NG+ CWNGP RS  V + CG
+Sbjct  535  GKYTYKVCAYKEATQEEGYSKTRLGEWDKFENSYQFMSYTNGEKCWNGPDRSLKVKLRCG  594
+
+Query  68   VENEIVSVLEAQKCEYLIKMKSPAAC  93
+            ++NE++ V E  +CEY   + +PA C
+Sbjct  595  LKNELMDVDEPSRCEYAAILSTPARC  620
+
+
+> sp|Q5NBP9|GLU2B_ORYSJ Glucosidase 2 subunit beta OS=Oryza sativa 
+subsp. japonica OX=39947 GN=Os01g0276800 PE=2 SV=1
+Length=614
+
+ Score = 62.0 bits (149),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 32/86 (37%), Positives = 47/86 (55%), Gaps = 6/86 (7%)
+
+Query  14   GGYTYKVVFYENVFQ----DSILLGNFASQEGN--VLKYENGQSCWNGPHRSAIVTVECG  67
+            G Y YKV  ++   Q     +  LG +   E +  V+++ NG  CWNGP RS  V + CG
+Sbjct  505  GKYVYKVCPFKKASQVEGHSTTSLGRWDKFEESYRVMQFSNGDRCWNGPDRSLKVRLRCG  564
+
+Query  68   VENEIVSVLEAQKCEYLIKMKSPAAC  93
+            + NE+  V E  +CEY+  + +PA C
+Sbjct  565  LNNELNGVDEPSRCEYVAVLSTPALC  590
+
+
+> sp|Q04924|GLU2B_YEAST Glucosidase 2 subunit beta OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=GTB1 
+PE=1 SV=1
+Length=702
+
+ Score = 62.0 bits (149),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 28/54 (52%), Positives = 34/54 (63%), Gaps = 0/54 (0%)
+
+Query  41   GNVLKYENGQSCWNGPHRSAIVTVECGVENEIVSVLEAQKCEYLIKMKSPAACS  94
+            G VL+YENG  CWNGP RSA V V C  + +I SV EA KC Y+  +  P  C+
+Sbjct  635  GLVLEYENGDQCWNGPRRSATVFVRCSDKFKIRSVHEATKCNYIFDVVGPLGCN  688
+
+
+> sp|A2WNF5|GLU2B_ORYSI Glucosidase 2 subunit beta OS=Oryza sativa 
+subsp. indica OX=39946 GN=OsI_01383 PE=3 SV=1
+Length=614
+
+ Score = 62.0 bits (149),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 32/86 (37%), Positives = 47/86 (55%), Gaps = 6/86 (7%)
+
+Query  14   GGYTYKVVFYENVFQ----DSILLGNFASQEGN--VLKYENGQSCWNGPHRSAIVTVECG  67
+            G Y YKV  ++   Q     +  LG +   E +  V+++ NG  CWNGP RS  V + CG
+Sbjct  505  GKYVYKVCPFKKASQVEGHSTTSLGRWDKFEESYRVMQFSNGDRCWNGPDRSLKVRLRCG  564
+
+Query  68   VENEIVSVLEAQKCEYLIKMKSPAAC  93
+            + NE+  V E  +CEY+  + +PA C
+Sbjct  565  LNNELNGVDEPSRCEYVAVLSTPALC  590
+
+
+> sp|Q28034|GLU2B_BOVIN Glucosidase 2 subunit beta OS=Bos taurus 
+OX=9913 GN=PRKCSH PE=2 SV=1
+Length=533
+
+ Score = 54.3 bits (129),  Expect = 8e-09, Method: Composition-based stats.
+ Identities = 29/86 (34%), Positives = 44/86 (51%), Gaps = 12/86 (14%)
+
+Query  16   YTYKVVFYENVFQDSIL------LGNFASQEG------NVLKYENGQSCWNGPHRSAIVT  63
+            Y Y++  ++ V Q   L      LG + S  G      + +KYE G  CW GP+RS  V 
+Sbjct  428  YVYRLCPFKLVSQKPKLGGSPTSLGTWGSWAGPDHDKFSAMKYEQGTGCWQGPNRSTTVR  487
+
+Query  64   VECGVENEIVSVLEAQKCEYLIKMKS  89
+            + CG E  + S  E  +CEYL+++ +
+Sbjct  488  LLCGKETVVTSTTEPSRCEYLMELMT  513
+
+
+> sp|P14314|GLU2B_HUMAN Glucosidase 2 subunit beta OS=Homo sapiens 
+OX=9606 GN=PRKCSH PE=1 SV=2
+Length=528
+
+ Score = 53.1 bits (126),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 29/84 (35%), Positives = 43/84 (51%), Gaps = 12/84 (14%)
+
+Query  16   YTYKVVFYENVFQDSIL------LGNFASQEG------NVLKYENGQSCWNGPHRSAIVT  63
+            Y Y++  ++ V Q   L      LG + S  G      + +KYE G  CW GP+RS  V 
+Sbjct  423  YVYRLCPFKLVSQKPKLGGSPTSLGTWGSWIGPDHDKFSAMKYEQGTGCWQGPNRSTTVR  482
+
+Query  64   VECGVENEIVSVLEAQKCEYLIKM  87
+            + CG E  + S  E  +CEYL+++
+Sbjct  483  LLCGKETMVTSTTEPSRCEYLMEL  506
+
+
+> sp|O08795|GLU2B_MOUSE Glucosidase 2 subunit beta OS=Mus musculus 
+OX=10090 GN=Prkcsh PE=1 SV=1
+Length=521
+
+ Score = 52.4 bits (124),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 24/63 (38%), Positives = 35/63 (56%), Gaps = 6/63 (10%)
+
+Query  33   LGNFASQEG------NVLKYENGQSCWNGPHRSAIVTVECGVENEIVSVLEAQKCEYLIK  86
+            LG + S  G      + +KYE G  CW GP+RS  V + CG E  + S  E  +CEYL++
+Sbjct  439  LGTWGSWAGPDHDKFSAMKYEQGTGCWQGPNRSTTVRLLCGKETVVTSTTEPSRCEYLME  498
+
+Query  87   MKS  89
+            + +
+Sbjct  499  LMT  501
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.133    0.397    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5002854540
+Results from round 2
+
+
+Query= 4XQM:A
+
+Length=94
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q9USH8|GLU2B_SCHPO Glucosidase 2 subunit beta OS=Schizosacch...  150     1e-43
+  sp|P0CT24|GLU2B_USTMA Glucosidase 2 subunit beta OS=Ustilago ma...  130     7e-36
+  sp|Q5NBP9|GLU2B_ORYSJ Glucosidase 2 subunit beta OS=Oryza sativ...  129     2e-35
+  sp|A2WNF5|GLU2B_ORYSI Glucosidase 2 subunit beta OS=Oryza sativ...  129     2e-35
+  sp|Q9FM96|PSL4_ARATH Glucosidase 2 subunit beta OS=Arabidopsis ...  129     2e-35
+  sp|Q28034|GLU2B_BOVIN Glucosidase 2 subunit beta OS=Bos taurus ...  113     7e-30
+  sp|O08795|GLU2B_MOUSE Glucosidase 2 subunit beta OS=Mus musculu...  111     3e-29
+  sp|P14314|GLU2B_HUMAN Glucosidase 2 subunit beta OS=Homo sapien...  109     3e-28
+  sp|Q04924|GLU2B_YEAST Glucosidase 2 subunit beta OS=Saccharomyc...  91.3    8e-22
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q58CS8|GNPTG_BOVIN N-acetylglucosamine-1-phosphotransferase ...  68.6    4e-14
+  sp|Q6S5C2|GNPTG_MOUSE N-acetylglucosamine-1-phosphotransferase ...  67.8    1e-13
+  sp|Q9UJJ9|GNPTG_HUMAN N-acetylglucosamine-1-phosphotransferase ...  66.7    2e-13
+  sp|Q13438|OS9_HUMAN Protein OS-9 OS=Homo sapiens OX=9606 GN=OS9...  38.9    0.002
+  sp|Q3MHX6|OS9_BOVIN Protein OS-9 OS=Bos taurus OX=9913 GN=OS9 P...  38.9    0.002
+  sp|Q08B78|ERLEC_XENLA Endoplasmic reticulum lectin 1 OS=Xenopus...  37.8    0.004
+  sp|Q5R8S4|ERLEC_PONAB Endoplasmic reticulum lectin 1 OS=Pongo a...  37.8    0.005
+  sp|Q96DZ1|ERLEC_HUMAN Endoplasmic reticulum lectin 1 OS=Homo sa...  37.8    0.005
+  sp|Q28IT1|ERLEC_XENTR Endoplasmic reticulum lectin 1 OS=Xenopus...  37.4    0.007
+  sp|Q8VEH8|ERLEC_MOUSE Endoplasmic reticulum lectin 1 OS=Mus mus...  37.4    0.007
+
+
+> sp|Q9USH8|GLU2B_SCHPO Glucosidase 2 subunit beta OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=gtb1 
+PE=1 SV=1
+Length=506
+
+ Score = 150 bits (378),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 94/94 (100%), Positives = 94/94 (100%), Gaps = 0/94 (0%)
+
+Query  1    YRAIKGMETKREIGGYTYKVVFYENVFQDSILLGNFASQEGNVLKYENGQSCWNGPHRSA  60
+            YRAIKGMETKREIGGYTYKVVFYENVFQDSILLGNFASQEGNVLKYENGQSCWNGPHRSA
+Sbjct  380  YRAIKGMETKREIGGYTYKVVFYENVFQDSILLGNFASQEGNVLKYENGQSCWNGPHRSA  439
+
+Query  61   IVTVECGVENEIVSVLEAQKCEYLIKMKSPAACS  94
+            IVTVECGVENEIVSVLEAQKCEYLIKMKSPAACS
+Sbjct  440  IVTVECGVENEIVSVLEAQKCEYLIKMKSPAACS  473
+
+
+> sp|P0CT24|GLU2B_USTMA Glucosidase 2 subunit beta OS=Ustilago 
+maydis (strain 521 / FGSC 9021) OX=237631 GN=UMAG_12045 PE=3 
+SV=1
+Length=583
+
+ Score = 130 bits (327),  Expect = 7e-36, Method: Composition-based stats.
+ Identities = 41/111 (37%), Positives = 60/111 (54%), Gaps = 18/111 (16%)
+
+Query  1    YRAIKGMETKREIGGYTYKVVFYENVFQ------DSILLGNF----------ASQEGNVL  44
+            ++A++     +++G YTY+  F+    Q        I LG F          A ++   L
+Sbjct  450  FKALENKCFSKDMGEYTYEYCFFGRATQIPNNGGAQISLGTFTNFNPKHDKSADEDAYWL  509
+
+Query  45   K--YENGQSCWNGPHRSAIVTVECGVENEIVSVLEAQKCEYLIKMKSPAAC  93
+            +  Y  GQ CWNGP RSAIV +EC  EN+++ V EA+KC Y IK+ +PA C
+Sbjct  510  QQIYARGQKCWNGPERSAIVDLECSTENKVLDVFEAEKCIYSIKVATPAVC  560
+
+
+> sp|Q5NBP9|GLU2B_ORYSJ Glucosidase 2 subunit beta OS=Oryza sativa 
+subsp. japonica OX=39947 GN=Os01g0276800 PE=2 SV=1
+Length=614
+
+ Score = 129 bits (325),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 32/95 (34%), Positives = 49/95 (52%), Gaps = 6/95 (6%)
+
+Query  6    GMETKREIGGYTYKVVFYENVFQ----DSILLGNFASQEGN--VLKYENGQSCWNGPHRS  59
+                + + G Y YKV  ++   Q     +  LG +   E +  V+++ NG  CWNGP RS
+Sbjct  497  DQCFESKEGKYVYKVCPFKKASQVEGHSTTSLGRWDKFEESYRVMQFSNGDRCWNGPDRS  556
+
+Query  60   AIVTVECGVENEIVSVLEAQKCEYLIKMKSPAACS  94
+              V + CG+ NE+  V E  +CEY+  + +PA C 
+Sbjct  557  LKVRLRCGLNNELNGVDEPSRCEYVAVLSTPALCD  591
+
+
+> sp|A2WNF5|GLU2B_ORYSI Glucosidase 2 subunit beta OS=Oryza sativa 
+subsp. indica OX=39946 GN=OsI_01383 PE=3 SV=1
+Length=614
+
+ Score = 129 bits (325),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 32/95 (34%), Positives = 49/95 (52%), Gaps = 6/95 (6%)
+
+Query  6    GMETKREIGGYTYKVVFYENVFQ----DSILLGNFASQEGN--VLKYENGQSCWNGPHRS  59
+                + + G Y YKV  ++   Q     +  LG +   E +  V+++ NG  CWNGP RS
+Sbjct  497  DQCFESKEGKYVYKVCPFKKASQVEGHSTTSLGRWDKFEESYRVMQFSNGDRCWNGPDRS  556
+
+Query  60   AIVTVECGVENEIVSVLEAQKCEYLIKMKSPAACS  94
+              V + CG+ NE+  V E  +CEY+  + +PA C 
+Sbjct  557  LKVRLRCGLNNELNGVDEPSRCEYVAVLSTPALCD  591
+
+
+> sp|Q9FM96|PSL4_ARATH Glucosidase 2 subunit beta OS=Arabidopsis 
+thaliana OX=3702 GN=PSL4 PE=2 SV=1
+Length=647
+
+ Score = 129 bits (325),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 35/99 (35%), Positives = 53/99 (54%), Gaps = 6/99 (6%)
+
+Query  1    YRAIKGMETKREIGGYTYKVVFYENVFQDS----ILLGNFASQEGN--VLKYENGQSCWN  54
+            + +  G   + + G YTYKV  Y+   Q+       LG +   E +   + Y NG+ CWN
+Sbjct  522  FYSFHGRCFESKQGKYTYKVCAYKEATQEEGYSKTRLGEWDKFENSYQFMSYTNGEKCWN  581
+
+Query  55   GPHRSAIVTVECGVENEIVSVLEAQKCEYLIKMKSPAAC  93
+            GP RS  V + CG++NE++ V E  +CEY   + +PA C
+Sbjct  582  GPDRSLKVKLRCGLKNELMDVDEPSRCEYAAILSTPARC  620
+
+
+> sp|Q28034|GLU2B_BOVIN Glucosidase 2 subunit beta OS=Bos taurus 
+OX=9913 GN=PRKCSH PE=2 SV=1
+Length=533
+
+ Score = 113 bits (283),  Expect = 7e-30, Method: Composition-based stats.
+ Identities = 28/101 (28%), Positives = 46/101 (46%), Gaps = 12/101 (12%)
+
+Query  1    YRAIKGMETKREIGGYTYKVVFYENVFQDS------ILLGNFASQEG------NVLKYEN  48
+            +  +     +     Y Y++  ++ V Q          LG + S  G      + +KYE 
+Sbjct  413  FAYLYSQCYELTTNEYVYRLCPFKLVSQKPKLGGSPTSLGTWGSWAGPDHDKFSAMKYEQ  472
+
+Query  49   GQSCWNGPHRSAIVTVECGVENEIVSVLEAQKCEYLIKMKS  89
+            G  CW GP+RS  V + CG E  + S  E  +CEYL+++ +
+Sbjct  473  GTGCWQGPNRSTTVRLLCGKETVVTSTTEPSRCEYLMELMT  513
+
+
+> sp|O08795|GLU2B_MOUSE Glucosidase 2 subunit beta OS=Mus musculus 
+OX=10090 GN=Prkcsh PE=1 SV=1
+Length=521
+
+ Score = 111 bits (278),  Expect = 3e-29, Method: Composition-based stats.
+ Identities = 28/101 (28%), Positives = 46/101 (46%), Gaps = 12/101 (12%)
+
+Query  1    YRAIKGMETKREIGGYTYKVVFYENVFQDS------ILLGNFASQEG------NVLKYEN  48
+            +  +     +     Y Y++  ++ V Q          LG + S  G      + +KYE 
+Sbjct  401  FAYLYSQCYELTTNEYVYRLCPFKLVSQKPKHGGSPTSLGTWGSWAGPDHDKFSAMKYEQ  460
+
+Query  49   GQSCWNGPHRSAIVTVECGVENEIVSVLEAQKCEYLIKMKS  89
+            G  CW GP+RS  V + CG E  + S  E  +CEYL+++ +
+Sbjct  461  GTGCWQGPNRSTTVRLLCGKETVVTSTTEPSRCEYLMELMT  501
+
+
+> sp|P14314|GLU2B_HUMAN Glucosidase 2 subunit beta OS=Homo sapiens 
+OX=9606 GN=PRKCSH PE=1 SV=2
+Length=528
+
+ Score = 109 bits (272),  Expect = 3e-28, Method: Composition-based stats.
+ Identities = 28/100 (28%), Positives = 45/100 (45%), Gaps = 12/100 (12%)
+
+Query  1    YRAIKGMETKREIGGYTYKVVFYENVFQDS------ILLGNFASQEG------NVLKYEN  48
+            +  +     +     Y Y++  ++ V Q          LG + S  G      + +KYE 
+Sbjct  408  FAYLYSQCYELTTNEYVYRLCPFKLVSQKPKLGGSPTSLGTWGSWIGPDHDKFSAMKYEQ  467
+
+Query  49   GQSCWNGPHRSAIVTVECGVENEIVSVLEAQKCEYLIKMK  88
+            G  CW GP+RS  V + CG E  + S  E  +CEYL+++ 
+Sbjct  468  GTGCWQGPNRSTTVRLLCGKETMVTSTTEPSRCEYLMELM  507
+
+
+> sp|Q04924|GLU2B_YEAST Glucosidase 2 subunit beta OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=GTB1 
+PE=1 SV=1
+Length=702
+
+ Score = 91.3 bits (225),  Expect = 8e-22, Method: Composition-based stats.
+ Identities = 28/54 (52%), Positives = 34/54 (63%), Gaps = 0/54 (0%)
+
+Query  41   GNVLKYENGQSCWNGPHRSAIVTVECGVENEIVSVLEAQKCEYLIKMKSPAACS  94
+            G VL+YENG  CWNGP RSA V V C  + +I SV EA KC Y+  +  P  C+
+Sbjct  635  GLVLEYENGDQCWNGPRRSATVFVRCSDKFKIRSVHEATKCNYIFDVVGPLGCN  688
+
+
+> sp|Q58CS8|GNPTG_BOVIN N-acetylglucosamine-1-phosphotransferase 
+subunit gamma OS=Bos taurus OX=9913 GN=GNPTG PE=1 SV=4
+Length=306
+
+ Score = 68.6 bits (166),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 23/106 (22%), Positives = 38/106 (36%), Gaps = 19/106 (18%)
+
+Query  4    IKGMETKREIGGYTYKVVFYENVFQDSIL---------LGNFASQE-------GNVLKYE  47
+            + G         Y Y++  + NV Q             LG +   E       G  ++  
+Sbjct  67   LSGKCFSLVESTYKYELCPFHNVTQHEQTFRWNAYSGILGIWHEWEITNNTFRGMWMR--  124
+
+Query  48   NGQSCWNGPHRSAIVTVECGVENEIVSVLEAQKCEYLIKMKSPAAC  93
+            +G +C     R + V + CG  N +  V E   C Y +  ++P  C
+Sbjct  125  DGDAC-QSRSRQSKVELTCGKSNRLAHVSEPSTCVYALTFETPLVC  169
+
+
+> sp|Q6S5C2|GNPTG_MOUSE N-acetylglucosamine-1-phosphotransferase 
+subunit gamma OS=Mus musculus OX=10090 GN=Gnptg PE=1 SV=1
+Length=307
+
+ Score = 67.8 bits (164),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 24/106 (23%), Positives = 37/106 (35%), Gaps = 19/106 (18%)
+
+Query  4    IKGMETKREIGGYTYKVVFYENVFQDSIL---------LGNFASQE-------GNVLKYE  47
+            + G         Y Y+   + NV Q             LG +   E       G  +   
+Sbjct  67   LAGKCFSLVESTYKYEFCPFHNVTQHEQTFRWNAYSGILGIWHEWEIINNTFKGMWM--T  124
+
+Query  48   NGQSCWNGPHRSAIVTVECGVENEIVSVLEAQKCEYLIKMKSPAAC  93
+            +G SC +   R + V + CG  N +  V E   C Y +  ++P  C
+Sbjct  125  DGDSC-HSRSRQSKVELTCGKINRLAHVSEPSTCVYALTFETPLVC  169
+
+
+> sp|Q9UJJ9|GNPTG_HUMAN N-acetylglucosamine-1-phosphotransferase 
+subunit gamma OS=Homo sapiens OX=9606 GN=GNPTG PE=1 SV=1
+Length=305
+
+ Score = 66.7 bits (161),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 23/106 (22%), Positives = 37/106 (35%), Gaps = 19/106 (18%)
+
+Query  4    IKGMETKREIGGYTYKVVFYENVFQDSIL---------LGNFASQE-------GNVLKYE  47
+            + G         Y Y+   + NV Q             LG +   E       G  ++  
+Sbjct  67   LSGKCFSLVESTYKYEFCPFHNVTQHEQTFRWNAYSGILGIWHEWEIANNTFTGMWMR--  124
+
+Query  48   NGQSCWNGPHRSAIVTVECGVENEIVSVLEAQKCEYLIKMKSPAAC  93
+            +G +C     R + V + CG  N +  V E   C Y +  ++P  C
+Sbjct  125  DGDAC-RSRSRQSKVELACGKSNRLAHVSEPSTCVYALTFETPLVC  169
+
+
+> sp|Q13438|OS9_HUMAN Protein OS-9 OS=Homo sapiens OX=9606 GN=OS9 
+PE=1 SV=1
+Length=667
+
+ Score = 38.9 bits (89),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 17/54 (31%), Positives = 22/54 (41%), Gaps = 6/54 (11%)
+
+Query  46   YENGQSC-WNGPHRSAIVTVECGVENEIVS-----VLEAQKCEYLIKMKSPAAC  93
+            Y NG  C  NG  R A V   C     I       V E   C Y++ +++P  C
+Sbjct  175  YGNGSKCDLNGRPREAEVRFLCDEGAGISGDYIDRVDEPLSCSYVLTIRTPRLC  228
+
+
+> sp|Q3MHX6|OS9_BOVIN Protein OS-9 OS=Bos taurus OX=9913 GN=OS9 
+PE=2 SV=1
+Length=667
+
+ Score = 38.9 bits (89),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 17/54 (31%), Positives = 22/54 (41%), Gaps = 6/54 (11%)
+
+Query  46   YENGQSC-WNGPHRSAIVTVECGVENEIVS-----VLEAQKCEYLIKMKSPAAC  93
+            Y NG  C  NG  R A V   C     I       V E   C Y++ +++P  C
+Sbjct  175  YGNGSKCDLNGRPREAEVRFLCDEGAGISGDYIDRVDEPLSCSYVLTIRTPRLC  228
+
+
+> sp|Q08B78|ERLEC_XENLA Endoplasmic reticulum lectin 1 OS=Xenopus 
+laevis OX=8355 GN=erlec1 PE=2 SV=1
+Length=480
+
+ Score = 37.8 bits (86),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 18/55 (33%), Positives = 27/55 (49%), Gaps = 4/55 (7%)
+
+Query  44   LKYENGQSCW--NGPHRSAIVTVECGVE--NEIVSVLEAQKCEYLIKMKSPAACS  94
+            ++  NG  C       RS+ V   C  E  +EI+SV E   CEY + + +P  C+
+Sbjct  190  VEMTNGTPCSLKQNQARSSTVMYICHPEAKHEILSVAEITTCEYEVVILTPLLCN  244
+
+
+> sp|Q5R8S4|ERLEC_PONAB Endoplasmic reticulum lectin 1 OS=Pongo 
+abelii OX=9601 GN=ERLEC1 PE=2 SV=1
+Length=483
+
+ Score = 37.8 bits (86),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 21/52 (40%), Positives = 27/52 (52%), Gaps = 6/52 (12%)
+
+Query  48   NGQSC---WNGPHRSAIVTVECGVEN--EIVSVLEAQKCEYLIKMKSPAACS  94
+            NG  C    N P RS+ V   C  E+  EI+SV E   CEY + + +P  CS
+Sbjct  195  NGTPCSLKQNRP-RSSTVMYICHPESKHEILSVAEVTTCEYEVVILTPLLCS  245
+
+
+> sp|Q96DZ1|ERLEC_HUMAN Endoplasmic reticulum lectin 1 OS=Homo 
+sapiens OX=9606 GN=ERLEC1 PE=1 SV=1
+Length=483
+
+ Score = 37.8 bits (86),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 21/52 (40%), Positives = 27/52 (52%), Gaps = 6/52 (12%)
+
+Query  48   NGQSC---WNGPHRSAIVTVECGVEN--EIVSVLEAQKCEYLIKMKSPAACS  94
+            NG  C    N P RS+ V   C  E+  EI+SV E   CEY + + +P  CS
+Sbjct  195  NGTPCSLKQNRP-RSSTVMYICHPESKHEILSVAEVTTCEYEVVILTPLLCS  245
+
+
+> sp|Q28IT1|ERLEC_XENTR Endoplasmic reticulum lectin 1 OS=Xenopus 
+tropicalis OX=8364 GN=erlec1 PE=2 SV=1
+Length=481
+
+ Score = 37.4 bits (85),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 20/52 (38%), Positives = 27/52 (52%), Gaps = 6/52 (12%)
+
+Query  48   NGQSC---WNGPHRSAIVTVECGVEN--EIVSVLEAQKCEYLIKMKSPAACS  94
+            NG  C    N P RS+ V   C  E+  EI+SV E   CEY + + +P  C+
+Sbjct  194  NGTPCSLKQNQP-RSSTVMYICHPESKHEILSVAEVTTCEYEVVILTPLLCN  244
+
+
+> sp|Q8VEH8|ERLEC_MOUSE Endoplasmic reticulum lectin 1 OS=Mus musculus 
+OX=10090 GN=Erlec1 PE=1 SV=1
+Length=483
+
+ Score = 37.4 bits (85),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 21/52 (40%), Positives = 27/52 (52%), Gaps = 6/52 (12%)
+
+Query  48   NGQSC---WNGPHRSAIVTVECGVEN--EIVSVLEAQKCEYLIKMKSPAACS  94
+            NG  C    N P RS+ V   C  E+  EI+SV E   CEY + + +P  CS
+Sbjct  195  NGTPCSLKQNRP-RSSTVMYICHPESKHEILSVAEVTTCEYEVVILTPLLCS  245
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.128    0.382    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0391    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5002854540
+Results from round 3
+
+
+Query= 4XQM:A
+
+Length=94
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q5NBP9|GLU2B_ORYSJ Glucosidase 2 subunit beta OS=Oryza sativ...  139     6e-39
+  sp|A2WNF5|GLU2B_ORYSI Glucosidase 2 subunit beta OS=Oryza sativ...  138     9e-39
+  sp|Q9USH8|GLU2B_SCHPO Glucosidase 2 subunit beta OS=Schizosacch...  134     9e-38
+  sp|Q9FM96|PSL4_ARATH Glucosidase 2 subunit beta OS=Arabidopsis ...  135     1e-37
+  sp|Q6S5C2|GNPTG_MOUSE N-acetylglucosamine-1-phosphotransferase ...  125     1e-35
+  sp|Q58CS8|GNPTG_BOVIN N-acetylglucosamine-1-phosphotransferase ...  122     1e-34
+  sp|P0CT24|GLU2B_USTMA Glucosidase 2 subunit beta OS=Ustilago ma...  124     1e-33
+  sp|Q9UJJ9|GNPTG_HUMAN N-acetylglucosamine-1-phosphotransferase ...  119     3e-33
+  sp|Q28034|GLU2B_BOVIN Glucosidase 2 subunit beta OS=Bos taurus ...  119     8e-32
+  sp|O08795|GLU2B_MOUSE Glucosidase 2 subunit beta OS=Mus musculu...  116     6e-31
+  sp|P14314|GLU2B_HUMAN Glucosidase 2 subunit beta OS=Homo sapien...  115     2e-30
+  sp|Q04924|GLU2B_YEAST Glucosidase 2 subunit beta OS=Saccharomyc...  87.1    2e-20
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q8GWH3|OS9_ARATH Protein OS-9 homolog OS=Arabidopsis thalian...  44.0    3e-05
+  sp|Q13438|OS9_HUMAN Protein OS-9 OS=Homo sapiens OX=9606 GN=OS9...  43.6    4e-05
+  sp|Q3MHX6|OS9_BOVIN Protein OS-9 OS=Bos taurus OX=9913 GN=OS9 P...  43.6    5e-05
+  sp|Q96DZ1|ERLEC_HUMAN Endoplasmic reticulum lectin 1 OS=Homo sa...  41.7    2e-04
+  sp|Q5R8S4|ERLEC_PONAB Endoplasmic reticulum lectin 1 OS=Pongo a...  41.3    3e-04
+  sp|Q8K2C7|OS9_MOUSE Protein OS-9 OS=Mus musculus OX=10090 GN=Os...  40.9    4e-04
+  sp|Q8VEH8|ERLEC_MOUSE Endoplasmic reticulum lectin 1 OS=Mus mus...  40.5    5e-04
+  sp|Q08B78|ERLEC_XENLA Endoplasmic reticulum lectin 1 OS=Xenopus...  39.3    0.002
+  sp|Q5BDB9|OS9_EMENI Protein OS-9 homolog OS=Emericella nidulans...  38.6    0.003
+  sp|Q28IT1|ERLEC_XENTR Endoplasmic reticulum lectin 1 OS=Xenopus...  37.8    0.004
+  sp|Q07113|MPRI_MOUSE Cation-independent mannose-6-phosphate rec...  37.0    0.009
+
+
+> sp|Q5NBP9|GLU2B_ORYSJ Glucosidase 2 subunit beta OS=Oryza sativa 
+subsp. japonica OX=39947 GN=Os01g0276800 PE=2 SV=1
+Length=614
+
+ Score = 139 bits (349),  Expect = 6e-39, Method: Composition-based stats.
+ Identities = 32/100 (32%), Positives = 50/100 (50%), Gaps = 6/100 (6%)
+
+Query  1    YRAIKGMETKREIGGYTYKVVFYENVFQ----DSILLGNFASQEGN--VLKYENGQSCWN  54
+            +        + + G Y YKV  ++   Q     +  LG +   E +  V+++ NG  CWN
+Sbjct  492  FYYFYDQCFESKEGKYVYKVCPFKKASQVEGHSTTSLGRWDKFEESYRVMQFSNGDRCWN  551
+
+Query  55   GPHRSAIVTVECGVENEIVSVLEAQKCEYLIKMKSPAACS  94
+            GP RS  V + CG+ NE+  V E  +CEY+  + +PA C 
+Sbjct  552  GPDRSLKVRLRCGLNNELNGVDEPSRCEYVAVLSTPALCD  591
+
+
+> sp|A2WNF5|GLU2B_ORYSI Glucosidase 2 subunit beta OS=Oryza sativa 
+subsp. indica OX=39946 GN=OsI_01383 PE=3 SV=1
+Length=614
+
+ Score = 138 bits (348),  Expect = 9e-39, Method: Composition-based stats.
+ Identities = 32/100 (32%), Positives = 50/100 (50%), Gaps = 6/100 (6%)
+
+Query  1    YRAIKGMETKREIGGYTYKVVFYENVFQ----DSILLGNFASQEGN--VLKYENGQSCWN  54
+            +        + + G Y YKV  ++   Q     +  LG +   E +  V+++ NG  CWN
+Sbjct  492  FYYFYDQCFESKEGKYVYKVCPFKKASQVEGHSTTSLGRWDKFEESYRVMQFSNGDRCWN  551
+
+Query  55   GPHRSAIVTVECGVENEIVSVLEAQKCEYLIKMKSPAACS  94
+            GP RS  V + CG+ NE+  V E  +CEY+  + +PA C 
+Sbjct  552  GPDRSLKVRLRCGLNNELNGVDEPSRCEYVAVLSTPALCD  591
+
+
+> sp|Q9USH8|GLU2B_SCHPO Glucosidase 2 subunit beta OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=gtb1 
+PE=1 SV=1
+Length=506
+
+ Score = 134 bits (338),  Expect = 9e-38, Method: Composition-based stats.
+ Identities = 94/94 (100%), Positives = 94/94 (100%), Gaps = 0/94 (0%)
+
+Query  1    YRAIKGMETKREIGGYTYKVVFYENVFQDSILLGNFASQEGNVLKYENGQSCWNGPHRSA  60
+            YRAIKGMETKREIGGYTYKVVFYENVFQDSILLGNFASQEGNVLKYENGQSCWNGPHRSA
+Sbjct  380  YRAIKGMETKREIGGYTYKVVFYENVFQDSILLGNFASQEGNVLKYENGQSCWNGPHRSA  439
+
+Query  61   IVTVECGVENEIVSVLEAQKCEYLIKMKSPAACS  94
+            IVTVECGVENEIVSVLEAQKCEYLIKMKSPAACS
+Sbjct  440  IVTVECGVENEIVSVLEAQKCEYLIKMKSPAACS  473
+
+
+> sp|Q9FM96|PSL4_ARATH Glucosidase 2 subunit beta OS=Arabidopsis 
+thaliana OX=3702 GN=PSL4 PE=2 SV=1
+Length=647
+
+ Score = 135 bits (340),  Expect = 1e-37, Method: Composition-based stats.
+ Identities = 35/99 (35%), Positives = 53/99 (54%), Gaps = 6/99 (6%)
+
+Query  1    YRAIKGMETKREIGGYTYKVVFYENVFQDS----ILLGNFASQEGN--VLKYENGQSCWN  54
+            + +  G   + + G YTYKV  Y+   Q+       LG +   E +   + Y NG+ CWN
+Sbjct  522  FYSFHGRCFESKQGKYTYKVCAYKEATQEEGYSKTRLGEWDKFENSYQFMSYTNGEKCWN  581
+
+Query  55   GPHRSAIVTVECGVENEIVSVLEAQKCEYLIKMKSPAAC  93
+            GP RS  V + CG++NE++ V E  +CEY   + +PA C
+Sbjct  582  GPDRSLKVKLRCGLKNELMDVDEPSRCEYAAILSTPARC  620
+
+
+> sp|Q6S5C2|GNPTG_MOUSE N-acetylglucosamine-1-phosphotransferase 
+subunit gamma OS=Mus musculus OX=10090 GN=Gnptg PE=1 SV=1
+Length=307
+
+ Score = 125 bits (314),  Expect = 1e-35, Method: Composition-based stats.
+ Identities = 24/106 (23%), Positives = 37/106 (35%), Gaps = 19/106 (18%)
+
+Query  4    IKGMETKREIGGYTYKVVFYENVFQDSIL---------LGNFASQE-------GNVLKYE  47
+            + G         Y Y+   + NV Q             LG +   E       G  +   
+Sbjct  67   LAGKCFSLVESTYKYEFCPFHNVTQHEQTFRWNAYSGILGIWHEWEIINNTFKGMWM--T  124
+
+Query  48   NGQSCWNGPHRSAIVTVECGVENEIVSVLEAQKCEYLIKMKSPAAC  93
+            +G SC +   R + V + CG  N +  V E   C Y +  ++P  C
+Sbjct  125  DGDSC-HSRSRQSKVELTCGKINRLAHVSEPSTCVYALTFETPLVC  169
+
+
+> sp|Q58CS8|GNPTG_BOVIN N-acetylglucosamine-1-phosphotransferase 
+subunit gamma OS=Bos taurus OX=9913 GN=GNPTG PE=1 SV=4
+Length=306
+
+ Score = 122 bits (307),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 23/106 (22%), Positives = 38/106 (36%), Gaps = 19/106 (18%)
+
+Query  4    IKGMETKREIGGYTYKVVFYENVFQDSIL---------LGNFASQE-------GNVLKYE  47
+            + G         Y Y++  + NV Q             LG +   E       G  ++  
+Sbjct  67   LSGKCFSLVESTYKYELCPFHNVTQHEQTFRWNAYSGILGIWHEWEITNNTFRGMWMR--  124
+
+Query  48   NGQSCWNGPHRSAIVTVECGVENEIVSVLEAQKCEYLIKMKSPAAC  93
+            +G +C     R + V + CG  N +  V E   C Y +  ++P  C
+Sbjct  125  DGDAC-QSRSRQSKVELTCGKSNRLAHVSEPSTCVYALTFETPLVC  169
+
+
+> sp|P0CT24|GLU2B_USTMA Glucosidase 2 subunit beta OS=Ustilago 
+maydis (strain 521 / FGSC 9021) OX=237631 GN=UMAG_12045 PE=3 
+SV=1
+Length=583
+
+ Score = 124 bits (310),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 41/111 (37%), Positives = 60/111 (54%), Gaps = 18/111 (16%)
+
+Query  1    YRAIKGMETKREIGGYTYKVVFYENVFQ------DSILLGNF----------ASQEGNVL  44
+            ++A++     +++G YTY+  F+    Q        I LG F          A ++   L
+Sbjct  450  FKALENKCFSKDMGEYTYEYCFFGRATQIPNNGGAQISLGTFTNFNPKHDKSADEDAYWL  509
+
+Query  45   K--YENGQSCWNGPHRSAIVTVECGVENEIVSVLEAQKCEYLIKMKSPAAC  93
+            +  Y  GQ CWNGP RSAIV +EC  EN+++ V EA+KC Y IK+ +PA C
+Sbjct  510  QQIYARGQKCWNGPERSAIVDLECSTENKVLDVFEAEKCIYSIKVATPAVC  560
+
+
+> sp|Q9UJJ9|GNPTG_HUMAN N-acetylglucosamine-1-phosphotransferase 
+subunit gamma OS=Homo sapiens OX=9606 GN=GNPTG PE=1 SV=1
+Length=305
+
+ Score = 119 bits (298),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 23/106 (22%), Positives = 37/106 (35%), Gaps = 19/106 (18%)
+
+Query  4    IKGMETKREIGGYTYKVVFYENVFQDSIL---------LGNFASQE-------GNVLKYE  47
+            + G         Y Y+   + NV Q             LG +   E       G  ++  
+Sbjct  67   LSGKCFSLVESTYKYEFCPFHNVTQHEQTFRWNAYSGILGIWHEWEIANNTFTGMWMR--  124
+
+Query  48   NGQSCWNGPHRSAIVTVECGVENEIVSVLEAQKCEYLIKMKSPAAC  93
+            +G +C     R + V + CG  N +  V E   C Y +  ++P  C
+Sbjct  125  DGDAC-RSRSRQSKVELACGKSNRLAHVSEPSTCVYALTFETPLVC  169
+
+
+> sp|Q28034|GLU2B_BOVIN Glucosidase 2 subunit beta OS=Bos taurus 
+OX=9913 GN=PRKCSH PE=2 SV=1
+Length=533
+
+ Score = 119 bits (297),  Expect = 8e-32, Method: Composition-based stats.
+ Identities = 28/101 (28%), Positives = 46/101 (46%), Gaps = 12/101 (12%)
+
+Query  1    YRAIKGMETKREIGGYTYKVVFYENVFQDS------ILLGNFASQEG------NVLKYEN  48
+            +  +     +     Y Y++  ++ V Q          LG + S  G      + +KYE 
+Sbjct  413  FAYLYSQCYELTTNEYVYRLCPFKLVSQKPKLGGSPTSLGTWGSWAGPDHDKFSAMKYEQ  472
+
+Query  49   GQSCWNGPHRSAIVTVECGVENEIVSVLEAQKCEYLIKMKS  89
+            G  CW GP+RS  V + CG E  + S  E  +CEYL+++ +
+Sbjct  473  GTGCWQGPNRSTTVRLLCGKETVVTSTTEPSRCEYLMELMT  513
+
+
+> sp|O08795|GLU2B_MOUSE Glucosidase 2 subunit beta OS=Mus musculus 
+OX=10090 GN=Prkcsh PE=1 SV=1
+Length=521
+
+ Score = 116 bits (291),  Expect = 6e-31, Method: Composition-based stats.
+ Identities = 28/101 (28%), Positives = 46/101 (46%), Gaps = 12/101 (12%)
+
+Query  1    YRAIKGMETKREIGGYTYKVVFYENVFQDS------ILLGNFASQEG------NVLKYEN  48
+            +  +     +     Y Y++  ++ V Q          LG + S  G      + +KYE 
+Sbjct  401  FAYLYSQCYELTTNEYVYRLCPFKLVSQKPKHGGSPTSLGTWGSWAGPDHDKFSAMKYEQ  460
+
+Query  49   GQSCWNGPHRSAIVTVECGVENEIVSVLEAQKCEYLIKMKS  89
+            G  CW GP+RS  V + CG E  + S  E  +CEYL+++ +
+Sbjct  461  GTGCWQGPNRSTTVRLLCGKETVVTSTTEPSRCEYLMELMT  501
+
+
+> sp|P14314|GLU2B_HUMAN Glucosidase 2 subunit beta OS=Homo sapiens 
+OX=9606 GN=PRKCSH PE=1 SV=2
+Length=528
+
+ Score = 115 bits (287),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 28/100 (28%), Positives = 45/100 (45%), Gaps = 12/100 (12%)
+
+Query  1    YRAIKGMETKREIGGYTYKVVFYENVFQDS------ILLGNFASQEG------NVLKYEN  48
+            +  +     +     Y Y++  ++ V Q          LG + S  G      + +KYE 
+Sbjct  408  FAYLYSQCYELTTNEYVYRLCPFKLVSQKPKLGGSPTSLGTWGSWIGPDHDKFSAMKYEQ  467
+
+Query  49   GQSCWNGPHRSAIVTVECGVENEIVSVLEAQKCEYLIKMK  88
+            G  CW GP+RS  V + CG E  + S  E  +CEYL+++ 
+Sbjct  468  GTGCWQGPNRSTTVRLLCGKETMVTSTTEPSRCEYLMELM  507
+
+
+> sp|Q04924|GLU2B_YEAST Glucosidase 2 subunit beta OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=GTB1 
+PE=1 SV=1
+Length=702
+
+ Score = 87.1 bits (214),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 28/54 (52%), Positives = 34/54 (63%), Gaps = 0/54 (0%)
+
+Query  41   GNVLKYENGQSCWNGPHRSAIVTVECGVENEIVSVLEAQKCEYLIKMKSPAACS  94
+            G VL+YENG  CWNGP RSA V V C  + +I SV EA KC Y+  +  P  C+
+Sbjct  635  GLVLEYENGDQCWNGPRRSATVFVRCSDKFKIRSVHEATKCNYIFDVVGPLGCN  688
+
+
+> sp|Q8GWH3|OS9_ARATH Protein OS-9 homolog OS=Arabidopsis thaliana 
+OX=3702 GN=OS9 PE=1 SV=1
+Length=282
+
+ Score = 44.0 bits (102),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 22/120 (18%), Positives = 36/120 (30%), Gaps = 30/120 (25%)
+
+Query  4    IKGMETKREIGGYTYKVVFYENVFQ----------DSILLGNFASQEGNVLK--------  45
+            +      R+ G ++Y+    + V Q              LG F  +              
+Sbjct  118  LSEKCLFRQEGWWSYEFCHQKYVRQLHVEDENKIVQEFFLGTFDPEATAAFNQTVSDAST  177
+
+Query  46   ----------YENGQSC-WNGPHRSAIVTVECG-VENEIVSVLEAQKCEYLIKMKSPAAC  93
+                      Y NG +C   G  R   V   C      + S+ E   C+Y + ++ P  C
+Sbjct  178  DASQRYHSHVYTNGTTCDLTGSPREVEVRFVCAETRAMVTSITELSTCKYALTVQCPTLC  237
+
+
+> sp|Q13438|OS9_HUMAN Protein OS-9 OS=Homo sapiens OX=9606 GN=OS9 
+PE=1 SV=1
+Length=667
+
+ Score = 43.6 bits (101),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 21/119 (18%), Positives = 35/119 (29%), Gaps = 33/119 (28%)
+
+Query  8    ETKREIGGYTYKVVFYENVFQDS----------------ILLGNFASQEGNVLK------  45
+               +    +TY+  +  ++ Q                      ++  +     K      
+Sbjct  110  CLLKTKDWWTYEFCYGRHIQQYHMEDSEIKGEVLYLGYYQSAFDWDDETAKASKQHRLKR  169
+
+Query  46   -----YENGQSC-WNGPHRSAIVTVECGVENEIVS-----VLEAQKCEYLIKMKSPAAC  93
+                 Y NG  C  NG  R A V   C     I       V E   C Y++ +++P  C
+Sbjct  170  YHSQTYGNGSKCDLNGRPREAEVRFLCDEGAGISGDYIDRVDEPLSCSYVLTIRTPRLC  228
+
+
+> sp|Q3MHX6|OS9_BOVIN Protein OS-9 OS=Bos taurus OX=9913 GN=OS9 
+PE=2 SV=1
+Length=667
+
+ Score = 43.6 bits (101),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 21/119 (18%), Positives = 35/119 (29%), Gaps = 33/119 (28%)
+
+Query  8    ETKREIGGYTYKVVFYENVFQDS----------------ILLGNFASQEGNVLK------  45
+               +    +TY+  +  ++ Q                      ++  +     K      
+Sbjct  110  CLLKTKDWWTYEFCYGRHIQQYHMEDSEIKGEVLYLGYYQSAFDWDDETAKASKQHRLKR  169
+
+Query  46   -----YENGQSC-WNGPHRSAIVTVECGVENEIVS-----VLEAQKCEYLIKMKSPAAC  93
+                 Y NG  C  NG  R A V   C     I       V E   C Y++ +++P  C
+Sbjct  170  YHSQTYGNGSKCDLNGRPREAEVRFLCDEGAGISGDYIDRVDEPLSCSYVLTIRTPRLC  228
+
+
+> sp|Q96DZ1|ERLEC_HUMAN Endoplasmic reticulum lectin 1 OS=Homo 
+sapiens OX=9606 GN=ERLEC1 PE=1 SV=1
+Length=483
+
+ Score = 41.7 bits (96),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 22/124 (18%), Positives = 43/124 (35%), Gaps = 38/124 (31%)
+
+Query  8    ETKREIGGYTYKVVFYENVFQ---------DSILLGNFASQEGN-VLK------------  45
+              +  +G + Y+  + ++V Q          S+++G +  +E     K            
+Sbjct  344  CFRGGVGWWKYEFCYGKHVHQYHEDKDSGKTSVVVGTWNQEEHIEWAKKNTARAYHLQDD  403
+
+Query  46   -----------YENGQSC-WNGPHRSAIVTVECGVENEIVSVL----EAQKCEYLIKMKS  89
+                       Y NG  C      R   V ++C   +   +V     E   C+Y++ ++S
+Sbjct  404  GTQTVRMVSHFYGNGDICDITDKPRQVTVKLKCKESDSPHAVTVYMLEPHSCQYILGVES  463
+
+Query  90   PAAC  93
+            P  C
+Sbjct  464  PVIC  467
+
+
+ Score = 39.7 bits (91),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 18/51 (35%), Positives = 25/51 (49%), Gaps = 4/51 (8%)
+
+Query  48   NGQSCW--NGPHRSAIVTVEC--GVENEIVSVLEAQKCEYLIKMKSPAACS  94
+            NG  C       RS+ V   C    ++EI+SV E   CEY + + +P  CS
+Sbjct  195  NGTPCSLKQNRPRSSTVMYICHPESKHEILSVAEVTTCEYEVVILTPLLCS  245
+
+
+> sp|Q5R8S4|ERLEC_PONAB Endoplasmic reticulum lectin 1 OS=Pongo 
+abelii OX=9601 GN=ERLEC1 PE=2 SV=1
+Length=483
+
+ Score = 41.3 bits (95),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 22/124 (18%), Positives = 42/124 (34%), Gaps = 38/124 (31%)
+
+Query  8    ETKREIGGYTYKVVFYENVFQ---------DSILLGNFASQEGN-VLK------------  45
+                 +G + Y+  + ++V Q          S+++G +  +E     K            
+Sbjct  344  CFHGGVGWWKYEFCYGKHVHQYHEDKDSGKTSVVVGTWNQEEHIEWAKKNTARAYHLQDD  403
+
+Query  46   -----------YENGQSC-WNGPHRSAIVTVECGVENEIVSVL----EAQKCEYLIKMKS  89
+                       Y NG  C      R   V ++C   +   +V     E   C+Y++ ++S
+Sbjct  404  GTQTVRMVSHFYGNGDICDITDKPRQVTVKLKCKESDSPHAVTVYMLEPHSCQYILGVES  463
+
+Query  90   PAAC  93
+            P  C
+Sbjct  464  PVIC  467
+
+
+ Score = 39.7 bits (91),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 18/51 (35%), Positives = 25/51 (49%), Gaps = 4/51 (8%)
+
+Query  48   NGQSCW--NGPHRSAIVTVEC--GVENEIVSVLEAQKCEYLIKMKSPAACS  94
+            NG  C       RS+ V   C    ++EI+SV E   CEY + + +P  CS
+Sbjct  195  NGTPCSLKQNRPRSSTVMYICHPESKHEILSVAEVTTCEYEVVILTPLLCS  245
+
+
+> sp|Q8K2C7|OS9_MOUSE Protein OS-9 OS=Mus musculus OX=10090 GN=Os9 
+PE=1 SV=2
+Length=672
+
+ Score = 40.9 bits (94),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 21/119 (18%), Positives = 34/119 (29%), Gaps = 33/119 (28%)
+
+Query  8    ETKREIGGYTYKVVFYENVFQ----------------DSILLGNFASQEGNVLK------  45
+               +    +TY+  +  ++ Q                      N+  +     K      
+Sbjct  110  CLLKTKDWWTYEFCYGRHIQQYHMEDSEIKGDVLYLGHYQSSFNWDDETAKASKQHRLKR  169
+
+Query  46   -----YENGQSC-WNGPHRSAIVTVECGVENEIVS-----VLEAQKCEYLIKMKSPAAC  93
+                 Y NG  C  NG  R A V   C     I       V E   C Y++ +++   C
+Sbjct  170  YHSQTYGNGSKCDLNGKPREAEVRFLCDEGAGISGDYIDRVDEPVSCSYVLTIRTSRLC  228
+
+
+> sp|Q8VEH8|ERLEC_MOUSE Endoplasmic reticulum lectin 1 OS=Mus musculus 
+OX=10090 GN=Erlec1 PE=1 SV=1
+Length=483
+
+ Score = 40.5 bits (93),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 22/124 (18%), Positives = 42/124 (34%), Gaps = 38/124 (31%)
+
+Query  8    ETKREIGGYTYKVVFYENVFQ---------DSILLGNFASQEGN-VLK------------  45
+                 +G + Y+  + ++V Q          S+++G +  +E     K            
+Sbjct  344  CFHGGVGWWKYEFCYGKHVHQYHEDKDNGKTSVVVGTWNQEEHVEWAKKNTARAYHLQDD  403
+
+Query  46   -----------YENGQSC-WNGPHRSAIVTVECGVENEIVSVL----EAQKCEYLIKMKS  89
+                       Y NG  C      R   V ++C   +   +V     E   C+Y++ ++S
+Sbjct  404  GTQTVRMVSHFYGNGDICDITDKPRQVTVKLKCKESDSPHAVTVYMLEPHSCQYILGVES  463
+
+Query  90   PAAC  93
+            P  C
+Sbjct  464  PVIC  467
+
+
+ Score = 39.3 bits (90),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 18/51 (35%), Positives = 25/51 (49%), Gaps = 4/51 (8%)
+
+Query  48   NGQSCW--NGPHRSAIVTVEC--GVENEIVSVLEAQKCEYLIKMKSPAACS  94
+            NG  C       RS+ V   C    ++EI+SV E   CEY + + +P  CS
+Sbjct  195  NGTPCSLKQNRPRSSTVMYICHPESKHEILSVAEVTTCEYEVVILTPLLCS  245
+
+
+> sp|Q08B78|ERLEC_XENLA Endoplasmic reticulum lectin 1 OS=Xenopus 
+laevis OX=8355 GN=erlec1 PE=2 SV=1
+Length=480
+
+ Score = 39.3 bits (90),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 17/55 (31%), Positives = 27/55 (49%), Gaps = 4/55 (7%)
+
+Query  44   LKYENGQSCW--NGPHRSAIVTVEC--GVENEIVSVLEAQKCEYLIKMKSPAACS  94
+            ++  NG  C       RS+ V   C    ++EI+SV E   CEY + + +P  C+
+Sbjct  190  VEMTNGTPCSLKQNQARSSTVMYICHPEAKHEILSVAEITTCEYEVVILTPLLCN  244
+
+
+ Score = 39.0 bits (89),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 22/124 (18%), Positives = 43/124 (35%), Gaps = 38/124 (31%)
+
+Query  8    ETKREIGGYTYKVVFYENVFQ---------DSILLGNFASQEGN-VLK------------  45
+                 +G + Y+  + + V Q          ++++G + ++E     K            
+Sbjct  341  CFHGGVGWWKYEFCYGKYVHQYHEDKDTGKTTVVVGTWKAEEHLDWAKKNLAKAYMSTAD  400
+
+Query  46   -----------YENGQSCW-NGPHRSAIVTVECGVENEIVSVL----EAQKCEYLIKMKS  89
+                       Y  G  C  N   R  +V ++C       +V     E Q C+Y++ ++S
+Sbjct  401  GVQTVKTVSHFYGGGDLCEVNEQPRQVVVKLKCKQSESPHAVTVYMLEPQTCQYILGVES  460
+
+Query  90   PAAC  93
+            P  C
+Sbjct  461  PVIC  464
+
+
+> sp|Q5BDB9|OS9_EMENI Protein OS-9 homolog OS=Emericella nidulans 
+(strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 / M139) 
+OX=227321 GN=yos9 PE=3 SV=1
+Length=509
+
+ Score = 38.6 bits (88),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 26/144 (18%), Positives = 43/144 (30%), Gaps = 51/144 (35%)
+
+Query  2    RAIKGMETKREIGGYTYKVV---------------------FYENVFQDSILLGNFASQE  40
+            R ++G       G ++Y                          E+    S +LG F  +E
+Sbjct  147  REMEGKCLYYISGWWSYSFCYMNQIKQFHALPSGGGVPNYPPMEDHTTHSFILGRFPQEE  206
+
+Query  41   G---------------------------NVLKYENGQSC-WNGPHRSAIVTVECGVE--N  70
+            G                            V + E+G  C   G +R   V   C  +  +
+Sbjct  207  GQDEGKGAKSGKSSTELAELQTKGGSRYLVQRLESGDQCDLTGKNRKIEVQFHCNPQSTD  266
+
+Query  71   EIVSVLEAQKCEYLIKMKSPAACS  94
+             I  + E   C YL+ + +P  C+
+Sbjct  267  RIAWIKELYTCSYLMLIYTPRLCN  290
+
+
+> sp|Q28IT1|ERLEC_XENTR Endoplasmic reticulum lectin 1 OS=Xenopus 
+tropicalis OX=8364 GN=erlec1 PE=2 SV=1
+Length=481
+
+ Score = 37.8 bits (86),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 22/124 (18%), Positives = 41/124 (33%), Gaps = 38/124 (31%)
+
+Query  8    ETKREIGGYTYKVVFYENVFQ---------DSILLGNF-ASQEGNVLK------------  45
+                 +G + Y+  + + V Q          ++++G + A +     K            
+Sbjct  342  CFHGGVGWWKYEFCYGKYVHQYHEDKDTGKTTVVVGTWKADEHQEWAKKNLARAYMTTPD  401
+
+Query  46   -----------YENGQSCWNGPH-RSAIVTVECGVENEIVSVL----EAQKCEYLIKMKS  89
+                       Y  G  C      R  IV ++C       +V     E Q C+Y++ ++S
+Sbjct  402  GVQTVKTVSHFYGGGDVCEVSEQPRQVIVKLKCKESESPHAVTVYMLEPQTCQYILGVES  461
+
+Query  90   PAAC  93
+            P  C
+Sbjct  462  PVIC  465
+
+
+ Score = 37.8 bits (86),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 17/51 (33%), Positives = 25/51 (49%), Gaps = 4/51 (8%)
+
+Query  48   NGQSCW--NGPHRSAIVTVEC--GVENEIVSVLEAQKCEYLIKMKSPAACS  94
+            NG  C       RS+ V   C    ++EI+SV E   CEY + + +P  C+
+Sbjct  194  NGTPCSLKQNQPRSSTVMYICHPESKHEILSVAEVTTCEYEVVILTPLLCN  244
+
+
+> sp|Q07113|MPRI_MOUSE Cation-independent mannose-6-phosphate receptor 
+OS=Mus musculus OX=10090 GN=Igf2r PE=1 SV=1
+Length=2483
+
+ Score = 37.0 bits (84),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 16/55 (29%), Positives = 25/55 (45%), Gaps = 4/55 (7%)
+
+Query  43    VLKYENGQSCWNG-PHRSAIVTVECGVE---NEIVSVLEAQKCEYLIKMKSPAAC  93
+             VL+Y +G  C +    RS I+   C      +  + +   Q CEY     +P+AC
+Sbjct  1445  VLQYVDGDLCPDKIRRRSTIIRFTCSDNQVNSRPLFISAVQDCEYTFSWPTPSAC  1499
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.128    0.400    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0391    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5002854540
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  1:45 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

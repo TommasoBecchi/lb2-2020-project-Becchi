@@ -1,0 +1,992 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 6TD7:A
+
+Length=126
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P73925|TRHBN_SYNY3 Group 1 truncated hemoglobin GlbN OS=Syne...  59.3    3e-11
+  sp|Q740T9|TRHBN_MYCPA Group 1 truncated hemoglobin GlbN OS=Myco...  59.3    4e-11
+  sp|P9WN25|TRHBN_MYCTU Group 1 truncated hemoglobin GlbN OS=Myco...  54.7    3e-09
+  sp|P9WN24|TRHBN_MYCTO Group 1 truncated hemoglobin GlbN OS=Myco...  54.7    3e-09
+  sp|P0A594|TRHBN_MYCSM Group 1 truncated hemoglobin GlbN OS=Myco...  54.7    3e-09
+  sp|P0A593|TRHBN_MYCBO Group 1 truncated hemoglobin GlbN OS=Myco...  54.7    3e-09
+  sp|Q08753|TRHN1_CHLMO Group 1 truncated hemoglobin LI637 OS=Chl...  54.3    6e-09
+  sp|P17724|TRHBN_TETPY Group 1 truncated hemoglobin OS=Tetrahyme...  51.2    4e-08
+  sp|Q03459|TRHBN_TETTH Group 1 truncated hemoglobin OS=Tetrahyme...  50.1    1e-07
+  sp|P52334|TRHN2_CHLMO Group 1 truncated hemoglobin LI410 OS=Chl...  45.4    1e-05
+  sp|P15160|TRHBN_PARCA Group 1 truncated hemoglobin trHbN OS=Par...  43.5    3e-05
+
+
+> sp|P73925|TRHBN_SYNY3 Group 1 truncated hemoglobin GlbN OS=Synechocystis 
+sp. (strain PCC 6803 / Kazusa) OX=1111708 GN=glbN 
+PE=1 SV=1
+Length=124
+
+ Score = 59.3 bits (142),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 32/107 (30%), Positives = 54/107 (50%), Gaps = 1/107 (1%)
+
+Query  2    PLLQRVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPPNVPY  61
+             L +++GG   V   V+ FY ++  D ++  +  D D    RA Q  F+++ FG  +  Y
+Sbjct  3    TLYEKLGGTTAVDLAVDKFYERVLQDDRIKHFFADVDMAKQRAHQKAFLTYAFGGTD-KY  61
+
+Query  62   TGKSVRIAHLRIIKQRGFSPEDFDLGMKYFEEAMTELGAPEVLRGEV  108
+             G+ +R AH  +++  G + E FD   +     + E+G PE L  EV
+Sbjct  62   DGRYMREAHKELVENHGLNGEHFDAVAEDLLATLKEMGVPEDLIAEV  108
+
+
+> sp|Q740T9|TRHBN_MYCPA Group 1 truncated hemoglobin GlbN OS=Mycolicibacterium 
+paratuberculosis (strain ATCC BAA-968 / K-10) 
+OX=262316 GN=glbN PE=3 SV=1
+Length=136
+
+ Score = 59.3 bits (142),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 37/120 (31%), Positives = 58/120 (48%), Gaps = 5/120 (4%)
+
+Query  6    RVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPPNVPYTGKS  65
+            R+GG + ++ VVE FY ++ AD QL  +    +   L+ KQ  F +   G P+ PYTG  
+Sbjct  18   RIGGHEALEVVVENFYVRVLADEQLSGFFTGTNMNRLKGKQVEFFAAALGGPH-PYTGAP  76
+
+Query  66   VRIAHLRIIKQRGFSPEDFDLGMKYFEEAMTELGAPEVLRGEVMRRMLPYKDAIFTPAAG  125
+            ++  H    + RG +   F L   +  +A+T  G P     E++  + P    I T  AG
+Sbjct  77   MKQVH----QGRGITMHHFGLVAGHLADALTAAGVPSETVSEILGAIAPLAPEIATGEAG  132
+
+
+> sp|P9WN25|TRHBN_MYCTU Group 1 truncated hemoglobin GlbN OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 
+GN=glbN PE=1 SV=1
+Length=136
+
+ Score = 54.7 bits (130),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 32/109 (29%), Positives = 53/109 (49%), Gaps = 5/109 (5%)
+
+Query  6    RVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPPNVPYTGKS  65
+            ++GG + ++ VVE FY ++ AD QL  +    +   L+ KQ  F +   G P  PYTG  
+Sbjct  18   KIGGHEAIEVVVEDFYVRVLADDQLSAFFSGTNMSRLKGKQVEFFAAALGGPE-PYTGAP  76
+
+Query  66   VRIAHLRIIKQRGFSPEDFDLGMKYFEEAMTELGAPEVLRGEVMRRMLP  114
+            ++  H    + RG +   F L   +  +A+T  G P     E++  + P
+Sbjct  77   MKQVH----QGRGITMHHFSLVAGHLADALTAAGVPSETITEILGVIAP  121
+
+
+> sp|P9WN24|TRHBN_MYCTO Group 1 truncated hemoglobin GlbN OS=Mycobacterium 
+tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 
+GN=glbN PE=3 SV=1
+Length=136
+
+ Score = 54.7 bits (130),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 32/109 (29%), Positives = 53/109 (49%), Gaps = 5/109 (5%)
+
+Query  6    RVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPPNVPYTGKS  65
+            ++GG + ++ VVE FY ++ AD QL  +    +   L+ KQ  F +   G P  PYTG  
+Sbjct  18   KIGGHEAIEVVVEDFYVRVLADDQLSAFFSGTNMSRLKGKQVEFFAAALGGPE-PYTGAP  76
+
+Query  66   VRIAHLRIIKQRGFSPEDFDLGMKYFEEAMTELGAPEVLRGEVMRRMLP  114
+            ++  H    + RG +   F L   +  +A+T  G P     E++  + P
+Sbjct  77   MKQVH----QGRGITMHHFSLVAGHLADALTAAGVPSETITEILGVIAP  121
+
+
+> sp|P0A594|TRHBN_MYCSM Group 1 truncated hemoglobin GlbN OS=Mycolicibacterium 
+smegmatis OX=1772 GN=glbN PE=3 SV=1
+Length=136
+
+ Score = 54.7 bits (130),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 32/109 (29%), Positives = 53/109 (49%), Gaps = 5/109 (5%)
+
+Query  6    RVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPPNVPYTGKS  65
+            ++GG + ++ VVE FY ++ AD QL  +    +   L+ KQ  F +   G P  PYTG  
+Sbjct  18   KIGGHEAIEVVVEDFYVRVLADDQLSAFFSGTNMSRLKGKQVEFFAAALGGPE-PYTGAP  76
+
+Query  66   VRIAHLRIIKQRGFSPEDFDLGMKYFEEAMTELGAPEVLRGEVMRRMLP  114
+            ++  H    + RG +   F L   +  +A+T  G P     E++  + P
+Sbjct  77   MKQVH----QGRGITMHHFSLVAGHLADALTAAGVPSETITEILGVIAP  121
+
+
+> sp|P0A593|TRHBN_MYCBO Group 1 truncated hemoglobin GlbN OS=Mycobacterium 
+bovis (strain ATCC BAA-935 / AF2122/97) OX=233413 
+GN=glbN PE=1 SV=1
+Length=136
+
+ Score = 54.7 bits (130),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 32/109 (29%), Positives = 53/109 (49%), Gaps = 5/109 (5%)
+
+Query  6    RVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPPNVPYTGKS  65
+            ++GG + ++ VVE FY ++ AD QL  +    +   L+ KQ  F +   G P  PYTG  
+Sbjct  18   KIGGHEAIEVVVEDFYVRVLADDQLSAFFSGTNMSRLKGKQVEFFAAALGGPE-PYTGAP  76
+
+Query  66   VRIAHLRIIKQRGFSPEDFDLGMKYFEEAMTELGAPEVLRGEVMRRMLP  114
+            ++  H    + RG +   F L   +  +A+T  G P     E++  + P
+Sbjct  77   MKQVH----QGRGITMHHFSLVAGHLADALTAAGVPSETITEILGVIAP  121
+
+
+> sp|Q08753|TRHN1_CHLMO Group 1 truncated hemoglobin LI637 OS=Chlamydomonas 
+moewusii OX=3054 GN=LI637 PE=1 SV=1
+Length=164
+
+ Score = 54.3 bits (129),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 30/101 (30%), Positives = 51/101 (50%), Gaps = 3/101 (3%)
+
+Query  1    GPLLQRVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPPNVP  60
+              L  ++GG + V+  V+ FY K+ ADP +  Y  + D    R+KQ  F+++  G  +  
+Sbjct  43   SSLFAKLGGREAVEAAVDKFYNKIVADPTVSTYFSNTDMKVQRSKQFAFLAYALGGAS-E  101
+
+Query  61   YTGKSVRIAHLRIIKQRGFSPEDFDLGMKYFEEAMTELGAP  101
+            + GK +R AH  ++     S   F    ++  + +TELG P
+Sbjct  102  WKGKDMRTAHKDLVPH--LSDVHFQAVARHLSDTLTELGVP  140
+
+
+> sp|P17724|TRHBN_TETPY Group 1 truncated hemoglobin OS=Tetrahymena 
+pyriformis OX=5908 PE=1 SV=1
+Length=121
+
+ Score = 51.2 bits (121),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 30/111 (27%), Positives = 58/111 (52%), Gaps = 9/111 (8%)
+
+Query  2    PLLQRVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPPNVPY  61
+             + +++GG + +K  V LFY+K+ AD ++  +  + D  H   +Q+ F++ L G PN  Y
+Sbjct  6    TIYEKLGGENAMKAAVPLFYKKVLADERVKHFFKNTDMDHQTKQQTDFLTMLLGGPN-HY  64
+
+Query  62   TGKSVRIAHLRIIKQRGFSPED--FDLGMKYFEEAMTELGAPEVLRGEVMR  110
+             GK++  AH      +G + ++  FD  ++     + ELG  + +  E  +
+Sbjct  65   KGKNMTEAH------KGMNLQNLHFDAIIENLAATLKELGVTDAVINEAAK  109
+
+
+> sp|Q03459|TRHBN_TETTH Group 1 truncated hemoglobin OS=Tetrahymena 
+thermophila OX=5911 PE=2 SV=1
+Length=121
+
+ Score = 50.1 bits (118),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 30/109 (28%), Positives = 52/109 (48%), Gaps = 5/109 (5%)
+
+Query  2    PLLQRVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPPNVPY  61
+             + +++GG   +   V LFY+K+ AD ++  Y  + +  H   +Q  F++ L G PN  Y
+Sbjct  6    TVFEKLGGQAAMHAAVPLFYKKVLADDRVKHYFKNTNMEHQAKQQEDFLTMLLGGPN-HY  64
+
+Query  62   TGKSVRIAHLRIIKQRGFSPEDFDLGMKYFEEAMTELGAPEVLRGEVMR  110
+             GK++  AH    K        FD  ++     + ELG  + + GE  +
+Sbjct  65   KGKNMAEAH----KGMNLQNSHFDAIIENLAATLKELGVSDQIIGEAAK  109
+
+
+> sp|P52334|TRHN2_CHLMO Group 1 truncated hemoglobin LI410 OS=Chlamydomonas 
+moewusii OX=3054 GN=LI410 PE=2 SV=1
+Length=171
+
+ Score = 45.4 bits (106),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 26/97 (27%), Positives = 48/97 (49%), Gaps = 3/97 (3%)
+
+Query  3    LLQRVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPPNVPYT  62
+            L  ++GG + V+  V+ FY K+ ADP +  +    D    R+KQ  F+++  G     + 
+Sbjct  45   LFAKLGGREAVEAAVDKFYNKVVADPTVSVFFSKTDMKVQRSKQFAFLAYALGGA-AEWK  103
+
+Query  63   GKSVRIAHLRIIKQRGFSPEDFDLGMKYFEEAMTELG  99
+            GK +R AH  ++     +   F   +++  + + ELG
+Sbjct  104  GKDMRTAHKDLVPH--LTDVHFQAVVRHLSDTLAELG  138
+
+
+> sp|P15160|TRHBN_PARCA Group 1 truncated hemoglobin trHbN OS=Paramecium 
+caudatum OX=5885 PE=1 SV=2
+Length=117
+
+ Score = 43.5 bits (101),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 25/103 (24%), Positives = 45/103 (44%), Gaps = 5/103 (5%)
+
+Query  2    PLLQRVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPPNVPY  61
+             L +++GG   V+ V   FY  + AD  +  + +  D  +   K + F+    G PN  +
+Sbjct  2    SLFEQLGGQAAVQAVTAQFYANIQADATVATFFNGIDMPNQTNKTAAFLCAALGGPN-AW  60
+
+Query  62   TGKSVRIAHLRIIKQRGFSPEDFDLGMKYFEEAMTELGAPEVL  104
+            TG++++  H  +    G S   F   + +   A+T  G    L
+Sbjct  61   TGRNLKEVHANM----GVSNAQFTTVIGHLRSALTGAGVAAAL  99
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.143    0.434    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4964270520
+Results from round 2
+
+
+Query= 6TD7:A
+
+Length=126
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q740T9|TRHBN_MYCPA Group 1 truncated hemoglobin GlbN OS=Myco...  152     1e-47
+  sp|Q08753|TRHN1_CHLMO Group 1 truncated hemoglobin LI637 OS=Chl...  148     9e-46
+  sp|P9WN25|TRHBN_MYCTU Group 1 truncated hemoglobin GlbN OS=Myco...  147     2e-45
+  sp|P9WN24|TRHBN_MYCTO Group 1 truncated hemoglobin GlbN OS=Myco...  147     2e-45
+  sp|P0A594|TRHBN_MYCSM Group 1 truncated hemoglobin GlbN OS=Myco...  147     2e-45
+  sp|P0A593|TRHBN_MYCBO Group 1 truncated hemoglobin GlbN OS=Myco...  147     2e-45
+  sp|P73925|TRHBN_SYNY3 Group 1 truncated hemoglobin GlbN OS=Syne...  140     6e-43
+  sp|Q03459|TRHBN_TETTH Group 1 truncated hemoglobin OS=Tetrahyme...  139     1e-42
+  sp|P17724|TRHBN_TETPY Group 1 truncated hemoglobin OS=Tetrahyme...  139     1e-42
+  sp|P52334|TRHN2_CHLMO Group 1 truncated hemoglobin LI410 OS=Chl...  139     8e-42
+  sp|P15160|TRHBN_PARCA Group 1 truncated hemoglobin trHbN OS=Par...  118     2e-34
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P52335|TRHBN_NOSSN Group 1 truncated hemoglobin GlbN OS=Nost...  80.9    1e-19
+  sp|Q00812|TRHBN_NOSCO Group 1 truncated hemoglobin GlbN OS=Nost...  80.9    1e-19
+  sp|O31607|TRHBO_BACSU Group 2 truncated hemoglobin YjbI OS=Baci...  43.5    4e-05
+  sp|Q9CC59|TRHBO_MYCLE Group 2 truncated hemoglobin GlbO OS=Myco...  37.8    0.005
+  sp|P9WN23|TRHBO_MYCTU Group 2 truncated hemoglobin GlbO OS=Myco...  37.0    0.009
+  sp|P9WN22|TRHBO_MYCTO Group 2 truncated hemoglobin GlbO OS=Myco...  37.0    0.009
+  sp|P0A596|TRHBO_MYCBO Group 2 truncated hemoglobin GlbO OS=Myco...  37.0    0.009
+
+
+> sp|Q740T9|TRHBN_MYCPA Group 1 truncated hemoglobin GlbN OS=Mycolicibacterium 
+paratuberculosis (strain ATCC BAA-968 / K-10) 
+OX=262316 GN=glbN PE=3 SV=1
+Length=136
+
+ Score = 152 bits (384),  Expect = 1e-47, Method: Composition-based stats.
+ Identities = 37/125 (30%), Positives = 59/125 (47%), Gaps = 5/125 (4%)
+
+Query  1    GPLLQRVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPPNVP  60
+              +  R+GG + ++ VVE FY ++ AD QL  +    +   L+ KQ  F +   G P+ P
+Sbjct  13   ASIYDRIGGHEALEVVVENFYVRVLADEQLSGFFTGTNMNRLKGKQVEFFAAALGGPH-P  71
+
+Query  61   YTGKSVRIAHLRIIKQRGFSPEDFDLGMKYFEEAMTELGAPEVLRGEVMRRMLPYKDAIF  120
+            YTG  ++  H    + RG +   F L   +  +A+T  G P     E++  + P    I 
+Sbjct  72   YTGAPMKQVH----QGRGITMHHFGLVAGHLADALTAAGVPSETVSEILGAIAPLAPEIA  127
+
+Query  121  TPAAG  125
+            T  AG
+Sbjct  128  TGEAG  132
+
+
+> sp|Q08753|TRHN1_CHLMO Group 1 truncated hemoglobin LI637 OS=Chlamydomonas 
+moewusii OX=3054 GN=LI637 PE=1 SV=1
+Length=164
+
+ Score = 148 bits (374),  Expect = 9e-46, Method: Composition-based stats.
+ Identities = 31/119 (26%), Positives = 56/119 (47%), Gaps = 3/119 (3%)
+
+Query  1    GPLLQRVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPPNVP  60
+              L  ++GG + V+  V+ FY K+ ADP +  Y  + D    R+KQ  F+++  G  +  
+Sbjct  43   SSLFAKLGGREAVEAAVDKFYNKIVADPTVSTYFSNTDMKVQRSKQFAFLAYALGGAS-E  101
+
+Query  61   YTGKSVRIAHLRIIKQRGFSPEDFDLGMKYFEEAMTELGAPEVLRGEVMRRMLPYKDAI  119
+            + GK +R AH  ++     S   F    ++  + +TELG P     + M  +   +  +
+Sbjct  102  WKGKDMRTAHKDLVPH--LSDVHFQAVARHLSDTLTELGVPPEDITDAMAVVASTRTEV  158
+
+
+> sp|P9WN25|TRHBN_MYCTU Group 1 truncated hemoglobin GlbN OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 
+GN=glbN PE=1 SV=1
+Length=136
+
+ Score = 147 bits (370),  Expect = 2e-45, Method: Composition-based stats.
+ Identities = 32/123 (26%), Positives = 57/123 (46%), Gaps = 5/123 (4%)
+
+Query  2    PLLQRVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPPNVPY  61
+             +  ++GG + ++ VVE FY ++ AD QL  +    +   L+ KQ  F +   G P  PY
+Sbjct  14   SIYDKIGGHEAIEVVVEDFYVRVLADDQLSAFFSGTNMSRLKGKQVEFFAAALGGPE-PY  72
+
+Query  62   TGKSVRIAHLRIIKQRGFSPEDFDLGMKYFEEAMTELGAPEVLRGEVMRRMLPYKDAIFT  121
+            TG  ++  H    + RG +   F L   +  +A+T  G P     E++  + P    + +
+Sbjct  73   TGAPMKQVH----QGRGITMHHFSLVAGHLADALTAAGVPSETITEILGVIAPLAVDVTS  128
+
+Query  122  PAA  124
+              +
+Sbjct  129  GES  131
+
+
+> sp|P9WN24|TRHBN_MYCTO Group 1 truncated hemoglobin GlbN OS=Mycobacterium 
+tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 
+GN=glbN PE=3 SV=1
+Length=136
+
+ Score = 147 bits (370),  Expect = 2e-45, Method: Composition-based stats.
+ Identities = 32/123 (26%), Positives = 57/123 (46%), Gaps = 5/123 (4%)
+
+Query  2    PLLQRVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPPNVPY  61
+             +  ++GG + ++ VVE FY ++ AD QL  +    +   L+ KQ  F +   G P  PY
+Sbjct  14   SIYDKIGGHEAIEVVVEDFYVRVLADDQLSAFFSGTNMSRLKGKQVEFFAAALGGPE-PY  72
+
+Query  62   TGKSVRIAHLRIIKQRGFSPEDFDLGMKYFEEAMTELGAPEVLRGEVMRRMLPYKDAIFT  121
+            TG  ++  H    + RG +   F L   +  +A+T  G P     E++  + P    + +
+Sbjct  73   TGAPMKQVH----QGRGITMHHFSLVAGHLADALTAAGVPSETITEILGVIAPLAVDVTS  128
+
+Query  122  PAA  124
+              +
+Sbjct  129  GES  131
+
+
+> sp|P0A594|TRHBN_MYCSM Group 1 truncated hemoglobin GlbN OS=Mycolicibacterium 
+smegmatis OX=1772 GN=glbN PE=3 SV=1
+Length=136
+
+ Score = 147 bits (370),  Expect = 2e-45, Method: Composition-based stats.
+ Identities = 32/123 (26%), Positives = 57/123 (46%), Gaps = 5/123 (4%)
+
+Query  2    PLLQRVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPPNVPY  61
+             +  ++GG + ++ VVE FY ++ AD QL  +    +   L+ KQ  F +   G P  PY
+Sbjct  14   SIYDKIGGHEAIEVVVEDFYVRVLADDQLSAFFSGTNMSRLKGKQVEFFAAALGGPE-PY  72
+
+Query  62   TGKSVRIAHLRIIKQRGFSPEDFDLGMKYFEEAMTELGAPEVLRGEVMRRMLPYKDAIFT  121
+            TG  ++  H    + RG +   F L   +  +A+T  G P     E++  + P    + +
+Sbjct  73   TGAPMKQVH----QGRGITMHHFSLVAGHLADALTAAGVPSETITEILGVIAPLAVDVTS  128
+
+Query  122  PAA  124
+              +
+Sbjct  129  GES  131
+
+
+> sp|P0A593|TRHBN_MYCBO Group 1 truncated hemoglobin GlbN OS=Mycobacterium 
+bovis (strain ATCC BAA-935 / AF2122/97) OX=233413 
+GN=glbN PE=1 SV=1
+Length=136
+
+ Score = 147 bits (370),  Expect = 2e-45, Method: Composition-based stats.
+ Identities = 32/123 (26%), Positives = 57/123 (46%), Gaps = 5/123 (4%)
+
+Query  2    PLLQRVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPPNVPY  61
+             +  ++GG + ++ VVE FY ++ AD QL  +    +   L+ KQ  F +   G P  PY
+Sbjct  14   SIYDKIGGHEAIEVVVEDFYVRVLADDQLSAFFSGTNMSRLKGKQVEFFAAALGGPE-PY  72
+
+Query  62   TGKSVRIAHLRIIKQRGFSPEDFDLGMKYFEEAMTELGAPEVLRGEVMRRMLPYKDAIFT  121
+            TG  ++  H    + RG +   F L   +  +A+T  G P     E++  + P    + +
+Sbjct  73   TGAPMKQVH----QGRGITMHHFSLVAGHLADALTAAGVPSETITEILGVIAPLAVDVTS  128
+
+Query  122  PAA  124
+              +
+Sbjct  129  GES  131
+
+
+> sp|P73925|TRHBN_SYNY3 Group 1 truncated hemoglobin GlbN OS=Synechocystis 
+sp. (strain PCC 6803 / Kazusa) OX=1111708 GN=glbN 
+PE=1 SV=1
+Length=124
+
+ Score = 140 bits (352),  Expect = 6e-43, Method: Composition-based stats.
+ Identities = 32/111 (29%), Positives = 54/111 (49%), Gaps = 1/111 (1%)
+
+Query  1    GPLLQRVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPPNVP  60
+              L +++GG   V   V+ FY ++  D ++  +  D D    RA Q  F+++ FG  +  
+Sbjct  2    STLYEKLGGTTAVDLAVDKFYERVLQDDRIKHFFADVDMAKQRAHQKAFLTYAFGGTD-K  60
+
+Query  61   YTGKSVRIAHLRIIKQRGFSPEDFDLGMKYFEEAMTELGAPEVLRGEVMRR  111
+            Y G+ +R AH  +++  G + E FD   +     + E+G PE L  EV   
+Sbjct  61   YDGRYMREAHKELVENHGLNGEHFDAVAEDLLATLKEMGVPEDLIAEVAAV  111
+
+
+> sp|Q03459|TRHBN_TETTH Group 1 truncated hemoglobin OS=Tetrahymena 
+thermophila OX=5911 PE=2 SV=1
+Length=121
+
+ Score = 139 bits (350),  Expect = 1e-42, Method: Composition-based stats.
+ Identities = 30/111 (27%), Positives = 53/111 (48%), Gaps = 5/111 (5%)
+
+Query  2    PLLQRVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPPNVPY  61
+             + +++GG   +   V LFY+K+ AD ++  Y  + +  H   +Q  F++ L G PN  Y
+Sbjct  6    TVFEKLGGQAAMHAAVPLFYKKVLADDRVKHYFKNTNMEHQAKQQEDFLTMLLGGPN-HY  64
+
+Query  62   TGKSVRIAHLRIIKQRGFSPEDFDLGMKYFEEAMTELGAPEVLRGEVMRRM  112
+             GK++  AH    K        FD  ++     + ELG  + + GE  + +
+Sbjct  65   KGKNMAEAH----KGMNLQNSHFDAIIENLAATLKELGVSDQIIGEAAKVI  111
+
+
+> sp|P17724|TRHBN_TETPY Group 1 truncated hemoglobin OS=Tetrahymena 
+pyriformis OX=5908 PE=1 SV=1
+Length=121
+
+ Score = 139 bits (349),  Expect = 1e-42, Method: Composition-based stats.
+ Identities = 30/111 (27%), Positives = 55/111 (50%), Gaps = 5/111 (5%)
+
+Query  2    PLLQRVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPPNVPY  61
+             + +++GG + +K  V LFY+K+ AD ++  +  + D  H   +Q+ F++ L G PN  Y
+Sbjct  6    TIYEKLGGENAMKAAVPLFYKKVLADERVKHFFKNTDMDHQTKQQTDFLTMLLGGPN-HY  64
+
+Query  62   TGKSVRIAHLRIIKQRGFSPEDFDLGMKYFEEAMTELGAPEVLRGEVMRRM  112
+             GK++  AH    K        FD  ++     + ELG  + +  E  + +
+Sbjct  65   KGKNMTEAH----KGMNLQNLHFDAIIENLAATLKELGVTDAVINEAAKVI  111
+
+
+> sp|P52334|TRHN2_CHLMO Group 1 truncated hemoglobin LI410 OS=Chlamydomonas 
+moewusii OX=3054 GN=LI410 PE=2 SV=1
+Length=171
+
+ Score = 139 bits (349),  Expect = 8e-42, Method: Composition-based stats.
+ Identities = 28/118 (24%), Positives = 53/118 (45%), Gaps = 3/118 (3%)
+
+Query  2    PLLQRVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPPNVPY  61
+             L  ++GG + V+  V+ FY K+ ADP +  +    D    R+KQ  F+++  G     +
+Sbjct  44   SLFAKLGGREAVEAAVDKFYNKVVADPTVSVFFSKTDMKVQRSKQFAFLAYALGGA-AEW  102
+
+Query  62   TGKSVRIAHLRIIKQRGFSPEDFDLGMKYFEEAMTELGAPEVLRGEVMRRMLPYKDAI  119
+             GK +R AH  ++     +   F   +++  + + ELG       + M  +   K  +
+Sbjct  103  KGKDMRTAHKDLVPH--LTDVHFQAVVRHLSDTLAELGVTPGDIADAMAVVASTKTEV  158
+
+
+> sp|P15160|TRHBN_PARCA Group 1 truncated hemoglobin trHbN OS=Paramecium 
+caudatum OX=5885 PE=1 SV=2
+Length=117
+
+ Score = 118 bits (295),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 26/120 (22%), Positives = 50/120 (42%), Gaps = 5/120 (4%)
+
+Query  2    PLLQRVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPPNVPY  61
+             L +++GG   V+ V   FY  + AD  +  + +  D  +   K + F+    G PN  +
+Sbjct  2    SLFEQLGGQAAVQAVTAQFYANIQADATVATFFNGIDMPNQTNKTAAFLCAALGGPNA-W  60
+
+Query  62   TGKSVRIAHLRIIKQRGFSPEDFDLGMKYFEEAMTELGAPEVLRGEVMRRMLPYKDAIFT  121
+            TG++++  H  +    G S   F   + +   A+T  G    L  + +      +  + T
+Sbjct  61   TGRNLKEVHANM----GVSNAQFTTVIGHLRSALTGAGVAAALVEQTVAVAETVRGDVVT  116
+
+
+> sp|P52335|TRHBN_NOSSN Group 1 truncated hemoglobin GlbN OS=Nostoc 
+sp. (strain MUN 8820) OX=55397 GN=glbN PE=3 SV=1
+Length=118
+
+ Score = 80.9 bits (198),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 26/119 (22%), Positives = 42/119 (35%), Gaps = 5/119 (4%)
+
+Query  1    GPLLQRVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPPNVP  60
+              L   +GG   +++VV+  ++++  D  L       D    R     F+  +F  P   
+Sbjct  2    STLYDNIGGQPAIEQVVDELHKRIATDSLLAPIFAGTDMAKQRNHLVAFLGQIFEGP-KQ  60
+
+Query  61   YTGKSVRIAHLRIIKQRGFSPEDFDLGMKYFEEAMTELGAPEVLRGEVMRRMLPYKDAI  119
+            Y G+ +   H             FD   K+  EAM   G         + R+   K AI
+Sbjct  61   YGGRPMDKTHA----GLNLQQPHFDAIAKHLGEAMAVRGVSAEDTKAALDRVTNMKGAI  115
+
+
+> sp|Q00812|TRHBN_NOSCO Group 1 truncated hemoglobin GlbN OS=Nostoc 
+commune OX=1178 GN=glbN PE=3 SV=1
+Length=118
+
+ Score = 80.9 bits (198),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 25/119 (21%), Positives = 43/119 (36%), Gaps = 5/119 (4%)
+
+Query  1    GPLLQRVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPPNVP  60
+              L   +GG   +++VV+  ++++  D  L       D +  R     F++ +F  P   
+Sbjct  2    STLYDNIGGQPAIEQVVDELHKRIATDSLLAPVFAGTDMVKQRNHLVAFLAQIFEGP-KQ  60
+
+Query  61   YTGKSVRIAHLRIIKQRGFSPEDFDLGMKYFEEAMTELGAPEVLRGEVMRRMLPYKDAI  119
+            Y G+ +   H             FD   K+  E M   G         + R+   K AI
+Sbjct  61   YGGRPMDKTHA----GLNLQQPHFDAIAKHLGERMAVRGVSAENTKAALDRVTNMKGAI  115
+
+
+> sp|O31607|TRHBO_BACSU Group 2 truncated hemoglobin YjbI OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=yjbI PE=1 SV=1
+Length=132
+
+ Score = 43.5 bits (101),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 21/106 (20%), Positives = 41/106 (39%), Gaps = 6/106 (6%)
+
+Query  9    GLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPP--NVPYTGKSV  66
+            G +++ ++V+ FY ++ + P L       D      KQ  F++   G P       G  +
+Sbjct  13   GEELLSQLVDTFYERVASHPLLKPIFP-SDLTETARKQKQFLTQYLGGPPLYTEEHGHPM  71
+
+Query  67   RIAHLRIIKQRGFSPEDFDLGMKYFEEAMTELGAPEVLRGEVMRRM  112
+              A          + E  D  +   ++AM  +G    +R  +  R+
+Sbjct  72   LRARHLPFP---ITNERADAWLSCMKDAMDHVGLEGEIREFLFGRL  114
+
+
+> sp|Q9CC59|TRHBO_MYCLE Group 2 truncated hemoglobin GlbO OS=Mycobacterium 
+leprae (strain TN) OX=272631 GN=glbO PE=3 SV=1
+Length=128
+
+ Score = 37.8 bits (86),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 13/56 (23%), Positives = 22/56 (39%), Gaps = 0/56 (0%)
+
+Query  2   PLLQRVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPP  57
+                +GG +  K +V  FY ++  D  L +     D      +  MF+   +G P
+Sbjct  4   SFYDAIGGAETFKAIVSRFYAQVPEDEILRELYPADDLAGAEERLRMFLEQYWGGP  59
+
+
+> sp|P9WN23|TRHBO_MYCTU Group 2 truncated hemoglobin GlbO OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 
+GN=glbO PE=1 SV=1
+Length=128
+
+ Score = 37.0 bits (84),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 13/56 (23%), Positives = 21/56 (38%), Gaps = 0/56 (0%)
+
+Query  2   PLLQRVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPP  57
+                VGG      +V  FY ++  D  L +   + D      +  MF+   +G P
+Sbjct  4   SFYDAVGGAKTFDAIVSRFYAQVAEDEVLRRVYPEDDLAGAEERLRMFLEQYWGGP  59
+
+
+> sp|P9WN22|TRHBO_MYCTO Group 2 truncated hemoglobin GlbO OS=Mycobacterium 
+tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 
+GN=glbO PE=3 SV=1
+Length=128
+
+ Score = 37.0 bits (84),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 13/56 (23%), Positives = 21/56 (38%), Gaps = 0/56 (0%)
+
+Query  2   PLLQRVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPP  57
+                VGG      +V  FY ++  D  L +   + D      +  MF+   +G P
+Sbjct  4   SFYDAVGGAKTFDAIVSRFYAQVAEDEVLRRVYPEDDLAGAEERLRMFLEQYWGGP  59
+
+
+> sp|P0A596|TRHBO_MYCBO Group 2 truncated hemoglobin GlbO OS=Mycobacterium 
+bovis (strain ATCC BAA-935 / AF2122/97) OX=233413 
+GN=glbO PE=3 SV=1
+Length=128
+
+ Score = 37.0 bits (84),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 13/56 (23%), Positives = 21/56 (38%), Gaps = 0/56 (0%)
+
+Query  2   PLLQRVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPP  57
+                VGG      +V  FY ++  D  L +   + D      +  MF+   +G P
+Sbjct  4   SFYDAVGGAKTFDAIVSRFYAQVAEDEVLRRVYPEDDLAGAEERLRMFLEQYWGGP  59
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.129    0.329    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0395    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4964270520
+Results from round 3
+
+
+Query= 6TD7:A
+
+Length=126
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q08753|TRHN1_CHLMO Group 1 truncated hemoglobin LI637 OS=Chl...  150     2e-46
+  sp|P9WN25|TRHBN_MYCTU Group 1 truncated hemoglobin GlbN OS=Myco...  144     3e-44
+  sp|P9WN24|TRHBN_MYCTO Group 1 truncated hemoglobin GlbN OS=Myco...  144     3e-44
+  sp|P0A594|TRHBN_MYCSM Group 1 truncated hemoglobin GlbN OS=Myco...  144     3e-44
+  sp|P0A593|TRHBN_MYCBO Group 1 truncated hemoglobin GlbN OS=Myco...  144     3e-44
+  sp|Q740T9|TRHBN_MYCPA Group 1 truncated hemoglobin GlbN OS=Myco...  142     7e-44
+  sp|P52334|TRHN2_CHLMO Group 1 truncated hemoglobin LI410 OS=Chl...  141     6e-43
+  sp|P17724|TRHBN_TETPY Group 1 truncated hemoglobin OS=Tetrahyme...  135     4e-41
+  sp|Q03459|TRHBN_TETTH Group 1 truncated hemoglobin OS=Tetrahyme...  134     8e-41
+  sp|P73925|TRHBN_SYNY3 Group 1 truncated hemoglobin GlbN OS=Syne...  132     6e-40
+  sp|P52335|TRHBN_NOSSN Group 1 truncated hemoglobin GlbN OS=Nost...  127     3e-38
+  sp|Q00812|TRHBN_NOSCO Group 1 truncated hemoglobin GlbN OS=Nost...  124     6e-37
+  sp|P15160|TRHBN_PARCA Group 1 truncated hemoglobin trHbN OS=Par...  122     4e-36
+  sp|O31607|TRHBO_BACSU Group 2 truncated hemoglobin YjbI OS=Baci...  109     8e-31
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P9WN23|TRHBO_MYCTU Group 2 truncated hemoglobin GlbO OS=Myco...  57.8    2e-10
+  sp|P9WN22|TRHBO_MYCTO Group 2 truncated hemoglobin GlbO OS=Myco...  57.8    2e-10
+  sp|P0A596|TRHBO_MYCBO Group 2 truncated hemoglobin GlbO OS=Myco...  57.8    2e-10
+  sp|Q9CC59|TRHBO_MYCLE Group 2 truncated hemoglobin GlbO OS=Myco...  57.1    3e-10
+  sp|Q67XG0|GLB3_ARATH Two-on-two hemoglobin-3 OS=Arabidopsis tha...  52.4    4e-08
+  sp|Q0PB48|TRHBP_CAMJE Group 3 truncated hemoglobin ctb OS=Campy...  40.5    4e-04
+
+
+> sp|Q08753|TRHN1_CHLMO Group 1 truncated hemoglobin LI637 OS=Chlamydomonas 
+moewusii OX=3054 GN=LI637 PE=1 SV=1
+Length=164
+
+ Score = 150 bits (379),  Expect = 2e-46, Method: Composition-based stats.
+ Identities = 31/119 (26%), Positives = 56/119 (47%), Gaps = 3/119 (3%)
+
+Query  1    GPLLQRVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPPNVP  60
+              L  ++GG + V+  V+ FY K+ ADP +  Y  + D    R+KQ  F+++  G  +  
+Sbjct  43   SSLFAKLGGREAVEAAVDKFYNKIVADPTVSTYFSNTDMKVQRSKQFAFLAYALGGAS-E  101
+
+Query  61   YTGKSVRIAHLRIIKQRGFSPEDFDLGMKYFEEAMTELGAPEVLRGEVMRRMLPYKDAI  119
+            + GK +R AH  ++     S   F    ++  + +TELG P     + M  +   +  +
+Sbjct  102  WKGKDMRTAHKDLVPH--LSDVHFQAVARHLSDTLTELGVPPEDITDAMAVVASTRTEV  158
+
+
+> sp|P9WN25|TRHBN_MYCTU Group 1 truncated hemoglobin GlbN OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 
+GN=glbN PE=1 SV=1
+Length=136
+
+ Score = 144 bits (362),  Expect = 3e-44, Method: Composition-based stats.
+ Identities = 32/123 (26%), Positives = 57/123 (46%), Gaps = 5/123 (4%)
+
+Query  2    PLLQRVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPPNVPY  61
+             +  ++GG + ++ VVE FY ++ AD QL  +    +   L+ KQ  F +   G P  PY
+Sbjct  14   SIYDKIGGHEAIEVVVEDFYVRVLADDQLSAFFSGTNMSRLKGKQVEFFAAALGGPE-PY  72
+
+Query  62   TGKSVRIAHLRIIKQRGFSPEDFDLGMKYFEEAMTELGAPEVLRGEVMRRMLPYKDAIFT  121
+            TG  ++  H    + RG +   F L   +  +A+T  G P     E++  + P    + +
+Sbjct  73   TGAPMKQVH----QGRGITMHHFSLVAGHLADALTAAGVPSETITEILGVIAPLAVDVTS  128
+
+Query  122  PAA  124
+              +
+Sbjct  129  GES  131
+
+
+> sp|P9WN24|TRHBN_MYCTO Group 1 truncated hemoglobin GlbN OS=Mycobacterium 
+tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 
+GN=glbN PE=3 SV=1
+Length=136
+
+ Score = 144 bits (362),  Expect = 3e-44, Method: Composition-based stats.
+ Identities = 32/123 (26%), Positives = 57/123 (46%), Gaps = 5/123 (4%)
+
+Query  2    PLLQRVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPPNVPY  61
+             +  ++GG + ++ VVE FY ++ AD QL  +    +   L+ KQ  F +   G P  PY
+Sbjct  14   SIYDKIGGHEAIEVVVEDFYVRVLADDQLSAFFSGTNMSRLKGKQVEFFAAALGGPE-PY  72
+
+Query  62   TGKSVRIAHLRIIKQRGFSPEDFDLGMKYFEEAMTELGAPEVLRGEVMRRMLPYKDAIFT  121
+            TG  ++  H    + RG +   F L   +  +A+T  G P     E++  + P    + +
+Sbjct  73   TGAPMKQVH----QGRGITMHHFSLVAGHLADALTAAGVPSETITEILGVIAPLAVDVTS  128
+
+Query  122  PAA  124
+              +
+Sbjct  129  GES  131
+
+
+> sp|P0A594|TRHBN_MYCSM Group 1 truncated hemoglobin GlbN OS=Mycolicibacterium 
+smegmatis OX=1772 GN=glbN PE=3 SV=1
+Length=136
+
+ Score = 144 bits (362),  Expect = 3e-44, Method: Composition-based stats.
+ Identities = 32/123 (26%), Positives = 57/123 (46%), Gaps = 5/123 (4%)
+
+Query  2    PLLQRVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPPNVPY  61
+             +  ++GG + ++ VVE FY ++ AD QL  +    +   L+ KQ  F +   G P  PY
+Sbjct  14   SIYDKIGGHEAIEVVVEDFYVRVLADDQLSAFFSGTNMSRLKGKQVEFFAAALGGPE-PY  72
+
+Query  62   TGKSVRIAHLRIIKQRGFSPEDFDLGMKYFEEAMTELGAPEVLRGEVMRRMLPYKDAIFT  121
+            TG  ++  H    + RG +   F L   +  +A+T  G P     E++  + P    + +
+Sbjct  73   TGAPMKQVH----QGRGITMHHFSLVAGHLADALTAAGVPSETITEILGVIAPLAVDVTS  128
+
+Query  122  PAA  124
+              +
+Sbjct  129  GES  131
+
+
+> sp|P0A593|TRHBN_MYCBO Group 1 truncated hemoglobin GlbN OS=Mycobacterium 
+bovis (strain ATCC BAA-935 / AF2122/97) OX=233413 
+GN=glbN PE=1 SV=1
+Length=136
+
+ Score = 144 bits (362),  Expect = 3e-44, Method: Composition-based stats.
+ Identities = 32/123 (26%), Positives = 57/123 (46%), Gaps = 5/123 (4%)
+
+Query  2    PLLQRVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPPNVPY  61
+             +  ++GG + ++ VVE FY ++ AD QL  +    +   L+ KQ  F +   G P  PY
+Sbjct  14   SIYDKIGGHEAIEVVVEDFYVRVLADDQLSAFFSGTNMSRLKGKQVEFFAAALGGPE-PY  72
+
+Query  62   TGKSVRIAHLRIIKQRGFSPEDFDLGMKYFEEAMTELGAPEVLRGEVMRRMLPYKDAIFT  121
+            TG  ++  H    + RG +   F L   +  +A+T  G P     E++  + P    + +
+Sbjct  73   TGAPMKQVH----QGRGITMHHFSLVAGHLADALTAAGVPSETITEILGVIAPLAVDVTS  128
+
+Query  122  PAA  124
+              +
+Sbjct  129  GES  131
+
+
+> sp|Q740T9|TRHBN_MYCPA Group 1 truncated hemoglobin GlbN OS=Mycolicibacterium 
+paratuberculosis (strain ATCC BAA-968 / K-10) 
+OX=262316 GN=glbN PE=3 SV=1
+Length=136
+
+ Score = 142 bits (359),  Expect = 7e-44, Method: Composition-based stats.
+ Identities = 37/125 (30%), Positives = 59/125 (47%), Gaps = 5/125 (4%)
+
+Query  1    GPLLQRVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPPNVP  60
+              +  R+GG + ++ VVE FY ++ AD QL  +    +   L+ KQ  F +   G P+ P
+Sbjct  13   ASIYDRIGGHEALEVVVENFYVRVLADEQLSGFFTGTNMNRLKGKQVEFFAAALGGPH-P  71
+
+Query  61   YTGKSVRIAHLRIIKQRGFSPEDFDLGMKYFEEAMTELGAPEVLRGEVMRRMLPYKDAIF  120
+            YTG  ++  H    + RG +   F L   +  +A+T  G P     E++  + P    I 
+Sbjct  72   YTGAPMKQVH----QGRGITMHHFGLVAGHLADALTAAGVPSETVSEILGAIAPLAPEIA  127
+
+Query  121  TPAAG  125
+            T  AG
+Sbjct  128  TGEAG  132
+
+
+> sp|P52334|TRHN2_CHLMO Group 1 truncated hemoglobin LI410 OS=Chlamydomonas 
+moewusii OX=3054 GN=LI410 PE=2 SV=1
+Length=171
+
+ Score = 141 bits (356),  Expect = 6e-43, Method: Composition-based stats.
+ Identities = 28/118 (24%), Positives = 53/118 (45%), Gaps = 3/118 (3%)
+
+Query  2    PLLQRVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPPNVPY  61
+             L  ++GG + V+  V+ FY K+ ADP +  +    D    R+KQ  F+++  G     +
+Sbjct  44   SLFAKLGGREAVEAAVDKFYNKVVADPTVSVFFSKTDMKVQRSKQFAFLAYALGGA-AEW  102
+
+Query  62   TGKSVRIAHLRIIKQRGFSPEDFDLGMKYFEEAMTELGAPEVLRGEVMRRMLPYKDAI  119
+             GK +R AH  ++     +   F   +++  + + ELG       + M  +   K  +
+Sbjct  103  KGKDMRTAHKDLVPH--LTDVHFQAVVRHLSDTLAELGVTPGDIADAMAVVASTKTEV  158
+
+
+> sp|P17724|TRHBN_TETPY Group 1 truncated hemoglobin OS=Tetrahymena 
+pyriformis OX=5908 PE=1 SV=1
+Length=121
+
+ Score = 135 bits (340),  Expect = 4e-41, Method: Composition-based stats.
+ Identities = 30/118 (25%), Positives = 57/118 (48%), Gaps = 5/118 (4%)
+
+Query  2    PLLQRVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPPNVPY  61
+             + +++GG + +K  V LFY+K+ AD ++  +  + D  H   +Q+ F++ L G PN  Y
+Sbjct  6    TIYEKLGGENAMKAAVPLFYKKVLADERVKHFFKNTDMDHQTKQQTDFLTMLLGGPN-HY  64
+
+Query  62   TGKSVRIAHLRIIKQRGFSPEDFDLGMKYFEEAMTELGAPEVLRGEVMRRMLPYKDAI  119
+             GK++  AH    K        FD  ++     + ELG  + +  E  + +   +  +
+Sbjct  65   KGKNMTEAH----KGMNLQNLHFDAIIENLAATLKELGVTDAVINEAAKVIEHTRKDM  118
+
+
+> sp|Q03459|TRHBN_TETTH Group 1 truncated hemoglobin OS=Tetrahymena 
+thermophila OX=5911 PE=2 SV=1
+Length=121
+
+ Score = 134 bits (338),  Expect = 8e-41, Method: Composition-based stats.
+ Identities = 30/117 (26%), Positives = 54/117 (46%), Gaps = 5/117 (4%)
+
+Query  2    PLLQRVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPPNVPY  61
+             + +++GG   +   V LFY+K+ AD ++  Y  + +  H   +Q  F++ L G PN  Y
+Sbjct  6    TVFEKLGGQAAMHAAVPLFYKKVLADDRVKHYFKNTNMEHQAKQQEDFLTMLLGGPN-HY  64
+
+Query  62   TGKSVRIAHLRIIKQRGFSPEDFDLGMKYFEEAMTELGAPEVLRGEVMRRMLPYKDA  118
+             GK++  AH    K        FD  ++     + ELG  + + GE  + +   +  
+Sbjct  65   KGKNMAEAH----KGMNLQNSHFDAIIENLAATLKELGVSDQIIGEAAKVIEHTRKD  117
+
+
+> sp|P73925|TRHBN_SYNY3 Group 1 truncated hemoglobin GlbN OS=Synechocystis 
+sp. (strain PCC 6803 / Kazusa) OX=1111708 GN=glbN 
+PE=1 SV=1
+Length=124
+
+ Score = 132 bits (332),  Expect = 6e-40, Method: Composition-based stats.
+ Identities = 32/112 (29%), Positives = 54/112 (48%), Gaps = 1/112 (1%)
+
+Query  1    GPLLQRVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPPNVP  60
+              L +++GG   V   V+ FY ++  D ++  +  D D    RA Q  F+++ FG  +  
+Sbjct  2    STLYEKLGGTTAVDLAVDKFYERVLQDDRIKHFFADVDMAKQRAHQKAFLTYAFGGTD-K  60
+
+Query  61   YTGKSVRIAHLRIIKQRGFSPEDFDLGMKYFEEAMTELGAPEVLRGEVMRRM  112
+            Y G+ +R AH  +++  G + E FD   +     + E+G PE L  EV    
+Sbjct  61   YDGRYMREAHKELVENHGLNGEHFDAVAEDLLATLKEMGVPEDLIAEVAAVA  112
+
+
+> sp|P52335|TRHBN_NOSSN Group 1 truncated hemoglobin GlbN OS=Nostoc 
+sp. (strain MUN 8820) OX=55397 GN=glbN PE=3 SV=1
+Length=118
+
+ Score = 127 bits (320),  Expect = 3e-38, Method: Composition-based stats.
+ Identities = 26/119 (22%), Positives = 42/119 (35%), Gaps = 5/119 (4%)
+
+Query  1    GPLLQRVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPPNVP  60
+              L   +GG   +++VV+  ++++  D  L       D    R     F+  +F  P   
+Sbjct  2    STLYDNIGGQPAIEQVVDELHKRIATDSLLAPIFAGTDMAKQRNHLVAFLGQIFEGP-KQ  60
+
+Query  61   YTGKSVRIAHLRIIKQRGFSPEDFDLGMKYFEEAMTELGAPEVLRGEVMRRMLPYKDAI  119
+            Y G+ +   H             FD   K+  EAM   G         + R+   K AI
+Sbjct  61   YGGRPMDKTHA----GLNLQQPHFDAIAKHLGEAMAVRGVSAEDTKAALDRVTNMKGAI  115
+
+
+> sp|Q00812|TRHBN_NOSCO Group 1 truncated hemoglobin GlbN OS=Nostoc 
+commune OX=1178 GN=glbN PE=3 SV=1
+Length=118
+
+ Score = 124 bits (312),  Expect = 6e-37, Method: Composition-based stats.
+ Identities = 25/119 (21%), Positives = 43/119 (36%), Gaps = 5/119 (4%)
+
+Query  1    GPLLQRVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPPNVP  60
+              L   +GG   +++VV+  ++++  D  L       D +  R     F++ +F  P   
+Sbjct  2    STLYDNIGGQPAIEQVVDELHKRIATDSLLAPVFAGTDMVKQRNHLVAFLAQIFEGP-KQ  60
+
+Query  61   YTGKSVRIAHLRIIKQRGFSPEDFDLGMKYFEEAMTELGAPEVLRGEVMRRMLPYKDAI  119
+            Y G+ +   H             FD   K+  E M   G         + R+   K AI
+Sbjct  61   YGGRPMDKTHA----GLNLQQPHFDAIAKHLGERMAVRGVSAENTKAALDRVTNMKGAI  115
+
+
+> sp|P15160|TRHBN_PARCA Group 1 truncated hemoglobin trHbN OS=Paramecium 
+caudatum OX=5885 PE=1 SV=2
+Length=117
+
+ Score = 122 bits (307),  Expect = 4e-36, Method: Composition-based stats.
+ Identities = 26/120 (22%), Positives = 49/120 (41%), Gaps = 5/120 (4%)
+
+Query  2    PLLQRVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPPNVPY  61
+             L +++GG   V+ V   FY  + AD  +  + +  D  +   K + F+    G PN  +
+Sbjct  2    SLFEQLGGQAAVQAVTAQFYANIQADATVATFFNGIDMPNQTNKTAAFLCAALGGPNA-W  60
+
+Query  62   TGKSVRIAHLRIIKQRGFSPEDFDLGMKYFEEAMTELGAPEVLRGEVMRRMLPYKDAIFT  121
+            TG++++  H       G S   F   + +   A+T  G    L  + +      +  + T
+Sbjct  61   TGRNLKEVHAN----MGVSNAQFTTVIGHLRSALTGAGVAAALVEQTVAVAETVRGDVVT  116
+
+
+> sp|O31607|TRHBO_BACSU Group 2 truncated hemoglobin YjbI OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=yjbI PE=1 SV=1
+Length=132
+
+ Score = 109 bits (273),  Expect = 8e-31, Method: Composition-based stats.
+ Identities = 21/110 (19%), Positives = 41/110 (37%), Gaps = 6/110 (5%)
+
+Query  9    GLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPP--NVPYTGKSV  66
+            G +++ ++V+ FY ++ + P L       D      KQ  F++   G P       G  +
+Sbjct  13   GEELLSQLVDTFYERVASHPLLKPIFP-SDLTETARKQKQFLTQYLGGPPLYTEEHGHPM  71
+
+Query  67   RIAHLRIIKQRGFSPEDFDLGMKYFEEAMTELGAPEVLRGEVMRRMLPYK  116
+              A          + E  D  +   ++AM  +G    +R  +  R+    
+Sbjct  72   LRARHLPFP---ITNERADAWLSCMKDAMDHVGLEGEIREFLFGRLELTA  118
+
+
+> sp|P9WN23|TRHBO_MYCTU Group 2 truncated hemoglobin GlbO OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 
+GN=glbO PE=1 SV=1
+Length=128
+
+ Score = 57.8 bits (138),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 17/99 (17%), Positives = 31/99 (31%), Gaps = 5/99 (5%)
+
+Query  2   PLLQRVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPP--NV  59
+                VGG      +V  FY ++  D  L +   + D      +  MF+   +G P    
+Sbjct  4   SFYDAVGGAKTFDAIVSRFYAQVAEDEVLRRVYPEDDLAGAEERLRMFLEQYWGGPRTYS  63
+
+Query  60  PYTGKSVRIAHLRIIKQRGFSPEDFDLGMKYFEEAMTEL  98
+              G           +    S  + D  ++    A+  +
+Sbjct  64  EQRGHPRLRMRHAPFR---ISLIERDAWLRCMHTAVASI  99
+
+
+> sp|P9WN22|TRHBO_MYCTO Group 2 truncated hemoglobin GlbO OS=Mycobacterium 
+tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 
+GN=glbO PE=3 SV=1
+Length=128
+
+ Score = 57.8 bits (138),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 17/99 (17%), Positives = 31/99 (31%), Gaps = 5/99 (5%)
+
+Query  2   PLLQRVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPP--NV  59
+                VGG      +V  FY ++  D  L +   + D      +  MF+   +G P    
+Sbjct  4   SFYDAVGGAKTFDAIVSRFYAQVAEDEVLRRVYPEDDLAGAEERLRMFLEQYWGGPRTYS  63
+
+Query  60  PYTGKSVRIAHLRIIKQRGFSPEDFDLGMKYFEEAMTEL  98
+              G           +    S  + D  ++    A+  +
+Sbjct  64  EQRGHPRLRMRHAPFR---ISLIERDAWLRCMHTAVASI  99
+
+
+> sp|P0A596|TRHBO_MYCBO Group 2 truncated hemoglobin GlbO OS=Mycobacterium 
+bovis (strain ATCC BAA-935 / AF2122/97) OX=233413 
+GN=glbO PE=3 SV=1
+Length=128
+
+ Score = 57.8 bits (138),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 17/99 (17%), Positives = 31/99 (31%), Gaps = 5/99 (5%)
+
+Query  2   PLLQRVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPP--NV  59
+                VGG      +V  FY ++  D  L +   + D      +  MF+   +G P    
+Sbjct  4   SFYDAVGGAKTFDAIVSRFYAQVAEDEVLRRVYPEDDLAGAEERLRMFLEQYWGGPRTYS  63
+
+Query  60  PYTGKSVRIAHLRIIKQRGFSPEDFDLGMKYFEEAMTEL  98
+              G           +    S  + D  ++    A+  +
+Sbjct  64  EQRGHPRLRMRHAPFR---ISLIERDAWLRCMHTAVASI  99
+
+
+> sp|Q9CC59|TRHBO_MYCLE Group 2 truncated hemoglobin GlbO OS=Mycobacterium 
+leprae (strain TN) OX=272631 GN=glbO PE=3 SV=1
+Length=128
+
+ Score = 57.1 bits (136),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 19/128 (15%), Positives = 41/128 (32%), Gaps = 8/128 (6%)
+
+Query  2    PLLQRVGGLDVVKKVVELFYRKLYADPQLIKYLHDQDPMHLRAKQSMFVSWLFGPP--NV  59
+                 +GG +  K +V  FY ++  D  L +     D      +  MF+   +G P    
+Sbjct  4    SFYDAIGGAETFKAIVSRFYAQVPEDEILRELYPADDLAGAEERLRMFLEQYWGGPRTYS  63
+
+Query  60   PYTGKSVRIAHLRIIKQRGFSPEDFDLGMKYFEEAMTELG---APEVLRGEVMRRMLPYK  116
+               G           +    +  + D  ++    A+  +         R E++  +    
+Sbjct  64   SQRGHPRLRMRHAPFR---ITAIERDAWLRCMHTAVASIDSHTLDNEHRRELLDYLEMAA  120
+
+Query  117  DAIFTPAA  124
+             ++   A+
+Sbjct  121  HSLVNSAS  128
+
+
+> sp|Q67XG0|GLB3_ARATH Two-on-two hemoglobin-3 OS=Arabidopsis thaliana 
+OX=3702 GN=GLB3 PE=1 SV=1
+Length=175
+
+ Score = 52.4 bits (124),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 14/101 (14%), Positives = 31/101 (31%), Gaps = 8/101 (8%)
+
+Query  1    GPLLQRVGGLDVVKKVVELFYRKLYADPQ--LIKYLHDQDPMHLRAKQSMFVSWLFGPP-  57
+              L  ++G    +      FY ++Y D +        + +       Q  F     G P 
+Sbjct  25   SNLFDKLGLQTFINLST-NFYTRVYDDEEEWFQSIFSNSNKEDAIQNQYEFFVQRMGGPP  83
+
+Query  58   -NVPYTGKSVRIAHLRIIKQRGFSPEDFDLGMKYFEEAMTE  97
+                  G    I   R       + +  +  +++ + A+ +
+Sbjct  84   LYSQRKGHPALIGRHRPFP---VTHQAAERWLEHMQNALDD  121
+
+
+> sp|Q0PB48|TRHBP_CAMJE Group 3 truncated hemoglobin ctb OS=Campylobacter 
+jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 
+/ NCTC 11168) OX=192222 GN=ctb PE=1 SV=1
+Length=127
+
+ Score = 40.5 bits (93),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 21/92 (23%), Positives = 42/92 (46%), Gaps = 11/92 (12%)
+
+Query  10  LDVVKKVVELFYRKLYADPQLIKYLHDQ------DPMHLRAKQSMFVSWLFGPPNVPYTG  63
+            + + K++E+FY K+  D  L    ++       +    +AK   F + +       Y G
+Sbjct  8   QESIAKLMEIFYEKVRKDKDLGPIFNNAIGTSDEEWKEHKAKIGNFWAGMLLG-EGDYNG  66
+
+Query  64  KSVRIAHLRIIKQRGFSPEDFDLGMKYFEEAM  95
+           + ++  HL +     F  E F++ +K FEE++
+Sbjct  67  QPLKK-HLDLPP---FPQEFFEIWLKLFEESL  94
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.129    0.316    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0396    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4964270520
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  1:45 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

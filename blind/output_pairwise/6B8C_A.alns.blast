@@ -1,0 +1,1388 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 6B8C:A
+
+Length=117
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P13692|P54_ENTFC Protein P54 OS=Enterococcus faecium OX=1352...  243     1e-78
+  sp|Q01835|P60_LISGR Probable endopeptidase p60 OS=Listeria gray...  91.3    2e-21
+  sp|Q01837|P60_LISIV Probable endopeptidase p60 OS=Listeria ivan...  84.0    7e-19
+  sp|Q01838|P60_LISSE Probable endopeptidase p60 OS=Listeria seel...  82.0    3e-18
+  sp|Q01836|P60_LISIN Probable endopeptidase p60 OS=Listeria inno...  81.6    4e-18
+  sp|P21171|P60_LISMO Probable endopeptidase p60 OS=Listeria mono...  79.7    2e-17
+  sp|O31852|CWLS_BACSU D-gamma-glutamyl-meso-diaminopimelic acid ...  73.6    2e-15
+  sp|Q01839|P60_LISWE Probable endopeptidase p60 OS=Listeria wels...  71.2    2e-14
+  sp|A0QX22|RIPA_MYCS2 Peptidoglycan endopeptidase RipA OS=Mycoli...  70.9    2e-14
+  sp|O35010|YKFC_BACSU Gamma-D-glutamyl-L-lysine dipeptidyl-pepti...  68.6    1e-13
+  sp|P39043|DPP6_LYSSH Dipeptidyl-peptidase 6 OS=Lysinibacillus s...  67.8    2e-13
+  sp|Q736M3|YKFC_BACC1 Gamma-D-glutamyl-L-lysine dipeptidyl-pepti...  66.6    7e-13
+  sp|O53168|RIPA_MYCTU Peptidoglycan endopeptidase RipA OS=Mycoba...  66.6    8e-13
+  sp|O07532|LYTF_BACSU Peptidoglycan endopeptidase LytF OS=Bacill...  66.2    1e-12
+  sp|Q8NNK6|Y2188_CORGL Probable endopeptidase Cgl2188 OS=Coryneb...  63.9    2e-12
+  sp|A4QFQ3|Y2070_CORGB Probable endopeptidase cgR_2070 OS=Coryne...  63.9    2e-12
+  sp|P96740|PGDS_BACSU Gamma-DL-glutamyl hydrolase OS=Bacillus su...  64.7    4e-12
+  sp|P45296|NLPC_HAEIN Probable endopeptidase NlpC homolog OS=Hae...  62.4    6e-12
+  sp|P96645|YDDH_BACSU Probable endopeptidase YddH OS=Bacillus su...  62.8    1e-11
+  sp|P76190|MEPH_ECOLI Murein DD-endopeptidase MepH OS=Escherichi...  62.0    2e-11
+  sp|P9WHU5|RIPB_MYCTU Peptidoglycan endopeptidase RipB OS=Mycoba...  61.2    3e-11
+  sp|P9WHU4|RIPB_MYCTO Peptidoglycan endopeptidase RipB OS=Mycoba...  61.2    3e-11
+  sp|Q47151|YAFL_ECOLI Probable endopeptidase YafL OS=Escherichia...  60.8    5e-11
+  sp|P54421|LYTE_BACSU Probable peptidoglycan endopeptidase LytE ...  58.5    4e-10
+  sp|Q57223|Y1314_HAEIN Probable endopeptidase HI_1314 OS=Haemoph...  56.6    7e-10
+  sp|P0AFV7|MEPS_SHIFL Murein DD-endopeptidase MepS/Murein LD-car...  56.2    1e-09
+  sp|P0AFV4|MEPS_ECOLI Murein DD-endopeptidase MepS/Murein LD-car...  56.2    1e-09
+  sp|P0AFV5|MEPS_ECOL6 Murein DD-endopeptidase MepS/Murein LD-car...  56.2    1e-09
+  sp|P0AFV6|MEPS_ECO57 Murein DD-endopeptidase MepS/Murein LD-car...  56.2    1e-09
+  sp|P67474|Y2213_MYCBO Probable endopeptidase Mb2213c OS=Mycobac...  52.8    6e-08
+  sp|P9WHU3|Y2190_MYCTU Probable endopeptidase Rv2190c OS=Mycobac...  52.8    6e-08
+  sp|P9WHU2|Y2190_MYCTO Probable endopeptidase MT2245 OS=Mycobact...  52.8    6e-08
+  sp|P23898|NLPC_ECOLI Probable endopeptidase NlpC OS=Escherichia...  50.8    7e-08
+  sp|Q65NQ9|CWLO_BACLD Peptidoglycan DL-endopeptidase CwlO OS=Bac...  50.1    6e-07
+  sp|P40767|CWLO_BACSU Peptidoglycan DL-endopeptidase CwlO OS=Bac...  45.4    2e-05
+
+
+> sp|P13692|P54_ENTFC Protein P54 OS=Enterococcus faecium OX=1352 
+PE=3 SV=2
+Length=516
+
+ Score = 243 bits (619),  Expect = 1e-78, Method: Composition-based stats.
+ Identities = 112/117 (96%), Positives = 115/117 (98%), Gaps = 0/117 (0%)
+
+Query  1    VNGAAIVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKI  60
+            VNGAAIVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKI
+Sbjct  400  VNGAAIVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKI  459
+
+Query  61   SVSQAKAGDLLFWGSPGGTYHVAIALGGGQYIHAPQPGESVKVGSVQWFAPDFAVSM  117
+            SVSQAKAGDLLFWGS GGTYHVAI+LGGGQYIHAPQPGE+VKVGSVQW+ PDFAVSM
+Sbjct  460  SVSQAKAGDLLFWGSAGGTYHVAISLGGGQYIHAPQPGENVKVGSVQWYTPDFAVSM  516
+
+
+> sp|Q01835|P60_LISGR Probable endopeptidase p60 OS=Listeria grayi 
+OX=1641 GN=iap PE=3 SV=1
+Length=511
+
+ Score = 91.3 bits (225),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 48/94 (51%), Positives = 60/94 (64%), Gaps = 1/94 (1%)
+
+Query  8    AEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKISVSQAKA  67
+            AEA K++G PY WG + PS FDCSGFT YV+ QV G  + G +  Q +  TKIS SQA+ 
+Sbjct  401  AEAKKHLGKPYTWGARGPSTFDCSGFTSYVFNQV-GLSLSGNSATQYANSTKISESQAQP  459
+
+Query  68   GDLLFWGSPGGTYHVAIALGGGQYIHAPQPGESV  101
+            GDL+F+    G  HV I +GGGQ I A   G S+
+Sbjct  460  GDLVFFNYGSGIAHVGIYIGGGQMIDAQDNGVSI  493
+
+
+> sp|Q01837|P60_LISIV Probable endopeptidase p60 OS=Listeria ivanovii 
+OX=1638 GN=iap PE=3 SV=1
+Length=524
+
+ Score = 84.0 bits (206),  Expect = 7e-19, Method: Compositional matrix adjust.
+ Identities = 45/98 (46%), Positives = 60/98 (61%), Gaps = 11/98 (11%)
+
+Query  6    IVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQES-----AGTKI  60
+            ++AEA K++G  Y WGG  P+ FDCSGFT+YV+ +       G T+P+ S     + TKI
+Sbjct  412  LIAEAQKHLGKAYSWGGNGPTTFDCSGFTKYVFAK------SGVTLPRTSGAQYASSTKI  465
+
+Query  61   SVSQAKAGDLLFWGSPGGTYHVAIALGGGQYIHAPQPG  98
+            S SQAK GDL+F+    G  HV I +G GQ I+A   G
+Sbjct  466  SESQAKPGDLVFFDYGNGIAHVGIYVGNGQMINAQDNG  503
+
+
+> sp|Q01838|P60_LISSE Probable endopeptidase p60 OS=Listeria seeligeri 
+OX=1640 GN=iap PE=3 SV=1
+Length=523
+
+ Score = 82.0 bits (201),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 45/99 (45%), Positives = 60/99 (61%), Gaps = 11/99 (11%)
+
+Query  5    AIVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQES-----AGTK  59
+            AI+AEA K++G  Y WGG  P+ FDCSGFT YV+ Q       G T+P+ S     + TK
+Sbjct  410  AIIAEAQKHLGKAYSWGGNGPTTFDCSGFTSYVFAQ------SGITLPRTSGAQYASTTK  463
+
+Query  60   ISVSQAKAGDLLFWGSPGGTYHVAIALGGGQYIHAPQPG  98
+            +S S+A+ GDL+F+    G  HV I +G GQ I+A   G
+Sbjct  464  VSESEAQPGDLVFFDYGSGIAHVGIYVGNGQMINAQDNG  502
+
+
+> sp|Q01836|P60_LISIN Probable endopeptidase p60 OS=Listeria innocua 
+serovar 6a (strain ATCC BAA-680 / CLIP 11262) OX=272626 
+GN=iap PE=3 SV=2
+Length=467
+
+ Score = 81.6 bits (200),  Expect = 4e-18, Method: Compositional matrix adjust.
+ Identities = 43/97 (44%), Positives = 63/97 (65%), Gaps = 1/97 (1%)
+
+Query  2    NGAAIVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKIS  61
+            + +A++AEA K++G  Y WGG  P+ FDCSGFT+YV+ + +G  +   +  Q ++ T+IS
+Sbjct  351  SASALIAEAQKHLGKAYSWGGNGPTTFDCSGFTKYVFAK-SGISLPRTSGAQYASTTRIS  409
+
+Query  62   VSQAKAGDLLFWGSPGGTYHVAIALGGGQYIHAPQPG  98
+             SQAK GDL+F+    G  HV I +G GQ I+A   G
+Sbjct  410  ESQAKPGDLVFFDYGSGISHVGIYVGNGQMINAQDNG  446
+
+
+> sp|P21171|P60_LISMO Probable endopeptidase p60 OS=Listeria monocytogenes 
+serovar 1/2a (strain ATCC BAA-679 / EGD-e) OX=169963 
+GN=iap PE=1 SV=2
+Length=484
+
+ Score = 79.7 bits (195),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 43/98 (44%), Positives = 60/98 (61%), Gaps = 11/98 (11%)
+
+Query  6    IVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQES-----AGTKI  60
+            I+AEA K++G  Y WGG  P+ FDCSG+T+YV+ +       G ++P+ S     + T+I
+Sbjct  372  IIAEAQKHLGKAYSWGGNGPTTFDCSGYTKYVFAK------AGISLPRTSGAQYASTTRI  425
+
+Query  61   SVSQAKAGDLLFWGSPGGTYHVAIALGGGQYIHAPQPG  98
+            S SQAK GDL+F+    G  HV I +G GQ I+A   G
+Sbjct  426  SESQAKPGDLVFFDYGSGISHVGIYVGNGQMINAQDNG  463
+
+
+> sp|O31852|CWLS_BACSU D-gamma-glutamyl-meso-diaminopimelic acid 
+endopeptidase CwlS OS=Bacillus subtilis (strain 168) OX=224308 
+GN=cwlS PE=1 SV=1
+Length=414
+
+ Score = 73.6 bits (179),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 41/98 (42%), Positives = 53/98 (54%), Gaps = 12/98 (12%)
+
+Query  6    IVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTG----RDIGGWTVPQESAGTKIS  61
+            ++ EA KY+G PY WGG  P+GFDCSGF  Y+   V+        G W V Q+       
+Sbjct  302  MITEAKKYVGVPYRWGGNTPAGFDCSGFIYYLINNVSSISRLSTAGYWNVMQK-------  354
+
+Query  62   VSQAKAGDLLFWGS-PGGTYHVAIALGGGQYIHAPQPG  98
+            VSQ   GD +F+ +   G  H+ I LGGG +IHA   G
+Sbjct  355  VSQPSVGDFVFFTTYKSGPSHMGIYLGGGDFIHASSSG  392
+
+
+> sp|Q01839|P60_LISWE Probable endopeptidase p60 OS=Listeria welshimeri 
+OX=1643 GN=iap PE=3 SV=1
+Length=524
+
+ Score = 71.2 bits (173),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 39/92 (42%), Positives = 54/92 (59%), Gaps = 11/92 (12%)
+
+Query  12   KYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQES-----AGTKISVSQAK  66
+            K++G  Y WGG  P+ FDCSGFT YV+ +       G ++P+ S     + ++IS SQAK
+Sbjct  418  KHLGKAYSWGGNGPTTFDCSGFTSYVFAK------SGISLPRTSGAQYASTSRISESQAK  471
+
+Query  67   AGDLLFWGSPGGTYHVAIALGGGQYIHAPQPG  98
+             GDL+F+    G  HV I +G GQ I+A   G
+Sbjct  472  PGDLVFFDYGSGIAHVGIYVGNGQMINAQDNG  503
+
+
+> sp|A0QX22|RIPA_MYCS2 Peptidoglycan endopeptidase RipA OS=Mycolicibacterium 
+smegmatis (strain ATCC 700084 / mc(2)155) OX=246196 
+GN=ripA PE=1 SV=1
+Length=497
+
+ Score = 70.9 bits (172),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 44/115 (38%), Positives = 61/115 (53%), Gaps = 15/115 (13%)
+
+Query  6    IVAEAYKYIGTPYVWGGKD---PS----------GFDCSGFTRYVYLQVTGRDIGGWTVP  52
+            ++      IG PY WGG +   PS          GFDCSG   Y++  V G  +  ++  
+Sbjct  371  VIRRGMSQIGVPYSWGGGNAAGPSRGIDSGAGTVGFDCSGLMLYMFAGV-GIKLDHYSGS  429
+
+Query  53   QESAGTKISVSQAKAGDLLFWGSPGGTYHVAIALGGGQYIHAPQPGESVKVGSVQ  107
+            Q +AG KI  SQ + GD++F+G P  + HVA+ LG GQ + AP  G  VKV  V+
+Sbjct  430  QYNAGRKIPSSQMRRGDMIFYG-PNASQHVAMYLGNGQMLEAPYTGSHVKVSPVR  483
+
+
+> sp|O35010|YKFC_BACSU Gamma-D-glutamyl-L-lysine dipeptidyl-peptidase 
+OS=Bacillus subtilis (strain 168) OX=224308 GN=ykfC PE=1 
+SV=2
+Length=296
+
+ Score = 68.6 bits (166),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 36/97 (37%), Positives = 56/97 (58%), Gaps = 4/97 (4%)
+
+Query  13   YIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKISVSQAKAGDLLF  72
+            ++G PY+WGG    GFDCSGF  Y   +  G  I      Q  AG  + +   KAGDLLF
+Sbjct  183  FLGLPYLWGGISGFGFDCSGFM-YSIFKANGYSIPRDAGDQAKAGKGVPLDDMKAGDLLF  241
+
+Query  73   WG---SPGGTYHVAIALGGGQYIHAPQPGESVKVGSV  106
+            +      G  +HV + +GGG+ +H+P+ G+S+++ ++
+Sbjct  242  FAYEEGKGAIHHVGLYVGGGKMLHSPKTGKSIEILTL  278
+
+
+> sp|P39043|DPP6_LYSSH Dipeptidyl-peptidase 6 OS=Lysinibacillus 
+sphaericus OX=1421 PE=1 SV=1
+Length=271
+
+ Score = 67.8 bits (164),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 43/112 (38%), Positives = 57/112 (51%), Gaps = 17/112 (15%)
+
+Query  6    IVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQ---VTGRD---IGGWTVPQESAGTK  59
+            +V  A  YI TPY WGGK P G DCSG     YL    +  RD   + G+ + +      
+Sbjct  154  VVQTALSYIATPYRWGGKSPLGIDCSGLCSMAYLLNGVIIFRDARIVEGFPIKE------  207
+
+Query  60   ISVSQAKAGDLLFWGSPGGTYHVAIALGGGQYIHAPQPGESVKVGSVQWFAP  111
+            I++ + + GDLLF+  PG   HVA+ LG   Y+HA   G  V V S+    P
+Sbjct  208  ITIDRMQKGDLLFF--PG---HVALYLGQTLYVHASLGGNEVNVNSLDEQHP  254
+
+
+> sp|Q736M3|YKFC_BACC1 Gamma-D-glutamyl-L-lysine dipeptidyl-peptidase 
+OS=Bacillus cereus (strain ATCC 10987 / NRS 248) OX=222523 
+GN=ykfC PE=1 SV=1
+Length=333
+
+ Score = 66.6 bits (161),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 35/97 (36%), Positives = 50/97 (52%), Gaps = 10/97 (10%)
+
+Query  13   YIGTPYVWGGKDPSGFDCSGFTRYVYLQ---VTGRDIGGWTVPQESAGTKISVSQAKAGD  69
+            ++G PY+W G    GFDCSGFT  +Y        RD G    PQ   G  +     + GD
+Sbjct  221  FLGLPYIWAGTSGFGFDCSGFTHTIYKSHGITIPRDSG----PQSRNGVAVDKEHLQKGD  276
+
+Query  70   LLFWGS---PGGTYHVAIALGGGQYIHAPQPGESVKV  103
+            L+F+      G  +HVA+ +G G  IH+P+   SV++
+Sbjct  277  LIFFAHDQGKGSVHHVAMYIGDGNMIHSPRAERSVEI  313
+
+
+> sp|O53168|RIPA_MYCTU Peptidoglycan endopeptidase RipA OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 
+GN=ripA PE=1 SV=1
+Length=472
+
+ Score = 66.6 bits (161),  Expect = 8e-13, Method: Compositional matrix adjust.
+ Identities = 43/115 (37%), Positives = 59/115 (51%), Gaps = 15/115 (13%)
+
+Query  6    IVAEAYKYIGTPYVWGGKD---PS----------GFDCSGFTRYVYLQVTGRDIGGWTVP  52
+            ++      IG PY WGG +   PS          GFDCSG   Y +  V G  +  ++  
+Sbjct  346  VIRRGMSQIGVPYSWGGGNAAGPSKGIDSGAGTVGFDCSGLVLYSFAGV-GIKLPHYSGS  404
+
+Query  53   QESAGTKISVSQAKAGDLLFWGSPGGTYHVAIALGGGQYIHAPQPGESVKVGSVQ  107
+            Q + G KI  SQ + GD++F+G P G+ HV I LG GQ + AP  G  V+V  V+
+Sbjct  405  QYNLGRKIPSSQMRRGDVIFYG-PNGSQHVTIYLGNGQMLEAPDVGLKVRVAPVR  458
+
+
+> sp|O07532|LYTF_BACSU Peptidoglycan endopeptidase LytF OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=lytF PE=1 SV=2
+Length=488
+
+ Score = 66.2 bits (160),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 40/99 (40%), Positives = 54/99 (55%), Gaps = 12/99 (12%)
+
+Query  5    AIVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESA----GTKI  60
+             +++ A   +G PY WGG  PSGFDCSGF  YV  +VT       +V + +A     T  
+Sbjct  375  TMISAAKAQLGVPYRWGGTTPSGFDCSGFIYYVLNKVT-------SVSRLTAAGYWNTMK  427
+
+Query  61   SVSQAKAGDLLFWGS-PGGTYHVAIALGGGQYIHAPQPG  98
+            SVSQ   GD +F+ +   G  HV I LG G++I+A   G
+Sbjct  428  SVSQPAVGDFVFFSTYKAGPSHVGIYLGNGEFINANDSG  466
+
+
+> sp|Q8NNK6|Y2188_CORGL Probable endopeptidase Cgl2188 OS=Corynebacterium 
+glutamicum (strain ATCC 13032 / DSM 20300 / JCM 1318 
+/ LMG 3730 / NCIMB 10025) OX=196627 GN=Cgl2188 PE=3 SV=1
+Length=209
+
+ Score = 63.9 bits (154),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 40/92 (43%), Positives = 52/92 (57%), Gaps = 3/92 (3%)
+
+Query  3    GAAIVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKISV  62
+            G AIV  A   IG+PY WG   P+ FDCSG T + Y QV G+ I   +  Q + GT ++ 
+Sbjct  98   GQAIVDAARTKIGSPYGWGATGPNAFDCSGLTSWAYSQV-GKSIPRTSQAQAAQGTPVAY  156
+
+Query  63   SQAKAGDLLFWGSPGGTYHVAIALGGGQYIHA  94
+            S  +AGD++ + S  G  HV I  G G  IHA
+Sbjct  157  SDLQAGDIVAFYS--GATHVGIYSGHGTVIHA  186
+
+
+> sp|A4QFQ3|Y2070_CORGB Probable endopeptidase cgR_2070 OS=Corynebacterium 
+glutamicum (strain R) OX=340322 GN=cgR_2070 PE=1 
+SV=1
+Length=211
+
+ Score = 63.9 bits (154),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 40/92 (43%), Positives = 52/92 (57%), Gaps = 3/92 (3%)
+
+Query  3    GAAIVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKISV  62
+            G AIV  A   IG+PY WG   P+ FDCSG T + Y QV G+ I   +  Q + GT ++ 
+Sbjct  100  GQAIVDAARTKIGSPYGWGATGPNAFDCSGLTSWAYSQV-GKSIPRTSQAQAAQGTPVAY  158
+
+Query  63   SQAKAGDLLFWGSPGGTYHVAIALGGGQYIHA  94
+            S  +AGD++ + S  G  HV I  G G  IHA
+Sbjct  159  SDLQAGDIVAFYS--GATHVGIYSGHGTVIHA  188
+
+
+> sp|P96740|PGDS_BACSU Gamma-DL-glutamyl hydrolase OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=pgdS PE=1 SV=2
+Length=413
+
+ Score = 64.7 bits (156),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 41/111 (37%), Positives = 62/111 (56%), Gaps = 7/111 (6%)
+
+Query  6    IVAEAYKYIGTPYVWGGKDPS-GFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKISVSQ  64
+            +V EA KYIG PYV+GG  PS GFDCSG  +YV+ Q  G  +      Q + G K++   
+Sbjct  169  VVQEAEKYIGVPYVFGGSTPSEGFDCSGLVQYVFQQALGIYLPRSAEQQWAVGEKVAPQN  228
+
+Query  65   AKAGDLLFWGS--PGGTYHVAIALGGGQYIHAPQPGESVKVGSVQWFAPDF  113
+             K GD++++ +    G  H  I  G G++I A +   S KV ++ + + D+
+Sbjct  229  IKPGDVVYFSNTYKTGISHAGIYAGAGRFIQASR---SEKV-TISYLSEDY  275
+
+
+ Score = 60.1 bits (144),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 36/90 (40%), Positives = 54/90 (60%), Gaps = 4/90 (4%)
+
+Query  6    IVAEAYKYIG-TPYVWGGKDP-SGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKISVS  63
+            IV+EA  Y+G  PY  GG  P +GFD +GF +YVY +  G  +  +   Q +AGTKI  +
+Sbjct  297  IVSEATLYVGEVPYKQGGVTPETGFDTAGFVQYVYQKAAGISLPRYATSQYNAGTKIEKA  356
+
+Query  64   QAKAGDLLFWGSPGGTYHVAIALGGGQYIH  93
+              K GD++F+ S   + + +I +G GQ +H
+Sbjct  357  DLKPGDIVFFQST--SLNPSIYIGNGQVVH  384
+
+
+ Score = 49.7 bits (117),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 34/99 (34%), Positives = 49/99 (49%), Gaps = 12/99 (12%)
+
+Query  6    IVAEAYKYIGTPYVWGGKDP-SGFDCSGFTRYVYLQV---TGRDIGGWTVPQESAGTKIS  61
+            IV+EA   +G  Y +GG+ P  GFD SG  +YV+ +      R +      Q   GT + 
+Sbjct  39   IVSEAKNLLGYQYKYGGETPKEGFDPSGLIQYVFSKADIHLPRSVND----QYKIGTAVK  94
+
+Query  62   VSQAKAGDLLFWGSPGGT----YHVAIALGGGQYIHAPQ  96
+                K GD+LF+   G T     H A+ +G GQ +H+ Q
+Sbjct  95   PENLKPGDILFFKKEGSTGTVPTHDALYIGDGQMVHSTQ  133
+
+
+> sp|P45296|NLPC_HAEIN Probable endopeptidase NlpC homolog OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 
+/ Rd) OX=71421 GN=nlpC PE=3 SV=1
+Length=183
+
+ Score = 62.4 bits (150),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 35/105 (33%), Positives = 55/105 (52%), Gaps = 5/105 (5%)
+
+Query  3    GAAIVAEAY-KYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKIS  61
+            G   +A  Y +++GT Y  GG    G DCS F +  + +V G ++   T  Q   G KI+
+Sbjct  67   GDKALASVYNEWVGTRYRMGGTTKRGIDCSAFMQTTFSEVFGIELPRSTAEQRHLGRKIN  126
+
+Query  62   VSQAKAGDLLFWGSPGGTYHVAIALGGGQYIHAPQPGESVKVGSV  106
+             S+ K GDL+F+       HV + +G  Q++HA   G+ V + S+
+Sbjct  127  KSELKKGDLVFFRKNN---HVGVYIGNNQFMHAS-TGQGVTISSL  167
+
+
+> sp|P96645|YDDH_BACSU Probable endopeptidase YddH OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=yddH PE=3 SV=1
+Length=329
+
+ Score = 62.8 bits (151),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 41/106 (39%), Positives = 57/106 (54%), Gaps = 21/106 (20%)
+
+Query  5    AIVAEAYKYIGTPYVWGGKDP-SGFDCSGFTRYVYLQVTGRDIGGWTVP-----QESAGT  58
+             ++ EA KY G PY WGG +P +GFDCSG  ++ + +       G T+P     Q  A  
+Sbjct  211  TVMKEALKYEGQPYAWGGSNPETGFDCSGLVQWSFAK------AGITLPRTAQEQHGATK  264
+
+Query  59   KISVSQAKAGDLLFWGSPGGTY------HVAIALGGGQYIHAPQPG  98
+            KIS  +A AGDL+F+   GGTY      HV I +G G+  ++   G
+Sbjct  265  KISEKEATAGDLVFF---GGTYEGKAITHVGIYVGNGRMFNSNDSG  307
+
+
+> sp|P76190|MEPH_ECOLI Murein DD-endopeptidase MepH OS=Escherichia 
+coli (strain K12) OX=83333 GN=mepH PE=1 SV=1
+Length=271
+
+ Score = 62.0 bits (149),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 36/103 (35%), Positives = 57/103 (55%), Gaps = 15/103 (15%)
+
+Query  14   IGTPYVWGGKDP-SGFDCSGFTRYVYLQVTGRDIGGWTVPQESA-------GTKISVSQA  65
+            IG PY WGG  P +GFDCSG   Y Y     +D+    +P+ +           I  S+ 
+Sbjct  152  IGKPYRWGGSSPRTGFDCSGLVYYAY-----KDLVKIRIPRTANEMYHLRDAAPIERSEL  206
+
+Query  66   KAGDLLFWGSPG-GTY-HVAIALGGGQYIHAPQPGESVKVGSV  106
+            K GDL+F+ + G GT  HV + +G G++I +P+ G+ +++ S+
+Sbjct  207  KNGDLVFFRTQGRGTADHVGVYVGNGKFIQSPRTGQEIQITSL  249
+
+
+> sp|P9WHU5|RIPB_MYCTU Peptidoglycan endopeptidase RipB OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 
+GN=ripB PE=1 SV=1
+Length=241
+
+ Score = 61.2 bits (147),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 43/115 (37%), Positives = 59/115 (51%), Gaps = 15/115 (13%)
+
+Query  6    IVAEAYKYIGTPYVWGG---KDPS----------GFDCSGFTRYVYLQVTGRDIGGWTVP  52
+            ++  A   +G PY WGG   + PS          GFDCSG  RY +  V G  I  ++  
+Sbjct  115  VIRRAGSQMGVPYSWGGGSLQGPSKGVDSGANTVGFDCSGLVRYAFAGV-GVLIPRFSGD  173
+
+Query  53   QESAGTKISVSQAKAGDLLFWGSPGGTYHVAIALGGGQYIHAPQPGESVKVGSVQ  107
+            Q +AG  +  ++AK GDL+F+G PGG  HV + LG GQ + A      V V  V+
+Sbjct  174  QYNAGRHVPPAEAKRGDLIFYG-PGGGQHVTLYLGNGQMLEASGSAGKVTVSPVR  227
+
+
+> sp|P9WHU4|RIPB_MYCTO Peptidoglycan endopeptidase RipB OS=Mycobacterium 
+tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 
+GN=ripB PE=3 SV=1
+Length=241
+
+ Score = 61.2 bits (147),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 43/115 (37%), Positives = 59/115 (51%), Gaps = 15/115 (13%)
+
+Query  6    IVAEAYKYIGTPYVWGG---KDPS----------GFDCSGFTRYVYLQVTGRDIGGWTVP  52
+            ++  A   +G PY WGG   + PS          GFDCSG  RY +  V G  I  ++  
+Sbjct  115  VIRRAGSQMGVPYSWGGGSLQGPSKGVDSGANTVGFDCSGLVRYAFAGV-GVLIPRFSGD  173
+
+Query  53   QESAGTKISVSQAKAGDLLFWGSPGGTYHVAIALGGGQYIHAPQPGESVKVGSVQ  107
+            Q +AG  +  ++AK GDL+F+G PGG  HV + LG GQ + A      V V  V+
+Sbjct  174  QYNAGRHVPPAEAKRGDLIFYG-PGGGQHVTLYLGNGQMLEASGSAGKVTVSPVR  227
+
+
+> sp|Q47151|YAFL_ECOLI Probable endopeptidase YafL OS=Escherichia 
+coli (strain K12) OX=83333 GN=yafL PE=3 SV=1
+Length=249
+
+ Score = 60.8 bits (146),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 32/98 (33%), Positives = 52/98 (53%), Gaps = 5/98 (5%)
+
+Query  14   IGTPYVWGGKDP-SGFDCSGFTRYVYLQVTGRDI--GGWTVPQESAGTKISVSQAKAGDL  70
+            +G PYVWGG  P  GFDCSG   Y Y ++    +      +      T ++ +  + GDL
+Sbjct  130  LGKPYVWGGTRPDKGFDCSGLVFYAYNKILEAKLPRTANEMYHYRRATIVANNDLRRGDL  189
+
+Query  71   LFWG--SPGGTYHVAIALGGGQYIHAPQPGESVKVGSV  106
+            LF+   S     H+ + LG GQ+I +P+ GE++++  +
+Sbjct  190  LFFHIHSREIADHMGVYLGDGQFIESPRTGETIRISRL  227
+
+
+> sp|P54421|LYTE_BACSU Probable peptidoglycan endopeptidase LytE 
+OS=Bacillus subtilis (strain 168) OX=224308 GN=lytE PE=1 SV=1
+Length=334
+
+ Score = 58.5 bits (140),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 38/118 (32%), Positives = 60/118 (51%), Gaps = 12/118 (10%)
+
+Query  1    VNGAAIVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVT--GR--DIGGWTVPQESA  56
+            +N + +V++A   +GTPY WGG   SGFDCSGF  YV  + T  GR    G W+  +   
+Sbjct  218  LNVSKLVSDAKALVGTPYKWGGTTTSGFDCSGFIWYVLNKQTSVGRTSTAGYWSSMK---  274
+
+Query  57   GTKISVSQAKAGDLLFWGS-PGGTYHVAIALGGGQYIHAPQPGESVKVGSVQWFAPDF  113
+                S++    GD +F+ +   G  H+ I +G   +IHA   G  +   +  ++ P +
+Sbjct  275  ----SIASPSVGDFVFFTTYKSGPSHMGIYIGNNSFIHAGSDGVQISSLNNSYWKPRY  328
+
+
+> sp|Q57223|Y1314_HAEIN Probable endopeptidase HI_1314 OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd) 
+OX=71421 GN=HI_1314 PE=3 SV=1
+Length=161
+
+ Score = 56.6 bits (135),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 31/98 (32%), Positives = 49/98 (50%), Gaps = 4/98 (4%)
+
+Query  4    AAIVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKISVS  63
+            A +  + +++ GTPYV GG    G DCSGF +  +       +   TV Q + G  +   
+Sbjct  43   AMLSEQQHEWAGTPYVLGGVSRRGVDCSGFVQKTFFDRFNLRLPRSTVEQANYGKHVRKE  102
+
+Query  64   QAKAGDLLFWGS---PGGTYHVAIALGGGQYIHAPQPG  98
+              + GDL+F+ +   P G YHV I +   +++HA   G
+Sbjct  103  DIQTGDLIFFKTGRGPNG-YHVGIYVKEDKFLHASTRG  139
+
+
+> sp|P0AFV7|MEPS_SHIFL Murein DD-endopeptidase MepS/Murein LD-carboxypeptidase 
+OS=Shigella flexneri OX=623 GN=mepS PE=3 SV=1
+Length=188
+
+ Score = 56.2 bits (134),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 26/80 (33%), Positives = 40/80 (50%), Gaps = 0/80 (0%)
+
+Query  15   GTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKISVSQAKAGDLLFWG  74
+            G  Y  GG    G DCSGF +  + +  G ++   T  Q+  G  +S S  + GDL+ + 
+Sbjct  79   GVRYRLGGSTKKGIDCSGFVQRTFREQFGLELPRSTYEQQEMGKSVSRSNLRTGDLVLFR  138
+
+Query  75   SPGGTYHVAIALGGGQYIHA  94
+            +     HV I +G  Q++HA
+Sbjct  139  AGSTGRHVGIYIGNNQFVHA  158
+
+
+> sp|P0AFV4|MEPS_ECOLI Murein DD-endopeptidase MepS/Murein LD-carboxypeptidase 
+OS=Escherichia coli (strain K12) OX=83333 GN=mepS 
+PE=1 SV=1
+Length=188
+
+ Score = 56.2 bits (134),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 26/80 (33%), Positives = 40/80 (50%), Gaps = 0/80 (0%)
+
+Query  15   GTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKISVSQAKAGDLLFWG  74
+            G  Y  GG    G DCSGF +  + +  G ++   T  Q+  G  +S S  + GDL+ + 
+Sbjct  79   GVRYRLGGSTKKGIDCSGFVQRTFREQFGLELPRSTYEQQEMGKSVSRSNLRTGDLVLFR  138
+
+Query  75   SPGGTYHVAIALGGGQYIHA  94
+            +     HV I +G  Q++HA
+Sbjct  139  AGSTGRHVGIYIGNNQFVHA  158
+
+
+> sp|P0AFV5|MEPS_ECOL6 Murein DD-endopeptidase MepS/Murein LD-carboxypeptidase 
+OS=Escherichia coli O6:H1 (strain CFT073 / ATCC 
+700928 / UPEC) OX=199310 GN=mepS PE=3 SV=1
+Length=188
+
+ Score = 56.2 bits (134),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 26/80 (33%), Positives = 40/80 (50%), Gaps = 0/80 (0%)
+
+Query  15   GTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKISVSQAKAGDLLFWG  74
+            G  Y  GG    G DCSGF +  + +  G ++   T  Q+  G  +S S  + GDL+ + 
+Sbjct  79   GVRYRLGGSTKKGIDCSGFVQRTFREQFGLELPRSTYEQQEMGKSVSRSNLRTGDLVLFR  138
+
+Query  75   SPGGTYHVAIALGGGQYIHA  94
+            +     HV I +G  Q++HA
+Sbjct  139  AGSTGRHVGIYIGNNQFVHA  158
+
+
+> sp|P0AFV6|MEPS_ECO57 Murein DD-endopeptidase MepS/Murein LD-carboxypeptidase 
+OS=Escherichia coli O157:H7 OX=83334 GN=mepS 
+PE=3 SV=1
+Length=188
+
+ Score = 56.2 bits (134),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 26/80 (33%), Positives = 40/80 (50%), Gaps = 0/80 (0%)
+
+Query  15   GTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKISVSQAKAGDLLFWG  74
+            G  Y  GG    G DCSGF +  + +  G ++   T  Q+  G  +S S  + GDL+ + 
+Sbjct  79   GVRYRLGGSTKKGIDCSGFVQRTFREQFGLELPRSTYEQQEMGKSVSRSNLRTGDLVLFR  138
+
+Query  75   SPGGTYHVAIALGGGQYIHA  94
+            +     HV I +G  Q++HA
+Sbjct  139  AGSTGRHVGIYIGNNQFVHA  158
+
+
+> sp|P67474|Y2213_MYCBO Probable endopeptidase Mb2213c OS=Mycobacterium 
+bovis (strain ATCC BAA-935 / AF2122/97) OX=233413 GN=BQ2027_MB2213C 
+PE=3 SV=1
+Length=385
+
+ Score = 52.8 bits (125),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 34/107 (32%), Positives = 50/107 (47%), Gaps = 13/107 (12%)
+
+Query  2    NGAAIVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESA-----  56
+            +  A+V  A   +G PY WGG  P GFDCSG   + + Q       G  +P  S      
+Sbjct  272  DRTAVVQAALTQVGAPYAWGGAAPGGFDCSGLVMWAFQQ------AGIALPHSSQALAHG  325
+
+Query  57   GTKISVSQAKAGDLLFWGSPGGTYHVAIALGGGQYIHAPQPGESVKV  103
+            G  +++S  + GD+L + S     H  I +G G  +H+   G  V+V
+Sbjct  326  GQPVALSDLQPGDVLTFYSDAS--HAGIYIGDGLMVHSSTYGVPVRV  370
+
+
+> sp|P9WHU3|Y2190_MYCTU Probable endopeptidase Rv2190c OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=Rv2190c 
+PE=3 SV=1
+Length=385
+
+ Score = 52.8 bits (125),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 34/107 (32%), Positives = 50/107 (47%), Gaps = 13/107 (12%)
+
+Query  2    NGAAIVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESA-----  56
+            +  A+V  A   +G PY WGG  P GFDCSG   + + Q       G  +P  S      
+Sbjct  272  DRTAVVQAALTQVGAPYAWGGAAPGGFDCSGLVMWAFQQ------AGIALPHSSQALAHG  325
+
+Query  57   GTKISVSQAKAGDLLFWGSPGGTYHVAIALGGGQYIHAPQPGESVKV  103
+            G  +++S  + GD+L + S     H  I +G G  +H+   G  V+V
+Sbjct  326  GQPVALSDLQPGDVLTFYSDAS--HAGIYIGDGLMVHSSTYGVPVRV  370
+
+
+> sp|P9WHU2|Y2190_MYCTO Probable endopeptidase MT2245 OS=Mycobacterium 
+tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 GN=MT2245 
+PE=3 SV=1
+Length=385
+
+ Score = 52.8 bits (125),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 34/107 (32%), Positives = 50/107 (47%), Gaps = 13/107 (12%)
+
+Query  2    NGAAIVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESA-----  56
+            +  A+V  A   +G PY WGG  P GFDCSG   + + Q       G  +P  S      
+Sbjct  272  DRTAVVQAALTQVGAPYAWGGAAPGGFDCSGLVMWAFQQ------AGIALPHSSQALAHG  325
+
+Query  57   GTKISVSQAKAGDLLFWGSPGGTYHVAIALGGGQYIHAPQPGESVKV  103
+            G  +++S  + GD+L + S     H  I +G G  +H+   G  V+V
+Sbjct  326  GQPVALSDLQPGDVLTFYSDAS--HAGIYIGDGLMVHSSTYGVPVRV  370
+
+
+> sp|P23898|NLPC_ECOLI Probable endopeptidase NlpC OS=Escherichia 
+coli (strain K12) OX=83333 GN=nlpC PE=3 SV=1
+Length=154
+
+ Score = 50.8 bits (120),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 36/98 (37%), Positives = 48/98 (49%), Gaps = 12/98 (12%)
+
+Query  4    AAIVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQE-----SAGT  58
+            A +  +   + GTPY +GG    G DCSGF     + VT RD     +P+E     S GT
+Sbjct  36   AGLNDQLQSWHGTPYRYGGMTRRGVDCSGF-----VVVTMRDRFDLQLPRETKQQASIGT  90
+
+Query  59   KISVSQAKAGDLLFW--GSPGGTYHVAIALGGGQYIHA  94
+            +I   +   GDL+F+  GS     HV I     Q+IHA
+Sbjct  91   QIDKDELLPGDLVFFKTGSGQNGLHVGIYDTNNQFIHA  128
+
+
+> sp|Q65NQ9|CWLO_BACLD Peptidoglycan DL-endopeptidase CwlO OS=Bacillus 
+licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 
+/ NBRC 12200 / NCIMB 9375 / NRRL NRS-1264 / Gibson 46) OX=279010 
+GN=cwlO PE=3 SV=1
+Length=452
+
+ Score = 50.1 bits (118),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 33/99 (33%), Positives = 47/99 (47%), Gaps = 15/99 (15%)
+
+Query  3    GAAIVAEAYKYIGTPYVWGGK------DPSGFDCSGFTRYVYLQVTGRDIG--GWTVPQE  54
+            G++IV        +PY WGG       D   FDCS F R+ Y    G ++G    T    
+Sbjct  331  GSSIVGR------SPYKWGGGRSQADIDNRRFDCSSFVRWAYAS-AGVELGFGATTSTLV  383
+
+Query  55   SAGTKISVSQAKAGDLLFWGSPGGTYHVAIALGGGQYIH  93
+              G  +S S+ K GDL+F+ +     HV I LG G +++
+Sbjct  384  GKGRAVSASEMKRGDLVFFDTYKTNGHVGIYLGNGTFLN  422
+
+
+> sp|P40767|CWLO_BACSU Peptidoglycan DL-endopeptidase CwlO OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=cwlO PE=1 SV=2
+Length=473
+
+ Score = 45.4 bits (106),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 32/100 (32%), Positives = 47/100 (47%), Gaps = 15/100 (15%)
+
+Query  3    GAAIVAEAYKYIGTPYVWGGKDPSG------FDCSGFTRYVYLQ--VTGRDIGGWTVPQ-  53
+            G++IV +      +PY +GG           FDCS F R+ Y    V    +GG T    
+Sbjct  350  GSSIVGQ------SPYKFGGGRTQSDINNRIFDCSSFVRWAYASAGVNLGPVGGTTTDTL  403
+
+Query  54   ESAGTKISVSQAKAGDLLFWGSPGGTYHVAIALGGGQYIH  93
+               G  +S S+ K GDL+F+ +     HV I LG G +++
+Sbjct  404  VGRGQAVSASEMKRGDLVFFDTYKTNGHVGIYLGNGTFLN  443
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.137    0.445    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4957987072
+Results from round 2
+
+
+Query= 6B8C:A
+
+Length=117
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P13692|P54_ENTFC Protein P54 OS=Enterococcus faecium OX=1352...  189     4e-58
+  sp|Q01836|P60_LISIN Probable endopeptidase p60 OS=Listeria inno...  144     3e-41
+  sp|P21171|P60_LISMO Probable endopeptidase p60 OS=Listeria mono...  140     2e-39
+  sp|Q01837|P60_LISIV Probable endopeptidase p60 OS=Listeria ivan...  140     3e-39
+  sp|Q01838|P60_LISSE Probable endopeptidase p60 OS=Listeria seel...  140     3e-39
+  sp|P45296|NLPC_HAEIN Probable endopeptidase NlpC homolog OS=Hae...  130     1e-38
+  sp|Q01835|P60_LISGR Probable endopeptidase p60 OS=Listeria gray...  137     4e-38
+  sp|P0AFV7|MEPS_SHIFL Murein DD-endopeptidase MepS/Murein LD-car...  127     4e-37
+  sp|P0AFV4|MEPS_ECOLI Murein DD-endopeptidase MepS/Murein LD-car...  127     4e-37
+  sp|P0AFV5|MEPS_ECOL6 Murein DD-endopeptidase MepS/Murein LD-car...  127     4e-37
+  sp|P0AFV6|MEPS_ECO57 Murein DD-endopeptidase MepS/Murein LD-car...  127     4e-37
+  sp|Q01839|P60_LISWE Probable endopeptidase p60 OS=Listeria wels...  132     2e-36
+  sp|P76190|MEPH_ECOLI Murein DD-endopeptidase MepH OS=Escherichi...  126     7e-36
+  sp|O35010|YKFC_BACSU Gamma-D-glutamyl-L-lysine dipeptidyl-pepti...  125     3e-35
+  sp|Q47151|YAFL_ECOLI Probable endopeptidase YafL OS=Escherichia...  123     4e-35
+  sp|O07532|LYTF_BACSU Peptidoglycan endopeptidase LytF OS=Bacill...  127     8e-35
+  sp|Q736M3|YKFC_BACC1 Gamma-D-glutamyl-L-lysine dipeptidyl-pepti...  123     2e-34
+  sp|P67474|Y2213_MYCBO Probable endopeptidase Mb2213c OS=Mycobac...  124     3e-34
+  sp|P9WHU3|Y2190_MYCTU Probable endopeptidase Rv2190c OS=Mycobac...  124     3e-34
+  sp|P9WHU2|Y2190_MYCTO Probable endopeptidase MT2245 OS=Mycobact...  124     3e-34
+  sp|P54421|LYTE_BACSU Probable peptidoglycan endopeptidase LytE ...  122     8e-34
+  sp|O31852|CWLS_BACSU D-gamma-glutamyl-meso-diaminopimelic acid ...  123     1e-33
+  sp|O53168|RIPA_MYCTU Peptidoglycan endopeptidase RipA OS=Mycoba...  123     2e-33
+  sp|P23898|NLPC_ECOLI Probable endopeptidase NlpC OS=Escherichia...  116     3e-33
+  sp|Q57223|Y1314_HAEIN Probable endopeptidase HI_1314 OS=Haemoph...  116     4e-33
+  sp|P96740|PGDS_BACSU Gamma-DL-glutamyl hydrolase OS=Bacillus su...  120     1e-32
+  sp|P96645|YDDH_BACSU Probable endopeptidase YddH OS=Bacillus su...  117     6e-32
+  sp|A0QX22|RIPA_MYCS2 Peptidoglycan endopeptidase RipA OS=Mycoli...  118     2e-31
+  sp|P9WHU5|RIPB_MYCTU Peptidoglycan endopeptidase RipB OS=Mycoba...  112     1e-30
+  sp|P9WHU4|RIPB_MYCTO Peptidoglycan endopeptidase RipB OS=Mycoba...  112     1e-30
+  sp|Q8NNK6|Y2188_CORGL Probable endopeptidase Cgl2188 OS=Coryneb...  110     4e-30
+  sp|A4QFQ3|Y2070_CORGB Probable endopeptidase cgR_2070 OS=Coryne...  110     4e-30
+  sp|P39043|DPP6_LYSSH Dipeptidyl-peptidase 6 OS=Lysinibacillus s...  109     2e-29
+  sp|Q65NQ9|CWLO_BACLD Peptidoglycan DL-endopeptidase CwlO OS=Bac...  111     8e-29
+  sp|P40767|CWLO_BACSU Peptidoglycan DL-endopeptidase CwlO OS=Bac...  106     7e-27
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P37056|YAEF_ECOLI Probable lipoprotein peptidase YaeF OS=Esc...  38.9    0.003
+
+
+> sp|P13692|P54_ENTFC Protein P54 OS=Enterococcus faecium OX=1352 
+PE=3 SV=2
+Length=516
+
+ Score = 189 bits (481),  Expect = 4e-58, Method: Composition-based stats.
+ Identities = 112/117 (96%), Positives = 115/117 (98%), Gaps = 0/117 (0%)
+
+Query  1    VNGAAIVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKI  60
+            VNGAAIVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKI
+Sbjct  400  VNGAAIVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKI  459
+
+Query  61   SVSQAKAGDLLFWGSPGGTYHVAIALGGGQYIHAPQPGESVKVGSVQWFAPDFAVSM  117
+            SVSQAKAGDLLFWGS GGTYHVAI+LGGGQYIHAPQPGE+VKVGSVQW+ PDFAVSM
+Sbjct  460  SVSQAKAGDLLFWGSAGGTYHVAISLGGGQYIHAPQPGENVKVGSVQWYTPDFAVSM  516
+
+
+> sp|Q01836|P60_LISIN Probable endopeptidase p60 OS=Listeria innocua 
+serovar 6a (strain ATCC BAA-680 / CLIP 11262) OX=272626 
+GN=iap PE=3 SV=2
+Length=467
+
+ Score = 144 bits (364),  Expect = 3e-41, Method: Composition-based stats.
+ Identities = 43/99 (43%), Positives = 63/99 (64%), Gaps = 1/99 (1%)
+
+Query  2    NGAAIVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKIS  61
+            + +A++AEA K++G  Y WGG  P+ FDCSGFT+YV+ + +G  +   +  Q ++ T+IS
+Sbjct  351  SASALIAEAQKHLGKAYSWGGNGPTTFDCSGFTKYVFAK-SGISLPRTSGAQYASTTRIS  409
+
+Query  62   VSQAKAGDLLFWGSPGGTYHVAIALGGGQYIHAPQPGES  100
+             SQAK GDL+F+    G  HV I +G GQ I+A   G  
+Sbjct  410  ESQAKPGDLVFFDYGSGISHVGIYVGNGQMINAQDNGVK  448
+
+
+> sp|P21171|P60_LISMO Probable endopeptidase p60 OS=Listeria monocytogenes 
+serovar 1/2a (strain ATCC BAA-679 / EGD-e) OX=169963 
+GN=iap PE=1 SV=2
+Length=484
+
+ Score = 140 bits (352),  Expect = 2e-39, Method: Composition-based stats.
+ Identities = 42/95 (44%), Positives = 59/95 (62%), Gaps = 1/95 (1%)
+
+Query  6    IVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKISVSQA  65
+            I+AEA K++G  Y WGG  P+ FDCSG+T+YV+ +  G  +   +  Q ++ T+IS SQA
+Sbjct  372  IIAEAQKHLGKAYSWGGNGPTTFDCSGYTKYVFAKA-GISLPRTSGAQYASTTRISESQA  430
+
+Query  66   KAGDLLFWGSPGGTYHVAIALGGGQYIHAPQPGES  100
+            K GDL+F+    G  HV I +G GQ I+A   G  
+Sbjct  431  KPGDLVFFDYGSGISHVGIYVGNGQMINAQDNGVK  465
+
+
+> sp|Q01837|P60_LISIV Probable endopeptidase p60 OS=Listeria ivanovii 
+OX=1638 GN=iap PE=3 SV=1
+Length=524
+
+ Score = 140 bits (352),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 43/95 (45%), Positives = 60/95 (63%), Gaps = 1/95 (1%)
+
+Query  6    IVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKISVSQA  65
+            ++AEA K++G  Y WGG  P+ FDCSGFT+YV+ + +G  +   +  Q ++ TKIS SQA
+Sbjct  412  LIAEAQKHLGKAYSWGGNGPTTFDCSGFTKYVFAK-SGVTLPRTSGAQYASSTKISESQA  470
+
+Query  66   KAGDLLFWGSPGGTYHVAIALGGGQYIHAPQPGES  100
+            K GDL+F+    G  HV I +G GQ I+A   G  
+Sbjct  471  KPGDLVFFDYGNGIAHVGIYVGNGQMINAQDNGVK  505
+
+
+> sp|Q01838|P60_LISSE Probable endopeptidase p60 OS=Listeria seeligeri 
+OX=1640 GN=iap PE=3 SV=1
+Length=523
+
+ Score = 140 bits (352),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 43/96 (45%), Positives = 60/96 (63%), Gaps = 1/96 (1%)
+
+Query  5    AIVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKISVSQ  64
+            AI+AEA K++G  Y WGG  P+ FDCSGFT YV+ Q +G  +   +  Q ++ TK+S S+
+Sbjct  410  AIIAEAQKHLGKAYSWGGNGPTTFDCSGFTSYVFAQ-SGITLPRTSGAQYASTTKVSESE  468
+
+Query  65   AKAGDLLFWGSPGGTYHVAIALGGGQYIHAPQPGES  100
+            A+ GDL+F+    G  HV I +G GQ I+A   G  
+Sbjct  469  AQPGDLVFFDYGSGIAHVGIYVGNGQMINAQDNGVK  504
+
+
+> sp|P45296|NLPC_HAEIN Probable endopeptidase NlpC homolog OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 
+/ Rd) OX=71421 GN=nlpC PE=3 SV=1
+Length=183
+
+ Score = 130 bits (327),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 37/119 (31%), Positives = 61/119 (51%), Gaps = 7/119 (6%)
+
+Query  1    VNGAAIVAEAY-KYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTK  59
+            + G   +A  Y +++GT Y  GG    G DCS F +  + +V G ++   T  Q   G K
+Sbjct  65   LMGDKALASVYNEWVGTRYRMGGTTKRGIDCSAFMQTTFSEVFGIELPRSTAEQRHLGRK  124
+
+Query  60   ISVSQAKAGDLLFWGSPGGTYHVAIALGGGQYIHAPQPGESVKVGSVQ--WFAPDFAVS  116
+            I+ S+ K GDL+F+       HV + +G  Q++HA   G+ V + S+   ++A  +  S
+Sbjct  125  INKSELKKGDLVFFRKNN---HVGVYIGNNQFMHAS-TGQGVTISSLDEKYWARTYTQS  179
+
+
+> sp|Q01835|P60_LISGR Probable endopeptidase p60 OS=Listeria grayi 
+OX=1641 GN=iap PE=3 SV=1
+Length=511
+
+ Score = 137 bits (344),  Expect = 4e-38, Method: Composition-based stats.
+ Identities = 48/96 (50%), Positives = 61/96 (64%), Gaps = 1/96 (1%)
+
+Query  6    IVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKISVSQA  65
+            + AEA K++G PY WG + PS FDCSGFT YV+ QV G  + G +  Q +  TKIS SQA
+Sbjct  399  LYAEAKKHLGKPYTWGARGPSTFDCSGFTSYVFNQV-GLSLSGNSATQYANSTKISESQA  457
+
+Query  66   KAGDLLFWGSPGGTYHVAIALGGGQYIHAPQPGESV  101
+            + GDL+F+    G  HV I +GGGQ I A   G S+
+Sbjct  458  QPGDLVFFNYGSGIAHVGIYIGGGQMIDAQDNGVSI  493
+
+
+> sp|P0AFV7|MEPS_SHIFL Murein DD-endopeptidase MepS/Murein LD-carboxypeptidase 
+OS=Shigella flexneri OX=623 GN=mepS PE=3 SV=1
+Length=188
+
+ Score = 127 bits (318),  Expect = 4e-37, Method: Composition-based stats.
+ Identities = 28/111 (25%), Positives = 51/111 (46%), Gaps = 1/111 (1%)
+
+Query  4    AAIVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKISVS  63
+            + I+ +   + G  Y  GG    G DCSGF +  + +  G ++   T  Q+  G  +S S
+Sbjct  68   SRIMDQYADWKGVRYRLGGSTKKGIDCSGFVQRTFREQFGLELPRSTYEQQEMGKSVSRS  127
+
+Query  64   QAKAGDLLFWGSPGGTYHVAIALGGGQYIHAPQ-PGESVKVGSVQWFAPDF  113
+              + GDL+ + +     HV I +G  Q++HA    G  +   +  ++   +
+Sbjct  128  NLRTGDLVLFRAGSTGRHVGIYIGNNQFVHASTSSGVIISSMNEPYWKKRY  178
+
+
+> sp|P0AFV4|MEPS_ECOLI Murein DD-endopeptidase MepS/Murein LD-carboxypeptidase 
+OS=Escherichia coli (strain K12) OX=83333 GN=mepS 
+PE=1 SV=1
+Length=188
+
+ Score = 127 bits (318),  Expect = 4e-37, Method: Composition-based stats.
+ Identities = 28/111 (25%), Positives = 51/111 (46%), Gaps = 1/111 (1%)
+
+Query  4    AAIVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKISVS  63
+            + I+ +   + G  Y  GG    G DCSGF +  + +  G ++   T  Q+  G  +S S
+Sbjct  68   SRIMDQYADWKGVRYRLGGSTKKGIDCSGFVQRTFREQFGLELPRSTYEQQEMGKSVSRS  127
+
+Query  64   QAKAGDLLFWGSPGGTYHVAIALGGGQYIHAPQ-PGESVKVGSVQWFAPDF  113
+              + GDL+ + +     HV I +G  Q++HA    G  +   +  ++   +
+Sbjct  128  NLRTGDLVLFRAGSTGRHVGIYIGNNQFVHASTSSGVIISSMNEPYWKKRY  178
+
+
+> sp|P0AFV5|MEPS_ECOL6 Murein DD-endopeptidase MepS/Murein LD-carboxypeptidase 
+OS=Escherichia coli O6:H1 (strain CFT073 / ATCC 
+700928 / UPEC) OX=199310 GN=mepS PE=3 SV=1
+Length=188
+
+ Score = 127 bits (318),  Expect = 4e-37, Method: Composition-based stats.
+ Identities = 28/111 (25%), Positives = 51/111 (46%), Gaps = 1/111 (1%)
+
+Query  4    AAIVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKISVS  63
+            + I+ +   + G  Y  GG    G DCSGF +  + +  G ++   T  Q+  G  +S S
+Sbjct  68   SRIMDQYADWKGVRYRLGGSTKKGIDCSGFVQRTFREQFGLELPRSTYEQQEMGKSVSRS  127
+
+Query  64   QAKAGDLLFWGSPGGTYHVAIALGGGQYIHAPQ-PGESVKVGSVQWFAPDF  113
+              + GDL+ + +     HV I +G  Q++HA    G  +   +  ++   +
+Sbjct  128  NLRTGDLVLFRAGSTGRHVGIYIGNNQFVHASTSSGVIISSMNEPYWKKRY  178
+
+
+> sp|P0AFV6|MEPS_ECO57 Murein DD-endopeptidase MepS/Murein LD-carboxypeptidase 
+OS=Escherichia coli O157:H7 OX=83334 GN=mepS 
+PE=3 SV=1
+Length=188
+
+ Score = 127 bits (318),  Expect = 4e-37, Method: Composition-based stats.
+ Identities = 28/111 (25%), Positives = 51/111 (46%), Gaps = 1/111 (1%)
+
+Query  4    AAIVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKISVS  63
+            + I+ +   + G  Y  GG    G DCSGF +  + +  G ++   T  Q+  G  +S S
+Sbjct  68   SRIMDQYADWKGVRYRLGGSTKKGIDCSGFVQRTFREQFGLELPRSTYEQQEMGKSVSRS  127
+
+Query  64   QAKAGDLLFWGSPGGTYHVAIALGGGQYIHAPQ-PGESVKVGSVQWFAPDF  113
+              + GDL+ + +     HV I +G  Q++HA    G  +   +  ++   +
+Sbjct  128  NLRTGDLVLFRAGSTGRHVGIYIGNNQFVHASTSSGVIISSMNEPYWKKRY  178
+
+
+> sp|Q01839|P60_LISWE Probable endopeptidase p60 OS=Listeria welshimeri 
+OX=1643 GN=iap PE=3 SV=1
+Length=524
+
+ Score = 132 bits (333),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 38/90 (42%), Positives = 54/90 (60%), Gaps = 1/90 (1%)
+
+Query  11   YKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKISVSQAKAGDL  70
+             K++G  Y WGG  P+ FDCSGFT YV+ + +G  +   +  Q ++ ++IS SQAK GDL
+Sbjct  417  QKHLGKAYSWGGNGPTTFDCSGFTSYVFAK-SGISLPRTSGAQYASTSRISESQAKPGDL  475
+
+Query  71   LFWGSPGGTYHVAIALGGGQYIHAPQPGES  100
+            +F+    G  HV I +G GQ I+A   G  
+Sbjct  476  VFFDYGSGIAHVGIYVGNGQMINAQDNGVK  505
+
+
+> sp|P76190|MEPH_ECOLI Murein DD-endopeptidase MepH OS=Escherichia 
+coli (strain K12) OX=83333 GN=mepH PE=1 SV=1
+Length=271
+
+ Score = 126 bits (316),  Expect = 7e-36, Method: Composition-based stats.
+ Identities = 33/114 (29%), Positives = 56/114 (49%), Gaps = 7/114 (6%)
+
+Query  7    VAEAYKYIGTPYVWGGKDPS-GFDCSGFTRYVYLQVTGRDIGGWT--VPQESAGTKISVS  63
+            + +  + IG PY WGG  P  GFDCSG   Y Y  +    I      +        I  S
+Sbjct  145  MNKLMQQIGKPYRWGGSSPRTGFDCSGLVYYAYKDLVKIRIPRTANEMYHLRDAAPIERS  204
+
+Query  64   QAKAGDLLFWGS--PGGTYHVAIALGGGQYIHAPQPGESVKVGSVQ--WFAPDF  113
+            + K GDL+F+ +   G   HV + +G G++I +P+ G+ +++ S+   ++   +
+Sbjct  205  ELKNGDLVFFRTQGRGTADHVGVYVGNGKFIQSPRTGQEIQITSLSEDYWQRHY  258
+
+
+> sp|O35010|YKFC_BACSU Gamma-D-glutamyl-L-lysine dipeptidyl-peptidase 
+OS=Bacillus subtilis (strain 168) OX=224308 GN=ykfC PE=1 
+SV=2
+Length=296
+
+ Score = 125 bits (314),  Expect = 3e-35, Method: Composition-based stats.
+ Identities = 37/106 (35%), Positives = 58/106 (55%), Gaps = 4/106 (4%)
+
+Query  6    IVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKISVSQA  65
+            I+     ++G PY+WGG    GFDCSGF  Y   +  G  I      Q  AG  + +   
+Sbjct  176  IIQTGAFFLGLPYLWGGISGFGFDCSGFM-YSIFKANGYSIPRDAGDQAKAGKGVPLDDM  234
+
+Query  66   KAGDLLFWGS---PGGTYHVAIALGGGQYIHAPQPGESVKVGSVQW  108
+            KAGDLLF+      G  +HV + +GGG+ +H+P+ G+S+++ ++  
+Sbjct  235  KAGDLLFFAYEEGKGAIHHVGLYVGGGKMLHSPKTGKSIEILTLTE  280
+
+
+> sp|Q47151|YAFL_ECOLI Probable endopeptidase YafL OS=Escherichia 
+coli (strain K12) OX=83333 GN=yafL PE=3 SV=1
+Length=249
+
+ Score = 123 bits (310),  Expect = 4e-35, Method: Composition-based stats.
+ Identities = 32/107 (30%), Positives = 54/107 (50%), Gaps = 5/107 (5%)
+
+Query  7    VAEAYKYIGTPYVWGGKDP-SGFDCSGFTRYVYLQVTGRDIGGWT--VPQESAGTKISVS  63
+            +    + +G PYVWGG  P  GFDCSG   Y Y ++    +      +      T ++ +
+Sbjct  123  IHRLEQQLGKPYVWGGTRPDKGFDCSGLVFYAYNKILEAKLPRTANEMYHYRRATIVANN  182
+
+Query  64   QAKAGDLLFWG--SPGGTYHVAIALGGGQYIHAPQPGESVKVGSVQW  108
+              + GDLLF+   S     H+ + LG GQ+I +P+ GE++++  +  
+Sbjct  183  DLRRGDLLFFHIHSREIADHMGVYLGDGQFIESPRTGETIRISRLAE  229
+
+
+> sp|O07532|LYTF_BACSU Peptidoglycan endopeptidase LytF OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=lytF PE=1 SV=2
+Length=488
+
+ Score = 127 bits (320),  Expect = 8e-35, Method: Composition-based stats.
+ Identities = 39/110 (35%), Positives = 56/110 (51%), Gaps = 4/110 (4%)
+
+Query  5    AIVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKISVSQ  64
+             +++ A   +G PY WGG  PSGFDCSGF  YV  +VT   +   T        K SVSQ
+Sbjct  375  TMISAAKAQLGVPYRWGGTTPSGFDCSGFIYYVLNKVT--SVSRLTAAGYWNTMK-SVSQ  431
+
+Query  65   AKAGDLLFWGS-PGGTYHVAIALGGGQYIHAPQPGESVKVGSVQWFAPDF  113
+               GD +F+ +   G  HV I LG G++I+A   G  +   +  ++   +
+Sbjct  432  PAVGDFVFFSTYKAGPSHVGIYLGNGEFINANDSGVVISNMNNSYWKQRY  481
+
+
+> sp|Q736M3|YKFC_BACC1 Gamma-D-glutamyl-L-lysine dipeptidyl-peptidase 
+OS=Bacillus cereus (strain ATCC 10987 / NRS 248) OX=222523 
+GN=ykfC PE=1 SV=1
+Length=333
+
+ Score = 123 bits (310),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 35/114 (31%), Positives = 56/114 (49%), Gaps = 6/114 (5%)
+
+Query  3    GAAIVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKISV  62
+               ++     ++G PY+W G    GFDCSGFT  +Y +  G  I   + PQ   G  +  
+Sbjct  211  ADDLINTGKMFLGLPYIWAGTSGFGFDCSGFTHTIY-KSHGITIPRDSGPQSRNGVAVDK  269
+
+Query  63   SQAKAGDLLFWGS---PGGTYHVAIALGGGQYIHAPQPGESVKVGSVQWFAPDF  113
+               + GDL+F+      G  +HVA+ +G G  IH+P+   SV++  +    P +
+Sbjct  270  EHLQKGDLIFFAHDQGKGSVHHVAMYIGDGNMIHSPRAERSVEIIPLN--TPGY  321
+
+
+> sp|P67474|Y2213_MYCBO Probable endopeptidase Mb2213c OS=Mycobacterium 
+bovis (strain ATCC BAA-935 / AF2122/97) OX=233413 GN=BQ2027_MB2213C 
+PE=3 SV=1
+Length=385
+
+ Score = 124 bits (312),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 33/112 (29%), Positives = 52/112 (46%), Gaps = 3/112 (3%)
+
+Query  2    NGAAIVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKIS  61
+            +  A+V  A   +G PY WGG  P GFDCSG   + + Q  G  +   +      G  ++
+Sbjct  272  DRTAVVQAALTQVGAPYAWGGAAPGGFDCSGLVMWAFQQA-GIALPHSSQALAHGGQPVA  330
+
+Query  62   VSQAKAGDLLFWGSPGGTYHVAIALGGGQYIHAPQPGESVKVGSVQWFAPDF  113
+            +S  + GD+L + S     H  I +G G  +H+   G  V+V  +    P +
+Sbjct  331  LSDLQPGDVLTFYSD--ASHAGIYIGDGLMVHSSTYGVPVRVVPMDSSGPIY  380
+
+
+> sp|P9WHU3|Y2190_MYCTU Probable endopeptidase Rv2190c OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=Rv2190c 
+PE=3 SV=1
+Length=385
+
+ Score = 124 bits (312),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 33/112 (29%), Positives = 52/112 (46%), Gaps = 3/112 (3%)
+
+Query  2    NGAAIVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKIS  61
+            +  A+V  A   +G PY WGG  P GFDCSG   + + Q  G  +   +      G  ++
+Sbjct  272  DRTAVVQAALTQVGAPYAWGGAAPGGFDCSGLVMWAFQQA-GIALPHSSQALAHGGQPVA  330
+
+Query  62   VSQAKAGDLLFWGSPGGTYHVAIALGGGQYIHAPQPGESVKVGSVQWFAPDF  113
+            +S  + GD+L + S     H  I +G G  +H+   G  V+V  +    P +
+Sbjct  331  LSDLQPGDVLTFYSD--ASHAGIYIGDGLMVHSSTYGVPVRVVPMDSSGPIY  380
+
+
+> sp|P9WHU2|Y2190_MYCTO Probable endopeptidase MT2245 OS=Mycobacterium 
+tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 GN=MT2245 
+PE=3 SV=1
+Length=385
+
+ Score = 124 bits (312),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 33/112 (29%), Positives = 52/112 (46%), Gaps = 3/112 (3%)
+
+Query  2    NGAAIVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKIS  61
+            +  A+V  A   +G PY WGG  P GFDCSG   + + Q  G  +   +      G  ++
+Sbjct  272  DRTAVVQAALTQVGAPYAWGGAAPGGFDCSGLVMWAFQQA-GIALPHSSQALAHGGQPVA  330
+
+Query  62   VSQAKAGDLLFWGSPGGTYHVAIALGGGQYIHAPQPGESVKVGSVQWFAPDF  113
+            +S  + GD+L + S     H  I +G G  +H+   G  V+V  +    P +
+Sbjct  331  LSDLQPGDVLTFYSD--ASHAGIYIGDGLMVHSSTYGVPVRVVPMDSSGPIY  380
+
+
+> sp|P54421|LYTE_BACSU Probable peptidoglycan endopeptidase LytE 
+OS=Bacillus subtilis (strain 168) OX=224308 GN=lytE PE=1 SV=1
+Length=334
+
+ Score = 122 bits (306),  Expect = 8e-34, Method: Composition-based stats.
+ Identities = 36/114 (32%), Positives = 59/114 (52%), Gaps = 4/114 (4%)
+
+Query  1    VNGAAIVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKI  60
+            +N + +V++A   +GTPY WGG   SGFDCSGF  YV  + T   +G  +     +  K 
+Sbjct  218  LNVSKLVSDAKALVGTPYKWGGTTTSGFDCSGFIWYVLNKQT--SVGRTSTAGYWSSMK-  274
+
+Query  61   SVSQAKAGDLLFWGS-PGGTYHVAIALGGGQYIHAPQPGESVKVGSVQWFAPDF  113
+            S++    GD +F+ +   G  H+ I +G   +IHA   G  +   +  ++ P +
+Sbjct  275  SIASPSVGDFVFFTTYKSGPSHMGIYIGNNSFIHAGSDGVQISSLNNSYWKPRY  328
+
+
+> sp|O31852|CWLS_BACSU D-gamma-glutamyl-meso-diaminopimelic acid 
+endopeptidase CwlS OS=Bacillus subtilis (strain 168) OX=224308 
+GN=cwlS PE=1 SV=1
+Length=414
+
+ Score = 123 bits (309),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 42/115 (37%), Positives = 58/115 (50%), Gaps = 12/115 (10%)
+
+Query  4    AAIVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRD----IGGWTVPQESAGTK  59
+              ++ EA KY+G PY WGG  P+GFDCSGF  Y+   V+        G W V Q+     
+Sbjct  300  DRMITEAKKYVGVPYRWGGNTPAGFDCSGFIYYLINNVSSISRLSTAGYWNVMQK-----  354
+
+Query  60   ISVSQAKAGDLLFWGS-PGGTYHVAIALGGGQYIHAPQPGESVKVGSVQWFAPDF  113
+              VSQ   GD +F+ +   G  H+ I LGGG +IHA   G  +   S  ++   +
+Sbjct  355  --VSQPSVGDFVFFTTYKSGPSHMGIYLGGGDFIHASSSGVDISNLSNSYWKQRY  407
+
+
+> sp|O53168|RIPA_MYCTU Peptidoglycan endopeptidase RipA OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 
+GN=ripA PE=1 SV=1
+Length=472
+
+ Score = 123 bits (309),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 41/115 (36%), Positives = 56/115 (49%), Gaps = 15/115 (13%)
+
+Query  6    IVAEAYKYIGTPYVWGGK-------------DPSGFDCSGFTRYVYLQVTGRDIGGWTVP  52
+            ++      IG PY WGG                 GFDCSG   Y +  V G  +  ++  
+Sbjct  346  VIRRGMSQIGVPYSWGGGNAAGPSKGIDSGAGTVGFDCSGLVLYSFAGV-GIKLPHYSGS  404
+
+Query  53   QESAGTKISVSQAKAGDLLFWGSPGGTYHVAIALGGGQYIHAPQPGESVKVGSVQ  107
+            Q + G KI  SQ + GD++F+G P G+ HV I LG GQ + AP  G  V+V  V+
+Sbjct  405  QYNLGRKIPSSQMRRGDVIFYG-PNGSQHVTIYLGNGQMLEAPDVGLKVRVAPVR  458
+
+
+> sp|P23898|NLPC_ECOLI Probable endopeptidase NlpC OS=Escherichia 
+coli (strain K12) OX=83333 GN=nlpC PE=3 SV=1
+Length=154
+
+ Score = 116 bits (290),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 33/113 (29%), Positives = 47/113 (42%), Gaps = 3/113 (3%)
+
+Query  4    AAIVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKISVS  63
+            A +  +   + GTPY +GG    G DCSGF            +   T  Q S GT+I   
+Sbjct  36   AGLNDQLQSWHGTPYRYGGMTRRGVDCSGFVVVTMRDRFDLQLPRETKQQASIGTQIDKD  95
+
+Query  64   QAKAGDLLFWGSPGG--TYHVAIALGGGQYIHAPQP-GESVKVGSVQWFAPDF  113
+            +   GDL+F+ +  G    HV I     Q+IHA    G         ++  +F
+Sbjct  96   ELLPGDLVFFKTGSGQNGLHVGIYDTNNQFIHASTSKGVMRSSLDNVYWQKNF  148
+
+
+> sp|Q57223|Y1314_HAEIN Probable endopeptidase HI_1314 OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd) 
+OX=71421 GN=HI_1314 PE=3 SV=1
+Length=161
+
+ Score = 116 bits (290),  Expect = 4e-33, Method: Composition-based stats.
+ Identities = 32/113 (28%), Positives = 54/113 (48%), Gaps = 3/113 (3%)
+
+Query  4    AAIVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKISVS  63
+            A +  + +++ GTPYV GG    G DCSGF +  +       +   TV Q + G  +   
+Sbjct  43   AMLSEQQHEWAGTPYVLGGVSRRGVDCSGFVQKTFFDRFNLRLPRSTVEQANYGKHVRKE  102
+
+Query  64   QAKAGDLLFWGSPGGT--YHVAIALGGGQYIHAPQPGESV-KVGSVQWFAPDF  113
+              + GDL+F+ +  G   YHV I +   +++HA   G  V    +  +++  F
+Sbjct  103  DIQTGDLIFFKTGRGPNGYHVGIYVKEDKFLHASTRGGVVYSSMNNPYWSKAF  155
+
+
+> sp|P96740|PGDS_BACSU Gamma-DL-glutamyl hydrolase OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=pgdS PE=1 SV=2
+Length=413
+
+ Score = 120 bits (302),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 38/111 (34%), Positives = 59/111 (53%), Gaps = 7/111 (6%)
+
+Query  6    IVAEAYKYIGTPYVWGGKDPS-GFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKISVSQ  64
+            +V EA KYIG PYV+GG  PS GFDCSG  +YV+ Q  G  +      Q + G K++   
+Sbjct  169  VVQEAEKYIGVPYVFGGSTPSEGFDCSGLVQYVFQQALGIYLPRSAEQQWAVGEKVAPQN  228
+
+Query  65   AKAGDLLFWG--SPGGTYHVAIALGGGQYIHAPQPGESVKVGSVQWFAPDF  113
+             K GD++++      G  H  I  G G++I A +  +     ++ + + D+
+Sbjct  229  IKPGDVVYFSNTYKTGISHAGIYAGAGRFIQASRSEK----VTISYLSEDY  275
+
+
+ Score = 98.2 bits (243),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 39/116 (34%), Positives = 63/116 (54%), Gaps = 6/116 (5%)
+
+Query  6    IVAEAYKYIG-TPYVWGGKDP-SGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKISVS  63
+            IV+EA  Y+G  PY  GG  P +GFD +GF +YVY +  G  +  +   Q +AGTKI  +
+Sbjct  297  IVSEATLYVGEVPYKQGGVTPETGFDTAGFVQYVYQKAAGISLPRYATSQYNAGTKIEKA  356
+
+Query  64   QAKAGDLLFWGSPGGTYHVAIALGGGQYIHAP-QPGESVK-VGSVQWFAPDFAVSM  117
+              K GD++F+ S       +I +G GQ +H     G ++  + +  ++   +A S+
+Sbjct  357  DLKPGDIVFFQSTSLNP--SIYIGNGQVVHVTLSNGVTITNMNTSTYWKDKYAGSI  410
+
+
+ Score = 87.0 bits (214),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 31/115 (27%), Positives = 52/115 (45%), Gaps = 8/115 (7%)
+
+Query  6    IVAEAYKYIGTPYVWGGKDPS-GFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKISVSQ  64
+            IV+EA   +G  Y +GG+ P  GFD SG  +YV+ +     +      Q   GT +    
+Sbjct  39   IVSEAKNLLGYQYKYGGETPKEGFDPSGLIQYVFSKAD-IHLPRSVNDQYKIGTAVKPEN  97
+
+Query  65   AKAGDLLFW----GSPGGTYHVAIALGGGQYIHAPQPGESV--KVGSVQWFAPDF  113
+             K GD+LF+     +     H A+ +G GQ +H+ Q    +        +++  +
+Sbjct  98   LKPGDILFFKKEGSTGTVPTHDALYIGDGQMVHSTQSKGVIITNYKKSSYWSGTY  152
+
+
+> sp|P96645|YDDH_BACSU Probable endopeptidase YddH OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=yddH PE=3 SV=1
+Length=329
+
+ Score = 117 bits (293),  Expect = 6e-32, Method: Composition-based stats.
+ Identities = 39/116 (34%), Positives = 57/116 (49%), Gaps = 6/116 (5%)
+
+Query  5    AIVAEAYKYIGTPYVWGGKDP-SGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKISVS  63
+             ++ EA KY G PY WGG +P +GFDCSG  ++ + +  G  +      Q  A  KIS  
+Sbjct  211  TVMKEALKYEGQPYAWGGSNPETGFDCSGLVQWSFAKA-GITLPRTAQEQHGATKKISEK  269
+
+Query  64   QAKAGDLLFWGS---PGGTYHVAIALGGGQYIHAPQPGESVKVGSVQWFAPDFAVS  116
+            +A AGDL+F+G         HV I +G G+  ++   G         ++  D  VS
+Sbjct  270  EATAGDLVFFGGTYEGKAITHVGIYVGNGRMFNSNDSGIQYSDLKSGYWR-DHLVS  324
+
+
+> sp|A0QX22|RIPA_MYCS2 Peptidoglycan endopeptidase RipA OS=Mycolicibacterium 
+smegmatis (strain ATCC 700084 / mc(2)155) OX=246196 
+GN=ripA PE=1 SV=1
+Length=497
+
+ Score = 118 bits (297),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 42/115 (37%), Positives = 58/115 (50%), Gaps = 15/115 (13%)
+
+Query  6    IVAEAYKYIGTPYVWGGK-------------DPSGFDCSGFTRYVYLQVTGRDIGGWTVP  52
+            ++      IG PY WGG                 GFDCSG   Y++  V G  +  ++  
+Sbjct  371  VIRRGMSQIGVPYSWGGGNAAGPSRGIDSGAGTVGFDCSGLMLYMFAGV-GIKLDHYSGS  429
+
+Query  53   QESAGTKISVSQAKAGDLLFWGSPGGTYHVAIALGGGQYIHAPQPGESVKVGSVQ  107
+            Q +AG KI  SQ + GD++F+G P  + HVA+ LG GQ + AP  G  VKV  V+
+Sbjct  430  QYNAGRKIPSSQMRRGDMIFYG-PNASQHVAMYLGNGQMLEAPYTGSHVKVSPVR  483
+
+
+> sp|P9WHU5|RIPB_MYCTU Peptidoglycan endopeptidase RipB OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 
+GN=ripB PE=1 SV=1
+Length=241
+
+ Score = 112 bits (279),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 41/115 (36%), Positives = 56/115 (49%), Gaps = 15/115 (13%)
+
+Query  6    IVAEAYKYIGTPYVWGGKD-------------PSGFDCSGFTRYVYLQVTGRDIGGWTVP  52
+            ++  A   +G PY WGG                 GFDCSG  RY +  V G  I  ++  
+Sbjct  115  VIRRAGSQMGVPYSWGGGSLQGPSKGVDSGANTVGFDCSGLVRYAFAGV-GVLIPRFSGD  173
+
+Query  53   QESAGTKISVSQAKAGDLLFWGSPGGTYHVAIALGGGQYIHAPQPGESVKVGSVQ  107
+            Q +AG  +  ++AK GDL+F+G PGG  HV + LG GQ + A      V V  V+
+Sbjct  174  QYNAGRHVPPAEAKRGDLIFYG-PGGGQHVTLYLGNGQMLEASGSAGKVTVSPVR  227
+
+
+> sp|P9WHU4|RIPB_MYCTO Peptidoglycan endopeptidase RipB OS=Mycobacterium 
+tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 
+GN=ripB PE=3 SV=1
+Length=241
+
+ Score = 112 bits (279),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 41/115 (36%), Positives = 56/115 (49%), Gaps = 15/115 (13%)
+
+Query  6    IVAEAYKYIGTPYVWGGKD-------------PSGFDCSGFTRYVYLQVTGRDIGGWTVP  52
+            ++  A   +G PY WGG                 GFDCSG  RY +  V G  I  ++  
+Sbjct  115  VIRRAGSQMGVPYSWGGGSLQGPSKGVDSGANTVGFDCSGLVRYAFAGV-GVLIPRFSGD  173
+
+Query  53   QESAGTKISVSQAKAGDLLFWGSPGGTYHVAIALGGGQYIHAPQPGESVKVGSVQ  107
+            Q +AG  +  ++AK GDL+F+G PGG  HV + LG GQ + A      V V  V+
+Sbjct  174  QYNAGRHVPPAEAKRGDLIFYG-PGGGQHVTLYLGNGQMLEASGSAGKVTVSPVR  227
+
+
+> sp|Q8NNK6|Y2188_CORGL Probable endopeptidase Cgl2188 OS=Corynebacterium 
+glutamicum (strain ATCC 13032 / DSM 20300 / JCM 1318 
+/ LMG 3730 / NCIMB 10025) OX=196627 GN=Cgl2188 PE=3 SV=1
+Length=209
+
+ Score = 110 bits (274),  Expect = 4e-30, Method: Composition-based stats.
+ Identities = 41/108 (38%), Positives = 56/108 (52%), Gaps = 3/108 (3%)
+
+Query  2    NGAAIVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKIS  61
+             G AIV  A   IG+PY WG   P+ FDCSG T + Y QV G+ I   +  Q + GT ++
+Sbjct  97   TGQAIVDAARTKIGSPYGWGATGPNAFDCSGLTSWAYSQV-GKSIPRTSQAQAAQGTPVA  155
+
+Query  62   VSQAKAGDLLFWGSPGGTYHVAIALGGGQYIHAPQPGESVKVGSVQWF  109
+             S  +AGD++ + S  G  HV I  G G  IHA      +   S+ + 
+Sbjct  156  YSDLQAGDIVAFYS--GATHVGIYSGHGTVIHALNSSTPLSEHSLDYM  201
+
+
+> sp|A4QFQ3|Y2070_CORGB Probable endopeptidase cgR_2070 OS=Corynebacterium 
+glutamicum (strain R) OX=340322 GN=cgR_2070 PE=1 
+SV=1
+Length=211
+
+ Score = 110 bits (274),  Expect = 4e-30, Method: Composition-based stats.
+ Identities = 41/108 (38%), Positives = 56/108 (52%), Gaps = 3/108 (3%)
+
+Query  2    NGAAIVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKIS  61
+             G AIV  A   IG+PY WG   P+ FDCSG T + Y QV G+ I   +  Q + GT ++
+Sbjct  99   TGQAIVDAARTKIGSPYGWGATGPNAFDCSGLTSWAYSQV-GKSIPRTSQAQAAQGTPVA  157
+
+Query  62   VSQAKAGDLLFWGSPGGTYHVAIALGGGQYIHAPQPGESVKVGSVQWF  109
+             S  +AGD++ + S  G  HV I  G G  IHA      +   S+ + 
+Sbjct  158  YSDLQAGDIVAFYS--GATHVGIYSGHGTVIHALNSSTPLSEHSLDYM  203
+
+
+> sp|P39043|DPP6_LYSSH Dipeptidyl-peptidase 6 OS=Lysinibacillus 
+sphaericus OX=1421 PE=1 SV=1
+Length=271
+
+ Score = 109 bits (273),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 38/108 (35%), Positives = 51/108 (47%), Gaps = 5/108 (5%)
+
+Query  6    IVAEAYKYIGTPYVWGGKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKISVSQA  65
+            +V  A  YI TPY WGGK P G DCSG     YL           + +     +I++ + 
+Sbjct  154  VVQTALSYIATPYRWGGKSPLGIDCSGLCSMAYLLNGVIIFRDARIVEGFPIKEITIDRM  213
+
+Query  66   KAGDLLFWGSPGGTYHVAIALGGGQYIHAPQPGESVKVGSVQWFAPDF  113
+            + GDLLF+       HVA+ LG   Y+HA   G  V V S+    P +
+Sbjct  214  QKGDLLFF-----PGHVALYLGQTLYVHASLGGNEVNVNSLDEQHPLY  256
+
+
+> sp|Q65NQ9|CWLO_BACLD Peptidoglycan DL-endopeptidase CwlO OS=Bacillus 
+licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 
+/ NBRC 12200 / NCIMB 9375 / NRRL NRS-1264 / Gibson 46) OX=279010 
+GN=cwlO PE=3 SV=1
+Length=452
+
+ Score = 111 bits (277),  Expect = 8e-29, Method: Composition-based stats.
+ Identities = 36/118 (31%), Positives = 51/118 (43%), Gaps = 9/118 (8%)
+
+Query  5    AIVAEAYKYIG-TPYVWGGK------DPSGFDCSGFTRYVYLQV-TGRDIGGWTVPQESA  56
+            A ++     +G +PY WGG       D   FDCS F R+ Y         G  T      
+Sbjct  326  AAISTGSSIVGRSPYKWGGGRSQADIDNRRFDCSSFVRWAYASAGVELGFGATTSTLVGK  385
+
+Query  57   GTKISVSQAKAGDLLFWGSPGGTYHVAIALGGGQYIH-APQPGESVKVGSVQWFAPDF  113
+            G  +S S+ K GDL+F+ +     HV I LG G +++     G SV   S  ++   F
+Sbjct  386  GRAVSASEMKRGDLVFFDTYKTNGHVGIYLGNGTFLNDNSSRGVSVDSMSNPYWKKAF  443
+
+
+> sp|P40767|CWLO_BACSU Peptidoglycan DL-endopeptidase CwlO OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=cwlO PE=1 SV=2
+Length=473
+
+ Score = 106 bits (264),  Expect = 7e-27, Method: Composition-based stats.
+ Identities = 37/121 (31%), Positives = 54/121 (45%), Gaps = 16/121 (13%)
+
+Query  3    GAAIVAEAYKYIGTPYVWGGKDPSG------FDCSGFTRYVYLQ--VTGRDIGGWTVPQ-  53
+            G++IV +      +PY +GG           FDCS F R+ Y    V    +GG T    
+Sbjct  350  GSSIVGQ------SPYKFGGGRTQSDINNRIFDCSSFVRWAYASAGVNLGPVGGTTTDTL  403
+
+Query  54   ESAGTKISVSQAKAGDLLFWGSPGGTYHVAIALGGGQYIHAPQP-GESVKVGSVQWFAPD  112
+               G  +S S+ K GDL+F+ +     HV I LG G +++     G SV   S  ++   
+Sbjct  404  VGRGQAVSASEMKRGDLVFFDTYKTNGHVGIYLGNGTFLNDNTSHGVSVDSMSNPYWKAA  463
+
+Query  113  F  113
+            F
+Sbjct  464  F  464
+
+
+> sp|P37056|YAEF_ECOLI Probable lipoprotein peptidase YaeF OS=Escherichia 
+coli (strain K12) OX=83333 GN=yaeF PE=3 SV=3
+Length=274
+
+ Score = 38.9 bits (89),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 19/86 (22%), Positives = 26/86 (30%), Gaps = 12/86 (14%)
+
+Query  39   LQVTGRDIGGWTVPQESAGTKISVSQAKAGDLLF--------WG----SPGGTYHVAIAL  86
+             +         +   E +  +I+    K GDLLF        +G    S     HVAI L
+Sbjct  39   AKTWAVKFQHQSSFTEQSIKEITAPDLKPGDLLFSSSLGVTSFGIRVFSTSSVSHVAIFL  98
+
+Query  87   GGGQYIHAPQPGESVKVGSVQWFAPD  112
+            G      A   G  +          D
+Sbjct  99   GDNNVAEATGAGVQIVSLKKAMKHSD  124
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.138    0.429    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0423    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4957987072
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 24, 2020  1:45 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
